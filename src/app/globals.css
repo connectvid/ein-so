@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #00493A;
+  --color-secondary: #025B49;
+  --color-accent: #BEF2DF;
+  --color-white: #FBFAFA;
+  --color-black: #222222;
+  --color-beige: #F5F3EF;
+  --color-dark-beige: #DEDCD5;
+  --color-gray: #B3AEAE;
+  --color-error: #C21446;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-offwhite: var(--color-white);
+  --color-dark: var(--color-black);
+  --color-beige: var(--color-beige);
+  --color-dark-beige: var(--color-dark-beige);
+  --color-gray: var(--color-gray);
+  --color-error: var(--color-error);
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-spectral);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+}
+
+.font-serif-accent {
+  font-family: var(--font-spectral), Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
 }
