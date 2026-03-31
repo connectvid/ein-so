@@ -137,7 +137,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-sm font-bold text-[var(--color-amber)] mb-2">Why Non-Residents Cannot Use This Method</p>
               <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                 The IRS online EIN application requires a valid Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) for the responsible party. Most non-US residents do not have either of these. Without one, the application cannot proceed past step 3. If you are a non-resident without an SSN or ITIN, you must use the fax or phone method instead. Read our detailed guide on{" "}
-                <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] font-semibold hover:underline">getting an EIN without an SSN</Link>.
+                <span className="font-semibold">getting an EIN without an SSN</span>.
               </p>
             </div>
 
@@ -166,7 +166,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               <ol className="space-y-4 text-[var(--color-text-muted)] leading-relaxed">
                 <li className="flex gap-3">
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--color-amber)] text-white text-sm font-bold flex items-center justify-center">1</span>
-                  <span><strong className="text-[var(--color-text)]">Download Form SS-4</strong> from the IRS website (irs.gov). The form is a single page with 18 lines. Read our <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] font-semibold hover:underline">complete SS-4 form guide</Link> for line-by-line instructions.</span>
+                  <span><strong className="text-[var(--color-text)]">Download Form SS-4</strong> from the IRS website (irs.gov). The form is a single page with 18 lines. Refer to the IRS instructions for line-by-line guidance.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--color-amber)] text-white text-sm font-bold flex items-center justify-center">2</span>
@@ -191,8 +191,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               The fax method is widely considered the best option for non-residents because it is straightforward, well-documented, and has a predictable processing time. Unlike the phone method, you do not need to navigate long hold times or communicate entirely in English over the phone.
             </p>
             <p className="text-[var(--color-text-muted)] leading-relaxed">
-              The most common issue with faxed applications is incomplete or incorrectly filled forms, which can lead to rejection. Make sure every required field is completed accurately. For a complete walkthrough of every line on the form, see our{" "}
-              <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] font-semibold hover:underline">SS-4 Form Guide</Link>.
+              The most common issue with faxed applications is incomplete or incorrectly filled forms, which can lead to rejection. Make sure every required field is completed accurately. Refer to the IRS instructions included with Form SS-4 for field-by-field guidance.
             </p>
           </AnimateIn>
         </div>
@@ -301,8 +300,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </div>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed">
-              For more details on the non-resident process and why an SSN is not required, read our guide on{" "}
-              <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] font-semibold hover:underline">how to get an EIN without an SSN</Link>. You can also learn more about{" "}
+              For more details on the non-resident process and why an SSN is not required, note that the IRS allows applicants without an SSN or ITIN to use their foreign identification on Form SS-4. You can also learn more about{" "}
               <Link href="/what-is-ein/" className="text-[var(--color-blue)] font-semibold hover:underline">what an EIN is and why you need one</Link>.
             </p>
           </AnimateIn>
@@ -344,8 +342,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </div>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed">
-              Filling out Form SS-4 correctly is critical. Errors in entity type, responsible party information, or address can lead to rejection or delays. For a complete line-by-line walkthrough of every field on the form, check out our{" "}
-              <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] font-semibold hover:underline">SS-4 Form Guide</Link>.
+              Filling out Form SS-4 correctly is critical. Errors in entity type, responsible party information, or address can lead to rejection or delays. Refer to the IRS instructions included with Form SS-4 for a complete line-by-line walkthrough of every field on the form.
             </p>
           </AnimateIn>
         </div>
@@ -361,8 +358,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </h2>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-8">
-              Processing times vary significantly depending on which method you use. The table below compares all three methods across key factors so you can make an informed decision. For a deeper dive into processing timelines, visit our{" "}
-              <Link href="/ein-processing-time/" className="text-[var(--color-blue)] font-semibold hover:underline">EIN Processing Time</Link> page.
+              Processing times vary significantly depending on which method you use. The table below compares all three methods across key factors so you can make an informed decision.
             </p>
 
             <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
@@ -444,8 +440,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </h2>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-8">
-              Not every EIN application is approved on the first attempt. The IRS rejects applications for a variety of reasons, most of which are preventable. Understanding these pitfalls before you apply can save you days or even weeks of delays. For a comprehensive breakdown, visit our{" "}
-              <Link href="/ein-rejection-guide/" className="text-[var(--color-blue)] font-semibold hover:underline">EIN Rejection Guide</Link>.
+              Not every EIN application is approved on the first attempt. The IRS rejects applications for a variety of reasons, most of which are preventable. Understanding these pitfalls before you apply can save you days or even weeks of delays.
             </p>
 
             <div className="space-y-4">

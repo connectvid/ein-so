@@ -5,7 +5,8 @@ import EinLookupClient from "./EinLookupClient";
 export const metadata: Metadata = {
   title: "EIN Lookup 2026 | How to Find an EIN Number | ein.so",
   description:
-    "Learn how to look up any EIN number in 2026. We cover every free and paid method — IRS Tax Exempt Org Search, SEC EDGAR, state registries, and more. Plus how to recover your own lost EIN.",
+    "Look up any EIN number in 2026. Free and paid methods: IRS Tax Exempt Org Search, SEC EDGAR, state registries, and how to recover a lost EIN.",
+  alternates: { canonical: "/ein-lookup/" },
 };
 
 const faqs = [
@@ -45,7 +46,7 @@ export default function EinLookupPage() {
         ]}
       />
       <ArticleSchema
-        headline="EIN Lookup 2026: How to Find Any EIN Number"
+        headline="EIN Lookup: How to Find Any EIN Number"
         description="A comprehensive guide to looking up EIN numbers. Covers every free and paid method including IRS Tax Exempt Org Search, SEC EDGAR, state registries, and how to recover a lost EIN."
         url="/ein-lookup/"
       />

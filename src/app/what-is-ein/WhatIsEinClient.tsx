@@ -101,10 +101,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For a deeper dive into valid EIN prefixes and how to verify your EIN format, see our detailed guide on{" "}
-                <Link href="/ein-number-format/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                  EIN Number Format
-                </Link>.
+                For a deeper dive into valid EIN prefixes and how to verify your EIN format, refer to the IRS documentation on <span className="font-semibold">EIN number format</span>.
               </p>
             </div>
           </AnimateIn>
@@ -243,10 +240,8 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                 A <strong className="text-[var(--color-text)]">TIN (Taxpayer Identification Number)</strong> is not a specific number type -- it is an umbrella term that encompasses EINs, SSNs, ITINs, and other identification numbers used for tax purposes. When a form asks for your &quot;TIN,&quot; you should provide whichever number is appropriate for your situation: your EIN for business-related filings, or your SSN/ITIN for individual filings.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For more detailed comparisons, see our dedicated guides:{" "}
-                <Link href="/ein-vs-itin/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN vs ITIN</Link>,{" "}
-                <Link href="/ein-vs-ssn/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN vs SSN</Link>, and{" "}
-                <Link href="/ein-vs-tax-id/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN vs Tax ID</Link>.
+                For more detailed comparisons, see our dedicated guide on{" "}
+                <Link href="/ein-vs-itin/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN vs ITIN</Link>.
               </p>
             </div>
           </AnimateIn>
@@ -294,10 +289,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For a complete breakdown of every situation that requires an EIN, read our dedicated guide on{" "}
-                <Link href="/who-needs-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                  who needs an EIN
-                </Link>.
+                For a complete breakdown of every situation that requires an EIN, see our <Link href="/faq/" className="text-[var(--color-blue)] hover:underline font-semibold">FAQ</Link>.
               </p>
             </div>
           </AnimateIn>
@@ -397,11 +389,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For more information about the non-resident EIN process, visit our{" "}
-                <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                  EIN for non-residents
-                </Link>{" "}
-                page.
+                For more information about the non-resident EIN process, visit our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">How to Get an EIN</Link> guide.
               </p>
             </div>
           </AnimateIn>
@@ -435,11 +423,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For a comprehensive reference on valid prefixes and format validation, see our{" "}
-                <Link href="/ein-number-format/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                  EIN number format
-                </Link>{" "}
-                page.
+                For a comprehensive reference on valid prefixes and format validation, refer to the IRS documentation on <span className="font-semibold">EIN number format</span>.
               </p>
             </div>
           </AnimateIn>

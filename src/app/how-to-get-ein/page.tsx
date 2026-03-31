@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema, HowToSchema } from "../schema";
 import HowToGetEinClient from "./HowToGetEinClient";
 
 export const metadata: Metadata = {
   title: "How to Get an EIN Number (2026) | Step-by-Step Guide | ein.so",
   description:
     "Learn how to get an EIN number in 2026. Three methods explained: online, fax (Form SS-4), and phone. Step-by-step guide for US residents and non-residents.",
+  alternates: { canonical: "/how-to-get-ein/" },
 };
 
 const faqs = [
@@ -49,9 +50,17 @@ export default function HowToGetEinPage() {
         ]}
       />
       <ArticleSchema
-        headline="How to Get an EIN Number (2026) — Step-by-Step Guide"
+        headline="How to Get an EIN Number in 2026"
         description="Complete guide to getting an EIN number in 2026. Three methods explained: online, fax, and phone. Includes steps for non-US residents."
         url="/how-to-get-ein/"
+      />
+      <HowToSchema
+        steps={[
+          { name: "Choose Your Package", text: "Select Standard ($49, 5-7 business days) or Express ($97, 2-3 business days). Both include full SS-4 filing with the IRS." },
+          { name: "Submit Your Details", text: "Fill out a simple form with your legal name, date of birth, country of citizenship, mailing address, and business details. No SSN required." },
+          { name: "We File Your SS-4", text: "We complete IRS Form SS-4 and fax it to the IRS at 855-215-1627. Non-residents cannot apply online, so we handle the fax process for you." },
+          { name: "Receive Your EIN", text: "Your 9-digit EIN is delivered by email as soon as the IRS processes your application. Use it for banking, Amazon, Stripe, PayPal, and US taxes." },
+        ]}
       />
       <FAQSchema faqs={faqs} />
       <HowToGetEinClient faqs={faqs} />

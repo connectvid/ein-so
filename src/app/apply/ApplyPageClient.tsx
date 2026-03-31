@@ -99,9 +99,9 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
           <StaggerContainer className="flex flex-wrap justify-center gap-4" staggerDelay={0.05}>
             {[
               { label: "What Is an EIN?", href: "/what-is-ein/" },
-              { label: "SS-4 Form Guide", href: "/ss4-form-guide/" },
-              { label: "EIN Processing Time", href: "/ein-processing-time/" },
-              { label: "EIN Without SSN", href: "/ein-without-ssn/" },
+              { label: "How to Get EIN", href: "/how-to-get-ein/" },
+              { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
+              { label: "FAQ", href: "/faq/" },
             ].map((link) => (
               <StaggerItem key={link.href}>
                 <Link

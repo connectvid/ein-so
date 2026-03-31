@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "EIN FAQ 2026 | All EIN Questions Answered | ein.so",
   description:
     "Comprehensive FAQ about EIN numbers for non-US residents. Learn about the application process, requirements, costs, and what to do after receiving your EIN.",
+  alternates: { canonical: "/faq/" },
 };
 
 const faqs: { q: string; a: string; category: string }[] = [

@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { SITE } from "@/lib/constants";
+import { SITE, NAV_LINKS } from "@/lib/constants";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -57,6 +57,13 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
+        {/* Server-rendered nav for crawlers */}
+        <nav aria-hidden="true" className="sr-only">
+          {NAV_LINKS.map((link) => (
+            <a key={link.href} href={link.href}>{link.label}</a>
+          ))}
+          <a href="/apply/">Apply</a>
+        </nav>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

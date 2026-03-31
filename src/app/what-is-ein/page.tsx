@@ -5,7 +5,8 @@ import WhatIsEinClient from "./WhatIsEinClient";
 export const metadata: Metadata = {
   title: "What Is an EIN Number? Complete Guide 2026 | ein.so",
   description:
-    "An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, how to apply, EIN format, and more in our complete 2026 guide.",
+    "An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, and how to apply in our 2026 guide.",
+  alternates: { canonical: "/what-is-ein/" },
 };
 
 const faqs = [
@@ -49,7 +50,7 @@ export default function WhatIsEinPage() {
         ]}
       />
       <ArticleSchema
-        headline="What Is an EIN Number? Complete Guide 2026"
+        headline="What Is an EIN Number? Complete Guide (2026)"
         description="An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, how to apply, EIN format, and more."
         url="/what-is-ein/"
       />

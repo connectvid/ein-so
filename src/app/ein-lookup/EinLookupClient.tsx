@@ -226,7 +226,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   This tool allows you to search by organization name, city, state, or country. The search results include the organization&apos;s EIN, name, city, state, deductibility status (whether donations to the organization are tax-deductible), and the type of tax exemption (501(c)(3), 501(c)(4), etc.). You can also view the organization&apos;s most recent Form 990 filings, which provide detailed financial information.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  This is particularly useful if you need to verify a charity before making a donation, confirm a non-profit&apos;s tax-exempt status for grant applications, or obtain the EIN for a non-profit you are doing business with. For a more detailed walkthrough of free EIN lookup methods, see our <Link href="/ein-lookup-free/" className="text-[var(--color-blue)] underline hover:no-underline">free EIN lookup guide</Link>.
+                  This is particularly useful if you need to verify a charity before making a donation, confirm a non-profit&apos;s tax-exempt status for grant applications, or obtain the EIN for a non-profit you are doing business with. The IRS Tax Exempt Organization Search is the most reliable free method available.
                 </p>
               </div>
             </AnimateIn>
@@ -250,7 +250,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   If you need the EIN for a publicly traded company, the <strong className="text-[var(--color-text)]">SEC EDGAR database</strong> is your best resource. Every public company in the United States is required to file periodic reports with the Securities and Exchange Commission, and these filings are freely accessible at <strong className="text-[var(--color-text)]">sec.gov/cgi-bin/browse-edgar</strong>.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  To find a company&apos;s EIN on EDGAR, search for the company by name or ticker symbol. Open any recent filing — a 10-K (annual report) or 10-Q (quarterly report) is usually the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <Link href="/ein-number-format/" className="text-[var(--color-blue)] underline hover:no-underline">9-digit EIN</Link>.
+                  To find a company&apos;s EIN on EDGAR, search for the company by name or ticker symbol. Open any recent filing — a 10-K (annual report) or 10-Q (quarterly report) is usually the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <span className="font-semibold">9-digit EIN</span>.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   This method works for any company that files with the SEC, including large corporations, publicly traded partnerships, and real estate investment trusts (REITs). It does not work for private companies, LLCs, or sole proprietorships that are not required to file with the SEC.
@@ -403,10 +403,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
 
           <AnimateIn className="text-center mt-10">
             <p className="text-[var(--color-text-muted)]">
-              Looking for free EIN lookup methods specifically?{" "}
-              <Link href="/ein-lookup-free/" className="text-[var(--color-blue)] underline hover:no-underline">
-                Read our free EIN lookup guide
-              </Link>
+              The IRS Tax Exempt Organization Search at apps.irs.gov is the best free EIN lookup method available to the public.
             </p>
           </AnimateIn>
         </div>

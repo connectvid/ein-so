@@ -36,6 +36,38 @@ export function HomeSchema() {
   );
 }
 
+export function WebSiteSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "ein.so",
+    url: SITE.url,
+    description: SITE.description,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://ein.so/?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
+export function HowToSchema({ steps }: { steps: { name: string; text: string }[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "How to Get an EIN Number as a Non-Resident",
+    description: "Step-by-step guide to getting an EIN number in 2026 for non-US residents using Form SS-4 filed by fax.",
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
 export function FAQSchema({ faqs }: { faqs: { q: string; a: string }[] }) {
   const schema = {
     "@context": "https://schema.org",
@@ -71,8 +103,8 @@ export function ArticleSchema({ headline, description, url }: { headline: string
     description,
     url: `${SITE.url}${url}`,
     publisher: { "@type": "Organization", name: "ein.so", url: SITE.url },
-    datePublished: new Date().toISOString(),
-    dateModified: new Date().toISOString(),
+    datePublished: "2026-03-31",
+    dateModified: "2026-03-31",
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }

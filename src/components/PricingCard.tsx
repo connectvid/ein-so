@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 interface PricingCardProps {
   name: string;
@@ -22,26 +23,64 @@ export default function PricingCard({
   stripeLink,
   features,
 }: PricingCardProps) {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(cardRef, { once: true, margin: "-80px" });
+
   return (
     <motion.div
-      whileHover={{ y: -6 }}
+      ref={cardRef}
+      whileHover={{
+        y: -6,
+        boxShadow: highlighted
+          ? "0 0 30px rgba(37,99,235,0.35), 0 20px 40px rgba(10,22,40,0.15)"
+          : "0 0 20px rgba(37,99,235,0.15), 0 20px 40px rgba(10,22,40,0.1)",
+      }}
       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-      className={`relative rounded-2xl p-8 flex flex-col border-2 transition-shadow ${
+      className={`relative rounded-2xl p-8 flex flex-col border-2 transition-colors ${
         highlighted
           ? "bg-[var(--color-navy)] text-white border-[var(--color-blue)] shadow-xl shadow-[var(--color-blue)]/10"
           : "bg-white text-[var(--color-text)] border-[var(--color-border)] hover:border-[var(--color-blue)]/30"
       }`}
     >
+      {/* Most Popular badge with pulse */}
       {highlighted && (
-        <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[var(--color-amber)] text-[var(--color-navy)] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
+        <motion.span
+          animate={{
+            boxShadow: [
+              "0 0 0px rgba(245,158,11,0)",
+              "0 0 12px rgba(245,158,11,0.5)",
+              "0 0 0px rgba(245,158,11,0)",
+            ],
+          }}
+          transition={{
+            duration: 2.5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+          className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[var(--color-amber)] text-[var(--color-navy)] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide"
+        >
           Most Popular
-        </span>
+        </motion.span>
       )}
 
       <h3 className="text-xl font-bold text-center mb-2">{name}</h3>
 
       <div className="text-center mb-1">
-        <span className="text-5xl font-extrabold gradient-text">${price}</span>
+        <motion.span
+          className={`text-5xl font-extrabold inline-block ${
+            inView ? "shimmer-text" : "gradient-text"
+          }`}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={inView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          style={
+            inView
+              ? { animationIterationCount: 1, animationDuration: "2s" }
+              : undefined
+          }
+        >
+          ${price}
+        </motion.span>
       </div>
 
       <p

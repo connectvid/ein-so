@@ -8,7 +8,6 @@ const columns = [
       { label: "About", href: "/about/" },
       { label: "Contact", href: "/contact/" },
       { label: "FAQ", href: "/faq/" },
-      { label: "Reviews", href: "/reviews/" },
     ],
   },
   {
@@ -18,27 +17,12 @@ const columns = [
       { label: "How to Get EIN", href: "/how-to-get-ein/" },
       { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
       { label: "EIN Lookup", href: "/ein-lookup/" },
-      { label: "SS-4 Form Guide", href: "/ss4-form-guide/" },
     ],
   },
   {
-    title: "Services",
+    title: "Get Started",
     links: [
-      { label: "EIN for Non-Residents", href: "/ein-for-non-residents/" },
-      { label: "EIN for LLC", href: "/ein-for-llc/" },
-      { label: "EIN Without SSN", href: "/ein-without-ssn/" },
-      { label: "BOI Filing", href: "/boi-filing/" },
-      { label: "EIN for Amazon Sellers", href: "/ein-for-amazon-sellers/" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { label: "Processing Time", href: "/ein-processing-time/" },
-      { label: "EIN for Bank Account", href: "/ein-for-bank-account/" },
-      { label: "EIN for PayPal", href: "/ein-for-paypal/" },
-      { label: "EIN for Stripe", href: "/ein-for-stripe/" },
-      { label: "Blog", href: "/blog/" },
+      { label: "Apply for EIN", href: "/apply/" },
     ],
   },
 ];
@@ -104,8 +88,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} ein.so — All rights reserved. ein.so is not affiliated with the IRS.
           </p>
           <div className="flex gap-6 text-xs text-white/40">
-            <Link href="/privacy/" className="hover:text-white transition-colors">Privacy</Link>
-            <Link href="/terms/" className="hover:text-white transition-colors">Terms</Link>
+            <span>Privacy</span>
+            <span>Terms</span>
           </div>
         </div>
       </div>

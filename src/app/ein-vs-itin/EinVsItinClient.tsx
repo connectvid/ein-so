@@ -343,15 +343,9 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   nothing to do with individual tax filing &mdash; it is strictly for businesses.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  For a deeper dive into how these numbers compare, see our guides on{" "}
-                  <Link href="/ein-vs-ssn/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                    EIN vs SSN
-                  </Link>,{" "}
-                  <Link href="/ein-vs-tin/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                    EIN vs TIN
-                  </Link>, and{" "}
-                  <Link href="/ein-vs-tax-id/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                    EIN vs Tax ID
+                  For a deeper dive into how these numbers compare, see our guide on{" "}
+                  <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
+                    What Is an EIN
                   </Link>.
                 </p>
               </div>

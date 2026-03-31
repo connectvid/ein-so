@@ -5,6 +5,7 @@ import { FAQSchema, BreadcrumbSchema } from "../schema";
 export const metadata: Metadata = {
   title: "Apply for EIN | Non-Resident Service | $49 Standard $97 Express",
   description: "Apply for your EIN as a non-US resident. We complete and file your SS-4 form. Standard $49 (5-7 days) or Express $97 (2-3 days). No SSN required.",
+  alternates: { canonical: "/apply/" },
 };
 
 const faqs = [
