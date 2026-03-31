@@ -16,7 +16,7 @@ export const PRICING = {
     turnaround: "5-7 business days",
     cta: "Get My EIN — $49",
     highlighted: false,
-    stripeLink: "#", // placeholder
+    stripeLink: "#",
     features: [
       "SS-4 form completion",
       "IRS fax submission",
@@ -31,7 +31,7 @@ export const PRICING = {
     turnaround: "2-3 business days",
     cta: "Get My EIN Fast — $97",
     highlighted: true,
-    stripeLink: "#", // placeholder
+    stripeLink: "#",
     features: [
       "Everything in Standard",
       "Priority fax + phone follow-up",
@@ -45,8 +45,8 @@ export const PRICING = {
 export const NAV_LINKS = [
   { label: "What Is an EIN", href: "/what-is-ein/" },
   { label: "How to Get EIN", href: "/how-to-get-ein/" },
-  { label: "Who Needs EIN", href: "/who-needs-ein/" },
-  { label: "EIN Lookup", href: "/ein-lookup/" },
+  { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
   { label: "FAQ", href: "/faq/" },
   { label: "About", href: "/about/" },
+  { label: "Contact", href: "/contact/" },
 ] as const;

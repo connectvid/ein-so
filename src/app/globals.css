@@ -1,54 +1,102 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #00493A;
-  --color-secondary: #025B49;
-  --color-accent: #BEF2DF;
-  --color-white: #FBFAFA;
-  --color-black: #222222;
-  --color-beige: #F5F3EF;
-  --color-dark-beige: #DEDCD5;
-  --color-gray: #B3AEAE;
-  --color-error: #C21446;
+  /* ein.so Brand — Deep Navy + Electric Blue + Amber */
+  --color-navy: #0A1628;
+  --color-navy-light: #162240;
+  --color-blue: #2563EB;
+  --color-blue-light: #3B82F6;
+  --color-blue-glow: #60A5FA;
+  --color-amber: #F59E0B;
+  --color-amber-light: #FCD34D;
+  --color-surface: #F8FAFC;
+  --color-surface-warm: #F1F5F9;
+  --color-white: #FFFFFF;
+  --color-text: #0F172A;
+  --color-text-muted: #64748B;
+  --color-border: #E2E8F0;
+  --color-success: #10B981;
+  --color-error: #EF4444;
 }
 
 @theme inline {
-  --color-primary: var(--color-primary);
-  --color-secondary: var(--color-secondary);
-  --color-accent: var(--color-accent);
-  --color-offwhite: var(--color-white);
-  --color-dark: var(--color-black);
-  --color-beige: var(--color-beige);
-  --color-dark-beige: var(--color-dark-beige);
-  --color-gray: var(--color-gray);
+  --color-navy: var(--color-navy);
+  --color-navy-light: var(--color-navy-light);
+  --color-blue: var(--color-blue);
+  --color-blue-light: var(--color-blue-light);
+  --color-blue-glow: var(--color-blue-glow);
+  --color-amber: var(--color-amber);
+  --color-amber-light: var(--color-amber-light);
+  --color-surface: var(--color-surface);
+  --color-surface-warm: var(--color-surface-warm);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border);
+  --color-success: var(--color-success);
   --color-error: var(--color-error);
-  --font-sans: var(--font-outfit);
-  --font-serif: var(--font-spectral);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
 }
 
 body {
   background: var(--color-white);
-  color: var(--color-black);
-  font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+  color: var(--color-text);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
-.font-serif-accent {
-  font-family: var(--font-spectral), Georgia, serif;
+.font-display {
+  font-family: var(--font-playfair), Georgia, serif;
   font-style: italic;
-  font-weight: 600;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection color */
 ::selection {
-  background-color: var(--color-accent);
-  color: var(--color-primary);
+  background-color: var(--color-blue);
+  color: white;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-blue) 0%, var(--color-blue-glow) 50%, var(--color-amber) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effect */
+.glow-blue {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3), 0 0 60px rgba(37, 99, 235, 0.1);
+}
+
+/* Smooth card hover */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(.16, 1, .3, 1), box-shadow 0.3s cubic-bezier(.16, 1, .3, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(10, 22, 40, 0.12);
+}
+
+/* Grid pattern for hero */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* FAQ details marker removal */
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary::marker {
+  display: none;
+  content: "";
 }

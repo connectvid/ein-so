@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 interface PricingCardProps {
   name: string;
@@ -20,46 +23,40 @@ export default function PricingCard({
   features,
 }: PricingCardProps) {
   return (
-    <div
-      className={`relative rounded-2xl p-8 flex flex-col ${
+    <motion.div
+      whileHover={{ y: -6 }}
+      transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+      className={`relative rounded-2xl p-8 flex flex-col border-2 transition-shadow ${
         highlighted
-          ? "bg-[var(--color-primary)] text-[var(--color-white)]"
-          : "bg-[var(--color-beige)] text-[var(--color-black)]"
+          ? "bg-[var(--color-navy)] text-white border-[var(--color-blue)] shadow-xl shadow-[var(--color-blue)]/10"
+          : "bg-white text-[var(--color-text)] border-[var(--color-border)] hover:border-[var(--color-blue)]/30"
       }`}
     >
       {highlighted && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[var(--color-accent)] text-[var(--color-primary)] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
+        <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[var(--color-amber)] text-[var(--color-navy)] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
           Most Popular
         </span>
       )}
 
-      <h3 className="text-xl font-semibold text-center mb-2">{name}</h3>
+      <h3 className="text-xl font-bold text-center mb-2">{name}</h3>
 
       <div className="text-center mb-1">
-        <span
-          className={`text-5xl font-bold ${
-            highlighted ? "text-[var(--color-accent)]" : "text-[var(--color-primary)]"
-          }`}
-        >
-          ${price}
-        </span>
+        <span className="text-5xl font-extrabold gradient-text">${price}</span>
       </div>
 
       <p
-        className={`text-center text-sm mb-6 ${
-          highlighted ? "text-[var(--color-accent)]/80" : "text-[var(--color-gray)]"
+        className={`text-center text-sm mb-8 ${
+          highlighted ? "text-white/50" : "text-[var(--color-text-muted)]"
         }`}
       >
         {turnaround}
       </p>
 
-      <ul className="space-y-3 mb-8 flex-1">
+      <ul className="space-y-3.5 mb-8 flex-1">
         {features.map((feature) => (
           <li key={feature} className="flex items-start gap-3 text-sm">
             <svg
-              className={`w-5 h-5 flex-shrink-0 mt-0.5 ${
-                highlighted ? "text-[var(--color-accent)]" : "text-[var(--color-primary)]"
-              }`}
+              className="w-5 h-5 flex-shrink-0 mt-0.5 text-[var(--color-blue)]"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -69,21 +66,21 @@ export default function PricingCard({
                 clipRule="evenodd"
               />
             </svg>
-            <span>{feature}</span>
+            <span className={highlighted ? "text-white/80" : ""}>{feature}</span>
           </li>
         ))}
       </ul>
 
       <Link
         href={stripeLink}
-        className={`block w-full text-center rounded-lg py-3.5 px-6 font-semibold transition-colors ${
+        className={`block w-full text-center rounded-xl py-3.5 px-6 font-bold transition-all hover:-translate-y-0.5 ${
           highlighted
-            ? "bg-[var(--color-white)] text-[var(--color-black)] hover:bg-[var(--color-beige)]"
-            : "bg-[var(--color-primary)] text-[var(--color-white)] hover:bg-[var(--color-secondary)]"
+            ? "bg-[var(--color-blue)] text-white hover:bg-[var(--color-blue-light)] shadow-lg shadow-[var(--color-blue)]/30"
+            : "bg-[var(--color-navy)] text-white hover:bg-[var(--color-navy-light)]"
         }`}
       >
         {cta}
       </Link>
-    </div>
+    </motion.div>
   );
 }
