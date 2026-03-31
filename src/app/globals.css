@@ -137,3 +137,74 @@ details summary::marker {
 .perspective-1000 {
   perspective: 1000px;
 }
+
+/* ─── Accessibility: Respect reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── Gradient border on hover for cards ─── */
+.gradient-border-hover {
+  position: relative;
+}
+.gradient-border-hover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(135deg, var(--color-blue), var(--color-blue-glow), var(--color-amber));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gradient-border-hover:hover::before {
+  opacity: 1;
+}
+
+/* ─── Badge pop animation ─── */
+@keyframes badgePop {
+  0% { transform: scale(0) rotate(-12deg); opacity: 0; }
+  60% { transform: scale(1.15) rotate(3deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.animate-badge-pop {
+  animation: badgePop 0.6s cubic-bezier(.16, 1, .3, 1) forwards;
+}
+
+/* ─── Slide up entrance (CSS fallback for no-JS) ─── */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up {
+  animation: slideUp 0.7s cubic-bezier(.16, 1, .3, 1) forwards;
+}
+
+/* ─── Gradient underline for How It Works cards on hover ─── */
+.gradient-underline-hover {
+  position: relative;
+  overflow: hidden;
+}
+.gradient-underline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-blue), var(--color-blue-glow), var(--color-amber));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(.16, 1, .3, 1);
+}
+.gradient-underline-hover:hover::after {
+  transform: scaleX(1);
+}

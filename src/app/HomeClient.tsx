@@ -3,13 +3,16 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import PricingCard from "@/components/PricingCard";
-import AnimateIn, { StaggerContainer, StaggerItem, BlurIn, ScaleIn, SlideReveal, FloatingElement, PulseGlow } from "@/components/AnimateIn";
+import AnimateIn, { StaggerContainer, StaggerItem, BlurIn, ScaleIn, SlideReveal, PulseGlow } from "@/components/AnimateIn";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import HeroParticles from "@/components/HeroParticles";
 import TypeWriter from "@/components/TypeWriter";
 import MagneticButton from "@/components/MagneticButton";
 import AnimatedGradient from "@/components/AnimatedGradient";
 import TiltCard from "@/components/TiltCard";
+import HeroIllustration from "@/components/HeroIllustration";
+import ProcessIllustration from "@/components/ProcessIllustration";
+import TrustIllustration from "@/components/TrustIllustration";
 import { PRICING, SITE } from "@/lib/constants";
 
 const trustBadges = [
@@ -100,19 +103,9 @@ export default function HomeClient() {
         <div className="absolute inset-0 hero-grid" />
         <HeroParticles count={20} />
 
-        {/* Floating decorative elements */}
-        <FloatingElement className="absolute top-24 right-[15%] hidden lg:block" amplitude={15} duration={5}>
-          <div className="w-20 h-20 rounded-2xl bg-[var(--color-blue)]/10 border border-[var(--color-blue)]/20 backdrop-blur-sm rotate-12" />
-        </FloatingElement>
-        <FloatingElement className="absolute bottom-20 right-[8%] hidden lg:block" amplitude={10} duration={7}>
-          <div className="w-14 h-14 rounded-full bg-[var(--color-amber)]/10 border border-[var(--color-amber)]/20 backdrop-blur-sm" />
-        </FloatingElement>
-        <FloatingElement className="absolute top-40 left-[5%] hidden lg:block" amplitude={8} duration={6}>
-          <div className="w-10 h-10 rounded-lg bg-[var(--color-blue-glow)]/10 border border-[var(--color-blue-glow)]/20 backdrop-blur-sm -rotate-6" />
-        </FloatingElement>
-
         <div className="relative mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -198,6 +191,17 @@ export default function HomeClient() {
               ))}
             </motion.div>
           </div>
+
+          {/* Hero Illustration - right side */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="hidden lg:block"
+          >
+            <HeroIllustration className="w-full max-w-[420px] mx-auto" />
+          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -206,26 +210,22 @@ export default function HomeClient() {
         <ScaleIn>
           <div className="bg-white rounded-2xl shadow-xl shadow-black/5 border border-[var(--color-border)] grid grid-cols-2 md:grid-cols-4 divide-x divide-[var(--color-border)]">
             <div className="py-6 px-4 text-center">
-              <div className="text-2xl md:text-3xl font-extrabold gradient-text">
-                <AnimatedCounter to={3000} suffix="+" duration={2.5} />
-              </div>
-              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">EINs Delivered</div>
-            </div>
-            <div className="py-6 px-4 text-center">
-              <div className="text-2xl md:text-3xl font-extrabold gradient-text">
-                <AnimatedCounter to={150} suffix="+" duration={2} />
-              </div>
-              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">Countries Served</div>
-            </div>
-            <div className="py-6 px-4 text-center">
               <div className="text-2xl md:text-3xl font-extrabold shimmer-text">$49</div>
-              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">Lowest Price</div>
+              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">Cheapest in Market</div>
             </div>
             <div className="py-6 px-4 text-center">
               <div className="text-2xl md:text-3xl font-extrabold gradient-text">
                 <AnimatedCounter to={4} duration={1.5} /> Days
               </div>
-              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">Avg. Processing</div>
+              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">IRS Fax Processing</div>
+            </div>
+            <div className="py-6 px-4 text-center">
+              <div className="text-2xl md:text-3xl font-extrabold gradient-text">100%</div>
+              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">Money-Back Guarantee</div>
+            </div>
+            <div className="py-6 px-4 text-center">
+              <div className="text-2xl md:text-3xl font-extrabold gradient-text">0</div>
+              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">SSN Required</div>
             </div>
           </div>
         </ScaleIn>
@@ -241,13 +241,18 @@ export default function HomeClient() {
             </h2>
           </BlurIn>
 
+          {/* Animated process flow SVG */}
+          <AnimateIn className="mb-12 hidden md:block">
+            <ProcessIllustration />
+          </AnimateIn>
+
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" staggerDelay={0.12}>
             {howItWorks.map((item) => (
               <StaggerItem key={item.step}>
                 <TiltCard className="h-full">
-                  <div className="bg-white rounded-2xl p-7 border border-[var(--color-border)] h-full">
+                  <div className="bg-white rounded-2xl p-7 border border-[var(--color-border)] h-full gradient-underline-hover">
                     <div className="flex items-center gap-3 mb-5">
-                      <div className="w-11 h-11 rounded-xl bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center">
+                      <div className="w-11 h-11 rounded-xl bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center group-hover:bg-[var(--color-blue)]/20 transition-colors">
                         {item.icon}
                       </div>
                       <span className="text-xs font-bold text-[var(--color-blue)] tracking-widest">{item.step}</span>
@@ -408,6 +413,12 @@ export default function HomeClient() {
       {/* ═══════════ TRUST ═══════════ */}
       <section className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
+          {/* Trust illustration + features in a 2-column layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+            <AnimateIn className="lg:col-span-2 flex justify-center" direction="left">
+              <TrustIllustration className="max-w-[280px]" />
+            </AnimateIn>
+            <div className="lg:col-span-3">
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8" staggerDelay={0.15}>
             {[
               {
@@ -441,6 +452,8 @@ export default function HomeClient() {
               </StaggerItem>
             ))}
           </StaggerContainer>
+            </div>
+          </div>
         </div>
       </section>
 
