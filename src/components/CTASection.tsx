@@ -16,7 +16,7 @@ export default function CTASection({ title = "Ready to Get Your EIN?", subtitle 
             href="/apply/"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
           >
-            Get My EIN — $49
+            Get My EIN for $49
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

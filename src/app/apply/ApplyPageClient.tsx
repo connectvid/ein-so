@@ -11,7 +11,7 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
     <>
       <PageHero
         label="Apply Now"
-        title="Get Your EIN —"
+        title="Get Your EIN:"
         titleAccent="Start Today"
         description="Choose your package below. We file Form SS-4 with the IRS and deliver your EIN by email. No SSN required."
       />
@@ -53,7 +53,7 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
               { title: "EIN Delivery by Email", desc: "Your 9-digit EIN number is emailed to you as soon as the IRS processes it." },
               { title: "WhatsApp Support", desc: "Real-time updates and support through WhatsApp in English and multiple languages." },
               { title: "Error-Free Filing", desc: "We review every application for common errors that cause IRS rejections." },
-              { title: "Money-Back Guarantee", desc: "If rejected for any reason we caused, get a full refund — no questions asked." },
+              { title: "Money-Back Guarantee", desc: "If rejected for any reason we caused, get a full refund, no questions asked." },
             ].map((item) => (
               <StaggerItem key={item.title}>
                 <div className="bg-[var(--color-surface)] rounded-2xl p-6 border border-[var(--color-border)] card-hover h-full">
@@ -148,7 +148,7 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
         <div className="relative mx-auto max-w-7xl px-6 text-center">
           <AnimateIn>
             <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-4">Have Questions?</h2>
-            <p className="text-white/50 mb-6">Chat with us on WhatsApp — we respond fast.</p>
+            <p className="text-white/50 mb-6">Chat with us on WhatsApp. We respond fast.</p>
             <a
               href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappMessage)}`}
               target="_blank"

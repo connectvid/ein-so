@@ -10,9 +10,7 @@ import TypeWriter from "@/components/TypeWriter";
 import MagneticButton from "@/components/MagneticButton";
 import AnimatedGradient from "@/components/AnimatedGradient";
 import TiltCard from "@/components/TiltCard";
-import HeroIllustration from "@/components/HeroIllustration";
-import ProcessIllustration from "@/components/ProcessIllustration";
-import TrustIllustration from "@/components/TrustIllustration";
+import EINCardVisual from "@/components/EINCardVisual";
 import { PRICING, SITE } from "@/lib/constants";
 
 const trustBadges = [
@@ -37,7 +35,7 @@ const howItWorks = [
   {
     step: "02",
     title: "Submit Your Details",
-    description: "Fill out a simple form. No SSN needed — just your name, address, and business info.",
+    description: "Fill out a simple form. No SSN needed, just your name, address, and business info.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -47,7 +45,7 @@ const howItWorks = [
   {
     step: "03",
     title: "We File Your SS-4",
-    description: "We complete Form SS-4 and fax it to the IRS. Non-residents cannot apply online — we do this for you.",
+    description: "We complete Form SS-4 and fax it to the IRS. Non-residents cannot apply online. We do this for you.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
@@ -70,7 +68,7 @@ const audiences = [
   { title: "LLC Owners", desc: "Every LLC needs an EIN for tax filing, banking, and hiring employees." },
   { title: "Amazon Sellers", desc: "FBA sellers outside the US need an EIN for account verification and taxes." },
   { title: "Freelancers", desc: "Protect your SSN by using an EIN on W-9 forms for US clients." },
-  { title: "Corporations", desc: "All C-Corps and S-Corps must have an EIN — no exceptions." },
+  { title: "Corporations", desc: "All C-Corps and S-Corps must have an EIN, no exceptions." },
   { title: "Non-Profits", desc: "Required for 501(c)(3) tax-exempt status and Form 990." },
   { title: "Real Estate Investors", desc: "Foreign nationals need an EIN for FIRPTA compliance and US property." },
   { title: "Shopify Sellers", desc: "International Shopify store owners need an EIN for US tax compliance." },
@@ -85,8 +83,8 @@ const pillarLinks = [
 ];
 
 const faqs = [
-  { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). The only requirement is that you file Form SS-4 by fax or phone — you cannot use the IRS online application. We handle the entire fax process for you." },
-  { q: "How much does it cost to get an EIN through ein.so?", a: "Standard EIN service is $49 with 5-7 business day turnaround. Express EIN service is $97 with 2-3 business day turnaround. The IRS does not charge a fee for EINs — our fee covers SS-4 preparation, filing, and delivery." },
+  { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). The only requirement is that you file Form SS-4 by fax or phone. You cannot use the IRS online application. We handle the entire fax process for you." },
+  { q: "How much does it cost to get an EIN through ein.so?", a: "Standard EIN service is $49 with 5-7 business day turnaround. Express EIN service is $97 with 2-3 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery." },
   { q: "How long does it take to get an EIN?", a: "By fax (how non-residents must apply), the IRS processes Form SS-4 in approximately 4 business days. Our Standard service delivers in 5-7 business days. Express service delivers in 2-3 business days with priority processing." },
   { q: "Do I need an SSN to get an EIN?", a: "No. Non-US residents can get an EIN without an SSN. You will need a valid passport or other government-issued ID. Form SS-4 has a specific section for applicants without an SSN or ITIN." },
   { q: "What is the difference between an EIN and an ITIN?", a: "An EIN (Employer Identification Number) is a tax ID for businesses. An ITIN (Individual Taxpayer Identification Number) is a tax ID for individuals who cannot get an SSN. Many non-US business owners need both." },
@@ -113,7 +111,7 @@ export default function HomeClient() {
               className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-8"
             >
               <span className="w-2 h-2 bg-[var(--color-success)] rounded-full animate-pulse" />
-              <span className="text-sm text-white/70 font-medium">Cheapest EIN service — $49 flat</span>
+              <span className="text-sm text-white/70 font-medium">Cheapest EIN service in the market</span>
             </motion.div>
 
             <motion.h1
@@ -122,7 +120,7 @@ export default function HomeClient() {
               transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
               className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6"
             >
-              Get Your EIN Number — Fastest Service for{" "}
+              Get Your EIN Number: Fastest Service for{" "}
               <span className="font-display gradient-text">
                 <TypeWriter
                   texts={["Non-Residents", "Amazon Sellers", "LLC Owners", "Freelancers", "Shopify Sellers", "YouTubers"]}
@@ -155,7 +153,7 @@ export default function HomeClient() {
               <MagneticButton as="a" href="/apply/" strength={0.25}>
                 <PulseGlow className="rounded-xl" color="rgba(37,99,235,0.6)">
                   <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/30">
-                    Get My EIN — $49
+                    Get My EIN for $49
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                       <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
@@ -164,7 +162,7 @@ export default function HomeClient() {
               </MagneticButton>
               <MagneticButton as="a" href="/apply/" strength={0.2}>
                 <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 px-8 py-4 text-base font-bold text-white hover:bg-white/20 transition-all">
-                  Express — $97
+                  Express · $97
                 </span>
               </MagneticButton>
             </motion.div>
@@ -192,15 +190,10 @@ export default function HomeClient() {
             </motion.div>
           </div>
 
-          {/* Hero Illustration - right side */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="hidden lg:block"
-          >
-            <HeroIllustration className="w-full max-w-[420px] mx-auto" />
-          </motion.div>
+          {/* EIN Card Visual */}
+          <div className="hidden lg:block">
+            <EINCardVisual className="w-full max-w-[400px] mx-auto" />
+          </div>
           </div>
         </div>
       </section>
@@ -237,14 +230,9 @@ export default function HomeClient() {
           <BlurIn className="text-center mb-16">
             <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Process</p>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
-              How It Works — <span className="font-display gradient-text">4 Simple Steps</span>
+              How It Works: <span className="font-display gradient-text">4 Simple Steps</span>
             </h2>
           </BlurIn>
-
-          {/* Animated process flow SVG */}
-          <AnimateIn className="mb-12 hidden md:block">
-            <ProcessIllustration />
-          </AnimateIn>
 
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" staggerDelay={0.12}>
             {howItWorks.map((item) => (
@@ -276,7 +264,7 @@ export default function HomeClient() {
               Transparent <span className="font-display gradient-text">Pricing</span>
             </h2>
             <p className="text-[var(--color-text-muted)] mt-3 max-w-lg mx-auto">
-              Two options. No hidden fees. The IRS does not charge for EINs — our fee covers the entire filing process.
+              Two options. No hidden fees. The IRS does not charge for EINs. Our fee covers the entire filing process.
             </p>
           </SlideReveal>
 
@@ -308,8 +296,8 @@ export default function HomeClient() {
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-4">
                 Every LLC, corporation, partnership, and non-profit needs an EIN.
-                Non-US residents who want to do business in the US — open a bank
-                account, sell on Amazon, hire employees — need an EIN.
+                Non-US residents who want to do business in the US, open a bank
+                account, sell on Amazon, hire employees, need an EIN.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 The problem: <strong className="text-[var(--color-text)]">non-residents cannot apply online</strong>.
@@ -413,17 +401,17 @@ export default function HomeClient() {
       {/* ═══════════ TRUST ═══════════ */}
       <section className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
-          {/* Trust illustration + features in a 2-column layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-            <AnimateIn className="lg:col-span-2 flex justify-center" direction="left">
-              <TrustIllustration className="max-w-[280px]" />
-            </AnimateIn>
-            <div className="lg:col-span-3">
+          <BlurIn className="text-center mb-16">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Why ein.so</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              Built for <span className="font-display gradient-text">Trust</span>
+            </h2>
+          </BlurIn>
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8" staggerDelay={0.15}>
             {[
               {
                 title: "100% Money-Back Guarantee",
-                desc: "If the IRS rejects your application for any reason we caused, full refund — no questions asked.",
+                desc: "If the IRS rejects your application for any reason we caused, full refund, no questions asked.",
                 icon: <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />,
               },
               {
@@ -452,8 +440,6 @@ export default function HomeClient() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -518,7 +504,7 @@ export default function HomeClient() {
               <MagneticButton as="a" href="/apply/" strength={0.25}>
                 <PulseGlow className="rounded-xl" color="rgba(37,99,235,0.5)">
                   <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/30">
-                    Get My EIN — $49
+                    Get My EIN for $49
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                       <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>

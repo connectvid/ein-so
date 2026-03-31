@@ -12,15 +12,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can I use an ITIN instead of an EIN for my business?",
-    a: "No. An ITIN is a personal tax identification number for individuals who cannot get an SSN. It cannot replace an EIN. If you have a business entity — such as an LLC, corporation, or partnership — you need an EIN to file business taxes, open a business bank account, and hire employees. You may need both an ITIN (for yourself) and an EIN (for your business).",
+    a: "No. An ITIN is a personal tax identification number for individuals who cannot get an SSN. It cannot replace an EIN. If you have a business entity, such as an LLC, corporation, or partnership, you need an EIN to file business taxes, open a business bank account, and hire employees. You may need both an ITIN (for yourself) and an EIN (for your business).",
   },
   {
     q: "Do I need an SSN to get an EIN?",
-    a: "No. Non-US residents without an SSN or ITIN can still obtain an EIN by filing Form SS-4 by fax with the IRS. This is the process ein.so handles for you — we complete and fax the form so you can get your EIN without any US tax identification number.",
+    a: "No. Non-US residents without an SSN or ITIN can still obtain an EIN by filing Form SS-4 by fax with the IRS. This is the process ein.so handles for you. We complete and fax the form so you can get your EIN without any US tax identification number.",
   },
   {
     q: "How long does it take to get an EIN vs an ITIN?",
-    a: "An EIN can be obtained online in minutes if you have an SSN, or in 4-7 business days via fax for non-residents. An ITIN takes significantly longer — typically 6 to 11 weeks after mailing Form W-7 and supporting documents to the IRS.",
+    a: "An EIN can be obtained online in minutes if you have an SSN, or in 4-7 business days via fax for non-residents. An ITIN takes significantly longer, typically 6 to 11 weeks after mailing Form W-7 and supporting documents to the IRS.",
   },
   {
     q: "Can a non-US resident get both an EIN and an ITIN?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "What does an EIN number look like compared to an ITIN?",
-    a: "An EIN is formatted as XX-XXXXXXX (two digits, a hyphen, then seven digits). An ITIN is formatted like an SSN — 9XX-XX-XXXX — but always begins with the digit 9. Despite both being 9-digit numbers, their formats are distinct and they serve completely different purposes.",
+    a: "An EIN is formatted as XX-XXXXXXX (two digits, a hyphen, then seven digits). An ITIN is formatted like an SSN (9XX-XX-XXXX) but always begins with the digit 9. Despite both being 9-digit numbers, their formats are distinct and they serve completely different purposes.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function EinVsItinPage() {
       />
       <ArticleSchema
         headline="EIN vs ITIN: Key Differences Explained"
-        description="A comprehensive comparison of EIN and ITIN — who needs each, how to apply, and whether you need both."
+        description="A comprehensive comparison of EIN and ITIN: who needs each, how to apply, and whether you need both."
         url="/ein-vs-itin/"
       />
       <FAQSchema faqs={faqs} />

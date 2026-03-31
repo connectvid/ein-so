@@ -12,7 +12,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
         label="EIN Lookup Guide"
         title="EIN Lookup:"
         titleAccent="How to Find Any EIN Number"
-        description="The IRS does not offer a free public EIN lookup tool. But there are several methods to find any EIN number — whether it belongs to a non-profit, a public company, or your own business. This guide covers every option available in 2026."
+        description="The IRS does not offer a free public EIN lookup tool. But there are several methods to find any EIN number, whether it belongs to a non-profit, a public company, or your own business. This guide covers every option available in 2026."
       />
 
       {/* Answer Capsule */}
@@ -58,7 +58,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   This is one of the most common questions people ask, and the answer is unfortunately limited. <strong className="text-[var(--color-text)]">The IRS does not operate a universal public EIN lookup database.</strong> Unlike a business name search through your state&apos;s Secretary of State website, there is no single place where you can type in a company name and retrieve its EIN.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  An <Link href="/what-is-ein/" className="text-[var(--color-blue)] underline hover:no-underline">EIN (Employer Identification Number)</Link> is considered sensitive taxpayer information by the IRS. Making all EINs publicly searchable would create significant privacy and fraud risks. As a result, the IRS only makes EINs publicly available in specific circumstances — primarily for tax-exempt non-profit organizations that are required to disclose financial information to the public.
+                  An <Link href="/what-is-ein/" className="text-[var(--color-blue)] underline hover:no-underline">EIN (Employer Identification Number)</Link> is considered sensitive taxpayer information by the IRS. Making all EINs publicly searchable would create significant privacy and fraud risks. As a result, the IRS only makes EINs publicly available in specific circumstances, primarily for tax-exempt non-profit organizations that are required to disclose financial information to the public.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   That said, there are several legitimate methods to find an EIN depending on what type of organization you are looking for. Some methods are completely free, while others may require a small fee or direct outreach to the organization in question. The availability of the EIN depends largely on whether the entity is a non-profit, a publicly traded company, or a private business.
@@ -92,22 +92,22 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
               {
                 num: "2",
                 title: "SEC EDGAR (Public Companies Only)",
-                desc: "Every publicly traded company in the United States is required to file financial reports with the Securities and Exchange Commission (SEC). These filings — including 10-K annual reports, 10-Q quarterly reports, and 8-K current reports — are available through the SEC's EDGAR database at sec.gov/cgi-bin/browse-edgar. These filings typically include the company's EIN (listed as 'IRS Employer Identification No.' on most forms). Simply search for the company name and open any recent filing to find the EIN on the cover page.",
+                desc: "Every publicly traded company in the United States is required to file financial reports with the Securities and Exchange Commission (SEC). These filings, including 10-K annual reports, 10-Q quarterly reports, and 8-K current reports, are available through the SEC's EDGAR database at sec.gov/cgi-bin/browse-edgar. These filings typically include the company's EIN (listed as 'IRS Employer Identification No.' on most forms). Simply search for the company name and open any recent filing to find the EIN on the cover page.",
               },
               {
                 num: "3",
                 title: "State Business Registries",
-                desc: "Many states include a business's EIN in their Secretary of State business registration records. However, this varies significantly by state — some states display the EIN in online search results, while others do not. States like California, New York, and Texas maintain online business entity search tools, but the availability of EIN data in these results is inconsistent. It is worth checking your state's business registry, but do not rely on it as a guaranteed source.",
+                desc: "Many states include a business's EIN in their Secretary of State business registration records. However, this varies significantly by state. Some states display the EIN in online search results, while others do not. States like California, New York, and Texas maintain online business entity search tools, but the availability of EIN data in these results is inconsistent. It is worth checking your state's business registry, but do not rely on it as a guaranteed source.",
               },
               {
                 num: "4",
                 title: "Ask the Organization Directly",
-                desc: "If you need a company's EIN for a legitimate purpose — such as filing a 1099 form or verifying a vendor — you can simply ask the organization directly. Businesses are accustomed to sharing their EIN with vendors, contractors, and partners for tax reporting purposes. Most companies will provide their EIN if you request it through their accounting or finance department. A W-9 form request is the standard way to obtain a company's EIN for tax reporting purposes.",
+                desc: "If you need a company's EIN for a legitimate purpose, such as filing a 1099 form or verifying a vendor, you can simply ask the organization directly. Businesses are accustomed to sharing their EIN with vendors, contractors, and partners for tax reporting purposes. Most companies will provide their EIN if you request it through their accounting or finance department. A W-9 form request is the standard way to obtain a company's EIN for tax reporting purposes.",
               },
               {
                 num: "5",
                 title: "Call the IRS (For Your Own EIN)",
-                desc: "If you are looking for your own EIN — not someone else's — you can call the IRS Business & Specialty Tax Line at 800-829-4933. The line is available Monday through Friday, 7 a.m. to 7 p.m. local time. You will need to verify your identity as an authorized person on the account. The IRS can confirm your EIN over the phone and, if needed, send you an official EIN verification letter (Letter 147C) by fax or mail.",
+                desc: "If you are looking for your own EIN, not someone else's, you can call the IRS Business & Specialty Tax Line at 800-829-4933. The line is available Monday through Friday, 7 a.m. to 7 p.m. local time. You will need to verify your identity as an authorized person on the account. The IRS can confirm your EIN over the phone and, if needed, send you an official EIN verification letter (Letter 147C) by fax or mail.",
               },
             ].map((method) => (
               <StaggerItem key={method.num}>
@@ -141,7 +141,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn>
               <div className="space-y-4 mb-8">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Losing track of your own EIN is more common than you might think. Businesses change accountants, move offices, or simply misplace paperwork over time. The good news is that once the IRS assigns an EIN to your entity, it is permanent — it does not expire or change. You just need to locate it. Here are the four best ways to recover your own EIN:
+                  Losing track of your own EIN is more common than you might think. Businesses change accountants, move offices, or simply misplace paperwork over time. The good news is that once the IRS assigns an EIN to your entity, it is permanent. It does not expire or change. You just need to locate it. Here are the four best ways to recover your own EIN:
                 </p>
               </div>
             </AnimateIn>
@@ -154,11 +154,11 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                 },
                 {
                   title: "Call the IRS at 800-829-4933",
-                  desc: "The IRS Business & Specialty Tax Line can look up your EIN over the phone. You will need to verify your identity — the IRS will ask for the name, address, and other details associated with the EIN. The authorized person (responsible party) listed on the original SS-4 application must be the one to call, or someone with a valid Power of Attorney (Form 2848) on file.",
+                  desc: "The IRS Business & Specialty Tax Line can look up your EIN over the phone. You will need to verify your identity. The IRS will ask for the name, address, and other details associated with the EIN. The authorized person (responsible party) listed on the original SS-4 application must be the one to call, or someone with a valid Power of Attorney (Form 2848) on file.",
                 },
                 {
                   title: "Check Previously Filed Tax Returns",
-                  desc: "Your EIN appears on every federal tax return you have filed — including Form 1120 (corporations), Form 1065 (partnerships), Form 1040 Schedule C (sole proprietors), and payroll tax returns (Form 941). If you have copies of any previous tax filings, your EIN will be printed on the first page.",
+                  desc: "Your EIN appears on every federal tax return you have filed, including Form 1120 (corporations), Form 1065 (partnerships), Form 1040 Schedule C (sole proprietors), and payroll tax returns (Form 941). If you have copies of any previous tax filings, your EIN will be printed on the first page.",
                 },
                 {
                   title: "Check Your Bank Account Records",
@@ -190,7 +190,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  An EIN verification letter — officially known as <strong className="text-[var(--color-text)]">IRS Letter 147C</strong> — is an official document from the IRS that confirms your EIN has been assigned to your specific entity. This letter is different from the original CP 575 confirmation notice you received when your EIN was first issued. The 147C is a verification that can be requested at any time after your EIN has been assigned.
+                  An EIN verification letter, officially known as <strong className="text-[var(--color-text)]">IRS Letter 147C</strong>, is an official document from the IRS that confirms your EIN has been assigned to your specific entity. This letter is different from the original CP 575 confirmation notice you received when your EIN was first issued. The 147C is a verification that can be requested at any time after your EIN has been assigned.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Many banks, payment processors, and financial institutions require a 147C letter when you open a business bank account or apply for merchant services. Some institutions will not accept the original CP 575 letter because they want a more recent verification, especially if the CP 575 is several years old.
@@ -250,7 +250,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   If you need the EIN for a publicly traded company, the <strong className="text-[var(--color-text)]">SEC EDGAR database</strong> is your best resource. Every public company in the United States is required to file periodic reports with the Securities and Exchange Commission, and these filings are freely accessible at <strong className="text-[var(--color-text)]">sec.gov/cgi-bin/browse-edgar</strong>.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  To find a company&apos;s EIN on EDGAR, search for the company by name or ticker symbol. Open any recent filing — a 10-K (annual report) or 10-Q (quarterly report) is usually the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <span className="font-semibold">9-digit EIN</span>.
+                  To find a company&apos;s EIN on EDGAR, search for the company by name or ticker symbol. Open any recent filing. A 10-K (annual report) or 10-Q (quarterly report) is usually the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <span className="font-semibold">9-digit EIN</span>.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   This method works for any company that files with the SEC, including large corporations, publicly traded partnerships, and real estate investment trusts (REITs). It does not work for private companies, LLCs, or sole proprietorships that are not required to file with the SEC.
@@ -355,13 +355,13 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn>
               <div className="space-y-4 mb-8">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  If you are not looking up an existing EIN but instead need to <strong className="text-[var(--color-text)]">obtain a new EIN for your business</strong>, the process is straightforward — but it depends on whether you have a US-based Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN).
+                  If you are not looking up an existing EIN but instead need to <strong className="text-[var(--color-text)]">obtain a new EIN for your business</strong>, the process is straightforward, but it depends on whether you have a US-based Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN).
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  US residents with an SSN or ITIN can apply directly through the IRS online EIN Assistant at no cost. However, <strong className="text-[var(--color-text)]">non-US residents without an SSN or ITIN cannot use the online system</strong>. Instead, they must file Form SS-4 with the IRS by fax or mail — a process that can be confusing and error-prone, especially if you are unfamiliar with IRS forms and terminology.
+                  US residents with an SSN or ITIN can apply directly through the IRS online EIN Assistant at no cost. However, <strong className="text-[var(--color-text)]">non-US residents without an SSN or ITIN cannot use the online system</strong>. Instead, they must file Form SS-4 with the IRS by fax or mail, a process that can be confusing and error-prone, especially if you are unfamiliar with IRS forms and terminology.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  That is exactly what <strong className="text-[var(--color-text)]">ein.so</strong> handles. For <strong className="text-[var(--color-text)]">$49</strong>, we prepare and file your Form SS-4 with the IRS on your behalf. We handle the entire process — from form preparation to IRS submission to delivering your EIN by email. No SSN required, no confusion, no delays from filing errors.
+                  That is exactly what <strong className="text-[var(--color-text)]">ein.so</strong> handles. For <strong className="text-[var(--color-text)]">$49</strong>, we prepare and file your Form SS-4 with the IRS on your behalf. We handle the entire process, from form preparation to IRS submission to delivering your EIN by email. No SSN required, no confusion, no delays from filing errors.
                 </p>
               </div>
             </AnimateIn>
@@ -370,7 +370,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                 href="/apply/"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
               >
-                Apply for an EIN — $49
+                Apply for an EIN · $49
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>

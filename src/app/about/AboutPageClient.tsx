@@ -13,7 +13,7 @@ export default function AboutPageClient() {
         label="About Us"
         title="About"
         titleAccent="ein.so"
-        description="We help non-US residents get their EIN number — fast, affordable, and hassle-free."
+        description="We help non-US residents get their EIN number. Fast, affordable, and hassle-free."
       />
 
       {/* Mission */}
@@ -35,7 +35,7 @@ export default function AboutPageClient() {
                   We handle the entire SS-4 fax process on your behalf. You provide your information, we prepare and submit your form to the IRS, and your EIN is delivered by email.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  At <strong className="text-[var(--color-text)]">$49</strong>, we&apos;re the most affordable EIN service available. No upsells, no hidden fees — just a direct, professional service that gets the job done.
+                  At <strong className="text-[var(--color-text)]">$49</strong>, we&apos;re the most affordable EIN service available. No upsells, no hidden fees, just a direct, professional service that gets the job done.
                 </p>
               </div>
             </AnimateIn>
@@ -66,7 +66,7 @@ export default function AboutPageClient() {
               },
               {
                 title: "Fast Processing",
-                desc: "Standard delivery in 5-7 business days. Express in 2-3 business days. We don't sit on applications — we file them immediately.",
+                desc: "Standard delivery in 5-7 business days. Express in 2-3 business days. We don't sit on applications. We file them immediately.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
@@ -75,7 +75,7 @@ export default function AboutPageClient() {
               },
               {
                 title: "WhatsApp Support",
-                desc: "Real human support through WhatsApp. Ask questions, get status updates, and receive your EIN — all in one conversation.",
+                desc: "Real human support through WhatsApp. Ask questions, get status updates, and receive your EIN, all in one conversation.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
@@ -126,7 +126,7 @@ export default function AboutPageClient() {
                   Your only option is to <strong className="text-[var(--color-text)]">fax Form SS-4</strong> to the IRS international fax line. But the form is confusing, the instructions are unclear, and a single mistake can mean rejection and weeks of delay.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  That&apos;s where we come in. We&apos;ve filed hundreds of SS-4 forms. We know exactly how to fill them out for non-resident applicants — LLCs, sole proprietors, partnerships, and more. We handle the fax, the follow-up, and the delivery.
+                  That&apos;s where we come in. We&apos;ve filed hundreds of SS-4 forms. We know exactly how to fill them out for non-resident applicants: LLCs, sole proprietors, partnerships, and more. We handle the fax, the follow-up, and the delivery.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">You provide the information. We do everything else.</strong>

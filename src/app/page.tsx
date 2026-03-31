@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). The only requirement is that you file Form SS-4 by fax or phone — you cannot use the IRS online application. We handle the entire fax process for you." },
-  { q: "How much does it cost to get an EIN through ein.so?", a: "Standard EIN service is $49 with 5-7 business day turnaround. Express EIN service is $97 with 2-3 business day turnaround. The IRS does not charge a fee for EINs — our fee covers SS-4 preparation, filing, and delivery." },
+  { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). The only requirement is that you file Form SS-4 by fax or phone. You cannot use the IRS online application. We handle the entire fax process for you." },
+  { q: "How much does it cost to get an EIN through ein.so?", a: "Standard EIN service is $49 with 5-7 business day turnaround. Express EIN service is $97 with 2-3 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery." },
   { q: "How long does it take to get an EIN?", a: "By fax (how non-residents must apply), the IRS processes Form SS-4 in approximately 4 business days. Our Standard service delivers in 5-7 business days. Express service delivers in 2-3 business days with priority processing." },
   { q: "Do I need an SSN to get an EIN?", a: "No. Non-US residents can get an EIN without an SSN. You will need a valid passport or other government-issued ID. Form SS-4 has a specific section for applicants without an SSN or ITIN." },
   { q: "What is the difference between an EIN and an ITIN?", a: "An EIN (Employer Identification Number) is a tax ID for businesses. An ITIN (Individual Taxpayer Identification Number) is a tax ID for individuals who cannot get an SSN. Many non-US business owners need both." },

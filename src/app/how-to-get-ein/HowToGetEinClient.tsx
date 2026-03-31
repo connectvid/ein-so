@@ -13,7 +13,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
         label="Step-by-Step Guide"
         title="How to Get an EIN Number"
         titleAccent="in 2026"
-        description="Everything you need to know about obtaining an Employer Identification Number from the IRS — whether you are a US resident or applying from abroad."
+        description="Everything you need to know about obtaining an Employer Identification Number from the IRS, whether you are a US resident or applying from abroad."
       />
 
       {/* Answer Capsule */}
@@ -93,7 +93,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
         </div>
       </section>
 
-      {/* Method 1 — Online */}
+      {/* Method 1 - Online */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="max-w-3xl mx-auto">
@@ -148,7 +148,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
         </div>
       </section>
 
-      {/* Method 2 — Fax */}
+      {/* Method 2 - Fax */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="max-w-3xl mx-auto">
@@ -197,7 +197,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
         </div>
       </section>
 
-      {/* Method 3 — Phone */}
+      {/* Method 3 - Phone */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="max-w-3xl mx-auto">
@@ -293,7 +293,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
                   href="/apply/"
                   className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
-                  Apply Now &mdash; From $49
+                  Apply Now · From $49
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                 </Link>
               </div>
@@ -313,7 +313,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
           <AnimateIn className="max-w-3xl mx-auto">
             <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">The Application Form</p>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
-              Form SS-4 &mdash; <span className="font-display gradient-text">What You Need</span>
+              Form SS-4: <span className="font-display gradient-text">What You Need</span>
             </h2>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">

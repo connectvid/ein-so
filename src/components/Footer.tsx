@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} ein.so — All rights reserved. ein.so is not affiliated with the IRS.
+            &copy; {new Date().getFullYear()} ein.so. All rights reserved. ein.so is not affiliated with the IRS.
           </p>
           <div className="flex gap-6 text-xs text-white/40">
             <span>Privacy</span>

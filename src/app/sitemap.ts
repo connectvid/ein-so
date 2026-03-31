@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ein.so";
 
-  // Phase 1 pages only — expand as pages are built
+  // Phase 1 pages only - expand as pages are built
   const pages = [
     { url: "/", priority: 1.0, changeFrequency: "weekly" as const },
     { url: "/apply/", priority: 0.9, changeFrequency: "monthly" as const },

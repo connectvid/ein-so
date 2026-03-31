@@ -39,7 +39,7 @@ const faqs: { q: string; a: string; category: string }[] = [
   {
     category: "General EIN Questions",
     q: "What is the difference between an EIN and an ITIN?",
-    a: "An EIN identifies a business entity, while an ITIN is for individuals who need a US tax ID but are not eligible for an SSN. You may need both — an EIN for your business and an ITIN for your personal US tax obligations.",
+    a: "An EIN identifies a business entity, while an ITIN is for individuals who need a US tax ID but are not eligible for an SSN. You may need both: an EIN for your business and an ITIN for your personal US tax obligations.",
   },
 
   // Non-Resident Specific
@@ -125,7 +125,7 @@ const faqs: { q: string; a: string; category: string }[] = [
   {
     category: "After Getting Your EIN",
     q: "What if my EIN application is rejected by the IRS?",
-    a: "IRS rejections are rare when the form is completed correctly. If your application is rejected for any reason we caused, we will refile at no additional cost or provide a full refund — no questions asked.",
+    a: "IRS rejections are rare when the form is completed correctly. If your application is rejected for any reason we caused, we will refile at no additional cost or provide a full refund, no questions asked.",
   },
   {
     category: "After Getting Your EIN",

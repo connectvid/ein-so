@@ -95,7 +95,7 @@ export default function ContactPageClient() {
                 We Respond Within <span className="font-display gradient-text">Hours</span>, Not Days
               </h2>
               <p className="text-lg text-[var(--color-text-muted)] leading-relaxed mb-8 max-w-xl mx-auto">
-                Whether you have a question about the EIN process, need help with your application, or want to check on your status — we&apos;re fast. Most messages are answered within a few hours during business hours.
+                Whether you have a question about the EIN process, need help with your application, or want to check on your status, we&apos;re fast. Most messages are answered within a few hours during business hours.
               </p>
             </AnimateIn>
 

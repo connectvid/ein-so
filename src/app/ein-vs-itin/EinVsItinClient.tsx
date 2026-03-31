@@ -17,7 +17,7 @@ const comparisonRows = [
   { label: "Processing Time", ein: "Instant (online) or 4-7 days (fax)", itin: "6-11 weeks" },
   { label: "Requires SSN?", ein: "No (for non-residents filing by fax)", itin: "No (it replaces an SSN)" },
   { label: "Used to File", ein: "Business tax returns (1120, 1065, etc.)", itin: "Personal tax returns (1040-NR, etc.)" },
-  { label: "Opens Bank Account?", ein: "Yes — business bank accounts", itin: "Yes — personal bank accounts at some institutions" },
+  { label: "Opens Bank Account?", ein: "Yes, business bank accounts", itin: "Yes, personal bank accounts at some institutions" },
 ];
 
 export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string }[] }) {
@@ -39,7 +39,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
               <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Short Answer</p>
               <p className="text-[var(--color-text)] leading-relaxed text-base">
                 An <strong>EIN (Employer Identification Number)</strong> is a 9-digit number the IRS assigns to
-                businesses &mdash; LLCs, corporations, partnerships, and other entities. It is your business&apos;s tax
+                businesses: LLCs, corporations, partnerships, and other entities. It is your business&apos;s tax
                 ID. An <strong>ITIN (Individual Taxpayer Identification Number)</strong> is a 9-digit number the IRS
                 assigns to individuals who need to file US taxes but are not eligible for a Social Security Number (SSN).
                 Many non-US residents need <strong>both</strong>: an EIN for their business and an ITIN for their
@@ -107,7 +107,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   partnership, nonprofit, trust, and estate that operates in the United States needs one.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The EIN format is <strong className="text-[var(--color-text)]">XX-XXXXXXX</strong> &mdash; two digits,
+                  The EIN format is <strong className="text-[var(--color-text)]">XX-XXXXXXX</strong>, two digits,
                   a hyphen, then seven digits (e.g., 12-3456789). You use your EIN to file business tax returns, open a
                   business bank account, apply for business licenses, and hire employees. Without an EIN, your business
                   cannot operate legally in the US tax system.
@@ -115,7 +115,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   US residents with an SSN can apply for an EIN online at irs.gov in minutes. Non-US residents without an
                   SSN must apply by faxing Form SS-4 to the IRS. This fax-based process typically takes 4 to 7 business
-                  days. At ein.so, we handle the entire fax process for you &mdash;{" "}
+                  days. At ein.so, we handle the entire fax process for you.{" "}
                   <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     learn more about what an EIN is and why you need one
                   </Link>.
@@ -143,8 +143,8 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   Number. This includes non-resident aliens, their dependents, and spouses of US citizens or residents.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The ITIN format mirrors the SSN format &mdash;{" "}
-                  <strong className="text-[var(--color-text)]">9XX-XX-XXXX</strong> &mdash; but always starts with the
+                  The ITIN format mirrors the SSN format,{" "}
+                  <strong className="text-[var(--color-text)]">9XX-XX-XXXX</strong>, but always starts with the
                   digit 9. Despite looking similar to an SSN, an ITIN does not authorize you to work in the US, does not
                   make you eligible for Social Security benefits, and does not change your immigration status.
                 </p>
@@ -152,7 +152,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   To apply for an ITIN, you must complete <strong className="text-[var(--color-text)]">Form W-7</strong>{" "}
                   and mail it to the IRS along with your federal tax return and original identification documents (or
                   certified copies). Alternatively, you can apply through an IRS-authorized Certifying Acceptance Agent
-                  (CAA). Processing takes approximately 6 to 11 weeks &mdash; significantly longer than the EIN process.
+                  (CAA). Processing takes approximately 6 to 11 weeks, significantly longer than the EIN process.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   ITINs expire if not used on a federal tax return for three consecutive years, or if the ITIN was issued
@@ -194,7 +194,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   <p className="text-[var(--color-text-muted)] leading-relaxed text-sm">
                     Getting an EIN is straightforward: file Form SS-4 online (if you have an SSN) or by fax (if you do
                     not). The process takes minutes to days. Getting an ITIN requires Form W-7, a completed tax return,
-                    and original identity documents mailed to the IRS. The process takes 6 to 11 weeks &mdash; and you
+                    and original identity documents mailed to the IRS. The process takes 6 to 11 weeks, and you
                     must surrender your passport or other original documents during that time (unless you use a CAA).
                   </p>
                 </div>
@@ -325,7 +325,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">TIN (Tax Identification Number)</strong> is the umbrella
-                  term. It is not a specific number type &mdash; it refers to any number used to identify a taxpayer. An
+                  term. It is not a specific number type. It refers to any number used to identify a taxpayer. An
                   SSN, ITIN, and EIN are all types of TINs.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -340,7 +340,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">EIN</strong> is the TIN for business entities. It has
-                  nothing to do with individual tax filing &mdash; it is strictly for businesses.
+                  nothing to do with individual tax filing. It is strictly for businesses.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For a deeper dive into how these numbers compare, see our guide on{" "}
@@ -392,7 +392,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   href="/apply/"
                   className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
-                  Get My EIN &mdash; $49
+                  Get My EIN for $49
                   <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
                     <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
@@ -419,7 +419,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   </p>
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                     <strong className="text-[var(--color-text)]">Step 3:</strong> Mail the W-7, tax return, and original
-                    identification documents to the IRS &mdash; or visit an IRS-authorized Certifying Acceptance Agent
+                    identification documents to the IRS, or visit an IRS-authorized Certifying Acceptance Agent
                     (CAA) to avoid mailing originals.
                   </p>
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
