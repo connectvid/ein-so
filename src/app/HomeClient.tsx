@@ -70,7 +70,7 @@ export default function HomeClient() {
   return (
     <>
       {/* ═══ HERO ═══ */}
-      <section className="relative bg-[var(--color-navy)] pt-32 pb-20 lg:pt-44 lg:pb-32 overflow-hidden">
+      <section className="relative bg-[var(--color-navy)] pt-36 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
         <AnimatedGradient className="absolute inset-0" />
         <div className="absolute inset-0 hero-grid" />
 
@@ -188,7 +188,7 @@ export default function HomeClient() {
               <div className="text-[11px] text-[var(--color-text-muted)] font-medium mt-0.5">Money-Back Guarantee</div>
             </div>
             <div className="py-5 px-4 text-center">
-              <div className="text-2xl font-extrabold text-[var(--color-success)]">No SSN</div>
+              <div className="text-2xl font-extrabold text-[var(--color-navy)]">No SSN</div>
               <div className="text-[11px] text-[var(--color-text-muted)] font-medium mt-0.5">Required to Apply</div>
             </div>
           </div>
