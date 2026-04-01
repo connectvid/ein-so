@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import AnnouncementBar from "@/components/AnnouncementBar";
 import { SITE, NAV_LINKS } from "@/lib/constants";
 
 const inter = Inter({
@@ -65,6 +66,7 @@ export default function RootLayout({
           <a href="/apply/">Apply</a>
           <a href="/ein-lookup/">EIN Lookup</a>
         </nav>
+        <AnnouncementBar />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
