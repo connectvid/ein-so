@@ -9,7 +9,7 @@ export default function AnnouncementBar() {
   if (!visible) return null;
 
   return (
-    <div className="bg-[var(--color-blue)] text-white text-sm py-2.5 relative z-[60]">
+    <div className="bg-[var(--color-navy)] text-white text-sm py-2.5 relative z-[60] border-b border-white/10">
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-center gap-3">
         <p className="text-center font-medium">
           <span className="hidden sm:inline">Non-US resident? </span>
