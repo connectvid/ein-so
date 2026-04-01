@@ -3,7 +3,7 @@ import { FAQSchema, BreadcrumbSchema, ArticleSchema, HowToSchema } from "../sche
 import HowToGetEinClient from "./HowToGetEinClient";
 
 export const metadata: Metadata = {
-  title: "How to Get an EIN Number (2026) | Step-by-Step Guide | ein.so",
+  title: "How to Get an EIN Number (2026) | Step-by-Step Guide",
   description:
     "Learn how to get an EIN number in 2026. Three methods explained: online, fax (Form SS-4), and phone. Step-by-step guide for US residents and non-residents.",
   alternates: { canonical: "/how-to-get-ein/" },

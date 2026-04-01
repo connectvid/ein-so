@@ -41,7 +41,7 @@ export default function FAQPageClient({
       <PageHero
         label="FAQ"
         title="EIN FAQ:"
-        titleAccent="Your Questions Answered"
+        titleAccent="Answers to Every EIN Question (2026)"
         description="Find answers to the most common questions about EIN numbers, the application process, and how our service works for non-US residents."
       />
 

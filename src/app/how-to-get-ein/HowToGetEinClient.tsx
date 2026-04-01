@@ -562,20 +562,24 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             <h2 className="text-2xl font-extrabold text-[var(--color-text)]">Related Guides</h2>
           </AnimateIn>
           <StaggerContainer className="flex flex-wrap justify-center gap-4" staggerDelay={0.05}>
+            <StaggerItem>
+              <Link
+                href="/what-is-ein/"
+                className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)] hover:border-[var(--color-blue)]/30 hover:text-[var(--color-blue)] transition-all"
+              >
+                What Is an EIN?
+              </Link>
+            </StaggerItem>
             {[
-              { label: "What Is an EIN?", href: "/what-is-ein/" },
-              { label: "SS-4 Form Guide", href: "/ss4-form-guide/" },
-              { label: "EIN Without SSN", href: "/ein-without-ssn/" },
-              { label: "EIN Processing Time", href: "/ein-processing-time/" },
-              { label: "EIN Rejection Guide", href: "/ein-rejection-guide/" },
-            ].map((link) => (
-              <StaggerItem key={link.href}>
-                <Link
-                  href={link.href}
-                  className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)] hover:border-[var(--color-blue)]/30 hover:text-[var(--color-blue)] transition-all"
-                >
-                  {link.label}
-                </Link>
+              "SS-4 Form Guide",
+              "EIN Without SSN",
+              "EIN Processing Time",
+              "EIN Rejection Guide",
+            ].map((label) => (
+              <StaggerItem key={label}>
+                <span className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)]">
+                  {label}
+                </span>
               </StaggerItem>
             ))}
           </StaggerContainer>

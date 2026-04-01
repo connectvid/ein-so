@@ -11,8 +11,8 @@ export default function ContactPageClient() {
     <>
       <PageHero
         label="Contact"
-        title="Get in"
-        titleAccent="Touch"
+        title="Contact ein.so:"
+        titleAccent="EIN Support via WhatsApp"
         description="Have a question about your EIN application? We're here to help. Reach out through WhatsApp or email."
       />
 

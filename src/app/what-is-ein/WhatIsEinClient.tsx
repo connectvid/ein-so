@@ -528,11 +528,6 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
             {[
               { label: "How to Get an EIN", href: "/how-to-get-ein/" },
               { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
-              { label: "EIN vs SSN", href: "/ein-vs-ssn/" },
-              { label: "EIN vs Tax ID", href: "/ein-vs-tax-id/" },
-              { label: "Who Needs an EIN?", href: "/who-needs-ein/" },
-              { label: "EIN Number Format", href: "/ein-number-format/" },
-              { label: "EIN for Non-Residents", href: "/ein-for-non-residents/" },
             ].map((link) => (
               <StaggerItem key={link.href}>
                 <Link
@@ -544,6 +539,19 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                     <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </Link>
+              </StaggerItem>
+            ))}
+            {[
+              "EIN vs SSN",
+              "EIN vs Tax ID",
+              "Who Needs an EIN?",
+              "EIN Number Format",
+              "EIN for Non-Residents",
+            ].map((label) => (
+              <StaggerItem key={label}>
+                <span className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)]">
+                  {label}
+                </span>
               </StaggerItem>
             ))}
           </StaggerContainer>

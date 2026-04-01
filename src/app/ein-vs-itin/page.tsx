@@ -3,7 +3,7 @@ import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinVsItinClient from "./EinVsItinClient";
 
 export const metadata: Metadata = {
-  title: "EIN vs ITIN: What's the Difference? 2026 Guide | ein.so",
+  title: "EIN vs ITIN: What's the Difference? 2026 Guide",
   description:
     "EIN vs ITIN: An EIN identifies your business; an ITIN identifies you as a taxpayer without an SSN. Learn which you need and how to apply.",
   alternates: { canonical: "/ein-vs-itin/" },
@@ -46,7 +46,7 @@ export default function EinVsItinPage() {
         ]}
       />
       <ArticleSchema
-        headline="EIN vs ITIN: Key Differences Explained"
+        headline="EIN vs ITIN: Key Differences Explained (2026)"
         description="A comprehensive comparison of EIN and ITIN: who needs each, how to apply, and whether you need both."
         url="/ein-vs-itin/"
       />

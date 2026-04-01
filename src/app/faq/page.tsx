@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { FAQSchema, BreadcrumbSchema } from "../schema";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import FAQPageClient from "./FAQPageClient";
 
 export const metadata: Metadata = {
-  title: "EIN FAQ 2026 | All EIN Questions Answered | ein.so",
+  title: "EIN FAQ 2026 | All EIN Questions Answered",
   description:
     "Comprehensive FAQ about EIN numbers for non-US residents. Learn about the application process, requirements, costs, and what to do after receiving your EIN.",
   alternates: { canonical: "/faq/" },
@@ -149,6 +149,11 @@ export default function FAQPage() {
         ]}
       />
       <FAQSchema faqs={faqs} />
+      <ArticleSchema
+        headline="EIN FAQ: Answers to Every EIN Question (2026)"
+        description="Comprehensive FAQ about EIN numbers for non-US residents."
+        url="/faq/"
+      />
       <FAQPageClient faqs={faqs} />
     </>
   );

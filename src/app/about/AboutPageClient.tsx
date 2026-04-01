@@ -11,8 +11,8 @@ export default function AboutPageClient() {
     <>
       <PageHero
         label="About Us"
-        title="About"
-        titleAccent="ein.so"
+        title="About ein.so:"
+        titleAccent="EIN Service for Non-US Residents"
         description="We help non-US residents get their EIN number. Fast, affordable, and hassle-free."
       />
 

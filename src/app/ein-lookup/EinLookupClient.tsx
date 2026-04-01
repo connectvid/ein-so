@@ -11,7 +11,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
       <PageHero
         label="EIN Lookup Guide"
         title="EIN Lookup:"
-        titleAccent="How to Find Any EIN Number"
+        titleAccent="How to Find Any EIN Number (2026)"
         description="The IRS does not offer a free public EIN lookup tool. But there are several methods to find any EIN number, whether it belongs to a non-profit, a public company, or your own business. This guide covers every option available in 2026."
       />
 

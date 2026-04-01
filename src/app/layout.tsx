@@ -63,6 +63,7 @@ export default function RootLayout({
             <a key={link.href} href={link.href}>{link.label}</a>
           ))}
           <a href="/apply/">Apply</a>
+          <a href="/ein-lookup/">EIN Lookup</a>
         </nav>
         <Header />
         <main className="flex-1">{children}</main>

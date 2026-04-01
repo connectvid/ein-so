@@ -3,7 +3,7 @@ import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import WhatIsEinClient from "./WhatIsEinClient";
 
 export const metadata: Metadata = {
-  title: "What Is an EIN Number? Complete Guide 2026 | ein.so",
+  title: "What Is an EIN Number? Complete Guide 2026",
   description:
     "An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, and how to apply in our 2026 guide.",
   alternates: { canonical: "/what-is-ein/" },

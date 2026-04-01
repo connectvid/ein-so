@@ -11,8 +11,8 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
     <>
       <PageHero
         label="Apply Now"
-        title="Get Your EIN:"
-        titleAccent="Start Today"
+        title="Apply for Your EIN:"
+        titleAccent="Non-Resident SS-4 Filing Service"
         description="Choose your package below. We file Form SS-4 with the IRS and deliver your EIN by email. No SSN required."
       />
 

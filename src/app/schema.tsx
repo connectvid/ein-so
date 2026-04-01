@@ -43,11 +43,6 @@ export function WebSiteSchema() {
     name: "ein.so",
     url: SITE.url,
     description: SITE.description,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://ein.so/?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }

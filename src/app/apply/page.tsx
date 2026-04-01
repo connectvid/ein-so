@@ -16,11 +16,24 @@ const faqs = [
   { q: "What if my application is rejected?", a: "If the IRS rejects your application for any reason we caused, we will refile at no additional cost or provide a full refund." },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "EIN Application Service",
+  provider: { "@type": "Organization", name: "ein.so", url: "https://ein.so" },
+  description: "We file Form SS-4 with the IRS by fax and deliver your EIN.",
+  offers: [
+    { "@type": "Offer", name: "Standard EIN", price: "49", priceCurrency: "USD" },
+    { "@type": "Offer", name: "Express EIN", price: "97", priceCurrency: "USD" },
+  ],
+};
+
 export default function ApplyPage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Apply", url: "/apply/" }]} />
       <FAQSchema faqs={faqs} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <ApplyPageClient faqs={faqs} />
     </>
   );

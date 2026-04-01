@@ -27,7 +27,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
       <PageHero
         label="Comparison Guide"
         title="EIN vs ITIN:"
-        titleAccent="Key Differences Explained"
+        titleAccent="Key Differences Explained (2026)"
         description="Both are 9-digit IRS numbers, but they serve completely different purposes. An EIN identifies your business. An ITIN identifies you as an individual taxpayer. Here is everything you need to know."
       />
 
@@ -486,9 +486,6 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
           <StaggerContainer className="flex flex-wrap justify-center gap-4" staggerDelay={0.05}>
             {[
               { label: "What Is an EIN?", href: "/what-is-ein/" },
-              { label: "EIN vs SSN", href: "/ein-vs-ssn/" },
-              { label: "EIN vs TIN", href: "/ein-vs-tin/" },
-              { label: "EIN vs Tax ID", href: "/ein-vs-tax-id/" },
               { label: "Apply for EIN", href: "/apply/" },
             ].map((link) => (
               <StaggerItem key={link.href}>
@@ -500,6 +497,21 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 </Link>
               </StaggerItem>
             ))}
+            <StaggerItem>
+              <span className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)]">
+                EIN vs SSN
+              </span>
+            </StaggerItem>
+            <StaggerItem>
+              <span className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)]">
+                EIN vs TIN
+              </span>
+            </StaggerItem>
+            <StaggerItem>
+              <span className="inline-flex items-center gap-2 bg-white border border-[var(--color-border)] rounded-xl px-5 py-2.5 text-sm font-semibold text-[var(--color-text)]">
+                EIN vs Tax ID
+              </span>
+            </StaggerItem>
           </StaggerContainer>
         </div>
       </section>
