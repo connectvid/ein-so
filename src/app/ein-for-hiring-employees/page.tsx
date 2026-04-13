@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinForHiringEmployeesClient from "./EinForHiringEmployeesClient";
+
+export const metadata: Metadata = {
+  title: "EIN for Hiring Employees: Payroll Tax Requirements (2026)",
+  description:
+    "You must have an EIN before hiring your first employee. Required for Form 941, W-2s, and state payroll tax registration.",
+  alternates: { canonical: "/ein-for-hiring-employees/" },
+};
+
+const faqs = [
+  {
+    q: "Do I need an EIN before hiring my first employee?",
+    a: "Yes. The IRS requires every employer to have an EIN before paying wages. You need your EIN to set up federal payroll tax accounts, file Form 941 (quarterly payroll tax return), issue W-2s at year end, and register with your state's tax and labor agencies. You cannot legally hire an employee without an EIN.",
+  },
+  {
+    q: "Can I hire independent contractors without an EIN?",
+    a: "Technically, you can hire independent contractors using your SSN on 1099-NEC forms. However, using an EIN is strongly recommended because it protects your SSN from appearing on contractor tax forms. If you pay any contractor more than $600 in a year, you must issue a 1099-NEC with your TIN.",
+  },
+  {
+    q: "What is Form 941 and why does it need my EIN?",
+    a: "Form 941 is the Employer's Quarterly Federal Tax Return. You file it every quarter to report income taxes, Social Security tax, and Medicare tax withheld from employee paychecks. Your EIN identifies your business on this form. Failure to file Form 941 results in IRS penalties.",
+  },
+  {
+    q: "How do I set up payroll with my EIN?",
+    a: "After getting your EIN, register with your state's tax agency for state withholding and unemployment insurance. Then choose a payroll system (Gusto, ADP, QuickBooks Payroll, etc.), enter your EIN during setup, add employee information including their W-4 forms, and run your first payroll. Most payroll systems handle tax filings automatically.",
+  },
+  {
+    q: "Do I need a separate EIN for each state I hire in?",
+    a: "No. Your federal EIN works nationwide. However, you need to register separately with each state where you have employees. Each state issues its own employer identification numbers for state tax withholding and unemployment insurance. Your federal EIN is used on federal forms; state IDs are used on state forms.",
+  },
+  {
+    q: "What payroll taxes do employers pay?",
+    a: "Employers pay the employer portion of Social Security (6.2%) and Medicare (1.45%) taxes, federal unemployment tax (FUTA, 6% on first $7,000 per employee), and state unemployment tax (SUTA, rates vary by state). You also withhold the employee portion of Social Security, Medicare, and federal/state income taxes from their paychecks. Your EIN is on all payroll tax filings.",
+  },
+  {
+    q: "How long does it take to get an EIN for hiring?",
+    a: "US residents with an SSN can get an EIN instantly online at IRS.gov. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 2-3 business days. Get your EIN before posting job listings so you are ready to onboard employees immediately.",
+  },
+  {
+    q: "What happens if I hire employees without an EIN?",
+    a: "Hiring employees without an EIN means you cannot file payroll taxes, which triggers IRS penalties. Failure-to-deposit penalties range from 2% to 15% of the unpaid tax. You also cannot issue W-2s, which creates problems for your employees. The IRS can assess trust fund recovery penalties against responsible individuals personally.",
+  },
+];
+
+export default function EinForHiringEmployeesPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "What Can You Do With an EIN?", url: "/what-can-you-do-with-ein/" },
+          { name: "EIN for Hiring Employees", url: "/ein-for-hiring-employees/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN for Hiring Employees: Payroll Tax Requirements (2026)"
+        description="Complete guide to EIN requirements for employers. Covers payroll tax setup, Form 941, W-2s, state registration, and hiring compliance."
+        url="/ein-for-hiring-employees/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinForHiringEmployeesClient faqs={faqs} />
+    </>
+  );
+}

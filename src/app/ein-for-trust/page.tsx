@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinForTrustClient from "./EinForTrustClient";
+
+export const metadata: Metadata = {
+  title: "EIN for Trust: When Trusts Need an EIN (2026)",
+  description:
+    "Irrevocable trusts always need an EIN. Revocable trusts need one after the grantor dies. Learn which trusts need an EIN and how to apply.",
+  alternates: { canonical: "/ein-for-trust/" },
+};
+
+const faqs = [
+  {
+    q: "Does a revocable trust need an EIN?",
+    a: "Not while the grantor is alive. A revocable (living) trust uses the grantor's SSN during the grantor's lifetime because it is a grantor trust for tax purposes. After the grantor dies, the trust becomes irrevocable and the successor trustee must obtain an EIN for the trust.",
+  },
+  {
+    q: "Does an irrevocable trust need an EIN?",
+    a: "Yes. An irrevocable trust always needs its own EIN because it is a separate tax entity. The trustee must obtain an EIN when the trust is created and use it for all tax filings (Form 1041), bank accounts, and investment accounts held in the trust's name.",
+  },
+  {
+    q: "How much does it cost to get an EIN for a trust?",
+    a: "Getting an EIN from the IRS is free. If the trustee has an SSN or ITIN, they can apply online and receive the EIN instantly. For non-US trustees, ein.so handles the fax application for $49 (Standard) or $97 (Express).",
+  },
+  {
+    q: "Who applies for the trust's EIN?",
+    a: "The trustee applies for the trust's EIN. On Form SS-4, the trustee is listed as the responsible party. The trustee provides their own SSN or ITIN (or passport number for non-US trustees) and the trust's legal name and details.",
+  },
+  {
+    q: "What entity type do I select for a trust on Form SS-4?",
+    a: "Select 'Trust' on line 9a of Form SS-4. You will also need to specify the type of trust (for example, 'irrevocable trust' or 'trust created upon death of individual'). The IRS uses this information to set up the correct tax account.",
+  },
+  {
+    q: "Does a trust need to file a tax return?",
+    a: "Irrevocable trusts with income above $600 must file Form 1041 (US Income Tax Return for Estates and Trusts) annually. Revocable trusts during the grantor's lifetime report all income on the grantor's personal return and do not file a separate return.",
+  },
+  {
+    q: "Can a trust open a bank account without an EIN?",
+    a: "A revocable trust can open a bank account using the grantor's SSN while the grantor is alive. An irrevocable trust must use its own EIN. After a grantor dies, the successor trustee needs to obtain an EIN before transferring or managing trust accounts.",
+  },
+  {
+    q: "Do testamentary trusts need an EIN?",
+    a: "Yes. A testamentary trust is created by a will and takes effect after the person dies. Since it is irrevocable from creation, it needs its own EIN. The executor or trustee applies for the EIN after the will is admitted to probate.",
+  },
+];
+
+export default function EinForTrustPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
+          { name: "EIN for Trust", url: "/ein-for-trust/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN for Trust: When Trusts Need an EIN (2026)"
+        description="Complete guide to EIN requirements for trusts. Covers revocable trusts, irrevocable trusts, testamentary trusts, and when to apply."
+        url="/ein-for-trust/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinForTrustClient faqs={faqs} />
+    </>
+  );
+}

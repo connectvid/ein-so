@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinForFreelancersClient from "./EinForFreelancersClient";
+
+export const metadata: Metadata = {
+  title: "EIN for Freelancers: Protect Your SSN on W-9 Forms (2026)",
+  description:
+    "Freelancers use an EIN on W-9 forms instead of their SSN. Protect your identity and separate business from personal taxes.",
+  alternates: { canonical: "/ein-for-freelancers/" },
+};
+
+const faqs = [
+  {
+    q: "Do freelancers need an EIN?",
+    a: "Freelancers are not legally required to have an EIN if they operate as sole proprietors with no employees. However, an EIN is strongly recommended because it allows you to put your EIN on W-9 forms instead of your SSN, protecting your identity. It is required if you form an LLC or hire employees.",
+  },
+  {
+    q: "Can I use an EIN instead of my SSN on a W-9?",
+    a: "Yes. Sole proprietors can use either their SSN or EIN on Form W-9. By using your EIN, you avoid sharing your SSN with every client who requests a W-9. This significantly reduces your exposure to identity theft, especially if you work with many clients.",
+  },
+  {
+    q: "Do I need an EIN for Upwork or Fiverr?",
+    a: "Upwork and Fiverr require US-based freelancers to submit a W-9 with a TIN. You can use your SSN or EIN. Non-US freelancers must submit a W-8BEN form. If you are a non-US freelancer with a US LLC, you need an EIN for your W-9. Using an EIN on these platforms protects your SSN from appearing in their systems.",
+  },
+  {
+    q: "How do freelancers get an EIN?",
+    a: "US residents with an SSN can apply online at IRS.gov and receive an EIN instantly. Non-US freelancers must apply by fax using Form SS-4, which takes 4-7 business days. ein.so handles the fax process for non-US freelancers for $49 (Standard) or $97 (Express).",
+  },
+  {
+    q: "Does having an EIN affect my taxes as a freelancer?",
+    a: "An EIN does not change your tax obligations. As a sole proprietor, you still report freelance income on Schedule C of your personal tax return. The EIN simply replaces your SSN as your business identifier on W-9 forms and 1099s. If you form an LLC, the EIN is used for the LLC's tax filings.",
+  },
+  {
+    q: "Can a freelancer use an EIN to open a business bank account?",
+    a: "Yes. Banks accept an EIN to open a business bank account. This lets you separate business and personal finances, which simplifies tax preparation and provides clearer financial records. Most banks require your EIN confirmation letter (CP 575) to open the account.",
+  },
+  {
+    q: "Do I need a separate EIN for each freelance business?",
+    a: "If you operate multiple businesses as a sole proprietor, you typically use one EIN. However, if you form separate LLCs for different businesses, each LLC needs its own EIN. Most freelancers only need one EIN unless they have distinct business entities.",
+  },
+  {
+    q: "What is the difference between an EIN and an SSN for freelancers?",
+    a: "Your SSN is your personal tax identifier issued at birth or through immigration. An EIN is a business tax identifier issued by the IRS. Both work on W-9 forms, but using an EIN protects your SSN from being shared with clients, platforms, and payment processors. An EIN is free to obtain and has no downside.",
+  },
+];
+
+export default function EinForFreelancersPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
+          { name: "EIN for Freelancers", url: "/ein-for-freelancers/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN for Freelancers: Protect Your SSN on W-9 Forms (2026)"
+        description="Complete guide to EINs for freelancers. Covers W-9 protection, Upwork and Fiverr requirements, identity protection, and tax benefits of using an EIN."
+        url="/ein-for-freelancers/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinForFreelancersClient faqs={faqs} />
+    </>
+  );
+}

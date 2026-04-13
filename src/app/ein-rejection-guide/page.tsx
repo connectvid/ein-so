@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinRejectionGuideClient from "./EinRejectionGuideClient";
+
+export const metadata: Metadata = {
+  title: "EIN Application Rejected? Fix & Reapply Guide (2026)",
+  description:
+    "EIN rejections happen due to duplicate applications, incorrect SS-4 data, or name mismatches. Learn how to fix errors and reapply.",
+  alternates: { canonical: "/ein-rejection-guide/" },
+};
+
+const faqs = [
+  {
+    q: "Why was my EIN application rejected by the IRS?",
+    a: "The most common reasons for EIN rejection are duplicate applications (you already have an EIN for the same entity), incorrect or mismatched information on Form SS-4, name mismatches between your formation documents and your application, using an invalid SSN or ITIN as the responsible party identifier, or submitting an incomplete form. The IRS sends a rejection notice explaining the specific reason.",
+  },
+  {
+    q: "Can I reapply for an EIN after being rejected?",
+    a: "Yes. You can reapply for an EIN after fixing the errors that caused the rejection. If you applied online, you can try again immediately after correcting the information. If you applied by fax using Form SS-4, you need to submit a corrected form. There is no penalty or waiting period for reapplying after a rejection.",
+  },
+  {
+    q: "How long does it take to get an EIN after reapplying?",
+    a: "The timeline depends on your application method. Online applications receive an EIN instantly if accepted. Fax applications take 4 to 7 business days for Standard processing. With ein.so Express service, fax applications take 2 to 3 business days. The reapplication processing time is the same as a first-time application.",
+  },
+  {
+    q: "What does 'duplicate EIN' rejection mean?",
+    a: "A duplicate EIN rejection means the IRS already has an EIN on file for your business entity with the same name and responsible party. This happens when someone previously applied for an EIN for the same entity, or when the IRS matched your application to an existing record. You need to locate the existing EIN rather than apply for a new one.",
+  },
+  {
+    q: "Can I fix a name mismatch on my EIN application?",
+    a: "Yes. If your EIN was rejected due to a name mismatch, verify that the business name on Form SS-4 matches your formation documents exactly, including punctuation, abbreviations, and legal designators like LLC or Inc. Resubmit the corrected form. If you already received an EIN with the wrong name, file Form 8822-B to update it.",
+  },
+  {
+    q: "Does ein.so handle rejected EIN applications?",
+    a: "Yes. ein.so reviews every application before submission to prevent common rejection errors. If the IRS rejects an application we filed, we diagnose the issue, correct the form, and resubmit at no additional charge. Our pre-submission review catches most errors before they reach the IRS.",
+  },
+  {
+    q: "What if I lost my EIN rejection notice from the IRS?",
+    a: "If you lost your rejection notice, you can call the IRS Business and Specialty Tax Line at (800) 829-4933 to ask about the status of your application. You can also resubmit Form SS-4 by fax. If the original rejection was due to a duplicate, the IRS representative can help you locate the existing EIN.",
+  },
+  {
+    q: "How does ein.so prevent EIN application rejections?",
+    a: "ein.so prevents rejections through a multi-step review process. We verify your business name matches your formation documents, confirm the responsible party information is formatted correctly, check for duplicate EIN records, validate all required fields are completed, and ensure the form meets current IRS requirements before faxing. This catches over 95% of common errors.",
+  },
+];
+
+export default function EinRejectionGuidePage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "How to Get EIN", url: "/how-to-get-ein/" },
+          { name: "EIN Rejection Guide", url: "/ein-rejection-guide/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN Application Rejected? Fix & Reapply Guide (2026)"
+        description="EIN rejections happen due to duplicate applications, incorrect SS-4 data, or name mismatches. Learn how to fix errors and reapply."
+        url="/ein-rejection-guide/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinRejectionGuideClient faqs={faqs} />
+    </>
+  );
+}

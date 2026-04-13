@@ -1,0 +1,60 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, SoftwareApplicationSchema } from "../../schema";
+import EinEligibilityCheckerClient from "./EinEligibilityCheckerClient";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "Free EIN Eligibility Checker: Do You Need an EIN? (2026)",
+  description:
+    "Answer 5 questions to find out if you need an EIN. Free tool for business owners and non-residents.",
+  alternates: { canonical: "/tools/ein-eligibility-checker/" },
+};
+
+const faqs = [
+  {
+    q: "Who is required to have an EIN?",
+    a: "Any business entity that operates in the United States and has employees, files certain tax returns, or withholds taxes on income paid to a non-resident alien is required to have an EIN. This includes LLCs, corporations, partnerships, nonprofits, trusts, and estates. Sole proprietors with employees also need an EIN.",
+  },
+  {
+    q: "Can a sole proprietor without employees skip getting an EIN?",
+    a: "Technically, yes. A sole proprietor with no employees can use their Social Security Number (SSN) for tax filing purposes. However, most financial advisors recommend obtaining an EIN anyway to protect your SSN from identity theft, appear more professional to clients, and make it easier to open a business bank account.",
+  },
+  {
+    q: "Do non-US residents need an EIN?",
+    a: "Yes, if you conduct any business activity in the United States. Non-US residents who sell on Amazon, Shopify, or other US platforms, open a US bank account, form a US LLC or corporation, or hire US-based employees all need an EIN. Since non-residents cannot use the IRS online application, they must file Form SS-4 by fax or phone.",
+  },
+  {
+    q: "Is this EIN eligibility checker accurate?",
+    a: "This tool provides general guidance based on common IRS rules and is designed to help you understand whether you likely need an EIN. It is not a substitute for professional tax advice. If your situation is complex -- for example, you have multiple entities or unusual tax obligations -- consult a tax professional for a definitive answer.",
+  },
+  {
+    q: "How much does it cost to get an EIN from the IRS?",
+    a: "The IRS does not charge a fee for issuing an EIN. However, the online application requires an SSN or ITIN, which means non-residents cannot use it. Services like ein.so file Form SS-4 on your behalf by fax for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days).",
+  },
+  {
+    q: "Can I use this tool if I already have a business?",
+    a: "Absolutely. This eligibility checker works for both new and existing businesses. If you already operate a business but have been using your SSN, this tool will help you determine whether you should obtain an EIN. In most cases, the answer is yes -- especially if you plan to hire, open a business bank account, or expand operations.",
+  },
+];
+
+export default function EinEligibilityCheckerPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
+          { name: "EIN Eligibility Checker", url: "/tools/ein-eligibility-checker/" },
+        ]}
+      />
+      <SoftwareApplicationSchema
+        name="EIN Eligibility Checker"
+        description="Free interactive tool to determine if you need an EIN from the IRS. Answer 5 simple questions to get a personalized recommendation."
+        url="/tools/ein-eligibility-checker/"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinEligibilityCheckerClient faqs={faqs} />
+    </>
+  );
+}

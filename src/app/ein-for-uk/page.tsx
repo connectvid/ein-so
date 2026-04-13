@@ -1,0 +1,63 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinForUkClient from "./EinForUkClient";
+
+export const metadata: Metadata = {
+  title: "EIN for UK Residents: US Business Setup Guide (2026)",
+  description:
+    "UK residents can get a US EIN without an SSN. Learn how to apply from the United Kingdom for Amazon FBA, e-commerce, and US business setup. ein.so handles it for $49.",
+  alternates: { canonical: "/ein-for-uk/" },
+};
+
+const faqs = [
+  {
+    q: "Can UK residents get a US EIN?",
+    a: "Yes. UK residents and British citizens can get a US EIN by submitting Form SS-4 by fax. You do not need an SSN or ITIN. Your British passport number serves as your identification on the form. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+  },
+  {
+    q: "Do I need to visit the US to get an EIN from the UK?",
+    a: "No. The entire EIN application process can be completed remotely from the UK. You submit Form SS-4 by fax, and the IRS faxes back your EIN assignment letter. ein.so handles the fax filing for you, so you never need to visit the US, call the IRS, or find a fax machine.",
+  },
+  {
+    q: "Should I form a US LLC or use my UK Ltd for US business?",
+    a: "Most UK entrepreneurs form a separate US LLC rather than registering their UK Ltd in the US. A US LLC is simpler to set up, easier to manage for US tax purposes, and provides a clean separation between your UK and US business activities. Your US LLC gets its own EIN, US bank account, and US tax filing obligations.",
+  },
+  {
+    q: "How does the UK-US tax treaty affect my EIN and US business?",
+    a: "The UK-US tax treaty prevents double taxation. Business profits from your US LLC are generally taxable in the UK (where you reside) unless you have a permanent establishment in the US. The treaty allows credits for taxes paid in either country. Consult a UK accountant familiar with cross-border US-UK taxation.",
+  },
+  {
+    q: "Can I use my EIN to sell on Amazon.com from the UK?",
+    a: "Yes. Amazon.com requires a tax identification number for seller registration. Your US EIN completes the tax interview, giving you full access to Amazon's US marketplace and FBA warehouses. Many UK sellers already sell on Amazon.co.uk and expand to Amazon.com using a US LLC and EIN.",
+  },
+  {
+    q: "How do I handle GBP to USD conversion for my US business?",
+    a: "Open a US bank account using your EIN to hold USD directly. Use services like Wise (TransferWise) to transfer between your UK and US accounts at competitive exchange rates. This avoids forced conversion on every transaction and gives you control over when you convert GBP to USD.",
+  },
+  {
+    q: "What is the difference between a UK UTR and a US EIN?",
+    a: "A UK Unique Taxpayer Reference (UTR) is issued by HMRC for UK tax purposes. A US EIN is issued by the IRS for US tax purposes. They serve different countries. If you operate in both, you need both. Your UTR number cannot be used for US banking or tax compliance.",
+  },
+];
+
+export default function EinForUkPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "EIN for Non-Residents", url: "/ein-for-non-residents/" },
+          { name: "EIN for UK", url: "/ein-for-uk/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN for UK Residents: US Business Setup Guide (2026)"
+        description="Complete guide for UK residents applying for a US EIN. Amazon FBA, Ltd vs LLC, GBP/USD considerations, and US banking from the United Kingdom."
+        url="/ein-for-uk/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinForUkClient faqs={faqs} />
+    </>
+  );
+}

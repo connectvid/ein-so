@@ -90,7 +90,7 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function ArticleSchema({ headline, description, url }: { headline: string; description: string; url: string }) {
+export function ArticleSchema({ headline, description, url, datePublished = "2026-03-31", dateModified }: { headline: string; description: string; url: string; datePublished?: string; dateModified?: string }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -98,8 +98,37 @@ export function ArticleSchema({ headline, description, url }: { headline: string
     description,
     url: `${SITE.url}${url}`,
     publisher: { "@type": "Organization", name: "ein.so", url: SITE.url },
-    datePublished: "2026-03-31",
-    dateModified: "2026-03-31",
+    datePublished,
+    dateModified: dateModified || datePublished,
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
+export function BlogPostingSchema({ headline, description, url, datePublished, dateModified }: { headline: string; description: string; url: string; datePublished: string; dateModified?: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline,
+    description,
+    url: `${SITE.url}${url}`,
+    publisher: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    datePublished,
+    dateModified: dateModified || datePublished,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${url}` },
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
+export function SoftwareApplicationSchema({ name, description, url }: { name: string; description: string; url: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web Browser",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    description,
+    url: `${SITE.url}${url}`,
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }

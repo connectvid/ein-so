@@ -16,8 +16,30 @@ const columns = [
     links: [
       { label: "What Is an EIN", href: "/what-is-ein/" },
       { label: "How to Get EIN", href: "/how-to-get-ein/" },
-      { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
+      { label: "SS-4 Form Guide", href: "/ss4-form-guide/" },
+      { label: "EIN Without SSN", href: "/ein-without-ssn/" },
+      { label: "EIN Processing Time", href: "/ein-processing-time/" },
       { label: "EIN Lookup", href: "/ein-lookup/" },
+    ],
+  },
+  {
+    title: "EIN By Type",
+    links: [
+      { label: "EIN for LLC", href: "/ein-for-llc/" },
+      { label: "EIN for Non-Residents", href: "/ein-for-non-residents/" },
+      { label: "EIN for Amazon Sellers", href: "/ein-for-amazon-sellers/" },
+      { label: "EIN for Bank Account", href: "/ein-for-bank-account/" },
+      { label: "Who Needs an EIN?", href: "/who-needs-ein/" },
+      { label: "BOI Filing", href: "/boi-filing/" },
+    ],
+  },
+  {
+    title: "Compare",
+    links: [
+      { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
+      { label: "EIN vs SSN", href: "/ein-vs-ssn/" },
+      { label: "EIN vs Tax ID", href: "/ein-vs-tax-id/" },
+      { label: "EIN vs TIN", href: "/ein-vs-tin/" },
     ],
   },
 ];
@@ -26,7 +48,7 @@ export default function Footer() {
   return (
     <footer className="bg-[var(--color-navy)] text-white">
       <div className="mx-auto max-w-7xl px-6 pt-20 pb-8">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mb-16">
           {/* Brand */}
           <div className="col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -83,8 +105,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} ein.so. All rights reserved. ein.so is not affiliated with the IRS.
           </p>
           <div className="flex gap-6 text-xs text-white/40">
-            <span>Privacy</span>
-            <span>Terms</span>
+            <Link href="/privacy/" className="hover:text-white transition-colors">Privacy</Link>
+            <Link href="/terms/" className="hover:text-white transition-colors">Terms</Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,67 @@
+import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
+import EinForNonResidentsClient from "./EinForNonResidentsClient";
+
+export const metadata: Metadata = {
+  title: "EIN for Non-US Residents: How to Apply From Abroad (2026)",
+  description:
+    "Non-US residents can get an EIN without an SSN using Form SS-4 filed by fax. Learn how to apply from any country. ein.so handles the process for $49. No SSN or ITIN required.",
+  alternates: { canonical: "/ein-for-non-residents/" },
+};
+
+const faqs = [
+  {
+    q: "Can a non-US resident get an EIN from the IRS?",
+    a: "Yes. The IRS issues EINs to non-US residents who have US tax obligations or who own US business entities. Non-residents apply using Form SS-4, submitted by fax to 855-215-1627 or by calling 267-941-1099. The IRS online EIN application is not available to applicants without an SSN or ITIN.",
+  },
+  {
+    q: "Do I need an SSN to get an EIN as a non-resident?",
+    a: "No. Non-US residents do not need a Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) to get an EIN. On Form SS-4, you enter your passport number and foreign address instead. The IRS specifically designed the fax and phone application methods to accommodate applicants without US identification numbers.",
+  },
+  {
+    q: "How long does it take for a non-resident to get an EIN?",
+    a: "By fax (the most common method), EIN processing takes 4-7 business days. By phone, you may receive your EIN the same day if you reach an agent. ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 2-3 business days) for non-residents.",
+  },
+  {
+    q: "What documents do non-residents need to apply for an EIN?",
+    a: "Non-residents need a valid passport (or other government-issued ID) and the details of their US business entity (LLC name, formation state, business address). No SSN, ITIN, or US visa is required. If you are applying as a foreign individual (not through an LLC), you need your passport number and foreign address.",
+  },
+  {
+    q: "Why can't non-residents use the IRS online EIN application?",
+    a: "The IRS online EIN Assistant requires a valid SSN or ITIN for identity verification. Non-US residents who do not have either of these numbers are locked out of the online system. This is a system limitation, not a policy against non-residents. The IRS provides the fax and phone methods specifically for applicants without US identification numbers.",
+  },
+  {
+    q: "How much does ein.so charge for non-resident EIN applications?",
+    a: "ein.so charges $49 for Standard processing (4-7 business days) and $97 for Express processing (2-3 business days). This covers SS-4 preparation, fax filing, IRS follow-up, and delivery of your EIN confirmation letter. The EIN itself is free from the IRS -- our fee covers the service of handling the application process.",
+  },
+  {
+    q: "Can I get an EIN from outside the United States?",
+    a: "Yes. You can apply for an EIN from any country in the world. There is no requirement to be physically present in the United States. ein.so serves clients in over 100 countries, handling the entire process remotely. You never need to visit the US, call the IRS, or find a fax machine.",
+  },
+  {
+    q: "What can I do with my EIN as a non-resident?",
+    a: "With your EIN, you can open a US business bank account, register as an Amazon seller, set up payment processors like Stripe and PayPal, file US tax returns, hire US-based employees or contractors, and comply with IRS reporting requirements. Your EIN is your key to operating a legitimate business in the United States.",
+  },
+];
+
+export default function EinForNonResidentsPage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
+          { name: "EIN for Non-Residents", url: "/ein-for-non-residents/" },
+        ]}
+      />
+      <ArticleSchema
+        headline="EIN for Non-US Residents: How to Apply From Abroad (2026)"
+        description="Complete guide for non-US residents applying for an EIN. No SSN required. Learn the fax method, required documents, and how ein.so handles the process for $49."
+        url="/ein-for-non-residents/"
+        datePublished="2026-04-13"
+      />
+      <FAQSchema faqs={faqs} />
+      <EinForNonResidentsClient faqs={faqs} />
+    </>
+  );
+}
