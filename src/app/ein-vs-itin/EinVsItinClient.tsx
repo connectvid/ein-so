@@ -383,8 +383,8 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   </p>
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                     <strong className="text-[var(--color-text)]">With ein.so:</strong> We handle the entire SS-4 process
-                    for <strong className="text-[var(--color-text)]">$49</strong> (standard, 5-7 business days) or{" "}
-                    <strong className="text-[var(--color-text)]">$97</strong> (express, 2-3 business days). No SSN
+                    for <strong className="text-[var(--color-text)]">$49</strong> (standard, 14 business days) or{" "}
+                    <strong className="text-[var(--color-text)]">$97</strong> (express, 7 business days). No SSN
                     required. No paperwork for you.
                   </p>
                 </div>

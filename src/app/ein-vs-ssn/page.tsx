@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Can a non-US resident without an SSN get an EIN?",
-    a: "Yes. Non-US residents who do not have an SSN or ITIN can obtain an EIN by filing Form SS-4 by fax with the IRS. The online EIN application requires an SSN or ITIN, but the fax method does not. ein.so handles this entire process for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Non-US residents who do not have an SSN or ITIN can obtain an EIN by filing Form SS-4 by fax with the IRS. The online EIN application requires an SSN or ITIN, but the fax method does not. ein.so handles this entire process for $49 (Standard, 14 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do I need both an EIN and an SSN?",

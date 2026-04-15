@@ -97,7 +97,7 @@ export default function EinForPaypalClient({ faqs }: { faqs: { q: string; a: str
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Step 4: Link Your Bank Account</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Connect a US bank account to receive PayPal payouts. The bank account should be in your business name. PayPal verifies the bank account with two small test deposits, which takes 2-3 business days.</p>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Connect a US bank account to receive PayPal payouts. The bank account should be in your business name. PayPal verifies the bank account with two small test deposits, which takes 7 business days.</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Step 5: Complete Verification</h3>

@@ -23,7 +23,7 @@ export default function EinForPakistanClient({ faqs }: { faqs: { q: string; a: s
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Pakistani entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Pakistani passport number replaces the SSN requirement.</strong>{" "}
-                  The IRS online tool is blocked for applicants without an SSN, so the fax method is the path for Pakistani applicants. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard costs $49 (4-7 business days). Express costs $97 (2-3 business days).
+                  The IRS online tool is blocked for applicants without an SSN, so the fax method is the path for Pakistani applicants. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard costs $49 (4-7 business days). Express costs $97 (7 business days).
                 </p>
               </div>
 

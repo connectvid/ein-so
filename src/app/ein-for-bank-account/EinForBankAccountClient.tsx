@@ -58,7 +58,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                   <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     apply through ein.so
                   </Link>{" "}
-                  to get one in as few as 2-3 business days (Express) or 5-7 business days (Standard). Once you have your
+                  to get one in as few as 7 business days (Express) or 14 business days (Standard). Once you have your
                   EIN, you can immediately apply for a business bank account.
                 </p>
               </div>
@@ -124,7 +124,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                     formation documents, passport, business description.
                   </p>
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
-                    <strong className="text-[var(--color-text)]">Approval time:</strong> 2-3 business days.
+                    <strong className="text-[var(--color-text)]">Approval time:</strong> 7 business days.
                   </p>
                 </div>
               </div>
@@ -230,7 +230,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                   step: "2",
                   title: "Get Your EIN from the IRS",
                   detail:
-                    "Apply for your EIN through ein.so. We file Form SS-4 by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 5-7 business days. Express service ($97) takes 2-3 business days. No SSN required.",
+                    "Apply for your EIN through ein.so. We file Form SS-4 by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 14 business days. Express service ($97) takes 7 business days. No SSN required.",
                 },
                 {
                   step: "3",
@@ -328,7 +328,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                 },
                 {
                   mistake: "Applying before you have your EIN",
-                  fix: "Banks will reject your application without an EIN. Get your EIN first, then apply for the bank account. ein.so can have your EIN ready in 2-3 business days with Express service.",
+                  fix: "Banks will reject your application without an EIN. Get your EIN first, then apply for the bank account. ein.so can have your EIN ready in 7 business days with Express service.",
                 },
                 {
                   mistake: "Choosing a bank that does not serve non-residents",

@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Can ein.so get me an EIN without an SSN?",
-    a: "Yes. ein.so specializes in helping non-residents obtain EINs without an SSN or ITIN. We complete Form SS-4, fax it to the IRS, and deliver your EIN by email. Standard service costs $49 with 5-7 business day turnaround. Express service costs $97 with 2-3 business day turnaround. No SSN, ITIN, or US address required.",
+    a: "Yes. ein.so specializes in helping non-residents obtain EINs without an SSN or ITIN. We complete Form SS-4, fax it to the IRS, and deliver your EIN by email. Standard service costs $49 with 14 business day turnaround. Express service costs $97 with 7 business day turnaround. No SSN, ITIN, or US address required.",
   },
   {
     q: "Will the IRS reject my SS-4 if I do not have an SSN?",

@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for PayPal?",
-    a: "US residents with an SSN receive an EIN instantly from the IRS website. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers in 2-3 business days. Once you have your EIN, adding it to PayPal takes minutes.",
+    a: "US residents with an SSN receive an EIN instantly from the IRS website. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers in 7 business days. Once you have your EIN, adding it to PayPal takes minutes.",
   },
   {
     q: "Can I use the same EIN for PayPal and Stripe?",

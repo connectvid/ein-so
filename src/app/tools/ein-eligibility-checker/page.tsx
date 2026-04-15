@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "How much does it cost to get an EIN from the IRS?",
-    a: "The IRS does not charge a fee for issuing an EIN. However, the online application requires an SSN or ITIN, which means non-residents cannot use it. Services like ein.so file Form SS-4 on your behalf by fax for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days).",
+    a: "The IRS does not charge a fee for issuing an EIN. However, the online application requires an SSN or ITIN, which means non-residents cannot use it. Services like ein.so file Form SS-4 on your behalf by fax for $49 (Standard, 14 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Can I use this tool if I already have a business?",

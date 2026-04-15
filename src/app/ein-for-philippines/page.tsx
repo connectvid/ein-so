@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Filipino citizens get a US EIN?",
-    a: "Yes. Filipino citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Philippine passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Filipino citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Philippine passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do Filipino entrepreneurs need an SSN to get a US EIN?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Filipino to receive a US EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). The IRS phone method is impractical from the Philippines due to the 12-13 hour time difference with US Eastern Time.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). The IRS phone method is impractical from the Philippines due to the 12-13 hour time difference with US Eastern Time.",
   },
   {
     q: "Do Filipino freelancers and virtual assistants need a US EIN?",

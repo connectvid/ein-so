@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for Shopify?",
-    a: "US residents with an SSN can get an EIN instantly online. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 2-3 business days so you can set up Shopify Payments quickly.",
+    a: "US residents with an SSN can get an EIN instantly online. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 7 business days so you can set up Shopify Payments quickly.",
   },
   {
     q: "Can I use the same EIN for Shopify and Amazon?",

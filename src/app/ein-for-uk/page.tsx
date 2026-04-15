@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can UK residents get a US EIN?",
-    a: "Yes. UK residents and British citizens can get a US EIN by submitting Form SS-4 by fax. You do not need an SSN or ITIN. Your British passport number serves as your identification on the form. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. UK residents and British citizens can get a US EIN by submitting Form SS-4 by fax. You do not need an SSN or ITIN. Your British passport number serves as your identification on the form. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do I need to visit the US to get an EIN from the UK?",

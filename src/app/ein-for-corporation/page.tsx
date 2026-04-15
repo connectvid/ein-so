@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for a corporation?",
-    a: "Online applications receive the EIN instantly. Fax applications take 4-7 business days. ein.so's Express service ($97) reduces fax processing to 2-3 business days. Mail applications take 4-6 weeks and are not recommended for corporations.",
+    a: "Online applications receive the EIN instantly. Fax applications take 4-7 business days. ein.so's Express service ($97) reduces fax processing to 7 business days. Mail applications take 4-6 weeks and are not recommended for corporations.",
   },
 ];
 

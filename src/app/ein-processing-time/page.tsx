@@ -16,11 +16,11 @@ const faqs = [
   },
   {
     q: "How long does EIN processing take by fax?",
-    a: "When you submit Form SS-4 by fax to the IRS, EIN processing typically takes 4 to 7 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume.",
+    a: "When you submit Form SS-4 by fax to the IRS, EIN processing typically takes 7 to 14 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume.",
   },
   {
     q: "Can I speed up my EIN processing time?",
-    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are typically processed within 2-3 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline.",
+    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are typically processed within 7 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline.",
   },
   {
     q: "Why is my EIN application taking so long?",
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "What is the EIN processing time for non-US residents?",
-    a: "Non-US residents cannot use the IRS online system, so the fastest option is fax (4-7 business days) or phone (same day if you reach an agent). ein.so handles the fax filing process for non-residents, with Standard processing ($49) taking 4-7 business days and Express processing ($97) taking 2-3 business days.",
+    a: "Non-US residents cannot use the IRS online system, so the fastest option is fax (4-7 business days) or phone (same day if you reach an agent). ein.so handles the fax filing process for non-residents, with Standard processing ($49) taking 4-7 business days and Express processing ($97) taking 7 business days.",
   },
   {
     q: "Can I use my EIN immediately after receiving it?",

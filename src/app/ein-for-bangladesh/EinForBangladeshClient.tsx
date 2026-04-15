@@ -23,7 +23,7 @@ export default function EinForBangladeshClient({ faqs }: { faqs: { q: string; a:
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Bangladeshi entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Bangladeshi passport number replaces the SSN requirement. No ITIN, visa, or US presence is needed.</strong>{" "}
-                  ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide support in Bengali, understand Bangladeshi address formats, and know the specific challenges our Bangladeshi clients face. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
+                  ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide support in Bengali, understand Bangladeshi address formats, and know the specific challenges our Bangladeshi clients face. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
                 </p>
               </div>
 
@@ -96,7 +96,7 @@ export default function EinForBangladeshClient({ faqs }: { faqs: { q: string; a:
                     { step: "1", title: "Form a US LLC", desc: "Form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. This is done entirely online from Bangladesh. Most Bangladeshi entrepreneurs choose Wyoming for its low costs and strong privacy protections. Formation typically costs $100-300 plus state fees." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Bangladeshi passport (valid and unexpired) and your LLC formation details (entity name, state, formation date, registered address). No NID (National ID), TIN, or Bangladeshi trade license is needed for the US EIN application." },
                     { step: "3", title: "Apply Through ein.so (Bengali Support Available)", desc: "Fill out our simple application form -- it takes 3 minutes. We prepare your Form SS-4, correctly format your Bangladeshi address for IRS acceptance, and fax it to the IRS using commercial-grade systems. We provide support in Bengali if you need help at any step. Standard processing is $49. Express is $97." },
-                    { step: "4", title: "Receive Your EIN via Email and WhatsApp", desc: "The moment the IRS returns your EIN assignment, we deliver it to you via email and WhatsApp. You receive your official IRS confirmation letter (CP 575). Standard takes 4-7 business days. Express takes 2-3 business days." },
+                    { step: "4", title: "Receive Your EIN via Email and WhatsApp", desc: "The moment the IRS returns your EIN assignment, we deliver it to you via email and WhatsApp. You receive your official IRS confirmation letter (CP 575). Standard takes 4-7 business days. Express takes 7 business days." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

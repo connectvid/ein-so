@@ -23,7 +23,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Indian entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Indian passport number replaces the SSN requirement.</strong>{" "}
-                  The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
+                  The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
                 </p>
               </div>
 
@@ -92,7 +92,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
                     { step: "1", title: "Form Your US LLC (If You Have Not Already)", desc: "Most Indian entrepreneurs form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. This gives you a US business address and a legal entity to associate with your EIN. You can form an LLC entirely online from India." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Indian passport (valid and unexpired), your LLC formation details (name, state, formation date), and your Indian address. No PAN card, Aadhaar, or Indian business registration is needed for the US EIN application." },
                     { step: "3", title: "Complete Form SS-4", desc: "Fill out the one-page IRS form with your LLC details and your personal information. Use your passport number in the identification field. Use your Indian address as the responsible party's address. ein.so handles this step for you to prevent errors." },
-                    { step: "4", title: "Submit by Fax and Wait", desc: "The completed SS-4 is faxed to the IRS. Processing takes 4-7 business days for Standard or 2-3 business days for Express through ein.so. The IRS faxes back your EIN assignment letter (CP 575)." },
+                    { step: "4", title: "Submit by Fax and Wait", desc: "The completed SS-4 is faxed to the IRS. Processing takes 4-7 business days for Standard or 7 business days for Express through ein.so. The IRS faxes back your EIN assignment letter (CP 575)." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

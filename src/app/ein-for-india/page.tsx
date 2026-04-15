@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for an Indian applicant to receive an EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). If you try the DIY fax method, expect 4-7 business days if your form has no errors. The IRS phone method (267-941-1099) can issue same-day EINs, but calling from India means expensive international calls and long hold times.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). If you try the DIY fax method, expect 4-7 business days if your form has no errors. The IRS phone method (267-941-1099) can issue same-day EINs, but calling from India means expensive international calls and long hold times.",
   },
   {
     q: "Can I use my EIN to open a US bank account from India?",

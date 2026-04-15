@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Bangladeshi citizens get a US EIN?",
-    a: "Yes. Bangladeshi citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Bangladeshi passport number serves as your identifying number. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). We provide support in Bengali.",
+    a: "Yes. Bangladeshi citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Bangladeshi passport number serves as your identifying number. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days). We provide support in Bengali.",
   },
   {
     q: "Do I need an SSN or ITIN to get an EIN from Bangladesh?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Bangladeshi applicant to receive an EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). Calling the IRS from Bangladesh is extremely impractical -- the 10-11 hour time difference means you would need to call in the middle of the night, and international call rates from Bangladesh are high.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). Calling the IRS from Bangladesh is extremely impractical -- the 10-11 hour time difference means you would need to call in the middle of the night, and international call rates from Bangladesh are high.",
   },
   {
     q: "Does ein.so provide support in Bengali?",

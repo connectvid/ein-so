@@ -23,7 +23,7 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Chinese entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Chinese passport number. No SSN, ITIN, or US visa is required.</strong>{" "}
-                  China is the largest source of international sellers on Amazon.com, and thousands of Chinese businesses need US EINs every year. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
+                  China is the largest source of international sellers on Amazon.com, and thousands of Chinese businesses need US EINs every year. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
                 </p>
               </div>
 
@@ -92,7 +92,7 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
                     { step: "1", title: "Form a US LLC", desc: "Form an LLC in Wyoming or Delaware through a registered agent. The formation is completed entirely online. You need an English name for your LLC and a registered agent to provide a US address." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Chinese passport (valid and unexpired) and your LLC details. No Chinese ID card, business license (Yingye Zhizhao), or Chinese tax registration is needed for the US EIN application." },
                     { step: "3", title: "Apply Through ein.so", desc: "Complete our application in 3 minutes. We prepare your SS-4, transliterate your Chinese name correctly, format your Chinese address for IRS acceptance, and fax the form to the IRS." },
-                    { step: "4", title: "Receive Your EIN", desc: "The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days ($49). Express takes 2-3 business days ($97)." },
+                    { step: "4", title: "Receive Your EIN", desc: "The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days ($49). Express takes 7 business days ($97)." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

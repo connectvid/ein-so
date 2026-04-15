@@ -54,7 +54,7 @@ export function HomeSchema() {
           name: "Standard EIN",
           price: "49",
           priceCurrency: "USD",
-          description: "SS-4 filing with 5-7 business day turnaround. Includes form completion, IRS fax submission, and EIN delivery by email.",
+          description: "SS-4 filing with 14 business day turnaround. Includes form completion, IRS fax submission, and EIN delivery by email.",
           availability: "https://schema.org/InStock",
         },
         {
@@ -62,7 +62,7 @@ export function HomeSchema() {
           name: "Express EIN",
           price: "97",
           priceCurrency: "USD",
-          description: "Priority SS-4 filing with 2-3 business day turnaround. Includes phone follow-up with IRS and WhatsApp status updates.",
+          description: "Priority SS-4 filing with 7 business day turnaround. Includes phone follow-up with IRS and WhatsApp status updates.",
           availability: "https://schema.org/InStock",
         },
       ],

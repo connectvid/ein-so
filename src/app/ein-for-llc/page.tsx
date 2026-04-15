@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for an LLC?",
-    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For fax applications (the method used by non-residents), processing takes 4-7 business days. ein.so's Express service ($97) can reduce this to 2-3 business days. Mail applications take 4-6 weeks and are not recommended.",
+    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For fax applications (the method used by non-residents), processing takes 4-7 business days. ein.so's Express service ($97) can reduce this to 7 business days. Mail applications take 4-6 weeks and are not recommended.",
   },
 ];
 

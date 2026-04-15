@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for Stripe?",
-    a: "US residents with an SSN can get an EIN instantly online. Non-US residents who apply by fax receive their EIN in 4-7 business days. ein.so's Express service ($97) delivers in 2-3 business days. Once you have your EIN, adding it to Stripe takes just a few minutes.",
+    a: "US residents with an SSN can get an EIN instantly online. Non-US residents who apply by fax receive their EIN in 4-7 business days. ein.so's Express service ($97) delivers in 7 business days. Once you have your EIN, adding it to Stripe takes just a few minutes.",
   },
   {
     q: "What if Stripe cannot verify my EIN?",

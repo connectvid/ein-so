@@ -92,7 +92,7 @@ export default function EinForBrazilClient({ faqs }: { faqs: { q: string; a: str
                     { step: "1", title: "Form a US LLC", desc: "Form an LLC in Wyoming, Delaware, or Florida through a registered agent. Florida is popular among Brazilian entrepreneurs due to the large Brazilian community and proximity. The formation is done entirely online." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Brazilian passport (Passaporte) and your LLC details. Do not use your CPF or CNPJ number on the SS-4 -- the IRS requires a passport number for non-resident applications." },
                     { step: "3", title: "Apply Through ein.so", desc: "Complete our application in 3 minutes. We prepare your SS-4, correctly format your Brazilian address, and fax it to the IRS. Standard is $49. Express is $97." },
-                    { step: "4", title: "Receive Your EIN", desc: "We deliver your EIN via email. Standard takes 4-7 business days. Express takes 2-3 business days. You receive your official IRS confirmation letter (CP 575)." },
+                    { step: "4", title: "Receive Your EIN", desc: "We deliver your EIN via email. Standard takes 4-7 business days. Express takes 7 business days. You receive your official IRS confirmation letter (CP 575)." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

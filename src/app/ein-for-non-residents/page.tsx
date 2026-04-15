@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a non-resident to get an EIN?",
-    a: "By fax (the most common method), EIN processing takes 4-7 business days. By phone, you may receive your EIN the same day if you reach an agent. ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 2-3 business days) for non-residents.",
+    a: "By fax (the most common method), EIN processing takes 4-7 business days. By phone, you may receive your EIN the same day if you reach an agent. ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 7 business days) for non-residents.",
   },
   {
     q: "What documents do non-residents need to apply for an EIN?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "How much does ein.so charge for non-resident EIN applications?",
-    a: "ein.so charges $49 for Standard processing (4-7 business days) and $97 for Express processing (2-3 business days). This covers SS-4 preparation, fax filing, IRS follow-up, and delivery of your EIN confirmation letter. The EIN itself is free from the IRS -- our fee covers the service of handling the application process.",
+    a: "ein.so charges $49 for Standard processing (4-7 business days) and $97 for Express processing (7 business days). This covers SS-4 preparation, fax filing, IRS follow-up, and delivery of your EIN confirmation letter. The EIN itself is free from the IRS -- our fee covers the service of handling the application process.",
   },
   {
     q: "Can I get an EIN from outside the United States?",

@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for hiring?",
-    a: "US residents with an SSN can get an EIN instantly online at IRS.gov. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 2-3 business days. Get your EIN before posting job listings so you are ready to onboard employees immediately.",
+    a: "US residents with an SSN can get an EIN instantly online at IRS.gov. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 7 business days. Get your EIN before posting job listings so you are ready to onboard employees immediately.",
   },
   {
     q: "What happens if I hire employees without an EIN?",

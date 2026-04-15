@@ -216,13 +216,13 @@ export default function EinVsTinClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 4 to 7 business days. This EIN becomes your business&apos;s TIN for all US tax and business purposes.
+                  Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 7 to 14 business days. This EIN becomes your business&apos;s TIN for all US tax and business purposes.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you also need a personal TIN for US tax filing (for example, to report personal income from your US business), you apply separately for an ITIN using Form W-7. The EIN and ITIN are independent applications. You can get an EIN without having an ITIN, and you do not need the ITIN to apply for the EIN. Most non-residents start with the EIN because it is required to open a bank account and begin operations.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  ein.so handles the EIN application for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing costs <strong className="text-[var(--color-text)]">$49</strong> (5-7 business days) and Express costs <strong className="text-[var(--color-text)]">$97</strong> (2-3 business days). No SSN, no ITIN, no US address required.
+                  ein.so handles the EIN application for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing costs <strong className="text-[var(--color-text)]">$49</strong> (14 business days) and Express costs <strong className="text-[var(--color-text)]">$97</strong> (7 business days). No SSN, no ITIN, no US address required.
                 </p>
               </div>
             </AnimateIn>

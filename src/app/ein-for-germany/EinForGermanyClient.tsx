@@ -23,7 +23,7 @@ export default function EinForGermanyClient({ faqs }: { faqs: { q: string; a: st
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>German entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Reisepass (passport) number. No SSN, ITIN, or US visa is required.</strong>{" "}
-                  Germany is the second-largest Amazon market in the world, and German sellers expanding to Amazon.com need an EIN. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
+                  Germany is the second-largest Amazon market in the world, and German sellers expanding to Amazon.com need an EIN. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
                 </p>
               </div>
 

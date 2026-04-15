@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Pakistani citizens get a US EIN?",
-    a: "Yes. Pakistani citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Pakistani passport number serves as your identifying number. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Pakistani citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Pakistani passport number serves as your identifying number. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do I need an SSN to get an EIN from Pakistan?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Pakistani applicant to receive an EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). The DIY fax method takes 4-7 business days if your form has no errors. Calling the IRS from Pakistan is expensive and impractical due to time zone differences.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). The DIY fax method takes 4-7 business days if your form has no errors. Calling the IRS from Pakistan is expensive and impractical due to time zone differences.",
   },
   {
     q: "Can Pakistani freelancers on Upwork use an EIN?",

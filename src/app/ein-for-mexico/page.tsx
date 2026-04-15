@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Mexican citizens get a US EIN?",
-    a: "Yes. Mexican citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Mexican passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Mexican citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Mexican passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do Mexican entrepreneurs need an SSN to get a US EIN?",

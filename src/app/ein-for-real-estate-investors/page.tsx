@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How do non-US real estate investors get an EIN?",
-    a: "Non-US residents cannot use the IRS online application because it requires an SSN. Instead, you must file Form SS-4 by fax. ein.so handles this process for non-resident real estate investors for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days). You need your passport and LLC formation documents.",
+    a: "Non-US residents cannot use the IRS online application because it requires an SSN. Instead, you must file Form SS-4 by fax. ein.so handles this process for non-resident real estate investors for $49 (Standard, 14 business days) or $97 (Express, 7 business days). You need your passport and LLC formation documents.",
   },
   {
     q: "Do I need a separate EIN for each rental property LLC?",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for a real estate LLC?",
-    a: "US residents with an SSN receive an EIN instantly through the IRS online application. Non-US residents must apply by fax, which takes 4-7 business days through the standard process. ein.so's Express service ($97) delivers your EIN in 2-3 business days so you can close on properties faster.",
+    a: "US residents with an SSN receive an EIN instantly through the IRS online application. Non-US residents must apply by fax, which takes 4-7 business days through the standard process. ein.so's Express service ($97) delivers your EIN in 7 business days so you can close on properties faster.",
   },
 ];
 

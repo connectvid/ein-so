@@ -54,7 +54,7 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
                 The moment you want to open a business bank account for your LLC, the bank will ask for an EIN. Payment processors like Stripe and PayPal require an EIN to verify your business. If you plan to hire employees -- even a single part-time contractor -- the IRS requires an EIN for employment tax reporting. And using an EIN instead of your SSN on invoices and W-9 forms protects your personal identity.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax. Our <Link href="/ein-for-llc/" className="text-[var(--color-blue)] underline">EIN for LLC</Link> guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days).
+                For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax. Our <Link href="/ein-for-llc/" className="text-[var(--color-blue)] underline">EIN for LLC</Link> guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 14 business days) or $97 (Express, 7 business days).
               </p>
             </div>
           </AnimateIn>
@@ -192,7 +192,7 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
                 The challenge for non-residents is that the IRS online EIN application requires an SSN or ITIN, which most foreign nationals do not have. This means non-residents must apply by fax using Form SS-4 or by calling the IRS international line at 267-941-1099. The fax method is the most reliable -- the IRS processes faxed SS-4 forms within 4-7 business days and returns the EIN by fax to the number you provide.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                ein.so exists specifically to solve this problem. We complete and file Form SS-4 with the IRS on your behalf for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days). You do not need an SSN, ITIN, or US address. Read our <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] underline">EIN for Non-Residents</Link> guide for the full process, or <Link href="/apply/" className="text-[var(--color-blue)] underline">apply now</Link> to get started.
+                ein.so exists specifically to solve this problem. We complete and file Form SS-4 with the IRS on your behalf for $49 (Standard, 14 business days) or $97 (Express, 7 business days). You do not need an SSN, ITIN, or US address. Read our <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] underline">EIN for Non-Residents</Link> guide for the full process, or <Link href="/apply/" className="text-[var(--color-blue)] underline">apply now</Link> to get started.
               </p>
             </div>
           </AnimateIn>

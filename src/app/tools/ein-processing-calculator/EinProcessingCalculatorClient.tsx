@@ -249,7 +249,7 @@ export default function EinProcessingCalculatorClient({
                   <div className="mt-6 p-4 bg-blue-50 border border-blue-100 rounded-xl">
                     <p className="text-sm text-[var(--color-text)] leading-relaxed">
                       <strong>Need it faster?</strong> ein.so Express delivers
-                      your EIN in 2-3 business days for $97 -- the fastest
+                      your EIN in 7 business days for $97 -- the fastest
                       option for non-residents.{" "}
                       <Link
                         href="/apply/"
@@ -334,7 +334,7 @@ export default function EinProcessingCalculatorClient({
                           Express Fax (ein.so)
                         </td>
                         <td className="p-4 text-[var(--color-blue)] font-bold">
-                          2-3 business days
+                          7 business days
                         </td>
                         <td className="p-4 text-[var(--color-text-muted)]">
                           $97
@@ -348,7 +348,7 @@ export default function EinProcessingCalculatorClient({
                           Standard Fax (ein.so)
                         </td>
                         <td className="p-4 text-[var(--color-text-muted)]">
-                          5-7 business days
+                          14 business days
                         </td>
                         <td className="p-4 text-[var(--color-text-muted)]">
                           $49
@@ -408,7 +408,7 @@ export default function EinProcessingCalculatorClient({
                 For non-residents, the most practical options are fax and phone. Fax submission involves completing Form SS-4, signing it, and faxing it to the IRS at the designated fax number. Standard fax processing takes 4-7 business days, during which the IRS manually reviews the form, assigns an EIN, and faxes the confirmation back. The ein.so Standard service ($49) uses this method and includes form completion, IRS fax submission, and email delivery of your EIN once received.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The ein.so Express service ($97) accelerates this timeline to 2-3 business days. Express applications receive priority handling: we submit your Form SS-4 as soon as it is completed, follow up with the IRS via phone to confirm receipt and expedite processing, and send you WhatsApp status updates throughout. This is the fastest reliable method for non-residents to obtain an EIN, and it is the option we recommend if you need your EIN quickly to open a bank account or set up a payment processor.
+                The ein.so Express service ($97) accelerates this timeline to 7 business days. Express applications receive priority handling: we submit your Form SS-4 as soon as it is completed, follow up with the IRS via phone to confirm receipt and expedite processing, and send you WhatsApp status updates throughout. This is the fastest reliable method for non-residents to obtain an EIN, and it is the option we recommend if you need your EIN quickly to open a bank account or set up a payment processor.
               </p>
             </div>
           </AnimateIn>
@@ -435,7 +435,7 @@ export default function EinProcessingCalculatorClient({
                 Federal holidays also impact processing times. The IRS is closed on all federal holidays, including New Year&apos;s Day, Presidents&apos; Day, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans Day, Thanksgiving, and Christmas. If a federal holiday falls within your processing window, your actual delivery date will be pushed back by one business day for each holiday. The calculator above counts business days (Monday through Friday) but does not account for federal holidays, so keep this in mind if you are submitting near a holiday period.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For non-residents who need their EIN as quickly as possible, we always recommend the ein.so Express service. At $97, it is the most cost-effective way to get your EIN in 2-3 business days without the uncertainty of trying to reach the IRS by phone. Visit our <Link href="/ein-processing-time/" className="text-[var(--color-blue)] underline">EIN Processing Time</Link> page for a detailed breakdown of each method, or head directly to the <Link href="/apply/" className="text-[var(--color-blue)] underline">application page</Link> to get started today.
+                For non-residents who need their EIN as quickly as possible, we always recommend the ein.so Express service. At $97, it is the most cost-effective way to get your EIN in 7 business days without the uncertainty of trying to reach the IRS by phone. Visit our <Link href="/ein-processing-time/" className="text-[var(--color-blue)] underline">EIN Processing Time</Link> page for a detailed breakdown of each method, or head directly to the <Link href="/apply/" className="text-[var(--color-blue)] underline">application page</Link> to get started today.
               </p>
             </div>
           </AnimateIn>

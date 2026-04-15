@@ -83,7 +83,7 @@ const faqs: { q: string; a: string; category: string }[] = [
   {
     category: "Application Process",
     q: "How long does it take to get an EIN?",
-    a: "With our Standard service ($49), the IRS typically processes faxed SS-4 forms in 5-7 business days. Our Express service ($97) includes priority filing and IRS follow-up, reducing the timeline to 2-3 business days.",
+    a: "With our Standard service ($49), the IRS typically processes faxed SS-4 forms in 14 business days. Our Express service ($97) includes priority filing and IRS follow-up, reducing the timeline to 7 business days.",
   },
   {
     category: "Application Process",

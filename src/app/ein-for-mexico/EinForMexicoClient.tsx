@@ -92,7 +92,7 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
                     { step: "1", title: "Form a US LLC", desc: "Form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. Mexican entrepreneurs in border cities like Tijuana, Ciudad Juarez, or Monterrey sometimes visit the US for banking, but LLC formation is done entirely online." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Mexican passport (Pasaporte) and your LLC details. Do not use your CURP, INE, or RFC number on the SS-4 -- the IRS requires a passport number for non-resident applications." },
                     { step: "3", title: "Apply Through ein.so", desc: "Complete our 3-minute application. We prepare your SS-4, format your Mexican address for IRS acceptance, and fax it to the IRS. $49 Standard or $97 Express." },
-                    { step: "4", title: "Receive Your EIN", desc: "The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days. Express takes 2-3 business days." },
+                    { step: "4", title: "Receive Your EIN", desc: "The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days. Express takes 7 business days." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

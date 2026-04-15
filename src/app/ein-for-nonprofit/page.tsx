@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for a nonprofit?",
-    a: "Online applications receive the EIN instantly. Fax applications take 4-7 business days. ein.so's Express service ($97) reduces fax processing to 2-3 business days. Plan to get your EIN well before you need to file Form 1023 for tax-exempt status.",
+    a: "Online applications receive the EIN instantly. Fax applications take 4-7 business days. ein.so's Express service ($97) reduces fax processing to 7 business days. Plan to get your EIN well before you need to file Form 1023 for tax-exempt status.",
   },
   {
     q: "Does a nonprofit need an EIN even if it has no employees?",

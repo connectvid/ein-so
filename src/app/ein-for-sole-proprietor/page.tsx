@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN as a sole proprietor?",
-    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. Fax applications take 4-7 business days. ein.so's Express service reduces fax processing to 2-3 business days. Mail applications take 4-6 weeks and are not recommended.",
+    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. Fax applications take 4-7 business days. ein.so's Express service reduces fax processing to 7 business days. Mail applications take 4-6 weeks and are not recommended.",
   },
   {
     q: "Can a non-US resident get an EIN as a sole proprietor?",

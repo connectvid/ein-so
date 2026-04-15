@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Do I need an EIN to file Form 2553?",
-    a: "Yes. Form 2553 requires your entity's EIN (Employer Identification Number). You must obtain your EIN before filing the S-Corp election. If you do not have an EIN yet, ein.so can help you get one for $49 (Standard, 5-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Form 2553 requires your entity's EIN (Employer Identification Number). You must obtain your EIN before filing the S-Corp election. If you do not have an EIN yet, ein.so can help you get one for $49 (Standard, 14 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "How does S-Corp election save on taxes?",

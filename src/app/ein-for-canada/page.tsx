@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Canadian citizens get a US EIN?",
-    a: "Yes. Canadian citizens and residents can get a US EIN by submitting Form SS-4 by fax or phone. You do not need a US Social Security Number. Your Canadian passport number serves as your identifying number on the SS-4. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Canadian citizens and residents can get a US EIN by submitting Form SS-4 by fax or phone. You do not need a US Social Security Number. Your Canadian passport number serves as your identifying number on the SS-4. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do Canadians need an SSN or ITIN to get a US EIN?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Canadian to receive a US EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). By phone, you may receive your EIN the same day if you reach an agent. The DIY fax method takes 4-7 business days if your form is error-free.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). By phone, you may receive your EIN the same day if you reach an agent. The DIY fax method takes 4-7 business days if your form is error-free.",
   },
   {
     q: "Do I need a US LLC to get an EIN as a Canadian?",

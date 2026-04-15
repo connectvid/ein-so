@@ -75,7 +75,7 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
                 <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                   <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">Step 1: Get Your EIN</h3>
                   <p className="text-[var(--color-text-muted)] leading-relaxed text-sm">
-                    Form 2553 requires your entity&apos;s EIN in the header. If you do not have an EIN yet, obtain one before filing. US residents can apply online at irs.gov. Non-residents file Form SS-4 by fax, or use ein.so for <strong className="text-[var(--color-text)]">$49</strong> (Standard, 5-7 days) or <strong className="text-[var(--color-text)]">$97</strong> (Express, 2-3 days). See our guide on{" "}
+                    Form 2553 requires your entity&apos;s EIN in the header. If you do not have an EIN yet, obtain one before filing. US residents can apply online at irs.gov. Non-residents file Form SS-4 by fax, or use ein.so for <strong className="text-[var(--color-text)]">$49</strong> (Standard, 14 days) or <strong className="text-[var(--color-text)]">$97</strong> (Express, 7 days). See our guide on{" "}
                     <Link href="/ein-for-corporation/" className="text-[var(--color-blue)] hover:underline font-semibold">
                       EIN for corporations
                     </Link>.
@@ -220,10 +220,10 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
                   Form 2553 requires your entity&apos;s EIN in the identification section at the top of the form. The IRS uses the EIN to match your S-Corp election to your entity&apos;s tax account. Without an EIN, the IRS cannot process your Form 2553. This makes obtaining an EIN the essential first step before making the S-Corp election.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Given the 75-day deadline for new entities, timing matters. If you form your LLC or corporation and need S-Corp status from day one, you should apply for your EIN immediately after formation. US residents can get an EIN online in minutes. Non-residents filing by fax need 4 to 7 business days (or 2 to 3 days with ein.so Express). Factor this processing time into your 75-day deadline calculation.
+                  Given the 75-day deadline for new entities, timing matters. If you form your LLC or corporation and need S-Corp status from day one, you should apply for your EIN immediately after formation. US residents can get an EIN online in minutes. Non-residents filing by fax need 7 to 14 business days (or 7 days with ein.so Express). Factor this processing time into your 75-day deadline calculation.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  ein.so helps you get your EIN quickly so you can file Form 2553 on time. Our Standard service delivers your EIN in 5 to 7 business days for <strong className="text-[var(--color-text)]">$49</strong>. Our Express service delivers in 2 to 3 business days for <strong className="text-[var(--color-text)]">$97</strong>. Once you have your EIN, you can immediately complete and file Form 2553. Do not let the EIN processing time eat into your 75-day S-Corp election window.{" "}
+                  ein.so helps you get your EIN quickly so you can file Form 2553 on time. Our Standard service delivers your EIN in 14 business days for <strong className="text-[var(--color-text)]">$49</strong>. Our Express service delivers in 7 business days for <strong className="text-[var(--color-text)]">$97</strong>. Once you have your EIN, you can immediately complete and file Form 2553. Do not let the EIN processing time eat into your 75-day S-Corp election window.{" "}
                   <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     Apply for your EIN today
                   </Link>.

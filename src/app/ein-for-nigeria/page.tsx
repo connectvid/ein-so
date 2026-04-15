@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Nigerian citizens get a US EIN?",
-    a: "Yes. Nigerian citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Nigerian passport number serves as your identification. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Nigerian citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Nigerian passport number serves as your identification. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do Nigerian entrepreneurs need an SSN to get a US EIN?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Nigerian to receive a US EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). The IRS phone method is impractical from Nigeria due to expensive international calls and time zone differences. The fax method through ein.so is the most reliable option.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). The IRS phone method is impractical from Nigeria due to expensive international calls and time zone differences. The fax method through ein.so is the most reliable option.",
   },
   {
     q: "Can I use my EIN with Paystack or Flutterwave?",

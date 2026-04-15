@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN for Amazon selling?",
-    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For non-US sellers using the fax method, processing takes 4-7 business days. ein.so's Express service ($97) can deliver your EIN in 2-3 business days so you can start your Amazon business sooner.",
+    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For non-US sellers using the fax method, processing takes 4-7 business days. ein.so's Express service ($97) can deliver your EIN in 7 business days so you can start your Amazon business sooner.",
   },
   {
     q: "Do I need an EIN for Amazon FBA specifically?",

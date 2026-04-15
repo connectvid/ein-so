@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can German citizens get a US EIN?",
-    a: "Yes. German citizens and residents can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your German passport number (Reisepass) serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. German citizens and residents can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your German passport number (Reisepass) serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do I need an SSN or ITIN to get a US EIN from Germany?",

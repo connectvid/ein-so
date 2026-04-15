@@ -56,7 +56,7 @@ export default function HowToGetEinPage() {
       />
       <HowToSchema
         steps={[
-          { name: "Choose Your Package", text: "Select Standard ($49, 5-7 business days) or Express ($97, 2-3 business days). Both include full SS-4 filing with the IRS." },
+          { name: "Choose Your Package", text: "Select Standard ($49, 14 business days) or Express ($97, 7 business days). Both include full SS-4 filing with the IRS." },
           { name: "Submit Your Details", text: "Fill out a simple form with your legal name, date of birth, country of citizenship, mailing address, and business details. No SSN required." },
           { name: "We File Your SS-4", text: "We complete IRS Form SS-4 and fax it to the IRS at 855-215-1627. Non-residents cannot apply online, so we handle the fax process for you." },
           { name: "Receive Your EIN", text: "Your 9-digit EIN is delivered by email as soon as the IRS processes your application. Use it for banking, Amazon, Stripe, PayPal, and US taxes." },

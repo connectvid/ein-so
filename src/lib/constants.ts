@@ -15,7 +15,7 @@ export const PRICING = {
   standard: {
     name: "Standard EIN",
     price: 49,
-    turnaround: "5-7 business days",
+    turnaround: "14 business days",
     cta: "Get My EIN for $49",
     highlighted: false,
     stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Standard EIN service ($49).")}`,
@@ -30,7 +30,7 @@ export const PRICING = {
   express: {
     name: "Express EIN",
     price: 97,
-    turnaround: "2-3 business days",
+    turnaround: "7 business days",
     cta: "Get My EIN Fast · $97",
     highlighted: true,
     stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Express EIN service ($97).")}`,

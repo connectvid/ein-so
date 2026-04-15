@@ -177,7 +177,7 @@ export default function EinForFreelancersClient({ faqs }: { faqs: { q: string; a
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Non-US Freelancers</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">The IRS online application requires an SSN, so non-US freelancers must apply by fax using Form SS-4. ein.so handles this process completely. We prepare your Form SS-4, verify every field, fax it to the IRS, and deliver your EIN by email and WhatsApp. Standard service costs $49 (5-7 business days). Express costs $97 (2-3 business days). <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Apply now</Link>.</p>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">The IRS online application requires an SSN, so non-US freelancers must apply by fax using Form SS-4. ein.so handles this process completely. We prepare your Form SS-4, verify every field, fax it to the IRS, and deliver your EIN by email and WhatsApp. Standard service costs $49 (14 business days). Express costs $97 (7 business days). <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Apply now</Link>.</p>
                 </div>
               </div>
 

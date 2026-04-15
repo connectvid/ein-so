@@ -49,7 +49,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
                   If you applied online through the IRS website, you receive the rejection immediately on screen. If you applied by fax using{" "}
                   <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     Form SS-4
-                  </Link>, the IRS sends a rejection notice by fax within 4 to 7 business days. Either way, the rejection notice specifies the problem so you can correct it and resubmit.
+                  </Link>, the IRS sends a rejection notice by fax within 7 to 14 business days. Either way, the rejection notice specifies the problem so you can correct it and resubmit.
                 </p>
               </div>
             </AnimateIn>
@@ -218,7 +218,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
                 <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                   <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">Step 4: Submit and Wait</h3>
                   <p className="text-[var(--color-text-muted)] leading-relaxed text-sm">
-                    If you have an SSN, you can reapply online immediately. If you are filing by fax, send your corrected Form SS-4 to the IRS at (855) 215-1627. Expect your EIN within 4 to 7 business days. Track your{" "}
+                    If you have an SSN, you can reapply online immediately. If you are filing by fax, send your corrected Form SS-4 to the IRS at (855) 215-1627. Expect your EIN within 7 to 14 business days. Track your{" "}
                     <Link href="/ein-processing-time/" className="text-[var(--color-blue)] hover:underline font-semibold">
                       EIN processing time
                     </Link>{" "}
@@ -246,10 +246,10 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
                   ein.so eliminates the guesswork from EIN applications. When you use our service, we review every detail of your application before it reaches the IRS. We verify your business name matches your formation documents, confirm the entity type and responsible party information are correct, check for formatting issues, and ensure all required fields are complete. This pre-submission review catches the errors that cause over 95% of EIN rejections.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  If the IRS does reject an application we filed, we handle the correction and resubmission at no additional charge. You do not pay twice. We diagnose the rejection reason, fix the issue, and resubmit your corrected Form SS-4 immediately. This is included in both our Standard (<strong className="text-[var(--color-text)]">$49</strong>, 5-7 business days) and Express (<strong className="text-[var(--color-text)]">$97</strong>, 2-3 business days) plans.
+                  If the IRS does reject an application we filed, we handle the correction and resubmission at no additional charge. You do not pay twice. We diagnose the rejection reason, fix the issue, and resubmit your corrected Form SS-4 immediately. This is included in both our Standard (<strong className="text-[var(--color-text)]">$49</strong>, 14 business days) and Express (<strong className="text-[var(--color-text)]">$97</strong>, 7 business days) plans.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  For non-residents who cannot use the IRS online system, our service is especially valuable because fax rejections take another 4 to 7 business days to resolve on your own. With ein.so, we monitor for the rejection, fix it the same day, and resubmit immediately, saving you a full processing cycle. Ready to get your EIN without the rejection risk?{" "}
+                  For non-residents who cannot use the IRS online system, our service is especially valuable because fax rejections take another 7 to 14 business days to resolve on your own. With ein.so, we monitor for the rejection, fix it the same day, and resubmit immediately, saving you a full processing cycle. Ready to get your EIN without the rejection risk?{" "}
                   <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     Start your application today
                   </Link>.

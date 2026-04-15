@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can Chinese citizens get a US EIN?",
-    a: "Yes. Chinese citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Chinese passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).",
+    a: "Yes. Chinese citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Chinese passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
   },
   {
     q: "Do Chinese entrepreneurs need an SSN to get a US EIN?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take for a Chinese applicant to get an EIN?",
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). Calling the IRS from China is extremely difficult due to the 12-13 hour time difference and international calling restrictions. The fax method through ein.so is the standard approach.",
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). Calling the IRS from China is extremely difficult due to the 12-13 hour time difference and international calling restrictions. The fax method through ein.so is the standard approach.",
   },
   {
     q: "Can I sell on Amazon.com from China with a US EIN?",

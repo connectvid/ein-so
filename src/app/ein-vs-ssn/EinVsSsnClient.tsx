@@ -111,7 +111,7 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
                   then seven digits). You use your EIN to file business tax returns, open a business bank account, apply for
                   business licenses, hire employees, and establish business credit. The IRS issues EINs at no cost. US residents
                   with an SSN can apply online at irs.gov in minutes. Non-residents without an SSN file Form SS-4 by fax, which
-                  takes 4 to 7 business days.
+                  takes 7 to 14 business days.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For a complete overview, read our guide on{" "}
@@ -279,13 +279,13 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS online EIN application requires an SSN or ITIN, which locks out most non-residents. The fax method
                   bypasses this requirement entirely. You complete Form SS-4 with your foreign address and identification
-                  details, fax it to the IRS at (855) 215-1627, and receive your EIN by fax within 4 to 7 business days.
+                  details, fax it to the IRS at (855) 215-1627, and receive your EIN by fax within 7 to 14 business days.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   At ein.so, we handle the entire process for you. We prepare your Form SS-4, fax it to the IRS, monitor for
                   the response, and deliver your EIN directly to your WhatsApp or email. Our Standard service costs{" "}
-                  <strong className="text-[var(--color-text)]">$49</strong> (5-7 business days) and our Express service costs{" "}
-                  <strong className="text-[var(--color-text)]">$97</strong> (2-3 business days). No SSN, no ITIN, no
+                  <strong className="text-[var(--color-text)]">$49</strong> (14 business days) and our Express service costs{" "}
+                  <strong className="text-[var(--color-text)]">$97</strong> (7 business days). No SSN, no ITIN, no
                   complicated paperwork.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">

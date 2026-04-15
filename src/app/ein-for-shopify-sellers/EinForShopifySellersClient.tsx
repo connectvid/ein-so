@@ -124,7 +124,7 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                ein.so specializes in this process. We prepare your Form SS-4 with the correct entity type, verify every field against IRS requirements, fax it to the IRS, track the response, and deliver your EIN by email and WhatsApp. The process takes 5-7 business days with our Standard service ($49) or 2-3 business days with Express ($97).
+                ein.so specializes in this process. We prepare your Form SS-4 with the correct entity type, verify every field against IRS requirements, fax it to the IRS, track the response, and deliver your EIN by email and WhatsApp. The process takes 14 business days with our Standard service ($49) or 7 business days with Express ($97).
               </p>
 
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-6">

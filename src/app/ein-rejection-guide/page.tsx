@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN after reapplying?",
-    a: "The timeline depends on your application method. Online applications receive an EIN instantly if accepted. Fax applications take 4 to 7 business days for Standard processing. With ein.so Express service, fax applications take 2 to 3 business days. The reapplication processing time is the same as a first-time application.",
+    a: "The timeline depends on your application method. Online applications receive an EIN instantly if accepted. Fax applications take 7 to 14 business days for Standard processing. With ein.so Express service, fax applications take 7 business days. The reapplication processing time is the same as a first-time application.",
   },
   {
     q: "What does 'duplicate EIN' rejection mean?",

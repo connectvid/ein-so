@@ -23,7 +23,7 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Canadians can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required -- your Canadian passport number is sufficient.</strong>{" "}
-                  While Canadians can technically call the IRS, hold times are long and unreliable. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
+                  While Canadians can technically call the IRS, hold times are long and unreliable. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
                 </p>
               </div>
 
@@ -92,7 +92,7 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
                     { step: "1", title: "Form Your US LLC", desc: "Most Canadians form an LLC in Wyoming or Delaware through a registered agent. This is done entirely online from Canada. The LLC gives you a US legal entity, a registered address, and the structure you need for US banking and tax compliance." },
                     { step: "2", title: "Prepare Form SS-4", desc: "Complete IRS Form SS-4 with your LLC details and your Canadian passport number. Your Canadian home address goes in the responsible party section. ein.so prepares this form for you to ensure accuracy." },
                     { step: "3", title: "Submit via Fax", desc: "Fax the completed SS-4 to the IRS at 855-215-1627. ein.so uses commercial-grade fax systems to ensure clear transmission. The IRS processes faxed applications in 4-7 business days." },
-                    { step: "4", title: "Receive Your EIN", desc: "The IRS faxes back your EIN assignment letter (CP 575). ein.so delivers your EIN via email as soon as it arrives. With Express processing ($97), you can have your EIN in 2-3 business days." },
+                    { step: "4", title: "Receive Your EIN", desc: "The IRS faxes back your EIN assignment letter (CP 575). ein.so delivers your EIN via email as soon as it arrives. With Express processing ($97), you can have your EIN in 7 business days." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

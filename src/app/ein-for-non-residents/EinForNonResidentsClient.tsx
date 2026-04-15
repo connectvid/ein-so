@@ -23,7 +23,7 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>Non-US residents can get an EIN by submitting IRS Form SS-4 by fax. No SSN or ITIN is required -- your passport number and foreign address are sufficient. The IRS online application is not available to non-residents, which is why the fax method exists.</strong>{" "}
-                  ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
+                  ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
                 </p>
               </div>
 
@@ -288,7 +288,7 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
               </StaggerContainer>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN is the foundation of your US business presence. Everything else -- banking, selling, hiring, taxes -- builds on top of it. The sooner you get your EIN, the sooner you can start operating. <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Apply for your EIN now</Link> and have it in as few as 2-3 business days with Express processing.
+                The EIN is the foundation of your US business presence. Everything else -- banking, selling, hiring, taxes -- builds on top of it. The sooner you get your EIN, the sooner you can start operating. <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Apply for your EIN now</Link> and have it in as few as 7 business days with Express processing.
               </p>
             </div>
           </AnimateIn>
@@ -318,7 +318,7 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
                   <tbody className="divide-y divide-[var(--color-border)]">
                     <tr className="bg-white">
                       <td className="p-4 font-semibold text-[var(--color-text)]">ein.so Express</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">2-3 business days</td>
+                      <td className="p-4 text-[var(--color-text-muted)]">7 business days</td>
                       <td className="p-4 text-[var(--color-text-muted)]">$97</td>
                       <td className="p-4 text-green-600 font-bold">Best for urgent needs</td>
                     </tr>

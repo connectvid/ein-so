@@ -92,7 +92,7 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
                     { step: "1", title: "Form Your US LLC", desc: "Form an LLC in Delaware (preferred for startups seeking funding) or Wyoming (lower costs). Use a registered agent for your US address. The entire formation process is done online from Nigeria." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Nigerian passport (valid and unexpired) and your LLC details. No NIN (National Identification Number), BVN, or Nigerian business registration (CAC) documents are needed for the US EIN." },
                     { step: "3", title: "Apply Through ein.so", desc: "Complete our simple application in 3 minutes. We prepare your SS-4, format your Nigerian address for IRS acceptance, and fax it to the IRS. $49 Standard or $97 Express." },
-                    { step: "4", title: "Receive Your EIN", desc: "The IRS assigns your EIN and we deliver it via email. Standard takes 4-7 business days; Express takes 2-3 business days. You receive your official CP 575 confirmation letter." },
+                    { step: "4", title: "Receive Your EIN", desc: "The IRS assigns your EIN and we deliver it via email. Standard takes 4-7 business days; Express takes 7 business days. You receive your official CP 575 confirmation letter." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

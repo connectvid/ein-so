@@ -92,7 +92,7 @@ export default function EinForPhilippinesClient({ faqs }: { faqs: { q: string; a
                     { step: "1", title: "Form a US LLC", desc: "Form an LLC in Wyoming or Delaware through a registered agent. The entire process is done online from the Philippines. Most Filipino entrepreneurs choose Wyoming for its low costs and privacy protections." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Philippine passport (valid and unexpired) and your LLC formation details. No Philippine TIN, SSS number, or DTI/SEC registration is needed for the US EIN application." },
                     { step: "3", title: "Apply Through ein.so", desc: "Complete our 3-minute application. We prepare your SS-4, format your Philippine address correctly, and fax it to the IRS. Standard processing is $49. Express is $97." },
-                    { step: "4", title: "Receive Your EIN", desc: "We deliver your EIN via email once the IRS processes your application. Standard takes 4-7 business days. Express takes 2-3 business days. You receive your official CP 575 confirmation letter." },
+                    { step: "4", title: "Receive Your EIN", desc: "We deliver your EIN via email once the IRS processes your application. Standard takes 4-7 business days. Express takes 7 business days. You receive your official CP 575 confirmation letter." },
                   ].map((item) => (
                     <StaggerItem key={item.step}>
                       <div className="flex gap-4">

@@ -384,7 +384,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               <div className="bg-[var(--color-amber)]/10 border border-[var(--color-amber)]/30 rounded-2xl p-6">
                 <h3 className="text-base font-bold text-[var(--color-text)] mb-2">How ein.so Helps</h3>
                 <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
-                  We handle the entire SS-4 filing process for non-residents. You provide your information, we prepare and fax the form to the IRS, and we deliver your EIN by email. Our Standard service is <strong className="text-[var(--color-text)]">$49</strong> (5-7 business days) and our Express service is <strong className="text-[var(--color-text)]">$97</strong> (2-3 business days). No SSN required, no navigating IRS phone trees, no fax machine needed.
+                  We handle the entire SS-4 filing process for non-residents. You provide your information, we prepare and fax the form to the IRS, and we deliver your EIN by email. Our Standard service is <strong className="text-[var(--color-text)]">$49</strong> (14 business days) and our Express service is <strong className="text-[var(--color-text)]">$97</strong> (7 business days). No SSN required, no navigating IRS phone trees, no fax machine needed.
                 </p>
               </div>
 

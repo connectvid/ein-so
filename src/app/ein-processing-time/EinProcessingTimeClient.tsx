@@ -23,7 +23,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
                   <strong>EIN processing time depends on your application method. Online applications receive an EIN instantly. Fax applications (Form SS-4) take 4-7 business days. Phone applications can be processed the same day. Mail applications take 4-6 weeks.</strong>{" "}
-                  For non-US residents who must use the fax method, ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 2-3 business days) to get your EIN as quickly as possible.
+                  For non-US residents who must use the fax method, ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 7 business days) to get your EIN as quickly as possible.
                 </p>
               </div>
 
@@ -136,7 +136,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Faxing Form SS-4 to the IRS is the primary method for non-US residents applying for an EIN. The standard EIN processing time for fax applications is <strong className="text-[var(--color-text)]">4 to 7 business days</strong>. The IRS receives your completed SS-4, processes the application, assigns an EIN, and faxes the assignment letter back to the number you provided.
+                Faxing Form SS-4 to the IRS is the primary method for non-US residents applying for an EIN. The standard EIN processing time for fax applications is <strong className="text-[var(--color-text)]">7 to 14 business days</strong>. The IRS receives your completed SS-4, processes the application, assigns an EIN, and faxes the assignment letter back to the number you provided.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -148,7 +148,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                ein.so handles the entire fax filing process. Our team prepares your SS-4, verifies every field for accuracy, submits it by fax, monitors for the IRS response, and delivers your EIN to you. <strong className="text-[var(--color-text)]">Standard processing costs $49</strong> and follows the normal IRS timeline. <strong className="text-[var(--color-text)]">Express processing costs $97</strong> and includes priority handling to get your EIN in as few as 2-3 business days.
+                ein.so handles the entire fax filing process. Our team prepares your SS-4, verifies every field for accuracy, submits it by fax, monitors for the IRS response, and delivers your EIN to you. <strong className="text-[var(--color-text)]">Standard processing costs $49</strong> and follows the normal IRS timeline. <strong className="text-[var(--color-text)]">Express processing costs $97</strong> and includes priority handling to get your EIN in as few as 7 business days.
               </p>
             </div>
           </AnimateIn>
@@ -166,7 +166,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                ein.so&apos;s Express service ($97) is designed for applicants who need their EIN as fast as possible. Express processing reduces your EIN processing time from the standard 4-7 business days down to <strong className="text-[var(--color-text)]">2-3 business days</strong> in most cases.
+                ein.so&apos;s Express service ($97) is designed for applicants who need their EIN as fast as possible. Express processing reduces your EIN processing time from the standard 4-7 business days down to <strong className="text-[var(--color-text)]">7 business days</strong> in most cases.
               </p>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
@@ -204,7 +204,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
                     <tr className="bg-white">
                       <td className="p-4 font-semibold text-[var(--color-text)]">Processing Time</td>
                       <td className="p-4 text-[var(--color-text-muted)]">4-7 business days</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">2-3 business days</td>
+                      <td className="p-4 text-[var(--color-text-muted)]">7 business days</td>
                     </tr>
                     <tr className="bg-[var(--color-surface)]">
                       <td className="p-4 font-semibold text-[var(--color-text)]">Fax Submission</td>
@@ -362,7 +362,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
         </div>
       </section>
 
-      <CTASection title="Need Your EIN Fast?" subtitle="Express processing: 2-3 business days for $97. Standard: $49." />
+      <CTASection title="Need Your EIN Fast?" subtitle="Express processing: 7 business days for $97. Standard: $49." />
     </>
   );
 }

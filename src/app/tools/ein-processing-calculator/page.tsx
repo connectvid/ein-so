@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN by fax?",
-    a: "Standard fax processing takes approximately 4-7 business days. The IRS processes faxed Form SS-4 applications in the order received. Processing times can vary depending on IRS workload and staffing levels. ein.so offers Express fax processing with priority handling that delivers your EIN in 2-3 business days for $97.",
+    a: "Standard fax processing takes approximately 4-7 business days. The IRS processes faxed Form SS-4 applications in the order received. Processing times can vary depending on IRS workload and staffing levels. ein.so offers Express fax processing with priority handling that delivers your EIN in 7 business days for $97.",
   },
   {
     q: "Why is the phone method not available to everyone?",
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "What is the fastest way for a non-resident to get an EIN?",
-    a: "The fastest method for a non-resident is Express fax filing through ein.so, which delivers your EIN in 2-3 business days for $97. Standard fax filing through ein.so takes 5-7 business days for $49. Both options are significantly faster and more reliable than trying to call the IRS or mailing your application.",
+    a: "The fastest method for a non-resident is Express fax filing through ein.so, which delivers your EIN in 7 business days for $97. Standard fax filing through ein.so takes 14 business days for $49. Both options are significantly faster and more reliable than trying to call the IRS or mailing your application.",
   },
   {
     q: "Does the EIN processing time calculator account for weekends and holidays?",
