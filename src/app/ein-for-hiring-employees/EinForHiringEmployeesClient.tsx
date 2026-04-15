@@ -107,7 +107,7 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
                   {
                     tax: "State Unemployment Tax (SUTA)",
                     rate: "Varies by state (0.5%-12%)",
-                    detail: "Each state sets its own unemployment tax rate based on your industry and claims history. New employers typically pay a default rate. You register with each state where you have employees using your federal EIN.",
+                    detail: "Each state sets its own unemployment tax rate based on your industry and claims history. New employers pay a default rate. You register with each state where you have employees using your federal EIN.",
                   },
                 ].map((item, idx) => (
                   <div key={idx} className="bg-[var(--color-surface)] rounded-xl border border-[var(--color-border)] p-5">

@@ -101,7 +101,7 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Step 5: Verify and Activate</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Shopify validates your EIN with the IRS, which typically takes 24-48 hours. Once verified, Shopify Payments is fully active. If you have a new EIN, allow 2 weeks for IRS database propagation before activating.</p>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Shopify validates your EIN with the IRS, which takes 24-48 hours. Once verified, Shopify Payments is fully active. If you have a new EIN, allow 2 weeks for IRS database propagation before activating.</p>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Sales tax nexus</strong> is an important concept for Shopify sellers. If you have economic nexus in a state (typically $100,000 in sales or 200 transactions), you must collect and remit sales tax in that state. Shopify Tax automates this calculation, but you need to register with each state&apos;s tax authority using your EIN.
+                <strong className="text-[var(--color-text)]">Sales tax nexus</strong> is an important concept for Shopify sellers. If you have economic nexus in a state ($100,000 in sales or 200 transactions), you must collect and remit sales tax in that state. Shopify Tax automates this calculation, but you need to register with each state&apos;s tax authority using your EIN.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -317,7 +317,7 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
               </StaggerContainer>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The entire process from EIN application to first Shopify sale typically takes 2-4 weeks. Getting your EIN is the fastest step when you use ein.so. <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Start your EIN application today</Link>.
+                The entire process from EIN application to first Shopify sale takes 2-4 weeks. Getting your EIN is the fastest step when you use ein.so. <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Start your EIN application today</Link>.
               </p>
             </div>
           </AnimateIn>

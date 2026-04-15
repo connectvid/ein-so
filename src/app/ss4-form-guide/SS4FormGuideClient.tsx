@@ -94,7 +94,7 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Line 7a -- Name of Responsible Party:</strong> The IRS requires every EIN application to identify a &quot;responsible party&quot; -- an individual (not an entity) who controls, manages, or directs the entity and the disposition of its funds and assets. For a single-member LLC, this is the sole member. For a corporation, it is typically the president or CEO. For a partnership, it is a managing partner.
+                <strong className="text-[var(--color-text)]">Line 7a -- Name of Responsible Party:</strong> The IRS requires every EIN application to identify a &quot;responsible party&quot; -- an individual (not an entity) who controls, manages, or directs the entity and the disposition of its funds and assets. For a single-member LLC, this is the sole member. For a corporation, it is the president or CEO. For a partnership, it is a managing partner.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 7b -- SSN, ITIN, or EIN of Responsible Party:</strong> This is the line that causes the most confusion for non-residents. If you have an SSN or ITIN, enter it here. If you are a non-resident without either number, write &quot;N/A&quot; or &quot;Foreign&quot; on this line. The IRS will still process your application -- this is one of the key advantages of the fax method over the online application, which requires a valid SSN or ITIN.
@@ -146,7 +146,7 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
                 <strong className="text-[var(--color-text)]">Line 9b -- Type of Entity (if &quot;Other&quot;):</strong> If you checked &quot;Other&quot; on Line 9a, specify the reason here. Common entries include &quot;Compliance with IRS withholding regulations&quot; and &quot;Required to have an EIN for payment processing.&quot; Most applicants will not need to use this line.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Line 10 -- Date Business Started:</strong> Enter the date your business began or was acquired. For newly formed entities, this is typically the date your LLC or corporation was officially registered with the state. If you are applying for an EIN before your business officially starts, enter the expected start date. Use the MM/DD/YYYY format.
+                <strong className="text-[var(--color-text)]">Line 10 -- Date Business Started:</strong> Enter the date your business began or was acquired. For newly formed entities, this is the date your LLC or corporation was officially registered with the state. If you are applying for an EIN before your business officially starts, enter the expected start date. Use the MM/DD/YYYY format.
               </p>
             </div>
           </AnimateIn>

@@ -194,7 +194,7 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
                 {[
                   { title: "US Bank Account", desc: "Open a Mercury or Relay account with your EIN. Receive USD payments from US clients, marketplaces, and payment processors. Hold USD without forced conversion to MXN." },
                   { title: "Mexican USD Account", desc: "Many Mexican banks (BBVA, Banorte, Citibanamex) offer USD accounts. You can transfer from your US bank to your Mexican USD account to maintain dollar holdings within Mexican banking." },
-                  { title: "Wise Transfers", desc: "Use Wise for competitive MXN/USD transfers. Wise typically offers better rates than Mexican banks for international transfers, with transparent fees and fast delivery." },
+                  { title: "Wise Transfers", desc: "Use Wise for competitive MXN/USD transfers. Wise offers better rates than Mexican banks for international transfers, with transparent fees and fast delivery." },
                   { title: "Cross-Border Payment Processing", desc: "Stripe US for USD payments, and local Mexican processors (Conekta, OpenPay) for MXN payments. Your EIN enables the US side of this dual payment structure." },
                 ].map((item, idx) => (
                   <StaggerItem key={idx}>
@@ -231,7 +231,7 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
               <div className="space-y-4">
                 {[
                   { topic: "US Tax Filing", detail: "A single-member LLC owned by a Mexican non-resident is a disregarded entity. You may need to file Form 5472 and Form 1120 (pro forma) annually. If your LLC has US-sourced income, additional requirements may apply." },
-                  { topic: "Mexico-US Tax Treaty", detail: "The Mexico-US tax treaty prevents double taxation on the same income. Business profits are generally taxable where you reside (Mexico) unless you have a permanent establishment in the US. The treaty provides credits for taxes paid in either country." },
+                  { topic: "Mexico-US Tax Treaty", detail: "The Mexico-US tax treaty prevents double taxation on the same income. Business profits are taxable where you reside (Mexico) unless you have a permanent establishment in the US. The treaty provides credits for taxes paid in either country." },
                   { topic: "SAT Obligations", detail: "Mexican residents must report worldwide income to the SAT. Income from your US LLC is reportable in Mexico. If you operate under a Mexican tax regime (RESICO, actividad empresarial, etc.), your US income must be included in your Mexican tax calculations." },
                 ].map((item, idx) => (
                   <div key={idx} className="bg-white rounded-xl border border-[var(--color-border)] p-5">

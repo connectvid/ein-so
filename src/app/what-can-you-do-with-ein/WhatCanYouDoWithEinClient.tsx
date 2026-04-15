@@ -51,10 +51,10 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
                 Opening a business bank account is the most common first use of an EIN. Every US bank requires an EIN before they will open a business checking or savings account. This applies to all entity types: LLCs, corporations, partnerships, and even sole proprietors who want a separate business account. Without an EIN, you cannot separate your business finances from your personal finances.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                To open a business bank account, you typically need your EIN confirmation letter (IRS Letter 147C or CP 575), your business formation documents (Articles of Organization for LLCs, Articles of Incorporation for corporations), a government-issued ID, and your business address. Some banks also require an operating agreement for LLCs or corporate bylaws for corporations.
+                To open a business bank account, you need your EIN confirmation letter (IRS Letter 147C or CP 575), your business formation documents (Articles of Organization for LLCs, Articles of Incorporation for corporations), a government-issued ID, and your business address. Some banks also require an operating agreement for LLCs or corporate bylaws for corporations.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-resident business owners face additional requirements. Many traditional banks require an in-person visit to open an account, which is difficult if you live outside the US. However, several online-friendly banks like Mercury, Relay, and Brex accept applications from non-residents with a valid EIN and passport. Read our <Link href="/ein-for-bank-account/" className="text-[var(--color-blue)] underline">EIN for Bank Account</Link> guide for a full list of banks that work with non-residents.
+                Non-resident business owners face additional requirements. Many traditional banks require an in-person visit to open an account, which is difficult if you live outside the US. However, online-friendly banks like Mercury, Relay, and Brex accept applications from non-residents with a valid EIN and passport. Read our <Link href="/ein-for-bank-account/" className="text-[var(--color-blue)] underline">EIN for Bank Account</Link> guide for a full list of banks that work with non-residents.
               </p>
             </div>
           </AnimateIn>

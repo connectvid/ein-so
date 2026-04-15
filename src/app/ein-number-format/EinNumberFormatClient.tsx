@@ -85,7 +85,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The first two digits of an EIN are the campus prefix code. Before the IRS allowed online applications, the prefix indicated which IRS processing campus handled your application, which generally corresponded to your geographic location. Since the IRS launched online EIN applications in 2001, most new EINs carry internet-assigned prefixes in the 80-99 range.
+                  The first two digits of an EIN are the campus prefix code. Before the IRS allowed online applications, the prefix indicated which IRS processing campus handled your application, which corresponded to your geographic location. Since the IRS launched online EIN applications in 2001, most new EINs carry internet-assigned prefixes in the 80-99 range.
                 </p>
               </div>
             </AnimateIn>
@@ -116,7 +116,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
 
             <AnimateIn delay={0.2} className="mt-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                If your EIN starts with 80 or higher, it was issued through the IRS online system. If it starts with a lower number, it was issued by a specific IRS campus, likely through a fax or mail application. Non-residents who apply by fax through ein.so typically receive EINs with campus prefixes corresponding to the IRS campus that processes fax applications (currently the Ogden and Kansas City campuses).
+                If your EIN starts with 80 or higher, it was issued through the IRS online system. If it starts with a lower number, it was issued by a specific IRS campus, likely through a fax or mail application. Non-residents who apply by fax through ein.so receive EINs with campus prefixes corresponding to the IRS campus that processes fax applications (currently the Ogden and Kansas City campuses).
               </p>
             </AnimateIn>
           </div>

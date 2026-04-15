@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How does the US-Germany tax treaty affect my EIN?",
-    a: "The US-Germany tax treaty prevents double taxation. Business profits from your US LLC are generally taxable in Germany (where you reside) unless you have a permanent establishment in the US. The treaty provides credits for taxes paid in either country. Consult a Steuerberater familiar with US-German tax obligations.",
+    a: "The US-Germany tax treaty prevents double taxation. Business profits from your US LLC are taxable in Germany (where you reside) unless you have a permanent establishment in the US. The treaty provides credits for taxes paid in either country. Consult a Steuerberater familiar with US-German tax obligations.",
   },
   {
     q: "Can I sell on Amazon.com from Germany with a US EIN?",

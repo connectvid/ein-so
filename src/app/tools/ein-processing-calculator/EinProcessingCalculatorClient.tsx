@@ -426,7 +426,7 @@ export default function EinProcessingCalculatorClient({
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Several factors can affect how quickly you receive your EIN after submitting Form SS-4. The most significant is the application method, as described above. Beyond that, IRS workload plays a major role: during peak filing season (January through April), processing times can increase as IRS staff handle a higher volume of applications. Submissions made during the summer months or late in the year typically see faster turnaround times.
+                Multiple factors can affect how quickly you receive your EIN after submitting Form SS-4. The most significant is the application method, as described above. Beyond that, IRS workload plays a major role: during peak filing season (January through April), processing times can increase as IRS staff handle a higher volume of applications. Submissions made during the summer months or late in the year see faster turnaround times.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Errors on your Form SS-4 can also cause significant delays. If the IRS finds inconsistencies -- such as a mismatch between the entity name and the name on file with the state, an incorrect entity type, or a missing signature -- they may reject the application entirely, requiring you to resubmit. This can add days or even weeks to the process. Using our <Link href="/tools/ss4-form-helper/" className="text-[var(--color-blue)] underline">SS-4 Form Helper</Link> can help you avoid these common mistakes before you submit.

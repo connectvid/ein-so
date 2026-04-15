@@ -80,7 +80,7 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
                 The IRS online EIN application requires a Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN). If you don&apos;t have either, you <strong className="text-[var(--color-text)]">cannot use the online system</strong>.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Instead, non-residents must submit <strong className="text-[var(--color-text)]">Form SS-4 by fax</strong> to the IRS at their international fax line (855-215-1627). The IRS processes faxed SS-4 forms in approximately 4 business days.
+                Instead, non-residents must submit <strong className="text-[var(--color-text)]">Form SS-4 by fax</strong> to the IRS at their international fax line (855-215-1627). The IRS processes faxed SS-4 forms in about 4 business days.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 We handle this entire process: completing the form, faxing it, and following up with the IRS. All you need to do is provide your information and wait for your EIN to arrive by email.

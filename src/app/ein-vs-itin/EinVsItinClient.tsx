@@ -114,7 +114,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   US residents with an SSN can apply for an EIN online at irs.gov in minutes. Non-US residents without an
-                  SSN must apply by faxing Form SS-4 to the IRS. This fax-based process typically takes 4 to 7 business
+                  SSN must apply by faxing Form SS-4 to the IRS. This fax-based process takes 4 to 7 business
                   days. At ein.so, we handle the entire fax process for you.{" "}
                   <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     learn more about what an EIN is and why you need one
@@ -152,7 +152,7 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   To apply for an ITIN, you must complete <strong className="text-[var(--color-text)]">Form W-7</strong>{" "}
                   and mail it to the IRS along with your federal tax return and original identification documents (or
                   certified copies). Alternatively, you can apply through an IRS-authorized Certifying Acceptance Agent
-                  (CAA). Processing takes approximately 6 to 11 weeks, significantly longer than the EIN process.
+                  (CAA). Processing takes about 6 to 11 weeks, significantly longer than the EIN process.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   ITINs expire if not used on a federal tax return for three consecutive years, or if the ITIN was issued
@@ -270,13 +270,13 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   scenario: "Selling on Amazon, Shopify, or Stripe",
                   need: "EIN",
                   detail:
-                    "E-commerce platforms require a US tax ID for sellers. An EIN is typically sufficient if you operate through a business entity. Some platforms accept an ITIN for individual sellers.",
+                    "E-commerce platforms require a US tax ID for sellers. An EIN is sufficient if you operate through a business entity. Some platforms accept an ITIN for individual sellers.",
                 },
                 {
                   scenario: "Investing in US Real Estate",
                   need: "Both EIN and ITIN",
                   detail:
-                    "You typically need an EIN for the LLC or partnership holding the property, and an ITIN for your personal tax return reporting rental income or capital gains.",
+                    "You need an EIN for the LLC or partnership holding the property, and an ITIN for your personal tax return reporting rental income or capital gains.",
                 },
                 {
                   scenario: "Opening a US Personal Bank Account",

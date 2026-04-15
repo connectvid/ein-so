@@ -27,7 +27,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 US residents with an SSN or ITIN can <strong className="text-[var(--color-text)]">apply online at irs.gov and receive their EIN instantly</strong>. Non-US residents without an SSN must use either the{" "}
                 <strong className="text-[var(--color-text)]">fax method (Form SS-4)</strong> or the{" "}
-                <strong className="text-[var(--color-text)]">IRS international phone line</strong>. The fax method is the most reliable path for non-residents and takes approximately 4 business days. This guide walks you through every method, step by step.
+                <strong className="text-[var(--color-text)]">IRS international phone line</strong>. The fax method is the most reliable path for non-residents and takes about 4 business days. This guide walks you through every method, step by step.
               </p>
             </div>
           </AnimateIn>
@@ -62,7 +62,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
                 title: "Apply by Fax",
                 who: "Anyone (including non-residents)",
                 time: "~4 business days",
-                desc: "Complete Form SS-4 and fax it to the IRS. This is the primary method for non-US residents who do not have an SSN. The IRS will fax your EIN back to you within approximately 4 business days.",
+                desc: "Complete Form SS-4 and fax it to the IRS. This is the primary method for non-US residents who do not have an SSN. The IRS will fax your EIN back to you within about 4 business days.",
                 color: "var(--color-amber)",
               },
               {
@@ -158,7 +158,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </h2>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-              Faxing Form SS-4 to the IRS is the most reliable method for non-US residents to obtain an EIN. Unlike the online application, the fax method does not require an SSN or ITIN. You fill out the form, fax it to the appropriate IRS number, and wait for your EIN to be faxed back. The typical processing time is <strong className="text-[var(--color-text)]">4 business days</strong>.
+              Faxing Form SS-4 to the IRS is the most reliable method for non-US residents to obtain an EIN. As outlined in IRS Publication 1635, non-residents must fax Form SS-4 to the IRS at (855) 641-6935 since the online application at irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online is available to US residents only. Unlike the online application, the fax method does not require an SSN or ITIN. You fill out the form, fax it to the appropriate IRS number, and wait for your EIN to be faxed back. The typical processing time is <strong className="text-[var(--color-text)]">4 business days</strong>.
             </p>
 
             <div className="bg-white rounded-2xl border border-[var(--color-border)] p-8 mb-8">
@@ -182,7 +182,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
                 </li>
                 <li className="flex gap-3">
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--color-amber)] text-white text-sm font-bold flex items-center justify-center">5</span>
-                  <span><strong className="text-[var(--color-text)]">Wait for your EIN.</strong> The IRS typically processes faxed SS-4 forms within 4 business days. If you provided a return fax number, your EIN assignment notice will be faxed back. Otherwise, it will be mailed to the address on the form.</span>
+                  <span><strong className="text-[var(--color-text)]">Wait for your EIN.</strong> The IRS processes faxed SS-4 forms within 4 business days. If you provided a return fax number, your EIN assignment notice will be faxed back. Otherwise, it will be mailed to the address on the form.</span>
                 </li>
               </ol>
             </div>
@@ -258,7 +258,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
             </p>
 
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-              That said, the fax process has its own challenges. You need to fill out Form SS-4 correctly (errors are the number one cause of rejection), you need access to a fax machine or online fax service, and you need to wait approximately 4 business days for the IRS to respond. If the form has errors, the IRS may reject it or assign the wrong type of EIN, creating complications down the road.
+              That said, the fax process has its own challenges. You need to fill out Form SS-4 correctly (errors are the number one cause of rejection), you need access to a fax machine or online fax service, and you need to wait about 4 business days for the IRS to respond. If the form has errors, the IRS may reject it or assign the wrong type of EIN, creating complications down the road.
             </p>
 
             <div className="bg-white rounded-2xl border border-[var(--color-blue)]/20 p-8 mb-6">
@@ -493,7 +493,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-8">
                 <h3 className="text-lg font-bold text-[var(--color-text)] mb-3">1. Open a US Business Bank Account</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  One of the most common reasons non-residents need an EIN is to open a US business bank account. With your EIN, you can approach US banks that accept non-resident business accounts. Many online-first banks like Mercury, Relay, or traditional institutions like Chase or Bank of America offer business accounts for foreign-owned entities. You will typically need your EIN confirmation letter (CP 575), your formation documents (like Articles of Organization), and valid government-issued ID.
+                  One of the most common reasons non-residents need an EIN is to open a US business bank account. With your EIN, you can approach US banks that accept non-resident business accounts. Many online-first banks like Mercury, Relay, or traditional institutions like Chase or Bank of America offer business accounts for foreign-owned entities. You need your EIN confirmation letter (CP 575), your formation documents (like Articles of Organization), and valid government-issued ID.
                 </p>
               </div>
 

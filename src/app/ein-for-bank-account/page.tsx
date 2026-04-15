@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Can I open a US business bank account with just an EIN?",
-    a: "Yes, several US banks allow non-residents to open business bank accounts with an EIN and no SSN. Mercury, Relay, and Wise Business are the most popular options for international founders. You will also need your LLC formation documents (Articles of Organization), EIN confirmation letter (CP 575), operating agreement, and a valid passport or government-issued ID.",
+    a: "Yes, multiple US banks allow non-residents to open business bank accounts with an EIN and no SSN. Mercury, Relay, and Wise Business are the most popular options for international founders. You will also need your LLC formation documents (Articles of Organization), EIN confirmation letter (CP 575), operating agreement, and a valid passport or government-issued ID.",
   },
   {
     q: "Which US bank is best for non-residents with an EIN?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How long does it take to open a US business bank account with an EIN?",
-    a: "Application approval typically takes 1 to 5 business days depending on the bank. Mercury usually approves accounts within 1-2 business days. Relay and Wise may take 2-5 business days. After approval, you can start receiving and sending payments immediately through online banking.",
+    a: "Application approval takes 1 to 5 business days depending on the bank. Mercury usually approves accounts within 1-2 business days. Relay and Wise may take 2-5 business days. After approval, you can start receiving and sending payments immediately through online banking.",
   },
   {
     q: "Can I open a personal US bank account with an EIN?",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Do I need an LLC to open a US business bank account?",
-    a: "While sole proprietors can open business accounts at some banks, most online banks that serve non-residents require a US-registered LLC or corporation. Forming a US LLC (typically in Wyoming or Delaware) gives you the legal entity needed to open a business bank account, get an EIN, and operate professionally in the US market.",
+    a: "While sole proprietors can open business accounts at some banks, most online banks that serve non-residents require a US-registered LLC or corporation. Forming a US LLC (most choose Wyoming or Delaware) gives you the legal entity needed to open a business bank account, get an EIN, and operate professionally in the US market.",
   },
 ];
 

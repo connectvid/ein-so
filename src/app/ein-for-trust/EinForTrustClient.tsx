@@ -146,7 +146,7 @@ export default function EinForTrustClient({ faqs }: { faqs: { q: string; a: stri
                   <li>Specify the type of trust (irrevocable, trust upon death of individual, etc.)</li>
                   <li>Enter the trustee&apos;s name and SSN or ITIN as the responsible party</li>
                   <li>Provide the trust&apos;s legal name (e.g., &quot;The John Smith Irrevocable Trust&quot;)</li>
-                  <li>Enter the trust&apos;s address (typically the trustee&apos;s address)</li>
+                  <li>Enter the trust&apos;s address (the trustee&apos;s address)</li>
                   <li>Submit and receive your EIN <strong className="text-[var(--color-text)]">instantly</strong></li>
                 </ol>
               </div>
@@ -193,7 +193,7 @@ export default function EinForTrustClient({ faqs }: { faqs: { q: string; a: stri
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Form 1041 is due on April 15 of each year (for trusts using a calendar year). The trust can request a 5.5-month extension by filing Form 7004. The trust&apos;s EIN appears on every filing. For more about EIN applications generally, see our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">how to get an EIN guide</Link>.
+                Form 1041 is due on April 15 of each year (for trusts using a calendar year). The trust can request a 5.5-month extension by filing Form 7004. The trust&apos;s EIN appears on every filing. For more about EIN applications, see our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">how to get an EIN guide</Link>.
               </p>
             </div>
           </AnimateIn>

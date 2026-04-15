@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     q: "Can I get a business credit card with only an EIN?",
-    a: "Some business credit cards, called EIN-only cards, do not require a personal credit check or SSN. These are typically secured cards or store credit cards from vendors like Uline, Grainger, or Quill. Most major bank business credit cards still require a personal guarantee and SSN, but your business credit history can improve your approval odds and terms.",
+    a: "Some business credit cards, called EIN-only cards, do not require a personal credit check or SSN. These are secured cards or store credit cards from vendors like Uline, Grainger, or Quill. Most major bank business credit cards still require a personal guarantee and SSN, but your business credit history can improve your approval odds and terms.",
   },
   {
     q: "How long does it take to build business credit?",
-    a: "Building a strong business credit profile typically takes 6-12 months of consistent payment history. Start with net-30 vendor accounts that report to business credit bureaus, pay every invoice early or on time, and gradually apply for larger credit lines. Your EIN is the foundation that makes this process possible.",
+    a: "Building a strong business credit profile takes 6-12 months of consistent payment history. Start with net-30 vendor accounts that report to business credit bureaus, pay every invoice early or on time, and gradually apply for larger credit lines. Your EIN is the foundation that makes this process possible.",
   },
   {
     q: "Does business credit affect personal credit?",

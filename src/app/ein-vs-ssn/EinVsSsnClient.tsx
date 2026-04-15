@@ -150,7 +150,7 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
                   business owners should use an EIN rather than their SSN for business activities.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Non-US residents generally cannot obtain an SSN unless they have authorization to work in the United States.
+                  Non-US residents cannot obtain an SSN unless they have authorization to work in the United States.
                   However, they can still form a US business and get an EIN without an SSN. See our guide on{" "}
                   <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     how to get an EIN without an SSN

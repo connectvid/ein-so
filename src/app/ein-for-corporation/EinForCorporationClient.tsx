@@ -189,7 +189,7 @@ export default function EinForCorporationClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The responsible party is the individual who controls, manages, or directs the corporation and the disposition of its funds and assets. The IRS requires this to be a person, not an entity. For corporations, the responsible party is typically the president, CEO, or another principal officer listed in the articles of incorporation or bylaws.
+                The responsible party is the individual who controls, manages, or directs the corporation and the disposition of its funds and assets. The IRS requires this to be a person, not an entity. For corporations, the responsible party is the president, CEO, or another principal officer listed in the articles of incorporation or bylaws.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -201,7 +201,7 @@ export default function EinForCorporationClient({ faqs }: { faqs: { q: string; a
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For non-US residents forming a US corporation, the responsible party is typically the foreign founder or director who exercises actual control over the corporation. A US-based registered agent does not qualify. Read our guide on <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">how to get an EIN</Link> for more details on the responsible party requirement.
+                For non-US residents forming a US corporation, the responsible party is the foreign founder or director who exercises actual control over the corporation. A US-based registered agent does not qualify. Read our guide on <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">how to get an EIN</Link> for more details on the responsible party requirement.
               </p>
             </div>
           </AnimateIn>

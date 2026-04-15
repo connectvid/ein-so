@@ -86,7 +86,7 @@ function getResult(answers: Record<number, string>) {
         color: "text-amber-600",
         bg: "bg-amber-50 border-amber-200",
         explanation: `While a sole proprietor without employees is not strictly required to have an EIN, your situation strongly suggests you should get one. ${
-          needsBank ? "Banks typically require an EIN to open a business account. " : ""
+          needsBank ? "Banks require an EIN to open a business account." : ""
         }${
           sellsOnPlatforms
             ? "US marketplace platforms like Amazon and Shopify require an EIN for seller verification. "
@@ -317,7 +317,7 @@ export default function EinEligibilityCheckerClient({
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-US residents face unique challenges when applying for an EIN. The IRS online application -- which is the fastest method for US residents -- requires either a Social Security Number (SSN) or an Individual Taxpayer Identification Number (ITIN). Most non-residents do not have either of these, which means the online path is unavailable. Instead, non-residents must submit Form SS-4 by fax to the IRS or call the IRS international line at 267-941-1099. The fax method is generally more reliable, as the phone line has limited hours and notoriously long hold times that can exceed two hours.
+                Non-US residents face unique challenges when applying for an EIN. The IRS online application -- which is the fastest method for US residents -- requires either a Social Security Number (SSN) or an Individual Taxpayer Identification Number (ITIN). Most non-residents do not have either of these, which means the online path is unavailable. Instead, non-residents must submit Form SS-4 by fax to the IRS or call the IRS international line at 267-941-1099. The fax method is more reliable, as the phone line has limited hours and notoriously long hold times that can exceed two hours.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 If you are a non-resident who has formed a US LLC through a registered agent in Delaware, Wyoming, or another state, obtaining your EIN should be your immediate next step after receiving your articles of organization. Without an EIN, you cannot open a US bank account for your LLC, accept payments through Stripe or PayPal, or set up a seller account on Amazon or Shopify. These platforms all require an EIN during the verification process. Our <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] underline">EIN Without SSN guide</Link> explains exactly how non-residents can navigate this process.
@@ -353,7 +353,7 @@ export default function EinEligibilityCheckerClient({
                 <strong>Nonprofits:</strong> Nonprofit organizations need an EIN before they can apply for 501(c)(3) tax-exempt status. The EIN is also required for opening a bank account, accepting donations, filing Form 990, and hiring staff or contractors. Without an EIN, a nonprofit cannot operate legally.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong>Trusts and Estates:</strong> Irrevocable trusts and estates that earn income must have an EIN for tax reporting purposes. Revocable living trusts generally use the grantor&apos;s SSN while the grantor is alive, but need an EIN after the grantor passes away.
+                <strong>Trusts and Estates:</strong> Irrevocable trusts and estates that earn income must have an EIN for tax reporting purposes. Revocable living trusts use the grantor&apos;s SSN while the grantor is alive, but need an EIN after the grantor passes away.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong>Sole Proprietors:</strong> A sole proprietor is only required to have an EIN if they have employees. However, sole proprietors who want to keep their SSN private, open a dedicated business bank account, or build business credit should strongly consider getting an EIN. It is free from the IRS and provides significant practical benefits even when not technically required.

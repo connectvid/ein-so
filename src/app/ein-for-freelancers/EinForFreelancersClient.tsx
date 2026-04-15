@@ -113,7 +113,7 @@ export default function EinForFreelancersClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                An EIN does not change your tax obligations as a sole proprietor freelancer -- you still report income on Schedule C of your personal tax return. However, an EIN provides several practical tax-related benefits that make your freelance business easier to manage.
+                An EIN does not change your tax obligations as a sole proprietor freelancer -- you still report income on Schedule C of your personal tax return. However, an EIN provides practical tax-related benefits that make your freelance business easier to manage.
               </p>
 
               <StaggerContainer className="space-y-4">

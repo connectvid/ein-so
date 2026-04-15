@@ -110,7 +110,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS EIN Assistant is the fastest way to get an EIN. You complete a short online form, verify your identity with your SSN or ITIN, and receive your EIN immediately upon submission. The entire process takes approximately 10-15 minutes from start to finish.
+                The IRS EIN Assistant is the fastest way to get an EIN. You complete a short online form, verify your identity with your SSN or ITIN, and receive your EIN immediately upon submission. The entire process takes about 10-15 minutes from start to finish.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -301,7 +301,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The busiest period for EIN applications is <strong className="text-[var(--color-text)]">January through April</strong>, when the IRS is simultaneously handling individual and business tax returns. During these months, fax-based EIN processing can take 7-10 business days. The quietest period is typically <strong className="text-[var(--color-text)]">July through September</strong>, when processing times are at their shortest.
+                The busiest period for EIN applications is <strong className="text-[var(--color-text)]">January through April</strong>, when the IRS is simultaneously handling individual and business tax returns. During these months, fax-based EIN processing can take 7-10 business days. The quietest period is <strong className="text-[var(--color-text)]">July through September</strong>, when processing times are at their shortest.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

@@ -186,7 +186,7 @@ export default function EinForStripeClient({ faqs }: { faqs: { q: string; a: str
                   {
                     step: "6",
                     title: "Complete Verification",
-                    desc: "Stripe may request a photo of your passport or driver's license and your LLC formation documents. Upload these through the dashboard. Verification typically completes within 1-2 business days.",
+                    desc: "Stripe may request a photo of your passport or driver's license and your LLC formation documents. Upload these through the dashboard. Verification completes within 1-2 business days.",
                   },
                 ].map((item) => (
                   <StaggerItem key={item.step}>

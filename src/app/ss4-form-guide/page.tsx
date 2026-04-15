@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN after faxing Form SS-4?",
-    a: "The IRS typically processes faxed SS-4 forms within 4-7 business days. During peak periods (January through April), processing may take slightly longer. The IRS returns your EIN by fax to the number provided on the form. ein.so's Express service ($97) includes priority handling with 7 business day turnaround.",
+    a: "The IRS processes faxed SS-4 forms within 4-7 business days. During peak periods (January through April), processing may take slightly longer. The IRS returns your EIN by fax to the number provided on the form. ein.so's Express service ($97) includes priority handling with 7 business day turnaround.",
   },
 ];
 

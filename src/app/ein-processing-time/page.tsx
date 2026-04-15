@@ -16,11 +16,11 @@ const faqs = [
   },
   {
     q: "How long does EIN processing take by fax?",
-    a: "When you submit Form SS-4 by fax to the IRS, EIN processing typically takes 7 to 14 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume.",
+    a: "When you submit Form SS-4 by fax to the IRS, EIN processing takes 7 to 14 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume.",
   },
   {
     q: "Can I speed up my EIN processing time?",
-    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are typically processed within 7 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline.",
+    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are processed within 7 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline.",
   },
   {
     q: "Why is my EIN application taking so long?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN by mail?",
-    a: "Mailing Form SS-4 to the IRS takes approximately 4 to 6 weeks for processing. This is the slowest method available and is generally not recommended unless you have no access to fax or phone. The IRS mails your EIN assignment letter back to the address on your application.",
+    a: "Mailing Form SS-4 to the IRS takes about 4 to 6 weeks for processing. This is the slowest method available and is not recommended unless you have no access to fax or phone. The IRS mails your EIN assignment letter back to the address on your application.",
   },
   {
     q: "Does IRS processing time for EIN vary by entity type?",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Can I use my EIN immediately after receiving it?",
-    a: "The IRS recommends waiting approximately 2 weeks after receiving your EIN before using it to file tax returns electronically, as it takes time for the EIN to propagate through all IRS systems. However, you can use your EIN immediately for opening bank accounts, applying for business licenses, and completing vendor registrations.",
+    a: "The IRS recommends waiting about 2 weeks after receiving your EIN before using it to file tax returns electronically, as it takes time for the EIN to propagate through all IRS systems. However, you can use your EIN immediately for opening bank accounts, applying for business licenses, and completing vendor registrations.",
   },
 ];
 

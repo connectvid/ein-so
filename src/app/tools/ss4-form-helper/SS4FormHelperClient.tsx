@@ -84,7 +84,7 @@ const formSections = [
         line: "7a",
         name: "Name of responsible party",
         instruction:
-          "Enter the full legal name of the individual who controls, manages, or directs the entity. For an LLC, this is typically the managing member. For a corporation, this is usually an officer or director. The IRS requires a real person here -- not a company name.",
+          "Enter the full legal name of the individual who controls, manages, or directs the entity. For an LLC, this is the managing member. For a corporation, this is usually an officer or director. The IRS requires a real person here -- not a company name.",
         example: "Non-resident example: 'Ahmed Khan' (your personal name as it appears on your passport).",
         mistake:
           "You cannot list a company name or registered agent here. The responsible party must be an individual person. If there are multiple owners, list the one with the most control.",
@@ -128,7 +128,7 @@ const formSections = [
         line: "10",
         name: "Date business started or acquired",
         instruction:
-          "Enter the date your business was started or the date you acquired it. For new entities, this is typically the date your formation documents were filed with the state. Use the MM/DD/YYYY format.",
+          "Enter the date your business was started or the date you acquired it. For new entities, this is the date your formation documents were filed with the state. Use the MM/DD/YYYY format.",
         example:
           "If your LLC was formed on January 15, 2026: Enter '01/15/2026'.",
         mistake:
@@ -435,7 +435,7 @@ export default function SS4FormHelperClient({
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-US residents face several unique challenges when filling out Form SS-4. The first and most significant is line 7b, which asks for the responsible party&apos;s SSN, ITIN, or EIN. If you do not have any of these numbers, you cannot use the IRS online application at all. When filing by fax, you can leave this field blank or write &quot;Foreign&quot; or &quot;N/A&quot; and the IRS will still process your application. This is the single most important thing non-residents need to know about Form SS-4.
+                Non-US residents face 3 unique challenges when filling out Form SS-4. The first and most significant is line 7b, which asks for the responsible party&apos;s SSN, ITIN, or EIN. If you do not have any of these numbers, you cannot use the IRS online application at all. When filing by fax, you can leave this field blank or write &quot;Foreign&quot; or &quot;N/A&quot; and the IRS will still process your application. This is the single most important thing non-residents need to know about Form SS-4.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The second challenge is the address fields. The IRS accepts foreign addresses, but the form was designed with US address formatting in mind. When entering a foreign address, put your street address on line 4a and your city, province/state, postal code, and country on line 4b. Do not try to force your address into the US state and ZIP code format. Write it naturally and include your country name. The IRS processes thousands of international applications and is accustomed to foreign address formats.

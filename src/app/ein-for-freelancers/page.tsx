@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "Do I need a separate EIN for each freelance business?",
-    a: "If you operate multiple businesses as a sole proprietor, you typically use one EIN. However, if you form separate LLCs for different businesses, each LLC needs its own EIN. Most freelancers only need one EIN unless they have distinct business entities.",
+    a: "If you operate multiple businesses as a sole proprietor, you use one EIN. However, if you form separate LLCs for different businesses, each LLC needs its own EIN. Most freelancers only need one EIN unless they have distinct business entities.",
   },
   {
     q: "What is the difference between an EIN and an SSN for freelancers?",

@@ -22,8 +22,8 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
             <div className="max-w-3xl mx-auto">
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-8 mb-10">
                 <p className="text-lg text-[var(--color-text)] leading-relaxed">
-                  <strong>Non-US residents can get an EIN by submitting IRS Form SS-4 by fax. No SSN or ITIN is required -- your passport number and foreign address are sufficient. The IRS online application is not available to non-residents, which is why the fax method exists.</strong>{" "}
-                  ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
+                  <strong>Non-US residents can get an EIN by submitting IRS Form SS-4 by fax, as outlined in IRS Publication 1635. No SSN or ITIN is required -- your passport number and foreign address are sufficient (enter &apos;N/A&apos; on Line 7b per IRS instructions). The IRS online application is not available to non-residents, which is why the fax method exists.</strong>{" "}
+                  Non-residents fax Form SS-4 to the IRS at (855) 641-6935 for international applicants. ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
                 </p>
               </div>
 

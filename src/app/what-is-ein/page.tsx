@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN?",
-    a: "If you apply online through the IRS (US residents with an SSN/ITIN only), you receive your EIN immediately. For fax applications using Form SS-4, the IRS typically processes and returns your EIN within 4-7 business days. Phone applications through the IRS international line may be processed during the call itself.",
+    a: "If you apply online through the IRS (US residents with an SSN/ITIN only), you receive your EIN immediately. For fax applications using Form SS-4, the IRS processes and returns your EIN within 4-7 business days. Phone applications through the IRS international line may be processed during the call itself.",
   },
   {
     q: "Can I apply for an EIN online without an SSN?",

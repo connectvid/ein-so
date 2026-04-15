@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "Do state business registries show EIN numbers?",
-    a: "Some states display EINs in their online business registries, but most do not. States like California, New York, and Texas generally do not publish EINs. You are more likely to find state tax identification numbers rather than federal EINs. Check your specific state's Secretary of State website to see what information they make public.",
+    a: "Some states display EINs in their online business registries, but most do not. States like California, New York, and Texas do not publish EINs. You are more likely to find state tax identification numbers rather than federal EINs. Check your specific state's Secretary of State website to see what information they make public.",
   },
   {
     q: "Can I call the IRS to look up another company's EIN?",

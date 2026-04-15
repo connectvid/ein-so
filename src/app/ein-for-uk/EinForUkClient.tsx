@@ -145,7 +145,7 @@ export default function EinForUkClient({ faqs }: { faqs: { q: string; a: string 
               <StaggerContainer className="space-y-4">
                 {[
                   { title: "US Bank Account (via EIN)", desc: "Your EIN lets you open a US bank account that holds USD. Revenue from US customers stays in USD until you choose to convert. This eliminates forced conversion on every transaction and gives you control over timing." },
-                  { title: "Wise (TransferWise)", desc: "Most UK-based US LLC owners use Wise for GBP/USD transfers. Wise offers mid-market exchange rates with transparent fees, typically 0.4-0.6% per transfer. This is significantly cheaper than traditional bank wire transfers." },
+                  { title: "Wise (TransferWise)", desc: "Most UK-based US LLC owners use Wise for GBP/USD transfers. Wise offers mid-market exchange rates with transparent fees, 0.4-0.6% per transfer. This is significantly cheaper than traditional bank wire transfers." },
                   { title: "Stripe Multi-Currency", desc: "If you use Stripe for payment processing, your US entity can accept USD payments that settle directly into your US bank account. This avoids Stripe's automatic currency conversion, which adds roughly 1% to each transaction." },
                   { title: "Tax Reporting in Both Currencies", desc: "Your US tax filings are in USD. Your UK self-assessment is in GBP. You need to track exchange rates for each transaction to accurately report income and expenses in both jurisdictions." },
                 ].map((item, idx) => (

@@ -50,9 +50,9 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The requirement was created by the <strong className="text-[var(--color-text)]">Corporate Transparency Act
-                  (CTA)</strong>, signed into law on January 1, 2021. The CTA aims to combat money laundering, tax evasion,
+                  (CTA)</strong>, codified at 31 USC §5336, signed into law on January 1, 2021. The CTA aims to combat money laundering, tax evasion,
                   terrorism financing, and other illicit activities by making it harder to hide behind anonymous shell companies.
-                  FinCEN began accepting BOI reports on January 1, 2024.
+                  FinCEN began accepting BOI reports on January 1, 2024. Reports are filed via FinCEN&apos;s online portal at fincen.gov/boi.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you have formed a US LLC, corporation, limited partnership, or other entity by filing with a state
@@ -300,11 +300,11 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
               <div className="space-y-4">
                 <div className="bg-red-50 rounded-2xl border border-red-200 p-6">
                   <p className="text-red-800 leading-relaxed font-semibold text-lg mb-2">
-                    $500 per day in civil penalties
+                    $591 per day in civil penalties (adjusted for inflation)
                   </p>
                   <p className="text-red-700 leading-relaxed text-sm">
-                    Every day your BOI report is overdue, you accumulate $500 in civil penalties. That is $3,500 per week,
-                    $15,000 per month, and $182,500 per year. The penalty clock starts the day after your filing deadline
+                    Per 31 USC §5321, civil penalties of $591/day (adjusted for inflation) accrue for every day your BOI report is overdue. That adds up quickly --
+                    over $4,100 per week and $17,700 per month. The penalty clock starts the day after your filing deadline
                     passes and does not stop until you file.
                   </p>
                 </div>

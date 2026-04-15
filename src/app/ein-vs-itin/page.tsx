@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN vs an ITIN?",
-    a: "An EIN can be obtained online in minutes if you have an SSN, or in 4-7 business days via fax for non-residents. An ITIN takes significantly longer, typically 6 to 11 weeks after mailing Form W-7 and supporting documents to the IRS.",
+    a: "An EIN can be obtained online in minutes if you have an SSN, or in 4-7 business days via fax for non-residents. An ITIN takes significantly longer, 6 to 11 weeks after mailing Form W-7 and supporting documents to the IRS.",
   },
   {
     q: "Can a non-US resident get both an EIN and an ITIN?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "Is an EIN the same as a tax ID number?",
-    a: "An EIN is one type of tax identification number (TIN). The IRS issues several types of TINs: SSNs for US citizens and residents, ITINs for individuals without SSN eligibility, and EINs for businesses. All are 9-digit numbers, but they serve different purposes and have different formats.",
+    a: "An EIN is one type of tax identification number (TIN). The IRS issues multiple types of TINs: SSNs for US citizens and residents, ITINs for individuals without SSN eligibility, and EINs for businesses. All are 9-digit numbers, but they serve different purposes and have different formats.",
   },
   {
     q: "What does an EIN number look like compared to an ITIN?",

@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "How do I find my own EIN if I lost it?",
-    a: "If you lost your own EIN, you have several options: check your original IRS confirmation letter (CP 575), look at previously filed tax returns, check your bank account records (your bank required your EIN to open a business account), or call the IRS Business & Specialty Tax Line at 800-829-4933 (Monday through Friday, 7 a.m. to 7 p.m. local time).",
+    a: "If you lost your own EIN, you have 4 options: check your original IRS confirmation letter (CP 575), look at previously filed tax returns, check your bank account records (your bank required your EIN to open a business account), or call the IRS Business & Specialty Tax Line at 800-829-4933 (Monday through Friday, 7 a.m. to 7 p.m. local time).",
   },
   {
     q: "What is an EIN verification letter (Letter 147C)?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN verification letter?",
-    a: "If you call the IRS at 800-829-4933 and request a 147C letter, they can fax it to you the same business day. If you request it by mail, delivery typically takes 4-6 weeks. You must be an authorized person on the EIN account to request a verification letter.",
+    a: "If you call the IRS at 800-829-4933 and request a 147C letter, they can fax it to you the same business day. If you request it by mail, delivery takes 4-6 weeks. You must be an authorized person on the EIN account to request a verification letter.",
   },
 ];
 

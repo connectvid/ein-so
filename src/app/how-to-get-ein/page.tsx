@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN?",
-    a: "It depends on the method. The online application issues an EIN instantly. Faxing Form SS-4 takes approximately 4 business days. Calling the IRS international phone line can result in an immediate EIN, but hold times are often very long.",
+    a: "It depends on the method. The online application issues an EIN instantly. Faxing Form SS-4 takes about 4 business days. Calling the IRS international phone line can result in an immediate EIN, but hold times are often very long.",
   },
   {
     q: "Is there a fee for getting an EIN from the IRS?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "What happens if my EIN application is rejected?",
-    a: "Common reasons for rejection include incomplete information, duplicate applications, or incorrect entity classification. If rejected, you will need to correct the errors and resubmit. The IRS will typically send a notice explaining the reason for the rejection.",
+    a: "Common reasons for rejection include incomplete information, duplicate applications, or incorrect entity classification. If rejected, you will need to correct the errors and resubmit. The IRS sends a notice explaining the reason for the rejection.",
   },
   {
     q: "Do I need a US address to get an EIN?",

@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Who is the responsible party on a corporate EIN application?",
-    a: "The responsible party is the individual who controls or manages the corporation and directs the disposition of its funds and assets. This is typically the president, CEO, or another principal officer. The responsible party must be an individual -- not another entity.",
+    a: "The responsible party is the individual who controls or manages the corporation and directs the disposition of its funds and assets. This is the president, CEO, or another principal officer. The responsible party must be an individual -- not another entity.",
   },
   {
     q: "Do I need a new EIN if I change my corporation's name?",

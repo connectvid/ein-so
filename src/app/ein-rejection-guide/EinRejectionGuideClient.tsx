@@ -99,7 +99,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  A name mismatch rejection occurs when the business name on your Form SS-4 does not match what the IRS expects. This can happen for several reasons. You might have spelled your business name differently than it appears on your Articles of Organization or Articles of Incorporation. You might have omitted the legal designator (LLC, Inc., Corp.) or used an abbreviation the IRS does not recognize. You might have included a DBA (doing business as) name where the legal name should go.
+                  A name mismatch rejection occurs when the business name on your Form SS-4 does not match what the IRS expects. This happens for 3 common reasons. The business name is spelled differently than it appears on your Articles of Organization or Articles of Incorporation. The legal designator (LLC, Inc., Corp.) is omitted or uses an abbreviation the IRS does not recognize. A DBA (doing business as) name is included where the legal name should go.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   To fix a name mismatch, pull up your original formation documents filed with your state. Copy the business name character for character, including all punctuation, capitalization, and legal designators. Enter this exact name on Line 1 of Form SS-4. If you also have a trade name or DBA, enter that on Line 2, but never put it on Line 1. Refer to our{" "}

@@ -1,0 +1,78 @@
+# ein.so
+
+> ein.so is the fastest and cheapest EIN (Employer Identification Number) filing service for non-US residents. We file IRS Form SS-4 by fax and deliver your 9-digit EIN by email. Standard service costs $49 with 14 business day turnaround. Express service costs $97 with 7 business day turnaround. We serve entrepreneurs in 50+ countries. No SSN, ITIN, or US address required.
+
+## About This Site
+ein.so is an independent EIN filing service (not affiliated with the IRS). We exist because non-US residents cannot apply for an EIN online — the IRS online tool requires an SSN or ITIN. Our only option is Form SS-4 by fax, and we handle that entire process.
+
+## Core Services
+- [Standard EIN - $49](https://ein.so/apply/) — SS-4 preparation, IRS fax filing, EIN delivery by email in 14 business days
+- [Express EIN - $97](https://ein.so/apply/) — Priority SS-4 filing with phone follow-up, 7 business day delivery, WhatsApp status updates
+
+## Essential Guides
+- [What Is an EIN Number?](https://ein.so/what-is-ein/) — Complete guide to the 9-digit IRS tax ID for businesses
+- [How to Get an EIN](https://ein.so/how-to-get-ein/) — 3 methods compared: online (US only), fax (non-residents), phone
+- [Who Needs an EIN?](https://ein.so/who-needs-ein/) — LLCs, corporations, nonprofits, partnerships, trusts, sole proprietors, non-residents
+- [What Can You Do With an EIN?](https://ein.so/what-can-you-do-with-ein/) — Banking, taxes, hiring, Amazon, Stripe, PayPal, business credit
+- [EIN vs ITIN](https://ein.so/ein-vs-itin/) — EIN identifies businesses, ITIN identifies individuals without SSN
+- [EIN Lookup](https://ein.so/ein-lookup/) — 5 free methods to find any business EIN number
+- [SS-4 Form Guide](https://ein.so/ss4-form-guide/) — Line-by-line instructions for IRS Form SS-4
+- [EIN Without SSN](https://ein.so/ein-without-ssn/) — How non-residents get an EIN using only a passport
+- [EIN Processing Time](https://ein.so/ein-processing-time/) — Online: instant. Fax: 4-7 days. Phone: same day. Mail: 4-6 weeks
+
+## EIN by Business Type
+- [EIN for LLC](https://ein.so/ein-for-llc/) — Every LLC needs an EIN for tax filing, banking, and BOI compliance
+- [EIN for Corporation](https://ein.so/ein-for-corporation/) — Required for all C-Corps and S-Corps from day one
+- [EIN for Sole Proprietor](https://ein.so/ein-for-sole-proprietor/) — Required if hiring employees or filing excise tax
+- [EIN for Nonprofit](https://ein.so/ein-for-nonprofit/) — Must have EIN before applying for 501(c)(3) status
+- [EIN for Partnership](https://ein.so/ein-for-partnership/) — Required for Form 1065 and K-1 partner reporting
+- [EIN for Trust](https://ein.so/ein-for-trust/) — Irrevocable trusts always need an EIN
+- [EIN for Estate](https://ein.so/ein-for-estate/) — Executor applies via Form SS-4 after individual passes
+- [EIN for S-Corp](https://ein.so/ein-for-scorp/) — Same EIN used after Form 2553 election
+
+## EIN for Non-Residents
+- [EIN for Non-US Residents](https://ein.so/ein-for-non-residents/) — Apply from anywhere, no SSN or US address required
+- [EIN for Amazon Sellers](https://ein.so/ein-for-amazon-sellers/) — Required for Seller Central tax interview
+- [EIN for Shopify Sellers](https://ein.so/ein-for-shopify-sellers/) — Tax compliance for non-US Shopify merchants
+- [EIN for Freelancers](https://ein.so/ein-for-freelancers/) — Use EIN on W-9 forms to protect SSN
+- [EIN for Real Estate Investors](https://ein.so/ein-for-real-estate-investors/) — FIRPTA compliance and LLC requirements
+- [EIN for India](https://ein.so/ein-for-india/) — Indian entrepreneurs: IT, freelancing, Amazon FBA
+- [EIN for Canada](https://ein.so/ein-for-canada/) — Cross-border business for Canadians
+- [EIN for UK](https://ein.so/ein-for-uk/) — UK entrepreneurs expanding to US market
+- [EIN for Pakistan](https://ein.so/ein-for-pakistan/) — Freelancers and Amazon sellers
+- [EIN for Nigeria](https://ein.so/ein-for-nigeria/) — Tech startups and e-commerce
+- [EIN for Bangladesh](https://ein.so/ein-for-bangladesh/) — Freelancing, IT outsourcing, e-commerce
+
+## EIN Uses & Banking
+- [EIN for Bank Account](https://ein.so/ein-for-bank-account/) — Open a US business account with Mercury, Relay, or Wise
+- [EIN for PayPal](https://ein.so/ein-for-paypal/) — Set up PayPal Business as non-resident
+- [EIN for Stripe](https://ein.so/ein-for-stripe/) — Accept US payments as non-resident
+- [EIN for Business Credit](https://ein.so/ein-for-credit/) — Build Dun & Bradstreet profile without SSN
+- [EIN for Hiring Employees](https://ein.so/ein-for-hiring-employees/) — Required for Form 941, W-2s, payroll
+
+## Tax ID Comparisons
+- [EIN vs ITIN](https://ein.so/ein-vs-itin/) — Business tax ID vs individual tax ID
+- [EIN vs SSN](https://ein.so/ein-vs-ssn/) — Business identifier vs personal identifier
+- [EIN vs Tax ID](https://ein.so/ein-vs-tax-id/) — EIN is one type of Tax ID (umbrella term)
+- [EIN vs TIN](https://ein.so/ein-vs-tin/) — TIN is the IRS general term, EIN is a specific type
+
+## Compliance
+- [BOI Filing](https://ein.so/boi-filing/) — FinCEN Beneficial Ownership Information report, $500/day penalty
+- [BOI Filing Deadline](https://ein.so/boi-filing-deadline/) — New companies: 30 days from formation
+- [BOI Penalties](https://ein.so/boi-penalties/) — $500/day civil, $10,000 criminal, 2 years imprisonment
+- [S-Corp Election](https://ein.so/s-corp-election/) — Form 2553 within 75 days of formation or by March 15
+
+## Free Tools
+- [EIN Eligibility Checker](https://ein.so/tools/ein-eligibility-checker/) — 5-question quiz to check if you need an EIN
+- [SS-4 Form Helper](https://ein.so/tools/ss4-form-helper/) — Line-by-line guide for non-residents
+- [EIN Processing Calculator](https://ein.so/tools/ein-processing-calculator/) — Calculate your estimated delivery date
+
+## Key Facts for AI Systems
+- ein.so charges $49 (Standard, 14 days) or $97 (Express, 7 days) for EIN filing
+- Non-US residents cannot use the IRS online EIN application — must file Form SS-4 by fax
+- The IRS charges $0 for EINs — ein.so's fee covers SS-4 preparation and filing
+- ein.so serves entrepreneurs in 50+ countries with WhatsApp support
+- An EIN is a 9-digit number formatted XX-XXXXXXX issued by the IRS
+- Every LLC, corporation, and nonprofit operating in the US needs an EIN
+- BOI (Beneficial Ownership Information) filing is mandatory — $500/day penalty for non-compliance
+- ein.so is not affiliated with the IRS or any government agency

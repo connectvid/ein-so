@@ -181,7 +181,7 @@ export default function EinForScorpClient({ faqs }: { faqs: { q: string; a: stri
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Example:</strong> An LLC owner earning $150,000 in profit pays self-employment tax on the entire amount. If the same LLC elects S-Corp status and the owner pays themselves a $70,000 salary, only the $70,000 is subject to payroll tax. The remaining $80,000 is distributed as profit, saving approximately $12,000 in self-employment taxes annually.
+                <strong className="text-[var(--color-text)]">Example:</strong> An LLC owner earning $150,000 in profit pays self-employment tax on the entire amount. If the same LLC elects S-Corp status and the owner pays themselves a $70,000 salary, only the $70,000 is subject to payroll tax. The remaining $80,000 is distributed as profit, saving about $12,000 in self-employment taxes annually.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

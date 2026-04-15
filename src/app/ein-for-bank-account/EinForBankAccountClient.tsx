@@ -183,7 +183,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                 {
                   doc: "Operating Agreement (for LLCs)",
                   detail:
-                    "Your LLC operating agreement outlines ownership structure, member responsibilities, and how the business is managed. Most banks require this even for single-member LLCs. If you formed your LLC through a service, they typically provide a template.",
+                    "Your LLC operating agreement outlines ownership structure, member responsibilities, and how the business is managed. Most banks require this even for single-member LLCs. If you formed your LLC through a service, they provide a template.",
                 },
                 {
                   doc: "Valid Passport or Government-Issued Photo ID",
@@ -292,7 +292,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                   A <strong className="text-[var(--color-text)]">business checking account</strong> is your operational
                   account. This is where you receive payments from clients, pay vendors and contractors, process payroll, and
                   handle day-to-day expenses. Every business needs a checking account. It comes with a routing number, account
-                  number, and typically a debit card for purchases and ATM access.
+                  number, and a debit card for purchases and ATM access.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   A <strong className="text-[var(--color-text)]">business savings account</strong> is for reserves, tax
@@ -332,7 +332,7 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
                 },
                 {
                   mistake: "Choosing a bank that does not serve non-residents",
-                  fix: "Traditional banks like Chase, Bank of America, and Wells Fargo typically require an in-person visit and SSN. Stick with Mercury, Relay, or Wise for remote, non-resident-friendly account opening.",
+                  fix: "Traditional banks like Chase, Bank of America, and Wells Fargo require an in-person visit and SSN. Stick with Mercury, Relay, or Wise for remote, non-resident-friendly account opening.",
                 },
                 {
                   mistake: "Not having your operating agreement ready",

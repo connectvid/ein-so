@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "How do I transfer funds between Brazil and my US account?",
-    a: "Use Wise, Remessa Online, or your Brazilian bank's international transfer service (DOC/TED internacional) to move funds between your US bank account (opened with your EIN) and your Brazilian bank account. Wise typically offers the best BRL/USD exchange rates.",
+    a: "Use Wise, Remessa Online, or your Brazilian bank's international transfer service (DOC/TED internacional) to move funds between your US bank account (opened with your EIN) and your Brazilian bank account. Wise offers the best BRL/USD exchange rates.",
   },
   {
     q: "How long does it take for a Brazilian to receive a US EIN?",

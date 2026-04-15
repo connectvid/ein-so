@@ -144,7 +144,7 @@ export default function EinForAmazonSellersClient({ faqs }: { faqs: { q: string;
                   {
                     step: "6",
                     title: "Start Selling",
-                    desc: "Once Amazon validates your EIN (typically 24-48 hours), your account is fully active. You can list products, ship inventory to FBA warehouses, and start generating sales.",
+                    desc: "Once Amazon validates your EIN (24-48 hours), your account is fully active. You can list products, ship inventory to FBA warehouses, and start generating sales.",
                   },
                 ].map((item) => (
                   <StaggerItem key={item.step}>
@@ -201,7 +201,7 @@ export default function EinForAmazonSellersClient({ faqs }: { faqs: { q: string;
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Step 5: Submit and Wait for Validation</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Amazon validates your EIN with the IRS. This typically takes <strong className="text-[var(--color-text)]">24-48 hours</strong>. If validation fails, double-check that your EIN and business name match your IRS records exactly. Note: newly issued EINs may take up to 2 weeks to appear in the IRS database.</p>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">Amazon validates your EIN with the IRS. This takes <strong className="text-[var(--color-text)]">24-48 hours</strong>. If validation fails, double-check that your EIN and business name match your IRS records exactly. Note: newly issued EINs may take up to 2 weeks to appear in the IRS database.</p>
                 </div>
               </div>
 
@@ -347,7 +347,7 @@ export default function EinForAmazonSellersClient({ faqs }: { faqs: { q: string;
               </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The entire process -- from EIN application to first Amazon sale -- typically takes 3-6 weeks depending on how quickly you complete each step. Getting your EIN is the fastest part when you use ein.so. <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">Start your EIN application today</Link>.
+                The entire process -- from EIN application to first Amazon sale -- takes 3-6 weeks depending on how quickly you complete each step. Getting your EIN is the fastest part when you use ein.so. <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">Start your EIN application today</Link>.
               </p>
             </div>
           </AnimateIn>

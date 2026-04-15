@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN after submitting Form SS-4?",
-    a: "Processing times depend on the method of submission. Online applications receive an EIN immediately. Fax submissions typically take 4-7 business days for standard processing. Phone applications can receive an EIN during the call. Mail submissions take 4-6 weeks. ein.so offers Express fax processing in 7 business days for $97.",
+    a: "Processing times depend on the method of submission. Online applications receive an EIN immediately. Fax submissions take 4-7 business days for standard processing. Phone applications can receive an EIN during the call. Mail submissions take 4-6 weeks. ein.so offers Express fax processing in 7 business days for $97.",
   },
   {
     q: "Can I use this SS-4 helper if I already started filling out the form?",

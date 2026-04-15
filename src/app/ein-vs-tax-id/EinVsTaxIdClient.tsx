@@ -101,7 +101,7 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  A Tax ID (Taxpayer Identification Number, or TIN) is any identification number the IRS uses to track tax obligations and filings. The IRS recognizes several types of TINs, each serving a different population. The three most common are the EIN for businesses, the SSN for US citizens and authorized workers, and the ITIN for individuals who need to file taxes but do not qualify for an SSN.
+                  A Tax ID (Taxpayer Identification Number, or TIN) is any identification number the IRS uses to track tax obligations and filings. The IRS recognizes multiple types of TINs, each serving a different population. The three most common are the EIN for businesses, the SSN for US citizens and authorized workers, and the ITIN for individuals who need to file taxes but do not qualify for an SSN.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The term &quot;Tax ID&quot; is intentionally broad. When a bank asks for your &quot;Tax ID,&quot; they want whichever number applies to your situation: an EIN for a business account, or an SSN/ITIN for a personal account. When a vendor asks for your &quot;Tax ID&quot; on a W-9 form, they want the identification number you use for tax reporting, whether that is your EIN or SSN. Understanding that Tax ID is a category, not a specific number, prevents confusion in these common business interactions.
@@ -134,7 +134,7 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The confusion between EIN and Tax ID stems from how the terms are used in everyday business. When business owners talk about their &quot;Tax ID,&quot; they usually mean their EIN. When banks, payment processors, and government agencies ask for a &quot;Federal Tax ID,&quot; they typically mean the EIN for business accounts. This informal shorthand makes &quot;Tax ID&quot; and &quot;EIN&quot; seem interchangeable, even though Tax ID is technically the broader category.
+                  The confusion between EIN and Tax ID stems from how the terms are used in everyday business. When business owners talk about their &quot;Tax ID,&quot; they usually mean their EIN. When banks, payment processors, and government agencies ask for a &quot;Federal Tax ID,&quot; they mean the EIN for business accounts. This informal shorthand makes &quot;Tax ID&quot; and &quot;EIN&quot; seem interchangeable, even though Tax ID is technically the broader category.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Another source of confusion is that the IRS itself uses the term &quot;Taxpayer Identification Number&quot; (TIN) as the umbrella category in official documents, but forms and instructions sometimes use &quot;Tax ID&quot; or &quot;Federal Tax ID&quot; loosely. For example, the W-9 form asks for your &quot;Taxpayer Identification Number,&quot; which could be an EIN, SSN, or ITIN depending on your entity type. This ambiguity forces filers to understand the relationship between these terms.

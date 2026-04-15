@@ -132,7 +132,7 @@ export default function EinForPhilippinesClient({ faqs }: { faqs: { q: string; a
               <StaggerContainer className="grid md:grid-cols-2 gap-4">
                 {[
                   { title: "US Bank Account", desc: "Open a Mercury or Relay account with your EIN. Hold USD earnings and choose when to convert to PHP. This gives you control over exchange rate timing instead of forced conversion on every transaction." },
-                  { title: "Wise for PHP Transfers", desc: "Transfer from your US bank to your Philippine bank account through Wise at mid-market rates. Wise supports PHP and offers transparent fees, typically much lower than traditional bank wire transfers or Western Union." },
+                  { title: "Wise for PHP Transfers", desc: "Transfer from your US bank to your Philippine bank account through Wise at mid-market rates. Wise supports PHP and offers transparent fees, much lower than traditional bank wire transfers or Western Union." },
                   { title: "PayPal Business (US)", desc: "A US PayPal account connected to your EIN offers better rates for US transactions than a Philippine PayPal account. Hold USD in PayPal and transfer to your US bank when ready." },
                   { title: "Payoneer", desc: "Continue using Payoneer for marketplace payments. Your US bank account provides an additional payment channel alongside Payoneer, giving you flexibility for different client payment preferences." },
                   { title: "GCash/Maya Integration", desc: "Transfer from your US bank to your Philippine bank, then to GCash or Maya for local spending. This two-step approach gives you both USD savings and PHP spending capability." },
@@ -166,7 +166,7 @@ export default function EinForPhilippinesClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Filipino applicants generally have straightforward SS-4 applications because Philippine passports use English and follow Western name conventions. However, there are a few considerations:
+                Filipino applicants have straightforward SS-4 applications because Philippine passports use English and follow Western name conventions. However, there are a few considerations:
               </p>
 
               <div className="space-y-4">

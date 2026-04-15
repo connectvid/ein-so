@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     q: "What happens if I miss the BOI filing deadline?",
-    a: "Missing the BOI filing deadline triggers civil penalties of $500 per day for each day the violation continues. This means $3,500 per week or approximately $15,000 per month in penalties. Criminal penalties can include fines up to $10,000 and up to 2 years of imprisonment for willful non-compliance.",
+    a: "Missing the BOI filing deadline triggers civil penalties of $500 per day for each day the violation continues. This means $3,500 per week or about $15,000 per month in penalties. Criminal penalties can include fines up to $10,000 and up to 2 years of imprisonment for willful non-compliance.",
   },
   {
     q: "Has the BOI filing deadline been extended?",
-    a: "The BOI filing requirement has faced legal challenges, and there have been temporary injunctions and deadline extensions at various points. As of 2026, the requirement is in effect and FinCEN is actively accepting filings. Check FinCEN's official website or contact ein.so on WhatsApp for the latest deadline updates specific to your situation.",
+    a: "The BOI filing requirement has faced legal challenges, and there have been temporary injunctions and deadline extensions at multiple points. As of 2026, the requirement is in effect and FinCEN is actively accepting filings. Check FinCEN's official website or contact ein.so on WhatsApp for the latest deadline updates specific to your situation.",
   },
   {
     q: "How do I know if I need to file a BOI report?",

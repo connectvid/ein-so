@@ -101,7 +101,7 @@ export default function EinForPaypalClient({ faqs }: { faqs: { q: string; a: str
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Step 5: Complete Verification</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">PayPal may request additional verification documents, such as a business license, utility bill, or your LLC formation documents. Upload these through the PayPal Resolution Center. Verification typically completes within 3-5 business days.</p>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">PayPal may request additional verification documents, such as a business license, utility bill, or your LLC formation documents. Upload these through the PayPal Resolution Center. Verification completes within 3-5 business days.</p>
                 </div>
               </div>
             </div>

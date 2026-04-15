@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "Do limited partnerships (LPs) need an EIN?",
-    a: "Yes. Limited partnerships need an EIN just like general partnerships. The LP files Form 1065 and issues K-1s to both general and limited partners. The general partner who manages the LP typically serves as the responsible party on the EIN application.",
+    a: "Yes. Limited partnerships need an EIN just like general partnerships. The LP files Form 1065 and issues K-1s to both general and limited partners. The general partner who manages the LP serves as the responsible party on the EIN application.",
   },
   {
     q: "Do limited liability partnerships (LLPs) need an EIN?",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "What happens if a partner leaves the partnership?",
-    a: "If a partner leaves but the partnership continues operating, you generally do not need a new EIN. However, if the partnership dissolves and a new partnership forms, the new partnership needs its own EIN. Also update the responsible party with the IRS by filing Form 8822-B if the departing partner was the responsible party.",
+    a: "If a partner leaves but the partnership continues operating, you do not need a new EIN. However, if the partnership dissolves and a new partnership forms, the new partnership needs its own EIN. Also update the responsible party with the IRS by filing Form 8822-B if the departing partner was the responsible party.",
   },
 ];
 

@@ -114,7 +114,7 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
               </ol>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN application itself takes minutes. The bottleneck is typically the 501(c)(3) determination, which can take 3-6 months for full Form 1023 or 2-4 weeks for Form 1023-EZ. Do not delay getting your EIN -- it holds up everything else in the process.
+                The EIN application itself takes minutes. The bottleneck is the 501(c)(3) determination, which can take 3-6 months for full Form 1023 or 2-4 weeks for Form 1023-EZ. Do not delay getting your EIN -- it holds up everything else in the process.
               </p>
             </div>
           </AnimateIn>
@@ -186,7 +186,7 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Using the organization name as the responsible party.</strong> The responsible party must be an individual person -- typically the board president or executive director. Entering the organization&apos;s name in the responsible party field will result in a rejected application.
+                <strong className="text-[var(--color-text)]">Using the organization name as the responsible party.</strong> The responsible party must be an individual person -- the board president or executive director. Entering the organization&apos;s name in the responsible party field will result in a rejected application.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

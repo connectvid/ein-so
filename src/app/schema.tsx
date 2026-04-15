@@ -137,7 +137,7 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function ArticleSchema({ headline, description, url, datePublished = "2026-03-31", dateModified }: { headline: string; description: string; url: string; datePublished?: string; dateModified?: string }) {
+export function ArticleSchema({ headline, description, url, datePublished = "2026-04-15", dateModified }: { headline: string; description: string; url: string; datePublished?: string; dateModified?: string }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",

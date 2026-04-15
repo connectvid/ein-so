@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Who is the responsible party for a nonprofit EIN application?",
-    a: "The responsible party is a principal officer who controls the nonprofit's funds and assets. This is typically the board president, executive director, or treasurer. The responsible party must be an individual person, not the organization itself.",
+    a: "The responsible party is a principal officer who controls the nonprofit's funds and assets. This is the board president, executive director, or treasurer. The responsible party must be an individual person, not the organization itself.",
   },
   {
     q: "How long does it take to get an EIN for a nonprofit?",

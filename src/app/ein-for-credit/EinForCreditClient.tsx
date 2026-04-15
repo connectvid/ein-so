@@ -153,15 +153,15 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                When you are just starting out, EIN-only options are limited to secured business credit cards and vendor store cards. A secured card requires a cash deposit (typically $200-$2,000) that serves as your credit limit. Vendor store cards from companies like Uline, Grainger, and Quill are easier to obtain and build your business credit history.
+                When you are just starting out, EIN-only options are limited to secured business credit cards and vendor store cards. A secured card requires a cash deposit ($200-$2,000) that serves as your credit limit. Vendor store cards from companies like Uline, Grainger, and Quill are easier to obtain and build your business credit history.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                After 6-12 months of positive payment history, more EIN-only options open up. Some credit unions and community banks offer unsecured business credit cards based on your D&amp;B Paydex score without requiring a personal guarantee. These cards typically have lower limits initially but increase as your business credit strengthens.
+                After 6-12 months of positive payment history, more EIN-only options open up. Some credit unions and community banks offer unsecured business credit cards based on your D&amp;B Paydex score without requiring a personal guarantee. These cards have lower limits initially but increase as your business credit strengthens.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Major bank business credit cards (Chase Ink, American Express Business, Capital One Spark) generally require a personal guarantee, which means they check your personal credit as well. However, having strong business credit improves your approval odds and can result in higher credit limits. Over time, some of these issuers may offer to remove the personal guarantee as your business credit matures.
+                Major bank business credit cards (Chase Ink, American Express Business, Capital One Spark) require a personal guarantee, which means they check your personal credit as well. However, having strong business credit improves your approval odds and can result in higher credit limits. Over time, some of these issuers may offer to remove the personal guarantee as your business credit matures.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -237,11 +237,11 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The process for non-US residents starts with forming a US LLC (typically in Wyoming or Delaware), getting an EIN through ein.so, and opening a US business bank account. From there, you register for a D-U-N-S number, open vendor accounts, and build payment history. The timeline and process are identical to what US residents follow.
+                The process for non-US residents starts with forming a US LLC (most choose Wyoming or Delaware), getting an EIN through ein.so, and opening a US business bank account. From there, you register for a D-U-N-S number, open vendor accounts, and build payment history. The timeline and process are identical to what US residents follow.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The main advantage for non-US residents is that <strong className="text-[var(--color-text)]">business credit does not require an SSN</strong>. While personal credit in the US requires an SSN (which non-residents typically lack), business credit uses your EIN. This means non-US entrepreneurs can access US business financing without having personal US credit history.
+                The main advantage for non-US residents is that <strong className="text-[var(--color-text)]">business credit does not require an SSN</strong>. While personal credit in the US requires an SSN (which non-residents do not have), business credit uses your EIN. This means non-US entrepreneurs can access US business financing without having personal US credit history.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

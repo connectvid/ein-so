@@ -89,7 +89,7 @@ export default function EinForPakistanClient({ faqs }: { faqs: { q: string; a: s
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <StaggerContainer className="space-y-4">
                   {[
-                    { step: "1", title: "Form a US LLC", desc: "Most Pakistani entrepreneurs form an LLC in Wyoming, Delaware, or New Mexico. Formation is done online through a registered agent. Cost is typically $100-300 plus state fees. You do not need to visit the US." },
+                    { step: "1", title: "Form a US LLC", desc: "Most Pakistani entrepreneurs form an LLC in Wyoming, Delaware, or New Mexico. Formation is done online through a registered agent. Cost is $100-300 plus state fees. You do not need to visit the US." },
                     { step: "2", title: "Gather Your Documents", desc: "You need your Pakistani passport (valid and unexpired) and your LLC formation details. No NTN, CNIC, or Pakistani business registration is needed for the US EIN application." },
                     { step: "3", title: "Submit Through ein.so", desc: "Fill out our 3-minute application form. We prepare your SS-4, format your Pakistani address correctly for IRS acceptance, and fax it to the IRS. Standard processing is $49. Express is $97." },
                     { step: "4", title: "Receive Your EIN", desc: "The IRS processes your application and assigns your EIN. We deliver it to you via email and WhatsApp. Your EIN confirmation letter (CP 575) serves as your official IRS documentation." },

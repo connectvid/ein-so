@@ -53,7 +53,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                You may also hear an EIN referred to by several other names. The terms <strong className="text-[var(--color-text)]">Federal Employer Identification Number (FEIN)</strong>, <strong className="text-[var(--color-text)]">Federal Tax Identification Number</strong>, and <strong className="text-[var(--color-text)]">Tax ID Number (TIN)</strong> are all commonly used to describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS.
+                You may also hear an EIN referred to by other names. The terms <strong className="text-[var(--color-text)]">Federal Employer Identification Number (FEIN)</strong>, <strong className="text-[var(--color-text)]">Federal Tax Identification Number</strong>, and <strong className="text-[var(--color-text)]">Tax ID Number (TIN)</strong> are all commonly used to describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -119,11 +119,11 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                EINs are issued exclusively by the <strong className="text-[var(--color-text)]">Internal Revenue Service (IRS)</strong>, which is a bureau of the United States Department of the Treasury. No other government agency, state authority, or private organization has the authority to issue an EIN. Any service that claims to &quot;issue&quot; an EIN is actually filing the application with the IRS on your behalf -- the EIN itself always comes from the IRS.
+                EINs are issued exclusively by the <strong className="text-[var(--color-text)]">Internal Revenue Service (IRS)</strong>, which is a bureau of the United States Department of the Treasury. The IRS assigns EINs under Internal Revenue Code §6109, which requires taxpayers to furnish identifying numbers for tax administration purposes. No other government agency, state authority, or private organization has the authority to issue an EIN. Any service that claims to &quot;issue&quot; an EIN is actually filing the application with the IRS on your behalf -- the EIN itself always comes from the IRS. To apply, you submit IRS Form SS-4 (Rev. December 2023), available at irs.gov/businesses/small-businesses-self-employed/employer-id-numbers.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS offers several methods for obtaining an EIN, depending on your circumstances:
+                The IRS offers 4 methods for obtaining an EIN, depending on your circumstances:
               </p>
 
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-6 space-y-4">
@@ -138,7 +138,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                   <span className="flex-shrink-0 w-8 h-8 rounded-lg bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center text-sm font-bold">2</span>
                   <div>
                     <h3 className="font-bold text-[var(--color-text)] mb-1">Fax (Form SS-4)</h3>
-                    <p className="text-sm text-[var(--color-text-muted)]">Available to all applicants, including non-US residents. Fax the completed Form SS-4 to the IRS at <strong>855-215-1627</strong>. Processing typically takes 4-7 business days. This is the primary method for non-residents.</p>
+                    <p className="text-sm text-[var(--color-text-muted)]">Available to all applicants, including non-US residents. Fax the completed Form SS-4 to the IRS at <strong>855-215-1627</strong>. Processing takes 4-7 business days. This is the primary method for non-residents.</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
@@ -152,7 +152,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                   <span className="flex-shrink-0 w-8 h-8 rounded-lg bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center text-sm font-bold">4</span>
                   <div>
                     <h3 className="font-bold text-[var(--color-text)] mb-1">Mail (Form SS-4)</h3>
-                    <p className="text-sm text-[var(--color-text-muted)]">You can mail your completed Form SS-4 to the IRS. Processing takes approximately 4-6 weeks. This is the slowest method and is generally not recommended unless other methods are unavailable.</p>
+                    <p className="text-sm text-[var(--color-text-muted)]">You can mail your completed Form SS-4 to the IRS. Processing takes about 4-6 weeks. This is the slowest method and is not recommended unless other methods are unavailable.</p>
                   </div>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               EIN vs SSN vs ITIN <span className="font-display gradient-text">vs TIN</span>
             </h2>
             <p className="text-[var(--color-text-muted)] leading-relaxed mb-8">
-              The US tax system uses several types of identification numbers. Each serves a different purpose and is issued to a different group of people or entities. Understanding the distinctions is important because using the wrong number on a tax form or bank application can cause delays, rejections, or compliance issues.
+              The US tax system uses multiple types of identification numbers. Each serves a different purpose and is issued to a different group of people or entities. Understanding the distinctions is important because using the wrong number on a tax form or bank application can cause delays, rejections, or compliance issues.
             </p>
 
             <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
@@ -327,7 +327,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                 <ol className="space-y-3 text-[var(--color-text-muted)] list-decimal list-inside">
                   <li>Complete <strong className="text-[var(--color-text)]">IRS Form SS-4</strong> (Application for Employer Identification Number)</li>
                   <li>Fax the completed form to the IRS at <strong className="text-[var(--color-text)]">855-215-1627</strong></li>
-                  <li>Wait approximately 4-7 business days for processing</li>
+                  <li>Wait about 4-7 business days for processing</li>
                   <li>Receive your EIN via fax from the IRS</li>
                 </ol>
                 <p className="mt-4 text-sm text-[var(--color-text-muted)]">Alternatively, you can call the IRS at <strong>267-941-1099</strong> to apply by phone during business hours.</p>
@@ -370,7 +370,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                 <div>
                   <h3 className="font-bold text-[var(--color-text)] mb-2">Option 1: File Form SS-4 by Fax</h3>
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
-                    Complete Form SS-4 and fax it to the IRS at <strong className="text-[var(--color-text)]">855-215-1627</strong>. This is the most common method for non-residents. Processing takes approximately 4-7 business days, after which the IRS will fax back your EIN assignment letter. The form must be filled out correctly, as errors will result in rejection and delays.
+                    Complete Form SS-4 and fax it to the IRS at <strong className="text-[var(--color-text)]">855-215-1627</strong>. This is the most common method for non-residents. Processing takes about 4-7 business days, after which the IRS will fax back your EIN assignment letter. The form must be filled out correctly, as errors will result in rejection and delays.
                   </p>
                 </div>
                 <div>
@@ -407,7 +407,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Understanding EIN format details can help you verify that an EIN is valid and identify potential errors before submitting it on tax forms or bank applications. A valid EIN must satisfy several criteria: it must be exactly 9 digits, the first two digits (the prefix) must fall within a range that the IRS has actually used, and it must follow the XX-XXXXXXX formatting convention.
+                Understanding EIN format details can help you verify that an EIN is valid and identify potential errors before submitting it on tax forms or bank applications. A valid EIN must satisfy 3 criteria: it must be exactly 9 digits, the first two digits (the prefix) must fall within a range that the IRS has actually used, and it must follow the XX-XXXXXXX formatting convention.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -415,7 +415,7 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Your EIN will appear on several important documents, including your IRS confirmation letter (CP 575), your annual tax returns (Form 1120 for corporations, Form 1065 for partnerships, etc.), W-2 and 1099 forms you issue to employees and contractors, and any correspondence you receive from the IRS. Always double-check that your EIN is correctly formatted on these documents to avoid processing delays.
+                Your EIN will appear on multiple important documents, including your IRS confirmation letter (CP 575), your annual tax returns (Form 1120 for corporations, Form 1065 for partnerships, etc.), W-2 and 1099 forms you issue to employees and contractors, and any correspondence you receive from the IRS. Always double-check that your EIN is correctly formatted on these documents to avoid processing delays.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

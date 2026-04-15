@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "How long does it take to get an EIN without an SSN?",
-    a: "Faxing Form SS-4 to the IRS typically results in an EIN within 4-7 business days. The IRS returns your EIN by fax. Calling the IRS international line at 267-941-1099 can result in an immediate EIN, but hold times often exceed 1-2 hours and the line is only available Monday through Friday, 6 AM to 11 PM Eastern Time.",
+    a: "Faxing Form SS-4 to the IRS results in an EIN within 4-7 business days. The IRS returns your EIN by fax. Calling the IRS international line at 267-941-1099 can result in an immediate EIN, but hold times often exceed 1-2 hours and the line is only available Monday through Friday, 6 AM to 11 PM Eastern Time.",
   },
   {
     q: "What fax number do I use to send Form SS-4?",

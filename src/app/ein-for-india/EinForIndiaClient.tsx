@@ -49,7 +49,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Indian entrepreneurs form US LLCs and need EINs for several reasons. The US market offers access to payment processors, banking infrastructure, and customer trust that Indian business structures alone cannot provide. Here are the most common reasons Indian applicants come to ein.so:
+                Indian entrepreneurs form US LLCs and need EINs for multiple reasons. The US market offers access to payment processors, banking infrastructure, and customer trust that Indian business structures alone cannot provide. Here are the most common reasons Indian applicants come to ein.so:
               </p>
 
               <StaggerContainer className="space-y-4">
@@ -162,7 +162,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Once you have your EIN, the next step for most Indian entrepreneurs is opening a US bank account and setting up payment processing. Your EIN is the key that unlocks the US financial system. Here is how Indian business owners typically use their EIN:
+                Once you have your EIN, the next step for most Indian entrepreneurs is opening a US bank account and setting up payment processing. Your EIN is the key that unlocks the US financial system. Here is how Indian business owners use their EIN:
               </p>
 
               <StaggerContainer className="grid md:grid-cols-2 gap-4">
@@ -210,7 +210,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
                   { topic: "US Tax Filing", detail: "A single-member LLC owned by a non-resident Indian is treated as a disregarded entity for US tax purposes. You may need to file Form 5472 and Form 1120 (pro forma) annually. If your LLC has US-sourced income, additional filing requirements apply." },
                   { topic: "India-US Tax Treaty", detail: "India and the United States have a tax treaty (DTAA) that prevents double taxation on the same income. This treaty affects how your US business income is taxed in India and may provide credits for taxes paid in either country." },
                   { topic: "FEMA and RBI Compliance", detail: "Indian residents who own foreign entities must comply with FEMA (Foreign Exchange Management Act) and RBI (Reserve Bank of India) regulations regarding overseas direct investments. Forming a US LLC may require filing with the RBI under the Overseas Direct Investment framework." },
-                  { topic: "GST Implications", detail: "If your Indian business provides services to your US LLC, GST (Goods and Services Tax) implications may apply to the cross-border service arrangement. Export of services is generally zero-rated under GST, but the structure matters." },
+                  { topic: "GST Implications", detail: "If your Indian business provides services to your US LLC, GST (Goods and Services Tax) implications may apply to the cross-border service arrangement. Export of services is zero-rated under GST, but the structure matters." },
                 ].map((item, idx) => (
                   <div key={idx} className="bg-white rounded-xl border border-[var(--color-border)] p-5">
                     <h3 className="font-bold text-[var(--color-text)] mb-2">{item.topic}</h3>

@@ -12,7 +12,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
         label="EIN Lookup Guide"
         title="EIN Lookup:"
         titleAccent="How to Find Any EIN Number (2026)"
-        description="The IRS does not offer a free public EIN lookup tool. But there are several methods to find any EIN number, whether it belongs to a non-profit, a public company, or your own business. This guide covers every option available in 2026."
+        description="The IRS does not offer a free public EIN lookup tool. But there are multiple methods to find any EIN number, whether it belongs to a non-profit, a public company, or your own business. This guide covers every option available in 2026."
       />
 
       {/* Answer Capsule */}
@@ -61,7 +61,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   An <Link href="/what-is-ein/" className="text-[var(--color-blue)] underline hover:no-underline">EIN (Employer Identification Number)</Link> is considered sensitive taxpayer information by the IRS. Making all EINs publicly searchable would create significant privacy and fraud risks. As a result, the IRS only makes EINs publicly available in specific circumstances, primarily for tax-exempt non-profit organizations that are required to disclose financial information to the public.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  That said, there are several legitimate methods to find an EIN depending on what type of organization you are looking for. Some methods are completely free, while others may require a small fee or direct outreach to the organization in question. The availability of the EIN depends largely on whether the entity is a non-profit, a publicly traded company, or a private business.
+                  That said, there are multiple legitimate methods to find an EIN depending on what type of organization you are looking for. Some methods are completely free, while others may require a small fee or direct outreach to the organization in question. The availability of the EIN depends largely on whether the entity is a non-profit, a publicly traded company, or a private business.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Third-party paid databases do exist, but they are often unreliable. These services scrape public records and compile them into searchable databases, but the data is frequently outdated, incomplete, or inaccurate. We do not recommend relying on paid EIN lookup services when free government sources are available for the entity types they cover.
@@ -92,7 +92,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
               {
                 num: "2",
                 title: "SEC EDGAR (Public Companies Only)",
-                desc: "Every publicly traded company in the United States is required to file financial reports with the Securities and Exchange Commission (SEC). These filings, including 10-K annual reports, 10-Q quarterly reports, and 8-K current reports, are available through the SEC's EDGAR database at sec.gov/cgi-bin/browse-edgar. These filings typically include the company's EIN (listed as 'IRS Employer Identification No.' on most forms). Simply search for the company name and open any recent filing to find the EIN on the cover page.",
+                desc: "Every publicly traded company in the United States is required to file financial reports with the Securities and Exchange Commission (SEC). These filings, including 10-K annual reports, 10-Q quarterly reports, and 8-K current reports, are available through the SEC's EDGAR database at sec.gov/cgi-bin/browse-edgar. These filings include the company's EIN (listed as 'IRS Employer Identification No.' on most forms). Simply search for the company name and open any recent filing to find the EIN on the cover page.",
               },
               {
                 num: "3",
@@ -141,7 +141,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn>
               <div className="space-y-4 mb-8">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Losing track of your own EIN is more common than you might think. Businesses change accountants, move offices, or simply misplace paperwork over time. The good news is that once the IRS assigns an EIN to your entity, it is permanent. It does not expire or change. You just need to locate it. Here are the four best ways to recover your own EIN:
+                  Losing track of your own EIN is more common than most people expect. Businesses change accountants, move offices, or simply misplace paperwork over time. The good news is that once the IRS assigns an EIN to your entity, it is permanent. It does not expire or change. You just need to locate it. Here are the four best ways to recover your own EIN:
                 </p>
               </div>
             </AnimateIn>
@@ -193,7 +193,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                   An EIN verification letter, officially known as <strong className="text-[var(--color-text)]">IRS Letter 147C</strong>, is an official document from the IRS that confirms your EIN has been assigned to your specific entity. This letter is different from the original CP 575 confirmation notice you received when your EIN was first issued. The 147C is a verification that can be requested at any time after your EIN has been assigned.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Many banks, payment processors, and financial institutions require a 147C letter when you open a business bank account or apply for merchant services. Some institutions will not accept the original CP 575 letter because they want a more recent verification, especially if the CP 575 is several years old.
+                  Many banks, payment processors, and financial institutions require a 147C letter when you open a business bank account or apply for merchant services. Some institutions will not accept the original CP 575 letter because they want a more recent verification, especially if the CP 575 is more than 2 years old.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">How to request a 147C letter:</strong> Call the IRS Business & Specialty Tax Line at <strong className="text-[var(--color-text)]">800-829-4933</strong>, Monday through Friday, 7 a.m. to 7 p.m. local time. Verify your identity as an authorized person on the account. Request the 147C letter and specify whether you want it sent by fax (same-day delivery) or by mail (4-6 weeks). Fax delivery is strongly recommended for speed.
@@ -355,7 +355,7 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn>
               <div className="space-y-4 mb-8">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  If you are not looking up an existing EIN but instead need to <strong className="text-[var(--color-text)]">obtain a new EIN for your business</strong>, the process is straightforward, but it depends on whether you have a US-based Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN).
+                  If you are not looking up an existing EIN but instead need to <strong className="text-[var(--color-text)]">obtain a new EIN for your business</strong>, the process is straightforward, but the method varies based on whether you have a US-based Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN).
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   US residents with an SSN or ITIN can apply directly through the IRS online EIN Assistant at no cost. However, <strong className="text-[var(--color-text)]">non-US residents without an SSN or ITIN cannot use the online system</strong>. Instead, they must file Form SS-4 with the IRS by fax or mail, a process that can be confusing and error-prone, especially if you are unfamiliar with IRS forms and terminology.

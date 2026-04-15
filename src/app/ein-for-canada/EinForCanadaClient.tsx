@@ -166,9 +166,9 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
 
               <div className="space-y-4">
                 {[
-                  { topic: "Canada-US Tax Treaty", detail: "The Canada-US tax treaty prevents double taxation. Business profits earned through a US LLC are generally taxable in Canada (where you reside) unless you have a permanent establishment in the US. The treaty allows foreign tax credits to offset taxes paid in either country." },
+                  { topic: "Canada-US Tax Treaty", detail: "The Canada-US tax treaty prevents double taxation. Business profits earned through a US LLC are taxable in Canada (where you reside) unless you have a permanent establishment in the US. The treaty allows foreign tax credits to offset taxes paid in either country." },
                   { topic: "CAD/USD Currency Management", detail: "Operating in both CAD and USD means you need a currency strategy. A US bank account lets you hold USD without forced conversion. Many Canadian entrepreneurs use Wise or their Canadian bank's USD account to manage transfers between countries at favorable rates." },
-                  { topic: "GST/HST on Cross-Border Sales", detail: "Canadian GST/HST generally does not apply to goods or services exported to the US. However, if you sell digital products or services to Canadian customers through your US entity, GST/HST rules may apply. Consult a Canadian tax professional familiar with cross-border e-commerce." },
+                  { topic: "GST/HST on Cross-Border Sales", detail: "Canadian GST/HST does not apply to goods or services exported to the US. However, if you sell digital products or services to Canadian customers through your US entity, GST/HST rules may apply. Consult a Canadian tax professional familiar with cross-border e-commerce." },
                   { topic: "CRA Reporting Obligations", detail: "Canadian residents must report worldwide income to the CRA, including income earned through US LLCs. You may need to file Form T1135 (Foreign Income Verification) if your US business assets exceed $100,000 CAD. Your US EIN does not replace any Canadian tax obligations." },
                 ].map((item, idx) => (
                   <div key={idx} className="bg-[var(--color-surface)] rounded-xl border border-[var(--color-border)] p-5">

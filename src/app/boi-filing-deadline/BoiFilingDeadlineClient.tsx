@@ -243,7 +243,7 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The BOI filing requirement under the Corporate Transparency Act has faced legal challenges since its
                   inception. Several lawsuits have questioned the constitutionality of the reporting mandate, and courts
-                  have issued temporary injunctions at various points that briefly paused enforcement.
+                  have issued temporary injunctions at multiple points that briefly paused enforcement.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   As of 2026, the BOI filing requirement is in full effect. FinCEN is actively accepting filings and has the

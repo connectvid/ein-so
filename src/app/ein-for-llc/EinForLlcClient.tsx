@@ -54,7 +54,7 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
               <StaggerContainer className="space-y-4">
                 {[
-                  { title: "Federal Tax Filing", desc: "Multi-member LLCs file Form 1065 as partnerships, which requires an EIN. Single-member LLCs that elect corporate taxation (Form 8832) also need an EIN. Even disregarded entities benefit from having an EIN for clean tax reporting." },
+                  { title: "Federal Tax Filing", desc: "Multi-member LLCs file IRS Form 1065 (Partnership Return) as partnerships, which requires an EIN. Single-member LLCs that elect corporate taxation (Form 8832) also need an EIN. Even disregarded entities benefit from having an EIN for clean tax reporting." },
                   { title: "Business Bank Accounts", desc: "Every US bank requires an EIN to open a business bank account for an LLC. You cannot use a personal SSN to open an LLC account. The bank verifies your EIN with the IRS to confirm your business entity exists." },
                   { title: "Hiring Employees", desc: "If your LLC hires even one employee, you must have an EIN for payroll tax reporting. The EIN is used on W-2 forms, quarterly payroll tax returns (Form 941), and annual employer returns." },
                   { title: "Business Credit and Vendor Relationships", desc: "Building business credit requires an EIN. Credit bureaus (Dun & Bradstreet, Experian Business) use your EIN to track your LLC's credit history. Vendors and suppliers also require your EIN on W-9 forms." },
@@ -148,7 +148,7 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
                   <div>
                     <h3 className="text-lg font-bold text-red-800 mb-2">$500/Day Penalty for Non-Compliance</h3>
                     <p className="text-red-700 leading-relaxed">
-                      The Corporate Transparency Act requires most LLCs to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). Failure to file carries civil penalties of <strong>$500 per day</strong> and potential criminal penalties including fines up to $10,000 and imprisonment up to 2 years.
+                      BOI reporting is required under the Corporate Transparency Act (31 USC §5336), which requires most LLCs to file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). Failure to file carries civil penalties of <strong>$500 per day</strong> and potential criminal penalties including fines up to $10,000 and imprisonment up to 2 years.
                     </p>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Yes.</strong> Non-US residents form US LLCs every day -- it is one of the most popular business structures for international entrepreneurs. States like Wyoming, Delaware, and New Mexico are particularly popular for non-resident LLC formation because they offer favorable privacy protections and low fees.
+                <strong className="text-[var(--color-text)]">Yes.</strong> Non-US residents form US LLCs every day -- it is one of the most popular business structures for international entrepreneurs. LLCs are governed by state statute (e.g., Wyoming LLC Act §17-29-101 et seq.), and states like Wyoming, Delaware, and New Mexico are particularly popular for non-resident LLC formation because they offer favorable privacy protections and low fees.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

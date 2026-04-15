@@ -164,7 +164,7 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--color-blue)] text-white flex items-center justify-center font-bold text-lg">5</div>
                     <div>
                       <p className="font-semibold text-[var(--color-text)] mb-1">Receive Your EIN by Fax (4-7 Business Days)</p>
-                      <p className="text-[var(--color-text-muted)] text-sm">The IRS faxes your EIN confirmation back to the fax number you provided on the form. This typically takes 4-7 business days. During tax season (January-April), processing may take slightly longer.</p>
+                      <p className="text-[var(--color-text-muted)] text-sm">The IRS faxes your EIN confirmation back to the fax number you provided on the form. This takes 4-7 business days. During tax season (January-April), processing may take slightly longer.</p>
                     </div>
                   </div>
                 </StaggerItem>

@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "How does the UK-US tax treaty affect my EIN and US business?",
-    a: "The UK-US tax treaty prevents double taxation. Business profits from your US LLC are generally taxable in the UK (where you reside) unless you have a permanent establishment in the US. The treaty allows credits for taxes paid in either country. Consult a UK accountant familiar with cross-border US-UK taxation.",
+    a: "The UK-US tax treaty prevents double taxation. Business profits from your US LLC are taxable in the UK (where you reside) unless you have a permanent establishment in the US. The treaty allows credits for taxes paid in either country. Consult a UK accountant familiar with cross-border US-UK taxation.",
   },
   {
     q: "Can I use my EIN to sell on Amazon.com from the UK?",
