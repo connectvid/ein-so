@@ -222,6 +222,32 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
         </div>
       </section>
 
+      {/* Related Pages */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Explore All Guides</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">EIN Use Cases</h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "EIN for Bank Account", href: "/ein-for-bank-account/", desc: "Open a US business bank account with your EIN, including options for non-residents." },
+              { title: "EIN for Hiring Employees", href: "/ein-for-hiring-employees/", desc: "Use your EIN for payroll taxes, W-2 issuance, and employer obligations." },
+              { title: "EIN for Business Credit", href: "/ein-for-credit/", desc: "Build a business credit profile with Dun & Bradstreet using your EIN." },
+              { title: "EIN for PayPal", href: "/ein-for-paypal/", desc: "Verify your PayPal Business account with an EIN for IRS compliance." },
+              { title: "EIN for Stripe", href: "/ein-for-stripe/", desc: "Complete Stripe identity verification and accept US payments with your EIN." },
+              { title: "EIN for Amazon Sellers", href: "/ein-for-amazon-sellers/", desc: "Register on Amazon Seller Central and handle 1099-K reporting with an EIN." },
+              { title: "EIN for Shopify Sellers", href: "/ein-for-shopify-sellers/", desc: "Set up Shopify Payments and verify your store with an EIN." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">

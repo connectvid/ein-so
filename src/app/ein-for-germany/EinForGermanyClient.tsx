@@ -31,7 +31,7 @@ export default function EinForGermanyClient({ faqs }: { faqs: { q: string; a: st
                 Germany has the largest economy in Europe and deep trade ties with the United States. German entrepreneurs expand into the US market through Amazon FBA, SaaS, manufacturing exports, and professional services. A US EIN is the starting point for all of these activities -- it unlocks US banking, marketplace registration, payment processing, and tax compliance.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers the complete EIN application process for German entrepreneurs, including the GmbH vs LLC decision, VAT and sales tax considerations, Amazon.com expansion from Germany, and how ein.so simplifies the process for German business owners.
+                This guide covers the complete EIN application process for German entrepreneurs, including the GmbH vs LLC decision, VAT and sales tax considerations, Amazon.com expansion from Germany, and how ein.so simplifies the process for German business owners. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

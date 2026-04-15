@@ -31,7 +31,7 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
                 Canada and the United States share the world&apos;s largest bilateral trade relationship. Hundreds of thousands of Canadian entrepreneurs sell into the US market through e-commerce, SaaS, consulting, and cross-border services. A US EIN is the foundation for all of this -- you need it to open a US bank account, register on US marketplaces, accept US payments, and file US taxes.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The proximity of Canada to the US makes cross-border business natural, but the IRS still treats Canadian applicants the same as any other non-resident when it comes to the EIN application. The online tool requires an SSN you do not have. This guide explains the process and how ein.so makes it seamless for Canadian entrepreneurs.
+                The proximity of Canada to the US makes cross-border business natural, but the IRS still treats Canadian applicants the same as any other non-resident when it comes to the EIN application. The online tool requires an SSN you do not have. This guide explains the process and how ein.so makes it seamless for Canadian entrepreneurs. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

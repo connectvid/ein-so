@@ -31,7 +31,7 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
                 Chinese entrepreneurs represent one of the largest groups of international sellers on Amazon.com. From Shenzhen electronics manufacturers to Yiwu wholesale exporters to Shanghai tech firms, Chinese business owners use US LLCs and EINs to access the American marketplace. The US EIN is the key that unlocks banking, marketplace registration, and payment processing in the world&apos;s largest consumer market.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers the EIN application process for Chinese entrepreneurs, including Amazon selling strategies, banking challenges and solutions, compliance considerations for Chinese nationals, and how ein.so makes the process straightforward.
+                This guide covers the EIN application process for Chinese entrepreneurs, including Amazon selling strategies, banking challenges and solutions, compliance considerations for Chinese nationals, and how ein.so makes the process straightforward. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

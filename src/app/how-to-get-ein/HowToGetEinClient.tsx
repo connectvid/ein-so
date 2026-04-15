@@ -529,6 +529,33 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Learn More</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              Application <span className="font-display gradient-text">Resources</span>
+            </h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "IRS Form SS-4 Guide", href: "/ss4-form-guide/", desc: "Line-by-line walkthrough of the SS-4 form required to apply for an EIN." },
+              { title: "Get EIN Without SSN", href: "/ein-without-ssn/", desc: "How non-residents and foreign nationals can obtain an EIN without a Social Security Number." },
+              { title: "EIN Processing Time", href: "/ein-processing-time/", desc: "Current IRS processing times for online, fax, phone, and mail EIN applications." },
+              { title: "EIN Rejection Guide", href: "/ein-rejection-guide/", desc: "Common reasons the IRS rejects EIN applications and how to fix them." },
+              { title: "EIN for Non-Residents", href: "/ein-for-non-residents/", desc: "Complete guide for international entrepreneurs applying for a US EIN from abroad." },
+              { title: "What Is an EIN?", href: "/what-is-ein/", desc: "Everything you need to know about Employer Identification Numbers and why they matter." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">

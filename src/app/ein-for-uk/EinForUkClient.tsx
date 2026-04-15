@@ -31,7 +31,7 @@ export default function EinForUkClient({ faqs }: { faqs: { q: string; a: string 
                 The UK and the US share one of the strongest trade relationships in the world. British entrepreneurs regularly expand into the US market through e-commerce, Amazon FBA, SaaS, consulting, and investment. A US EIN is the first thing you need to operate a US business -- it unlocks banking, payment processing, marketplace registration, and tax compliance.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers the complete EIN application process for UK residents, including the Ltd vs LLC decision, currency management between GBP and USD, Amazon.com expansion from the UK, and how ein.so simplifies the process for British business owners.
+                This guide covers the complete EIN application process for UK residents, including the Ltd vs LLC decision, currency management between GBP and USD, Amazon.com expansion from the UK, and how ein.so simplifies the process for British business owners. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

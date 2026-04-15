@@ -293,6 +293,38 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
         </div>
       </section>
 
+      {/* Related Pages */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Explore All Guides</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">All Business Types & Audiences</h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "EIN for LLC", href: "/ein-for-llc/", desc: "How to get an EIN for your LLC, including single-member and multi-member LLCs." },
+              { title: "EIN for Corporation", href: "/ein-for-corporation/", desc: "EIN requirements for C-Corps and S-Corps, including non-resident incorporations." },
+              { title: "EIN for Nonprofit", href: "/ein-for-nonprofit/", desc: "Get your EIN before applying for 501(c)(3) tax-exempt status." },
+              { title: "EIN for Partnership", href: "/ein-for-partnership/", desc: "EIN requirements for general partnerships, LPs, and LLPs." },
+              { title: "EIN for Sole Proprietor", href: "/ein-for-sole-proprietor/", desc: "When sole proprietors need an EIN and why most should get one." },
+              { title: "EIN for Trust", href: "/ein-for-trust/", desc: "EIN requirements for irrevocable trusts, revocable trusts, and grantor trusts." },
+              { title: "EIN for Estate", href: "/ein-for-estate/", desc: "How executors obtain an EIN for estates of deceased persons." },
+              { title: "EIN for S-Corp", href: "/ein-for-scorp/", desc: "S-Corporation EIN application process and tax election requirements." },
+              { title: "EIN for Non-Residents", href: "/ein-for-non-residents/", desc: "How non-US residents apply for an EIN without an SSN or ITIN." },
+              { title: "EIN for Amazon Sellers", href: "/ein-for-amazon-sellers/", desc: "Get an EIN for Amazon Seller Central registration and 1099-K reporting." },
+              { title: "EIN for Shopify Sellers", href: "/ein-for-shopify-sellers/", desc: "EIN setup for Shopify store owners and Shopify Payments verification." },
+              { title: "EIN for Freelancers", href: "/ein-for-freelancers/", desc: "Protect your SSN and appear more professional with a dedicated EIN." },
+              { title: "EIN for Real Estate Investors", href: "/ein-for-real-estate-investors/", desc: "EIN requirements for real estate LLCs, rental properties, and investment entities." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">

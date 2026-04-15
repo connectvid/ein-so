@@ -31,7 +31,7 @@ export default function EinForIndiaClient({ faqs }: { faqs: { q: string; a: stri
                 India is one of the largest sources of international entrepreneurs entering the US market. From Upwork freelancers forming US LLCs to Amazon India sellers expanding to Amazon.com, Indian business owners need EINs to operate legally in the United States. The challenge is that the IRS does not make it easy for non-residents to apply -- the online tool requires an SSN, and calling the IRS from India means expensive international calls during US business hours.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers everything Indian entrepreneurs need to know about getting a US EIN: the application process, required documents, common use cases, payment platform integration, and how ein.so simplifies the entire process. Whether you are a software developer in Bangalore, a textile exporter in Mumbai, or a freelancer in Delhi, the process is the same.
+                This guide covers everything Indian entrepreneurs need to know about getting a US EIN: the application process, required documents, common use cases, payment platform integration, and how ein.so simplifies the entire process. Whether you are a software developer in Bangalore, a textile exporter in Mumbai, or a freelancer in Delhi, the process is the same. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

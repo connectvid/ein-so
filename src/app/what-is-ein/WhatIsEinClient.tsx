@@ -489,6 +489,33 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Learn More</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              EIN Knowledge <span className="font-display gradient-text">Base</span>
+            </h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "EIN Number Format Explained", href: "/ein-number-format/", desc: "Understand the 9-digit EIN structure, prefixes, and how to read your number." },
+              { title: "EIN Lookup Guide", href: "/ein-lookup/", desc: "How to look up an existing EIN for your business or another company." },
+              { title: "Free EIN Lookup Methods", href: "/ein-lookup-free/", desc: "Find an EIN at no cost using IRS tools, SEC filings, and public records." },
+              { title: "Who Needs an EIN?", href: "/who-needs-ein/", desc: "Find out whether your business type requires an Employer Identification Number." },
+              { title: "How to Get an EIN", href: "/how-to-get-ein/", desc: "Step-by-step guide to applying for an EIN online, by fax, or by phone." },
+              { title: "EIN vs ITIN", href: "/ein-vs-itin/", desc: "Key differences between an Employer Identification Number and an Individual Taxpayer Identification Number." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">

@@ -352,6 +352,36 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
         </div>
       </section>
 
+      {/* Related Pages */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">By Country</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">Country-Specific EIN Guides</h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "EIN for Indian Entrepreneurs", href: "/ein-for-india/", desc: "How entrepreneurs from India get a US EIN without an SSN or ITIN." },
+              { title: "EIN for Canadians", href: "/ein-for-canada/", desc: "Canadian residents: get your US EIN for cross-border business operations." },
+              { title: "EIN for UK Residents", href: "/ein-for-uk/", desc: "UK-based entrepreneurs: obtain a US EIN for your American business entity." },
+              { title: "EIN for Pakistani Entrepreneurs", href: "/ein-for-pakistan/", desc: "Pakistan-based business owners: apply for a US EIN from abroad." },
+              { title: "EIN for Nigerian Entrepreneurs", href: "/ein-for-nigeria/", desc: "Nigerian entrepreneurs: get your US EIN for e-commerce and US business." },
+              { title: "EIN for German Entrepreneurs", href: "/ein-for-germany/", desc: "German residents: obtain a US EIN for your LLC or corporation." },
+              { title: "EIN for Chinese Entrepreneurs", href: "/ein-for-china/", desc: "Chinese business owners: apply for a US EIN to operate in the US market." },
+              { title: "EIN for Filipino Entrepreneurs", href: "/ein-for-philippines/", desc: "Philippines-based entrepreneurs: get your US EIN for Amazon, Stripe, and more." },
+              { title: "EIN for Mexican Entrepreneurs", href: "/ein-for-mexico/", desc: "Mexican residents: obtain a US EIN for cross-border business operations." },
+              { title: "EIN for Brazilian Entrepreneurs", href: "/ein-for-brazil/", desc: "Brazilian business owners: apply for a US EIN from Brazil." },
+              { title: "EIN for Bangladeshi Entrepreneurs", href: "/ein-for-bangladesh/", desc: "Bangladeshi entrepreneurs: get your US EIN with support in Bengali." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">

@@ -31,7 +31,7 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
                 Nigeria is Africa&apos;s largest economy and home to a rapidly growing tech startup ecosystem. From Lagos to Abuja, Nigerian entrepreneurs build products and services for both local and international markets. When the target is the US market -- or when US infrastructure is needed for payments, banking, or investor relations -- a US LLC with an EIN is the standard approach.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The challenge is that the IRS makes it difficult for Nigerian applicants to get an EIN. The online tool requires an SSN, and calling from Nigeria means expensive international calls during US business hours. This guide explains how ein.so solves this problem and covers everything Nigerian entrepreneurs need to know about getting a US EIN.
+                The challenge is that the IRS makes it difficult for Nigerian applicants to get an EIN. The online tool requires an SSN, and calling from Nigeria means expensive international calls during US business hours. This guide explains how ein.so solves this problem and covers everything Nigerian entrepreneurs need to know about getting a US EIN. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

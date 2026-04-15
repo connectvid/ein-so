@@ -31,7 +31,7 @@ export default function EinForPakistanClient({ faqs }: { faqs: { q: string; a: s
                 Pakistan has one of the fastest-growing freelancing communities in the world. Pakistani professionals dominate platforms like Upwork, Fiverr, and Freelancer.com, and many are forming US LLCs to access better payment processing, build credibility with international clients, and avoid the limitations of Pakistani banking for international transactions. The first step in this process is getting a US EIN.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers everything Pakistani entrepreneurs need to know: the EIN application process, common use cases, payment platform integration with Payoneer and other services, SS-4 tips specific to Pakistani applicants, and how ein.so makes the entire process simple and reliable.
+                This guide covers everything Pakistani entrepreneurs need to know: the EIN application process, common use cases, payment platform integration with Payoneer and other services, SS-4 tips specific to Pakistani applicants, and how ein.so makes the entire process simple and reliable. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

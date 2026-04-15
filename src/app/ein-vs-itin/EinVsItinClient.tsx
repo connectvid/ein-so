@@ -445,6 +445,31 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
         </div>
       </section>
 
+      {/* Related Guides */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Related</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              More Tax ID <span className="font-display gradient-text">Comparisons</span>
+            </h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {[
+              { title: "EIN vs SSN", href: "/ein-vs-ssn/", desc: "How an Employer Identification Number differs from a Social Security Number." },
+              { title: "EIN vs Tax ID", href: "/ein-vs-tax-id/", desc: "Understanding the relationship between EINs and the broader Tax ID category." },
+              { title: "EIN vs TIN", href: "/ein-vs-tin/", desc: "What separates an EIN from a Taxpayer Identification Number and when you need each." },
+              { title: "What Is an EIN?", href: "/what-is-ein/", desc: "Complete guide to Employer Identification Numbers, formats, and who needs one." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="group block bg-[var(--color-surface)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-blue)]/30 transition-colors">
+                <h3 className="text-sm font-bold text-[var(--color-text)] group-hover:text-[var(--color-blue)] transition-colors mb-1">{item.title}</h3>
+                <p className="text-xs text-[var(--color-text-muted)]">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">

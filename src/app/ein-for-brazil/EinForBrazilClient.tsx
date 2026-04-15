@@ -31,7 +31,7 @@ export default function EinForBrazilClient({ faqs }: { faqs: { q: string; a: str
                 Brazilian entrepreneurs have a growing presence in the US market. From Amazon FBA sellers to real estate investors in Florida and New York, Brazilian business owners use US LLCs and EINs to establish formal US business operations. The Brazilian entrepreneurial community in the US is large and active, with strong networks in Miami, Orlando, and other cities.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers the EIN application process for Brazilian entrepreneurs, including the CNPJ vs EIN comparison, real estate investment considerations, payment and currency management between BRL and USD, and how ein.so handles the application process.
+                This guide covers the EIN application process for Brazilian entrepreneurs, including the CNPJ vs EIN comparison, real estate investment considerations, payment and currency management between BRL and USD, and how ein.so handles the application process. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
             </div>
           </AnimateIn>

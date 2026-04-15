@@ -31,7 +31,7 @@ export default function EinForAmazonSellersClient({ faqs }: { faqs: { q: string;
                 Amazon is the largest e-commerce marketplace in the world, and thousands of new sellers register every day. For non-US residents, the EIN requirement is the biggest hurdle to getting started. The IRS online tool does not work without an SSN, leaving international sellers stuck -- unless they know about the fax method or use a service like ein.so.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                This guide covers everything an Amazon seller needs to know about EINs: why Amazon requires one, how to get one (especially if you are outside the US), how to complete the tax interview, and the step-by-step process from EIN application to your first Amazon sale.
+                This guide covers everything an Amazon seller needs to know about EINs: why Amazon requires one, how to get one (especially if you are outside the US), how to complete the tax interview, and the step-by-step process from EIN application to your first Amazon sale. See our complete guide on <Link href="/who-needs-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">who needs an EIN</Link> to check if your business type requires one.
               </p>
             </div>
           </AnimateIn>
