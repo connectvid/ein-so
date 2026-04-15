@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import { SITE } from "@/lib/constants";
 
 export default function AnnouncementBar() {
   const [visible, setVisible] = useState(true);
@@ -9,14 +9,14 @@ export default function AnnouncementBar() {
   if (!visible) return null;
 
   return (
-    <div className="bg-[var(--color-navy)] text-white text-sm py-2.5 relative z-[60] border-b border-white/10">
+    <div className="bg-[var(--color-blue)] text-white text-sm py-2.5 relative z-[60]">
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-center gap-3">
         <p className="text-center font-medium">
           <span className="hidden sm:inline">Non-US resident? </span>
           Get your EIN in as fast as 2-3 business days.{" "}
-          <Link href="/apply/" className="underline font-bold hover:no-underline">
+          <a href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`} target="_blank" rel="noopener noreferrer" className="underline font-bold hover:no-underline">
             Apply now for $49
-          </Link>
+          </a>
         </p>
         <button
           onClick={() => setVisible(false)}

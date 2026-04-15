@@ -6,6 +6,8 @@ export const SITE = {
     "Get your EIN (Employer Identification Number) as a non-US resident. We file your SS-4 form and deliver your EIN fast. Standard $49. Express $97.",
   whatsapp: "https://wa.me/8801750278508",
   whatsappMessage: "Hi, I need help getting an EIN number.",
+  whatsappStandard: "Hi, I'd like to apply for the Standard EIN service ($49).",
+  whatsappExpress: "Hi, I'd like to apply for the Express EIN service ($97).",
   email: "support@ein.so",
 };
 
@@ -16,7 +18,7 @@ export const PRICING = {
     turnaround: "5-7 business days",
     cta: "Get My EIN for $49",
     highlighted: false,
-    stripeLink: "#",
+    stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Standard EIN service ($49).")}`,
     features: [
       "SS-4 form completion",
       "IRS fax submission",
@@ -31,7 +33,7 @@ export const PRICING = {
     turnaround: "2-3 business days",
     cta: "Get My EIN Fast · $97",
     highlighted: true,
-    stripeLink: "#",
+    stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Express EIN service ($97).")}`,
     features: [
       "Everything in Standard",
       "Priority fax + phone follow-up",

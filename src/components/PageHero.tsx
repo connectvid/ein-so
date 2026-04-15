@@ -14,7 +14,7 @@ export default function PageHero({
   description: string;
 }) {
   return (
-    <section className="relative bg-[var(--color-navy)] pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
+    <section className="relative bg-[var(--color-navy)] pt-16 pb-16 lg:pt-20 lg:pb-24 overflow-hidden">
       <div className="absolute inset-0 hero-grid" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[var(--color-blue)] rounded-full opacity-[0.06] blur-[100px] -translate-y-1/2 translate-x-1/3" />
       <div className="relative mx-auto max-w-7xl px-6">

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { NAV_LINKS } from "@/lib/constants";
+import { NAV_LINKS, SITE } from "@/lib/constants";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -21,10 +21,10 @@ export default function Header() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
             ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-[var(--color-border)]"
-            : "bg-transparent"
+            : "bg-[var(--color-navy)] border-b border-white/10"
         }`}
       >
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
@@ -35,12 +35,9 @@ export default function Header() {
                 <span className="text-white font-bold text-sm">E</span>
               </div>
             </div>
-            <span
-              className={`text-xl font-bold transition-colors ${
-                scrolled ? "text-[var(--color-navy)]" : "text-white"
-              }`}
-            >
-              ein<span className="text-[var(--color-blue)]">.so</span>
+            <span className="text-xl font-bold transition-colors">
+              <span className={scrolled ? "text-[var(--color-navy)]" : "text-white"}>ein</span>
+              <span className="text-[var(--color-blue)]">.so</span>
             </span>
           </Link>
 
@@ -59,8 +56,10 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link
-              href="/apply/"
+            <a
+              href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-5 py-2.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/20"
             >
               Get Started
@@ -73,7 +72,7 @@ export default function Header() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </Link>
+            </a>
 
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -102,7 +101,7 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-40 bg-white pt-20 lg:hidden"
+            className="fixed inset-0 z-[45] bg-white pt-24 lg:hidden"
           >
             <nav className="flex flex-col items-center gap-6 py-8">
               {NAV_LINKS.map((link) => (
@@ -115,13 +114,15 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/apply/"
+              <a
+                href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="mt-4 inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-3.5 text-base font-bold text-white"
               >
                 Get Started
-              </Link>
+              </a>
             </nav>
           </motion.div>
         )}

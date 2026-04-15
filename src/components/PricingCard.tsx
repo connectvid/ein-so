@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 interface PricingCardProps {
@@ -69,8 +68,10 @@ export default function PricingCard({
         ))}
       </ul>
 
-      <Link
+      <a
         href={stripeLink}
+        target="_blank"
+        rel="noopener noreferrer"
         className={`block w-full text-center rounded-xl py-3.5 px-6 font-bold transition-colors ${
           highlighted
             ? "bg-[var(--color-blue)] text-white hover:bg-[var(--color-blue-light)]"
@@ -78,7 +79,7 @@ export default function PricingCard({
         }`}
       >
         {cta}
-      </Link>
+      </a>
     </motion.div>
   );
 }

@@ -6,26 +6,67 @@ export function HomeSchema() {
     "@type": "Organization",
     name: "ein.so",
     url: SITE.url,
-    description: SITE.description,
+    description: "ein.so is the fastest EIN application service for non-US residents. We file IRS Form SS-4 by fax and deliver your Employer Identification Number by email. Standard $49, Express $97.",
+    foundingDate: "2026",
     sameAs: ["https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers"],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
       url: SITE.whatsapp,
-      availableLanguage: ["English", "Bengali", "Hindi"],
+      telephone: "+8801750278508",
+      availableLanguage: ["English", "Bengali", "Hindi", "Urdu"],
+      contactOption: "TollFree",
     },
+    areaServed: {
+      "@type": "Place",
+      name: "Worldwide",
+    },
+    knowsAbout: [
+      "Employer Identification Number",
+      "EIN Application",
+      "IRS Form SS-4",
+      "Non-Resident Tax ID",
+      "Federal Tax Identification Number",
+      "BOI Filing",
+      "LLC Formation",
+    ],
   };
 
   const service = {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "EIN Application Service for Non-Residents",
-    provider: { "@type": "Organization", name: "ein.so" },
-    description: "We file Form SS-4 with the IRS by fax and deliver your EIN.",
-    offers: [
-      { "@type": "Offer", name: "Standard EIN", price: "49", priceCurrency: "USD", description: "SS-4 filing with 5-7 business day turnaround" },
-      { "@type": "Offer", name: "Express EIN", price: "97", priceCurrency: "USD", description: "Priority SS-4 filing with 2-3 business day turnaround" },
-    ],
+    alternateName: "Employer Identification Number Filing Service",
+    provider: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    description: "We file Form SS-4 with the IRS by fax and deliver your EIN. The cheapest EIN service in the market at $49. Non-US residents cannot apply for an EIN online — we handle the fax process.",
+    serviceType: "Tax ID Application Service",
+    areaServed: "Worldwide",
+    audience: {
+      "@type": "Audience",
+      audienceType: "Non-US Residents, International Entrepreneurs, Amazon FBA Sellers, Freelancers",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "EIN Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          name: "Standard EIN",
+          price: "49",
+          priceCurrency: "USD",
+          description: "SS-4 filing with 5-7 business day turnaround. Includes form completion, IRS fax submission, and EIN delivery by email.",
+          availability: "https://schema.org/InStock",
+        },
+        {
+          "@type": "Offer",
+          name: "Express EIN",
+          price: "97",
+          priceCurrency: "USD",
+          description: "Priority SS-4 filing with 2-3 business day turnaround. Includes phone follow-up with IRS and WhatsApp status updates.",
+          availability: "https://schema.org/InStock",
+        },
+      ],
+    },
   };
 
   return (
@@ -42,7 +83,13 @@ export function WebSiteSchema() {
     "@type": "WebSite",
     name: "ein.so",
     url: SITE.url,
-    description: SITE.description,
+    description: "ein.so helps non-US residents get an EIN (Employer Identification Number) from the IRS. We file Form SS-4 by fax for $49 (Standard) or $97 (Express).",
+    publisher: {
+      "@type": "Organization",
+      name: "ein.so",
+      url: SITE.url,
+    },
+    inLanguage: "en-US",
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }

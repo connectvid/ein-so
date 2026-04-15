@@ -70,7 +70,7 @@ export default function HomeClient() {
   return (
     <>
       {/* ═══ HERO ═══ */}
-      <section className="relative bg-[var(--color-navy)] pt-36 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+      <section className="relative bg-[var(--color-navy)] pt-16 pb-20 lg:pt-24 lg:pb-32 overflow-hidden">
         <AnimatedGradient className="absolute inset-0" />
         <div className="absolute inset-0 hero-grid" />
 
@@ -116,21 +116,25 @@ export default function HomeClient() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="flex flex-col sm:flex-row gap-3 mb-8"
               >
-                <Link
-                  href="/apply/"
+                <a
+                  href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-7 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/25"
                 >
                   Apply Now · $49
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                </Link>
-                <Link
-                  href="/apply/"
+                </a>
+                <a
+                  href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappExpress)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/15 px-7 py-3.5 text-sm font-bold text-white/80 hover:bg-white/5 transition-all"
                 >
                   Express · $97
-                </Link>
+                </a>
                 <a
                   href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappMessage)}`}
                   target="_blank"
@@ -333,15 +337,17 @@ export default function HomeClient() {
           </StaggerContainer>
 
           <AnimateIn className="mt-10 text-center">
-            <Link
-              href="/apply/"
+            <a
+              href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-navy)] px-6 py-3 text-sm font-bold text-white hover:bg-[var(--color-navy-light)] transition-colors"
             >
               Apply for Your EIN
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M2.92 7h8.16M7.58 3.5L11.08 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-            </Link>
+            </a>
           </AnimateIn>
         </div>
       </section>
@@ -485,15 +491,17 @@ export default function HomeClient() {
               Apply in minutes. Receive your EIN by email.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                href="/apply/"
+              <a
+                href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-7 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/25"
               >
                 Apply Now · $49
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M3.33 8h9.34M8.67 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </Link>
+              </a>
               <a
                 href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappMessage)}`}
                 target="_blank"
