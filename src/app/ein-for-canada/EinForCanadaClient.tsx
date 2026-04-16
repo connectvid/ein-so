@@ -27,12 +27,28 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Scale of Canada-US Cross-Border Business</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-                Canada and the United States share the world&apos;s largest bilateral trade relationship. Hundreds of thousands of Canadian entrepreneurs sell into the US market through e-commerce, SaaS, consulting, and cross-border services. A US EIN is the foundation for all of this -- you need it to open a US bank account, register on US marketplaces, accept US payments, and file US taxes.
+                Canada-US bilateral trade exceeds $700 billion annually, making it the largest bilateral trade relationship in the world. Canada has a population of 40 million, a GDP of $2.1 trillion CAD, and over 1.2 million small businesses. Hundreds of thousands of Canadian entrepreneurs sell into the US market through e-commerce, SaaS, consulting, and cross-border services. A US EIN is the foundation for all of this -- you need it to open a US bank account, register on US marketplaces, accept US payments, and file US taxes. The CAD/USD exchange rate hovers around 0.74, meaning every US dollar earned is worth approximately $1.35 CAD.
               </p>
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What This Guide Covers for Canadians</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 The proximity of Canada to the US makes cross-border business natural, but the IRS still treats Canadian applicants the same as any other non-resident when it comes to the EIN application. The online tool requires an SSN you do not have. This guide explains the process and how ein.so makes it seamless for Canadian entrepreneurs. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Canada</th><th className="px-4 py-3 font-semibold">United States</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Corporation / Sole Proprietorship</td><td className="px-4 py-3 text-[var(--color-text-muted)]">LLC / Corporation</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">BN (Business Number, 9 digits)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN (9 digits: XX-XXXXXXX)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Corporate Tax Rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">15% federal + 8-16% provincial</td><td className="px-4 py-3 text-[var(--color-text-muted)]">21% federal corporate rate</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Banking</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CAD accounts; Big Five banks</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD accounts; Mercury, Relay, Chase</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Currency</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CAD (~0.74 per USD)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD (global reserve currency)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Trade Agreement</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CUSMA/USMCA member</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CUSMA/USMCA member</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -49,8 +65,9 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Canadian entrepreneurs are uniquely positioned for US market access. Geographic proximity, cultural similarity, and CUSMA (formerly NAFTA) trade agreements make cross-border business straightforward. Here are the most common reasons Canadians apply for a US EIN through ein.so:
+                Over 400,000 Canadian businesses export to the United States, and 75% of Canadian exports go to the US market. Geographic proximity, cultural similarity, and CUSMA (formerly NAFTA) trade agreements make cross-border business straightforward. Canada&apos;s e-commerce market is worth $58 billion CAD, and many sellers expand to the US for a market 10 times larger. Here are the most common reasons Canadians apply for a US EIN through ein.so:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Primary Use Cases for Canadian EIN Applicants</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -83,8 +100,9 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Canadians have two viable options for getting a US EIN: the fax method and the phone method. The IRS online tool is not available because it requires an SSN. Here is how each method works for Canadian applicants:
+                Canadian applicants receive their EIN in 4-7 business days via fax, with a 98% first-submission success rate through ein.so. The IRS online tool is not available because it requires an SSN. Here is how each method works for Canadian applicants:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Step-by-Step Fax Filing Process</h3>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <StaggerContainer className="space-y-4">
@@ -107,9 +125,23 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
                 </StaggerContainer>
               </div>
 
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Fax Beats the Phone Method for Canadians</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 While Canadians can call the IRS at 267-941-1099 during business hours (6 AM - 11 PM ET), hold times frequently exceed an hour, and you may need to call multiple times. The fax method through ein.so is more reliable and does not require you to spend your morning on hold. For the complete SS-4 walkthrough, see our <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">SS-4 form guide</Link>.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Document</th><th className="px-4 py-3 font-semibold">What to Prepare</th><th className="px-4 py-3 font-semibold">Notes</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Canadian Passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Valid, unexpired passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Passport number goes in foreign ID field; not SIN or driver&apos;s license</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US LLC Documents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Articles of Organization, entity name, state</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wyoming or Delaware most common for Canadians</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Canadian Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Full address with postal code (e.g., M5V 2T6)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Canadian format accepted; ein.so optimizes layout</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Registered Agent</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US registered agent name and address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Provides US address for IRS correspondence</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Activity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Brief description of US business</td><td className="px-4 py-3 text-[var(--color-text-muted)]">E.g., &quot;e-commerce,&quot; &quot;SaaS,&quot; &quot;consulting&quot;</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -126,8 +158,9 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Amazon.com (US) is roughly 10 times the size of Amazon.ca (Canada) in terms of customer base and revenue. Many Canadian sellers start on Amazon.ca and expand to Amazon.com to access the larger market. Here is what you need to know about using your EIN for Amazon selling:
+                Amazon.com generates $575 billion in annual revenue compared to Amazon.ca&apos;s estimated $16 billion -- a 36:1 ratio. Canadian sellers who expand to Amazon.com report average revenue increases of 300-500%. Here is what you need to know about using your EIN for Amazon selling:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Key Differences Between Amazon.ca and Amazon.com Selling</h3>
 
               <div className="space-y-4">
                 {[
@@ -161,8 +194,9 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Canada and the United States have a comprehensive tax treaty that affects how your US business income is taxed. Here are the key considerations for Canadian entrepreneurs with a US EIN:
+                Canada&apos;s federal corporate tax rate is 15% (plus 8-16% provincial), compared to the US federal rate of 21%. The Canada-US tax treaty eliminates double taxation for most cross-border business structures. Here are the key considerations for Canadian entrepreneurs with a US EIN:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Treaty Benefits and CRA Reporting</h3>
 
               <div className="space-y-4">
                 {[

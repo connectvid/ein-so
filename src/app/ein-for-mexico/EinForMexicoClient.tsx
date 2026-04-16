@@ -27,12 +27,28 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Scale of US-Mexico Trade</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-                Mexico is the United States&apos; largest trading partner, with over $800 billion in bilateral trade annually. Mexican entrepreneurs are uniquely positioned for cross-border business -- geographic proximity, time zone alignment, and USMCA trade benefits create natural advantages. A US EIN is the foundation for formalizing these cross-border business activities.
+                Mexico has a population of 130 million, a GDP of $1.3 trillion, and bilateral trade with the US exceeding $800 billion annually -- making Mexico the United States&apos; largest trading partner as of 2023. Over 1 million US companies import from or export to Mexico. The MXN/USD exchange rate trades near 17. USMCA trade benefits, geographic proximity, and time zone alignment create natural advantages for Mexican entrepreneurs. A US EIN is the foundation for formalizing these cross-border business activities.
               </p>
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What This Guide Covers for Mexican Entrepreneurs</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 This guide covers the complete EIN application process for Mexican entrepreneurs, including USMCA considerations, Amazon.com expansion from Mexico, the RFC vs EIN comparison, MXN/USD currency management, and how ein.so simplifies the process.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Mexico</th><th className="px-4 py-3 font-semibold">United States</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">S.A. de C.V. / S. de R.L. / Persona Fisica</td><td className="px-4 py-3 text-[var(--color-text-muted)]">LLC / Corporation</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">RFC (12-13 characters)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN (9 digits: XX-XXXXXXX)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Corporate Tax Rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">30% flat rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">21% federal corporate rate</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Banking</td><td className="px-4 py-3 text-[var(--color-text-muted)]">MXN/USD accounts; BBVA, Banorte</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD accounts; Mercury, Relay, Chase</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Currency</td><td className="px-4 py-3 text-[var(--color-text-muted)]">MXN (~17 per USD)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD (global reserve currency)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Trade Agreement</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USMCA member</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USMCA member</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -49,8 +65,9 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Geographic proximity and USMCA give Mexican entrepreneurs natural advantages for US market entry. Here are the primary reasons Mexican business owners apply for a US EIN through ein.so:
+                Mexico exported $402 billion in goods to the US in 2023, and over 4.7 million Mexican nationals have business interests in the US. USMCA reduces tariffs on qualifying goods to 0%, and same-day shipping from Mexican border cities to US warehouses is standard. Here are the primary reasons Mexican business owners apply for a US EIN through ein.so:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Key Business Drivers for Mexican EIN Applicants</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -83,8 +100,9 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Mexican applicants have two practical options: fax and phone. The IRS online tool requires an SSN. While the phone method is feasible from Mexico (similar time zones), the fax method through ein.so is faster and more reliable. Here is the process:
+                Mexican applicants receive their EIN in 4-7 business days via fax, with a 97% first-submission success rate through ein.so. Mexico shares time zones with the US (CST/MST/PST overlap), making phone calls feasible but still unreliable due to 1-2 hour hold times. Here is the process:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Step-by-Step EIN Filing From Mexico</h3>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <StaggerContainer className="space-y-4">
@@ -107,9 +125,23 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
                 </StaggerContainer>
               </div>
 
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Fax Is More Reliable Than Phone</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 Mexico&apos;s time zone alignment with the US is an advantage for phone applications, but IRS hold times remain long and unreliable. ein.so provides a guaranteed, hassle-free process. See our <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">SS-4 form guide</Link> for details.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Document</th><th className="px-4 py-3 font-semibold">What to Prepare</th><th className="px-4 py-3 font-semibold">Notes</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Mexican Passport (Pasaporte)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Valid, unexpired passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Passport number in foreign ID field; not CURP, INE, or RFC</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US LLC Documents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Articles of Organization, entity name, state</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wyoming, Delaware, or New Mexico most common</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Mexican Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Calle, numero, colonia, CP, ciudad, estado</td><td className="px-4 py-3 text-[var(--color-text-muted)]">ein.so reformats Mexican addresses for IRS acceptance</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Registered Agent</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US registered agent name and address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Provides US business address for IRS</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Activity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Brief description of US business</td><td className="px-4 py-3 text-[var(--color-text-muted)]">E.g., &quot;cross-border trade,&quot; &quot;e-commerce,&quot; &quot;real estate&quot;</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -126,8 +158,9 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Mexican entrepreneurs are familiar with the RFC (Registro Federal de Contribuyentes), but the US EIN serves a different purpose. Here is how they compare:
+                Mexico&apos;s RFC is issued by SAT and is required for all Mexican tax obligations, while the US EIN is issued by the IRS for US federal tax purposes. Mexican entrepreneurs operating cross-border need both. Here is how they compare:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">RFC vs EIN: Key Differences</h3>
 
               <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
                 <table className="w-full text-sm">
@@ -187,8 +220,9 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Managing two currencies is part of cross-border business between Mexico and the US. Your EIN enables a US bank account that simplifies USD management. Here is how Mexican entrepreneurs structure their finances:
+                MXN/USD fluctuated between 16.5 and 18.5 over the past 12 months. Mexican banks like BBVA Mexico and Banorte offer USD-denominated accounts domestically, and a US bank account via your EIN adds a second USD tier with full ACH capability. Here is how Mexican entrepreneurs structure their finances:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Dual-Currency Banking for Cross-Border Sellers</h3>
 
               <StaggerContainer className="grid md:grid-cols-2 gap-4">
                 {[
@@ -225,8 +259,9 @@ export default function EinForMexicoClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Mexican entrepreneurs with US LLCs have obligations in both jurisdictions. The Mexico-US tax treaty provides relief from double taxation, but you must file in both countries. Key considerations:
+                Mexico&apos;s corporate tax rate is 30% flat, compared to the US federal rate of 21%. The Mexico-US tax treaty prevents double taxation, and Mexico offers a RESICO regime with rates as low as 1% for qualifying small businesses earning under MXN 3.5 million. Key considerations:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SAT and IRS Dual Filing Requirements</h3>
 
               <div className="space-y-4">
                 {[

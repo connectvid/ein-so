@@ -49,8 +49,10 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                When you hire an employee, you become responsible for withholding federal income tax, Social Security tax, and Medicare tax from their paycheck. You must also pay the employer portion of Social Security and Medicare, plus federal and state unemployment taxes. All of these obligations require an EIN.
+                Employers are responsible for 5 separate payroll tax obligations from the first paycheck. The combined employer cost is 7.65% of wages (6.2% Social Security + 1.45% Medicare) plus 0.6% FUTA on the first $7,000 per employee. When you hire an employee, you become responsible for withholding federal income tax, Social Security tax, and Medicare tax from their paycheck.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Employer Payroll Tax Obligations at a Glance</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Your EIN is the identifier the IRS uses to track your payroll tax deposits and filings. Without an EIN, you cannot create an account in the Electronic Federal Tax Payment System (EFTPS), which is how employers deposit payroll taxes. You cannot file Form 941 (quarterly payroll tax return) or issue W-2 forms to employees at year end.
@@ -79,8 +81,10 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Employers have two types of payroll tax obligations: taxes you withhold from employee paychecks (trust fund taxes) and taxes you pay as the employer. Your EIN identifies your business on all payroll tax deposits and filings.
+                The total employer payroll burden is 7.65% to 19.65% of wages depending on state, split between 5 tax types. Your EIN identifies your business on all payroll tax deposits and filings. Here is the complete breakdown:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Payroll Tax Types Employers Must Pay</h3>
 
               <div className="space-y-4">
                 {[
@@ -135,8 +139,22 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                As an employer, you file multiple tax forms throughout the year. Every one of them requires your EIN. Missing a filing deadline triggers automatic penalties, so staying on top of the schedule is critical.
+                5 federal payroll tax forms require your EIN, with deadlines spanning all 4 quarters plus year-end. Missing a single Form 941 deadline triggers a 5% per month penalty. Here is the complete schedule:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Payroll Tax Forms and Deadlines</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Form</th><th className="px-4 py-3 font-semibold">Frequency</th><th className="px-4 py-3 font-semibold">Deadline</th><th className="px-4 py-3 font-semibold">Penalty for Late Filing</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form 941</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Quarterly</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Apr 30, Jul 31, Oct 31, Jan 31</td><td className="px-4 py-3 text-[var(--color-text-muted)]">5% per month up to 25%</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form W-2</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Annual</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 31</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$60 per form (up to $630,500)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form W-3</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Annual</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 31</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same as W-2 penalties</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form 940</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Annual</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 31</td><td className="px-4 py-3 text-[var(--color-text-muted)]">5% per month up to 25%</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form 944</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Annual (small employers)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 31</td><td className="px-4 py-3 text-[var(--color-text-muted)]">5% per month up to 25%</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -260,8 +278,22 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS takes payroll tax compliance very seriously because withheld taxes are considered &quot;trust fund&quot; taxes -- money held in trust for the government. Failing to deposit or file on time triggers automatic penalties.
+                IRS payroll penalties range from 2% to 100% of unpaid taxes. The Trust Fund Recovery Penalty (TFRP) pierces your LLC&apos;s liability protection and holds you personally liable. In 2024, the IRS assessed $7.2 billion in payroll tax penalties. Failing to deposit or file on time triggers automatic penalties:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Payroll Tax Penalty Schedule</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Violation</th><th className="px-4 py-3 font-semibold">Penalty Rate</th><th className="px-4 py-3 font-semibold">Example ($10,000 in taxes)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Deposit 1-5 days late</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$200</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Deposit 6-15 days late</td><td className="px-4 py-3 text-[var(--color-text-muted)]">5%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$500</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Deposit 16+ days late</td><td className="px-4 py-3 text-[var(--color-text-muted)]">10%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$1,000</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">10+ days after IRS notice</td><td className="px-4 py-3 text-[var(--color-text-muted)]">15%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$1,500</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Trust Fund Recovery (TFRP)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">100% (personal liability)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$10,000</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div className="space-y-4">
                 {[
@@ -296,8 +328,10 @@ export default function EinForHiringEmployeesClient({ faqs }: { faqs: { q: strin
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Your EIN appears on tax forms for both employees and independent contractors, but the obligations are very different. Misclassifying an employee as a contractor triggers severe IRS penalties, so understanding the distinction is critical.
+                The IRS assessed $3.4 billion in worker misclassification penalties in 2024. Your EIN appears on tax forms for both employees and independent contractors, but the obligations are very different. Misclassifying an employee as a contractor triggers penalties of 1.5% of wages plus 20% of withheld employee FICA taxes.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Employees vs Contractors: Tax Obligation Comparison</h3>
 
               <div className="overflow-x-auto">
                 <table className="w-full text-sm border border-[var(--color-border)] rounded-xl overflow-hidden">

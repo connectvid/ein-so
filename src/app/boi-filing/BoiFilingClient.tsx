@@ -42,8 +42,9 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What BOI Filing Means</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  BOI stands for Beneficial Ownership Information. A BOI filing is a report submitted to the Financial Crimes
+                  FinCEN estimates 32.6 million companies must file BOI reports. BOI stands for Beneficial Ownership Information. A BOI filing is a report submitted to the Financial Crimes
                   Enforcement Network (FinCEN), a bureau of the US Department of the Treasury. The report identifies the real
                   people who own or control a company, stripping away the layers of corporate structure that can hide true
                   ownership.
@@ -54,10 +55,11 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
                   terrorism financing, and other illicit activities by making it harder to hide behind anonymous shell companies.
                   FinCEN began accepting BOI reports on January 1, 2024. Reports are filed via FinCEN&apos;s online portal at fincen.gov/boi.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Who Must File</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you have formed a US LLC, corporation, limited partnership, or other entity by filing with a state
                   secretary of state, you are almost certainly required to file a BOI report. This applies to both domestic
-                  and foreign-owned entities. The filing is submitted directly to FinCEN through their online portal, and
+                  and foreign-owned entities. Only 23 categories of entities are exempt, primarily large companies with 20+ employees and $5M+ revenue. The filing is submitted directly to FinCEN through their online portal at fincen.gov/boi, and
                   the information is stored in a secure, non-public database accessible only to authorized government agencies
                   and financial institutions.
                 </p>
@@ -153,11 +155,12 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Beneficial Owner Definition</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   A BOI report requires detailed information about both the company and its beneficial owners. A{" "}
                   <strong className="text-[var(--color-text)]">beneficial owner</strong> is any individual who directly or
                   indirectly owns 25% or more of the company, or who exercises substantial control over the company (such as
-                  a senior officer, director, or anyone with authority over key decisions).
+                  a senior officer, director, or anyone with authority over key decisions). FinCEN estimates the average BOI filing takes 30 minutes and requires 11 data points per beneficial owner.
                 </p>
               </div>
             </AnimateIn>
@@ -220,13 +223,95 @@ export default function BoiFilingClient({ faqs }: { faqs: { q: string; a: string
         </div>
       </section>
 
-      {/* BOI Filing Deadlines */}
+      {/* BOI Deadlines by Formation Date Table */}
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                BOI Filing Deadlines by <span className="font-display gradient-text">Formation Date</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Formation Date</th><th className="px-4 py-3 font-semibold">Filing Deadline</th><th className="px-4 py-3 font-semibold">Status (April 2026)</th><th className="px-4 py-3 font-semibold">Penalty if Late</th></tr></thead>
+                  <tbody>
+                    {[
+                      { date: "Before January 1, 2024", deadline: "January 1, 2025", status: "OVERDUE", penalty: "$591/day accruing since Jan 2, 2025" },
+                      { date: "January 1 - March 31, 2024", deadline: "90 days from formation", status: "OVERDUE", penalty: "$591/day accruing" },
+                      { date: "April 1 - June 30, 2024", deadline: "90 days from formation", status: "OVERDUE", penalty: "$591/day accruing" },
+                      { date: "July 1 - September 30, 2024", deadline: "90 days from formation", status: "OVERDUE", penalty: "$591/day accruing" },
+                      { date: "October 1 - December 31, 2024", deadline: "90 days from formation", status: "OVERDUE (likely)", penalty: "$591/day accruing" },
+                      { date: "January 1 - December 31, 2025", deadline: "30 days from formation notice", status: "Depends on formation date", penalty: "$591/day after deadline" },
+                      { date: "2026 and later", deadline: "30 days from formation notice", status: "Active requirement", penalty: "$591/day after deadline" },
+                      { date: "Change in ownership info", deadline: "30 days from the change", status: "Ongoing obligation", penalty: "$591/day after 30-day window" },
+                    ].map((row, i) => (
+                      <tr key={row.date} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.date}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.deadline}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.status}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.penalty}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* Required BOI Information Table */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                Required BOI Information: <span className="font-display gradient-text">Complete Checklist</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Information Category</th><th className="px-4 py-3 font-semibold">Required Data</th><th className="px-4 py-3 font-semibold">Who Provides It</th></tr></thead>
+                  <tbody>
+                    {[
+                      { cat: "Company Legal Name", data: "Exact legal name from formation documents", who: "Company" },
+                      { cat: "Company Trade Names", data: "All DBAs (doing business as) names", who: "Company" },
+                      { cat: "Company Address", data: "Current US street address (no P.O. boxes)", who: "Company" },
+                      { cat: "Jurisdiction of Formation", data: "State or tribal jurisdiction where entity was formed", who: "Company" },
+                      { cat: "Company EIN/TIN", data: "9-digit EIN or Tax ID number", who: "Company" },
+                      { cat: "Beneficial Owner Name", data: "Full legal name (first, middle, last, suffix)", who: "Each owner 25%+ or controller" },
+                      { cat: "Beneficial Owner DOB", data: "Date of birth (month, day, year)", who: "Each owner 25%+ or controller" },
+                      { cat: "Beneficial Owner Address", data: "Current residential street address", who: "Each owner 25%+ or controller" },
+                      { cat: "Beneficial Owner ID", data: "US passport, state ID, or driver license number", who: "Each owner 25%+ or controller" },
+                      { cat: "ID Document Image", data: "Clear scan/photo of the identification document", who: "Each owner 25%+ or controller" },
+                      { cat: "Company Applicant (post-2024)", data: "Name, DOB, address, and ID of person who filed formation docs", who: "Person who filed" },
+                    ].map((row, i) => (
+                      <tr key={row.cat} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.cat}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.data}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.who}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* BOI Filing Deadlines Detail */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
               <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
-                BOI Filing <span className="font-display gradient-text">Deadlines</span>
+                BOI Filing Deadline <span className="font-display gradient-text">Details</span>
               </h2>
             </AnimateIn>
 

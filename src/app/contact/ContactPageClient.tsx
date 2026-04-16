@@ -81,8 +81,33 @@ export default function ContactPageClient() {
         </div>
       </section>
 
-      {/* Response Time */}
+      {/* Contact Methods Table */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-3xl mx-auto">
+            <AnimateIn className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-4">
+                Contact Methods <span className="font-display gradient-text">at a Glance</span>
+              </h2>
+            </AnimateIn>
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Method</th><th className="px-4 py-3 font-semibold">Response Time</th><th className="px-4 py-3 font-semibold">Best For</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">WhatsApp</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Under 2 hours</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Quick questions, status updates, urgent help</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Email</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Under 12 hours</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Detailed inquiries, document sharing, refund requests</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Application Status Updates</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Real-time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Tracking your EIN application progress</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* Response Time */}
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto text-center">
             <AnimateIn>
@@ -94,8 +119,9 @@ export default function ContactPageClient() {
               <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-4">
                 We Respond Within <span className="font-display gradient-text">Hours</span>, Not Days
               </h2>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Most WhatsApp Messages Answered in Under 2 Hours</h3>
               <p className="text-lg text-[var(--color-text-muted)] leading-relaxed mb-8 max-w-xl mx-auto">
-                Whether you have a question about the EIN process, need help with your application, or want to check on your status, we&apos;re fast. Most messages are answered within a few hours during business hours.
+                Whether you have a question about the EIN process, need help with your application, or want to check on your status, we respond fast. Most messages are answered within 2 hours during business hours.
               </p>
             </AnimateIn>
 

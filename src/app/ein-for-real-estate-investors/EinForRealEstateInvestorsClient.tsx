@@ -49,8 +49,10 @@ export default function EinForRealEstateInvestorsClient({ faqs }: { faqs: { q: s
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Real estate investing involves multiple financial and legal processes that require a Tax Identification Number. Your EIN is used in virtually every aspect of property ownership and management.
+                US commercial real estate is valued at $20.7 trillion, and non-resident investors purchased $53.3 billion in US properties in 2024. Real estate investing involves multiple financial and legal processes that require a Tax Identification Number. Your EIN is used in virtually every aspect of property ownership and management.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 EIN Requirements for Real Estate Investors</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -129,8 +131,21 @@ export default function EinForRealEstateInvestorsClient({ faqs }: { faqs: { q: s
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                FIRPTA stands for the <strong className="text-[var(--color-text)]">Foreign Investment in Real Property Tax Act</strong>. It is a US tax law that requires buyers (or their agents) to withhold 15% of the gross sale price when a non-US person sells US real estate. This withholding is sent to the IRS as a prepayment against the seller&apos;s US tax liability.
+                FIRPTA (Foreign Investment in Real Property Tax Act) requires 15% withholding on the gross sale price when a non-US person sells US real estate. On a $500,000 sale, that is $75,000 withheld upfront. Reduced rates of 10% apply when the sale price is $1 million or less and the buyer intends to use the property as a residence. 0% withholding applies when the sale price is $300,000 or less under the same conditions.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">FIRPTA Withholding Rates by Sale Price</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Sale Price</th><th className="px-4 py-3 font-semibold">Withholding Rate</th><th className="px-4 py-3 font-semibold">Amount Withheld (Example)</th><th className="px-4 py-3 font-semibold">Condition</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">$300,000 or less</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Buyer uses as residence</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">$300,001 - $1,000,000</td><td className="px-4 py-3 text-[var(--color-text-muted)]">10%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$50,000 (on $500K)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Buyer uses as residence</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Over $1,000,000</td><td className="px-4 py-3 text-[var(--color-text-muted)]">15%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$225,000 (on $1.5M)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">All sales</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Any price (investor buyer)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">15%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$75,000 (on $500K)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Buyer is not end-user</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 For example, if a non-US investor sells a US property for $500,000, the buyer must withhold $75,000 (15%) and remit it to the IRS using Form 8288. The foreign seller can then file a US tax return to claim a refund if the actual tax owed is less than the amount withheld.
@@ -177,8 +192,22 @@ export default function EinForRealEstateInvestorsClient({ faqs }: { faqs: { q: s
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Rental income reporting depends on your entity structure, but your EIN is central to every filing method. Here is how different structures report rental income:
+                4 entity structures exist for rental income reporting, each with different forms and tax rates. Non-residents who make the Section 871(d) election save 10-20% compared to the flat 30% withholding rate. Here is how each structure works:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Rental Income Tax Treatment by Entity Type</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Entity Type</th><th className="px-4 py-3 font-semibold">Tax Form</th><th className="px-4 py-3 font-semibold">Tax Rate</th><th className="px-4 py-3 font-semibold">Deductions Allowed?</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (US)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule E</td><td className="px-4 py-3 text-[var(--color-text-muted)]">10-37% (graduated)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (mortgage, depreciation, repairs)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Single-Member LLC</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule E</td><td className="px-4 py-3 text-[var(--color-text-muted)]">10-37% (graduated)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Multi-Member LLC</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065 + K-1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Pass-through to members</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Non-Resident (with 871(d))</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1040-NR</td><td className="px-4 py-3 text-[var(--color-text-muted)]">10-37% (graduated)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Non-Resident (without 871(d))</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1040-NR</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Flat 30%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div className="space-y-4">
                 {[

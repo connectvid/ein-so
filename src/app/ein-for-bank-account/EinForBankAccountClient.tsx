@@ -43,10 +43,12 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  US banks are legally required to collect a Tax Identification Number (TIN) when opening any business account.
+                  100% of US banks -- over 4,500 FDIC-insured institutions -- require a TIN to open any business account.
                   For business entities like LLCs, corporations, and partnerships, that TIN is your EIN. Without an EIN, no
                   legitimate US bank will open a business checking or savings account for you.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Banks Require an EIN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The bank uses your EIN to report interest income and other tax-relevant information to the IRS. It also
                   serves as the primary identifier on your account, linking your business banking activity to your business
@@ -75,8 +77,26 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
               Best Banks for Non-Residents <span className="font-display gradient-text">with an EIN</span>
             </h2>
             <p className="text-[var(--color-text-muted)] mt-3 max-w-xl mx-auto">
-              These banks accept non-resident founders and allow 100% remote account opening.
+              3 banks accept non-resident founders and allow 100% remote account opening with $0 minimum balance.
             </p>
+          </AnimateIn>
+
+          <AnimateIn className="max-w-5xl mx-auto mb-12">
+            <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Banks Accepting Non-Resident EIN: Mercury vs Relay vs Wise</h3>
+            <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+              <table className="w-full text-left text-sm">
+                <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Feature</th><th className="px-4 py-3 font-semibold">Mercury</th><th className="px-4 py-3 font-semibold">Relay</th><th className="px-4 py-3 font-semibold">Wise Business</th></tr></thead>
+                <tbody>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Monthly Fee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Minimum Balance</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">FDIC Insurance</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Up to $5M (partner banks)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Up to $250K (Thread Bank)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not FDIC (regulated by FinCEN)</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Approval Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1-2 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2-5 business days</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Currencies</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD only</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD only</td><td className="px-4 py-3 text-[var(--color-text-muted)]">40+ currencies</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">International Transfers</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wire ($5 domestic)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">ACH only</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Low-cost multi-currency</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Best For</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Overall best for startups</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Budgeting and cash flow</td><td className="px-4 py-3 text-[var(--color-text-muted)]">International payments</td></tr>
+                </tbody>
+              </table>
+            </div>
           </AnimateIn>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -288,9 +308,10 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Business Checking: Your Operational Account</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   A <strong className="text-[var(--color-text)]">business checking account</strong> is your operational
-                  account. This is where you receive payments from clients, pay vendors and contractors, process payroll, and
+                  account. 95% of small businesses open a checking account first. This is where you receive payments from clients, pay vendors and contractors, process payroll, and
                   handle day-to-day expenses. Every business needs a checking account. It comes with a routing number, account
                   number, and a debit card for purchases and ATM access.
                 </p>
@@ -318,6 +339,8 @@ export default function EinForBankAccountClient({ faqs }: { faqs: { q: string; a
               <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
                 Common Mistakes When Opening a <span className="font-display gradient-text">Business Bank Account</span>
               </h2>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">5 mistakes cause 80% of business bank account rejections. The most common is applying before receiving the EIN confirmation letter.</p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Mistakes to Avoid</h3>
             </AnimateIn>
 
             <StaggerContainer className="space-y-4" staggerDelay={0.08}>

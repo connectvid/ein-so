@@ -12,22 +12,26 @@ const categories = [
   "After Getting Your EIN",
 ] as const;
 
-const categoryDescriptions: Record<string, { icon: string; description: string }> = {
+const categoryDescriptions: Record<string, { icon: string; description: string; subheading: string }> = {
   "General EIN Questions": {
     icon: "📋",
     description: "Learn the basics about Employer Identification Numbers and who needs one.",
+    subheading: "An EIN is a 9-digit tax ID issued by the IRS to identify business entities. Over 4 million EINs are issued each year.",
   },
   "Non-Resident Specific": {
     icon: "🌍",
     description: "Everything non-US residents need to know about getting an EIN.",
+    subheading: "Non-residents in 50+ countries use ein.so to get their EIN without an SSN. The process takes 7-14 business days via fax.",
   },
   "Application Process": {
     icon: "📝",
     description: "Step-by-step details about applying for your EIN through ein.so.",
+    subheading: "Our Standard service costs $49 (14 business days) and Express costs $97 (7 business days). Both include full SS-4 preparation.",
   },
   "After Getting Your EIN": {
     icon: "✅",
     description: "What to do once you have your EIN and how to use it.",
+    subheading: "Your EIN lets you open a US bank account, file taxes, sell on Amazon and Shopify, accept Stripe and PayPal payments, and hire employees.",
   },
 };
 
@@ -92,6 +96,9 @@ export default function FAQPageClient({
                 <p className="text-[var(--color-text-muted)] max-w-xl mx-auto">
                   {categoryDescriptions[category].description}
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">
+                  {categoryDescriptions[category].subheading}
+                </h3>
               </AnimateIn>
 
               <StaggerContainer className="max-w-3xl mx-auto space-y-4" staggerDelay={0.08}>

@@ -295,11 +295,13 @@ export default function EinEligibilityCheckerClient({
               Who Needs an EIN <span className="font-display gradient-text">in 2026?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Is an EIN and Why Does It Matter?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 An Employer Identification Number (EIN) is a nine-digit number assigned by the Internal Revenue Service to identify a business entity for tax purposes. Think of it as a Social Security Number for your business. The IRS uses EINs to track tax obligations, employment taxes, and business filings across millions of entities operating in the United States. Whether you are a US citizen forming your first LLC or a non-resident entrepreneur launching an e-commerce business from abroad, understanding whether you need an EIN is one of the first steps in getting your business operations right.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Which Entity Types Require an EIN?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The rules around who needs an EIN are straightforward for most entity types. If you have formed an LLC, corporation, partnership, or nonprofit organization, you are required to have an EIN. The IRS mandates it for tax filing, and virtually every bank, payment processor, and marketplace platform requires it before they will work with your business. Trusts and estates also need EINs if they generate income that must be reported to the IRS. The only common exception is the sole proprietor with no employees -- and even then, most advisors recommend getting one.
+                LLCs, corporations, partnerships, and nonprofits are all required to have an EIN -- no exceptions. The IRS mandates it for tax filing, and virtually every bank, payment processor, and marketplace platform requires it before they will work with your business. Trusts and estates also need EINs if they generate income that must be reported to the IRS. The only common exception is the sole proprietor with no employees -- and even then, most advisors recommend getting one.
               </p>
             </div>
           </AnimateIn>
@@ -316,14 +318,17 @@ export default function EinEligibilityCheckerClient({
               EIN Requirements for <span className="font-display gradient-text">Non-US Residents</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Non-Residents Cannot Use the IRS Online Application</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-US residents face unique challenges when applying for an EIN. The IRS online application -- which is the fastest method for US residents -- requires either a Social Security Number (SSN) or an Individual Taxpayer Identification Number (ITIN). Most non-residents do not have either of these, which means the online path is unavailable. Instead, non-residents must submit Form SS-4 by fax to the IRS or call the IRS international line at 267-941-1099. The fax method is more reliable, as the phone line has limited hours and notoriously long hold times that can exceed two hours.
+                The IRS online EIN application requires a Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) -- 100% of non-residents without these are locked out. Instead, non-residents must submit Form SS-4 by fax to the IRS or call the IRS international line at 267-941-1099. The fax method is more reliable, as the phone line has limited hours and notoriously long hold times that can exceed 2 hours.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What You Cannot Do Without an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 If you are a non-resident who has formed a US LLC through a registered agent in Delaware, Wyoming, or another state, obtaining your EIN should be your immediate next step after receiving your articles of organization. Without an EIN, you cannot open a US bank account for your LLC, accept payments through Stripe or PayPal, or set up a seller account on Amazon or Shopify. These platforms all require an EIN during the verification process. Our <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] underline">EIN Without SSN guide</Link> explains exactly how non-residents can navigate this process.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How ein.so Solves the Problem</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The ein.so service exists specifically to solve this problem. We complete and file Form SS-4 on your behalf, submit it to the IRS by fax, and deliver your EIN by email. Our Standard service costs $49 with a 14 business day turnaround, while our Express service costs $97 with a 7 business day turnaround. Both options include full support via WhatsApp throughout the process. Visit our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> page for a detailed walkthrough of the entire application process.
+                We complete and file Form SS-4 on your behalf, submit it to the IRS by fax, and deliver your EIN by email. Our Standard service costs $49 with a 14 business day turnaround, while our Express service costs $97 with a 7 business day turnaround. Both options include full support via WhatsApp throughout the process. Visit our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> page for a detailed walkthrough of the entire application process.
               </p>
             </div>
           </AnimateIn>
@@ -339,10 +344,30 @@ export default function EinEligibilityCheckerClient({
             <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-8">
               EIN Requirements <span className="font-display gradient-text">by Entity Type</span>
             </h2>
+            {/* EIN Requirement by Entity Type Table */}
+            <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+              <table className="w-full text-left text-sm">
+                <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Entity Type</th><th className="px-4 py-3 font-semibold">EIN Required?</th><th className="px-4 py-3 font-semibold">IRS Form</th></tr></thead>
+                <tbody>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">LLC (Multi-Member)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- always</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">LLC (Single-Member)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes for banking, payments, hiring</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">C-Corporation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- always</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">S-Corporation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- always</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Partnership</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- always</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Nonprofit (501c3)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- before applying for exemption</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Trust / Estate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes if income-generating</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (no employees)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not required, but recommended</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (with employees)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- always</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form SS-4</td></tr>
+                </tbody>
+              </table>
+            </div>
+
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">LLCs: Single-Member and Multi-Member</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong>LLCs:</strong> Every LLC should have an EIN. Multi-member LLCs are always required to have one because the IRS treats them as partnerships. Single-member LLCs need an EIN the moment they want to open a business bank account, hire an employee, or accept payments through most processors. Learn more in our <Link href="/who-needs-ein/" className="text-[var(--color-blue)] underline">Who Needs an EIN</Link> guide.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Corporations, Partnerships, and Nonprofits</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong>Corporations (C-Corp and S-Corp):</strong> All corporations are required to have an EIN without exception. The IRS requires an EIN for corporate tax filings (Form 1120 for C-Corps, Form 1120-S for S-Corps), issuing stock, setting up payroll, and opening corporate bank accounts. If you are incorporating in the US, an EIN is mandatory.
               </p>
@@ -352,6 +377,7 @@ export default function EinEligibilityCheckerClient({
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong>Nonprofits:</strong> Nonprofit organizations need an EIN before they can apply for 501(c)(3) tax-exempt status. The EIN is also required for opening a bank account, accepting donations, filing Form 990, and hiring staff or contractors. Without an EIN, a nonprofit cannot operate legally.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Trusts, Estates, and Sole Proprietors</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong>Trusts and Estates:</strong> Irrevocable trusts and estates that earn income must have an EIN for tax reporting purposes. Revocable living trusts use the grantor&apos;s SSN while the grantor is alive, but need an EIN after the grantor passes away.
               </p>

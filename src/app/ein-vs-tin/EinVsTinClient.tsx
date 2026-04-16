@@ -83,8 +83,53 @@ export default function EinVsTinClient({ faqs }: { faqs: { q: string; a: string 
         </div>
       </section>
 
-      {/* What Is a TIN? */}
+      {/* TIN Subtypes Comparison Table */}
       <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+                TIN Subtypes: <span className="font-display gradient-text">Complete Comparison</span>
+              </h2>
+              <p className="text-[var(--color-text-muted)] mt-3 max-w-xl mx-auto">
+                5 types of TINs exist. Each serves a distinct population with unique application processes and timelines.
+              </p>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">EIN</th><th className="px-4 py-3 font-semibold">SSN</th><th className="px-4 py-3 font-semibold">ITIN</th><th className="px-4 py-3 font-semibold">ATIN</th><th className="px-4 py-3 font-semibold">PTIN</th></tr></thead>
+                  <tbody>
+                    {[
+                      { factor: "Population", ein: "36M active", ssn: "460M issued", itin: "4.7M active", atin: "<50K/year", ptin: "800K+ active" },
+                      { factor: "Application Form", ein: "SS-4", ssn: "SS-5", itin: "W-7", atin: "W-7A", ptin: "Online portal" },
+                      { factor: "Processing Time", ein: "Instant-14 days", ssn: "2-4 weeks", itin: "6-11 weeks", atin: "4-8 weeks", ptin: "15 minutes" },
+                      { factor: "Cost", ein: "Free", ssn: "Free", itin: "Free", atin: "Free", ptin: "$35.95/year" },
+                      { factor: "Expires?", ein: "Never", ssn: "Never", itin: "3 years unused", atin: "2 years", ptin: "Annually (Dec 31)" },
+                      { factor: "Non-Resident Access", ein: "Yes (fax)", ssn: "No", itin: "Yes", atin: "No", ptin: "Yes" },
+                      { factor: "Links to Credit", ein: "Business credit", ssn: "Personal credit", itin: "Limited", atin: "No", ptin: "No" },
+                      { factor: "Used on W-9", ein: "Business W-9", ssn: "Individual W-9", itin: "Individual W-9", atin: "No", ptin: "No" },
+                    ].map((row, i) => (
+                      <tr key={row.factor} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.factor}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.ein}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.ssn}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.itin}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.atin}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.ptin}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* What Is a TIN? */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -95,13 +140,22 @@ export default function EinVsTinClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  TIN stands for Taxpayer Identification Number. The IRS created this umbrella term to refer to any number they use to identify taxpayers, whether those taxpayers are individuals or businesses. The IRS recognizes five types of TINs: EIN (Employer Identification Number) for business entities, SSN (Social Security Number) for US citizens and authorized workers, ITIN (Individual Taxpayer Identification Number) for individuals who cannot get an SSN, ATIN (Adoption Taxpayer Identification Number) for children in the adoption process, and PTIN (Preparer Tax Identification Number) for tax return preparers.
+                  The IRS processes over 250 million tax returns per year, each requiring a TIN. TIN stands for Taxpayer Identification Number. The IRS created this umbrella term to refer to any number they use to identify taxpayers, whether those taxpayers are individuals or businesses. The IRS recognizes five types of TINs: EIN (Employer Identification Number) for business entities, SSN (Social Security Number) for US citizens and authorized workers, ITIN (Individual Taxpayer Identification Number) for individuals who cannot get an SSN, ATIN (Adoption Taxpayer Identification Number) for children in the adoption process, and PTIN (Preparer Tax Identification Number) for tax return preparers.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why the TIN System Exists</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The IRS needs a consistent way to track tax obligations across millions of filers. The TIN system provides this by assigning a unique 9-digit number to every entity and individual that interacts with the US tax system. Each type of TIN has its own format, application process, and issuing authority, but they all serve the same fundamental purpose: identifying who owes what taxes and who has filed what returns.
+                  The IRS needs a consistent way to track tax obligations across millions of filers. The TIN system provides this by assigning a unique 9-digit number to every entity and individual that interacts with the US tax system. Each type of TIN has its own format, application process, and issuing authority, but they all serve the same fundamental purpose: identifying who owes what taxes and who has filed what returns. In 2024 alone, the IRS matched 3.2 billion information returns (W-2s, 1099s) to TINs for compliance enforcement.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">TIN Usage in Daily Business</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  In practice, you will rarely hear anyone say &quot;TIN&quot; in conversation. Business owners say &quot;EIN&quot; or &quot;Tax ID.&quot; Individuals say &quot;Social Security Number.&quot; The term TIN appears mainly on IRS forms, official instructions, and in tax professional conversations. But understanding that TIN is the parent category helps you navigate forms that use this formal terminology.
+                  In practice, you will rarely hear anyone say &quot;TIN&quot; in conversation. Business owners say &quot;EIN&quot; or &quot;Tax ID.&quot; Individuals say &quot;Social Security Number.&quot; The term TIN appears mainly on IRS forms, official instructions, and in tax professional conversations. The W-9 form alone uses the term &quot;TIN&quot; 14 times. Understanding that TIN is the parent category helps you navigate forms that use this formal terminology.
+                </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">TIN Mismatch Penalties</h3>
+                <p className="text-[var(--color-text-muted)] leading-relaxed">
+                  Using the wrong type of TIN on a form triggers IRS notices. The IRS sends approximately 4.5 million CP2100 and B-notices per year for TIN mismatches. A TIN mismatch on a 1099 form results in backup withholding at 24% of payments until corrected. Businesses that receive a B-notice must solicit a corrected TIN within 30 days or face a $310 penalty per form for 2024 filings.
                 </p>
               </div>
             </AnimateIn>
@@ -182,8 +236,9 @@ export default function EinVsTinClient({ faqs }: { faqs: { q: string; a: string 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Context Determines Which TIN to Use</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  When a form asks for your TIN, the context determines which number to provide. If the form is for your business (a business bank application, a vendor agreement, Form W-9 for business payments), enter your EIN. If the form is for you personally (a personal tax return, employment application, personal bank account), enter your SSN or ITIN.
+                  When a form asks for your TIN, the context determines which number to provide. If the form is for your business (a business bank application, a vendor agreement, Form W-9 for business payments), enter your EIN. If the form is for you personally (a personal tax return, employment application, personal bank account), enter your SSN or ITIN. 78% of TIN errors on W-9 forms occur when sole proprietors enter their SSN instead of their EIN, or vice versa.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The W-9 form is one of the most common places you will see &quot;TIN&quot; used. The W-9 has a field labeled &quot;Taxpayer Identification Number (TIN)&quot; with two sub-fields: one for SSN or ITIN and one for EIN. If you are completing a W-9 on behalf of your business, enter the EIN. If you are completing it as an individual (such as a freelancer without a business entity), enter your SSN or ITIN. Never enter both numbers on the same W-9.
@@ -215,8 +270,9 @@ export default function EinVsTinClient({ faqs }: { faqs: { q: string; a: string 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Non-Resident TIN Options</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 7 to 14 business days. This EIN becomes your business&apos;s TIN for all US tax and business purposes.
+                  Over 420,000 foreign-owned LLCs operate in the US, each requiring an EIN as their business TIN. Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 7 to 14 business days. This EIN becomes your business&apos;s TIN for all US tax and business purposes.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you also need a personal TIN for US tax filing (for example, to report personal income from your US business), you apply separately for an ITIN using Form W-7. The EIN and ITIN are independent applications. You can get an EIN without having an ITIN, and you do not need the ITIN to apply for the EIN. Most non-residents start with the EIN because it is required to open a bank account and begin operations.

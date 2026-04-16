@@ -410,15 +410,34 @@ export default function SS4FormHelperClient({
               Understanding <span className="font-display gradient-text">IRS Form SS-4</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Is Form SS-4?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                IRS Form SS-4, officially titled &quot;Application for Employer Identification Number,&quot; is the document every business entity must submit to receive an EIN from the Internal Revenue Service. The form itself is only one page, but it contains 18 lines that cover everything the IRS needs to know about your business: entity name, address, type of organization, responsible party, reason for applying, and basic employment and tax details. Despite its apparent simplicity, Form SS-4 is the source of a surprising number of errors that delay EIN applications or cause outright rejections.
+                IRS Form SS-4 is the 1-page, 18-line application every business entity must submit to receive an EIN from the Internal Revenue Service. It covers entity name, address, type of organization, responsible party, reason for applying, and basic employment and tax details. Despite its apparent simplicity, Form SS-4 is the source of a surprising number of errors that delay EIN applications or cause outright rejections.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why the Form Is Confusing for Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The form was originally designed for US-based businesses whose owners have Social Security Numbers. It assumes you have a US address, a US tax identification number, and familiarity with IRS entity classification rules. None of these assumptions hold true for non-US residents, which is why the form can be particularly confusing for international applicants. Our line-by-line helper above addresses each field with specific guidance for non-residents, including what to enter when you do not have an SSN or ITIN, how to format a foreign address, and which entity type to select for a US LLC owned by a foreign national.
+                The form was designed for US-based businesses whose owners have Social Security Numbers. It assumes you have a US address, a US tax identification number, and familiarity with IRS entity classification rules. None of these assumptions hold true for non-US residents, which is why the form can be particularly confusing for international applicants. Our line-by-line helper above addresses each field with specific guidance for non-residents, including what to enter when you do not have an SSN or ITIN, how to format a foreign address, and which entity type to select for a US LLC owned by a foreign national.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">4 Ways to Submit Form SS-4</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                There are four ways to submit Form SS-4 to the IRS: online, by fax, by phone, or by mail. The online method is the fastest (instant EIN) but requires an SSN or ITIN, making it unavailable to most non-residents. Fax submission is the most reliable method for non-residents, with processing times of 4-7 business days for standard filing. The phone method is available but impractical due to extremely long hold times on the IRS international line. Mail is the slowest option at 4-6 weeks. For a comprehensive walkthrough, see our <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] underline">SS-4 Form Guide</Link>.
+                Fax submission is the most reliable method for non-residents, with processing times of 4-7 business days. The online method is the fastest (instant EIN) but requires an SSN or ITIN, making it unavailable to most non-residents. The phone method is available but impractical due to hold times exceeding 2 hours on the IRS international line. Mail is the slowest option at 4-6 weeks. For a comprehensive walkthrough, see our <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] underline">SS-4 Form Guide</Link>.
               </p>
+
+              {/* SS-4 Common Mistakes and Fixes Table */}
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Common Mistake</th><th className="px-4 py-3 font-semibold">Impact</th><th className="px-4 py-3 font-semibold">Fix</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Using trade name on Line 1 instead of legal name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS rejection -- must match formation docs</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Copy exact name from articles of organization</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Selecting &quot;Corporation&quot; for an LLC</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wrong tax classification on IRS records</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check &quot;LLC&quot; on Line 8a even if electing S-Corp</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Leaving Line 7b blank on online application</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Application rejected -- online requires SSN/ITIN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use fax method instead; leave blank or write &quot;N/A&quot;</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Entering a company name on Line 7a</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS rejection -- must be an individual person</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Enter the managing member or officer name</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Missing signature on Line 18</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Automatic rejection, must resubmit</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Sign with responsible party name + title</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Wrong date on Line 10</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS records show incorrect formation date</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use date from your articles of organization</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Counting contractors as employees on Line 12</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Triggers unnecessary payroll tax obligations</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Only count W-2 employees, not 1099 contractors</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -434,17 +453,21 @@ export default function SS4FormHelperClient({
               SS-4 Tips for <span className="font-display gradient-text">Non-Residents</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Challenge #1: Line 7b -- No SSN or ITIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Non-US residents face 3 unique challenges when filling out Form SS-4. The first and most significant is line 7b, which asks for the responsible party&apos;s SSN, ITIN, or EIN. If you do not have any of these numbers, you cannot use the IRS online application at all. When filing by fax, you can leave this field blank or write &quot;Foreign&quot; or &quot;N/A&quot; and the IRS will still process your application. This is the single most important thing non-residents need to know about Form SS-4.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Challenge #2: Formatting a Foreign Address</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The second challenge is the address fields. The IRS accepts foreign addresses, but the form was designed with US address formatting in mind. When entering a foreign address, put your street address on line 4a and your city, province/state, postal code, and country on line 4b. Do not try to force your address into the US state and ZIP code format. Write it naturally and include your country name. The IRS processes thousands of international applications and is accustomed to foreign address formats.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Challenge #3: Selecting the Correct Entity Type</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Third, pay close attention to line 8a (entity type). If you formed a US LLC, select &quot;LLC&quot; even if you plan to elect S-Corp tax treatment later. The entity type on Form SS-4 should reflect the legal structure of your business, not the tax election. Similarly, if you formed a corporation, select &quot;Corporation&quot; regardless of whether you will be a C-Corp or S-Corp. The S-Corp election is handled separately through Form 2553 and does not affect your SS-4 filing.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Do Not Forget to Sign Line 18</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Finally, make sure you sign the form on line 18. An unsigned Form SS-4 will be rejected by the IRS, and you will have to resubmit. The signature should be from the responsible party listed on line 7a. If you are using a service like ein.so, we handle the entire process on your behalf -- from completing the form to filing it by fax and following up with the IRS. Learn more about the process in our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> guide, or go directly to our <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] underline">EIN Without SSN</Link> page if you need an EIN without a Social Security Number.
+                An unsigned Form SS-4 is automatically rejected by the IRS, requiring a full resubmission. An unsigned Form SS-4 will be rejected by the IRS, and you will have to resubmit. The signature should be from the responsible party listed on line 7a. If you are using a service like ein.so, we handle the entire process on your behalf -- from completing the form to filing it by fax and following up with the IRS. Learn more about the process in our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> guide, or go directly to our <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] underline">EIN Without SSN</Link> page if you need an EIN without a Social Security Number.
               </p>
             </div>
           </AnimateIn>

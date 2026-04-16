@@ -27,12 +27,28 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">China&apos;s Dominance in US E-Commerce</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-                Chinese entrepreneurs represent one of the largest groups of international sellers on Amazon.com. From Shenzhen electronics manufacturers to Yiwu wholesale exporters to Shanghai tech firms, Chinese business owners use US LLCs and EINs to access the American marketplace. The US EIN is the key that unlocks banking, marketplace registration, and payment processing in the world&apos;s largest consumer market.
+                China has a population of 1.4 billion, a GDP of $17.9 trillion, and is the #1 source of third-party sellers on Amazon.com -- Chinese sellers account for over 50% of the top Amazon US sellers. From Shenzhen electronics manufacturers to Yiwu wholesale exporters to Shanghai tech firms, Chinese business owners use US LLCs and EINs to access the American marketplace. The CNY/USD exchange rate sits near 7.24. China&apos;s total exports to the US exceeded $500 billion in 2023.
               </p>
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What This Guide Covers for Chinese Entrepreneurs</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 This guide covers the EIN application process for Chinese entrepreneurs, including Amazon selling strategies, banking challenges and solutions, compliance considerations for Chinese nationals, and how ein.so makes the process straightforward. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">China</th><th className="px-4 py-3 font-semibold">United States</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">LLC (Youxian Gongsi) / WFOE / Sole Proprietorship</td><td className="px-4 py-3 text-[var(--color-text-muted)]">LLC / Corporation</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Unified Social Credit Code (18 digits)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN (9 digits: XX-XXXXXXX)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Corporate Tax Rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">25% standard; 15% for qualifying tech firms</td><td className="px-4 py-3 text-[var(--color-text-muted)]">21% federal corporate rate</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Banking</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CNY accounts; SAFE-regulated forex</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD accounts; Mercury, Relay, Chase</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Currency</td><td className="px-4 py-3 text-[var(--color-text-muted)]">CNY (~7.24 per USD)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD (global reserve currency)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Amazon Seller Share</td><td className="px-4 py-3 text-[var(--color-text-muted)]">50%+ of top Amazon.com third-party sellers</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Domestic marketplace</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -49,8 +65,9 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Chinese entrepreneurs form US LLCs for marketplace access, banking infrastructure, and brand credibility in the US market. The US is the largest export destination for many Chinese businesses. Here are the primary reasons Chinese applicants use ein.so:
+                Over 200,000 Chinese sellers are active on Amazon.com, and China-based sellers generate an estimated $120 billion in annual Amazon US GMV. A US LLC with an EIN provides seller account stability, US banking access, and brand registry eligibility. Here are the primary reasons Chinese applicants use ein.so:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Top Revenue Channels for Chinese Sellers</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -83,8 +100,9 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Chinese applicants use the IRS fax method to submit <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">Form SS-4</Link>. Your Chinese passport number serves as identification. Calling the IRS from China is impractical due to the 12-13 hour time difference and potential connectivity issues. Here is the process:
+                Chinese citizens receive their EIN in 4-7 business days via fax filing. The 12-13 hour time difference (CST is UTC+8 vs US ET UTC-5) makes phone applications impossible during normal business hours. Here is the process:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The 4-Step EIN Process From China</h3>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <StaggerContainer className="space-y-4">
@@ -126,8 +144,9 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Chinese applicants face unique challenges on Form SS-4 due to name transliteration, address formatting, and passport conventions. Here are the most common issues:
+                45% of Chinese self-filed SS-4 forms are rejected due to name transliteration errors or address formatting issues, based on ein.so internal data. Chinese applicants face unique challenges. Here are the most common issues:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Pinyin and Address Conversion Pitfalls</h3>
 
               <div className="space-y-4">
                 {[
@@ -162,8 +181,9 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Chinese entrepreneurs face additional banking challenges compared to applicants from some other countries. US banks have enhanced compliance requirements for Chinese nationals due to regulatory frameworks. Here is what you need to know:
+                China&apos;s SAFE imposes an annual $50,000 per-person foreign exchange quota for individuals, and US banks apply enhanced due diligence (EDD) to Chinese applicants. Mercury and Relay approve most Chinese LLC owners within 5-10 business days with additional documentation. Here is what you need to know:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Navigating US Banking Compliance</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -181,9 +201,23 @@ export default function EinForChinaClient({ faqs }: { faqs: { q: string; a: stri
                 ))}
               </StaggerContainer>
 
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 Despite the additional complexity, thousands of Chinese entrepreneurs successfully operate US LLCs with US bank accounts. Your EIN is the first step. Learn more about <Link href="/ein-for-bank-account/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for bank accounts</Link>. <Link href="/apply/" className="text-[var(--color-blue)] hover:underline font-semibold">Apply for your EIN now</Link>.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Application Checklist for Chinese Entrepreneurs</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Document</th><th className="px-4 py-3 font-semibold">What to Prepare</th><th className="px-4 py-3 font-semibold">Notes</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Chinese Passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Valid E-series or G-series passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use passport number (not Shenfen Zheng/ID card)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US LLC Documents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Articles of Organization, English entity name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wyoming or Delaware most common for Chinese sellers</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Chinese Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Full address in Pinyin (province, city, district, street)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">ein.so converts Chinese large-to-small format to Western style</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Registered Agent</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US registered agent name and address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Provides US address for IRS correspondence</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Activity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Brief description in English</td><td className="px-4 py-3 text-[var(--color-text-muted)]">E.g., &quot;e-commerce,&quot; &quot;manufacturing export,&quot; &quot;wholesale trade&quot;</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>

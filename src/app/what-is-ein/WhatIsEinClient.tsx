@@ -48,20 +48,24 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)]">EIN Definition and Origin</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                EIN stands for <strong className="text-[var(--color-text)]">Employer Identification Number</strong>. It is a federal tax identification number assigned by the Internal Revenue Service (IRS) to business entities operating in the United States. The EIN system was established in 1974 as part of the IRS&apos;s efforts to create a standardized identification system for businesses, separate from the Social Security Number (SSN) system used for individuals.
+                EIN stands for <strong className="text-[var(--color-text)]">Employer Identification Number</strong>. It is a federal tax identification number assigned by the Internal Revenue Service (IRS) to business entities operating in the United States. The IRS created the EIN system in 1974 to build a standardized identification system for businesses, separate from the Social Security Number (SSN) system used for individuals. The IRS issues between 4.5 million and 5.5 million new EINs per year as of 2024.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)]">Other Names for an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                You may also hear an EIN referred to by other names. The terms <strong className="text-[var(--color-text)]">Federal Employer Identification Number (FEIN)</strong>, <strong className="text-[var(--color-text)]">Federal Tax Identification Number</strong>, and <strong className="text-[var(--color-text)]">Tax ID Number (TIN)</strong> are all commonly used to describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS.
+                You will hear an EIN called by other names. The terms <strong className="text-[var(--color-text)]">Federal Employer Identification Number (FEIN)</strong>, <strong className="text-[var(--color-text)]">Federal Tax Identification Number</strong>, and <strong className="text-[var(--color-text)]">Tax ID Number (TIN)</strong> all describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)]">Why the EIN System Exists</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN system exists because the IRS needs a reliable way to identify and track the tax obligations of millions of business entities across the country. Before the EIN system was formalized, tax administration for businesses was more cumbersome and error-prone. By assigning a unique number to each entity, the IRS can efficiently process tax returns, track payments, and enforce compliance. Today, over 30 million active EINs are in use across the United States.
+                The IRS needs a reliable way to identify and track the tax obligations of millions of business entities across the country. Before the EIN system was formalized, tax administration for businesses was cumbersome and error-prone. By assigning a unique number to each entity, the IRS can efficiently process tax returns, track payments, and enforce compliance. Today, over 30 million active EINs are in use across the United States, and the IRS processed 5.1 million new EIN applications in fiscal year 2023 alone.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)]">You Do Not Need Employees to Need an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                It is important to note that despite the word &quot;Employer&quot; in the name, you do not need to have employees to need an EIN. Many sole proprietors, single-member LLCs, and even trusts and estates are required to obtain an EIN for tax filing and banking purposes. The name is a historical artifact from when the primary use case was employer tax reporting.
+                Despite the word &quot;Employer&quot; in the name, you do not need to have employees to need an EIN. Single-member LLCs, sole proprietors filing excise taxes, trusts, and estates all require an EIN for tax filing and banking purposes. The name is a historical artifact from 1974 when the primary use case was employer tax reporting. In 2024, fewer than 40% of new EIN applications come from entities with employees -- the majority are non-employer businesses, trusts, and estates.
               </p>
             </div>
           </AnimateIn>
@@ -79,11 +83,75 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                An EIN is a <strong className="text-[var(--color-text)]">9-digit number</strong> formatted as <strong className="text-[var(--color-text)]">XX-XXXXXXX</strong>. The first two digits are separated from the remaining seven by a hyphen. For example, a valid EIN might look like <span className="font-mono bg-[var(--color-surface)] border border-[var(--color-border)] px-2 py-0.5 rounded text-[var(--color-text)]">12-3456789</span>.
+                An EIN is a <strong className="text-[var(--color-text)]">9-digit number</strong> formatted as <strong className="text-[var(--color-text)]">XX-XXXXXXX</strong>. The first two digits are separated from the remaining seven by a hyphen. For example, a valid EIN looks like <span className="font-mono bg-[var(--color-surface)] border border-[var(--color-border)] px-2 py-0.5 rounded text-[var(--color-text)]">12-3456789</span>.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)]">EIN vs SSN vs ITIN Format Comparison</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] mb-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Factor</th>
+                      <th className="px-4 py-3 font-semibold">EIN</th>
+                      <th className="px-4 py-3 font-semibold">SSN</th>
+                      <th className="px-4 py-3 font-semibold">ITIN</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Format</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">XX-XXXXXXX</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">XXX-XX-XXXX</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">9XX-XX-XXXX</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Total Digits</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">9</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">9</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">9</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Hyphen Position</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">After digit 2</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">After digits 3 and 5</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">After digits 3 and 5</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Identifies</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Business entities</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">US citizens and residents</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Non-residents without SSN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Issued By</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">IRS</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Social Security Administration</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">IRS</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Expires?</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Never</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Never</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">After 3 years of non-use</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Application Cost</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (IRS direct)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (IRS direct)</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Processing Time</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Instant (online) or 4 days (fax)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">2-4 weeks</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">6-11 weeks</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)]">What the Digits Mean</h3>
               <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-2xl p-6">
-                <h3 className="text-base font-bold text-[var(--color-text)] mb-4">What the digits mean:</h3>
                 <ul className="space-y-3 text-[var(--color-text-muted)]">
                   <li className="flex gap-3">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center text-xs font-bold">1</span>
@@ -236,11 +304,14 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
             </div>
 
             <div className="mt-8 space-y-4">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Is a TIN?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 A <strong className="text-[var(--color-text)]">TIN (Taxpayer Identification Number)</strong> is not a specific number type -- it is an umbrella term that encompasses EINs, SSNs, ITINs, and other identification numbers used for tax purposes. When a form asks for your &quot;TIN,&quot; you should provide whichever number is appropriate for your situation: your EIN for business-related filings, or your SSN/ITIN for individual filings.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Which Number Do You Need?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For more detailed comparisons, see our dedicated guide on{" "}
+                US citizens and permanent residents who operate a business need both an SSN (for personal taxes) and an EIN (for business taxes). Non-residents who form a US LLC or corporation need an EIN for the business. Non-residents who also earn US personal income need an ITIN in addition to their EIN. For more detailed comparisons, see our dedicated guide on{" "}
                 <Link href="/ein-vs-itin/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN vs ITIN</Link>.
               </p>
             </div>
@@ -284,12 +355,95 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
                 ))}
               </StaggerContainer>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Requirements by Entity Type</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Entity Type</th>
+                      <th className="px-4 py-3 font-semibold">EIN Required?</th>
+                      <th className="px-4 py-3 font-semibold">IRS Form</th>
+                      <th className="px-4 py-3 font-semibold">Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">C-Corporation</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required at incorporation</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">S-Corporation</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120-S</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Must file Form 2553 for S-election</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Multi-Member LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Taxed as partnership by default</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Single-Member LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule C (Form 1040)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required if LLC has employees or files excise taxes</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Partnership (GP, LP, LLP)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Each partner receives Schedule K-1</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Nonprofit (501(c)(3))</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 990</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required before filing Form 1023</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Irrevocable Trust</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1041</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Separate tax entity from grantor</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Estate</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 706 / 1041</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Executor must apply after decedent&apos;s death</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (with employees)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 941 / 940</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required for payroll tax reporting</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (no employees)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule C (Form 1040)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Protects SSN; required by most banks</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Foreign-Owned US LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 5472 + pro-forma 1120</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$25,000 penalty per year for non-filing</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Banks and Payment Processors Require an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Even if you are a sole proprietor without employees, many banks require an EIN to open a business bank account. Payment processors like Stripe and PayPal also frequently ask for an EIN when setting up business accounts. Having an EIN helps establish your business as a separate entity and protects your SSN from being shared on business documents.
+                Even if you are a sole proprietor without employees, many banks require an EIN to open a business bank account. Payment processors like Stripe and PayPal also require an EIN when setting up business accounts. Chase, Bank of America, Wells Fargo, Mercury, and Relay all mandate an EIN for business account opening. Having an EIN helps establish your business as a separate entity and protects your SSN from being shared on business documents.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For a complete breakdown of every situation that requires an EIN, see our <Link href="/faq/" className="text-[var(--color-blue)] hover:underline font-semibold">FAQ</Link>.
+                For a complete breakdown of every situation that requires an EIN, see our <Link href="/who-needs-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">Who Needs an EIN?</Link> guide.
               </p>
             </div>
           </AnimateIn>
@@ -406,20 +560,24 @@ export default function WhatIsEinClient({ faqs }: { faqs: { q: string; a: string
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How to Validate an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Understanding EIN format details can help you verify that an EIN is valid and identify potential errors before submitting it on tax forms or bank applications. A valid EIN must satisfy 3 criteria: it must be exactly 9 digits, the first two digits (the prefix) must fall within a range that the IRS has actually used, and it must follow the XX-XXXXXXX formatting convention.
+                A valid EIN must satisfy 3 criteria: it must be exactly 9 digits, the first two digits (the prefix) must fall within a range that the IRS has assigned, and it must follow the XX-XXXXXXX formatting convention. Understanding these rules helps you verify that an EIN is valid and identify potential errors before submitting it on tax forms or bank applications.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Prefix Ranges and History</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS has used a specific set of two-digit prefixes over the years. Some prefixes were retired as the IRS consolidated its processing centers, while newer prefixes have been introduced for online and centralized issuance. Prefixes starting with 20, 26, 27, 45, 46, and 47 are among those assigned to more recent internet-based applications. If you see an EIN with a prefix that does not match any known IRS campus or assignment method, it may be invalid.
+                The IRS has used a specific set of two-digit prefixes over the years. Prefixes 10-16 were assigned by the Andover campus, 20-27 by Austin, 30-39 by Cincinnati, 40-48 by Kansas City, 50-59 by Philadelphia, 60-68 by Atlanta, and 80-88 by the internet-based assignment system introduced in 2001. Prefixes starting with 20, 26, 27, 45, 46, and 47 are among those assigned to more recent internet-based applications. If you see an EIN with a prefix that does not match any known IRS campus or assignment method, it may be invalid.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Where Your EIN Appears</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Your EIN will appear on multiple important documents, including your IRS confirmation letter (CP 575), your annual tax returns (Form 1120 for corporations, Form 1065 for partnerships, etc.), W-2 and 1099 forms you issue to employees and contractors, and any correspondence you receive from the IRS. Always double-check that your EIN is correctly formatted on these documents to avoid processing delays.
+                Your EIN will appear on multiple important documents, including your IRS confirmation letter (CP 575), your annual tax returns (Form 1120 for corporations, Form 1065 for partnerships, Schedule C for sole proprietors), W-2 and 1099 forms you issue to employees and contractors, and any correspondence you receive from the IRS. Double-check that your EIN is correctly formatted on these documents to avoid processing delays.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Do EINs Expire?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                It is also worth noting that EINs do not expire. Once the IRS assigns an EIN to your entity, that number is permanently yours. However, the IRS may <strong className="text-[var(--color-text)]">deactivate an EIN</strong> if it has not been used on any federal tax filing for three or more consecutive years. A deactivated EIN is not deleted -- it can potentially be reactivated by contacting the IRS and filing the appropriate returns.
+                EINs do not expire. Once the IRS assigns an EIN to your entity, that number is permanently yours. However, the IRS will <strong className="text-[var(--color-text)]">deactivate an EIN</strong> if it has not been used on any federal tax filing for 3 or more consecutive years. A deactivated EIN is not deleted -- it can be reactivated by contacting the IRS at 800-829-4933 and filing the appropriate returns. The EIN is never reassigned to another entity, even after deactivation.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

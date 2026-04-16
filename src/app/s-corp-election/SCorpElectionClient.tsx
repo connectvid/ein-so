@@ -42,12 +42,34 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Tax Classification, Not Entity Type</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   An S-Corp election is a tax classification choice made by filing IRS Form 2553. It does not create a new type of business entity. Instead, it changes how the IRS taxes your existing corporation or LLC. Without the election, a corporation is taxed as a C-Corp (double taxation on corporate profits and shareholder dividends) and an LLC is taxed as a sole proprietorship or partnership. With the S-Corp election, your entity is taxed as a pass-through entity with a critical difference: you can split income between salary and distributions.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">15.3% Self-Employment Tax Savings</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The S-Corp election matters because of self-employment tax. As a sole proprietor or single-member LLC without the election, you pay self-employment tax (Social Security and Medicare, totaling 15.3%) on all net business income. With S-Corp status, you pay yourself a reasonable salary (which is subject to employment tax) and take the remaining profits as distributions (which are not subject to self-employment tax). For profitable businesses, this saves thousands of dollars annually.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">S-Corp vs C-Corp: Full Tax Comparison</h3>
+                <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                  <table className="w-full text-left text-sm">
+                    <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">S-Corp</th><th className="px-4 py-3 font-semibold">C-Corp</th></tr></thead>
+                    <tbody>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Federal Corporate Tax Rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0% (pass-through to shareholders)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">21% flat rate</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Double Taxation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No -- income taxed once on personal return</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes -- corporate level + shareholder dividends</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Self-Employment Tax on Distributions</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (distributions exempt from 15.3% SE tax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A (dividends taxed at 0-20% capital gains rate)</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Maximum Shareholders</td><td className="px-4 py-3 text-[var(--color-text-muted)]">100</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Unlimited</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Non-Resident Alien Shareholders</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not allowed</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Allowed</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Stock Classes</td><td className="px-4 py-3 text-[var(--color-text-muted)]">One class only (voting/non-voting OK)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Multiple classes allowed</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax Return Form</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120-S + Schedule K-1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Reasonable Salary Requirement</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (IRS enforced, typically 40-60% of profit)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No specific requirement</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Best Annual Profit Threshold</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$50,000+ (tax savings outweigh compliance costs)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any amount (no election needed for corps)</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Payroll Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (must run payroll for owner salary)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Only if paying employees/officers</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">When S-Corp Election Makes Financial Sense</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The S-Corp election is one of the most commonly used tax optimization strategies for small businesses in the United States. It works best for businesses earning at least $50,000 to $60,000 in annual profit, where the tax savings on distributions outweigh the additional costs of S-Corp compliance (payroll processing, additional tax returns, and reasonable salary documentation). For a deeper look at{" "}
                   <Link href="/ein-for-scorp/" className="text-[var(--color-blue)] hover:underline font-semibold">
@@ -134,12 +156,29 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Form 2553 Deadline Calendar</h3>
+                <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                  <table className="w-full text-left text-sm">
+                    <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Scenario</th><th className="px-4 py-3 font-semibold">Deadline</th><th className="px-4 py-3 font-semibold">Effective Date</th><th className="px-4 py-3 font-semibold">Example (2026)</th></tr></thead>
+                    <tbody>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">New entity (S-Corp from day 1)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Within 75 days of formation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Date of formation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Formed Jan 15 = deadline Mar 31, 2026</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Existing entity (current tax year)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">March 15 of that tax year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 1 of that year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">File by Mar 15, 2026 for tax year 2026</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Missed March 15 deadline</td><td className="px-4 py-3 text-[var(--color-text-muted)]">March 15 of next year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">January 1 of next year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Filed Apr 1, 2026 = effective Jan 1, 2027</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Late election relief (Rev. Proc. 2013-30)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">3 years + 75 days from intended date</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Original intended date (if approved)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Requires reasonable cause statement</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Non-calendar fiscal year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2 months + 15 days into fiscal year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">First day of fiscal year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Jul 1 fiscal year = deadline Sep 15</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The 75-Day Rule for New Entities</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   There are two primary deadlines for filing Form 2553. For new entities that want S-Corp status from the date of formation, you must file within <strong className="text-[var(--color-text)]">75 days</strong> of formation. This means if you formed your LLC or corporation on January 15, your deadline is March 31. If you miss this window, the S-Corp election takes effect the following tax year instead.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">March 15 Deadline for Existing Entities</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For existing entities that want S-Corp status starting the next tax year, the deadline is <strong className="text-[var(--color-text)]">March 15</strong> of the year before the election takes effect. For example, to have S-Corp status for tax year 2027, you must file Form 2553 by March 15, 2027. Filing after March 15 means the election does not take effect until tax year 2028 (unless you qualify for late election relief).
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Late Election Relief Under Revenue Procedure 2013-30</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you miss both deadlines, all is not lost. The IRS grants late election relief under Revenue Procedure 2013-30 if you file within 3 years and 75 days of the intended effective date. You must include a reasonable cause statement explaining why you filed late. Common acceptable reasons include reliance on a tax professional who failed to file, administrative oversight, or not being aware of the election requirement. The IRS approves late elections frequently when reasonable cause is demonstrated.
                 </p>
@@ -160,12 +199,15 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Social Security and Medicare Tax Breakdown</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The primary tax benefit of S-Corp election is the reduction in self-employment tax. Self-employment tax consists of Social Security tax (12.4% on income up to $168,600 in 2026) and Medicare tax (2.9% on all income, plus 0.9% Additional Medicare Tax on income over $200,000). Without S-Corp status, all net business income is subject to this combined 15.3% tax.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Example: $12,240 Annual Savings on $150,000 Profit</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   With S-Corp status, you split your business income into two streams. First, you pay yourself a &quot;reasonable salary&quot; that is subject to employment taxes. Second, you take the remaining profit as distributions that are not subject to self-employment tax. For example, if your business nets $150,000 and you pay yourself a $70,000 salary, the $80,000 in distributions avoids the 15.3% self-employment tax. That is a savings of about <strong className="text-[var(--color-text)]">$12,240 per year</strong>.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Reasonable Salary: The IRS Requirement You Cannot Skip</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The &quot;reasonable salary&quot; requirement is critical. The IRS requires that you pay yourself a salary that is comparable to what someone in your role and industry would earn. You cannot pay yourself a $10,000 salary on $200,000 in profits just to minimize employment taxes. The IRS audits S-Corp salary levels, and paying an unreasonably low salary triggers penalties and back taxes. Most tax advisors recommend setting salary at 40% to 60% of total business income for most small businesses.
                 </p>
@@ -186,9 +228,11 @@ export default function SCorpElectionClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Mandatory Eligibility Requirements</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS imposes strict eligibility requirements for S-Corp status. Your entity must meet all of the following criteria: it must be a domestic entity (formed in the United States), it must have no more than 100 shareholders, all shareholders must be individuals, certain trusts, or estates (no corporations, partnerships, or LLCs as shareholders), no shareholder can be a non-resident alien, and the entity can have only one class of stock.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Non-Resident Alien Shareholder Restriction</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The non-resident alien restriction is particularly important for international entrepreneurs. If any shareholder of your corporation or any member of your LLC is not a US citizen or US resident alien, you cannot elect S-Corp status. This means most foreign-owned US businesses must be taxed as either a C-Corp (for corporations) or a partnership/disregarded entity (for LLCs). See our guide on{" "}
                   <Link href="/who-needs-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">

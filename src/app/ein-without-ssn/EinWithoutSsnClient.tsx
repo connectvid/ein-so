@@ -27,9 +27,11 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Core Problem for Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 If you are a non-US resident trying to start a business in the United States, one of the first obstacles you face is getting an EIN without a Social Security Number. The IRS website makes it look like you need an SSN or ITIN to apply, but that is only true for the online application. The paper form (SS-4) submitted by fax works perfectly without either number.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What This Guide Covers</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 This guide walks you through the entire process step by step. We cover exactly what to write on each relevant line of Form SS-4, what documents to include, how to submit the form, and how long it takes to receive your EIN. If you want to skip the process entirely, <Link href="/apply/" className="text-[var(--color-blue)] underline">ein.so handles everything for $49 (Standard) or $97 (Express)</Link>. For a broader overview of all EIN application methods, see our <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> guide.
               </p>
@@ -47,12 +49,14 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
               Why Does the IRS Online EIN Application Not Work <span className="font-display gradient-text">Without an SSN?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The IRS Online System Blocks Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS EIN Assistant (the online application at irs.gov) was designed primarily for US residents. On the very first screen, it asks for the responsible party&apos;s SSN or ITIN. If you cannot provide one of these numbers, the system will not let you proceed to the next step. There is no &quot;skip&quot; option and no way to enter &quot;N/A.&quot;
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 This is not a bug or an oversight -- the IRS intentionally designed the online system this way. The SSN/ITIN requirement serves as an identity verification mechanism for the online application. Since the online system issues EINs instantly (within minutes), the IRS needs a reliable way to verify that the applicant is a real person. The SSN/ITIN check accomplishes this.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Two Alternative Methods for Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 For non-residents who do not have an SSN or ITIN, the IRS provides two alternative methods: faxing Form SS-4 and calling the IRS international phone line. The fax method is the most reliable and most commonly used. The phone method (267-941-1099) can work but involves hold times that often exceed one to two hours, and the line is only available during limited business hours.
               </p>
@@ -70,10 +74,29 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
               What Documents Do You Need to Get an EIN <span className="font-display gradient-text">Without an SSN?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Required and Accepted Documents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The document requirements for getting an EIN without an SSN are straightforward. You need three things: a completed IRS Form SS-4, a copy of your passport, and access to a fax machine (or a digital fax service). If you have formed a US business entity, you should also have your formation documents available, though they are not always required to be submitted with the SS-4.
               </p>
 
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Document</th><th className="px-4 py-3 font-semibold">Accepted?</th><th className="px-4 py-3 font-semibold">Notes</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Valid Passport (photo page)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - Primary ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Must match name on Line 7a of SS-4. Most commonly accepted ID for non-residents.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Form SS-4 (completed)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - Required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Write &quot;N/A&quot; on Line 7b. Must be signed and dated. Use current revision (Rev. 12-2023).</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Articles of Organization</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - Recommended</td><td className="px-4 py-3 text-[var(--color-text-muted)]">For LLCs. Confirms legal name and formation date. Not always required but reduces delays.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Articles of Incorporation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - Recommended</td><td className="px-4 py-3 text-[var(--color-text-muted)]">For corporations. Same purpose as Articles of Organization for LLCs.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">National ID Card</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Sometimes</td><td className="px-4 py-3 text-[var(--color-text-muted)]">The IRS prefers passports. National IDs accepted in some cases but not consistently.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Driver&apos;s License (foreign)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Foreign driver&apos;s licenses are not accepted as identity verification for EIN applications.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">ITIN Letter (CP 565)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - Alternative</td><td className="px-4 py-3 text-[var(--color-text-muted)]">If you have an ITIN, you can enter it on Line 7b instead of writing &quot;N/A.&quot;</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Power of Attorney (Form 2848)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes - If using representative</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required if a third party (not Line 18 designee) is acting on your behalf.</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SSN (Social Security Number)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Non-residents do not need an SSN. The fax method bypasses this requirement entirely.</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Document Details</h3>
               <StaggerContainer className="space-y-3">
                 <StaggerItem>
                   <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl px-6 py-4">
@@ -183,9 +206,11 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
               Can You Get an EIN Without an SSN by Calling <span className="font-display gradient-text">the IRS?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Phone Method: Same-Day EIN Possible</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Yes, you can call the IRS international line at 267-941-1099 to apply for an EIN without an SSN. An IRS representative will walk you through the SS-4 form over the phone and can issue your EIN during the call. This method has the advantage of getting your EIN immediately without waiting 4-7 business days.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Phone Method Drawbacks</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 However, the phone method has significant drawbacks. Hold times frequently exceed one to two hours, and the line is only available Monday through Friday, 6:00 AM to 11:00 PM Eastern Time. International calling charges apply unless you use a VoIP service. The IRS agent may also ask you to verify your identity verbally, which can be challenging if English is not your first language. Many applicants call multiple times before successfully getting through.
               </p>
@@ -206,12 +231,14 @@ export default function EinWithoutSsnClient({ faqs }: { faqs: { q: string; a: st
               How Does ein.so Help You Get an EIN <span className="font-display gradient-text">Without an SSN?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Purpose-Built for Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 ein.so was built specifically for non-US residents who need an EIN but do not have an SSN or ITIN. We handle the entire Form SS-4 filing process so you do not have to deal with fax machines, IRS processing delays, or confusing form instructions. Here is how it works:
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 You fill out a simple online form on our website with your legal name, date of birth, country of citizenship, mailing address, and business details. We use this information to complete IRS Form SS-4 accurately. We then fax the form to the IRS at 855-215-1627 and monitor for the response. When the IRS returns your EIN, we deliver it to you by email along with a copy of the official IRS confirmation.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Pricing and Turnaround</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 We offer two packages: <strong className="text-[var(--color-text)]">Standard ($49)</strong> with 14 business day turnaround and <strong className="text-[var(--color-text)]">Express ($97)</strong> with 7 business day turnaround. Both include full SS-4 preparation and filing, IRS correspondence handling, and email delivery of your EIN. No SSN, ITIN, or US address is required. Visit our <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] underline">EIN for Non-Residents</Link> page to learn more, or check our <Link href="/ein-processing-time/" className="text-[var(--color-blue)] underline">EIN Processing Time</Link> page for current turnaround estimates.
               </p>

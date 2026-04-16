@@ -55,9 +55,11 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The 2-7 Digit Split Explained</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   An EIN contains exactly 9 digits written in the format XX-XXXXXXX. The number breaks down into two parts. The first two digits (the prefix) identify the IRS campus or processing center that issued the EIN. The remaining seven digits are a sequential identifier assigned to your specific business entity. Together, these 9 digits create a unique identifier that belongs to your business permanently.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Example: EIN 84-1234567 Breakdown</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For example, in the EIN <strong className="text-[var(--color-text)]">84-1234567</strong>, the prefix &quot;84&quot; indicates the EIN was issued through the IRS online application system. The remaining &quot;1234567&quot; is the sequential number assigned to that entity. The hyphen after the second digit is always present in the formatted version and is required on most IRS forms and business documents.
                 </p>
@@ -84,6 +86,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Campus Prefix History: Pre-2001 vs Post-2001</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The first two digits of an EIN are the campus prefix code. Before the IRS allowed online applications, the prefix indicated which IRS processing campus handled your application, which corresponded to your geographic location. Since the IRS launched online EIN applications in 2001, most new EINs carry internet-assigned prefixes in the 80-99 range.
                 </p>
@@ -115,6 +118,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             </AnimateIn>
 
             <AnimateIn delay={0.2} className="mt-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Your Prefix Tells You</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 If your EIN starts with 80 or higher, it was issued through the IRS online system. If it starts with a lower number, it was issued by a specific IRS campus, likely through a fax or mail application. Non-residents who apply by fax through ein.so receive EINs with campus prefixes corresponding to the IRS campus that processes fax applications (currently the Ogden and Kansas City campuses).
               </p>
@@ -134,6 +138,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">4-Step Format Validation</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   To verify an EIN format, check these four criteria. First, the number must contain exactly 9 digits. Second, it must be formatted as XX-XXXXXXX with a single hyphen after the second digit. Third, the first two digits must fall within a valid IRS prefix range (01-06, 10-16, 20-27, 30-38, 40-48, 50-58, 60-68, 71-77, 80-88, or 90-99). Fourth, the number should not start with 00 or 07-09, as these are not assigned prefixes.
                 </p>
@@ -147,6 +152,7 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
                     free EIN lookup guide
                   </Link>.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Hyphenated vs Digits-Only Entry</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   When entering your EIN on government forms, bank applications, and tax returns, always include the hyphen unless the form explicitly asks for digits only. Some electronic systems accept only digits (123456789), while printed forms expect the hyphenated format (12-3456789). Using the wrong format can cause processing delays or rejections.
                 </p>
@@ -167,9 +173,25 @@ export default function EinNumberFormatClient({ faqs }: { faqs: { q: string; a: 
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Three 9-Digit Formats Compared</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   All three tax identification numbers (EIN, SSN, and ITIN) contain 9 digits, but their formats are distinct. The EIN uses a 2-7 split (XX-XXXXXXX). The SSN uses a 3-2-4 split (XXX-XX-XXXX). The ITIN also uses a 3-2-4 split but always starts with the digit 9 (9XX-XX-XXXX). These format differences make it easy to identify which type of tax ID you are looking at.
                 </p>
+                <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                  <table className="w-full text-left text-sm">
+                    <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">EIN</th><th className="px-4 py-3 font-semibold">SSN</th><th className="px-4 py-3 font-semibold">ITIN</th></tr></thead>
+                    <tbody>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Format</td><td className="px-4 py-3 text-[var(--color-text-muted)]">XX-XXXXXXX (2-7 split)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">XXX-XX-XXXX (3-2-4 split)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9XX-XX-XXXX (starts with 9)</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Total Digits</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Issued To</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Business entities</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US citizens and permanent residents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Non-resident aliens (tax filing only)</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Issued By</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Social Security Administration</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Permanent?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (never reused)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Expires if unused for 3 years</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Example</td><td className="px-4 py-3 text-[var(--color-text-muted)]">84-1234567</td><td className="px-4 py-3 text-[var(--color-text-muted)]">123-45-6789</td><td className="px-4 py-3 text-[var(--color-text-muted)]">912-34-5678</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Format Accuracy Prevents Rejections</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The format matters because using the wrong type of number on a form triggers processing errors. If the IRS expects an EIN (XX-XXXXXXX) and you enter an SSN (XXX-XX-XXXX), the system rejects the submission. Similarly, banks and payment processors validate the format of tax IDs during account setup. Always enter the right type of number in the right field to avoid delays and rejections.
                 </p>

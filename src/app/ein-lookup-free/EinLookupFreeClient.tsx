@@ -26,6 +26,19 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
                 <strong>You can find EINs for free using the IRS Tax Exempt Organization Search (for nonprofits), SEC EDGAR (for public companies), state business registries, direct requests to the business, or by calling the IRS at (800) 829-4933 for your own EIN.</strong>{" "}
                 Each method works for different situations. No paid EIN lookup service is necessary for these five approaches.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Method</th><th className="px-4 py-3 font-semibold">Where</th><th className="px-4 py-3 font-semibold">Cost</th><th className="px-4 py-3 font-semibold">Speed</th><th className="px-4 py-3 font-semibold">Limitations</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Tax Exempt Organization Search</td><td className="px-4 py-3 text-[var(--color-text-muted)]">apps.irs.gov/app/eos</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td><td className="px-4 py-3 text-[var(--color-text-muted)]">501(c)(3) and tax-exempt orgs only; no for-profit businesses</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SEC EDGAR Company Search</td><td className="px-4 py-3 text-[var(--color-text-muted)]">sec.gov/cgi-bin/browse-edgar</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Public companies and SEC-reporting entities only</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">State Business Registries</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Secretary of State websites (50 states)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Most states show state tax ID, not federal EIN; varies by state</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Ask the Business (W-9 Request)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Direct contact with the business</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1-5 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Business may refuse; requires existing business relationship</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Call IRS at (800) 829-4933</td><td className="px-4 py-3 text-[var(--color-text-muted)]">IRS Business Tax Line</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (after hold)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Your own EIN only; requires identity verification; Mon-Fri 7 AM - 7 PM</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -42,12 +55,14 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Searching the IRS Database</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS Tax Exempt Organization Search is the most reliable free method for finding EINs of nonprofits, charities, churches, and other tax-exempt organizations. The IRS maintains this public database at apps.irs.gov/app/eos and updates it regularly. Every 501(c)(3) and other tax-exempt entity that has filed with the IRS appears in this database.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   To use it, visit the IRS Tax Exempt Organization Search page and enter the organization name, city, or state. The search results display the organization&apos;s EIN, name, city, state, country, and tax-exempt status. You can also download the full database as a CSV file if you need to search in bulk. This tool also shows whether the organization has had its tax-exempt status revoked, which is valuable for due diligence before making donations.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Nonprofits Only: For-Profit Alternatives Below</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   This method only works for tax-exempt organizations. For-profit businesses like LLCs and corporations do not appear in this database. If you need to find the EIN of a for-profit company, use one of the other four methods below. For more on EIN lookup methods, see our comprehensive{" "}
                   <Link href="/ein-lookup/" className="text-[var(--color-blue)] hover:underline font-semibold">
@@ -71,6 +86,7 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Finding EINs in SEC Filings</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The SEC EDGAR database contains filings from all publicly traded companies and certain private companies that have issued public securities. Every filing includes the company&apos;s EIN (listed as &quot;IRS Number&quot; or &quot;Employer Identification Number&quot;). This makes SEC EDGAR one of the fastest ways to find a public company&apos;s EIN for free.
                 </p>
@@ -101,6 +117,7 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">State-Level Business Entity Searches</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   State business registries maintained by each state&apos;s Secretary of State office contain registration information for LLCs, corporations, and other business entities formed in that state. Some states include EINs in their public records, though most display only state-level tax identification numbers rather than the federal EIN.
                 </p>
@@ -127,12 +144,14 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The W-9 Form: Standard EIN Request</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Yes, and this is often the simplest method. Businesses routinely share their EINs with vendors, contractors, financial institutions, and anyone who has a legitimate business reason to request it. The EIN is a business identifier, not a personal one, so there is no privacy violation in asking for it or sharing it.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Request the EIN by asking for a completed W-9 form (Request for Taxpayer Identification Number and Certification). The W-9 is the standard IRS form that businesses use to share their EIN with other parties. Any legitimate business should be willing to provide a W-9 when you have a valid business relationship, such as a vendor-client arrangement, a partnership, or a tax reporting obligation.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Backup Withholding at 24% If Business Refuses</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If the business refuses to provide their EIN and you need it for tax reporting purposes (such as issuing a 1099), you may need to withhold taxes at the backup withholding rate of 24%. The IRS requires you to make a reasonable effort to obtain the EIN before resorting to backup withholding. For more on{" "}
                   <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
@@ -156,9 +175,11 @@ export default function EinLookupFreeClient({ faqs }: { faqs: { q: string; a: st
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">IRS Business Tax Line: (800) 829-4933</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you lost your own EIN and cannot find it in your records, you can call the IRS Business and Specialty Tax Line at (800) 829-4933. The line operates Monday through Friday, 7:00 AM to 7:00 PM local time. An IRS agent will verify your identity by asking for information about the business entity and the responsible party, then provide your EIN over the phone.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What to Have Ready Before Calling</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Before calling, have the following ready: your business name as registered with the IRS, the responsible party&apos;s full name and SSN or ITIN, the business address on file, and the approximate date the EIN was issued. The IRS agent uses this information to locate your record and confirm you are authorized to receive the EIN. Only authorized parties (the responsible party, an officer, a partner, or a properly authorized representative with Form 8821 or 2848 on file) can request the EIN by phone.
                 </p>

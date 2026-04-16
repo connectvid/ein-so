@@ -28,14 +28,17 @@ export default function AboutPageClient() {
             </AnimateIn>
             <AnimateIn>
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-8 space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">One Purpose: EINs for Non-Residents</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">ein.so</strong> exists for one reason: to help non-US residents get their Employer Identification Number without the confusion, delays, or inflated fees.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">We Handle Everything</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  We handle the entire SS-4 fax process on your behalf. You provide your information, we prepare and submit your form to the IRS, and your EIN is delivered by email.
+                  We handle the entire SS-4 fax process on your behalf. You provide your information, we prepare and submit your form to the IRS, and your EIN is delivered by email. The process takes 5 minutes on your end.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">$49 -- The Lowest Price in the Industry</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  At <strong className="text-[var(--color-text)]">$49</strong>, we&apos;re the most affordable EIN service available. No upsells, no hidden fees, just a direct, professional service that gets the job done.
+                  At <strong className="text-[var(--color-text)]">$49</strong>, we are the most affordable EIN service available. Competitors charge $65 to $200 for the same filing. No upsells, no hidden fees, just a direct, professional service that gets the job done.
                 </p>
               </div>
             </AnimateIn>
@@ -119,14 +122,17 @@ export default function AboutPageClient() {
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-8 space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The IRS Online System Blocks Non-Residents</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The IRS online EIN application <strong className="text-[var(--color-text)]">requires a Social Security Number (SSN) or ITIN</strong>. If you&apos;re a non-US resident without either, you simply cannot use the online system.
+                  The IRS online EIN application <strong className="text-[var(--color-text)]">requires a Social Security Number (SSN) or ITIN</strong>. If you are a non-US resident without either, you cannot use the online system. That locks out millions of international entrepreneurs.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Faxing Form SS-4 Is Error-Prone and Slow</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Your only option is to <strong className="text-[var(--color-text)]">fax Form SS-4</strong> to the IRS international fax line. But the form is confusing, the instructions are unclear, and a single mistake can mean rejection and weeks of delay.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Hundreds of SS-4 Forms Filed Successfully</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  That&apos;s where we come in. We&apos;ve filed hundreds of SS-4 forms. We know exactly how to fill them out for non-resident applicants: LLCs, sole proprietors, partnerships, and more. We handle the fax, the follow-up, and the delivery.
+                  We have filed hundreds of SS-4 forms for non-resident applicants across 50+ countries: LLCs, sole proprietors, partnerships, and more. We handle the fax, the follow-up, and the delivery.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">You provide the information. We do everything else.</strong>

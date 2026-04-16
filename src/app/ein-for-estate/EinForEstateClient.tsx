@@ -49,8 +49,10 @@ export default function EinForEstateClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                When a person dies, their estate becomes a separate legal and tax entity. The deceased person&apos;s SSN cannot be used for estate transactions. The estate needs its own identifier -- an EIN -- for the following purposes:
+                2.8 million estate tax returns and Form 1041s are filed annually, each requiring an EIN. When a person dies, their estate becomes a separate legal and tax entity. The deceased person&apos;s SSN cannot be used for estate transactions. The estate needs its own identifier -- an EIN -- for 5 core purposes:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Reasons Every Estate Needs Its Own EIN</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -164,8 +166,23 @@ export default function EinForEstateClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The executor files two types of tax returns: the deceased person&apos;s final personal tax return and the estate&apos;s income tax return. These are separate filings with different identification numbers:
+                The executor files 2 to 3 separate tax returns, each with a different identification number. Estates with gross income of $600 or more must file Form 1041. Estates valued above $13.99 million (2026 exemption) must also file Form 706.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Estate EIN Timeline: Filing Deadlines</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Form</th><th className="px-4 py-3 font-semibold">Uses EIN?</th><th className="px-4 py-3 font-semibold">Deadline</th><th className="px-4 py-3 font-semibold">Threshold</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Final Form 1040</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (uses decedent&apos;s SSN)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">April 15 of following year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Standard filing thresholds</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form 1041 (Estate Income)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (estate&apos;s EIN)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">April 15 or fiscal year end + 3.5 months</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$600+ gross income</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form 706 (Estate Tax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (uses decedent&apos;s SSN)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9 months after death (6-month extension available)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Gross estate over $13.99M (2026)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Schedule K-1 (to heirs)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (estate&apos;s EIN)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Filed with Form 1041</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any distribution to beneficiaries</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Final Form 1040 vs Form 1041</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Final Form 1040 (Personal):</strong> This return covers the deceased person&apos;s income from January 1 to the date of death. It uses the deceased person&apos;s SSN. The executor files this return for the final time.
@@ -198,8 +215,22 @@ export default function EinForEstateClient({ faqs }: { faqs: { q: string; a: str
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Yes.</strong> If the deceased person had a revocable living trust, that trust becomes irrevocable upon death and needs its own EIN. The estate also needs its own EIN. These are two separate entities, each with separate bank accounts, separate tax returns (both file Form 1041), and separate EINs.
+                Yes -- the estate and trust are 2 separate entities requiring 2 separate EINs, 2 separate Form 1041 filings, and 2 separate bank accounts. Mixing them up triggers IRS matching errors and delays distributions.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Estate vs Trust: Side-by-Side Comparison</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Estate</th><th className="px-4 py-3 font-semibold">Trust (Irrevocable)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Managed By</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Executor / Administrator</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Successor Trustee</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Assets Held</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Probate assets (titled in decedent&apos;s name)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Trust assets (transferred during lifetime)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax Return</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1041 (estate&apos;s EIN)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1041 (trust&apos;s EIN)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Duration</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Until all assets distributed (typically 1-3 years)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Until trust terminates per trust instrument</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Court Supervision</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (probate court)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (private administration)</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The estate holds assets that pass through probate -- assets titled solely in the deceased person&apos;s name without beneficiary designations. The trust holds assets that were transferred to it during the person&apos;s lifetime or directed to it by the will.

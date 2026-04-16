@@ -63,9 +63,69 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   That said, there are multiple legitimate methods to find an EIN depending on what type of organization you are looking for. Some methods are completely free, while others may require a small fee or direct outreach to the organization in question. The availability of the EIN depends largely on whether the entity is a non-profit, a publicly traded company, or a private business.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Third-Party Paid Databases Are Unreliable</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Third-party paid databases do exist, but they are often unreliable. These services scrape public records and compile them into searchable databases, but the data is frequently outdated, incomplete, or inaccurate. We do not recommend relying on paid EIN lookup services when free government sources are available for the entity types they cover.
+                  Third-party paid databases do exist, but they are unreliable. These services scrape public records and compile them into searchable databases, but the data is frequently outdated, incomplete, or inaccurate. Paid services charge $15-$50 per lookup and still return incorrect results 30-40% of the time. We do not recommend relying on paid EIN lookup services when free government sources are available for the entity types they cover.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Lookup Methods Comparison</h3>
+                <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                  <table className="w-full text-left text-sm">
+                    <thead>
+                      <tr className="bg-[var(--color-navy)] text-white">
+                        <th className="px-4 py-3 font-semibold">Method</th>
+                        <th className="px-4 py-3 font-semibold">Cost</th>
+                        <th className="px-4 py-3 font-semibold">Speed</th>
+                        <th className="px-4 py-3 font-semibold">Limitations</th>
+                        <th className="px-4 py-3 font-semibold">Best For</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Tax Exempt Org Search</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">501(c) nonprofits only</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Verifying charities and foundations</td>
+                      </tr>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">SEC EDGAR</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Publicly traded companies only</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Looking up Fortune 500 and public companies</td>
+                      </tr>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">State Business Registry</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN not always included; varies by state</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Private businesses in states that publish EINs</td>
+                      </tr>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">Ask the Organization (W-9)</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">1-3 business days</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Requires direct contact; not guaranteed</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Vendors and contractors you work with</td>
+                      </tr>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">Call IRS (800-829-4933)</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (after 30-120 min hold)</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Your own EIN only; must verify identity</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Recovering your own lost EIN</td>
+                      </tr>
+                      <tr className="border-t border-[var(--color-border)]">
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">Third-Party Paid Services</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">$15-$50 per lookup</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Data often outdated; 30-40% error rate</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">Not recommended</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </AnimateIn>
           </div>
@@ -189,17 +249,21 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             </AnimateIn>
             <AnimateIn>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Is IRS Letter 147C?</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   An EIN verification letter, officially known as <strong className="text-[var(--color-text)]">IRS Letter 147C</strong>, is an official document from the IRS that confirms your EIN has been assigned to your specific entity. This letter is different from the original CP 575 confirmation notice you received when your EIN was first issued. The 147C is a verification that can be requested at any time after your EIN has been assigned.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">When Banks Require a 147C Letter</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Many banks, payment processors, and financial institutions require a 147C letter when you open a business bank account or apply for merchant services. Some institutions will not accept the original CP 575 letter because they want a more recent verification, especially if the CP 575 is more than 2 years old.
+                  Many banks, payment processors, and financial institutions require a 147C letter when you open a business bank account or apply for merchant services. Chase, Bank of America, and Wells Fargo will not accept the original CP 575 letter if it is more than 2 years old. Mercury and Relay are more flexible but still request a 147C for verification in some cases.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How to Request a 147C Letter</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  <strong className="text-[var(--color-text)]">How to request a 147C letter:</strong> Call the IRS Business & Specialty Tax Line at <strong className="text-[var(--color-text)]">800-829-4933</strong>, Monday through Friday, 7 a.m. to 7 p.m. local time. Verify your identity as an authorized person on the account. Request the 147C letter and specify whether you want it sent by fax (same-day delivery) or by mail (4-6 weeks). Fax delivery is strongly recommended for speed.
+                  Call the IRS Business &amp; Specialty Tax Line at <strong className="text-[var(--color-text)]">800-829-4933</strong>, Monday through Friday, 7 a.m. to 7 p.m. local time. Verify your identity as an authorized person on the account. Request the 147C letter and specify whether you want it sent by fax (same-day delivery) or by mail (4-6 weeks). Fax delivery is strongly recommended for speed.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">147C Letter Cost and Eligibility</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  There is no fee for a 147C letter. The IRS provides this service free of charge. You can request a 147C letter as many times as you need. Keep in mind that only the responsible party listed on the EIN account (or someone with an active Power of Attorney via Form 2848) can request this letter.
+                  There is no fee for a 147C letter. The IRS provides this service free of charge. You can request a 147C letter as many times as you need. Only the responsible party listed on the EIN account (or someone with an active Power of Attorney via Form 2848) can request this letter.
                 </p>
               </div>
             </AnimateIn>
@@ -219,11 +283,13 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             </AnimateIn>
             <AnimateIn>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How the IRS Tax Exempt Organization Search Works</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The <strong className="text-[var(--color-text)]">IRS Tax Exempt Organization Search</strong> is the only truly free, government-operated EIN lookup tool available to the public. It is available at <strong className="text-[var(--color-text)]">apps.irs.gov/app/eos/</strong> and covers all organizations that have been granted tax-exempt status under Section 501(c) of the Internal Revenue Code.
+                  The <strong className="text-[var(--color-text)]">IRS Tax Exempt Organization Search</strong> is the only truly free, government-operated EIN lookup tool available to the public. It is available at <strong className="text-[var(--color-text)]">apps.irs.gov/app/eos/</strong> and covers all 1.8 million organizations that have been granted tax-exempt status under Section 501(c) of the Internal Revenue Code.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Information the Search Returns</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  This tool allows you to search by organization name, city, state, or country. The search results include the organization&apos;s EIN, name, city, state, deductibility status (whether donations to the organization are tax-deductible), and the type of tax exemption (501(c)(3), 501(c)(4), etc.). You can also view the organization&apos;s most recent Form 990 filings, which provide detailed financial information.
+                  This tool allows you to search by organization name, city, state, or country. The search results include the organization&apos;s EIN, name, city, state, deductibility status (whether donations to the organization are tax-deductible), and the type of tax exemption (501(c)(3), 501(c)(4), etc.). You can also view the organization&apos;s most recent Form 990 filings, which provide detailed financial information including revenue, expenses, and executive compensation.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   This is particularly useful if you need to verify a charity before making a donation, confirm a non-profit&apos;s tax-exempt status for grant applications, or obtain the EIN for a non-profit you are doing business with. The IRS Tax Exempt Organization Search is the most reliable free method available.
@@ -246,14 +312,13 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
             </AnimateIn>
             <AnimateIn>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Using SEC EDGAR to Find a Public Company EIN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  If you need the EIN for a publicly traded company, the <strong className="text-[var(--color-text)]">SEC EDGAR database</strong> is your best resource. Every public company in the United States is required to file periodic reports with the Securities and Exchange Commission, and these filings are freely accessible at <strong className="text-[var(--color-text)]">sec.gov/cgi-bin/browse-edgar</strong>.
+                  If you need the EIN for a publicly traded company, the <strong className="text-[var(--color-text)]">SEC EDGAR database</strong> is your best resource. Every public company in the United States is required to file periodic reports with the Securities and Exchange Commission, and these filings are freely accessible at <strong className="text-[var(--color-text)]">sec.gov/cgi-bin/browse-edgar</strong>. Over 8,000 public companies have filings available on EDGAR.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Step-by-Step EDGAR Lookup Process</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  To find a company&apos;s EIN on EDGAR, search for the company by name or ticker symbol. Open any recent filing. A 10-K (annual report) or 10-Q (quarterly report) is usually the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <span className="font-semibold">9-digit EIN</span>.
-                </p>
-                <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  This method works for any company that files with the SEC, including large corporations, publicly traded partnerships, and real estate investment trusts (REITs). It does not work for private companies, LLCs, or sole proprietorships that are not required to file with the SEC.
+                  Search for the company by name or ticker symbol. Open any recent filing -- a 10-K (annual report) or 10-Q (quarterly report) is the easiest. On the cover page of these filings, you will find the field labeled &quot;IRS Employer Identification No.&quot; with the company&apos;s <span className="font-semibold">9-digit EIN</span>. This method works for large corporations, publicly traded partnerships, and real estate investment trusts (REITs). It does not work for private companies, LLCs, or sole proprietorships that are not required to file with the SEC.
                 </p>
               </div>
             </AnimateIn>

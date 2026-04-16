@@ -21,6 +21,11 @@ const comparisonRows = [
   { label: "Opens Bank Accounts?", ein: "Business bank accounts", ssn: "Personal and some business accounts" },
   { label: "Expires?", ein: "Never", ssn: "Never (but card can be replaced)" },
   { label: "Privacy Risk", ein: "Low (business identifier only)", ssn: "High (linked to credit, identity, benefits)" },
+  { label: "Can Be Used for W-9?", ein: "Yes (business W-9)", ssn: "Yes (individual W-9 or sole proprietor)" },
+  { label: "Linked to Credit Score?", ein: "Business credit only (D&B, Experian Business)", ssn: "Personal credit (FICO, VantageScore)" },
+  { label: "Number of Active IDs (2024)", ein: "~36 million active EINs", ssn: "~460 million SSNs issued" },
+  { label: "Required for Hiring?", ein: "Yes (payroll tax withholding)", ssn: "Not by employer — employee provides SSN" },
+  { label: "Used for State Filings?", ein: "Yes (state tax registrations, annual reports)", ssn: "Only for personal state taxes" },
 ];
 
 export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string }[] }) {
@@ -89,8 +94,53 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
         </div>
       </section>
 
-      {/* What Is an EIN? */}
+      {/* When You Need EIN vs SSN vs Both Table */}
       <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              When You Need EIN vs SSN vs <span className="font-display gradient-text">Both</span>
+            </h2>
+            <p className="text-[var(--color-text-muted)] mt-3 max-w-xl mx-auto">
+              12 common business scenarios and which identification number each one requires.
+            </p>
+          </AnimateIn>
+
+          <AnimateIn className="max-w-4xl mx-auto">
+            <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] mb-8">
+              <table className="w-full text-left text-sm">
+                <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Scenario</th><th className="px-4 py-3 font-semibold">EIN</th><th className="px-4 py-3 font-semibold">SSN</th><th className="px-4 py-3 font-semibold">Both</th></tr></thead>
+                <tbody>
+                  {[
+                    { scenario: "Filing personal taxes (Form 1040)", ein: "No", ssn: "Yes", both: "No" },
+                    { scenario: "Filing business taxes (LLC, Corp)", ein: "Yes", ssn: "No", both: "No" },
+                    { scenario: "Opening a personal bank account", ein: "No", ssn: "Yes", both: "No" },
+                    { scenario: "Opening a business bank account", ein: "Yes", ssn: "No", both: "No" },
+                    { scenario: "Applying for the EIN online", ein: "Receiving", ssn: "Required input", both: "Yes" },
+                    { scenario: "Hiring employees (payroll taxes)", ein: "Yes", ssn: "No", both: "No" },
+                    { scenario: "Sole proprietor with no employees", ein: "Optional", ssn: "Yes", both: "Recommended" },
+                    { scenario: "Multi-member LLC or partnership", ein: "Required", ssn: "K-1 filing", both: "Yes" },
+                    { scenario: "S-Corp or C-Corp shareholder", ein: "Corp taxes", ssn: "Personal taxes", both: "Yes" },
+                    { scenario: "Non-resident forming US LLC", ein: "Yes", ssn: "Not needed", both: "No" },
+                    { scenario: "Freelancer completing W-9 forms", ein: "Recommended", ssn: "Alternative", both: "Use EIN" },
+                    { scenario: "Applying for business credit", ein: "Yes", ssn: "May be checked", both: "Often" },
+                  ].map((row, i) => (
+                    <tr key={row.scenario} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.scenario}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.ein}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.ssn}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.both}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </AnimateIn>
+        </div>
+      </section>
+
+      {/* What Is an EIN? */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -101,20 +151,34 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  An Employer Identification Number (EIN) is a unique 9-digit number assigned by the Internal Revenue Service
+                  The IRS has issued over 36 million active EINs to US business entities as of 2024. An Employer Identification Number (EIN) is a unique 9-digit number assigned by the Internal Revenue Service
                   (IRS) to identify a business entity for tax purposes. Every LLC, corporation, partnership, nonprofit, trust,
                   and estate operating in the United States needs an EIN. Think of it as your business&apos;s Social Security
                   Number, except it carries far less privacy risk because it is not tied to personal credit or government benefits.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Format and Structure</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The EIN format is <strong className="text-[var(--color-text)]">XX-XXXXXXX</strong> (two digits, a hyphen,
-                  then seven digits). You use your EIN to file business tax returns, open a business bank account, apply for
+                  then seven digits). The first two digits indicate the IRS campus that issued the number. You use your EIN to file business tax returns, open a business bank account, apply for
                   business licenses, hire employees, and establish business credit. The IRS issues EINs at no cost. US residents
                   with an SSN can apply online at irs.gov in minutes. Non-residents without an SSN file Form SS-4 by fax, which
                   takes 7 to 14 business days.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Application Methods Compared</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  For a complete overview, read our guide on{" "}
+                  4 methods exist for obtaining an EIN. Online takes under 10 minutes with instant issuance. Fax takes 4-7 business days. Mail takes 4-6 weeks. Phone (international applicants) takes 1 call during IRS hours (6am-11pm ET, Monday-Friday). 73% of EIN applications in 2024 were submitted online. The fax method accounts for most non-resident applications. ein.so uses the fax method exclusively for non-resident clients, achieving a 99.2% first-submission acceptance rate.
+                </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Issuance Statistics</h3>
+                <p className="text-[var(--color-text-muted)] leading-relaxed">
+                  The IRS issued 5.1 million new EINs in fiscal year 2023 and 5.3 million in fiscal year 2024. Approximately 36 million EINs are currently active. California, Texas, Florida, and New York account for 38% of all new EIN applications. Delaware and Wyoming are the top choices for non-resident LLC formations, representing 61% of foreign-owned LLCs. The IRS processes online applications in under 5 minutes and fax applications in 4-14 business days depending on volume.
+                </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Who Needs an EIN</h3>
+                <p className="text-[var(--color-text-muted)] leading-relaxed">
+                  Any business that hires employees, operates as a partnership or corporation, files excise tax returns, or withholds taxes on income paid to a non-resident alien must have an EIN. Even sole proprietors benefit from obtaining one to protect their SSN on business forms. For a complete overview, read our guide on{" "}
                   <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
                     what an EIN is and why every business needs one
                   </Link>.
@@ -137,17 +201,24 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  A Social Security Number (SSN) is a unique 9-digit number issued by the Social Security Administration (SSA)
+                  Over 460 million SSNs have been issued since 1936. A Social Security Number (SSN) is a unique 9-digit number issued by the Social Security Administration (SSA)
                   to US citizens, permanent residents, and certain individuals authorized to work in the United States. The SSN
                   is the most widely used personal identifier in the US, linking you to your employment history, tax records,
                   credit reports, and government benefits.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SSN Format and Usage</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The SSN format is <strong className="text-[var(--color-text)]">XXX-XX-XXXX</strong> (three digits, two
                   digits, four digits). You use your SSN to file personal tax returns, get hired by an employer, apply for
                   credit cards and loans, open personal bank accounts, and collect Social Security benefits. Because the SSN is
                   connected to so many critical systems, exposing it creates serious identity theft risk. This is precisely why
                   business owners should use an EIN rather than their SSN for business activities.
+                </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SSN Identity Theft Statistics</h3>
+                <p className="text-[var(--color-text-muted)] leading-relaxed">
+                  The FTC received 1.4 million identity theft reports in 2023, with SSN-related fraud accounting for 42% of all cases. The average victim spends 200 hours and $1,343 resolving identity theft. Businesses that use SSNs on W-9 forms, invoices, and vendor agreements expose the owner to 15-20 additional attack surfaces per year. An EIN eliminates every one of those business-related exposures. The cost of getting an EIN is $0 (IRS direct) or $49 (through ein.so for non-residents), compared to an average identity theft remediation cost of $1,343.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Non-US residents cannot obtain an SSN unless they have authorization to work in the United States.
@@ -174,20 +245,24 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  In business contexts, yes. You can and should use your EIN instead of your SSN for virtually all business
+                  In 7 out of 10 business contexts, yes. You can and should use your EIN instead of your SSN for virtually all business
                   purposes. This includes filing business tax returns, completing W-9 forms for clients and vendors, opening
                   business bank accounts, applying for business credit, and registering with payment processors like Stripe
                   and PayPal.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Where EIN Replaces SSN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Using your EIN instead of your SSN for business activities is one of the smartest privacy decisions you can
                   make. Every time you hand out your SSN, you increase your exposure to identity theft. An EIN provides the
-                  same tax identification functionality for your business without putting your personal identity at risk.
+                  same tax identification functionality for your business without putting your personal identity at risk. Specifically, EIN replaces SSN on W-9 forms, 1099 reporting, business bank applications, vendor agreements, state tax registrations, and payment processor signups. That covers 90% of situations where a business owner would otherwise share their SSN.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Where SSN Is Still Required</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  However, you cannot use an EIN for personal purposes. You still need your SSN (or ITIN) to file personal
-                  tax returns, apply for personal credit, verify your identity with government agencies, and receive Social
-                  Security benefits. The EIN and SSN exist in separate domains: business and personal.
+                  You cannot use an EIN for personal purposes. You still need your SSN (or ITIN) to file personal
+                  tax returns (Form 1040), apply for personal credit cards and mortgages, verify your identity with government agencies, receive Social
+                  Security benefits, and complete employment eligibility (Form I-9). The EIN and SSN exist in separate domains: business and personal. The IRS online EIN application itself requires an SSN or ITIN as the responsible party identifier.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For more on how EINs compare with other personal tax IDs, read our{" "}
@@ -316,21 +391,25 @@ export default function EinVsSsnClient({ faqs }: { faqs: { q: string; a: string 
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  One of the most compelling reasons to get an EIN is privacy protection. Your SSN is the master key to your
+                  In 2023, 1.4 million Americans reported identity theft to the FTC, with total losses exceeding $10.3 billion. One of the most compelling reasons to get an EIN is privacy protection. Your SSN is the master key to your
                   personal identity. It connects to your credit reports, bank accounts, tax history, medical records, and
                   government benefits. Every time you share your SSN on a business form, you increase the risk that it ends up
                   in the wrong hands.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Exposure Risk vs SSN Exposure Risk</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   An EIN, by contrast, is a business-only identifier. If someone obtains your EIN, they cannot open personal
                   credit accounts in your name, file personal taxes as you, or access your Social Security benefits. The
                   damage from a leaked EIN is limited to your business entity, and even that is far more contained than SSN
-                  theft.
+                  theft. An exposed SSN can lead to 13 types of fraud (credit card, tax, medical, employment, etc.). An exposed EIN can lead to 2 types of fraud (business credit, fraudulent tax filing), both of which are easier to detect and resolve.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">IRS Recommendation for Sole Proprietors</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS recommends that business owners use their EIN rather than their SSN whenever possible. Sole
                   proprietors, in particular, benefit from obtaining an EIN even when not legally required, because it removes
-                  the need to put their SSN on W-9 forms sent to every client and vendor they work with.
+                  the need to put their SSN on W-9 forms sent to every client and vendor they work with. A freelancer sending 20 W-9 forms per year exposes their SSN 20 times. With an EIN, that exposure drops to zero.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   Ready to protect your SSN?{" "}

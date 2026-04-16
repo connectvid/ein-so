@@ -27,9 +27,11 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Processing Time Matters for Business Planning</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
                 Understanding EIN processing time is critical for planning your business launch. If you need to open a bank account, register with Amazon, or file taxes by a specific deadline, the method you choose directly affects when you can move forward. This guide breaks down every EIN processing timeline, explains what causes delays, and shows you how to get your EIN faster.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">IRS Application Volume and Backlogs</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS processes over 5 million EIN applications every year. While the agency has improved its processing systems significantly, backlogs still occur -- especially during the January-to-April tax season. Choosing the right application method and submitting an error-free <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">Form SS-4</Link> are the two most important factors in getting your EIN on time.
               </p>
@@ -48,45 +50,20 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Four IRS Application Methods Compared</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS offers four methods to apply for an EIN, and each has a dramatically different processing time. Your eligibility for certain methods depends on whether you have a US Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN).
               </p>
 
-              <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-[var(--color-navy)] text-white">
-                      <th className="text-left p-4 font-bold">Method</th>
-                      <th className="text-left p-4 font-bold">Processing Time</th>
-                      <th className="text-left p-4 font-bold">Eligibility</th>
-                      <th className="text-left p-4 font-bold">Cost</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-[var(--color-border)]">
-                    <tr className="bg-white">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Online (IRS EIN Assistant)</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Instant</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">US residents with SSN/ITIN only</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Free</td>
-                    </tr>
-                    <tr className="bg-[var(--color-surface)]">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Phone (267-941-1099)</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Same day (if you reach an agent)</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">International applicants</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Free (international call fees apply)</td>
-                    </tr>
-                    <tr className="bg-white">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Fax (Form SS-4)</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">4-7 business days</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">All applicants</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Free (DIY) / $49-$97 (ein.so)</td>
-                    </tr>
-                    <tr className="bg-[var(--color-surface)]">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Mail (Form SS-4)</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">4-6 weeks</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">All applicants</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Free (postage costs apply)</td>
-                    </tr>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Method</th><th className="px-4 py-3 font-semibold">Time</th><th className="px-4 py-3 font-semibold">Cost</th><th className="px-4 py-3 font-semibold">Best For</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Online (IRS EIN Assistant)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant (10-15 min)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US residents with SSN/ITIN</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Phone (267-941-1099)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (30-120 min hold)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + intl call fees</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Urgent same-day needs</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Fax (Form SS-4 to 855-215-1627)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free (DIY) / $49-$97 (ein.so)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Non-residents without SSN</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Mail (SS-4 to Cincinnati, OH 45999)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-6 weeks</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + postage</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not recommended</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">ein.so (Express fax service)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$97</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Deadline-sensitive applicants</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -109,6 +86,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">10-15 Minutes from Start to Finish</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS EIN Assistant is the fastest way to get an EIN. You complete a short online form, verify your identity with your SSN or ITIN, and receive your EIN immediately upon submission. The entire process takes about 10-15 minutes from start to finish.
               </p>
@@ -117,6 +95,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
                 The online system is available Monday through Friday, 7:00 AM to 10:00 PM Eastern Time. Applications submitted outside these hours will not be processed. The system is also occasionally unavailable during IRS maintenance windows.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Online Application Requires SSN or ITIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">The catch:</strong> This method requires a valid SSN or ITIN. If you are a non-US resident without either number, you cannot use the online system. This restriction is why the fax method remains essential for international entrepreneurs. If you are a US resident with an SSN, applying online at irs.gov is always the best option -- it is free and instant.
               </p>
@@ -135,6 +114,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Standard Fax Timeline: 7-14 Business Days</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Faxing Form SS-4 to the IRS is the primary method for non-US residents applying for an EIN. The standard EIN processing time for fax applications is <strong className="text-[var(--color-text)]">7 to 14 business days</strong>. The IRS receives your completed SS-4, processes the application, assigns an EIN, and faxes the assignment letter back to the number you provided.
               </p>
@@ -143,6 +123,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
                 Several factors affect fax processing time. The IRS fax number for EIN applications is <strong className="text-[var(--color-text)]">855-215-1627</strong>. During peak tax season (January through April), the IRS receives significantly higher volumes of applications, which can push processing times to 7-10 business days. Outside of peak season, 4-5 business days is more typical.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Form Accuracy Determines Speed</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The quality of your <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">Form SS-4</Link> matters enormously. An error-free, properly formatted form is processed on the first pass. Forms with errors, missing information, or illegible entries are rejected, and you must resubmit -- adding another 4-7 business days to your wait. This is the number-one reason applicants experience delays.
               </p>
@@ -191,41 +172,21 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
                 </StaggerContainer>
               </div>
 
-              <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-[var(--color-navy)] text-white">
-                      <th className="text-left p-4 font-bold">Feature</th>
-                      <th className="text-left p-4 font-bold">Standard ($49)</th>
-                      <th className="text-left p-4 font-bold">Express ($97)</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-[var(--color-border)]">
-                    <tr className="bg-white">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Processing Time</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">4-7 business days</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">7 business days</td>
-                    </tr>
-                    <tr className="bg-[var(--color-surface)]">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">Fax Submission</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Next business day</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Same day</td>
-                    </tr>
-                    <tr className="bg-white">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">IRS Follow-Up</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">As needed</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Daily proactive</td>
-                    </tr>
-                    <tr className="bg-[var(--color-surface)]">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">SS-4 Preparation</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Included</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Included (priority review)</td>
-                    </tr>
-                    <tr className="bg-white">
-                      <td className="p-4 font-semibold text-[var(--color-text)]">WhatsApp Updates</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Included</td>
-                      <td className="p-4 text-[var(--color-text-muted)]">Included (real-time)</td>
-                    </tr>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">ein.so Standard vs Express: Full Comparison</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Feature</th><th className="px-4 py-3 font-semibold">Standard ($49)</th><th className="px-4 py-3 font-semibold">Express ($97)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Price</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$49 one-time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$97 one-time</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">EIN Delivery Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">14 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">7 business days</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Fax Submission Timing</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Next business day</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (within hours)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SS-4 Form Preparation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included (senior review)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Follow-Up</td><td className="px-4 py-3 text-[var(--color-text-muted)]">As needed</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Daily proactive monitoring</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Rejection Resubmission</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included (no extra cost)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included (same-day resubmit)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">WhatsApp Updates</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Milestone updates</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Real-time status updates</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Email Delivery</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN + IRS confirmation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN + IRS confirmation</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SSN Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US Address Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -248,6 +209,7 @@ export default function EinProcessingTimeClient({ faqs }: { faqs: { q: string; a
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Two Categories of Delays</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 EIN processing delays are almost always preventable. The most common reasons your EIN application takes longer than expected fall into two categories: applicant errors and IRS-side backlogs.
               </p>

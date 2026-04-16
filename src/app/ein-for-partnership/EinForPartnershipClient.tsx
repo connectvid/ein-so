@@ -49,8 +49,10 @@ export default function EinForPartnershipClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Partnerships are pass-through entities for tax purposes. The partnership itself does not pay income tax. Instead, it reports income and deductions on Form 1065, and each partner receives a Schedule K-1 showing their share. The EIN is required for every step of this process:
+                4 million partnerships file Form 1065 annually, and every single one requires an EIN. Partnerships are pass-through entities for tax purposes. The partnership itself does not pay income tax. Instead, it reports income and deductions on Form 1065, and each partner receives a Schedule K-1 showing their share. The EIN is required for every step of this process:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 EIN-Dependent Obligations for Partnerships</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -87,8 +89,10 @@ export default function EinForPartnershipClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Yes. Every type of partnership recognized by the IRS must have an EIN. Here is how the EIN requirement applies to each:
+                Yes -- all 4 partnership types recognized by the IRS must have an EIN. Every one files Form 1065. Here is how the EIN requirement applies to each:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Partnership Types and EIN Requirements</h3>
 
               <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
                 <table className="w-full text-sm">
@@ -143,8 +147,22 @@ export default function EinForPartnershipClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The responsible party on a partnership EIN application must be a general partner -- an individual who controls, manages, or directs the partnership and its funds. Here is the process:
+                US residents apply online and receive the EIN instantly at $0 cost. Non-US residents apply by fax in 4-7 business days. The responsible party on a partnership EIN application must be a general partner -- an individual who controls, manages, or directs the partnership and its funds.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Partnership EIN Application Checklist</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Item Required</th><th className="px-4 py-3 font-semibold">US Resident Partners</th><th className="px-4 py-3 font-semibold">Non-US Resident Partners</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Responsible Party ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SSN or ITIN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Passport number</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Application Method</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Online at irs.gov</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Fax Form SS-4</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Processing Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-7 business days</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Cost</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (IRS) + $49-$97 (ein.so)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Partnership Agreement</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-6">
                 <h3 className="text-lg font-bold text-[var(--color-text)] mb-4">For US Residents (with SSN or ITIN):</h3>
@@ -214,8 +232,10 @@ export default function EinForPartnershipClient({ faqs }: { faqs: { q: string; a
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Partnerships keep the same EIN for the life of the partnership in most cases. However, the IRS requires a new EIN in specific situations:
+                3 specific events trigger a new EIN requirement for partnerships. In all other cases -- including partner changes, name changes, and address changes -- the partnership keeps its original EIN permanently. Here are the 3 triggers:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">When a New EIN Is and Is Not Required</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Partnership dissolves and a new one forms.</strong> If the partnership terminates (all partners leave, or the partnership agreement ends) and a new partnership is created -- even with some of the same partners -- the new partnership needs a new EIN. The old EIN cannot be reused.

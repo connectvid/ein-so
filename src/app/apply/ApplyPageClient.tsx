@@ -36,8 +36,39 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
         </div>
       </section>
 
-      {/* What's Included */}
+      {/* Standard vs Express Comparison Table */}
       <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-16">
+            <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Compare Packages</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+              Standard vs Express: <span className="font-display gradient-text">Side by Side</span>
+            </h2>
+          </AnimateIn>
+          <AnimateIn className="max-w-3xl mx-auto">
+            <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+              <table className="w-full text-left text-sm">
+                <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Feature</th><th className="px-4 py-3 font-semibold">Standard $49</th><th className="px-4 py-3 font-semibold">Express $97</th></tr></thead>
+                <tbody>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Turnaround Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">14 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">7 business days</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SS-4 Form Preparation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Fax Submission</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">EIN Delivery by Email</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Priority Processing</td><td className="px-4 py-3 text-[var(--color-text-muted)]">--</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Phone Follow-Up</td><td className="px-4 py-3 text-[var(--color-text-muted)]">--</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Included</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">WhatsApp Status Updates</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Basic updates</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Real-time updates</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Money-Back Guarantee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Full refund if we cause rejection</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Full refund if we cause rejection</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SSN Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td></tr>
+                  <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Best For</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No urgent deadline</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Bank account or platform setup ASAP</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </AnimateIn>
+        </div>
+      </section>
+
+      {/* What's Included */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
             <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">What&apos;s Included</p>
@@ -67,7 +98,7 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
       </section>
 
       {/* Process */}
-      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
@@ -75,15 +106,18 @@ export default function ApplyPageClient({ faqs }: { faqs: { q: string; a: string
             </h2>
           </AnimateIn>
           <AnimateIn className="max-w-3xl mx-auto">
-            <div className="bg-white rounded-2xl border border-[var(--color-border)] p-8 space-y-4">
+            <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-8 space-y-4">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The IRS Requires an SSN or ITIN for Online Applications</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS online EIN application requires a Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN). If you don&apos;t have either, you <strong className="text-[var(--color-text)]">cannot use the online system</strong>.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Your Only Option: Form SS-4 by Fax</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Instead, non-residents must submit <strong className="text-[var(--color-text)]">Form SS-4 by fax</strong> to the IRS at their international fax line (855-215-1627). The IRS processes faxed SS-4 forms in about 4 business days.
+                Non-residents must submit <strong className="text-[var(--color-text)]">Form SS-4 by fax</strong> to the IRS international fax line (855-215-1627). The IRS processes faxed SS-4 forms in about 4 business days.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What ein.so Handles for You</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                We handle this entire process: completing the form, faxing it, and following up with the IRS. All you need to do is provide your information and wait for your EIN to arrive by email.
+                We handle the entire process: completing the form, faxing it, and following up with the IRS. All you need to do is provide your information and wait for your EIN to arrive by email.
               </p>
             </div>
           </AnimateIn>

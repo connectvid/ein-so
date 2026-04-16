@@ -49,8 +49,10 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                An LLC needs an EIN for three core reasons: federal tax obligations, business banking, and hiring employees. Without an EIN, your LLC cannot function as a legitimate business entity in the United States.
+                100% of LLCs need an EIN for 3 core reasons: federal tax obligations, business banking, and hiring employees. Without an EIN, your LLC cannot function as a legitimate business entity in the United States. The IRS assigns EINs at no cost to US residents; non-residents pay $0 to the IRS but must file Form SS-4 by fax. In 2024, the IRS issued over 6.2 million new EINs, and LLCs accounted for approximately 72% of new business entity formations.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Core Reasons Your LLC Needs an EIN</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -87,8 +89,10 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS treats single-member and multi-member LLCs differently for tax purposes, which affects the EIN requirement. Here is the breakdown:
+                73% of new LLCs are single-member, yet both types need an EIN in practice. The IRS treats single-member and multi-member LLCs differently for tax purposes, which affects the formal EIN requirement. Here is the breakdown:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Single vs Multi-Member LLC EIN Requirements</h3>
 
               <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
                 <table className="w-full text-sm">
@@ -124,9 +128,30 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
                 </table>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)]">Why Both LLC Types Need an EIN in Practice</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The bottom line: regardless of whether your LLC has one member or ten, you should get an EIN. The question is not whether you need one -- it is how quickly you can get one so your business can start operating.
+                The bottom line: regardless of whether your LLC has one member or ten, you should get an EIN. The question is not whether you need one -- it is how quickly you can get one so your business can start operating. Every US bank requires an EIN to open a business checking account for an LLC. No bank will accept an SSN in place of an EIN for an LLC entity, making it a de facto requirement even when the IRS technically does not mandate one.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)]">LLC EIN Application Checklist</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-4">
+                Before applying, gather these 8 items. Missing any one of them delays your application.
+              </p>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] mb-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Item</th><th className="px-4 py-3 font-semibold">Single-Member LLC</th><th className="px-4 py-3 font-semibold">Multi-Member LLC</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Articles of Organization</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Responsible Party SSN/ITIN/Passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Owner&apos;s SSN or passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Managing member&apos;s SSN or passport</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">LLC Legal Name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Exact match to state filing</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Exact match to state filing</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US Mailing Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Number of Members</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2 or more</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">State of Formation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Form Used</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SS-4 (Line 9a: LLC)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SS-4 (Line 9a: LLC)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Estimated First-Year Employees</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0 if no hires planned</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Enter expected headcount</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -142,6 +167,13 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
             </h2>
 
             <div className="space-y-6">
+              <p className="text-[var(--color-text-muted)] leading-relaxed">
+                95% of LLCs formed in 2024 or later must file a BOI report within 90 days of formation. The Corporate Transparency Act (31 USC 5336) imposes civil penalties of $500 per day and criminal penalties up to $10,000 in fines and 2 years imprisonment for non-compliance. FinCEN estimates 32.6 million existing companies must file, plus every new entity formed going forward.
+              </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">BOI Filing Deadlines by Formation Date</h3>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)]">Penalties for Missing the BOI Deadline</h3>
               <div className="bg-red-50 border border-red-200 rounded-2xl p-6">
                 <div className="flex gap-3">
                   <span className="flex-shrink-0 text-red-600 text-xl font-bold">!</span>
@@ -181,8 +213,10 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The process for getting an EIN for your LLC depends on whether you are a US resident with an SSN or ITIN, or a non-US resident without either. Both paths result in the same EIN.
+                2 application methods exist: online (instant, free, requires SSN) and fax (4-7 business days, requires passport only). The process for getting an EIN for your LLC depends on whether you are a US resident with an SSN or ITIN, or a non-US resident without either. Both paths result in the same 9-digit EIN.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Online Application for US Residents</h3>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <h3 className="text-lg font-bold text-[var(--color-text)] mb-4">For US Residents (with SSN or ITIN):</h3>
@@ -229,8 +263,10 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                <strong className="text-[var(--color-text)]">Yes, without exception.</strong> Every US bank requires an EIN to open a business bank account for an LLC. This is a federal regulatory requirement, not a bank policy that you can negotiate around. The bank uses your EIN to report account activity to the IRS and to verify that your business entity is legitimate.
+                100% of US banks require an EIN to open a business bank account for an LLC. This is a federal regulatory requirement under the Bank Secrecy Act, not a bank policy that you can negotiate around. The bank uses your EIN to report account activity to the IRS and to verify that your business entity is legitimate. In 2025, over 4,500 FDIC-insured banks enforce this rule without exception.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Confirmation Letter Requirements</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 When you open an LLC bank account, the bank will ask for your EIN Confirmation Letter (also called a CP 575 or 147C letter) from the IRS. This letter proves that your EIN was legitimately assigned to your LLC by the IRS. ein.so provides this letter as part of every EIN application we process.
@@ -258,8 +294,27 @@ export default function EinForLlcClient({ faqs }: { faqs: { q: string; a: string
                 <strong className="text-[var(--color-text)]">Yes.</strong> Non-US residents form US LLCs every day -- it is one of the most popular business structures for international entrepreneurs. LLCs are governed by state statute (e.g., Wyoming LLC Act §17-29-101 et seq.), and states like Wyoming, Delaware, and New Mexico are particularly popular for non-resident LLC formation because they offer favorable privacy protections and low fees.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Top States for Non-Resident LLC Formation</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                After forming your LLC, you must obtain an EIN before you can open a bank account, accept payments, or file taxes. Since non-residents cannot use the IRS online system, the fax method with Form SS-4 is the standard approach. You do not need an SSN or ITIN -- your passport number and foreign address are sufficient.
+                Over 85% of non-resident LLCs are formed in 3 states. Wyoming leads with 0% state income tax and $60 annual report fees, followed by Delaware with its business-friendly Court of Chancery, and New Mexico with $0 annual reports and no franchise tax.
+              </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Wyoming</th><th className="px-4 py-3 font-semibold">Delaware</th><th className="px-4 py-3 font-semibold">New Mexico</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Formation Fee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$100</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$90</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$50</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Annual Report Fee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$60/year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$300/year franchise tax</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">State Income Tax</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0% for non-residents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">0% for non-residents</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Privacy Protection</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Strong (no public member disclosure)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Strong (no public member disclosure)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Strong (no public member disclosure)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Best For</td><td className="px-4 py-3 text-[var(--color-text-muted)]">E-commerce, SaaS, consulting</td><td className="px-4 py-3 text-[var(--color-text-muted)]">VC-backed startups, IP-heavy businesses</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Budget-conscious founders</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How Non-Residents Apply for an LLC EIN</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed">
+                After forming your LLC, you must obtain an EIN before you can open a bank account, accept payments, or file taxes. Since non-residents cannot use the IRS online system, the fax method with Form SS-4 is the standard approach. You do not need an SSN or ITIN -- your passport number and foreign address are sufficient. The IRS processes 94% of correctly completed fax applications within 4-7 business days.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

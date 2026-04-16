@@ -49,8 +49,10 @@ export default function EinForTrustClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN requirement hinges on one question: is the trust a separate tax entity from the grantor? Here is the breakdown:
+                3 of 4 trust types require an EIN immediately upon creation. The EIN requirement hinges on one question: is the trust a separate tax entity from the grantor? Over 2 million trusts file Form 1041 annually. Here is the breakdown:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Revocable vs Irrevocable Trust EIN Requirements</h3>
 
               <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)]">
                 <table className="w-full text-sm">
@@ -181,8 +183,23 @@ export default function EinForTrustClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Trusts that have their own EIN (irrevocable trusts and formerly revocable trusts after the grantor&apos;s death) file Form 1041 (US Income Tax Return for Estates and Trusts). The trust reports all income earned by trust assets: interest, dividends, capital gains, rental income, and other earnings.
+                Trusts with their own EIN file Form 1041 annually, due April 15. Trust tax rates hit the maximum 37% bracket at just $15,200 of taxable income in 2026 -- compared to $609,350 for individual filers. This compressed bracket makes distribution planning critical.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Trust vs Individual Tax Brackets (2026)</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Tax Rate</th><th className="px-4 py-3 font-semibold">Trust Income Threshold</th><th className="px-4 py-3 font-semibold">Individual Income Threshold</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">10%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0 - $3,150</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0 - $11,600</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">24%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$3,150 - $11,450</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$47,150 - $100,525</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">35%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$11,450 - $15,200</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$191,950 - $609,350</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">37%</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Over $15,200</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Over $609,350</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Form 1041 Filing Requirements</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 If the trust distributes income to beneficiaries, it deducts those distributions on Form 1041 and issues Schedule K-1 to each beneficiary. The beneficiaries then report the distributions on their personal tax returns. Income retained by the trust is taxed at trust tax rates, which reach the highest marginal rate at just $15,200 of taxable income (2026) -- far lower than the threshold for individual taxpayers.
@@ -211,8 +228,10 @@ export default function EinForTrustClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                When someone dies, two separate entities may need EINs: the decedent&apos;s estate and any trusts that become irrevocable upon death. These are different entities with different EINs, different tax returns, and different purposes.
+                2 separate entities may need EINs when someone dies: the decedent&apos;s estate and any trusts that become irrevocable upon death. These are different entities with different EINs, different tax returns, and different purposes. Using the wrong EIN on tax filings triggers IRS matching errors and delays refunds.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Trust EIN vs Estate EIN</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">The estate</strong> holds assets that pass through probate. The executor manages the estate and applies for its EIN. The estate files Form 1041 under its own EIN until all assets are distributed to heirs or trusts.

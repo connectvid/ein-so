@@ -42,9 +42,25 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Main Rejection Reasons at a Glance</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS rejects EIN applications when the information you submitted does not pass their validation checks. Understanding the specific reason for your rejection is the first step toward getting your EIN. The IRS rejection notice includes a code or explanation that tells you exactly what went wrong. Here are the five most common causes of EIN application rejections and what each one means for your reapplication.
                 </p>
+
+                <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                  <table className="w-full text-left text-sm">
+                    <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Reason</th><th className="px-4 py-3 font-semibold">Cause</th><th className="px-4 py-3 font-semibold">Fix</th><th className="px-4 py-3 font-semibold">Prevention</th></tr></thead>
+                    <tbody>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Duplicate Application</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Entity already has an EIN on file with IRS</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Locate existing EIN via CP 575 letter, prior tax returns, or call (800) 829-4933</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check with registered agent before applying; search prior IRS correspondence</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Name Mismatch</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SS-4 name differs from Articles of Organization/Incorporation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Copy business name character-for-character from formation documents to Line 1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Include full legal designator (LLC, Inc., Corp.); never put DBA on Line 1</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Invalid Responsible Party</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SSN/ITIN does not match name in IRS records, or entity listed instead of individual</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Verify name matches SSA records exactly; update name with SSA if recently changed</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Always list an individual person (not a business); double-check 9-digit SSN/ITIN</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Incomplete Form</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required fields left blank, entity type contradicts other fields, or form is illegible</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Start fresh with clean SS-4; fill all required fields (Lines 1, 4a-4b, 7a-7b, 8a, 9a, signature)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use typed (not handwritten) form; verify fax quality before sending</td></tr>
+                      <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Formatting / Data Errors</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wrong date format, invalid state code, or address not in US format</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use MM/DD/YYYY dates; spell out state names; include ZIP code on US addresses</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Follow SS-4 instructions line by line; use ein.so for pre-submission review</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Online vs Fax Rejection Notices</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you applied online through the IRS website, you receive the rejection immediately on screen. If you applied by fax using{" "}
                   <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">
@@ -68,9 +84,11 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How Duplicate Rejections Happen</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   A duplicate EIN rejection means the IRS already has an EIN on file for a business entity that matches your application. This is the single most common reason for EIN rejections. It happens when someone previously applied for an EIN using the same business name and responsible party combination, when a registered agent filed on your behalf without telling you, or when you forgot about a previous application you submitted months or years ago.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Locating an Existing EIN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS assigns one EIN per entity. If your LLC or corporation already has an EIN, the IRS will not issue a second one. Instead, you need to locate the existing EIN. You can find it on your original IRS confirmation letter (CP 575), on previously filed tax returns, by calling the IRS Business and Specialty Tax Line at (800) 829-4933, or by checking with your registered agent or formation service.
                 </p>
@@ -98,6 +116,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">3 Common Causes of Name Mismatches</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   A name mismatch rejection occurs when the business name on your Form SS-4 does not match what the IRS expects. This happens for 3 common reasons. The business name is spelled differently than it appears on your Articles of Organization or Articles of Incorporation. The legal designator (LLC, Inc., Corp.) is omitted or uses an abbreviation the IRS does not recognize. A DBA (doing business as) name is included where the legal name should go.
                 </p>
@@ -131,6 +150,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Responsible Party Validation Rules</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS requires every EIN application to list a responsible party, which is an individual person (not an entity) who controls or manages the business. The responsible party&apos;s name, SSN or ITIN (if applicable), and address must be accurate. If the SSN or ITIN you provided does not match the name in IRS records, the application gets rejected.
                 </p>
@@ -157,6 +177,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Required Fields That Trigger Rejections</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The IRS rejects Form SS-4 submissions when required fields are blank, when entity type selections contradict other fields, or when the form is illegible (common with fax submissions). Required fields include the legal business name (Line 1), the responsible party name and identifier (Lines 7a-7b), the business address (Lines 4a-4b), the entity type (Line 9), the reason for applying (Line 10), and the signature with date.
                 </p>
@@ -242,6 +263,7 @@ export default function EinRejectionGuideClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Pre-Submission Review Catches 95% of Errors</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   ein.so eliminates the guesswork from EIN applications. When you use our service, we review every detail of your application before it reaches the IRS. We verify your business name matches your formation documents, confirm the entity type and responsible party information are correct, check for formatting issues, and ensure all required fields are complete. This pre-submission review catches the errors that cause over 95% of EIN rejections.
                 </p>

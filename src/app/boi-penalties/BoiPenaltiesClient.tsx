@@ -31,8 +31,49 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
         </div>
       </section>
 
-      {/* Civil Penalties */}
+      {/* Penalty Escalation Table */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                BOI Penalty Escalation: <span className="font-display gradient-text">How Fast Fines Accumulate</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Time Overdue</th><th className="px-4 py-3 font-semibold">Civil Penalty (at $591/day)</th><th className="px-4 py-3 font-semibold">Criminal Exposure</th><th className="px-4 py-3 font-semibold">Total Maximum Liability</th></tr></thead>
+                  <tbody>
+                    {[
+                      { time: "1 day", civil: "$591", criminal: "Up to $10,000 + 2 years", total: "$10,591" },
+                      { time: "1 week (7 days)", civil: "$4,137", criminal: "Up to $10,000 + 2 years", total: "$14,137" },
+                      { time: "2 weeks (14 days)", civil: "$8,274", criminal: "Up to $10,000 + 2 years", total: "$18,274" },
+                      { time: "1 month (30 days)", civil: "$17,730", criminal: "Up to $10,000 + 2 years", total: "$27,730" },
+                      { time: "3 months (90 days)", civil: "$53,190", criminal: "Up to $10,000 + 2 years", total: "$63,190" },
+                      { time: "6 months (180 days)", civil: "$106,380", criminal: "Up to $10,000 + 2 years", total: "$116,380" },
+                      { time: "1 year (365 days)", civil: "$215,715", criminal: "Up to $10,000 + 2 years", total: "$225,715" },
+                      { time: "2 years (730 days)", civil: "$431,430", criminal: "Up to $10,000 + 2 years", total: "$441,430" },
+                      { time: "No cap", civil: "Unlimited", criminal: "Per violation", total: "Unlimited" },
+                    ].map((row, i) => (
+                      <tr key={row.time} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.time}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.civil}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.criminal}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.total}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* Civil Penalties */}
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -42,11 +83,13 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">$591 Per Day With No Cap</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The civil penalty for failing to file a BOI report is <strong className="text-[var(--color-text)]">$500 per day</strong> for each day the violation continues. There is no maximum cap on this penalty. That means the fines accumulate indefinitely until you file the required report or the government takes enforcement action. A company that is 30 days late faces $15,000 in penalties. A company that is 90 days late faces $45,000. A company that is one year late faces $182,500.
+                  The civil penalty for failing to file a BOI report is <strong className="text-[var(--color-text)]">$591 per day</strong> (adjusted for inflation from the statutory $500) for each day the violation continues. There is no maximum cap on this penalty. That means the fines accumulate indefinitely until you file the required report or the government takes enforcement action. A company that is 30 days late faces $17,730 in penalties. A company that is 90 days late faces $53,190. A company that is one year late faces $215,715.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Penalties for Inaccurate Filings</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  These penalties also apply to filing a report with false or incomplete information. If FinCEN determines that your report contains inaccurate beneficial ownership data, the $500/day penalty begins accruing from the date the inaccurate report was due to be corrected. This makes accuracy just as important as timeliness. Filing a sloppy report to meet the deadline can expose you to the same penalties as not filing at all.
+                  These penalties also apply to filing a report with false or incomplete information. If FinCEN determines that your report contains inaccurate beneficial ownership data, the $591/day penalty begins accruing from the date the inaccurate report was due to be corrected. FinCEN provides a 90-day safe harbor for voluntary corrections, but only if you catch and fix errors yourself. Filing a sloppy report to meet the deadline can expose you to the same penalties as not filing at all.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The civil penalties apply to the reporting company itself, but individual officers and managers who cause the failure can also face personal liability. FinCEN has the authority to assess penalties against any person who willfully fails to file or willfully causes a company to provide false information. This personal liability makes BOI compliance a matter of individual risk, not just corporate risk.
@@ -68,8 +111,9 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Federal Criminal Charges for Willful Violations</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Beyond civil fines, willful violation of the BOI reporting requirements is a federal crime. The criminal penalties include fines of up to <strong className="text-[var(--color-text)]">$10,000</strong> and imprisonment for up to <strong className="text-[var(--color-text)]">2 years</strong>. Criminal penalties apply to individuals who knowingly and willfully provide false or fraudulent beneficial ownership information, or who knowingly and willfully fail to file a required report.
+                  Beyond civil fines, willful violation of the BOI reporting requirements is a federal crime under 31 USC Section 5336(h). The criminal penalties include fines of up to <strong className="text-[var(--color-text)]">$10,000</strong> and imprisonment for up to <strong className="text-[var(--color-text)]">2 years</strong>. Criminal penalties apply to individuals who knowingly and willfully provide false or fraudulent beneficial ownership information, or who knowingly and willfully fail to file a required report.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The criminal standard requires &quot;willfulness,&quot; meaning the government must prove that the individual knew about the filing requirement and deliberately chose not to comply. Ignorance of the requirement may serve as a defense against criminal charges, but it does not protect against civil penalties. This distinction means that even if you avoid criminal prosecution by claiming you did not know about BOI reporting, you can still face the $500/day civil fines.
@@ -83,8 +127,49 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
         </div>
       </section>
 
-      {/* Who Is Liable? */}
+      {/* BOI Penalty Types Comparison */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                Civil vs Criminal Penalties: <span className="font-display gradient-text">Complete Comparison</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Civil Penalties</th><th className="px-4 py-3 font-semibold">Criminal Penalties</th></tr></thead>
+                  <tbody>
+                    {[
+                      { factor: "Legal Standard", civil: "Strict liability (no intent needed)", criminal: "Willful violation required" },
+                      { factor: "Daily Fine", civil: "$591/day (inflation-adjusted)", criminal: "N/A" },
+                      { factor: "Maximum Fine", civil: "No cap (unlimited)", criminal: "$10,000 per violation" },
+                      { factor: "Imprisonment", civil: "None", criminal: "Up to 2 years" },
+                      { factor: "Who Faces It", civil: "Company and responsible individuals", criminal: "Individuals who willfully violate" },
+                      { factor: "Trigger", civil: "Late filing, inaccurate filing, failure to update", criminal: "Knowingly false info or willful refusal" },
+                      { factor: "Defense Available", civil: "Limited (file to stop accrual)", criminal: "Lack of knowledge/willfulness" },
+                      { factor: "Safe Harbor", civil: "90-day correction window for inaccuracies", criminal: "Correction within 90 days may prevent charges" },
+                      { factor: "Enforcement Agency", civil: "FinCEN (Treasury Department)", criminal: "DOJ (Department of Justice)" },
+                      { factor: "Statute Reference", civil: "31 USC 5321", criminal: "31 USC 5336(h)" },
+                    ].map((row, i) => (
+                      <tr key={row.factor} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.factor}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.civil}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.criminal}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* Who Is Liable? */}
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -94,8 +179,9 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Personal Liability Extends Beyond the Company</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The Corporate Transparency Act makes individuals personally liable for BOI violations, not just the company. Any person who willfully provides false information, willfully fails to file a required report, or willfully causes a company to file inaccurate information faces personal civil and criminal penalties. This includes company founders, officers, directors, managers, and anyone with authority over the company&apos;s filings.
+                  The Corporate Transparency Act makes individuals personally liable for BOI violations, not just the company. 5 categories of people face personal exposure: founders, officers, directors, managers, and anyone with authority over the company&apos;s filings. Any person who willfully provides false information, willfully fails to file a required report, or willfully causes a company to file inaccurate information faces personal civil and criminal penalties.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For LLCs, the members and managers who control the company&apos;s operations bear responsibility. For corporations, the officers and directors bear responsibility. If you delegate the filing to an employee or a third party and they fail to file or file inaccurately, you may still be held liable if you had the authority and obligation to ensure compliance. The duty to file cannot be delegated away.
@@ -120,8 +206,9 @@ export default function BoiPenaltiesClient({ faqs }: { faqs: { q: string; a: str
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">File Immediately to Limit Exposure</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  If you missed your BOI filing deadline, file immediately. Every day you wait adds $500 to your potential penalty exposure. There is no formal amnesty program for late filers, but filing voluntarily before enforcement action demonstrates good faith and may influence how FinCEN handles your case. The worst outcome is doing nothing and letting penalties accumulate indefinitely.
+                  If you missed your BOI filing deadline, file immediately. Every day you wait adds $591 to your potential penalty exposure. There is no formal amnesty program for late filers, but filing voluntarily before enforcement action demonstrates good faith and may influence how FinCEN handles your case. The worst outcome is doing nothing and letting penalties accumulate indefinitely. A company that missed the January 1, 2025 deadline and files on April 16, 2026 faces a theoretical exposure of over $278,000 in civil penalties alone.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For inaccurate reports, FinCEN provides a 90-day safe harbor for corrections. If you discover that information in your BOI report is inaccurate and you voluntarily correct it within 90 days of the original filing, you may avoid penalties for the inaccuracy. This safe harbor applies only to corrections, not to reports that were never filed. To use it, submit a corrected BOI report through FinCEN&apos;s filing system within 90 days of the original report date.

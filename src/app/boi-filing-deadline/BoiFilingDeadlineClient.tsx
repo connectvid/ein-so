@@ -31,8 +31,51 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
         </div>
       </section>
 
-      {/* BOI Filing Deadline by Formation Date */}
+      {/* Deadline by Company Type Table */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                BOI Filing Deadline by <span className="font-display gradient-text">Company Type</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Company Type</th><th className="px-4 py-3 font-semibold">Must File BOI?</th><th className="px-4 py-3 font-semibold">Deadline Rule</th><th className="px-4 py-3 font-semibold">Estimated Filers</th></tr></thead>
+                  <tbody>
+                    {[
+                      { type: "Single-Member LLC", file: "Yes", deadline: "Based on formation date", filers: "~8 million" },
+                      { type: "Multi-Member LLC", file: "Yes", deadline: "Based on formation date", filers: "~4 million" },
+                      { type: "S-Corporation", file: "Yes", deadline: "Based on formation date", filers: "~5 million" },
+                      { type: "C-Corporation", file: "Yes", deadline: "Based on formation date", filers: "~1.7 million" },
+                      { type: "Limited Partnership (LP)", file: "Yes", deadline: "Based on formation date", filers: "~400,000" },
+                      { type: "LLP", file: "Yes", deadline: "Based on formation date", filers: "~300,000" },
+                      { type: "Foreign-Owned US LLC", file: "Yes", deadline: "Based on US registration date", filers: "~420,000" },
+                      { type: "Sole Proprietor (no LLC)", file: "No", deadline: "N/A (no state filing)", filers: "N/A" },
+                      { type: "General Partnership (no filing)", file: "No", deadline: "N/A (no state filing)", filers: "N/A" },
+                      { type: "Large Company (20+ employees, $5M+)", file: "Exempt", deadline: "N/A (meets exemption)", filers: "Exempt" },
+                      { type: "501(c) Tax-Exempt Org", file: "Exempt", deadline: "N/A", filers: "~1.5 million exempt" },
+                    ].map((row, i) => (
+                      <tr key={row.type} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.type}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.file}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.deadline}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.filers}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* BOI Filing Deadline by Formation Date */}
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -40,7 +83,7 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
                 BOI Filing Deadline by <span className="font-display gradient-text">Formation Date</span>
               </h2>
               <p className="text-[var(--color-text-muted)] mb-8 leading-relaxed">
-                FinCEN set different deadlines based on when your company was formed or registered. Here is the complete
+                FinCEN set different deadlines based on when your company was formed or registered. 32.6 million companies fall under this requirement. Here is the complete
                 breakdown:
               </p>
             </AnimateIn>
@@ -108,6 +151,45 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
         </div>
       </section>
 
+      {/* Penalty Accumulation Timeline */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                Penalty Accumulation <span className="font-display gradient-text">by Days Late</span>
+              </h2>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Days Late</th><th className="px-4 py-3 font-semibold">Civil Penalty Total</th><th className="px-4 py-3 font-semibold">Weekly Rate</th><th className="px-4 py-3 font-semibold">Impact</th></tr></thead>
+                  <tbody>
+                    {[
+                      { days: "1 day", total: "$591", rate: "$591/day", impact: "Penalty clock starts" },
+                      { days: "7 days", total: "$4,137", rate: "$4,137/week", impact: "Exceeds ein.so BOI filing cost 84x" },
+                      { days: "14 days", total: "$8,274", rate: "$4,137/week", impact: "Exceeds average small business weekly profit" },
+                      { days: "30 days", total: "$17,730", rate: "$4,137/week", impact: "Major financial impact for any small business" },
+                      { days: "90 days", total: "$53,190", rate: "$4,137/week", impact: "Potential business-ending liability" },
+                      { days: "180 days", total: "$106,380", rate: "$4,137/week", impact: "Exceeds most LLC annual revenue" },
+                      { days: "365 days", total: "$215,715", rate: "$4,137/week", impact: "Plus up to $10,000 criminal fines" },
+                    ].map((row, i) => (
+                      <tr key={row.days} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.days}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.total}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.rate}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.impact}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
       {/* What Happens If You Miss the BOI Filing Deadline? */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
@@ -119,9 +201,10 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Immediate and Escalating Consequences</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Missing your BOI filing deadline triggers immediate and escalating consequences. The penalties are designed
-                  to be severe enough to compel compliance, and FinCEN has the authority to enforce them aggressively.
+                  $591 per day in civil penalties begins accruing immediately. Missing your BOI filing deadline triggers immediate and escalating consequences. The penalties are designed
+                  to be severe enough to compel compliance, and FinCEN has the authority to enforce them aggressively. A company that is 1 week late owes $4,137. A company that is 1 month late owes $17,730. A company that is 6 months late owes $106,380.
                 </p>
 
                 <div className="bg-red-50 rounded-2xl border border-red-200 p-6">
@@ -240,8 +323,9 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Legal Challenges and Current Status</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The BOI filing requirement under the Corporate Transparency Act has faced legal challenges since its
+                  At least 6 federal lawsuits have challenged the CTA since 2022. The BOI filing requirement under the Corporate Transparency Act has faced legal challenges since its
                   inception. Several lawsuits have questioned the constitutionality of the reporting mandate, and courts
                   have issued temporary injunctions at multiple points that briefly paused enforcement.
                 </p>
@@ -280,10 +364,11 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Math of Delay</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Every day you delay is another $500 added to your potential liability. There is zero benefit to waiting and
-                  enormous risk in procrastinating. The filing process is not complicated, it just requires gathering the right
-                  information and submitting it through the proper channels.
+                  At $591/day, every week of delay costs $4,137 and every month costs $17,730. There is zero benefit to waiting and
+                  enormous risk in procrastinating. The filing process is not complicated -- it takes 30 minutes on average and requires gathering the right
+                  information and submitting it through the proper channels. The filing itself is free through FinCEN, or $49 through ein.so.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   If you formed your LLC recently and need an EIN before filing your BOI report, ein.so can help with both.

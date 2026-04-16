@@ -49,8 +49,22 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Shopify is a payment facilitator, which means it processes transactions on behalf of sellers. Under US tax law, Shopify must report seller income to the IRS using Form 1099-K when a seller exceeds $600 in gross sales during a calendar year. To generate this form, Shopify needs your Tax Identification Number -- either an SSN or an EIN.
+                Shopify reports seller income to the IRS once gross sales exceed $600 per year using Form 1099-K. Over 4 million Shopify stores operate worldwide, and every US-facing store needs a TIN for tax compliance. Shopify is a payment facilitator, which means it processes transactions on behalf of sellers.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Shopify Tax Requirements by Seller Location</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">US-Based Seller</th><th className="px-4 py-3 font-semibold">Non-US Seller (with US LLC)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">TIN Required</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SSN or EIN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN (mandatory)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">1099-K Threshold</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$600 in gross sales</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$600 in gross sales</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Shopify Payments Access</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Available (lowest fees)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Requires US bank account + EIN</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Sales Tax Collection</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required in nexus states</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required if economic nexus met ($100K/200 transactions)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Transaction Fee (Shopify Payments)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2.4% + $0.30 (Advanced plan)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2.4% + $0.30 (Advanced plan)</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Beyond tax reporting, Shopify Payments (the built-in payment processor) requires a TIN during activation. Without Shopify Payments, you are limited to third-party payment gateways that charge additional transaction fees. Activating Shopify Payments with your EIN gives you the lowest transaction rates and the smoothest checkout experience for your customers.
@@ -172,8 +186,10 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Beyond Shopify Payments, your EIN is used in Shopify&apos;s tax settings to handle sales tax collection and income tax reporting. Proper tax configuration prevents compliance issues and ensures smooth operations as your store grows.
+                45 US states plus DC impose sales tax, and Shopify sellers with economic nexus must collect in each. Beyond Shopify Payments, your EIN is used in Shopify&apos;s tax settings to handle sales tax collection and income tax reporting. Proper tax configuration prevents compliance issues and ensures smooth operations as your store grows.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Shopify Tax Settings Configuration</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 In your Shopify admin, go to <strong className="text-[var(--color-text)]">Settings &gt; Taxes and Duties</strong>. Here you configure which regions you collect sales tax in, your tax registration numbers for each state, and your federal EIN. If you use Shopify Tax (the automated tax calculation feature), your EIN is used to register with state tax authorities.
@@ -206,8 +222,10 @@ export default function EinForShopifySellersClient({ faqs }: { faqs: { q: string
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Both Shopify and Amazon require a TIN for US tax compliance, but the implementation differs. Amazon blocks your account entirely until you complete the tax interview. Shopify lets you create a store and add products, but restricts payment processing until you provide your EIN.
+                Both platforms require a TIN, but Shopify is more flexible during setup. Amazon blocks 100% of seller functionality until the tax interview is complete. Shopify lets you build your store first and restricts only payment processing until you provide your EIN.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Shopify vs Amazon: EIN Requirement Comparison</h3>
 
               <div className="overflow-x-auto">
                 <table className="w-full text-sm border border-[var(--color-border)] rounded-xl overflow-hidden">

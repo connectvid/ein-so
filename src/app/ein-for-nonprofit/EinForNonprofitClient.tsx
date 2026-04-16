@@ -49,8 +49,10 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nonprofits are separate legal entities. Even though they do not pay income tax (once granted exempt status), they still have extensive reporting obligations to the IRS and need an EIN for all of them:
+                1.5 million tax-exempt organizations are registered with the IRS, and every one has an EIN. Nonprofits are separate legal entities. Even though they do not pay income tax (once granted exempt status), they still have 5 core reporting obligations to the IRS that require an EIN:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 Core EIN Requirements for Nonprofits</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -87,8 +89,22 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN is one of the earliest steps in forming a nonprofit. Here is the typical sequence:
+                The EIN is step 2 of 5 in the nonprofit formation process, and it takes minutes to complete. The full 501(c)(3) determination takes 3-6 months, so the EIN should never be the bottleneck. Here is the typical timeline:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Nonprofit EIN Timeline: From Incorporation to Tax-Exempt Status</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Step</th><th className="px-4 py-3 font-semibold">Action</th><th className="px-4 py-3 font-semibold">Timeline</th><th className="px-4 py-3 font-semibold">Cost</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Incorporate with state</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1-7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$50-$300 (varies by state)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">2</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Apply for EIN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant (online) or 4-7 days (fax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (IRS) or $49-$97 (ein.so)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">3</td><td className="px-4 py-3 text-[var(--color-text-muted)]">File Form 1023 or 1023-EZ</td><td className="px-4 py-3 text-[var(--color-text-muted)]">3-6 months (1023) or 2-4 weeks (1023-EZ)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$600 (1023) or $275 (1023-EZ)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">4</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Open bank account</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1-5 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (most nonprofit accounts are free)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">5</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Register for state tax exemption</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2-8 weeks (varies by state)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$0-$100 (varies by state)</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <ol className="space-y-4 text-[var(--color-text-muted)]">
                 <li className="flex gap-4">
@@ -132,8 +148,22 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The process depends on whether the responsible party (a principal officer of the nonprofit) has an SSN or ITIN. The most critical detail: select &quot;Other nonprofit organization&quot; as your entity type.
+                2 application methods exist: online (instant, free) and fax (4-7 business days). The most critical detail: select &quot;Other nonprofit organization&quot; as your entity type -- not &quot;Corporation.&quot; Selecting the wrong type is the #1 error on nonprofit EIN applications.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Form 1023 vs Form 1023-EZ: Which Do You Need?</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Form 1023 (Full)</th><th className="px-4 py-3 font-semibold">Form 1023-EZ (Streamlined)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Filing Fee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$600</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$275</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Processing Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">3-6 months</td><td className="px-4 py-3 text-[var(--color-text-muted)]">2-4 weeks</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Eligibility</td><td className="px-4 py-3 text-[var(--color-text-muted)]">All nonprofits</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Gross receipts under $50,000/yr and assets under $250,000</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Form Length</td><td className="px-4 py-3 text-[var(--color-text-muted)]">26 pages + attachments</td><td className="px-4 py-3 text-[var(--color-text-muted)]">3 pages</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">EIN Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (before filing)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (before filing)</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-6">
                 <h3 className="text-lg font-bold text-[var(--color-text)] mb-4">For US-Based Nonprofits (responsible party has SSN or ITIN):</h3>
@@ -178,8 +208,10 @@ export default function EinForNonprofitClient({ faqs }: { faqs: { q: string; a: 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nonprofits frequently make errors on the EIN application that cause delays or complications with the subsequent 501(c)(3) filing. Here are the most common mistakes and how to avoid them:
+                4 errors cause 90% of nonprofit EIN application delays. Nonprofits frequently make these mistakes that cause complications with the subsequent 501(c)(3) filing. Here are the most common mistakes and how to avoid them:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Error #1: Wrong Entity Type Selection</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Selecting the wrong entity type.</strong> The most common error is selecting &quot;Corporation&quot; instead of &quot;Other nonprofit organization.&quot; While many nonprofits are incorporated, the IRS treats nonprofit entities differently from for-profit corporations. Selecting the wrong type can cause the IRS to set up your account incorrectly, leading to mismatched records when you file Form 1023.

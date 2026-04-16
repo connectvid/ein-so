@@ -13,11 +13,15 @@ const comparisonRows = [
   { label: "Digits", ein: "9 digits", itin: "9 digits" },
   { label: "Issued By", ein: "IRS", itin: "IRS" },
   { label: "Application Form", ein: "Form SS-4", itin: "Form W-7" },
-  { label: "Cost (IRS)", ein: "Free", itin: "Free (but CAA fees or mailing costs may apply)" },
-  { label: "Processing Time", ein: "Instant (online) or 4-7 days (fax)", itin: "6-11 weeks" },
+  { label: "Cost (IRS)", ein: "Free", itin: "Free (but CAA fees of $150-$300 may apply)" },
+  { label: "Processing Time", ein: "Instant (online) or 4 business days (fax)", itin: "6-11 weeks" },
   { label: "Requires SSN?", ein: "No (for non-residents filing by fax)", itin: "No (it replaces an SSN)" },
-  { label: "Used to File", ein: "Business tax returns (1120, 1065, etc.)", itin: "Personal tax returns (1040-NR, etc.)" },
+  { label: "Used to File", ein: "Business tax returns (1120, 1065, 1041, 990)", itin: "Personal tax returns (1040-NR, 1040)" },
   { label: "Opens Bank Account?", ein: "Yes, business bank accounts", itin: "Yes, personal bank accounts at some institutions" },
+  { label: "Expires?", ein: "Never (permanent once assigned)", itin: "After 3 consecutive years of non-use on a tax return" },
+  { label: "Authorizes Employment?", ein: "No (business ID only)", itin: "No (tax filing only, no work authorization)" },
+  { label: "Documents Required", ein: "Business formation docs + passport", itin: "Form W-7 + tax return + original ID (passport)" },
+  { label: "ein.so Service", ein: "$49 (Standard) or $97 (Express)", itin: "Not offered by ein.so" },
 ];
 
 export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string }[] }) {
@@ -90,8 +94,88 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
         </div>
       </section>
 
-      {/* What Is an EIN? */}
+      {/* When Do You Need EIN vs ITIN vs Both? */}
       <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
+                When You Need EIN Only vs ITIN Only vs <span className="font-display gradient-text">Both</span>
+              </h2>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-8">
+                The number you need depends on your specific situation. This table covers the 8 most common scenarios for non-US residents.
+              </p>
+            </AnimateIn>
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Scenario</th>
+                      <th className="px-4 py-3 font-semibold">Need EIN?</th>
+                      <th className="px-4 py-3 font-semibold">Need ITIN?</th>
+                      <th className="px-4 py-3 font-semibold">Why</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Forming a US LLC (no personal US income)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN for business taxes (Form 5472); no personal return needed</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Selling on Amazon (through US LLC)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN for Seller Central tax interview and 1099-K</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Freelancing for US clients (no US entity)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">ITIN to file Form 1040-NR and claim treaty benefits</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">US real estate investment (through LLC)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN for LLC; ITIN for personal return reporting rental income</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Receiving US royalties or dividends</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">ITIN to file W-8BEN and reduce withholding tax from 30%</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Opening a US personal bank account</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">ITIN serves as personal tax ID for bank compliance</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">US LLC + freelancing for US clients</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN for business; ITIN for personal tax return and treaty claims</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Incorporating a C-Corp (no personal US income)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">EIN for Form 1120; corporation is separate tax entity</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* What Is an EIN? */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -112,12 +196,11 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   business bank account, apply for business licenses, and hire employees. Without an EIN, your business
                   cannot operate legally in the US tax system.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How to Get an EIN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  US residents with an SSN can apply for an EIN online at irs.gov in minutes. Non-US residents without an
-                  SSN must apply by faxing Form SS-4 to the IRS. This fax-based process takes 4 to 7 business
-                  days. At ein.so, we handle the entire fax process for you.{" "}
+                  US residents with an SSN can apply for an EIN online at irs.gov in 15 minutes and receive it instantly. Non-US residents without an SSN must apply by faxing Form SS-4 to the IRS at 855-215-1627. This fax-based process takes 4 business days. At ein.so, we handle the entire fax process for $49 (Standard, 14 business days) or $97 (Express, 7 business days).{" "}
                   <Link href="/what-is-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">
-                    learn more about what an EIN is and why you need one
+                    Learn more about what an EIN is and why you need one
                   </Link>.
                 </p>
               </div>
@@ -148,16 +231,18 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                   digit 9. Despite looking similar to an SSN, an ITIN does not authorize you to work in the US, does not
                   make you eligible for Social Security benefits, and does not change your immigration status.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How to Get an ITIN</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   To apply for an ITIN, you must complete <strong className="text-[var(--color-text)]">Form W-7</strong>{" "}
-                  and mail it to the IRS along with your federal tax return and original identification documents (or
+                  and mail it to the IRS Austin Processing Center along with your federal tax return and original identification documents (or
                   certified copies). Alternatively, you can apply through an IRS-authorized Certifying Acceptance Agent
-                  (CAA). Processing takes about 6 to 11 weeks, significantly longer than the EIN process.
+                  (CAA), which costs $150-$300 but lets you keep your passport. Processing takes 6 to 11 weeks, significantly longer than the EIN process.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">ITIN Expiration and Renewal Rules</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  ITINs expire if not used on a federal tax return for three consecutive years, or if the ITIN was issued
+                  ITINs expire if not used on a federal tax return for 3 consecutive years, or if the ITIN was issued
                   before 2013 and falls under the IRS&apos;s rolling renewal schedule. You must renew an expired ITIN
-                  before filing a return that requires it.
+                  before filing a return that requires it. Renewal requires submitting Form W-7 again with updated identification documents.
                 </p>
               </div>
             </AnimateIn>
@@ -320,18 +405,19 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  All four of these acronyms refer to tax identification numbers issued or recognized by the IRS, and it
-                  is easy to confuse them. Here is how they relate to each other:
+                  All four of these acronyms refer to tax identification numbers issued or recognized by the IRS. Here is how they relate to each other:
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">TIN: The Umbrella Term</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">TIN (Tax Identification Number)</strong> is the umbrella
                   term. It is not a specific number type. It refers to any number used to identify a taxpayer. An
-                  SSN, ITIN, and EIN are all types of TINs.
+                  SSN, ITIN, and EIN are all types of TINs. When an IRS form or bank asks for your &quot;TIN,&quot; provide the number that matches your situation.
                 </p>
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SSN: For US Citizens and Authorized Workers</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">SSN (Social Security Number)</strong> is the most
-                  common TIN for individuals. It is issued to US citizens, permanent residents, and certain work-visa
-                  holders. An SSN authorizes employment in the US and provides access to Social Security benefits.
+                  common TIN for individuals. It is issued by the Social Security Administration (SSA) to US citizens, permanent residents, and certain work-visa
+                  holders. An SSN authorizes employment in the US, provides access to Social Security benefits, and is required for the IRS online EIN application.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   <strong className="text-[var(--color-text)]">ITIN</strong> is the personal TIN for individuals who

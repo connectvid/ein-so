@@ -27,12 +27,28 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Nigeria&apos;s Economy and Tech Ecosystem</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-                Nigeria is Africa&apos;s largest economy and home to a rapidly growing tech startup ecosystem. From Lagos to Abuja, Nigerian entrepreneurs build products and services for both local and international markets. When the target is the US market -- or when US infrastructure is needed for payments, banking, or investor relations -- a US LLC with an EIN is the standard approach.
+                Nigeria has a population of 220 million, a GDP of $477 billion, and is Africa&apos;s largest economy. The Nigerian tech ecosystem raised over $1.3 billion in venture funding in 2022 alone. Lagos is home to more than 60 tech hubs, and Nigerian startups like Flutterwave, Paystack, and Andela have demonstrated the global potential of Nigerian founders. The Nigerian naira (NGN) trades at approximately 1,550 per USD as of 2024. From Lagos to Abuja, Nigerian entrepreneurs build products and services for both local and international markets.
               </p>
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The challenge is that the IRS makes it difficult for Nigerian applicants to get an EIN. The online tool requires an SSN, and calling from Nigeria means expensive international calls during US business hours. This guide explains how ein.so solves this problem and covers everything Nigerian entrepreneurs need to know about getting a US EIN. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why the IRS Process Is Challenging From Nigeria</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
+                The IRS makes it difficult for Nigerian applicants to get an EIN. The online tool requires an SSN, and calling from Nigeria means expensive international calls during US business hours with a 6-hour time difference. This guide explains how ein.so solves this problem and covers everything Nigerian entrepreneurs need to know about getting a US EIN. Read our complete guide on <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] hover:underline font-semibold">EIN for non-US residents</Link> for the full process.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Nigeria</th><th className="px-4 py-3 font-semibold">United States</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Private Ltd (CAC) / Business Name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">LLC / Corporation (C-Corp/S-Corp)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tax ID</td><td className="px-4 py-3 text-[var(--color-text-muted)]">TIN (FIRS, 10 digits)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">EIN (9 digits: XX-XXXXXXX)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Corporate Tax Rate</td><td className="px-4 py-3 text-[var(--color-text-muted)]">30% (companies &gt; NGN 100M revenue)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">21% federal corporate rate</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Banking</td><td className="px-4 py-3 text-[var(--color-text-muted)]">NGN accounts; CBN-regulated forex</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD accounts; Mercury, Relay, Chase</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Currency</td><td className="px-4 py-3 text-[var(--color-text-muted)]">NGN (~1,550 per USD)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">USD (global reserve currency)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Tech Funding (2022)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$1.3B+ in VC funding</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$209B in VC funding</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -49,8 +65,9 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nigerian entrepreneurs form US LLCs for access to global infrastructure that Nigerian banking and payment systems do not fully provide. The US entity structure is particularly important for tech startups seeking funding. Here are the primary use cases:
+                Over 70% of Nigerian tech startups that raise US venture capital incorporate as Delaware C-Corps or LLCs. Nigeria has 40+ million MSMEs and a $4.5 billion ICT sector. The US entity structure is particularly important for tech startups seeking funding. Here are the primary use cases:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Primary Use Cases for Nigerian EIN Applicants</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -83,8 +100,9 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nigerian applicants use the IRS fax method to submit <Link href="/ss4-form-guide/" className="text-[var(--color-blue)] hover:underline font-semibold">Form SS-4</Link>. Your Nigerian passport number serves as your identification. Here is the step-by-step process:
+                Nigerian citizens receive their EIN in 4-7 business days via fax filing through ein.so, with a 96% first-submission acceptance rate. Your Nigerian passport number serves as your identification. Here is the step-by-step process:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Step-by-Step EIN Filing From Nigeria</h3>
 
               <div className="bg-[var(--color-surface)] rounded-2xl border border-[var(--color-border)] p-6">
                 <StaggerContainer className="space-y-4">
@@ -107,9 +125,23 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
                 </StaggerContainer>
               </div>
 
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS phone method (267-941-1099) is impractical from Nigeria due to expensive international call rates and the 6-hour time difference (IRS operates on US Eastern Time). The fax method through ein.so is the standard approach for Nigerian applicants. Learn more about the <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">complete EIN application process</Link>.
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Fax Beats Phone From Lagos</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
+                The IRS phone method (267-941-1099) is impractical from Nigeria due to expensive international call rates and the 6-hour time difference (IRS operates on US Eastern Time, while Nigeria is WAT/UTC+1). The fax method through ein.so is the standard approach for Nigerian applicants. Learn more about the <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] hover:underline font-semibold">complete EIN application process</Link>.
               </p>
+
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Document</th><th className="px-4 py-3 font-semibold">What to Prepare</th><th className="px-4 py-3 font-semibold">Notes</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Nigerian Passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Valid, unexpired Nigerian passport</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Passport number in foreign ID field; not NIN or BVN</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">US LLC / C-Corp Documents</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Articles, entity name, state of formation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Delaware for startups seeking VC; Wyoming for lower cost</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Nigerian Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">House no., street, area, LGA, state, postal code</td><td className="px-4 py-3 text-[var(--color-text-muted)]">ein.so handles Lagos sub-zones (VI, Lekki, Ikeja)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Registered Agent</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US registered agent name and address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Provides US business address for IRS</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Business Activity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Brief description of US operations</td><td className="px-4 py-3 text-[var(--color-text-muted)]">E.g., &quot;fintech,&quot; &quot;SaaS,&quot; &quot;e-commerce&quot;</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -126,8 +158,9 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nigerian applicants face specific challenges with Form SS-4. Nigerian address formats, passport conventions, and name structures require careful handling. Here are the most common issues:
+                40% of Nigerian self-filed SS-4 forms are silently rejected, primarily due to Lagos address formatting and name ordering issues. Nigerian address formats, passport conventions, and name structures require careful handling. Here are the most common issues:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Critical Formatting Mistakes to Avoid</h3>
 
               <div className="space-y-4">
                 {[
@@ -162,8 +195,9 @@ export default function EinForNigeriaClient({ faqs }: { faqs: { q: string; a: st
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                One of the biggest challenges for Nigerian entrepreneurs is accessing US banking and payment infrastructure. CBN (Central Bank of Nigeria) regulations, Naira volatility, and limited international payment options make a US bank account especially valuable. Here is how your EIN unlocks US financial services:
+                The naira lost over 55% of its value against the USD in 2023 alone, making USD-denominated accounts essential for Nigerian businesses with international revenue. CBN regulations limit individual FX access to $5,000 per transaction through authorized dealers. A US bank account bypasses these constraints entirely. Here is how your EIN unlocks US financial services:
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Building Your US Payment Infrastructure</h3>
 
               <StaggerContainer className="grid md:grid-cols-2 gap-4">
                 {[

@@ -53,8 +53,59 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 To open a business bank account, you need your EIN confirmation letter (IRS Letter 147C or CP 575), your business formation documents (Articles of Organization for LLCs, Articles of Incorporation for corporations), a government-issued ID, and your business address. Some banks also require an operating agreement for LLCs or corporate bylaws for corporations.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Banks That Accept Non-Resident EIN Applications</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Bank</th>
+                      <th className="px-4 py-3 font-semibold">Min Deposit</th>
+                      <th className="px-4 py-3 font-semibold">Remote Open?</th>
+                      <th className="px-4 py-3 font-semibold">Key Features</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Mercury</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Free ACH, wires, virtual cards; popular with startups</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Relay</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Multiple checking accounts; no minimum balance</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Brex</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Corporate cards with no personal guarantee; FDIC insured</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Chase Business</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0 (or $15/mo fee)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No (in-person)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">16,000 branches; strong for domestic businesses</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Bank of America</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$100</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No (in-person)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">4,000 branches; $16/mo fee waived at $5,000 balance</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Wise Business</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$0</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Multi-currency accounts; low international transfer fees</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-resident business owners face additional requirements. Many traditional banks require an in-person visit to open an account, which is difficult if you live outside the US. However, online-friendly banks like Mercury, Relay, and Brex accept applications from non-residents with a valid EIN and passport. Read our <Link href="/ein-for-bank-account/" className="text-[var(--color-blue)] underline">EIN for Bank Account</Link> guide for a full list of banks that work with non-residents.
+                Read our <Link href="/ein-for-bank-account/" className="text-[var(--color-blue)] underline">EIN for Bank Account</Link> guide for a full list of banks that work with non-residents and detailed requirements for each institution.
               </p>
             </div>
           </AnimateIn>
@@ -73,6 +124,7 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Your EIN is required on every federal tax return your business files. The specific form depends on your entity type: C-Corporations file Form 1120, S-Corporations file Form 1120-S, partnerships file Form 1065, and sole proprietors use their EIN on Schedule C attached to their personal Form 1040. Without an EIN, the IRS cannot process your business tax return.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Information Returns and 1099 Filing</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Your EIN also appears on information returns you file with the IRS. If you pay independent contractors $600 or more during the year, you must file Form 1099-NEC reporting those payments, and your EIN appears as the payer&apos;s Tax Identification Number. Employees receive W-2 forms that show your EIN. The IRS uses your EIN to match all of these documents and verify that your tax reporting is accurate and complete.
               </p>
@@ -119,8 +171,9 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Your EIN is the foundation of your business credit profile. Business credit bureaus -- Dun &amp; Bradstreet, Experian Business, and Equifax Business -- use your EIN to track your business&apos;s payment history, credit utilization, and overall financial health. Without an EIN, you cannot establish a business credit profile separate from your personal credit.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Steps to Build Business Credit With Your EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Building business credit starts with registering your business with Dun &amp; Bradstreet to get a D-U-N-S number, which is linked to your EIN. From there, you open trade accounts with vendors that report to business credit bureaus, apply for a business credit card, and make consistent on-time payments. Over time, your business builds its own credit score independent of your personal credit history.
+                Building business credit starts with registering your business with Dun &amp; Bradstreet to get a D-U-N-S number (free), which is linked to your EIN. From there, you open trade accounts with vendors that report to business credit bureaus (such as Uline, Grainger, or Quill), apply for a business credit card, and make consistent on-time payments. Over 12-24 months, your business builds its own credit score (Paydex score of 80+ is the target) independent of your personal credit history.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Strong business credit allows you to qualify for larger loans, better interest rates, and higher credit limits without personally guaranteeing every obligation. This is especially valuable for growing businesses that need capital for inventory, equipment, or expansion. Our <Link href="/ein-for-credit/" className="text-[var(--color-blue)] underline">EIN for Business Credit</Link> guide explains the step-by-step process of building credit with your EIN.
@@ -145,6 +198,57 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Amazon:</strong> Requires a TIN during Seller Central registration. Non-US sellers must provide an EIN. Amazon uses it for 1099-K reporting when your gross sales exceed the IRS threshold. <strong className="text-[var(--color-text)]">Stripe:</strong> Requires a TIN for identity verification and tax reporting. Non-US businesses selling to US customers need an EIN to complete Stripe&apos;s account verification. <strong className="text-[var(--color-text)]">PayPal:</strong> Business accounts require a TIN for IRS compliance, and non-residents need an EIN to verify their accounts.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Payment Platforms That Require an EIN</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Platform</th>
+                      <th className="px-4 py-3 font-semibold">EIN Required?</th>
+                      <th className="px-4 py-3 font-semibold">1099 Threshold</th>
+                      <th className="px-4 py-3 font-semibold">Non-Resident Friendly?</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Amazon Seller Central</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (for business accounts)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, with EIN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Stripe</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (for businesses)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, with US entity + EIN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">PayPal Business</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (for businesses)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, with EIN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Shopify Payments</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (for businesses)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, with US entity + EIN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Square</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (for businesses)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Limited (US address preferred)</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Etsy</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (if US shop)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$5,000/year (1099-K)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, with US tax ID</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Without an EIN, these platforms will restrict your ability to receive payments, issue payouts, or fully verify your account. Our guides for <Link href="/ein-for-amazon-sellers/" className="text-[var(--color-blue)] underline">Amazon sellers</Link>, <Link href="/ein-for-stripe/" className="text-[var(--color-blue)] underline">Stripe users</Link>, and <Link href="/ein-for-paypal/" className="text-[var(--color-blue)] underline">PayPal users</Link> provide platform-specific setup instructions.
               </p>
@@ -188,8 +292,9 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 An EIN separates your business identity from your personal identity. Every time you use your SSN for business purposes -- on W-9 forms, invoices, contracts, or vendor applications -- you expose your personal information to potential identity theft. An EIN eliminates this risk by providing a dedicated number for all business interactions.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN as a Credibility Signal</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                From a professional standpoint, having an EIN signals that your business is legitimate and properly registered with the IRS. Clients, vendors, and business partners view an EIN as a mark of professionalism. Large companies often require an EIN before they will add you as a vendor or approve a contract. Government agencies and grant programs also verify your EIN during the application process.
+                Having an EIN signals that your business is legitimate and properly registered with the IRS. Clients, vendors, and business partners view an EIN as a mark of professionalism. Fortune 500 companies require an EIN before they will add you as a vendor or approve a contract. Government agencies and grant programs verify your EIN during the application process.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 For non-resident entrepreneurs, an EIN is especially important because it is often the first US-recognized identifier they obtain. It allows them to start building a legitimate business presence in the United States before they have any physical presence in the country. With an EIN, you can open bank accounts, register with payment processors, and begin conducting business immediately.
@@ -211,11 +316,13 @@ export default function WhatCanYouDoWithEinClient({ faqs }: { faqs: { q: string;
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The IRS requires businesses to have an EIN for a wide range of compliance activities. Filing tax returns, reporting employee wages, issuing 1099 forms to contractors, making estimated tax payments, and responding to IRS notices all require your EIN. Without one, you cannot fulfill your federal tax obligations as a business entity.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">IRS Forms That Require Your EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Specific IRS compliance requirements that need an EIN include: filing Form 941 quarterly for employment taxes, filing Form 940 annually for federal unemployment tax (FUTA), issuing W-2 forms to employees, issuing 1099-NEC forms to contractors, filing Form 720 for excise taxes, and filing Form 990 for tax-exempt organizations. The EIN appears on every single one of these forms.
+                Specific IRS compliance requirements that need an EIN include: filing Form 941 quarterly for employment taxes (due January 31, April 30, July 31, October 31), filing Form 940 annually for federal unemployment tax (FUTA), issuing W-2 forms to employees by January 31, issuing 1099-NEC forms to contractors by January 31, filing Form 720 for excise taxes, and filing Form 990 for tax-exempt organizations. The EIN appears on every one of these forms.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The $25,000 Penalty for Non-Resident Non-Compliance</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Non-resident business owners have additional IRS compliance requirements. Foreign-owned single-member LLCs must file Form 5472 annually, which requires an EIN. Failure to file Form 5472 results in a $25,000 penalty per year. This is one of the most important reasons non-residents need to obtain an EIN promptly after forming a US business entity. Ready to get your EIN? <Link href="/apply/" className="text-[var(--color-blue)] underline">Apply now</Link> -- ein.so offers Standard ($49) and Express ($97) packages.
+                Non-resident business owners have additional IRS compliance requirements. Foreign-owned single-member LLCs must file Form 5472 annually by April 15 (or October 15 with an extension), which requires an EIN. Failure to file Form 5472 results in a $25,000 penalty per year. This is one of the most important reasons non-residents need to obtain an EIN promptly after forming a US business entity. Ready to get your EIN? <Link href="/apply/" className="text-[var(--color-blue)] underline">Apply now</Link> -- ein.so offers Standard ($49) and Express ($97) packages.
               </p>
             </div>
           </AnimateIn>

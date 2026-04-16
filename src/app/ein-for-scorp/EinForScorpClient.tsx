@@ -49,8 +49,10 @@ export default function EinForScorpClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS assigns EINs to entities, not to tax classifications. When you file Form 2553, you are changing how the IRS taxes your entity -- you are not creating a new entity. The corporation or LLC that received the original EIN continues to exist. Only the tax treatment changes.
+                The IRS assigns EINs to entities, not to tax classifications. 5 million S-Corps filed Form 1120-S in 2024 using the same EIN they received at entity formation. When you file Form 2553, you are changing how the IRS taxes your entity -- you are not creating a new entity. The corporation or LLC that received the original EIN continues to exist. Only the tax treatment changes.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN Stays the Same Through Tax Elections</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Think of it this way: your EIN is your entity&apos;s Social Security number. When a person gets married and changes their tax filing status from single to married filing jointly, they do not get a new SSN. Similarly, when your corporation changes from C-Corp taxation to S-Corp taxation, it does not get a new EIN.
@@ -131,8 +133,25 @@ export default function EinForScorpClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Not every entity qualifies for S-Corp status. The IRS has strict eligibility requirements. If your entity does not meet all of these, the IRS will reject your Form 2553:
+                5 strict requirements must all be met for S-Corp eligibility. The IRS rejects Form 2553 if any single requirement is violated. Non-US residents are ineligible because only US citizens and residents can be S-Corp shareholders.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">S-Corp vs C-Corp: Which Is Right for You?</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">S-Corp</th><th className="px-4 py-3 font-semibold">C-Corp</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Taxation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Pass-through (no double tax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Double taxation (21% corporate + personal)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Non-Resident Shareholders</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not allowed</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Allowed</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Max Shareholders</td><td className="px-4 py-3 text-[var(--color-text-muted)]">100</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Unlimited</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Stock Classes</td><td className="px-4 py-3 text-[var(--color-text-muted)]">1 class only</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Multiple classes allowed</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SE Tax Savings</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Yes (distributions exempt)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (dividends taxed differently)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">New EIN Needed?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No (keep original)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A (default status)</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">5 S-Corp Eligibility Requirements</h3>
 
               <StaggerContainer className="space-y-4">
                 {[
@@ -173,8 +192,22 @@ export default function EinForScorpClient({ faqs }: { faqs: { q: string; a: stri
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                S-Corp election provides a significant tax advantage: it eliminates the double taxation that C-Corps face. With a C-Corp, the corporation pays tax on its income (21% federal rate), and shareholders pay tax again when they receive dividends. S-Corps avoid this by passing income directly to shareholders, who report it on their personal tax returns.
+                S-Corp election saves the average profitable business $8,000-$20,000 per year in self-employment taxes. It eliminates the double taxation that C-Corps face. With a C-Corp, the corporation pays tax on its income (21% federal rate), and shareholders pay tax again when they receive dividends. S-Corps avoid this by passing income directly to shareholders, who report it on their personal tax returns.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">S-Corp Self-Employment Tax Savings Example</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">LLC (No S-Corp Election)</th><th className="px-4 py-3 font-semibold">LLC with S-Corp Election</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Net Profit</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$150,000</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$150,000</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Reasonable Salary</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A (all income subject to SE tax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$70,000</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Profit Distribution</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$80,000 (no SE tax)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Self-Employment Tax (15.3%)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$21,194</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$10,710 (on salary only)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Annual Tax Savings</td><td className="px-4 py-3 text-[var(--color-text-muted)]">--</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$10,484</td></tr>
+                  </tbody>
+                </table>
+              </div>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The second major advantage is self-employment tax savings. S-Corp shareholder-employees pay themselves a &quot;reasonable salary,&quot; which is subject to payroll taxes (Social Security and Medicare, totaling 15.3%). Profit distributions above the reasonable salary are not subject to self-employment tax. This can save thousands of dollars annually for profitable businesses.

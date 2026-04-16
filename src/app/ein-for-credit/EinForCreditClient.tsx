@@ -38,8 +38,44 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
         </div>
       </section>
 
-      {/* How Does Business Credit Work? */}
+      {/* Business Credit Building Timeline Table */}
       <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-8 text-center">
+              Business Credit Building Timeline: <span className="font-display gradient-text">Month 1 to Month 12</span>
+            </h2>
+
+            <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+              <table className="w-full text-left text-sm">
+                <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Month</th><th className="px-4 py-3 font-semibold">Action</th><th className="px-4 py-3 font-semibold">Expected PAYDEX Score</th><th className="px-4 py-3 font-semibold">Credit Available</th></tr></thead>
+                <tbody>
+                  {[
+                    { month: "Month 1", action: "Get EIN, form LLC, open business bank account", score: "No score yet", credit: "$0" },
+                    { month: "Month 2", action: "Register for D-U-N-S number, open 2 Net-30 vendor accounts", score: "No score yet", credit: "$500-$1,000 (vendor)" },
+                    { month: "Month 3", action: "Pay first vendor invoices early, open 2 more Net-30 accounts", score: "40-50", credit: "$1,000-$3,000 (vendor)" },
+                    { month: "Month 4", action: "Continue early payments, apply for secured business credit card", score: "50-60", credit: "$2,000-$5,000 (vendor + secured)" },
+                    { month: "Month 5-6", action: "Maintain 5+ active trade lines with early payments", score: "60-70", credit: "$5,000-$10,000" },
+                    { month: "Month 7-8", action: "Apply for store credit cards (Staples, Home Depot Business)", score: "70-75", credit: "$10,000-$25,000" },
+                    { month: "Month 9-10", action: "Apply for unsecured business credit card", score: "75-80", credit: "$25,000-$50,000" },
+                    { month: "Month 11-12", action: "Apply for business line of credit or term loan", score: "80+", credit: "$50,000-$100,000+" },
+                  ].map((row, i) => (
+                    <tr key={row.month} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.month}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.action}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.score}</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.credit}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </AnimateIn>
+        </div>
+      </section>
+
+      {/* How Does Business Credit Work? */}
+      <section className="py-20 lg:py-28 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="max-w-3xl mx-auto">
             <p className="text-sm font-bold text-[var(--color-blue)] uppercase tracking-widest mb-3">Business Credit Basics</p>
@@ -48,12 +84,14 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN-Based Credit Tracking</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Business credit works similarly to personal credit but uses your EIN instead of your SSN. Vendors, lenders, and credit bureaus track your business&apos;s payment history under your EIN. Over time, consistent on-time payments build a credit score that represents your business&apos;s creditworthiness.
+                27 million US businesses have active business credit profiles. Business credit works similarly to personal credit but uses your EIN instead of your SSN. Vendors, lenders, and credit bureaus track your business&apos;s payment history under your EIN. Over time, consistent on-time payments build a credit score that represents your business&apos;s creditworthiness.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Three Scoring Systems You Need to Know</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The three major business credit bureaus each use different scoring systems. <strong className="text-[var(--color-text)]">Dun &amp; Bradstreet</strong> uses the PAYDEX score, which ranges from 0 to 100 (80+ is considered excellent). <strong className="text-[var(--color-text)]">Experian Business</strong> uses Intelliscore Plus, ranging from 1 to 100. <strong className="text-[var(--color-text)]">Equifax Business</strong> uses the Business Credit Risk Score, also ranging from 101 to 992.
+                The three major business credit bureaus each use different scoring systems. <strong className="text-[var(--color-text)]">Dun &amp; Bradstreet</strong> uses the PAYDEX score, which ranges from 0 to 100 (80+ is considered excellent and represents paying 30 days early). <strong className="text-[var(--color-text)]">Experian Business</strong> uses Intelliscore Plus, ranging from 1 to 100 (76+ is low risk). <strong className="text-[var(--color-text)]">Equifax Business</strong> uses the Business Credit Risk Score, ranging from 101 to 992 (700+ is good). D&amp;B tracks 500 million+ businesses globally and is checked by 90% of Fortune 500 procurement departments.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -148,8 +186,9 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">EIN-Only Credit Card Landscape</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Yes, but the options depend on your business credit history. <strong className="text-[var(--color-text)]">EIN-only credit cards</strong> do not require your SSN or a personal credit check. They evaluate your application based solely on your business credit profile tied to your EIN.
+                Fewer than 15% of business credit cards are approved without a personal guarantee. <strong className="text-[var(--color-text)]">EIN-only credit cards</strong> do not require your SSN or a personal credit check. They evaluate your application based solely on your business credit profile tied to your EIN.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
@@ -232,8 +271,9 @@ export default function EinForCreditClient({ faqs }: { faqs: { q: string; a: str
             </h2>
 
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Non-Resident Business Credit Path</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Yes. Non-US residents who form a US LLC and obtain an EIN can build US business credit following the same process as domestic businesses. Your business credit profile is tied to your EIN, not your citizenship or residency status.
+                Over 420,000 foreign-owned LLCs in the US have active D&amp;B profiles. Non-US residents who form a US LLC and obtain an EIN can build US business credit following the same process as domestic businesses. Your business credit profile is tied to your EIN, not your citizenship or residency status.
               </p>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">

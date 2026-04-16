@@ -27,12 +27,58 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
                 </p>
               </div>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Who Needs to File Form SS-4?</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
-                Form SS-4 is the only way for non-US residents without an SSN or ITIN to apply for an EIN, since the IRS online application requires one of those numbers. The form itself is straightforward, but certain lines cause confusion -- especially for non-resident applicants and first-time business owners. This guide eliminates that confusion by explaining every field in plain language.
+                Form SS-4 is the only way for non-US residents without an SSN or ITIN to apply for an EIN, since the IRS online application requires one of those numbers. Over 400,000 fax-based SS-4 forms are processed by the IRS each year. The form itself is straightforward, but certain lines cause confusion -- especially for non-resident applicants and first-time business owners. This guide eliminates that confusion by explaining every field in plain language.
               </p>
-              <p className="text-[var(--color-text-muted)] leading-relaxed">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Filing Options and Costs</h3>
+              <p className="text-[var(--color-text-muted)] leading-relaxed mb-8">
                 If you prefer to skip the paperwork entirely, <Link href="/apply/" className="text-[var(--color-blue)] underline">ein.so handles the entire SS-4 filing process</Link> for $49 (Standard, 14 business days) or $97 (Express, 7 business days). We complete the form, fax it to the IRS, and deliver your EIN by email. For those who want to do it themselves, read on for the complete line-by-line breakdown. You can also review our broader <Link href="/how-to-get-ein/" className="text-[var(--color-blue)] underline">How to Get an EIN</Link> guide for all three application methods.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SS-4 Filing Method Comparison</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Factor</th><th className="px-4 py-3 font-semibold">Fax (855-215-1627)</th><th className="px-4 py-3 font-semibold">Phone (267-941-1099)</th><th className="px-4 py-3 font-semibold">Mail (Cincinnati, OH)</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Processing Time</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (if connected)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-6 weeks</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">SSN Required?</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td><td className="px-4 py-3 text-[var(--color-text-muted)]">No</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Cost (DIY)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + fax fees</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + intl call fees</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + postage</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Cost (ein.so)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$49 Standard / $97 Express</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A</td><td className="px-4 py-3 text-[var(--color-text-muted)]">N/A</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Availability</td><td className="px-4 py-3 text-[var(--color-text-muted)]">24/7</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Mon-Fri, 6 AM - 11 PM ET</td><td className="px-4 py-3 text-[var(--color-text-muted)]">24/7</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Hold Times</td><td className="px-4 py-3 text-[var(--color-text-muted)]">None</td><td className="px-4 py-3 text-[var(--color-text-muted)]">30-120 minutes typical</td><td className="px-4 py-3 text-[var(--color-text-muted)]">None</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Best For</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Non-residents without SSN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Urgent same-day needs</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Not recommended</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">SS-4 Line-by-Line Quick Reference</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] mb-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Line</th><th className="px-4 py-3 font-semibold">Field Name</th><th className="px-4 py-3 font-semibold">What to Enter</th><th className="px-4 py-3 font-semibold">Non-Resident Tip</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Legal Name of Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Exact name from Articles of Organization/Incorporation</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use name on state filing, not passport name</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">2</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Trade Name / DBA</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Business operating name if different from Line 1</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Leave blank if no DBA registered</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">3</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Executor/Trustee Name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Name of executor (estate) or trustee (trust)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Leave blank for LLCs/corps</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">4a-4b</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Mailing Address</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Street, city, state, ZIP for IRS correspondence</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Foreign addresses accepted; include country</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">5a-5b</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Street Address (if different)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Physical business location</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Leave blank if no US office</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">6</td><td className="px-4 py-3 text-[var(--color-text-muted)]">County and State</td><td className="px-4 py-3 text-[var(--color-text-muted)]">County and state of principal business</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use registered agent state (e.g., Wyoming)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">7a</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Responsible Party Name</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Full legal name of individual who controls entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Must match passport exactly</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">7b</td><td className="px-4 py-3 text-[var(--color-text-muted)]">SSN/ITIN of Responsible Party</td><td className="px-4 py-3 text-[var(--color-text-muted)]">9-digit SSN or ITIN</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Write &quot;N/A&quot; or &quot;Foreign&quot;; attach passport copy</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">8a</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Type of Entity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check one box: LLC, Corporation, Partnership, etc.</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Match your state formation type</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">8b</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Number of LLC Members</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Enter &quot;1&quot; for single-member; total for multi-member</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Required only for LLCs</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">8c</td><td className="px-4 py-3 text-[var(--color-text-muted)]">State/Country of LLC Organization</td><td className="px-4 py-3 text-[var(--color-text-muted)]">State or foreign country where LLC was formed</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Enter US state (e.g., &quot;Wyoming&quot;) even if you live abroad</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">9a</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Reason for Applying</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check: Started new business, Banking purpose, etc.</td><td className="px-4 py-3 text-[var(--color-text-muted)]">&quot;Started new business&quot; is the most common choice</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">10</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Date Business Started</td><td className="px-4 py-3 text-[var(--color-text-muted)]">MM/DD/YYYY of state registration</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Use date on Articles of Organization</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">11</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Closing Month of Accounting Year</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Enter &quot;December&quot; (standard for 95%+ of businesses)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Always use December unless advised otherwise</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">12-13</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Wages and Employees</td><td className="px-4 py-3 text-[var(--color-text-muted)]">First wage date; expected employee count (enter &quot;0&quot; if none)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Write &quot;N/A&quot; for Line 12 if no employees</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">14-15</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Principal Activity</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check activity category; describe business in 1 sentence</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Be specific: &quot;online retail sales&quot; not &quot;business&quot;</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">16-17</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Previous EIN Application</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check &quot;No&quot; for new entities; enter prior EIN if &quot;Yes&quot;</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Refers to the entity, not you personally</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">18</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Third-Party Designee</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Name, address, fax of authorized recipient</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Check &quot;Yes&quot; if using ein.so; &quot;No&quot; if filing yourself</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">Signature</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Sign, Date, Title, Phone</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Responsible party signs; title = Member, President, etc.</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Include international phone with country code</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -47,12 +93,15 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
               What Do You Enter on Lines 1-3 of <span className="font-display gradient-text">Form SS-4?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 1: Legal Name of Entity</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 1 -- Legal Name of Entity:</strong> Enter the exact legal name of your business as registered with your state. For an LLC, this is the name on your Articles of Organization (for example, &quot;Acme Trading LLC&quot;). For a corporation, it is the name on your Articles of Incorporation. For a sole proprietor, enter your full legal name as it appears on your passport or government ID.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 2: Trade Name / DBA</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 2 -- Trade Name / DBA:</strong> If your business operates under a different name than your legal name, enter it here. For example, if your LLC is &quot;Acme Trading LLC&quot; but you do business as &quot;Acme Goods,&quot; enter &quot;Acme Goods&quot; on Line 2. If you do not have a trade name, leave this line blank.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 3: Executor or Trustee Name</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 3 -- Executor/Trustee Name:</strong> This line is only for estates and trusts. If you are applying for an EIN for an estate, enter the executor&apos;s or administrator&apos;s name. For a trust, enter the trustee&apos;s name. For all other entity types (LLCs, corporations, sole proprietors, partnerships), leave Line 3 blank.
               </p>
@@ -70,12 +119,15 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
               What Do You Enter on Lines 4-6 of <span className="font-display gradient-text">Form SS-4?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Lines 4a-4b: Mailing Address</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Lines 4a-4b -- Mailing Address:</strong> Enter the address where you want the IRS to send correspondence. This can be a US address or a foreign address. Non-residents can use their home address abroad -- the IRS accepts international addresses on Form SS-4. Include your street address, city, state/province, country, and postal code.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Lines 5a-5b: Street Address</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Lines 5a-5b -- Street Address (if different):</strong> If your physical business location is different from your mailing address, enter it here. If your business does not have a separate physical location (common for non-residents and online businesses), leave Lines 5a-5b blank. The IRS will use the mailing address from Lines 4a-4b.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 6: County and State</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 6 -- County and State:</strong> Enter the county and state where your principal business is located. Non-residents who do not have a US business location can enter the state where their registered agent is located or the state where their LLC/corporation is registered. For example, if you formed a Wyoming LLC, enter &quot;Wyoming&quot; on Line 6.
               </p>
@@ -93,9 +145,11 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
               What Do You Enter on Lines 7a-7b of <span className="font-display gradient-text">Form SS-4?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 7a: Responsible Party Name</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 7a -- Name of Responsible Party:</strong> The IRS requires every EIN application to identify a &quot;responsible party&quot; -- an individual (not an entity) who controls, manages, or directs the entity and the disposition of its funds and assets. For a single-member LLC, this is the sole member. For a corporation, it is the president or CEO. For a partnership, it is a managing partner.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 7b: SSN, ITIN, or EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 7b -- SSN, ITIN, or EIN of Responsible Party:</strong> This is the line that causes the most confusion for non-residents. If you have an SSN or ITIN, enter it here. If you are a non-resident without either number, write &quot;N/A&quot; or &quot;Foreign&quot; on this line. The IRS will still process your application -- this is one of the key advantages of the fax method over the online application, which requires a valid SSN or ITIN.
               </p>
@@ -188,9 +242,11 @@ export default function SS4FormGuideClient({ faqs }: { faqs: { q: string; a: str
               What Do You Enter on Line 18 and the Signature Section of <span className="font-display gradient-text">Form SS-4?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Line 18: Third-Party Designee</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Line 18 -- Third-Party Designee:</strong> If you want to authorize someone else to receive your EIN on your behalf, check &quot;Yes&quot; and fill in the designee&apos;s name, address, telephone number, and fax number. This is the line that allows services like ein.so to file on your behalf and receive the EIN directly from the IRS. If you are filing the form yourself, check &quot;No&quot; and provide your own fax number so the IRS can return your EIN to you.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Signature and Date</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 <strong className="text-[var(--color-text)]">Signature Section:</strong> The responsible party named on Line 7a (or an authorized delegate) must sign and date the form. Print the signer&apos;s name and title below the signature. The title should match your role in the entity -- &quot;Member&quot; for an LLC, &quot;President&quot; for a corporation, &quot;General Partner&quot; for a partnership, &quot;Trustee&quot; for a trust, or &quot;Executor&quot; for an estate. Include a daytime phone number and fax number.
               </p>

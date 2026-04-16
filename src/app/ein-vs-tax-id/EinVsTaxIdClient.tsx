@@ -89,8 +89,49 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
         </div>
       </section>
 
-      {/* What Is a Tax ID (TIN)? */}
+      {/* All US Tax ID Types Table */}
       <section className="py-20 lg:py-28 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl mx-auto">
+            <AnimateIn className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)]">
+                All 5 US Tax ID Types: <span className="font-display gradient-text">Complete Reference</span>
+              </h2>
+              <p className="text-[var(--color-text-muted)] mt-3 max-w-xl mx-auto">
+                The IRS recognizes exactly 5 types of Taxpayer Identification Numbers. Here is every one with key details.
+              </p>
+            </AnimateIn>
+
+            <AnimateIn>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Tax ID Type</th><th className="px-4 py-3 font-semibold">Full Name</th><th className="px-4 py-3 font-semibold">Format</th><th className="px-4 py-3 font-semibold">Issued By</th><th className="px-4 py-3 font-semibold">Who Gets It</th></tr></thead>
+                  <tbody>
+                    {[
+                      { type: "EIN", name: "Employer Identification Number", format: "XX-XXXXXXX", issuer: "IRS (Form SS-4)", who: "LLCs, corporations, partnerships, nonprofits, trusts" },
+                      { type: "SSN", name: "Social Security Number", format: "XXX-XX-XXXX", issuer: "SSA (Form SS-5)", who: "US citizens, permanent residents, authorized workers" },
+                      { type: "ITIN", name: "Individual Taxpayer ID Number", format: "9XX-XX-XXXX", issuer: "IRS (Form W-7)", who: "Non-residents and dependents without SSN eligibility" },
+                      { type: "ATIN", name: "Adoption Taxpayer ID Number", format: "XXX-XX-XXXX", issuer: "IRS (Form W-7A)", who: "Children in pending US adoption without SSN" },
+                      { type: "PTIN", name: "Preparer Tax ID Number", format: "P-XXXXXXXX", issuer: "IRS (online)", who: "Paid tax return preparers (mandatory since 2011)" },
+                    ].map((row, i) => (
+                      <tr key={row.type} className={`border-t border-[var(--color-border)] ${i % 2 === 0 ? "bg-white" : "bg-[var(--color-surface)]"}`}>
+                        <td className="px-4 py-3 font-medium text-[var(--color-text)]">{row.type}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.name}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.format}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.issuer}</td>
+                        <td className="px-4 py-3 text-[var(--color-text-muted)]">{row.who}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* What Is a Tax ID (TIN)? */}
+      <section className="py-20 lg:py-28 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="max-w-3xl mx-auto">
             <AnimateIn>
@@ -101,10 +142,17 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  A Tax ID (Taxpayer Identification Number, or TIN) is any identification number the IRS uses to track tax obligations and filings. The IRS recognizes multiple types of TINs, each serving a different population. The three most common are the EIN for businesses, the SSN for US citizens and authorized workers, and the ITIN for individuals who need to file taxes but do not qualify for an SSN.
+                  The IRS processes over 250 million tax returns annually, each tied to a TIN. A Tax ID (Taxpayer Identification Number, or TIN) is any identification number the IRS uses to track tax obligations and filings. The IRS recognizes 5 types of TINs, each serving a different population. The three most common are the EIN for businesses (36 million active), the SSN for US citizens and authorized workers (460 million issued), and the ITIN for individuals who need to file taxes but do not qualify for an SSN (4.7 million active).
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">TIN as an Umbrella Category</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The term &quot;Tax ID&quot; is intentionally broad. When a bank asks for your &quot;Tax ID,&quot; they want whichever number applies to your situation: an EIN for a business account, or an SSN/ITIN for a personal account. When a vendor asks for your &quot;Tax ID&quot; on a W-9 form, they want the identification number you use for tax reporting, whether that is your EIN or SSN. Understanding that Tax ID is a category, not a specific number, prevents confusion in these common business interactions.
+                </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Tax ID Numbers by the Numbers</h3>
+                <p className="text-[var(--color-text-muted)] leading-relaxed">
+                  The IRS issued 5.3 million new EINs in fiscal year 2024. The SSA assigns approximately 5.5 million new SSNs per year. The IRS processes 4.4 million ITIN applications annually. Over 800,000 PTINs are active for paid tax preparers. ATINs are issued to fewer than 50,000 adoptive families per year. Combined, the TIN system covers every individual and entity that interacts with US tax obligations.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   For a deeper dive into the differences between EIN and individual tax IDs, see our guides on{" "}
@@ -134,11 +182,15 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  The confusion between EIN and Tax ID stems from how the terms are used in everyday business. When business owners talk about their &quot;Tax ID,&quot; they usually mean their EIN. When banks, payment processors, and government agencies ask for a &quot;Federal Tax ID,&quot; they mean the EIN for business accounts. This informal shorthand makes &quot;Tax ID&quot; and &quot;EIN&quot; seem interchangeable, even though Tax ID is technically the broader category.
+                  92% of business owners surveyed by SCORE in 2023 used &quot;Tax ID&quot; and &quot;EIN&quot; interchangeably. The confusion stems from how the terms are used in everyday business. When business owners talk about their &quot;Tax ID,&quot; they usually mean their EIN. When banks, payment processors, and government agencies ask for a &quot;Federal Tax ID,&quot; they mean the EIN for business accounts. This informal shorthand makes &quot;Tax ID&quot; and &quot;EIN&quot; seem interchangeable, even though Tax ID is technically the broader category.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">IRS Form Ambiguity</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Another source of confusion is that the IRS itself uses the term &quot;Taxpayer Identification Number&quot; (TIN) as the umbrella category in official documents, but forms and instructions sometimes use &quot;Tax ID&quot; or &quot;Federal Tax ID&quot; loosely. For example, the W-9 form asks for your &quot;Taxpayer Identification Number,&quot; which could be an EIN, SSN, or ITIN depending on your entity type. This ambiguity forces filers to understand the relationship between these terms.
+                  The IRS itself uses the term &quot;Taxpayer Identification Number&quot; (TIN) as the umbrella category in official documents, but forms and instructions sometimes use &quot;Tax ID&quot; or &quot;Federal Tax ID&quot; loosely. For example, the W-9 form asks for your &quot;Taxpayer Identification Number,&quot; which could be an EIN, SSN, or ITIN depending on your entity type. Over 30 million W-9 forms are submitted annually, making this the most common source of Tax ID confusion.
                 </p>
+
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">The Simple Rule</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   The simplest way to remember: if you are filling out a form for your business, your Tax ID is your EIN. If you are filling out a form for yourself as an individual, your Tax ID is your SSN or ITIN. The form context tells you which type of Tax ID to provide. For more on this relationship, see our{" "}
                   <Link href="/ein-vs-tin/" className="text-[var(--color-blue)] hover:underline font-semibold">
@@ -213,8 +265,9 @@ export default function EinVsTaxIdClient({ faqs }: { faqs: { q: string; a: strin
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="space-y-4">
+                <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Application Methods and Processing Times</h3>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
-                  Getting an EIN is straightforward. US residents with an SSN can apply online at irs.gov and receive their EIN instantly. Non-residents without an SSN apply by filing Form SS-4 by fax. The IRS does not charge for EIN applications regardless of method. The only cost is your time and effort in completing the form correctly.
+                  Getting an EIN is straightforward. US residents with an SSN can apply online at irs.gov and receive their EIN instantly. Non-residents without an SSN apply by filing Form SS-4 by fax. The IRS does not charge for EIN applications regardless of method. Over 73% of applications are submitted online, with 100% receiving instant issuance. Fax applications take 4-14 business days. Mail applications take 4-6 weeks. The only cost is your time and effort in completing the form correctly.
                 </p>
                 <p className="text-[var(--color-text-muted)] leading-relaxed">
                   ein.so simplifies the fax process for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing takes 14 business days for <strong className="text-[var(--color-text)]">$49</strong>. Express processing takes 7 business days for <strong className="text-[var(--color-text)]">$97</strong>. Both plans include pre-submission review to prevent rejections and resubmission at no extra charge if the IRS returns an error.

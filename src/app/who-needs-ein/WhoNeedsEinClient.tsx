@@ -33,6 +33,118 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The short answer is that if you are conducting any business activity in the US -- whether you are a US citizen or a foreign national operating from abroad -- you almost certainly need an EIN. The only major exception is a sole proprietor with no employees who chooses to use their personal SSN for all tax filings. Even in that case, most financial advisors recommend getting an EIN for identity protection purposes.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Complete EIN Requirements by Entity Type</h3>
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] my-8">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="bg-[var(--color-navy)] text-white">
+                      <th className="px-4 py-3 font-semibold">Entity Type</th>
+                      <th className="px-4 py-3 font-semibold">EIN Required?</th>
+                      <th className="px-4 py-3 font-semibold">IRS Form Filed</th>
+                      <th className="px-4 py-3 font-semibold">Key Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Multi-Member LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Taxed as partnership by default; each member gets K-1</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Single-Member LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Strongly recommended</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule C (Form 1040)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required if LLC has employees or files excise taxes</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">C-Corporation</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">21% flat corporate tax rate; separate legal entity</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">S-Corporation</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1120-S</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Requires Form 2553 S-election; max 100 shareholders</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">501(c)(3) Nonprofit</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 990</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Must have EIN before filing Form 1023</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">General Partnership</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Created when 2+ people carry on business for profit</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Limited Partnership (LP)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">State-registered; separate EIN from partners&apos; personal IDs</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Limited Liability Partnership (LLP)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1065</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Common for law firms and accounting firms</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Irrevocable Trust</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 1041</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Separate tax entity from the grantor</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Revocable Trust (grantor alive)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">No (uses grantor&apos;s SSN)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Grantor&apos;s Form 1040</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Needs EIN only after grantor dies or becomes incapacitated</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Estate of Deceased Person</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 706 / 1041</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Executor applies; cannot reuse decedent&apos;s SSN</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (with employees)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 941 / 940</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Even 1 part-time employee triggers requirement</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Sole Proprietor (no employees)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule C (Form 1040)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Protects SSN on W-9 forms and invoices</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Foreign-Owned US LLC</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Form 5472 + pro-forma 1120</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">$25,000 penalty per year for non-filing</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Amazon Seller (non-resident)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Yes, always</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">1099-K (Amazon issues)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Required during Seller Central tax interview</td>
+                    </tr>
+                    <tr className="border-t border-[var(--color-border)]">
+                      <td className="px-4 py-3 font-medium text-[var(--color-text)]">Freelancer (no entity)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Recommended</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Schedule C (Form 1040)</td>
+                      <td className="px-4 py-3 text-[var(--color-text-muted)]">Avoids sharing SSN with every client</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </AnimateIn>
         </div>
@@ -50,11 +162,13 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Yes, every LLC benefits from having an EIN and most are required to obtain one. Multi-member LLCs are always required to have an EIN because the IRS treats them as partnerships by default, and partnerships must file their own tax returns using an EIN. Single-member LLCs are technically allowed to use the owner&apos;s SSN if they have no employees, but this is rarely practical.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why Banks and Processors Require an EIN for LLCs</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The moment you want to open a business bank account for your LLC, the bank will ask for an EIN. Payment processors like Stripe and PayPal require an EIN to verify your business. If you plan to hire employees -- even a single part-time contractor -- the IRS requires an EIN for employment tax reporting. And using an EIN instead of your SSN on invoices and W-9 forms protects your personal identity.
+                The moment you want to open a business bank account for your LLC, the bank will ask for an EIN. Chase, Bank of America, Wells Fargo, Mercury, and Relay all require an EIN for LLC accounts. Payment processors like Stripe and PayPal require an EIN to verify your business. If you plan to hire employees -- even a single part-time contractor -- the IRS requires an EIN for employment tax reporting. And using an EIN instead of your SSN on invoices and W-9 forms protects your personal identity.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Non-Resident LLC Owners</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax. Our <Link href="/ein-for-llc/" className="text-[var(--color-blue)] underline">EIN for LLC</Link> guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 14 business days) or $97 (Express, 7 business days).
+                For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax to 855-215-1627. Our <Link href="/ein-for-llc/" className="text-[var(--color-blue)] underline">EIN for LLC</Link> guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 14 business days) or $97 (Express, 7 business days).
               </p>
             </div>
           </AnimateIn>
@@ -71,10 +185,11 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Every corporation -- whether a C-Corp or an S-Corp -- is required to have an EIN. There are no exceptions. Corporations are separate legal entities from their owners, and the IRS requires each corporation to file its own tax returns using its own EIN. A C-Corp files Form 1120 and an S-Corp files Form 1120-S, both of which require an EIN.
+                Every corporation -- whether a C-Corp or an S-Corp -- is required to have an EIN. There are no exceptions. Corporations are separate legal entities from their owners, and the IRS requires each corporation to file its own tax returns using its own EIN. A C-Corp files Form 1120 (subject to a 21% flat corporate tax rate) and an S-Corp files Form 1120-S, both of which require an EIN.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">What Corporations Use an EIN For</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Beyond tax filing, corporations need an EIN to open bank accounts, issue stock, set up payroll, apply for business licenses, and enter into contracts. Investors and venture capital firms will also require your EIN during due diligence. If you are incorporating a company in the US as a non-resident, you need to obtain an EIN as one of your first steps after state registration.
+                Beyond tax filing, corporations need an EIN to open bank accounts, issue stock, set up payroll, apply for business licenses, and enter into contracts. Investors and venture capital firms will require your EIN during due diligence. If you are incorporating a company in the US as a non-resident, you need to obtain an EIN as one of your first steps after state registration.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Our <Link href="/ein-for-corporation/" className="text-[var(--color-blue)] underline">EIN for Corporation</Link> guide provides specific instructions for both C-Corps and S-Corps. If you are a non-resident incorporating a Delaware or Wyoming company, ein.so handles the SS-4 filing so you can get your EIN without needing an SSN.
@@ -94,10 +209,11 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
             </h2>
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Yes, every nonprofit organization needs an EIN, and you must obtain one before you can apply for 501(c)(3) tax-exempt status. The IRS Form 1023 (Application for Recognition of Exemption) requires your EIN. Without an EIN, your tax-exempt application cannot be processed.
+                Yes, every nonprofit organization needs an EIN, and you must obtain one before you can apply for 501(c)(3) tax-exempt status. The IRS Form 1023 (Application for Recognition of Exemption) requires your EIN -- the filing fee is $600 for the full Form 1023 or $275 for Form 1023-EZ. Without an EIN, your tax-exempt application cannot be processed.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How Nonprofits Use Their EIN Daily</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Nonprofits use their EIN for virtually every operational task: opening bank accounts, accepting donations, filing annual Form 990 returns, issuing donation receipts to contributors, hiring staff, and applying for grants. Grant-making organizations and government agencies always require your EIN as part of the application process.
+                Nonprofits use their EIN for every operational task: opening bank accounts, accepting donations, filing annual Form 990 returns (due by the 15th day of the 5th month after the fiscal year ends), issuing donation receipts to contributors, hiring staff, and applying for grants. Grant-making organizations and government agencies require your EIN as part of the application process.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 If you are forming a nonprofit as a non-US resident, you need to file Form SS-4 by fax because the online application requires an SSN or ITIN. Our <Link href="/ein-for-nonprofit/" className="text-[var(--color-blue)] underline">EIN for Nonprofit</Link> guide covers the specific steps and entity type selections for nonprofit organizations on the SS-4 form.
@@ -142,6 +258,7 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Irrevocable trusts always need their own EIN because they are separate legal and tax entities from the grantor. Once assets are transferred into an irrevocable trust, the trust must file its own tax return (Form 1041) using its own EIN. Banks and financial institutions require the trust&apos;s EIN to open accounts in the trust&apos;s name.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">When Revocable Trusts Need an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Revocable living trusts (also called grantor trusts) do not need a separate EIN while the grantor is alive and competent. The grantor&apos;s SSN is used for all tax reporting during this period. However, when the grantor dies or becomes incapacitated, the trust becomes irrevocable and must obtain its own EIN immediately. The successor trustee is responsible for applying.
               </p>
@@ -162,9 +279,11 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               Do Sole Proprietors Need <span className="font-display gradient-text">an EIN?</span>
             </h2>
             <div className="space-y-6">
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Sole Proprietors With Employees</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Sole proprietors who have employees are required to have an EIN for payroll tax purposes. If you hire even one employee -- including a spouse -- you must obtain an EIN and use it to report employment taxes. Sole proprietors who file excise tax returns or who have a Keogh retirement plan are also required to have an EIN.
+                Sole proprietors who have employees are required to have an EIN for payroll tax purposes. If you hire even 1 employee -- including a spouse -- you must obtain an EIN and use it to report employment taxes on Form 941 (quarterly) and Form 940 (annual FUTA). Sole proprietors who file excise tax returns (Form 720) or who have a Keogh retirement plan are also required to have an EIN.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Sole Proprietors Without Employees</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Sole proprietors with no employees are not technically required to have an EIN. They can use their SSN on tax returns, W-9 forms, and other IRS documents. However, there are strong practical reasons to get one. Using an EIN instead of your SSN on invoices, contracts, and vendor forms reduces your risk of identity theft. Many clients and companies prefer to work with businesses that have an EIN because it appears more professional and established.
               </p>
@@ -188,8 +307,9 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Non-US residents need an EIN whenever they conduct business in the United States. This includes forming a US LLC or corporation, selling on Amazon.com, accepting payments through US payment processors like Stripe or PayPal, opening a US bank account, or investing in US real estate. The IRS requires a tax identification number for all of these activities, and an EIN is the correct ID for non-residents who lack an SSN or ITIN.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How Non-Residents Apply for an EIN</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The challenge for non-residents is that the IRS online EIN application requires an SSN or ITIN, which most foreign nationals do not have. This means non-residents must apply by fax using Form SS-4 or by calling the IRS international line at 267-941-1099. The fax method is the most reliable -- the IRS processes faxed SS-4 forms within 4-7 business days and returns the EIN by fax to the number you provide.
+                The IRS online EIN application requires an SSN or ITIN, which most foreign nationals do not have. Non-residents must apply by fax using Form SS-4 (fax number: 855-215-1627) or by calling the IRS international line at 267-941-1099 (Monday-Friday, 6 AM to 11 PM Eastern). The fax method is the most reliable -- the IRS processes faxed SS-4 forms within 4 business days and returns the EIN by fax to the number you provide.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 ein.so exists specifically to solve this problem. We complete and file Form SS-4 with the IRS on your behalf for $49 (Standard, 14 business days) or $97 (Express, 7 business days). You do not need an SSN, ITIN, or US address. Read our <Link href="/ein-for-non-residents/" className="text-[var(--color-blue)] underline">EIN for Non-Residents</Link> guide for the full process, or <Link href="/apply/" className="text-[var(--color-blue)] underline">apply now</Link> to get started.
@@ -211,8 +331,9 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Amazon requires every seller to provide a Tax Identification Number during Seller Central registration. US-based individual sellers can use their SSN, but this exposes your personal information in Amazon&apos;s system. Non-US sellers must provide an EIN because they do not have an SSN. For both groups, using an EIN is the recommended approach.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Amazon FBA and 1099-K Reporting</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                An EIN is particularly important for Amazon FBA (Fulfillment by Amazon) sellers because Amazon uses it for 1099-K reporting. If your gross sales exceed the IRS reporting threshold, Amazon will issue a 1099-K tied to your EIN. Having a dedicated business EIN keeps your Amazon income cleanly separated from your personal finances and simplifies tax filing.
+                An EIN is particularly important for Amazon FBA (Fulfillment by Amazon) sellers because Amazon uses it for 1099-K reporting. If your gross sales exceed the IRS $5,000 reporting threshold (lowered from $20,000 in 2024), Amazon will issue a 1099-K tied to your EIN. Having a dedicated business EIN keeps your Amazon income cleanly separated from your personal finances and simplifies tax filing.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Non-resident Amazon sellers face an additional challenge: Amazon&apos;s identity verification process requires a valid tax ID, and the IRS online EIN tool does not work without an SSN. Our <Link href="/ein-for-amazon-sellers/" className="text-[var(--color-blue)] underline">EIN for Amazon Sellers</Link> guide walks you through getting an EIN specifically for your Amazon business, and ein.so can file your SS-4 for $49 (Standard) or $97 (Express).
@@ -234,8 +355,9 @@ export default function WhoNeedsEinClient({ faqs }: { faqs: { q: string; a: stri
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Freelancers who operate as sole proprietors without employees are not legally required to have an EIN. They can use their SSN on W-9 forms and tax returns. However, freelancers who form an LLC, hire subcontractors, or want to protect their SSN from exposure on client paperwork should get an EIN.
               </p>
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Protecting Your SSN on W-9 Forms</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Every time a client asks you to fill out a W-9, you must provide a Tax Identification Number. If you use your SSN, that number is now in the client&apos;s records and potentially visible to their accounting staff. An EIN eliminates this risk. Many freelancers also find that having an EIN makes them appear more legitimate and professional to potential clients, especially larger companies with formal vendor onboarding processes.
+                Every time a client asks you to fill out a W-9, you must provide a Tax Identification Number. If you use your SSN, that number is now in the client&apos;s records and visible to their accounting staff. An EIN eliminates this risk. Many freelancers find that having an EIN makes them appear more legitimate and professional to potential clients, especially Fortune 500 companies with formal vendor onboarding processes.
               </p>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 Non-US freelancers who work with US clients face an additional requirement: clients will often withhold 30% of payments unless you provide a valid US tax ID. An EIN satisfies this requirement and allows you to claim treaty benefits by filing Form W-8BEN-E. Visit our <Link href="/ein-for-freelancers/" className="text-[var(--color-blue)] underline">EIN for Freelancers</Link> guide to learn more about how an EIN benefits your freelance business.

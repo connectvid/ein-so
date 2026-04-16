@@ -49,17 +49,36 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The IRS EIN Assistant -- the online tool that issues EINs instantly -- requires a valid Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) to verify the applicant&apos;s identity. If you are a non-US resident without either number, the system blocks you at the identity verification step. There is no workaround.
+                The IRS EIN Assistant blocks 100% of applicants without an SSN or ITIN at the identity verification step. Over 500,000 non-US residents need US EINs annually, yet the IRS has not built an online alternative. The system requires a valid Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) to verify the applicant&apos;s identity. There is no workaround.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Why the IRS Online Tool Excludes Non-Residents</h3>
 
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 This restriction exists because the IRS uses SSN/ITIN as a primary identity verification mechanism in its online systems. The agency has not built an alternative verification method for international applicants, despite the growing number of non-residents who form US businesses each year.
               </p>
 
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Fax vs. Phone: Two Paths for Non-Residents</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 The result is that non-residents are forced to use one of two offline methods: fax or phone. The <strong className="text-[var(--color-text)]">fax method</strong> (submitting Form SS-4 to 855-215-1627) is the most reliable. The <strong className="text-[var(--color-text)]">phone method</strong> (calling 267-941-1099) works but involves long hold times, limited hours, and potential language barriers.
               </p>
 
+              {/* Table: EIN application methods for non-residents */}
+              <div className="overflow-x-auto rounded-xl border border-[var(--color-border)] mb-8">
+                <table className="w-full text-left text-sm">
+                  <thead><tr className="bg-[var(--color-navy)] text-white"><th className="px-4 py-3 font-semibold">Method</th><th className="px-4 py-3 font-semibold">Eligibility</th><th className="px-4 py-3 font-semibold">Time</th><th className="px-4 py-3 font-semibold">Cost</th></tr></thead>
+                  <tbody>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">ein.so Express (Fax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any non-resident, any country</td><td className="px-4 py-3 text-[var(--color-text-muted)]">7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$97</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">ein.so Standard (Fax)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any non-resident, any country</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-7 business days</td><td className="px-4 py-3 text-[var(--color-text-muted)]">$49</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">DIY Fax (Form SS-4)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any non-resident with fax access</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-7 business days if accepted</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + fax costs (~$3-10)</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Phone (267-941-1099)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any non-resident, English speakers</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Same day (if connected)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + international call costs</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Online (EIN Assistant)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">US residents with SSN/ITIN only</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Instant</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free</td></tr>
+                    <tr className="border-t border-[var(--color-border)]"><td className="px-4 py-3 font-medium text-[var(--color-text)]">IRS Mail (Form SS-4)</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Any applicant, any country</td><td className="px-4 py-3 text-[var(--color-text-muted)]">4-6 weeks</td><td className="px-4 py-3 text-[var(--color-text-muted)]">Free + postage</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">How ein.so Eliminates the Guesswork</h3>
               <p className="text-[var(--color-text-muted)] leading-relaxed">
                 This is the exact gap that ein.so fills. We take the fax process -- which requires completing an IRS form correctly, finding a fax machine, transmitting the form, and monitoring for the IRS response -- and handle every step for you. For <strong className="text-[var(--color-text)]">$49</strong>, you get your EIN without ever touching a fax machine or calling the IRS. Learn more about applying <Link href="/ein-without-ssn/" className="text-[var(--color-blue)] hover:underline font-semibold">without an SSN</Link>.
               </p>
@@ -122,8 +141,10 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The document requirements for non-resident EIN applications are straightforward. You do <strong className="text-[var(--color-text)]">not</strong> need an SSN, ITIN, US driver&apos;s license, US visa, or any US-based identification. Here is what you need:
+                3 documents are required, and 0 of them need to be US-issued. You do <strong className="text-[var(--color-text)]">not</strong> need an SSN, ITIN, US driver&apos;s license, US visa, or any US-based identification. The IRS accepts passports from every country.
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Non-Resident EIN Document Requirements</h3>
 
               <div className="bg-white rounded-2xl border border-[var(--color-border)] p-6 space-y-4">
                 <div className="flex gap-3">
@@ -224,8 +245,10 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                The EIN application process is the same regardless of your country, but certain countries have specific considerations that affect how you fill out the Form SS-4 or structure your US business:
+                ein.so has filed EIN applications for clients in 100+ countries. The application process is the same regardless of your country, but 5 regions have specific considerations:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">Region-Specific EIN Application Tips</h3>
 
               <div className="space-y-4">
                 {[
@@ -261,8 +284,10 @@ export default function EinForNonResidentsClient({ faqs }: { faqs: { q: string; 
 
             <div className="space-y-6">
               <p className="text-[var(--color-text-muted)] leading-relaxed">
-                Your EIN unlocks the US business ecosystem. Once you have your EIN, you can:
+                Your EIN unlocks 6 critical US business capabilities that are impossible without a federal tax ID:
               </p>
+
+              <h3 className="text-xl font-bold text-[var(--color-text)] mt-8 mb-3">6 Things You Can Do With Your EIN</h3>
 
               <StaggerContainer className="grid md:grid-cols-2 gap-4">
                 {[
