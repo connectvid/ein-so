@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import { BreadcrumbSchema } from "../schema";
 import PrivacyClient from "./PrivacyClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("privacy/_index.md");
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "ein.so privacy policy. How we collect, use, and protect your personal information.",
-  alternates: { canonical: "/privacy/" },
-  robots: { index: true, follow: true },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
+  robots: fm.robots,
 };
 
 export default function PrivacyPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Privacy Policy", url: "/privacy/" }]} />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <PrivacyClient />
     </>
   );

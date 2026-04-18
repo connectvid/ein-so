@@ -1,67 +1,28 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinForShopifySellersClient from "./EinForShopifySellersClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("ein-for-shopify-sellers/_index.md");
 
 export const metadata: Metadata = {
-  title: "EIN for Shopify Sellers: Tax Setup Guide (2026)",
-  description:
-    "Shopify requires tax information for US sales. Non-US Shopify sellers need an EIN for tax compliance and payment processing.",
-  alternates: { canonical: "/ein-for-shopify-sellers/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
-
-const faqs = [
-  {
-    q: "Does Shopify require an EIN to sell?",
-    a: "Shopify itself does not require an EIN to create a store. However, Shopify Payments and US tax compliance require a Tax Identification Number. Non-US sellers need an EIN because they do not have an SSN. US sellers benefit from using an EIN to keep their SSN off business tax forms.",
-  },
-  {
-    q: "Can I open a Shopify store without an EIN?",
-    a: "You can create a Shopify store without an EIN, but you cannot activate Shopify Payments or properly handle US tax obligations without a TIN. If you sell to US customers and earn above the 1099-K threshold, Shopify must report your income to the IRS, which requires a TIN.",
-  },
-  {
-    q: "Do non-US Shopify sellers need an EIN?",
-    a: "Yes. Non-US residents selling through Shopify to US customers need an EIN for tax compliance, payment processing through Shopify Payments, and opening a US bank account to receive payouts. ein.so handles EIN applications for non-US Shopify sellers for $49 (Standard) or $97 (Express).",
-  },
-  {
-    q: "How do I add my EIN to Shopify?",
-    a: "In your Shopify admin, go to Settings > Taxes and Duties. Enter your EIN in the tax identification field. For Shopify Payments, navigate to Settings > Payments > Manage and enter your EIN in the business information section. Make sure the business name matches your EIN confirmation letter exactly.",
-  },
-  {
-    q: "How long does it take to get an EIN for Shopify?",
-    a: "US residents with an SSN can get an EIN instantly online. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 7 business days so you can set up Shopify Payments quickly.",
-  },
-  {
-    q: "Can I use the same EIN for Shopify and Amazon?",
-    a: "Yes. Your EIN is tied to your business entity and can be used across all platforms, including Shopify, Amazon, PayPal, Stripe, and your bank account. You do not need separate EINs for different sales channels.",
-  },
-  {
-    q: "Do I need an LLC to sell on Shopify?",
-    a: "An LLC is not required to sell on Shopify. Sole proprietors can sell using their personal EIN. However, an LLC provides liability protection and separates your personal and business assets. Most serious Shopify sellers eventually form an LLC, especially non-US sellers who want to open a US bank account.",
-  },
-  {
-    q: "What tax forms does Shopify send to the IRS?",
-    a: "Shopify reports seller income to the IRS using Form 1099-K if you exceed the reporting threshold. For 2026, the threshold is $600 in gross sales. Your EIN appears on this form. Shopify also collects W-9 (US entities) or W-8BEN (foreign entities) forms that require your EIN.",
-  },
-];
 
 export default function EinForShopifySellersPage() {
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
-          { name: "EIN for Shopify Sellers", url: "/ein-for-shopify-sellers/" },
-        ]}
-      />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ArticleSchema
-        headline="EIN for Shopify Sellers: Tax Setup Guide (2026)"
-        description="Complete guide to getting an EIN for Shopify selling. Covers Shopify Payments setup, tax compliance, non-US seller requirements, and step-by-step instructions."
-        url="/ein-for-shopify-sellers/"
-        datePublished="2026-04-13"
+        headline={fm.schema.headline}
+        description={fm.schema.description}
+        url={fm.canonical}
+        datePublished={fm.schema.datePublished}
       />
-      <FAQSchema faqs={faqs} />
-      <EinForShopifySellersClient faqs={faqs} />
+      <FAQSchema faqs={fm.faqs} />
+      <EinForShopifySellersClient faqs={fm.faqs} />
     </>
   );
 }

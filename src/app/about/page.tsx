@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import AboutPageClient from "./AboutPageClient";
 import { BreadcrumbSchema } from "../schema";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("about/_index.md");
 
 export const metadata: Metadata = {
-  title: "About ein.so | EIN Service for Non-US Residents",
-  description:
-    "Learn about ein.so, the most affordable EIN service for non-US residents. We handle the SS-4 fax process so you don't have to. Just $49.",
-  alternates: { canonical: "/about/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
 
 export default function AboutPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "About", url: "/about/" }]} />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <AboutPageClient />
     </>
   );

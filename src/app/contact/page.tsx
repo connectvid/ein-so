@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import ContactPageClient from "./ContactPageClient";
 import { BreadcrumbSchema } from "../schema";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("contact/_index.md");
 
 export const metadata: Metadata = {
-  title: "Contact ein.so | EIN Help & Support",
-  description:
-    "Get in touch with ein.so for help with your EIN application. Reach us on WhatsApp or email. We respond within hours, not days.",
-  alternates: { canonical: "/contact/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
 
 export default function ContactPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Contact", url: "/contact/" }]} />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ContactPageClient />
     </>
   );

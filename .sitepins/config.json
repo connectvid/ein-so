@@ -1,12 +1,13 @@
 {
-  "content": "src/app",
-  "media": "src",
+  "content": "src/content",
+  "media": "public/images",
   "public": "public",
+  "code": "src/components",
   "configs": [
-    "package-lock.json",
+    "src/lib/constants.ts",
     "package.json",
     "tsconfig.json"
   ],
-  "custom-commit": false,
+  "custom-commit": true,
   "arrangement": []
 }

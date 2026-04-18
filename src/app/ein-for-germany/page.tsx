@@ -1,63 +1,28 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinForGermanyClient from "./EinForGermanyClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("ein-for-germany/_index.md");
 
 export const metadata: Metadata = {
-  title: "EIN for German Entrepreneurs: US Market Entry (2026)",
-  description:
-    "German entrepreneurs can get a US EIN without an SSN. Learn how Amazon FBA sellers, GmbH owners, and EU businesses from Germany apply for an EIN. ein.so handles it for $49.",
-  alternates: { canonical: "/ein-for-germany/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
-
-const faqs = [
-  {
-    q: "Can German citizens get a US EIN?",
-    a: "Yes. German citizens and residents can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your German passport number (Reisepass) serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).",
-  },
-  {
-    q: "Do I need an SSN or ITIN to get a US EIN from Germany?",
-    a: "No. German applicants do not need a US Social Security Number or ITIN. Your Reisepass (passport) number is used on Form SS-4 as your foreign identification number. The IRS online tool requires an SSN, so German applicants use the fax method. ein.so handles the fax filing.",
-  },
-  {
-    q: "Should I use my GmbH or form a US LLC?",
-    a: "Most German entrepreneurs form a separate US LLC rather than registering their GmbH in the US. A US LLC is simpler, cheaper to maintain, and provides cleaner separation between German and US operations. Foreign qualifying a GmbH in a US state involves more complexity and higher costs. Your US LLC gets its own EIN.",
-  },
-  {
-    q: "How does the US-Germany tax treaty affect my EIN?",
-    a: "The US-Germany tax treaty prevents double taxation. Business profits from your US LLC are taxable in Germany (where you reside) unless you have a permanent establishment in the US. The treaty provides credits for taxes paid in either country. Consult a Steuerberater familiar with US-German tax obligations.",
-  },
-  {
-    q: "Can I sell on Amazon.com from Germany with a US EIN?",
-    a: "Yes. Germany is Amazon's second-largest market globally after the US. Many German sellers on Amazon.de expand to Amazon.com using a US LLC and EIN. Your EIN completes the Amazon tax interview, giving you access to the US marketplace and FBA warehouses.",
-  },
-  {
-    q: "How do I handle VAT and US sales tax?",
-    a: "German VAT (Umsatzsteuer) and US sales tax are separate systems. Your US LLC is not subject to German VAT for US sales. US sales tax is collected at the state level. Amazon handles sales tax collection for FBA sellers. Your German Umsatzsteuer-ID is not used for US tax purposes -- your EIN is your US tax identifier.",
-  },
-  {
-    q: "What is the difference between a Steuernummer and a US EIN?",
-    a: "Your Steuernummer (tax number) is issued by the Finanzamt for German tax purposes. A US EIN is issued by the IRS for US tax purposes. They serve different jurisdictions. If you operate businesses in both Germany and the US, you need both. Your German tax number cannot be used for US banking or compliance.",
-  },
-];
 
 export default function EinForGermanyPage() {
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "/" },
-          { name: "EIN for Non-Residents", url: "/ein-for-non-residents/" },
-          { name: "EIN for Germany", url: "/ein-for-germany/" },
-        ]}
-      />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ArticleSchema
-        headline="EIN for German Entrepreneurs: US Market Entry (2026)"
-        description="Complete guide for German entrepreneurs applying for a US EIN. Amazon FBA, GmbH vs LLC, EU-US business, and VAT considerations."
-        url="/ein-for-germany/"
-        datePublished="2026-04-13"
+        headline={fm.schema.headline}
+        description={fm.schema.description}
+        url={fm.canonical}
+        datePublished={fm.schema.datePublished}
       />
-      <FAQSchema faqs={faqs} />
-      <EinForGermanyClient faqs={faqs} />
+      <FAQSchema faqs={fm.faqs} />
+      <EinForGermanyClient faqs={fm.faqs} />
     </>
   );
 }

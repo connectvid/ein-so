@@ -1,0 +1,32 @@
+---
+title: "EIN vs TIN: What's the Difference? (2026)"
+description: "TIN (Taxpayer Identification Number) is the general term. EIN, SSN, and ITIN are all types of TINs. Learn which one your business needs."
+canonical: "/ein-vs-tin/"
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "EIN vs ITIN"
+    url: "/ein-vs-itin/"
+  - name: "EIN vs TIN"
+    url: "/ein-vs-tin/"
+schema:
+  type: "article"
+  headline: "EIN vs TIN: What's the Difference? (2026)"
+  description: "TIN (Taxpayer Identification Number) is the general term. EIN, SSN, and ITIN are all types of TINs. Learn which one your business needs."
+  datePublished: "2026-04-13"
+faqs:
+  - q: "Is an EIN the same as a TIN?"
+    a: "An EIN is a type of TIN, but they are not the same thing. TIN stands for Taxpayer Identification Number and is the umbrella term the IRS uses for all tax identification numbers. EIN (Employer Identification Number), SSN (Social Security Number), and ITIN (Individual Taxpayer Identification Number) are all specific types of TINs. Every EIN is a TIN, but not every TIN is an EIN."
+  - q: "What does TIN stand for?"
+    a: "TIN stands for Taxpayer Identification Number. It is the official IRS term for any number used to identify a taxpayer. The IRS recognizes five types of TINs: EIN (for businesses), SSN (for US citizens and authorized workers), ITIN (for individuals without SSN eligibility), ATIN (Adoption Taxpayer Identification Number), and PTIN (Preparer Tax Identification Number)."
+  - q: "When a form asks for my TIN, what should I enter?"
+    a: "Enter whichever tax identification number applies to the context. For business forms, enter your EIN. For personal tax forms, enter your SSN or ITIN. The form usually specifies which type of TIN it expects, or the context makes it clear. A W-9 form, for example, has separate fields for SSN/ITIN and EIN."
+  - q: "Can a non-US resident get a TIN?"
+    a: "Yes. Non-US residents can get an EIN (a type of TIN) for their US business by filing Form SS-4 by fax. They can also get an ITIN (another type of TIN) for personal tax filing by submitting Form W-7. Non-residents cannot get an SSN unless they have authorization to work in the US. ein.so handles EIN applications for non-residents starting at $49."
+  - q: "Do I need both a TIN and an EIN?"
+    a: "This question reflects the common confusion between TIN and EIN. You do not need a separate TIN in addition to your EIN because your EIN IS your business TIN. You may also have a personal TIN (SSN or ITIN) for individual tax purposes. The business uses the EIN; you personally use the SSN or ITIN."
+  - q: "What is the format of a TIN?"
+    a: "The format depends on the type of TIN. An EIN is formatted as XX-XXXXXXX. An SSN is formatted as XXX-XX-XXXX. An ITIN is formatted as 9XX-XX-XXXX. All types contain 9 digits. There is no single 'TIN format' because TIN is the category, not a specific number type."
+  - q: "Is a Federal Tax ID the same as a TIN?"
+    a: "Yes, in common usage. 'Federal Tax ID' and 'TIN' both refer to the same category of numbers. When someone asks for your 'Federal Tax ID,' they want whichever TIN applies to your situation: an EIN for your business, or an SSN/ITIN for you personally. The IRS officially uses TIN (Taxpayer Identification Number) as the formal term."
+---

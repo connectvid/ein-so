@@ -1,67 +1,28 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinForEstateClient from "./EinForEstateClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("ein-for-estate/_index.md");
 
 export const metadata: Metadata = {
-  title: "EIN for Estate: How to Get One for a Deceased Person (2026)",
-  description:
-    "An estate needs its own EIN for tax filing and asset distribution. The executor applies using Form SS-4 after the individual passes.",
-  alternates: { canonical: "/ein-for-estate/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
-
-const faqs = [
-  {
-    q: "Does an estate need an EIN?",
-    a: "Yes. Every estate of a deceased person needs its own EIN. The estate is a separate tax entity from the deceased individual. The executor uses the estate's EIN to file Form 1041, open estate bank accounts, and manage asset distribution.",
-  },
-  {
-    q: "Who applies for the estate's EIN?",
-    a: "The executor (also called the personal representative or administrator) applies for the estate's EIN. The executor is named in the will or appointed by the probate court. On Form SS-4, the executor is listed as the responsible party.",
-  },
-  {
-    q: "How soon after death do I need to get an EIN for the estate?",
-    a: "Apply as soon as possible after being appointed executor. You need the EIN to open an estate bank account, collect the decedent's assets, pay debts, and file the estate's tax return. Banks will not let you access estate funds without an EIN.",
-  },
-  {
-    q: "Can I use the deceased person's SSN for the estate?",
-    a: "No. The deceased person's SSN dies with them for tax purposes. The estate is a new, separate entity that requires its own EIN. The final personal tax return (Form 1040) uses the decedent's SSN, but the estate's income tax return (Form 1041) uses the estate's EIN.",
-  },
-  {
-    q: "How much does it cost to get an EIN for an estate?",
-    a: "Getting an EIN from the IRS is free. If the executor has an SSN or ITIN, they can apply online and receive the EIN instantly. For non-US executors, ein.so handles the fax application for $49 (Standard) or $97 (Express).",
-  },
-  {
-    q: "What tax return does an estate file?",
-    a: "Estates file Form 1041 (US Income Tax Return for Estates and Trusts) if the estate earns $600 or more in gross income during the tax year. The form reports income earned by estate assets after the date of death, such as interest, dividends, rent, and capital gains.",
-  },
-  {
-    q: "Is an estate EIN different from a trust EIN?",
-    a: "Yes. An estate and a trust are separate entities, each with its own EIN. If the deceased person had a trust that becomes irrevocable upon death, the trust needs its own EIN in addition to the estate's EIN. Do not use one entity's EIN for the other.",
-  },
-  {
-    q: "How long does an estate EIN last?",
-    a: "The estate's EIN remains active until the estate is fully administered and closed. Once all assets are distributed and the final Form 1041 is filed, the executor notifies the IRS to close the estate's account. The EIN itself is never reused or reassigned.",
-  },
-];
 
 export default function EinForEstatePage() {
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
-          { name: "EIN for Estate", url: "/ein-for-estate/" },
-        ]}
-      />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ArticleSchema
-        headline="EIN for Estate: How to Get One for a Deceased Person (2026)"
-        description="Complete guide to getting an EIN for a deceased person's estate. Covers executor responsibilities, Form SS-4 instructions, and the estate tax filing process."
-        url="/ein-for-estate/"
-        datePublished="2026-04-13"
+        headline={fm.schema.headline}
+        description={fm.schema.description}
+        url={fm.canonical}
+        datePublished={fm.schema.datePublished}
       />
-      <FAQSchema faqs={faqs} />
-      <EinForEstateClient faqs={faqs} />
+      <FAQSchema faqs={fm.faqs} />
+      <EinForEstateClient faqs={fm.faqs} />
     </>
   );
 }

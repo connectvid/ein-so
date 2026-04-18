@@ -1,67 +1,28 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinForLlcClient from "./EinForLlcClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("ein-for-llc/_index.md");
 
 export const metadata: Metadata = {
-  title: "EIN for LLC: Do You Need One? How to Apply (2026)",
-  description:
-    "Every LLC needs an EIN for tax filing, banking, and hiring. Learn how to get an EIN for your LLC in 2026, single-member vs multi-member requirements, and BOI filing obligations.",
-  alternates: { canonical: "/ein-for-llc/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
-
-const faqs = [
-  {
-    q: "Does a single-member LLC need an EIN?",
-    a: "Yes. While the IRS does not strictly require a single-member LLC without employees to have an EIN, you will need one to open a business bank account, apply for business credit, hire employees in the future, or keep your SSN off business documents. In practice, every single-member LLC should get an EIN.",
-  },
-  {
-    q: "How much does it cost to get an EIN for an LLC?",
-    a: "Getting an EIN directly from the IRS is free. If you apply online with an SSN or ITIN, you receive your EIN instantly at no charge. For non-US residents who must use the fax method, ein.so handles the process for $49 (Standard) or $97 (Express). Never pay hundreds of dollars for an EIN -- it is a free government-issued number.",
-  },
-  {
-    q: "Can I use my personal SSN instead of an EIN for my LLC?",
-    a: "A single-member LLC can technically use the owner's SSN for tax purposes, but this is not recommended. Using your SSN exposes your personal information on every W-9, business tax form, and vendor document. An EIN separates your personal identity from your business and is required by most banks to open an LLC bank account.",
-  },
-  {
-    q: "Do I need an EIN for an LLC before opening a bank account?",
-    a: "Yes. Banks require an EIN to open a business bank account for an LLC. This applies to both single-member and multi-member LLCs. You cannot open an LLC bank account with just an SSN -- the bank needs to verify that your business has a valid federal Tax ID. See our guide on getting an EIN for bank account purposes.",
-  },
-  {
-    q: "What is the BOI filing requirement for LLCs?",
-    a: "The Corporate Transparency Act requires most LLCs to file a Beneficial Ownership Information (BOI) report with FinCEN. This report identifies the individuals who own or control the LLC. Non-compliance carries penalties of $500 per day. LLCs formed in 2024 or later must file within 90 days of formation. Existing LLCs must also file. ein.so offers BOI filing assistance.",
-  },
-  {
-    q: "Does a multi-member LLC need an EIN?",
-    a: "Absolutely. The IRS requires every multi-member LLC to have an EIN because multi-member LLCs are taxed as partnerships by default and must file Form 1065. There is no exception -- if your LLC has two or more members, you must have an EIN regardless of whether you have employees.",
-  },
-  {
-    q: "Can a non-US resident get an EIN for a US LLC?",
-    a: "Yes. Non-US residents who form a US LLC can and must obtain an EIN. Since non-residents cannot use the IRS online system (it requires an SSN or ITIN), they must apply by fax using Form SS-4. ein.so specializes in this process, handling the SS-4 filing for non-resident LLC owners for $49.",
-  },
-  {
-    q: "How long does it take to get an EIN for an LLC?",
-    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For fax applications (the method used by non-residents), processing takes 4-7 business days. ein.so's Express service ($97) can reduce this to 7 business days. Mail applications take 4-6 weeks and are not recommended.",
-  },
-];
 
 export default function EinForLlcPage() {
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Who Needs an EIN?", url: "/who-needs-ein/" },
-          { name: "EIN for LLC", url: "/ein-for-llc/" },
-        ]}
-      />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ArticleSchema
-        headline="EIN for LLC: Do You Need One? How to Apply (2026)"
-        description="Complete guide to getting an EIN for your LLC in 2026. Covers single-member and multi-member requirements, BOI filing obligations, and how to apply as a non-resident."
-        url="/ein-for-llc/"
-        datePublished="2026-04-13"
+        headline={fm.schema.headline}
+        description={fm.schema.description}
+        url={fm.canonical}
+        datePublished={fm.schema.datePublished}
       />
-      <FAQSchema faqs={faqs} />
-      <EinForLlcClient faqs={faqs} />
+      <FAQSchema faqs={fm.faqs} />
+      <EinForLlcClient faqs={fm.faqs} />
     </>
   );
 }

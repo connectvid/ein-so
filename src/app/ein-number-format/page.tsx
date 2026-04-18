@@ -1,63 +1,28 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
 import EinNumberFormatClient from "./EinNumberFormatClient";
+import { getListPage } from "@/lib/contentParser";
+
+const { frontmatter: fm } = getListPage("ein-number-format/_index.md");
 
 export const metadata: Metadata = {
-  title: "EIN Number Format Explained: XX-XXXXXXX (2026)",
-  description:
-    "An EIN is formatted as XX-XXXXXXX (9 digits with a hyphen after the first 2). The first 2 digits indicate the IRS campus that issued it.",
-  alternates: { canonical: "/ein-number-format/" },
+  title: fm.title,
+  description: fm.description,
+  alternates: { canonical: fm.canonical },
 };
-
-const faqs = [
-  {
-    q: "What does an EIN number look like?",
-    a: "An EIN is a 9-digit number formatted as XX-XXXXXXX. That is two digits, a hyphen, then seven digits. For example, 12-3456789. The hyphen always appears after the second digit. This format distinguishes an EIN from an SSN (XXX-XX-XXXX) and an ITIN (9XX-XX-XXXX).",
-  },
-  {
-    q: "What do the first two digits of an EIN mean?",
-    a: "The first two digits of an EIN indicate the IRS campus that processed the application. For example, prefixes 01-06 were assigned by the Brookhaven campus in New York, 10-16 by the Austin campus in Texas, and 20-27 by the Philadelphia campus in Pennsylvania. Since 2001, the IRS has used internet-assigned prefixes (20-48 and others) for online applications.",
-  },
-  {
-    q: "Can an EIN start with 00?",
-    a: "No. Valid EIN prefixes range from 01 to 99, but not all prefixes are in use. The IRS has assigned specific prefix ranges to different processing campuses and online systems. An EIN starting with 00 would be invalid. If you see an EIN that starts with 00, it is either a formatting error or a fraudulent number.",
-  },
-  {
-    q: "Is an EIN always 9 digits?",
-    a: "Yes. Every EIN issued by the IRS contains exactly 9 digits. The formatted version includes a hyphen after the second digit (XX-XXXXXXX), but the underlying number is always 9 digits. If you encounter a number with fewer or more digits claiming to be an EIN, it is not a valid EIN.",
-  },
-  {
-    q: "How is an EIN different from an SSN in format?",
-    a: "An EIN is formatted as XX-XXXXXXX (2-7 split). An SSN is formatted as XXX-XX-XXXX (3-2-4 split). Both are 9-digit numbers, but the position of the hyphen(s) is different. An EIN has one hyphen after 2 digits; an SSN has two hyphens creating three groups. This makes them visually distinct.",
-  },
-  {
-    q: "Where do I find the EIN format on IRS documents?",
-    a: "The IRS prints your EIN in the XX-XXXXXXX format on your EIN confirmation letter (CP 575), all IRS correspondence, tax return acknowledgments, and any notices. The EIN always appears with the hyphen. When entering your EIN on tax forms and applications, include the hyphen unless the form specifically asks for digits only.",
-  },
-  {
-    q: "Can two businesses have the same EIN?",
-    a: "No. Every EIN is unique to a single entity. The IRS never reuses or reassigns EINs, even after a business closes. Once an EIN is assigned to your entity, it belongs to that entity permanently. If your business structure changes (for example, converting from a sole proprietorship to an LLC), you need a new EIN for the new entity.",
-  },
-];
 
 export default function EinNumberFormatPage() {
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "/" },
-          { name: "What Is an EIN?", url: "/what-is-ein/" },
-          { name: "EIN Number Format", url: "/ein-number-format/" },
-        ]}
-      />
+      <BreadcrumbSchema items={fm.breadcrumbs} />
       <ArticleSchema
-        headline="EIN Number Format Explained: XX-XXXXXXX (2026)"
-        description="An EIN is formatted as XX-XXXXXXX (9 digits with a hyphen after the first 2). The first 2 digits indicate the IRS campus that issued it."
-        url="/ein-number-format/"
-        datePublished="2026-04-13"
+        headline={fm.schema.headline}
+        description={fm.schema.description}
+        url={fm.canonical}
+        datePublished={fm.schema.datePublished}
       />
-      <FAQSchema faqs={faqs} />
-      <EinNumberFormatClient faqs={faqs} />
+      <FAQSchema faqs={fm.faqs} />
+      <EinNumberFormatClient faqs={fm.faqs} />
     </>
   );
 }
