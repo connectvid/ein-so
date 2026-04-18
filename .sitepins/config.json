@@ -1,8 +1,7 @@
 {
   "content": "src/content",
   "media": "public/images",
-  "public": "public",
-  "code": "src/components",
+  "public": "src/components",
   "configs": [
     "src/lib/constants.ts",
     "package.json",
