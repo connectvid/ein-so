@@ -1,0 +1,12 @@
+{
+  "content": "src/app",
+  "media": "src",
+  "public": "public",
+  "configs": [
+    "package-lock.json",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "custom-commit": false,
+  "arrangement": []
+}
