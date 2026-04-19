@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinForPaypalClient from "./EinForPaypalClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-for-paypal/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-for-paypal/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -22,7 +22,7 @@ export default function EinForPaypalPage() {
         datePublished={fm.schema.datePublished}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinForPaypalClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

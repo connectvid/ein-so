@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinVsTaxIdClient from "./EinVsTaxIdClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-vs-tax-id/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-vs-tax-id/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -22,7 +22,7 @@ export default function EinVsTaxIdPage() {
         datePublished={fm.schema.datePublished}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinVsTaxIdClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

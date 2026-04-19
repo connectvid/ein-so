@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import SCorpElectionClient from "./SCorpElectionClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("s-corp-election/_index.md");
+const { frontmatter: fm, content } = getListPage("s-corp-election/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -22,7 +22,7 @@ export default function SCorpElectionPage() {
         datePublished={fm.schema.datePublished}
       />
       <FAQSchema faqs={fm.faqs} />
-      <SCorpElectionClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

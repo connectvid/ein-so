@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinForShopifySellersClient from "./EinForShopifySellersClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-for-shopify-sellers/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-for-shopify-sellers/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -22,7 +22,7 @@ export default function EinForShopifySellersPage() {
         datePublished={fm.schema.datePublished}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinForShopifySellersClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

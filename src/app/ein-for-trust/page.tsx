@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinForTrustClient from "./EinForTrustClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-for-trust/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-for-trust/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -22,7 +22,7 @@ export default function EinForTrustPage() {
         datePublished={fm.schema.datePublished}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinForTrustClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

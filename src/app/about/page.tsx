@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import AboutPageClient from "./AboutPageClient";
 import { BreadcrumbSchema } from "../schema";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("about/_index.md");
+const { frontmatter: fm, content } = getListPage("about/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -15,7 +15,7 @@ export default function AboutPage() {
   return (
     <>
       <BreadcrumbSchema items={fm.breadcrumbs} />
-      <AboutPageClient />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

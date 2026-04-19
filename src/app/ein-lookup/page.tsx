@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinLookupClient from "./EinLookupClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-lookup/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-lookup/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -21,7 +21,7 @@ export default function EinLookupPage() {
         url={fm.canonical}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinLookupClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

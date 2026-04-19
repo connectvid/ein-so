@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import WhatIsEinClient from "./WhatIsEinClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("what-is-ein/_index.md");
+const { frontmatter: fm, content } = getListPage("what-is-ein/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -21,7 +21,7 @@ export default function WhatIsEinPage() {
         url={fm.canonical}
       />
       <FAQSchema faqs={fm.faqs} />
-      <WhatIsEinClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

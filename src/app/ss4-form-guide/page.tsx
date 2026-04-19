@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema, HowToSchema } from "../schema";
-import SS4FormGuideClient from "./SS4FormGuideClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ss4-form-guide/_index.md");
+const { frontmatter: fm, content } = getListPage("ss4-form-guide/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -23,7 +23,7 @@ export default function SS4FormGuidePage() {
       />
       <HowToSchema steps={fm.howto.steps} />
       <FAQSchema faqs={fm.faqs} />
-      <SS4FormGuideClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }

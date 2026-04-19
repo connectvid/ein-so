@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "../schema";
-import EinVsItinClient from "./EinVsItinClient";
 import { getListPage } from "@/lib/contentParser";
+import { MDXPage } from "@/lib/mdx";
 
-const { frontmatter: fm } = getListPage("ein-vs-itin/_index.md");
+const { frontmatter: fm, content } = getListPage("ein-vs-itin/_index.md");
 
 export const metadata: Metadata = {
   title: fm.title,
@@ -21,7 +21,7 @@ export default function EinVsItinPage() {
         url={fm.canonical}
       />
       <FAQSchema faqs={fm.faqs} />
-      <EinVsItinClient faqs={fm.faqs} />
+      <MDXPage frontmatter={fm} content={content} />
     </>
   );
 }
