@@ -1,0 +1,39 @@
+{
+  "file": "",
+  "name": "Hello",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2026-04-19",
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": "2026-04-19",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "post_image",
+      "label": "post_image",
+      "type": "media",
+      "value": "",
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": ""
+    }
+  ]
+}
