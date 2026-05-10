@@ -40,6 +40,8 @@ faqs:
 
 <Section>
 
+![EIN for sole proprietor — protect your SSN with a business tax ID](/images/ein-for-sole-proprietor.webp)
+
 <Capsule>**Sole proprietors need an EIN if they hire employees, file excise tax returns, or maintain a Keogh or Solo 401(k) retirement plan. Without these triggers, an EIN is optional but highly recommended for SSN protection and business banking.** The IRS issues EINs free of charge. US residents apply online and receive the number instantly. Non-US residents apply by fax using Form SS-4. ein.so handles fax applications for $49 (Standard) or $97 (Express).</Capsule>
 
 A sole proprietorship is the simplest business structure in the United States. You do not file formation documents with the state. You do not need an operating agreement. The moment you start earning business income as an individual, the IRS considers you a sole proprietor. But simplicity does not mean you should skip getting an EIN. This guide explains exactly when the IRS mandates an EIN for sole proprietors, why most sole proprietors should get one regardless, and how to apply.

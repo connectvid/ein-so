@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![EIN vs SSN — business identifier vs personal identifier](/images/ein-vs-ssn.webp)
+
 <Capsule label="Short Answer">**An EIN (Employer Identification Number) is a 9-digit number the IRS assigns to businesses for tax filing, banking, and hiring. An SSN (Social Security Number) is a 9-digit number the SSA assigns to individuals for personal taxes, employment, and government benefits.** You use your SSN for personal matters and your EIN for business matters. Non-US residents without an SSN can still get an EIN by filing Form SS-4 by fax with the IRS.</Capsule>
 
 </Section>

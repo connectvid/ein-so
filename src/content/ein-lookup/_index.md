@@ -40,6 +40,8 @@ faqs:
 
 <Section>
 
+![EIN lookup — search methods to find any business EIN number](/images/ein-lookup.webp)
+
 <InfoBox title="The Short Answer">There is **no universal free EIN lookup tool**. The IRS does not maintain a public database of all EINs. You can look up non-profit EINs through the **IRS Tax Exempt Organization Search**, public company EINs through **SEC EDGAR**, and some business EINs through **state business registries**. For your own EIN, check your IRS confirmation letter (CP 575) or call the IRS at **800-829-4933**.</InfoBox>
 
 </Section>

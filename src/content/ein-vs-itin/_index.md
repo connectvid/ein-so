@@ -40,6 +40,8 @@ faqs:
 
 <Section>
 
+![EIN vs ITIN comparison — business tax ID vs individual tax ID](/images/ein-vs-itin.webp)
+
 <Capsule label="Short Answer">An **EIN (Employer Identification Number)** is a 9-digit number the IRS assigns to businesses: LLCs, corporations, partnerships, and other entities. It is your business's tax ID. An **ITIN (Individual Taxpayer Identification Number)** is a 9-digit number the IRS assigns to individuals who need to file US taxes but are not eligible for a Social Security Number (SSN). Many non-US residents need **both**: an EIN for their business and an ITIN for their personal tax obligations.</Capsule>
 
 </Section>

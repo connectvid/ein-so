@@ -41,6 +41,8 @@ faqs:
 ---
 
 <Section>
+![Open a US business bank account with your EIN](/images/ein-for-bank-account.webp)
+
 <Capsule label="Short Answer">
 **You need an EIN (Employer Identification Number) to open a US business bank account. Banks require an EIN to verify your business identity, comply with IRS regulations, and set up tax reporting for your account.** Non-residents without an SSN can get an EIN through ein.so for $49 and then open accounts at banks like Mercury, Relay, or Wise, all 100% online without visiting the US.
 </Capsule>
