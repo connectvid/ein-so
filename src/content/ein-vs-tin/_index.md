@@ -20,6 +20,7 @@ schema:
   headline: "EIN vs TIN: What's the Difference? (2026)"
   description: "TIN (Taxpayer Identification Number) is the general term. EIN, SSN, and ITIN are all types of TINs. Learn which one your business needs."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Is an EIN the same as a TIN?"
     a: "An EIN is a type of TIN, but they are not the same thing. TIN stands for Taxpayer Identification Number and is the umbrella term the IRS uses for all tax identification numbers. EIN (Employer Identification Number), SSN (Social Security Number), and ITIN (Individual Taxpayer Identification Number) are all specific types of TINs. Every EIN is a TIN, but not every TIN is an EIN."

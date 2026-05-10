@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Medical Practice & Doctors (2026)"
   description: "Medical Practice & Doctors need an EIN for tax compliance, business banking, and professional operations. Medical practices need an EIN for Medicare/Medicaid enrollment, employee payroll, and insurance. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Medical Practice"
 heroAccent: "Guide"

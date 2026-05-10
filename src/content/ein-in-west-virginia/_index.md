@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in West Virginia: How to Apply (WV) (2026)"
   description: "Get an EIN in West Virginia. The EIN is a federal number from the IRS, not state-specific. West Virginia has 3-6.5% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in West Virginia"
 heroAccent: "(WV)"

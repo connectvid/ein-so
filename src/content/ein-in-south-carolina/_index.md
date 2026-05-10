@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in South Carolina: How to Apply (SC) (2026)"
   description: "Get an EIN in South Carolina. The EIN is a federal number from the IRS, not state-specific. South Carolina has 0-6.5% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in South Carolina"
 heroAccent: "(SC)"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN Processing Time: How Long? (2026)"
   description: "ITIN processing takes 7-11 weeks. Peak season (Jan-April): 9-11 weeks. Off-season: 7 weeks. No expedited option from IRS."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN Processing Time"
 heroAccent: "Guide"

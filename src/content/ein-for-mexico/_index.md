@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Mexican Entrepreneurs: Cross-Border Guide (2026)"
   description: "Complete guide for Mexican entrepreneurs applying for a US EIN. USMCA trade, Amazon expansion, RFC vs EIN, and cross-border commerce."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Mexican"
 heroAccent: "Entrepreneurs"

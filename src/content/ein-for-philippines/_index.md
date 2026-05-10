@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Filipino Entrepreneurs: Apply From Philippines (2026)"
   description: "Complete guide for Filipino entrepreneurs applying for a US EIN. BPO, freelancing, virtual assistants, and remittance considerations."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Filipino"
 heroAccent: "Entrepreneurs"

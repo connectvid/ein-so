@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Bank of America Business Account (2026)"
   description: "Bank of America requires in-person account opening. Large branch network. Not ideal for non-residents. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Bank of America"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Etsy Sellers (2026)"
   description: "Etsy sellers need an EIN for tax compliance when earning $600+ per year. Separate business from personal finances. Required for LLC-based Etsy shops."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry"
 heroTitle: "EIN for Etsy Sellers (2026)"
 heroAccent: "Guide"

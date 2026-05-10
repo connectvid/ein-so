@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "FEIN vs EIN: Are They the Same Thing? (2026)"
   description: "FEIN and EIN are the same 9-digit IRS tax identification number. FEIN adds the word Federal to clarify it is a federal, not state, identifier."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Comparison Guide"
 heroTitle: "FEIN vs EIN"
 heroAccent: "Same Number?"

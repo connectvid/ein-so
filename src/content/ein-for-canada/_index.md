@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Canadians: Cross-Border Business Guide (2026)"
   description: "Complete guide for Canadian entrepreneurs applying for a US EIN. Cross-border e-commerce, Amazon.com vs Amazon.ca, Shopify integration, and US banking from Canada."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Canadian"
 heroAccent: "Entrepreneurs"
@@ -33,6 +34,8 @@ faqs:
     a: "Yes. Many Canadian sellers operate on both Amazon.ca and Amazon.com. Your US EIN allows you to complete the Amazon tax interview and register as a US-based seller through your LLC. This gives you access to Amazon's US FBA warehouses and the much larger US customer base."
   - q: "What is the difference between a Canadian BN and a US EIN?"
     a: "A Canadian Business Number (BN) is issued by the CRA for Canadian tax purposes. A US EIN is issued by the IRS for US tax purposes. They serve different countries. If you operate a business in both countries, you need both numbers. Your BN is not accepted for US tax or banking purposes."
+  - q: "Can a Canadian open a US bank account with just an EIN?"
+    a: "Yes. Mercury and Relay accept Canadian LLC owners with an EIN, Articles of Organization, Operating Agreement, and Canadian passport. No US visit required. Chase and Bank of America require an in-person visit at a US branch. Most Canadians use Mercury for remote account opening."
 ---
 
 <Section>

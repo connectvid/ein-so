@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Form 5472 Guide: Foreign-Owned LLC Filing (2026)"
   description: "Form 5472 is required for all foreign-owned US LLCs. Filed with a pro-forma Form 1120. $25,000 penalty per year for non-filing. Complete guide for non-resident LLC owners."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Form 5472 Guide"
 heroAccent: "Guide"

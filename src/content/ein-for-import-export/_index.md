@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Import Export Business (2026)"
   description: "Import Export Business need an EIN for tax compliance, business banking, and professional operations. Import/export businesses need an EIN for customs clearance, freight forwarding, and international banking. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Import Export Business"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Form 5472 Instructions: Line-by-Line (2026)"
   description: "Line-by-line instructions for IRS Form 5472. 6 parts covering reporting corporation info, foreign owner info, and reportable transactions."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Form 5472 Instructions"
 heroAccent: "Guide"

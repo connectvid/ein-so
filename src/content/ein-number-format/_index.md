@@ -20,6 +20,7 @@ schema:
   headline: "EIN Number Format Explained: XX-XXXXXXX (2026)"
   description: "An EIN is formatted as XX-XXXXXXX (9 digits with a hyphen after the first 2). The first 2 digits indicate the IRS campus that issued it."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "What does an EIN number look like?"
     a: "An EIN is a 9-digit number formatted as XX-XXXXXXX. That is two digits, a hyphen, then seven digits. For example, 12-3456789. The hyphen always appears after the second digit. This format distinguishes an EIN from an SSN (XXX-XX-XXXX) and an ITIN (9XX-XX-XXXX)."

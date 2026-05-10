@@ -14,6 +14,7 @@ schema:
   headline: "EIN for S-Corp: How to Apply After S-Corp Election (2026)"
   description: "Complete guide to EIN requirements for S-Corps. Learn why you do not need a new EIN after filing Form 2553, how to apply for a new entity, and S-Corp eligibility rules."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "S-Corporations"
 heroTitle: "EIN for S-Corp:"
 heroAccent: "How to Apply After S-Corp Election (2026)"

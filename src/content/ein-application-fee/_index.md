@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Application Fee: Is There a Government Fee? (2026)"
   description: "There is no government fee for an EIN application. The IRS issues EINs for free. Third-party services charge for form preparation, not the EIN itself."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Cost Guide"
 heroTitle: "EIN Application"
 heroAccent: "Fee"

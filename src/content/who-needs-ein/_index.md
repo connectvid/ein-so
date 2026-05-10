@@ -16,6 +16,7 @@ schema:
   headline: "Who Needs an EIN? Complete List of Entities (2026)"
   description: "Comprehensive guide to who needs an EIN in 2026. Covers LLCs, corporations, nonprofits, partnerships, trusts, estates, sole proprietors, non-residents, Amazon sellers, and freelancers."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Does a single-member LLC need an EIN?"
     a: "Yes. While a single-member LLC with no employees is not strictly required by the IRS to have an EIN, you will need one to open a business bank account, build business credit, or hire employees in the future. Most banks and payment processors require an EIN before they will open an account for your LLC."

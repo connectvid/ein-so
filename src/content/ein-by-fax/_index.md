@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "How to Apply for EIN by Fax: Complete Guide (2026)"
   description: "Apply for an EIN by faxing Form SS-4 to the IRS at 855-215-1627. 4-7 business day processing. Step-by-step guide for US and international applicants."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "How to Apply for EIN by Fax"
 heroAccent: "Guide"

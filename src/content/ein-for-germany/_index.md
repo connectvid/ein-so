@@ -14,6 +14,7 @@ schema:
   headline: "EIN for German Entrepreneurs: US Market Entry (2026)"
   description: "Complete guide for German entrepreneurs applying for a US EIN. Amazon FBA, GmbH vs LLC, EU-US business, and VAT considerations."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for German"
 heroAccent: "Entrepreneurs"

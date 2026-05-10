@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "What Is an ITIN? Complete Explanation (2026)"
   description: "An ITIN is an Individual Taxpayer Identification Number — a 9-digit tax processing number issued by the IRS to people who need a US tax ID but cannot get an SSN."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Definition"
 heroTitle: "What Is an ITIN? Complete Explanati"
 heroAccent: "Guide"

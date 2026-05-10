@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN for Non-US Residents (2026)"
   description: "Non-resident aliens with US income need an ITIN to file tax returns. Required for rental income, investment income, and tax treaty benefits. Apply with Form W-7."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN for Non-US Residents (2026)"
 heroAccent: "Guide"

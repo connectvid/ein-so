@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for SaaS Founders (2026)"
   description: "SaaS Founders need an EIN for tax compliance, business banking, and professional operations. SaaS companies need an EIN for tax filing, bank accounts, and payment processing. Required for Stripe integration. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for SaaS Founders"
 heroAccent: "Guide"

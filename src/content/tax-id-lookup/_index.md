@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Tax ID Number Lookup (2026)"
   description: "Look up a Tax ID number using IRS tools, state databases, SEC EDGAR, or by requesting a W-9 form from the business. Different methods for different TIN types."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Tax ID Number Lookup (2026)"
 heroAccent: "Guide"

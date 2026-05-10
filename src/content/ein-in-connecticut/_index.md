@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Connecticut: How to Apply (CT) (2026)"
   description: "Get an EIN in Connecticut. The EIN is a federal number from the IRS, not state-specific. Connecticut has 3-6.99% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Connecticut"
 heroAccent: "(CT)"

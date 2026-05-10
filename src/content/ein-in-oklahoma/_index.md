@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Oklahoma: How to Apply (OK) (2026)"
   description: "Get an EIN in Oklahoma. The EIN is a federal number from the IRS, not state-specific. Oklahoma has 0.25-4.75% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Oklahoma"
 heroAccent: "(OK)"

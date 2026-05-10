@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Open Novo Bank Account With EIN (2026)"
   description: "Novo is designed for small businesses and freelancers. Free ACH transfers and invoicing tools. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Novo"
 heroAccent: "Guide"

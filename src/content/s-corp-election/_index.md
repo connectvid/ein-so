@@ -20,6 +20,7 @@ schema:
   headline: "S-Corp Election: Form 2553 Filing Guide (2026)"
   description: "File Form 2553 to elect S-Corp status. Must file within 75 days of formation or by March 15 for existing corps. Reduces self-employment tax."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "What is an S-Corp election?"
     a: "An S-Corp election is a tax classification choice you make by filing Form 2553 with the IRS. It allows your corporation or LLC to be taxed as an S-Corporation, which passes income through to shareholders and avoids double taxation. The election changes how you are taxed but does not change your legal entity structure."

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Kansas: How to Apply (KS) (2026)"
   description: "Get an EIN in Kansas. The EIN is a federal number from the IRS, not state-specific. Kansas has 3.1-5.7% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Kansas"
 heroAccent: "(KS)"

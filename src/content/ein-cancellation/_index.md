@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "How to Cancel an EIN (2026)"
   description: "EINs cannot be cancelled. Once issued, an EIN is permanent. You can close the account by letter to the IRS, but the number stays assigned forever."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Info"
 heroTitle: "How to Cancel an EIN (2026)"
 heroAccent: "Guide"

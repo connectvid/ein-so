@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Verification: Confirm a Business Tax ID (2026)"
   description: "Verify an EIN with IRS Letter 147C, CP 575 notice, W-9 form, or state filings. Banks require EIN verification for business accounts. Call IRS at 800-829-4933."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Verification"
 heroTitle: "EIN Verification"
 heroAccent: "Guide"

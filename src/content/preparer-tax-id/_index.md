@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Preparer Tax Identification Number (PTIN) Guide (2026)"
   description: "A PTIN is required for anyone who prepares or assists in preparing federal tax returns for compensation. Apply at irs.gov/ptin. Annual fee: $19.75."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Preparer Tax Identification Number "
 heroAccent: "Guide"

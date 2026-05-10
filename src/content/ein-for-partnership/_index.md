@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Partnership: Required for All Partnerships (2026)"
   description: "Complete guide to EIN requirements for partnerships. Covers general partnerships, limited partnerships, LLPs, and how to apply in 2026."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Partnerships"
 heroTitle: "EIN for Partnership:"
 heroAccent: "Required for All Partnerships (2026)"

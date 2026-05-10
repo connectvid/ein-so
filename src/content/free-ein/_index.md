@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Free EIN Number: How to Get an EIN for Free (2026)"
   description: "The IRS issues EINs for free. Apply online at irs.gov for instant issuance (SSN required) or by fax using Form SS-4. No government fee exists for EIN applications."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Cost Guide"
 heroTitle: "Free EIN"
 heroAccent: "Number"

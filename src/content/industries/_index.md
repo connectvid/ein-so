@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN by Industry: Business Type Guides (2026)"
   description: "EIN guides for 35+ industries. Do you need an EIN for your specific business type? Find out here."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "EIN by Industry"
 heroAccent: "Guide"

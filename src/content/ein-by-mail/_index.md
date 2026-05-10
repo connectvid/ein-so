@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Apply for EIN by Mail: Address & Timeline (2026)"
   description: "Mail Form SS-4 to IRS EIN Operation, Cincinnati OH 45999. Processing: 4-6 weeks. Slowest EIN method. Fax or phone recommended instead."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "Apply for EIN by Mail"
 heroAccent: "Guide"

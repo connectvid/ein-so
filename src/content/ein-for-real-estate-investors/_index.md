@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Real Estate Investors: LLC & FIRPTA Guide (2026)"
   description: "Complete guide to EINs for real estate investors. Covers LLC setup, FIRPTA compliance, rental income reporting, and non-resident investor requirements."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Real Estate Investors"
 heroTitle: "EIN for Real Estate Investors:"
 heroAccent: "LLC & FIRPTA Guide (2026)"

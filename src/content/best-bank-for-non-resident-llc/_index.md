@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Best Bank for Non-Resident LLC Owners (2026)"
   description: "Mercury, Relay, and Wise are the top choices for non-resident LLC owners who need remote account opening. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Best Banks"
 heroAccent: "Guide"

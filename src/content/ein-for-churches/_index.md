@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Churches & Religious Organizations (2026)"
   description: "Churches & Religious Organizations need an EIN for tax compliance, business banking, and professional operations. Churches need an EIN for tax-exempt status (501(c)(3) application requires EIN). Free from IRS. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Churches"
 heroAccent: "Guide"

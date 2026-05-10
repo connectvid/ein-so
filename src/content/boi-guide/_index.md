@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "BOI Filing Complete Guide (2026)"
   description: "Complete guide to Beneficial Ownership Information filing. Who must file, deadlines, penalties, and state-specific guides."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "BOI Filing Complete Guide"
 heroAccent: "Guide"

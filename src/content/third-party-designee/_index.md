@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Third Party Designee on SS-4 (2026)"
   description: "The third party designee on Form SS-4 Line 18 authorizes someone to receive the EIN on your behalf. ein.so serves as third party designee for our clients."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Third Party Designee on SS-4 (2026)"
 heroAccent: "Guide"

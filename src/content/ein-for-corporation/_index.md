@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Corporation: How to Apply (2026 Guide)"
   description: "Complete guide to getting an EIN for your corporation in 2026. Covers C-Corps, S-Corps, application methods, and non-resident requirements."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Corporations"
 heroTitle: "EIN for Corporation:"
 heroAccent: "How to Apply (2026)"

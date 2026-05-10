@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for TikTok Creators (2026)"
   description: "TikTok Creators need an EIN for tax compliance, business banking, and professional operations. TikTok creators earning from Creator Fund, brand deals, or TikTok Shop need a tax ID for 1099 reporting. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for TikTok Creators"
 heroAccent: "Guide"

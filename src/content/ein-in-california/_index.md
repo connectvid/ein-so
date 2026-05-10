@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in California: How to Apply (CA) (2026)"
   description: "Get an EIN in California. The EIN is a federal number from the IRS, not state-specific. California has 13.3% max state income tax + $800 franchise tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in California"
 heroAccent: "(CA)"

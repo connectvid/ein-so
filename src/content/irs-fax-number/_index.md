@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "IRS Fax Number: Complete Directory (2026)"
   description: "The IRS fax number for EIN applications (Form SS-4) is 855-215-1627. Processing takes 4-7 business days. Complete directory of all IRS fax numbers."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Reference Guide"
 heroTitle: "IRS Fax Number"
 heroAccent: "Guide"

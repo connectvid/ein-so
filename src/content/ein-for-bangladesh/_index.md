@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Bangladeshi Entrepreneurs: Apply From Bangladesh (2026)"
   description: "Complete guide for Bangladeshi entrepreneurs applying for a US EIN. RMG industry, freelancing, IT outsourcing, and Bengali language support. ein.so is built for Bangladeshi entrepreneurs."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Bangladeshi"
 heroAccent: "Entrepreneurs"

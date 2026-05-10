@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in New Mexico: How to Apply (NM) (2026)"
   description: "Get an EIN in New Mexico. The EIN is a federal number from the IRS, not state-specific. New Mexico has 1.7-5.9% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in New Mexico"
 heroAccent: "(NM)"

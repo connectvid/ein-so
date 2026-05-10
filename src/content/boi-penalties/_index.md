@@ -25,6 +25,7 @@ schema:
   description: Failing to file your BOI report results in $500/day civil penalties
     and up to $10,000 in criminal fines. Learn how to avoid penalties.
   datePublished: 2026-04-13
+  dateModified: "2026-05-09"
 faqs:
   - q: What is the penalty for not filing a BOI report?
     a: The penalty for not filing a Beneficial Ownership Information (BOI) report is

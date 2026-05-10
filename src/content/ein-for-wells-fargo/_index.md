@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Wells Fargo Business Account (2026)"
   description: "Wells Fargo requires in-person visit. Good for businesses needing physical banking locations. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Wells Fargo"
 heroAccent: "Guide"

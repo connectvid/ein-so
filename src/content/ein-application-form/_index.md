@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Application Form: Which Form Do You Need? (2026)"
   description: "The EIN application form is IRS Form SS-4 (Application for Employer Identification Number). Available at irs.gov. Free to file. Complete guide to Form SS-4."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "EIN Application Form"
 heroAccent: "Guide"

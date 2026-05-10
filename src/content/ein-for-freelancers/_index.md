@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Freelancers: Protect Your SSN on W-9 Forms (2026)"
   description: "Complete guide to EINs for freelancers. Covers W-9 protection, Upwork and Fiverr requirements, identity protection, and tax benefits of using an EIN."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Freelancers"
 heroTitle: "EIN for Freelancers:"
 heroAccent: "Protect Your SSN on W-9 Forms (2026)"

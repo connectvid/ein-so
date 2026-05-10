@@ -14,6 +14,7 @@ schema:
   headline: "BOI Filing Deadline 2026: When Is Your Report Due?"
   description: "Complete guide to BOI filing deadlines based on company formation date. Pre-2024, 2024, and 2025+ deadlines explained, plus $500/day penalty consequences."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Compliance Deadline"
 heroTitle: "BOI Filing Deadline 2026:"
 heroAccent: "When Is Your Report Due?"

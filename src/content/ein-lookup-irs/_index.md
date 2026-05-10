@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Lookup on IRS: Official Methods (2026)"
   description: "Look up an EIN using IRS Tax Exempt Org Search (nonprofits, free), call IRS at 800-829-4933 (your own EIN only), SEC EDGAR (public companies), or state databases."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Lookup"
 heroTitle: "EIN Lookup on IRS"
 heroAccent: "Guide"

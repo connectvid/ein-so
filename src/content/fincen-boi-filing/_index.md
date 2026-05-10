@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "FinCEN BOI Filing: Federal Requirements (2026)"
   description: "FinCEN's BOI e-filing system at fincen.gov/boi processes Beneficial Ownership Information reports. Free filing. Required by the Corporate Transparency Act."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "FinCEN BOI Filing"
 heroAccent: "Guide"

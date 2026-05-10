@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Stripe: Accept US Payments as Non-Resident (2026)"
   description: "Complete guide to using an EIN with Stripe. Covers Stripe Atlas comparison, non-resident payment processing, and step-by-step account setup."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Stripe Payments"
 heroTitle: "EIN for Stripe:"
 heroAccent: "Accept US Payments as Non-Resident (2026)"

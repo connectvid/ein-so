@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Mercury vs Relay: Best Bank for LLC (2026)"
   description: "Mercury and Relay are the two most popular banks for non-resident LLC owners. Both offer $0 fees. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Mercury vs Relay"
 heroAccent: "Guide"

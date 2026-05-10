@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for YouTube Creators (2026)"
   description: "YouTube creators need an EIN for AdSense tax compliance, avoiding 24% backup withholding, and separating business from personal finances. Apply for $49 at ein.so."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry"
 heroTitle: "EIN for YouTube Creators (2026)"
 heroAccent: "Guide"

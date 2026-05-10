@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "VAT Identification Number Guide (2026)"
   description: "A VAT (Value Added Tax) Identification Number is a tax registration used in the EU, UK, and 170+ countries. The US does not have a VAT system — it uses EINs and sales tax instead."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "VAT Identification Number Guide (20"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Business Banking With EIN: Complete Guide (2026)"
   description: "Open a US business bank account with your EIN. Compare Mercury, Relay, Novo, Wise, and Chase for non-residents."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "Business Banking With EIN"
 heroAccent: "Guide"

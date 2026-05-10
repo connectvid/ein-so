@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Business Credit: Build Credit Without SSN (2026)"
   description: "Complete guide to building business credit with an EIN. Covers D-U-N-S registration, EIN-only credit cards, business credit bureaus, and credit building strategies."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Business Credit"
 heroTitle: "EIN for Business Credit:"
 heroAccent: "Build Credit Without SSN (2026)"

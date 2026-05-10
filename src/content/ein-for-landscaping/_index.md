@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Landscaping Business (2026)"
   description: "Landscaping Business need an EIN for tax compliance, business banking, and professional operations. Landscaping companies need an EIN for commercial contracts, employee payroll, and equipment financing. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Landscaping Business"
 heroAccent: "Guide"

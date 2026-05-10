@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN Application: Step-by-Step Process (2026)"
   description: "Apply for an ITIN step by step. Complete Form W-7, gather documents, submit with tax return. Mail to IRS ITIN Operation, Austin TX 78714."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN Application"
 heroAccent: "Guide"

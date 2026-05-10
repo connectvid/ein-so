@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Washington: How to Apply (WA) (2026)"
   description: "Get an EIN in Washington. The EIN is a federal number from the IRS, not state-specific. Washington has no state income tax, B&O tax applies. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Washington"
 heroAccent: "(WA)"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Hawaii: How to Apply (HI) (2026)"
   description: "Get an EIN in Hawaii. The EIN is a federal number from the IRS, not state-specific. Hawaii has 1.4-11% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Hawaii"
 heroAccent: "(HI)"

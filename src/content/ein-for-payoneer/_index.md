@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Payoneer (2026)"
   description: "Payoneer requires a tax ID for US receiving accounts. An EIN connects your business to Payoneer for receiving US payments. Common for international freelancers."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry"
 heroTitle: "EIN for Payoneer (2026)"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in South Dakota: How to Apply (SD) (2026)"
   description: "Get an EIN in South Dakota. The EIN is a federal number from the IRS, not state-specific. South Dakota has no state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in South Dakota"
 heroAccent: "(SD)"

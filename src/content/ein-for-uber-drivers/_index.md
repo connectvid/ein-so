@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Uber & Lyft Drivers (2026)"
   description: "Uber & Lyft Drivers need an EIN for tax compliance, business banking, and professional operations. Rideshare drivers earning $600+ receive 1099 and benefit from an EIN for business expense tracking. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Uber"
 heroAccent: "Guide"

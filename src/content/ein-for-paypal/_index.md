@@ -14,6 +14,7 @@ schema:
   headline: "EIN for PayPal Business Account: Setup Guide (2026)"
   description: "Complete guide to setting up a PayPal business account with an EIN. Covers tax reporting, non-resident requirements, and step-by-step setup instructions."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "PayPal Business"
 heroTitle: "EIN for PayPal Business Account:"
 heroAccent: "Setup Guide (2026)"

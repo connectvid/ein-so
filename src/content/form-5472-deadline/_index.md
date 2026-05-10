@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Form 5472 Filing Deadline (2026)"
   description: "Form 5472 is due April 15 (with your tax return). A 6-month extension is available using Form 7004. First year: due by 15th day of 4th month after tax year end."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Form 5472 Filing Deadline (2026)"
 heroAccent: "Guide"

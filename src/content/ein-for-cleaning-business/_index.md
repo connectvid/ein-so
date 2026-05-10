@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Cleaning Business (2026)"
   description: "Cleaning Business need an EIN for tax compliance, business banking, and professional operations. Cleaning businesses need an EIN for commercial contracts, employee hiring, and business insurance. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Cleaning Business"
 heroAccent: "Guide"

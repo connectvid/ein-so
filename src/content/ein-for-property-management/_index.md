@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Property Management Company (2026)"
   description: "Property Management Company need an EIN for tax compliance, business banking, and professional operations. Property management companies need an EIN for tenant security deposits, vendor payments, and tax reporting. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Property Management Company"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Indiana: How to Apply (IN) (2026)"
   description: "Get an EIN in Indiana. The EIN is a federal number from the IRS, not state-specific. Indiana has 3.05% flat state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Indiana"
 heroAccent: "(IN)"

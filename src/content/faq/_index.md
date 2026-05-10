@@ -11,6 +11,8 @@ schema:
   type: "article"
   headline: "EIN FAQ: Answers to Every EIN Question (2026)"
   description: "Comprehensive FAQ about EIN numbers for non-US residents."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - category: "General EIN Questions"
     q: "What is an EIN (Employer Identification Number)?"

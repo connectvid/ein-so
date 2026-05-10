@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Fiverr Sellers (2026)"
   description: "Fiverr Sellers need an EIN for tax compliance, business banking, and professional operations. Fiverr sellers earning $600+ need a tax ID. An EIN through an LLC separates business and personal income. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Fiverr Sellers"
 heroAccent: "Guide"

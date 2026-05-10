@@ -20,6 +20,7 @@ schema:
   headline: "EIN for Amazon Sellers: Required for FBA & Seller Central (2026)"
   description: "Complete guide to getting an EIN for Amazon selling. Covers Seller Central tax interview, FBA requirements, non-US seller registration, and step-by-step instructions."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Does Amazon require an EIN to sell?"
     a: "Amazon requires a Tax Identification Number (TIN) to complete the tax interview during Seller Central registration. US residents can use their SSN, but non-US residents need an EIN. Even US sellers benefit from using an EIN instead of an SSN to protect their personal information on tax documents."

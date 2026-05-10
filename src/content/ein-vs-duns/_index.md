@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN vs DUNS Number: Key Differences Explained (2026)"
   description: "An EIN is a federal tax ID from the IRS. A DUNS number is a business credit identifier from Dun & Bradstreet. Learn when you need each one."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs DUNS"
 heroAccent: "Number"

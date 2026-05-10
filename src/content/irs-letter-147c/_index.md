@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "IRS Letter 147C: EIN Verification Letter (2026)"
   description: "Letter 147C is an EIN verification letter from the IRS. Request by calling 800-829-4933. Faxed in 24-48 hours. Banks require it for business account verification."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "IRS Guide"
 heroTitle: "IRS Letter 147C"
 heroAccent: "Guide"

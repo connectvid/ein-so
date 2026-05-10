@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Indian Entrepreneurs: Apply From India (2026)"
   description: "Complete guide for Indian entrepreneurs applying for a US EIN. No SSN required. Cover freelancers, Amazon sellers, IT consulting firms, and payment integration."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Indian"
 heroAccent: "Entrepreneurs"

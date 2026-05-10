@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "BOI Filing New York: State Guide (2026)"
   description: "BOI filing in New York follows federal FinCEN requirements. File at fincen.gov/boi. BOI is a federal requirement, not a state filing."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "BOI Filing New York"
 heroAccent: "Guide"

@@ -14,6 +14,7 @@ schema:
   headline: "EIN for UK Residents: US Business Setup Guide (2026)"
   description: "Complete guide for UK residents applying for a US EIN. Amazon FBA, Ltd vs LLC, GBP/USD considerations, and US banking from the United Kingdom."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for UK"
 heroAccent: "Entrepreneurs"
@@ -33,6 +34,8 @@ faqs:
     a: "Open a US bank account using your EIN to hold USD directly. Use services like Wise (TransferWise) to transfer between your UK and US accounts at competitive exchange rates. This avoids forced conversion on every transaction and gives you control over when you convert GBP to USD."
   - q: "What is the difference between a UK UTR and a US EIN?"
     a: "A UK Unique Taxpayer Reference (UTR) is issued by HMRC for UK tax purposes. A US EIN is issued by the IRS for US tax purposes. They serve different countries. If you operate in both, you need both. Your UTR number cannot be used for US banking or tax compliance."
+  - q: "How long does it take a UK resident to get a US EIN?"
+    a: "Through ein.so: 4-7 business days (Standard $49) or 7 business days (Express $97). By phone: same day if you reach an IRS agent at 267-941-1099 (call during US business hours, 11 AM - 4 AM UK time). DIY fax: 4-7 business days if error-free."
 ---
 
 <Section>

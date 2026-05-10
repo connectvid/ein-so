@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Walmart Marketplace Sellers (2026)"
   description: "Walmart Marketplace Sellers need an EIN for tax compliance, business banking, and professional operations. Walmart requires a US tax ID for seller registration. An EIN through a US LLC enables marketplace access. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Walmart Marketplace Sellers"
 heroAccent: "Guide"

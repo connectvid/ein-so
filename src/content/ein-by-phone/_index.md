@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Apply for EIN by Phone: IRS Numbers & Guide (2026)"
   description: "Call IRS at 267-941-1099 (international) or 800-829-4933 (domestic) for an EIN. Mon-Fri 7am-7pm ET. Same-day issuance possible."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "Apply for EIN by Phone"
 heroAccent: "Guide"

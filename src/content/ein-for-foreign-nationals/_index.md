@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Foreign Nationals: International Guide (2026)"
   description: "Foreign nationals can get a US EIN by submitting Form SS-4 by fax. No SSN required. Use your passport number as identification. ein.so handles it for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Audience"
 heroTitle: "EIN for Foreign Nationals"
 heroAccent: "Guide"

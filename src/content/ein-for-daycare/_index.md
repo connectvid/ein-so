@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Daycare & Childcare Business (2026)"
   description: "Daycare & Childcare Business need an EIN for tax compliance, business banking, and professional operations. Daycare centers need an EIN for licensing, employee hiring, and parent tax credit documentation. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Daycare"
 heroAccent: "Guide"

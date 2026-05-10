@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Forex & Stock Traders (2026)"
   description: "Forex & Stock Traders need an EIN for tax compliance, business banking, and professional operations. Active traders may benefit from an EIN through an LLC for tax optimization and liability protection. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Forex"
 heroAccent: "Guide"

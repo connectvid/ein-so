@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for General Contractors & Construction (2026)"
   description: "General Contractors & Construction need an EIN for tax compliance, business banking, and professional operations. Construction businesses need an EIN for employee hiring, licensing, and bonding requirements. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for General Contractors"
 heroAccent: "Guide"

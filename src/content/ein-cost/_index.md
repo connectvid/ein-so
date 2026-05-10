@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Application Cost: How Much Does an EIN Cost? (2026)"
   description: "An EIN costs $0 from the IRS. Third-party services charge $49 to $200+. Learn why some people pay for a free government service and compare EIN service prices."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Cost Guide"
 heroTitle: "EIN"
 heroAccent: "Cost"

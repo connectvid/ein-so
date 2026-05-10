@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Form 5472 Penalties: $25,000 Fine (2026)"
   description: "The penalty for not filing Form 5472 is $25,000 per form per year. Penalties accumulate. Penalty abatement is possible for reasonable cause. IRS is aggressive on enforcement."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Form 5472 Penalties"
 heroAccent: "Guide"

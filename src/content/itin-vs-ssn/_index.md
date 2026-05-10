@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN vs SSN: Key Differences (2026)"
   description: "An ITIN is for tax purposes only (no work authorization). An SSN provides work authorization and Social Security benefits. You cannot have both simultaneously."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN vs SSN"
 heroAccent: "Guide"

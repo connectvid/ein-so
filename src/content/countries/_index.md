@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Non-Residents by Country (2026)"
   description: "EIN guides for entrepreneurs from 60+ countries. Apply from anywhere using Form SS-4. ein.so handles it for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "EIN for Non-Residents by "
 heroAccent: "Guide"

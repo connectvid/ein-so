@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Writers & Authors (2026)"
   description: "Writers & Authors need an EIN for tax compliance, business banking, and professional operations. Authors earning royalties, freelance writing income, or self-publishing revenue benefit from an EIN. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Writers"
 heroAccent: "Guide"

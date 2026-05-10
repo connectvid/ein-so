@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Lost Your EIN? 3 Ways to Recover It (2026)"
   description: "Lost your EIN? Recover by calling IRS at 800-829-4933, checking old tax returns, or requesting Letter 147C. Only authorized persons can request EIN info."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Recovery"
 heroTitle: "Lost Your EIN? 3 Ways to Recover It"
 heroAccent: "Guide"

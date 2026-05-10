@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "How to Get a Tax ID Number (2026)"
   description: "Get a Tax ID: businesses apply for EIN (Form SS-4), individuals get SSN (Form SS-5) or ITIN (Form W-7). Complete guide to all US tax identification numbers."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "How to Get a Tax ID Number (2026)"
 heroAccent: "Guide"

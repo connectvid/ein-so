@@ -11,6 +11,8 @@ schema:
   type: "article"
   headline: "EIN Blog: Guides, Tips, and Updates (2026)"
   description: "EIN guides, tips, and updates for non-resident entrepreneurs."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Blog"
 heroTitle: "EIN Blog"
 heroAccent: "Guides & Tips"

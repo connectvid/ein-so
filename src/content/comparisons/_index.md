@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Comparisons: vs ITIN SSN TIN and More (2026)"
   description: "Compare EIN with other tax IDs: ITIN, SSN, TIN, DUNS, VAT, ABN, UTR, PAN. Understand the differences."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "EIN Comparisons"
 heroAccent: "Guide"

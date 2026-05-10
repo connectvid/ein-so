@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Federal Tax ID Number: How to Get One (2026)"
   description: "A Federal Tax ID is the same as an EIN. Both refer to the 9-digit IRS tax identification number for businesses. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Federal Tax ID Number"
 heroAccent: "Guide"

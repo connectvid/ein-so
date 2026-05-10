@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Open Chase Business Account With EIN (2026)"
   description: "Chase is the largest US bank. May require in-person visit. Strong branch network. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Chase"
 heroAccent: "Guide"

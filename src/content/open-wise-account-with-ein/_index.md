@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Open Wise Business Account With EIN (2026)"
   description: "Wise (formerly TransferWise) offers multi-currency business accounts. Best for international payments. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Wise"
 heroAccent: "Guide"

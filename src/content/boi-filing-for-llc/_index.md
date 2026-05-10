@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "BOI Filing for LLC: Step-by-Step Guide (2026)"
   description: "Every LLC must file a BOI report with FinCEN unless exempt. Report beneficial owners with 25%+ ownership. File free at fincen.gov/boi."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "BOI Filing for LLC"
 heroAccent: "Guide"

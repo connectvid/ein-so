@@ -20,6 +20,7 @@ schema:
   headline: "EIN for Shopify Sellers: Tax Setup Guide (2026)"
   description: "Complete guide to getting an EIN for Shopify selling. Covers Shopify Payments setup, tax compliance, non-US seller requirements, and step-by-step instructions."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Does Shopify require an EIN to sell?"
     a: "Shopify itself does not require an EIN to create a store. However, Shopify Payments and US tax compliance require a Tax Identification Number. Non-US sellers need an EIN because they do not have an SSN. US sellers benefit from using an EIN to keep their SSN off business tax forms."

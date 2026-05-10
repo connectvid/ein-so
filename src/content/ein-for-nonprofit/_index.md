@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Nonprofit Organization: How to Apply (2026)"
   description: "Complete guide to getting an EIN for your nonprofit organization in 2026. Covers 501(c)(3) requirements, Form SS-4 instructions, and the application process."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Nonprofits"
 heroTitle: "EIN for Nonprofit:"
 heroAccent: "How to Apply (2026)"

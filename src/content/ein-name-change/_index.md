@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Change Business Name on EIN (2026)"
   description: "Change the business name on your EIN by sending a letter to the IRS (LLC), filing amended Articles (corporation), or updating your next tax return (sole prop)."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "Change Business Name on EIN (2026)"
 heroAccent: "Guide"

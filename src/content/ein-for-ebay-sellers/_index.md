@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for eBay Sellers (2026)"
   description: "eBay Sellers need an EIN for tax compliance, business banking, and professional operations. eBay issues 1099-K for $600+ in annual sales. An EIN helps with tax compliance and business banking. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for eBay Sellers"
 heroAccent: "Guide"

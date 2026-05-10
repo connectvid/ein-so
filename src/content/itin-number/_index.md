@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN Number: Individual Taxpayer ID Guide (2026)"
   description: "An ITIN (Individual Taxpayer Identification Number) is a 9-digit tax ID starting with 9, issued by the IRS to individuals who need a US tax ID but cannot get an SSN."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Pillar"
 heroTitle: "ITIN Number"
 heroAccent: "Guide"

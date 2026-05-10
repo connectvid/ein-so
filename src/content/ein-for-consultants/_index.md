@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Consultants & Coaches (2026)"
   description: "Consultants & Coaches need an EIN for tax compliance, business banking, and professional operations. Consultants need an EIN to separate business from personal income. Required for W-9 filing with clients. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Consultants"
 heroAccent: "Guide"

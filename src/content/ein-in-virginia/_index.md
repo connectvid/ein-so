@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Virginia: How to Apply (VA) (2026)"
   description: "Get an EIN in Virginia. The EIN is a federal number from the IRS, not state-specific. Virginia has 2-5.75% state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Virginia"
 heroAccent: "(VA)"

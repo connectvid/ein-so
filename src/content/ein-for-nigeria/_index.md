@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Nigerian Entrepreneurs: Apply From Nigeria (2026)"
   description: "Complete guide for Nigerian entrepreneurs applying for a US EIN. Tech startups, freelancing, e-commerce, and Paystack/Flutterwave integration."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Nigerian"
 heroAccent: "Entrepreneurs"

@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Chinese Entrepreneurs: US Business Guide (2026)"
   description: "Complete guide for Chinese entrepreneurs applying for a US EIN. Amazon US selling, manufacturing exports, banking challenges, and compliance considerations."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Chinese"
 heroAccent: "Entrepreneurs"

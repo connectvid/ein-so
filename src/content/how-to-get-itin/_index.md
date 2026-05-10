@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "How to Get an ITIN: Application Process (2026)"
   description: "Apply for an ITIN by submitting Form W-7 with a tax return and ID documents to the IRS. 3 methods: mail, CAA, in-person. Processing: 7-11 weeks."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "How to Get an ITIN"
 heroAccent: "Guide"

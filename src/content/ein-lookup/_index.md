@@ -18,6 +18,7 @@ schema:
   headline: "EIN Lookup: How to Find Any EIN Number (2026)"
   description: "A comprehensive guide to looking up EIN numbers. Covers every free and paid method including IRS Tax Exempt Org Search, SEC EDGAR, state registries, and how to recover a lost EIN."
   datePublished: ""
+  dateModified: "2026-05-09"
 faqs:
   - q: "Can I look up any company's EIN for free?"
     a: "There is no single free database that lets you look up any company's EIN. The IRS does not provide a public EIN lookup tool. However, you can find non-profit EINs using the IRS Tax Exempt Organization Search and public company EINs through SEC EDGAR filings. For other businesses, you may need to check state business registries or ask the company directly."

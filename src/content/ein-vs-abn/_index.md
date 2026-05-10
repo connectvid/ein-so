@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN vs ABN: US vs Australian Business Numbers (2026)"
   description: "An EIN is a US tax ID from the IRS. An ABN is an 11-digit Australian Business Number from the Australian Business Register. Compare both business identifiers."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs ABN"
 heroAccent: "Compared"

@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Peruvian Entrepreneurs: Apply From Peru (2026)"
   description: "Peruvian entrepreneurs can get a US EIN without an SSN or ITIN. Learn how to apply for an EIN from Peru using Form SS-4. ein.so handles it for $49."
   datePublished: "2026-04-26"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Peruvian"
 heroAccent: "Entrepreneurs"

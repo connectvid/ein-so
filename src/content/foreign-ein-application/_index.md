@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Foreign EIN Application: SS-4 for Non-US Entities (2026)"
   description: "How to submit a foreign EIN application using Form SS-4. Line-by-line guidance for international applicants. No SSN needed. ein.so handles it for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "Foreign EIN Application"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Barber Shop & Salon (2026)"
   description: "Barber Shop & Salon need an EIN for tax compliance, business banking, and professional operations. Barber shops need an EIN for business licensing, employee hiring, and commercial lease applications. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Barber Shop"
 heroAccent: "Guide"

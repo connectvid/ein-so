@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Beneficial Ownership Information Report Guide (2026)"
   description: "A BOI report discloses beneficial owners of a company to FinCEN. Required for most LLCs and corps. File free at fincen.gov/boi."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Beneficial Ownership Information Re"
 heroAccent: "Guide"

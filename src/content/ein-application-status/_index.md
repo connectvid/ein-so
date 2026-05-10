@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Check EIN Application Status (2026)"
   description: "Check EIN application status by calling IRS at 800-829-4933. Online: instant. Fax: wait 7 days. Mail: wait 6 weeks. No online status checker exists."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "Check EIN Application Status (2026)"
 heroAccent: "Guide"

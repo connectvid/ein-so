@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Pakistani Entrepreneurs: Apply From Pakistan (2026)"
   description: "Complete guide for Pakistani entrepreneurs applying for a US EIN. Freelancing, Amazon selling, Payoneer usage, and IT services from Pakistan."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Pakistani"
 heroAccent: "Entrepreneurs"

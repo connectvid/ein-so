@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Online Application: IRS EIN Assistant Guide (2026)"
   description: "Apply for an EIN online using the IRS EIN Assistant at irs.gov. Instant issuance. Available Mon-Fri 7am-10pm ET. Requires SSN or ITIN. Not available to non-residents."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process Guide"
 heroTitle: "EIN Online"
 heroAccent: "Application"

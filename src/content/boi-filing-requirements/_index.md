@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "BOI Filing Requirements: Who Must File? (2026)"
   description: "BOI filing is required for most LLCs and corporations. 23 exemption categories exist for large companies. Learn who must file and who is exempt."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "BOI Filing Requirements"
 heroAccent: "Guide"

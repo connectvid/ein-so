@@ -20,6 +20,7 @@ schema:
   headline: "EIN Processing Time: How Long Does It Take? (2026)"
   description: "Complete guide to EIN processing times in 2026. Compare online, fax, phone, and mail methods. Learn how to speed up your EIN application with Express processing."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "How long does it take to get an EIN online?"
     a: "If you apply through the IRS EIN Assistant online and have a valid SSN or ITIN, you receive your EIN immediately upon completing the application. The online system is available Monday through Friday, 7:00 AM to 10:00 PM Eastern Time. This is the fastest method but is only available to US residents with an SSN or ITIN."

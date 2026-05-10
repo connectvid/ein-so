@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN vs UTR: US vs UK Tax Reference Numbers (2026)"
   description: "An EIN is a US tax ID from the IRS. A UTR is a 10-digit Unique Taxpayer Reference from HMRC in the United Kingdom. Compare both tax identifiers."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs UTR"
 heroAccent: "Compared"

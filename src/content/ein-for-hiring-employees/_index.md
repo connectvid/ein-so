@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Hiring Employees: Payroll Tax Requirements (2026)"
   description: "Complete guide to EIN requirements for employers. Covers payroll tax setup, Form 941, W-2s, state registration, and hiring compliance."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hiring Employees"
 heroTitle: "EIN for Hiring Employees:"
 heroAccent: "Payroll Tax Requirements (2026)"

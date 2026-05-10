@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN Renewal: When & How to Renew (2026)"
   description: "ITINs expire after 3 years of non-use or if middle digits are 70-88. Renew by filing Form W-7 with Renew box checked. No tax return needed for renewal."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN Renewal"
 heroAccent: "Guide"

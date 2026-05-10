@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ITIN Application Cost (2026)"
   description: "ITIN from IRS is free. CAA fees: $50-275. Tax preparer: $150-500. ein.so ITIN: $197 standard / $297 express. No government fee exists."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "ITIN Application Cost (2026)"
 heroAccent: "Guide"

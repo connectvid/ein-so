@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Ghanaian Entrepreneurs: Apply From Ghana (2026)"
   description: "Ghanaian entrepreneurs can get a US EIN without an SSN or ITIN. Learn how to apply for an EIN from Ghana using Form SS-4. ein.so handles it for $49."
   datePublished: "2026-04-26"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Ghanaian"
 heroAccent: "Entrepreneurs"

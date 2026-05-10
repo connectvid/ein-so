@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN in Kentucky: How to Apply (KY) (2026)"
   description: "Get an EIN in Kentucky. The EIN is a federal number from the IRS, not state-specific. Kentucky has 4.5% flat state income tax. Apply free at irs.gov or through ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "State Guide"
 heroTitle: "EIN in Kentucky"
 heroAccent: "(KY)"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Dental Practice (2026)"
   description: "Dental Practice need an EIN for tax compliance, business banking, and professional operations. Dental practices need an EIN for employee payroll, insurance credentialing, and business banking. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Dental Practice"
 heroAccent: "Guide"

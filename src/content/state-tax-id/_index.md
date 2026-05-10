@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "State Tax ID Number: How It Differs From EIN (2026)"
   description: "A state tax ID is separate from your federal EIN. States issue their own tax registration numbers for state income tax, sales tax, and payroll. Each state has its own system."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "State Tax ID Number"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Lookup by Company Name (2026)"
   description: "Search for an EIN by company name: IRS Tax Exempt Search (nonprofits), SEC EDGAR (public), state databases, or request W-9 directly from the business."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Lookup"
 heroTitle: "EIN Lookup by Company Name (2026)"
 heroAccent: "Guide"

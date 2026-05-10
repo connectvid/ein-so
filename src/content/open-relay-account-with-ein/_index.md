@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Open Relay Bank Account With EIN (2026)"
   description: "Relay offers free business checking with no hidden fees. Popular among e-commerce businesses. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Relay"
 heroAccent: "Guide"

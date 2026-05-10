@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Can You Have Multiple EIN Numbers? (2026)"
   description: "Each entity gets one EIN. One person can have multiple EINs for multiple businesses. New EIN needed for each new entity. No limit on EINs per person."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Rules"
 heroTitle: "Can You Have Multiple EIN Numbers? "
 heroAccent: "Guide"

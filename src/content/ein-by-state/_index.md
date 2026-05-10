@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN by State: All 50 States Guide (2026)"
   description: "Complete guide to getting an EIN in every US state. The EIN is federal — the process is the same nationwide."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "EIN by State"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "IRS EIN Phone Number: Call for Your Tax ID (2026)"
   description: "The IRS phone number for EIN inquiries is 800-829-4933 (domestic) and 267-941-1099 (international). Hours: Mon-Fri 7am-7pm ET."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "IRS Guide"
 heroTitle: "IRS EIN Phone Number"
 heroAccent: "Guide"

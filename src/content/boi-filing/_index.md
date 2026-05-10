@@ -20,6 +20,7 @@ schema:
   headline: "BOI Filing: Beneficial Ownership Information Report (2026)"
   description: "Complete guide to BOI filing with FinCEN. Who must file, deadlines, required information, $500/day penalties, and how to file your BOI report."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "What is a BOI filing?"
     a: "A BOI (Beneficial Ownership Information) filing is a report submitted to FinCEN (Financial Crimes Enforcement Network) that discloses the individuals who own or control a company. The Corporate Transparency Act requires most US LLCs, corporations, and similar entities to file this report. It includes the full legal name, date of birth, residential address, and government-issued ID of each beneficial owner."

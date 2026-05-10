@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "ein.so Reviews: Customer Testimonials (2026)"
   description: "Read customer reviews of ein.so EIN filing service. $49 Standard, $97 Express. Trusted by entrepreneurs worldwide."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Hub Page"
 heroTitle: "ein.so Reviews"
 heroAccent: "Guide"

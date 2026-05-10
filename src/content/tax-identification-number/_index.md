@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Tax Identification Number (TIN) Guide (2026)"
   description: "A Tax Identification Number (TIN) is the umbrella term for all US tax IDs: EIN, SSN, ITIN, PTIN, and ATIN. Learn what each type is and when you need it."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Guide"
 heroTitle: "Tax Identification Number (TIN) Gui"
 heroAccent: "Guide"

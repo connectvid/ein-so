@@ -14,6 +14,7 @@ schema:
   headline: "How to Get an EIN Without an SSN (2026)"
   description: "Complete guide for non-US residents to get an EIN without a Social Security Number. Covers the Form SS-4 fax method, required documents, and step-by-step instructions."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Non-Resident Guide"
 heroTitle: "How to Get an EIN"
 heroAccent: "Without an SSN (2026)"

@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Sole Proprietor: Do You Need One? (2026)"
   description: "Complete guide to EIN requirements for sole proprietors. Learn when an EIN is required, when it is optional, and how to apply in 2026."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Sole Proprietor"
 heroTitle: "EIN for Sole Proprietor:"
 heroAccent: "Do You Need One? (2026)"

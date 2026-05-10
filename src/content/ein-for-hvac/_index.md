@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for HVAC Business (2026)"
   description: "HVAC Business need an EIN for tax compliance, business banking, and professional operations. HVAC companies need an EIN for licensing, EPA certifications, and employee management. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for HVAC Business"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN for Electricians (2026)"
   description: "Electricians need an EIN for tax compliance, business banking, and professional operations. Electrical contractors need an EIN for licensing, bonding, and employee payroll requirements. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Electricians"
 heroAccent: "Guide"

@@ -20,6 +20,7 @@ schema:
   headline: "EIN Application Rejected? Fix & Reapply Guide (2026)"
   description: "EIN rejections happen due to duplicate applications, incorrect SS-4 data, or name mismatches. Learn how to fix errors and reapply."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Why was my EIN application rejected by the IRS?"
     a: "The most common reasons for EIN rejection are duplicate applications (you already have an EIN for the same entity), incorrect or mismatched information on Form SS-4, name mismatches between your formation documents and your application, using an invalid SSN or ITIN as the responsible party identifier, or submitting an incomplete form. The IRS sends a rejection notice explaining the specific reason."

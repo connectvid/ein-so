@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Brazilian Entrepreneurs: US Business Guide (2026)"
   description: "Complete guide for Brazilian entrepreneurs applying for a US EIN. Amazon FBA, e-commerce, CNPJ vs EIN, and Brazilian real estate investors."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Brazilian"
 heroAccent: "Entrepreneurs"

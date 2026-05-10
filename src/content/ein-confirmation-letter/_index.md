@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Confirmation Letter (CP 575) Guide (2026)"
   description: "The CP 575 is the original EIN assignment letter from the IRS. Letter 147C is a replacement verification letter. Banks require one for account opening."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "IRS Guide"
 heroTitle: "EIN Confirmation Letter (CP 575) Gu"
 heroAccent: "Guide"

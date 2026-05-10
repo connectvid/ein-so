@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Responsible Party on EIN: Who Should It Be? (2026)"
   description: "The responsible party on an EIN application must be an individual who controls the entity. For LLCs: managing member. For corps: officer. Cannot be another business."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "IRS Guide"
 heroTitle: "Responsible Party on EIN"
 heroAccent: "Guide"

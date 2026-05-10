@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Form W-7 Guide: ITIN Application Form (2026)"
   description: "Form W-7 is the IRS application for Individual Taxpayer Identification Number (ITIN). Line-by-line instructions for completing and submitting Form W-7."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "ITIN Guide"
 heroTitle: "Form W-7 Guide"
 heroAccent: "Guide"

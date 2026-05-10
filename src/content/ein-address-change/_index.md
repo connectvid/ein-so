@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "EIN Address Change: Update IRS Records (2026)"
   description: "Change your EIN address by filing Form 8822-B or sending a letter to the IRS. Free. Update within 60 days of moving. Your EIN number stays the same."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Process"
 heroTitle: "EIN Address Change"
 heroAccent: "Guide"

@@ -13,6 +13,8 @@ schema:
   type: "article"
   headline: "Open Mercury Bank Account With EIN (2026)"
   description: "Mercury is the most popular bank for non-resident LLC owners. Fully online application. FDIC insured. Your EIN is required to open a business bank account. Apply at ein.so for $49."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Banking Guide"
 heroTitle: "Mercury"
 heroAccent: "Guide"
