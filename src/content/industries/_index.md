@@ -43,14 +43,49 @@ faqs:
 
 Industry-specific EIN guides. Whether you are a freelancer, restaurant owner, or YouTuber — find your guide here.
 
+### All Industry Guides
+
+- [EIN for Barber Shop](/ein-for-barber-shop/)
+- [EIN for Churches](/ein-for-churches/)
+- [EIN for Cleaning Business](/ein-for-cleaning-business/)
+- [EIN for Construction](/ein-for-construction/)
+- [EIN for Consultants](/ein-for-consultants/)
+- [EIN for Contractors](/ein-for-contractors/)
+- [EIN for Crypto](/ein-for-crypto/)
+- [EIN for Daycare](/ein-for-daycare/)
+- [EIN for Dental Practice](/ein-for-dental-practice/)
+- [EIN for DoorDash](/ein-for-doordash/)
+- [EIN for Dropshipping](/ein-for-dropshipping/)
+- [EIN for eBay Sellers](/ein-for-ebay-sellers/)
+- [EIN for Electrician](/ein-for-electrician/)
+- [EIN for Fiverr Sellers](/ein-for-fiverr-sellers/)
+- [EIN for Forex Traders](/ein-for-forex-traders/)
+- [EIN for Graphic Designers](/ein-for-graphic-designers/)
+- [EIN for HVAC](/ein-for-hvac/)
+- [EIN for Import Export](/ein-for-import-export/)
+- [EIN for Landscaping](/ein-for-landscaping/)
+- [EIN for Law Firm](/ein-for-law-firm/)
+- [EIN for Medical Practice](/ein-for-medical-practice/)
+- [EIN for Musicians](/ein-for-musicians/)
+- [EIN for Photographers](/ein-for-photographers/)
+- [EIN for Plumbing](/ein-for-plumbing/)
+- [EIN for Podcasters](/ein-for-podcasters/)
+- [EIN for Property Management](/ein-for-property-management/)
+- [EIN for Restaurants](/ein-for-restaurants/)
+- [EIN for SaaS Founders](/ein-for-saas-founders/)
+- [EIN for TikTok Creators](/ein-for-tiktok-creators/)
+- [EIN for Trucking](/ein-for-trucking/)
+- [EIN for Uber Drivers](/ein-for-uber-drivers/)
+- [EIN for Upwork Freelancers](/ein-for-upwork-freelancers/)
+- [EIN for Web Developers](/ein-for-web-developers/)
+- [EIN for Writers](/ein-for-writers/)
+
 ### Quick Links
 
+- [Who Needs an EIN?](/who-needs-ein/) — Parent guide
 - [What is an EIN?](/what-is-ein/)
 - [How to get an EIN](/how-to-get-ein/)
-- [EIN lookup](/ein-lookup/)
 - [Apply for EIN — $49](/apply/)
-- [EIN cost](/ein-cost/)
-- [Free EIN](/free-ein/)
 </Section>
 
 <Section>

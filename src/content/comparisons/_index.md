@@ -43,14 +43,40 @@ faqs:
 
 Compare EIN with every other tax identification number. Understand which one you need.
 
+### US Tax ID Comparisons
+
+- [EIN vs ITIN](/ein-vs-itin/) — Business tax ID vs individual tax ID
+- [EIN vs SSN](/ein-vs-ssn/) — Business identifier vs personal identifier
+- [EIN vs Tax ID](/ein-vs-tax-id/) — EIN is one type of Tax ID
+- [EIN vs TIN](/ein-vs-tin/) — TIN is the IRS umbrella term
+- [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/) — Same thing, different names
+- [FEIN vs EIN](/fein-vs-ein/) — Federal EIN vs EIN
+
+### International Tax ID Comparisons
+
+- [EIN vs ABN](/ein-vs-abn/) — US EIN vs Australian Business Number
+- [EIN vs CRN](/ein-vs-crn/) — US EIN vs Canadian Registration Number
+- [EIN vs DUNS](/ein-vs-duns/) — Tax ID vs business credit identifier
+- [EIN vs GST](/ein-vs-gst/) — US EIN vs Goods and Services Tax number
+- [EIN vs PAN](/ein-vs-pan/) — US EIN vs Indian Permanent Account Number
+- [EIN vs UTR](/ein-vs-utr/) — US EIN vs UK Unique Taxpayer Reference
+- [EIN vs VAT](/ein-vs-vat/) — US EIN vs EU VAT number
+
+### Service Comparisons
+
+- [ein.so vs LegalZoom](/ein-so-vs-legalzoom/)
+- [ein.so vs Northwest](/ein-so-vs-northwest/)
+- [ein.so vs Incfile](/ein-so-vs-incfile/)
+- [ein.so vs ZenBusiness](/ein-so-vs-zenbusiness/)
+- [ein.so vs GovDocFiling](/ein-so-vs-govdocfiling/)
+- [ein.so vs Harbor Compliance](/ein-so-vs-harbor-compliance/)
+- [ein.so vs EIN-ITIN](/ein-so-vs-ein-itin/)
+- [Best EIN Service](/best-ein-service/)
+
 ### Quick Links
 
-- [What is an EIN?](/what-is-ein/)
-- [How to get an EIN](/how-to-get-ein/)
-- [EIN lookup](/ein-lookup/)
+- [What is an EIN?](/what-is-ein/) — Parent guide
 - [Apply for EIN — $49](/apply/)
-- [EIN cost](/ein-cost/)
-- [Free EIN](/free-ein/)
 </Section>
 
 <Section>

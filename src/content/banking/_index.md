@@ -43,14 +43,31 @@ faqs:
 
 Complete guide to business banking for EIN holders. Best banks for non-residents and how to open accounts.
 
+### Bank Account Guides
+
+- [EIN for Bank Account](/ein-for-bank-account/) — Complete guide to opening a US business account
+- [Open Mercury Account With EIN](/open-mercury-account-with-ein/) — Best for non-residents, no SSN required
+- [Open Relay Account With EIN](/open-relay-account-with-ein/) — Free business banking for LLCs
+- [Open Wise Account With EIN](/open-wise-account-with-ein/) — Multi-currency business account
+- [Open Chase Account With EIN](/open-chase-account-with-ein/) — Traditional banking for US-based businesses
+- [Open Novo Account With EIN](/open-novo-account-with-ein/) — Free business checking
+- [Best Bank for Non-Resident LLC](/best-bank-for-non-resident-llc/) — Full comparison
+
+### Bank Comparisons
+
+- [Mercury vs Relay](/mercury-vs-relay/) — Head-to-head comparison
+- [Mercury vs Novo](/mercury-vs-novo/) — Feature comparison
+
+### Payment Platforms
+
+- [EIN for PayPal](/ein-for-paypal/) — Business account setup
+- [EIN for Stripe](/ein-for-stripe/) — Payment processing
+- [EIN for Payoneer](/ein-for-payoneer/) — International payments
+
 ### Quick Links
 
-- [What is an EIN?](/what-is-ein/)
-- [How to get an EIN](/how-to-get-ein/)
-- [EIN lookup](/ein-lookup/)
+- [What Can You Do With an EIN?](/what-can-you-do-with-ein/) — Parent guide
 - [Apply for EIN — $49](/apply/)
-- [EIN cost](/ein-cost/)
-- [Free EIN](/free-ein/)
 </Section>
 
 <Section>
