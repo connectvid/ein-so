@@ -36,4 +36,10 @@ faqs:
     a: "We accept all major credit and debit cards through Stripe. Payment is secure and encrypted."
   - q: "What if my application is rejected?"
     a: "If the IRS rejects your application for any reason we caused, we will refile at no additional cost or provide a full refund."
+  - q: "Is the EIN free from the IRS?"
+    a: "Yes. The IRS charges $0 for EINs. Our $49 or $97 fee covers SS-4 form preparation, IRS fax submission, follow-up, and EIN delivery by email. US residents with an SSN can apply free at IRS.gov directly."
+  - q: "How long does the IRS take to process Form SS-4?"
+    a: "The IRS processes faxed SS-4 forms within 4-7 business days. ein.so Standard service delivers in 14 business days (includes preparation time). Express delivers in 7 business days with priority handling and phone follow-up."
+  - q: "Do I need an LLC to get an EIN?"
+    a: "No. You can get an EIN as a sole proprietor, freelancer, or individual without forming an LLC or corporation. However, most non-residents form a Wyoming LLC first, then apply for an EIN. See our EIN for LLC guide for details."
 ---

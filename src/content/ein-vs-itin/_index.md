@@ -31,6 +31,10 @@ faqs:
     a: "An EIN is one type of tax identification number (TIN). The IRS issues multiple types of TINs: SSNs for US citizens and residents, ITINs for individuals without SSN eligibility, and EINs for businesses. All are 9-digit numbers, but they serve different purposes and have different formats."
   - q: "What does an EIN number look like compared to an ITIN?"
     a: "An EIN is formatted as XX-XXXXXXX (two digits, a hyphen, then seven digits). An ITIN is formatted like an SSN (9XX-XX-XXXX) but always begins with the digit 9. Despite both being 9-digit numbers, their formats are distinct and they serve completely different purposes."
+  - q: "Which do I apply for first — EIN or ITIN?"
+    a: "Apply for the EIN first. The EIN application (Form SS-4) does not require an ITIN or SSN for non-residents filing by fax. The ITIN application (Form W-7) takes 6-11 weeks and requires a US tax return to be attached, so handle it separately after your EIN."
+  - q: "How much does an EIN cost compared to an ITIN?"
+    a: "Both are free from the IRS ($0). The EIN is obtained by filing Form SS-4 (free by fax). The ITIN requires Form W-7 (free) but non-residents need a Certifying Acceptance Agent ($150-$350) to verify documents. ein.so files your EIN SS-4 for $49."
 ---
 
 <Section>

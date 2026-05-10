@@ -31,6 +31,10 @@ faqs:
     a: "Only for non-profit organizations. The IRS Tax Exempt Organization Search at apps.irs.gov lets you search for 501(c) organizations and view their EIN, filing status, and Form 990 data. For all other entity types, the IRS website does not provide EIN lookup capabilities."
   - q: "How long does it take to get an EIN verification letter?"
     a: "If you call the IRS at 800-829-4933 and request a 147C letter, they can fax it to you the same business day. If you request it by mail, delivery takes 4-6 weeks. You must be an authorized person on the EIN account to request a verification letter."
+  - q: "Can I look up an EIN by company name?"
+    a: "For non-profits, search the IRS Tax Exempt Organization Search by name at apps.irs.gov. For public companies, search SEC EDGAR at sec.gov/cgi-bin/browse-edgar. For private LLCs and corporations, check your state's Secretary of State business search — some states display EINs, most do not."
+  - q: "Do I need an EIN to look up my own business?"
+    a: "No. You need an EIN to operate your business, not to look it up. To verify your existing EIN, call the IRS at 800-829-4933 or check your original CP 575 confirmation letter. If you never received an EIN, you can apply through ein.so for $49."
 ---
 
 <Section>

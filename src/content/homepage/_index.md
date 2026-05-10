@@ -16,4 +16,6 @@ faqs:
     a: "An EIN unlocks 7 critical business functions: open a US business bank account, hire W-2 employees, file federal tax returns (Form 1120, 1065, or Schedule C), apply for business credit, register on Amazon and Shopify, accept payments through Stripe and PayPal, and establish your US business identity."
   - q: "Is ein.so an official IRS service?"
     a: "No. ein.so is an independent service that helps non-US residents obtain EINs. We prepare and file Form SS-4 with the IRS on your behalf. The IRS is the only entity that issues EINs."
+  - q: "What is an EIN number?"
+    a: "An EIN (Employer Identification Number) is a 9-digit tax ID number issued by the IRS in the format XX-XXXXXXX. Businesses, trusts, estates, and non-profits use it for tax filing, banking, and hiring. The IRS issues EINs for free via Form SS-4."
 ---
