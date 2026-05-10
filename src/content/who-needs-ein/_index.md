@@ -37,6 +37,8 @@ faqs:
 ---
 
 <Section>
+![Who needs an EIN — LLCs, corporations, nonprofits, trusts, non-residents](/images/who-needs-ein.webp)
+
 <Capsule>**Any business entity that operates in the United States needs an EIN. This includes LLCs, corporations, nonprofits, partnerships, trusts, estates, and sole proprietors who hire employees. Non-US residents who sell on Amazon, use Stripe or PayPal, or open a US bank account also need an EIN.** The IRS issues EINs at no charge, but the online application requires an SSN or ITIN. Non-residents who lack these documents must file Form SS-4 by fax. ein.so handles this process for $49 (Standard) or $97 (Express).</Capsule>
 
 If you are wondering whether your specific situation requires an EIN, this guide breaks down every entity type and business scenario where the IRS mandates -- or strongly recommends -- obtaining an Employer Identification Number. We cover the most common cases first and then address special situations like non-resident entrepreneurs, Amazon sellers, and freelancers. For a general overview of what an EIN is, visit our [What Is an EIN?](/what-is-ein/) guide.

@@ -37,6 +37,8 @@ faqs:
 ---
 
 <Section>
+![What is an EIN number — 9-digit IRS tax identification number explained](/images/what-is-ein.webp)
+
 <Capsule>**An EIN (Employer Identification Number) is a unique 9-digit number issued by the Internal Revenue Service (IRS) to identify businesses operating in the United States for tax purposes.** Formatted as XX-XXXXXXX, an EIN functions as a business's federal tax ID. It is sometimes called a Federal Employer Identification Number (FEIN) or simply a Tax ID. Every business entity that hires employees, operates as a corporation or partnership, or files certain tax returns needs an EIN. The IRS issues EINs at no cost, and once assigned, an EIN is permanently tied to that entity.</Capsule>
 
 If you are starting a business, opening a US bank account, or hiring employees in the United States, you will almost certainly need an EIN. This comprehensive guide explains exactly what an EIN is, how the numbering system works, who needs one, and how to get one -- whether you are a US resident or an international entrepreneur operating from abroad.

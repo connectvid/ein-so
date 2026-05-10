@@ -37,6 +37,8 @@ faqs:
 ---
 
 <Section>
+![What can you do with an EIN — banking, taxes, hiring, credit, payments](/images/what-can-you-do-with-ein.webp)
+
 <Capsule>**An EIN lets you open a US business bank account, file federal taxes, hire employees, build business credit, accept payments through Amazon, Stripe, and PayPal, apply for business licenses, establish your business identity, and comply with IRS requirements.** Your EIN is the key that unlocks nearly every business function in the United States. Without one, banks will not open accounts, payment processors will not verify your business, and the IRS cannot process your tax returns. For a basic overview, see our [What Is an EIN?](/what-is-ein/) guide.</Capsule>
 
 Many entrepreneurs apply for an EIN because they are told they need one, but they do not fully understand how many doors it opens. Your EIN is not just a tax number -- it is the foundation of your business's financial and legal identity in the United States. Every bank, payment processor, government agency, and business partner will ask for it.
