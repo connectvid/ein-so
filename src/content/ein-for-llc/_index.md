@@ -14,6 +14,7 @@ schema:
   headline: "EIN for LLC: Do You Need One? How to Apply (2026)"
   description: "Complete guide to getting an EIN for your LLC in 2026. Covers single-member and multi-member requirements, BOI filing obligations, and how to apply as a non-resident."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "LLC Requirements"
 heroTitle: "EIN for LLC:"
 heroAccent: "Do You Need One? (2026)"

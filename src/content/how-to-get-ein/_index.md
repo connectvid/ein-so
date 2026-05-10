@@ -17,6 +17,8 @@ schema:
   type: "article"
   headline: "How to Get an EIN Number in 2026"
   description: "Complete guide to getting an EIN number in 2026. Three methods explained: online, fax, and phone. Includes steps for non-US residents."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 howToSteps:
   - name: "Choose Your Package"
     text: "Select Standard ($49, 14 business days) or Express ($97, 7 business days). Both include full SS-4 filing with the IRS."

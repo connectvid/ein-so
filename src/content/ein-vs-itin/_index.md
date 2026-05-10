@@ -18,6 +18,7 @@ schema:
   headline: "EIN vs ITIN: Key Differences Explained (2026)"
   description: "A comprehensive comparison of EIN and ITIN: who needs each, how to apply, and whether you need both."
   datePublished: ""
+  dateModified: "2026-05-09"
 faqs:
   - q: "Can I use an ITIN instead of an EIN for my business?"
     a: "No. An ITIN is a personal tax identification number for individuals who cannot get an SSN. It cannot replace an EIN. If you have a business entity, such as an LLC, corporation, or partnership, you need an EIN to file business taxes, open a business bank account, and hire employees. You may need both an ITIN (for yourself) and an EIN (for your business)."

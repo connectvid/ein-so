@@ -17,6 +17,8 @@ schema:
   type: "article"
   headline: "What Is an EIN Number? Complete Guide (2026)"
   description: "An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, how to apply, EIN format, and more."
+  datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 faqs:
   - q: "Is an EIN the same as a Tax ID number?"
     a: "An EIN is one type of Tax Identification Number (TIN). The term 'Tax ID' is a broad category that also includes Social Security Numbers (SSNs) and Individual Taxpayer Identification Numbers (ITINs). When people refer to a 'business Tax ID,' they almost always mean an EIN."

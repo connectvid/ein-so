@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Non-US Residents: How to Apply From Abroad (2026)"
   description: "Complete guide for non-US residents applying for an EIN. No SSN required. Learn the fax method, required documents, and how ein.so handles the process for $49."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "For International Entrepreneurs"
 heroTitle: "EIN for Non-US Residents:"
 heroAccent: "How to Apply From Abroad (2026)"

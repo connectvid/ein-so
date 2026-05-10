@@ -14,6 +14,7 @@ schema:
   headline: "EIN for Bank Account: How to Open a US Business Account (2026)"
   description: "Complete guide to opening a US business bank account with an EIN. Best banks for non-residents, required documents, and step-by-step process."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Business Banking Guide"
 heroTitle: "EIN for Bank Account:"
 heroAccent: "Open a US Business Account (2026)"
