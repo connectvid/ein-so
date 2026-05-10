@@ -87,6 +87,9 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <head>
+        {/* Language signal — prevents German "ein" traffic */}
+        <link rel="alternate" hrefLang="en" href="https://ein.so/" />
+        <link rel="alternate" hrefLang="x-default" href="https://ein.so/" />
         {/* Plausible Analytics */}
         <Script
           defer

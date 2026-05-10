@@ -129,7 +129,7 @@ The EIN application itself takes minutes. The bottleneck is the 501(c)(3) determ
 
 <InfoBox title="For Non-US Residents (without SSN or ITIN):">
 
-1. Complete Form SS-4 selecting "Other nonprofit organization" on line 9a
+1. Complete [Form SS-4](/ss4-form-guide/) selecting "Other nonprofit organization" on line 9a
 2. Enter the responsible party's name and passport number
 3. Provide the nonprofit's legal name and address
 4. Specify the nonprofit's purpose (charitable, educational, religious, etc.)
