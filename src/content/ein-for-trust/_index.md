@@ -46,6 +46,8 @@ faqs:
 
 <Capsule>**Irrevocable trusts always need an EIN because they are separate tax entities. Revocable (living) trusts use the grantor's SSN while the grantor is alive, but need an EIN after the grantor dies and the trust becomes irrevocable.** The trustee applies for the EIN using Form SS-4. US-based trustees apply online for free. Non-US trustees apply by fax, or through ein.so for $49 (Standard) or $97 (Express).</Capsule>
 
+![EIN requirements for trusts — irrevocable, revocable, and post-death](/images/ein-for-trust.webp)
+
 Trusts are among the most misunderstood entities when it comes to EIN requirements. The rules depend entirely on the type of trust and whether the grantor is alive. Many trustees apply for an EIN when they do not need one, while others fail to apply when it is legally required. This guide clarifies the rules for every type of trust.
 
 For general EIN information, see [who needs an EIN](/who-needs-ein/). If you are managing an estate rather than a trust, see our [EIN for estate guide](/ein-for-estate/).

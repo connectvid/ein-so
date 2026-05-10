@@ -46,6 +46,8 @@ faqs:
 
 <Capsule>**Every estate of a deceased person needs its own EIN. The executor (personal representative) applies using Form SS-4, selecting "Estate" as the entity type. The estate's EIN is used for Form 1041 filing, opening estate bank accounts, and distributing assets to heirs.** You cannot use the deceased person's SSN for estate purposes. Apply online at irs.gov if you have an SSN or ITIN. Non-US executors apply by fax, or through ein.so for $49 (Standard) or $97 (Express).</Capsule>
 
+![EIN for estate of deceased person — executor application guide](/images/ein-for-estate.webp)
+
 Losing a family member is difficult. Managing their estate adds legal and financial complexity. One of the executor's first responsibilities is obtaining an EIN for the estate so that financial transactions can proceed. Without an EIN, the executor cannot open an estate bank account, collect the decedent's assets, pay outstanding debts, or file the estate's tax return. This guide explains the process clearly and completely.
 
 For general EIN information, see [who needs an EIN](/who-needs-ein/). If the deceased person had a trust, see our [EIN for trust guide](/ein-for-trust/) -- the trust needs a separate EIN.

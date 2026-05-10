@@ -52,6 +52,14 @@ export const mdxComponents: MDXComponents = {
   ),
   td: (props) => <td className="p-4 text-[var(--color-text-muted)]" {...props} />,
 
+  img: (props) => (
+    <img
+      {...props}
+      className="w-full rounded-2xl my-8 shadow-lg"
+      loading="lazy"
+    />
+  ),
+
   // Custom components
   Section,
   Capsule,

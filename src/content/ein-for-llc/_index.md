@@ -42,6 +42,8 @@ faqs:
 
 <Capsule>**Yes, every LLC needs an EIN. The IRS requires multi-member LLCs to have an EIN for partnership tax filing. Single-member LLCs need an EIN to open bank accounts, hire employees, and protect the owner's SSN.** An EIN is free from the IRS if you apply online with an SSN. Non-US residents who own a US LLC can get an EIN through ein.so for $49. Additionally, most LLCs must now file a Beneficial Ownership Information (BOI) report with FinCEN or face penalties of $500 per day.</Capsule>
 
+![EIN for LLC — business formation and tax compliance guide](/images/ein-for-llc.webp)
+
 Forming an LLC is one of the most common first steps for new business owners in the United States. Whether you are a US resident launching a local business or an international entrepreneur setting up a US entity, your LLC will need an EIN before it can function. This guide covers everything you need to know about getting an EIN for your LLC, including the differences between single-member and multi-member requirements, the mandatory BOI filing, and how non-residents can apply.
 
 For a broader overview of [what an EIN is](/what-is-ein/) and [who needs one](/who-needs-ein/), see our dedicated guides. This page focuses specifically on EIN requirements for LLCs.

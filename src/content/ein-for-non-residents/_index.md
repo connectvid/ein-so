@@ -45,6 +45,8 @@ faqs:
 **Non-US residents can get an EIN by submitting IRS Form SS-4 by fax, as outlined in IRS Publication 1635. No SSN or ITIN is required -- your passport number and foreign address are sufficient (enter 'N/A' on Line 7b per IRS instructions). The IRS online application is not available to non-residents, which is why the fax method exists.** Non-residents fax Form SS-4 to the IRS at (855) 641-6935 for international applicants. ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
 </Capsule>
 
+![EIN for non-US residents — global entrepreneurs connecting to the United States](/images/ein-for-non-residents.webp)
+
 If you are a non-US resident starting a business in the United States, an EIN is the first thing you need. Without it, you cannot open a bank account, register on Amazon, accept payments through Stripe or PayPal, or file US taxes. The problem is that the IRS makes it unnecessarily difficult for international applicants to get one. This guide explains exactly how the process works and why ein.so exists to solve this problem.
 
 Whether you are forming a US LLC from Bangladesh, starting an Amazon FBA business from the UK, or opening a US bank account from Japan, the EIN application process is the same. You need a correctly completed Form SS-4 faxed to the IRS. That is what ein.so does, every day, for entrepreneurs around the world.

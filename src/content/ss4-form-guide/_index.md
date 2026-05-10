@@ -63,6 +63,8 @@ faqs:
 <Section>
 <Capsule>**IRS Form SS-4 is the one-page application you submit to get an Employer Identification Number (EIN). You fill in your legal name, entity type, responsible party details, business address, and reason for applying, then fax it to the IRS at 855-215-1627. The IRS returns your EIN within 4-7 business days.** This guide walks through every line of the form so you know exactly what to enter. Non-residents who lack an SSN can still complete this form -- we cover the specific adjustments you need to make.</Capsule>
 
+![IRS Form SS-4 step-by-step instructions for EIN application](/images/ss4-form-guide.webp)
+
 ### Who Needs to File Form SS-4?
 
 Form SS-4 is the only way for non-US residents without an SSN or ITIN to apply for an EIN, since the IRS online application requires one of those numbers. Over 400,000 fax-based SS-4 forms are processed by the IRS each year. The form itself is straightforward, but certain lines cause confusion -- especially for non-resident applicants and first-time business owners. This guide eliminates that confusion by explaining every field in plain language.
