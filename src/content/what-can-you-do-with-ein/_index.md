@@ -64,7 +64,7 @@ To open a business bank account, you need your EIN confirmation letter (IRS Lett
 | Bank of America | $100 | No (in-person) | 4,000 branches; $16/mo fee waived at $5,000 balance |
 | Wise Business | $0 | Yes | Multi-currency accounts; low international transfer fees |
 
-Read our [EIN for Bank Account](/ein-for-bank-account/) guide for a full list of banks that work with non-residents and detailed requirements for each institution.
+Read our [EIN for Bank Account](/ein-for-bank-account/) guide for a full list of banks that work with non-residents and detailed requirements for each institution. For international payment platforms, see our guides for [PayPal](/ein-for-paypal/), [Stripe](/ein-for-stripe/), and [Payoneer](/ein-for-payoneer/).
 </Section>
 
 <Section>

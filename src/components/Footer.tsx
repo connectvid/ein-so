@@ -39,7 +39,18 @@ const columns = [
       { label: "EIN vs ITIN", href: "/ein-vs-itin/" },
       { label: "EIN vs SSN", href: "/ein-vs-ssn/" },
       { label: "EIN vs Tax ID", href: "/ein-vs-tax-id/" },
-      { label: "EIN vs TIN", href: "/ein-vs-tin/" },
+      { label: "All Comparisons", href: "/comparisons/" },
+    ],
+  },
+  {
+    title: "Browse",
+    links: [
+      { label: "EIN by Country", href: "/countries/" },
+      { label: "EIN by Industry", href: "/industries/" },
+      { label: "EIN by State", href: "/ein-by-state/" },
+      { label: "Business Banking", href: "/banking/" },
+      { label: "Free Tools", href: "/tools/ein-eligibility-checker/" },
+      { label: "Blog", href: "/blog/" },
     ],
   },
 ];

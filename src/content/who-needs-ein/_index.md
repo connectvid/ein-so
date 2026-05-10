@@ -210,6 +210,7 @@ Here is a quick reference table summarizing which entities are required to have 
 | [Partnership](/ein-for-partnership/) | **Required** | EIN for Partnership |
 | [Irrevocable trust](/ein-for-trust/) | **Required** | EIN for Trust |
 | [Estate](/ein-for-estate/) | **Required** | EIN for Estate |
+| [S-Corporation](/ein-for-scorp/) | **Required** | EIN for S-Corp |
 | [Sole proprietor with employees](/ein-for-sole-proprietor/) | **Required** | EIN for Sole Proprietor |
 | [Sole proprietor without employees](/ein-for-sole-proprietor/) | Recommended | EIN for Sole Proprietor |
 | [Non-US resident with US business](/ein-for-non-residents/) | **Required** | EIN for Non-Residents |

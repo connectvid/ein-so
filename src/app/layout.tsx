@@ -130,6 +130,12 @@ export default function RootLayout({
           <a href="/tools/ein-eligibility-checker/">EIN Eligibility Checker</a>
           <a href="/tools/ss4-form-helper/">SS-4 Form Helper</a>
           <a href="/tools/ein-processing-calculator/">EIN Processing Calculator</a>
+          <a href="/countries/">EIN by Country</a>
+          <a href="/industries/">EIN by Industry</a>
+          <a href="/ein-by-state/">EIN by State</a>
+          <a href="/comparisons/">EIN Comparisons</a>
+          <a href="/banking/">Business Banking</a>
+          <a href="/blog/">Blog</a>
         </nav>
         <AnnouncementBar />
         <Header />
