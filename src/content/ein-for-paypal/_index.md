@@ -41,6 +41,8 @@ faqs:
 ---
 
 <Section>
+![ein for paypal](/images/ein-for-paypal.webp)
+
 <Capsule>
 **PayPal requires a Tax Identification Number for business accounts because it must report payments to the IRS using Form 1099-K. Non-US residents need an EIN to set up a PayPal Business account for receiving US payments. US residents should use an EIN to keep their SSN off PayPal's systems.** A PayPal Business account with an EIN gives you higher transaction limits, business branding, and multi-user access that personal accounts lack.
 </Capsule>

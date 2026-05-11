@@ -39,6 +39,8 @@ faqs:
 ---
 
 <Section>
+![ein without ssn](/images/ein-without-ssn.webp)
+
 <Capsule>
 **Non-US residents get an EIN without an SSN by filling out IRS Form SS-4 and faxing it to 855-215-1627. Write "N/A" on Line 7b where the form asks for an SSN, attach a copy of your passport, and include a fax number where the IRS can send your EIN. Processing takes 4-7 business days.** The IRS online EIN application does not work without an SSN or ITIN -- it blocks you on the first screen. The fax method is the official alternative for non-residents, and the IRS processes thousands of these applications every month.
 </Capsule>

@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![ein for amazon sellers](/images/ein-for-amazon-sellers.webp)
+
 <Capsule>**Amazon Seller Central requires a Tax Identification Number (TIN) to complete the mandatory tax interview during registration. Non-US residents must use an EIN because they do not have an SSN. Even US-based sellers should use an EIN to protect their SSN.** Without completing the tax interview, you cannot list products or receive payments on Amazon. Getting your EIN is the first step to selling on Amazon, whether you are using FBA or fulfilling orders yourself.</Capsule>
 
 Amazon is the largest e-commerce marketplace in the world, and thousands of new sellers register every day. For non-US residents, the EIN requirement is the biggest hurdle to getting started. The IRS online tool does not work without an SSN, leaving international sellers stuck -- unless they know about the fax method or use a service like ein.so.

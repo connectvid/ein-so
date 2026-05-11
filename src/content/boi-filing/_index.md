@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![boi filing](/images/boi-filing.webp)
+
 <Capsule label="Short Answer">**A BOI (Beneficial Ownership Information) filing is a mandatory report that most US LLCs and corporations must submit to FinCEN, disclosing the individuals who own or control the company. You must report each beneficial owner's name, date of birth, address, and government-issued ID.** Failure to file carries civil penalties of $500 per day and potential criminal penalties including fines up to $10,000 and up to 2 years in prison.</Capsule>
 
 </Section>

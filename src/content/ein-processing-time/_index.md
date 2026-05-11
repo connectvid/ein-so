@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![ein processing time](/images/ein-processing-time.webp)
+
 <Capsule>**EIN processing time depends on your application method. Online applications receive an EIN instantly. Fax applications (Form SS-4) take 4-7 business days. Phone applications can be processed the same day. Mail applications take 4-6 weeks.** For non-US residents who must use the fax method, ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 7 business days) to get your EIN as quickly as possible.</Capsule>
 
 ### Why Processing Time Matters for Business Planning
