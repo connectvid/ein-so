@@ -1,4 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { mdxComponents } from "@/components/mdx";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
@@ -30,7 +31,11 @@ export function MDXPage({ frontmatter: fm, content }: MDXPageProps) {
         />
       )}
 
-      <MDXRemote source={content} components={mdxComponents} />
+      <MDXRemote
+        source={content}
+        components={mdxComponents}
+        options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+      />
 
       {fm.faqs && fm.faqs.length > 0 && <FAQSection faqs={fm.faqs} />}
 
