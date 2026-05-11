@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![ein for freelancers](/images/ein-for-freelancers.webp)
+
 <Capsule>**Freelancers should get an EIN to replace their SSN on W-9 forms sent to clients. Every client who pays you $600 or more requests a W-9, which means your SSN gets shared repeatedly across companies, platforms, and accounting systems -- increasing your identity theft risk.** An EIN gives you a dedicated business identifier that protects your personal information while meeting all IRS requirements.</Capsule>
 
 As a freelancer, you fill out W-9 forms constantly. Every new client, every platform like Upwork or Fiverr, and every business that pays you needs your Tax Identification Number. Without an EIN, your SSN sits in dozens of company databases, email chains, and accounting software systems. One data breach at any of those companies exposes your SSN.

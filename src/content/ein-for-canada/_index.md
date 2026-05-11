@@ -39,6 +39,8 @@ faqs:
 ---
 
 <Section>
+![ein for canada](/images/ein-for-canada.webp)
+
 <Capsule>
 **Canadians can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required -- your Canadian passport number is sufficient.** While Canadians can technically call the IRS, hold times are long and unreliable. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
 </Capsule>

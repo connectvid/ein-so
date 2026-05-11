@@ -40,6 +40,8 @@ faqs:
 
 <Section>
 
+![ein for nonprofit](/images/ein-for-nonprofit.webp)
+
 <Capsule>**Every nonprofit organization needs an EIN. You must obtain an EIN before applying for 501(c)(3) tax-exempt status, filing Form 990, opening a bank account, or applying for grants. The EIN is the foundation of your nonprofit's federal identity.** Apply online at irs.gov if a responsible party has an SSN or ITIN. Select "Other nonprofit organization" as the entity type on Form SS-4. Non-US residents can apply by fax through ein.so for $49 (Standard) or $97 (Express).</Capsule>
 
 Starting a nonprofit involves multiple federal and state filings. The EIN application is one of the first steps because nearly every subsequent filing requires it. You need the EIN before you file Form 1023 (or 1023-EZ) for tax-exempt recognition, before you open a bank account to receive donations, and before you apply for most grants. This guide walks you through the entire process.

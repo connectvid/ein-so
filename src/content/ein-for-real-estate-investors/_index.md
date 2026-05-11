@@ -41,6 +41,8 @@ faqs:
 ---
 
 <Section>
+![ein for real estate investors](/images/ein-for-real-estate-investors.webp)
+
 <Capsule>
 **Real estate investors need an EIN to hold property in an LLC, report rental income to the IRS, open property-specific bank accounts, and comply with FIRPTA withholding requirements. Non-US investors must have an EIN to purchase, manage, and sell US real estate.** Whether you own one rental property or a portfolio of commercial buildings, your EIN is the tax identifier that ties your real estate investments to the IRS.
 </Capsule>

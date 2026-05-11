@@ -41,6 +41,8 @@ faqs:
 ---
 
 <Section compact>
+![s corp election](/images/s-corp-election.webp)
+
 <Capsule label="Short Answer">**To elect S-Corp status, file Form 2553 (Election by a Small Business Corporation) with the IRS within 75 days of formation or by March 15 for existing entities. S-Corp status lets you split income into salary and distributions, saving 15.3% self-employment tax on the distribution portion. You need an EIN before filing Form 2553.** Only US citizens and resident aliens qualify as S-Corp shareholders.</Capsule>
 </Section>
 

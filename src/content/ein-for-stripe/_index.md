@@ -41,6 +41,8 @@ faqs:
 ---
 
 <Section>
+![ein for stripe](/images/ein-for-stripe.webp)
+
 <Capsule>
 **Stripe requires an EIN for all US-based business accounts. Non-US residents can either use Stripe Atlas ($500 for incorporation + EIN) or form their own US LLC and provide an EIN directly. If you already have a US LLC, you just need an EIN -- which ein.so provides for $49.** Stripe powers millions of businesses worldwide, and your EIN is the key to processing US payments through the platform.
 </Capsule>

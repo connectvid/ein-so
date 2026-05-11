@@ -40,6 +40,8 @@ faqs:
 
 <Section>
 
+![ein for scorp](/images/ein-for-scorp.webp)
+
 <Capsule>**You do not need a new EIN when you elect S-Corp status. Filing Form 2553 changes your tax classification, not your entity. Your corporation or LLC keeps the same EIN it received when it was first formed.** Every S-Corp does need an EIN -- but you get it when the entity is created, not when you make the S-Corp election. If you are forming a new entity that will elect S-Corp status, apply for the EIN as a corporation or LLC first, then file Form 2553 separately.</Capsule>
 
 The relationship between EINs and S-Corp elections causes significant confusion. Business owners frequently search for "EIN for S-Corp" expecting a special application process. There is none. The S-Corp election is a tax classification choice made on Form 2553 -- it is separate from the EIN application. This guide clears up the confusion and explains exactly how EINs work with S-Corp status.

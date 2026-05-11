@@ -39,6 +39,8 @@ faqs:
 ---
 
 <Section>
+![ein for bangladesh](/images/ein-for-bangladesh.webp)
+
 <Capsule>
 **Bangladeshi entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Bangladeshi passport number replaces the SSN requirement. No ITIN, visa, or US presence is needed.** ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide support in Bengali, understand Bangladeshi address formats, and know the specific challenges our Bangladeshi clients face. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
 </Capsule>

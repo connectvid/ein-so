@@ -39,6 +39,8 @@ faqs:
 ---
 
 <Section>
+![ein for india](/images/ein-for-india.webp)
+
 <Capsule>
 **Indian entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Indian passport number replaces the SSN requirement.** The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
 </Capsule>

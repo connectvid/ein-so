@@ -42,6 +42,8 @@ faqs:
 
 <Section>
 
+![ein for shopify sellers](/images/ein-for-shopify-sellers.webp)
+
 <Capsule>**Shopify sellers need an EIN to activate Shopify Payments, comply with IRS tax reporting requirements, and receive payouts from US sales. Non-US sellers must have an EIN because they lack an SSN. US sellers should use an EIN to protect their SSN on tax forms.** Without a valid Tax Identification Number, Shopify cannot process your tax information, and you risk account limitations or payment holds.</Capsule>
 
 Shopify powers over 4 million online stores worldwide, making it the most popular e-commerce platform for independent sellers. Whether you sell physical products, digital downloads, or services, Shopify needs your tax information to comply with IRS reporting rules. For non-US sellers, this means getting an EIN before you can fully activate your store.

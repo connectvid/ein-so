@@ -39,6 +39,8 @@ faqs:
 ---
 
 <Section>
+![ein for uk](/images/ein-for-uk.webp)
+
 <Capsule>
 **UK residents can get a US EIN by submitting IRS Form SS-4 by fax. Your British passport number replaces the SSN requirement.** The IRS online tool does not work for UK applicants without an SSN. ein.so handles the entire fax filing process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days). No visit to the US required.
 </Capsule>
