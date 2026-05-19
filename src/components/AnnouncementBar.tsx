@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { SITE } from "@/lib/constants";
+import { STRIPE_LINKS } from "@/lib/constants";
 
 export default function AnnouncementBar() {
   const [visible, setVisible] = useState(true);
@@ -14,7 +14,7 @@ export default function AnnouncementBar() {
         <p className="text-center font-medium">
           <span className="hidden sm:inline">Non-US resident? </span>
           Get your EIN in as fast as 7 business days.{" "}
-          <a href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`} target="_blank" rel="noopener noreferrer" className="underline font-bold hover:no-underline">
+          <a href={STRIPE_LINKS.standard} target="_blank" rel="noopener noreferrer" className="underline font-bold hover:no-underline">
             Apply now for $49
           </a>
         </p>

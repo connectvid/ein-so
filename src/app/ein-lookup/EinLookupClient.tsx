@@ -4,6 +4,7 @@ import AnimateIn, { StaggerContainer, StaggerItem } from "@/components/AnimateIn
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import Link from "next/link";
+import { STRIPE_LINKS } from "@/lib/constants";
 
 export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string }[] }) {
   return (
@@ -431,15 +432,17 @@ export default function EinLookupClient({ faqs }: { faqs: { q: string; a: string
               </div>
             </AnimateIn>
             <AnimateIn className="text-center">
-              <Link
-                href="/apply/"
+              <a
+                href={STRIPE_LINKS.standard}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
               >
                 Apply for an EIN · $49
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </Link>
+              </a>
             </AnimateIn>
           </div>
         </div>

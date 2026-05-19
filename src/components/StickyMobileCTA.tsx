@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { SITE } from "@/lib/constants";
+import { SITE, STRIPE_LINKS } from "@/lib/constants";
 
 export default function StickyMobileCTA() {
   const [visible, setVisible] = useState(false);
@@ -20,7 +20,9 @@ export default function StickyMobileCTA() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-[var(--color-navy)]/95 backdrop-blur-sm border-t border-white/10 px-4 py-3 flex gap-2">
       <a
-        href="/apply/"
+        href={STRIPE_LINKS.standard}
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex-1 inline-flex items-center justify-center gap-2 rounded-lg bg-[var(--color-blue)] px-4 py-3 text-sm font-bold text-white"
       >
         Get EIN — $49

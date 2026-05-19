@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { NAV_LINKS, SITE } from "@/lib/constants";
+import { NAV_LINKS, STRIPE_LINKS } from "@/lib/constants";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -57,7 +57,7 @@ export default function Header() {
 
           <div className="flex items-center gap-3">
             <a
-              href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+              href={STRIPE_LINKS.standard}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-5 py-2.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/20"
@@ -115,7 +115,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+                href={STRIPE_LINKS.standard}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}

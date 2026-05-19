@@ -5,6 +5,7 @@ import AnimateIn, { StaggerContainer, StaggerItem } from "@/components/AnimateIn
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import Link from "next/link";
+import { STRIPE_LINKS } from "@/lib/constants";
 
 const formSections = [
   {
@@ -385,12 +386,14 @@ export default function SS4FormHelperClient({
                     <strong>Skip the hassle:</strong> Instead of filling out Form SS-4
                     yourself, let ein.so handle everything. We complete the form, file it
                     with the IRS by fax, and deliver your EIN by email.{" "}
-                    <Link
-                      href="/apply/"
+                    <a
+                      href={STRIPE_LINKS.standard}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-[var(--color-blue)] underline font-bold"
                     >
                       Get started for $49 &rarr;
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>

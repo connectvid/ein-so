@@ -4,6 +4,7 @@ import AnimateIn, { StaggerContainer, StaggerItem } from "@/components/AnimateIn
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import Link from "next/link";
+import { STRIPE_LINKS } from "@/lib/constants";
 
 const comparisonRows = [
   { label: "Full Name", ein: "Employer Identification Number", itin: "Individual Taxpayer Identification Number" },
@@ -474,15 +475,17 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                     required. No paperwork for you.
                   </p>
                 </div>
-                <Link
-                  href="/apply/"
+                <a
+                  href={STRIPE_LINKS.standard}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
                   Get My EIN for $49
                   <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
                     <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                </Link>
+                </a>
               </div>
             </AnimateIn>
 

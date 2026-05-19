@@ -1,3 +1,8 @@
+export const STRIPE_LINKS = {
+  standard: "https://buy.stripe.com/eVqeVd9xAdXnfZad9zfEk0i",
+  express: "https://buy.stripe.com/28E00jaBE06x00c1qRfEk0g",
+} as const;
+
 export const SITE = {
   name: "ein.so",
   url: "https://ein.so",
@@ -8,6 +13,8 @@ export const SITE = {
   whatsappMessage: "Hi, I need help getting an EIN number.",
   whatsappStandard: "Hi, I'd like to apply for the Standard EIN service ($49).",
   whatsappExpress: "Hi, I'd like to apply for the Express EIN service ($97).",
+  stripeStandard: STRIPE_LINKS.standard,
+  stripeExpress: STRIPE_LINKS.express,
   email: "support@ein.so",
 };
 
@@ -18,7 +25,7 @@ export const PRICING = {
     turnaround: "14 business days",
     cta: "Get My EIN for $49",
     highlighted: false,
-    stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Standard EIN service ($49).")}`,
+    stripeLink: STRIPE_LINKS.standard,
     features: [
       "SS-4 form completion",
       "IRS fax submission",
@@ -33,7 +40,7 @@ export const PRICING = {
     turnaround: "7 business days",
     cta: "Get My EIN Fast · $97",
     highlighted: true,
-    stripeLink: `https://wa.me/8801750278508?text=${encodeURIComponent("Hi, I'd like to apply for the Express EIN service ($97).")}`,
+    stripeLink: STRIPE_LINKS.express,
     features: [
       "Everything in Standard",
       "Priority fax + phone follow-up",

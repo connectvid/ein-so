@@ -1,7 +1,7 @@
 "use client";
 
 import AnimateIn from "@/components/AnimateIn";
-import { SITE } from "@/lib/constants";
+import { STRIPE_LINKS } from "@/lib/constants";
 
 export default function CTASection({ title = "Ready to Get Your EIN?", subtitle = "Fast, simple, $49. No SSN required." }: { title?: string; subtitle?: string }) {
   return (
@@ -13,7 +13,7 @@ export default function CTASection({ title = "Ready to Get Your EIN?", subtitle 
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">{title}</h2>
           <p className="text-lg text-white/50 mb-8 max-w-xl mx-auto">{subtitle}</p>
           <a
-            href={`${SITE.whatsapp}?text=${encodeURIComponent(SITE.whatsappStandard)}`}
+            href={STRIPE_LINKS.standard}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
