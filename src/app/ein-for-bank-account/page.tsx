@@ -20,6 +20,7 @@ export default function EinForBankAccountPage() {
         description={fm.schema.description}
         url={fm.canonical}
         datePublished={fm.schema.datePublished}
+        dateModified={fm.schema.dateModified}
       />
       <FAQSchema faqs={fm.faqs} />
       <MDXPage frontmatter={fm} content={content} />

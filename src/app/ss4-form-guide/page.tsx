@@ -20,6 +20,7 @@ export default function SS4FormGuidePage() {
         description={fm.schema.description}
         url={fm.canonical}
         datePublished={fm.schema.datePublished}
+        dateModified={fm.schema.dateModified}
       />
       <HowToSchema steps={fm.howto.steps} />
       <FAQSchema faqs={fm.faqs} />

@@ -15,7 +15,7 @@ export default function ComparisonsPage() {
   return (
     <>
       <BreadcrumbSchema items={fm.breadcrumbs} />
-      <ArticleSchema headline={fm.schema.headline} description={fm.schema.description} url={fm.canonical} />
+      <ArticleSchema headline={fm.schema.headline} description={fm.schema.description} url={fm.canonical} datePublished={fm.schema.datePublished} dateModified={fm.schema.dateModified} />
       <FAQSchema faqs={fm.faqs} />
       <MDXPage frontmatter={fm} content={content} />
     </>

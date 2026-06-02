@@ -137,31 +137,52 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function ArticleSchema({ headline, description, url, datePublished = "2026-04-15", dateModified }: { headline: string; description: string; url: string; datePublished?: string; dateModified?: string }) {
+export function ArticleSchema({ headline, description, url, datePublished = "2026-04-15", dateModified, image }: { headline: string; description: string; url: string; datePublished?: string; dateModified?: string; image?: string }) {
+  const pageUrl = `${SITE.url}${url}`;
+  const imageUrl = image ? `${SITE.url}${image}` : `${SITE.url}/opengraph-image`;
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline,
     description,
-    url: `${SITE.url}${url}`,
-    publisher: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    url: pageUrl,
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+    image: { "@type": "ImageObject", url: imageUrl, width: 1200, height: 630 },
+    author: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    publisher: {
+      "@type": "Organization",
+      name: "ein.so",
+      url: SITE.url,
+      logo: { "@type": "ImageObject", url: `${SITE.url}/opengraph-image`, width: 1200, height: 630 },
+    },
     datePublished,
     dateModified: dateModified || datePublished,
+    inLanguage: "en-US",
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function BlogPostingSchema({ headline, description, url, datePublished, dateModified }: { headline: string; description: string; url: string; datePublished: string; dateModified?: string }) {
+export function BlogPostingSchema({ headline, description, url, datePublished, dateModified, image }: { headline: string; description: string; url: string; datePublished: string; dateModified?: string; image?: string }) {
+  const pageUrl = `${SITE.url}${url}`;
+  const imageUrl = image ? `${SITE.url}${image}` : `${SITE.url}/opengraph-image`;
   const schema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline,
     description,
-    url: `${SITE.url}${url}`,
-    publisher: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    url: pageUrl,
+    image: { "@type": "ImageObject", url: imageUrl, width: 1200, height: 630 },
+    author: { "@type": "Organization", name: "ein.so", url: SITE.url },
+    publisher: {
+      "@type": "Organization",
+      name: "ein.so",
+      url: SITE.url,
+      logo: { "@type": "ImageObject", url: `${SITE.url}/opengraph-image`, width: 1200, height: 630 },
+    },
     datePublished,
     dateModified: dateModified || datePublished,
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${url}` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+    inLanguage: "en-US",
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
