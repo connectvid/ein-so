@@ -129,10 +129,10 @@ export default function HomeClient() {
                 transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6"
               >
-                Your US Business
+                Get a US EIN
                 <br />
                 <span className="shimmer-text">
-                  Starts Here.
+                  Without an SSN.
                 </span>
               </motion.h1>
 
