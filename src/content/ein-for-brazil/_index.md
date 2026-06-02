@@ -1,6 +1,6 @@
 ---
 title: "EIN for Brazilian Entrepreneurs: US Business Guide (2026)"
-description: "Brazilian entrepreneurs can get a US EIN without an SSN. Learn how Amazon sellers, e-commerce businesses, and real estate investors from Brazil apply for an EIN. ein.so handles it for $49."
+description: "Brazilian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Brazilian Amazon sellers, e-commerce founders, and real estate investors, plus CNPJ vs EIN and banking. ein.so files it for $49."
 canonical: "/ein-for-brazil/"
 breadcrumbs:
   - name: "Home"
@@ -12,51 +12,51 @@ breadcrumbs:
 schema:
   type: "article"
   headline: "EIN for Brazilian Entrepreneurs: US Business Guide (2026)"
-  description: "Complete guide for Brazilian entrepreneurs applying for a US EIN. Amazon FBA, e-commerce, CNPJ vs EIN, and Brazilian real estate investors."
+  description: "Complete guide for Brazilian entrepreneurs applying for a US EIN. No SSN required. Covers SS-4 filing, CNPJ vs EIN, real estate investing, banking, and payments."
   datePublished: "2026-04-13"
-  dateModified: "2026-05-09"
+  dateModified: "2026-06-02"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Brazilian"
 heroAccent: "Entrepreneurs"
-heroDescription: "Apply for a US EIN from Brazil without an SSN. ein.so handles the IRS fax filing for Brazilian Amazon sellers, e-commerce businesses, and real estate investors. $49 Standard. $97 Express."
+heroDescription: "Apply for a US EIN from Brazil without an SSN or ITIN. ein.so handles the IRS fax filing for Brazilian Amazon sellers, e-commerce businesses, and real estate investors. $49 Standard. $97 Express."
+ctaTitle: "Need an EIN? We Handle Everything."
+ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your EIN by email. Just $49."
 faqs:
   - q: "Can Brazilian citizens get a US EIN?"
-    a: "Yes. Brazilian citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Brazilian passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Brazilian citizens get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Brazilian passport number goes on Line 7b. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). The IRS charges $0 for the EIN itself."
   - q: "Do Brazilian entrepreneurs need an SSN to get a US EIN?"
-    a: "No. Brazilian applicants do not need a Social Security Number or ITIN. Your Brazilian passport number is used on Form SS-4. The IRS online tool requires an SSN, so Brazilians use the fax method. ein.so handles the fax filing for you."
+    a: "No. Brazilian applicants do not need a Social Security Number or ITIN. Your Brazilian passport number serves as identification on Form SS-4 Line 7b. The IRS online tool requires an SSN, so Brazilians use the fax method to 855-215-1627. ein.so prepares the SS-4 and faxes it for you."
   - q: "What is the difference between a CNPJ and a US EIN?"
-    a: "Your CNPJ (Cadastro Nacional da Pessoa Juridica) is issued by the Receita Federal for Brazilian business tax purposes. Your CPF is your individual Brazilian tax ID. A US EIN is issued by the IRS for US tax purposes. They serve different countries. Your CNPJ/CPF cannot be used for US banking or tax compliance."
+    a: "Your CNPJ (Cadastro Nacional da Pessoa Juridica) has 14 digits and is issued by Receita Federal for Brazilian tax purposes. Your CPF is your individual Brazilian tax ID. A US EIN has 9 digits and is issued by the IRS for US tax purposes. Your CNPJ or CPF cannot open US bank accounts or file US taxes."
   - q: "Can I sell on Amazon.com from Brazil with a US EIN?"
-    a: "Yes. Your US EIN and LLC let you register as a US seller on Amazon.com. You complete the tax interview with your EIN and gain access to Amazon's US marketplace and FBA warehouses. This is separate from any Brazilian marketplace presence."
+    a: "Yes. Your US EIN and LLC let you register as a US seller on Amazon.com. You complete the Amazon tax interview with your EIN and access Amazon's US marketplace and FBA warehouses. The US marketplace is far larger than Amazon.com.br. This is separate from any Brazilian marketplace presence."
   - q: "Can Brazilian real estate investors use a US EIN?"
-    a: "Yes. Brazilian nationals investing in US real estate commonly form US LLCs to hold property. Your EIN is required for the LLC's tax filing, rental income reporting, and banking. Many Brazilian investors in Florida, New York, and other states use this structure."
+    a: "Yes. Brazilian nationals investing in US real estate commonly form US LLCs to hold property. Your LLC's EIN is required for tax filing, rental income reporting, and banking. Brazilian buyers concentrate in Florida cities like Miami, Orlando, and Fort Lauderdale. Confirm FIRPTA and tax details with a US CPA."
   - q: "How do I transfer funds between Brazil and my US account?"
-    a: "Use Wise, Remessa Online, or your Brazilian bank's international transfer service (DOC/TED internacional) to move funds between your US bank account (opened with your EIN) and your Brazilian bank account. Wise offers the best BRL/USD exchange rates."
+    a: "Use Wise, Remessa Online, or your Brazilian bank's international transfer service (TED internacional) to move funds between your US bank account and your Brazilian account. Wise settles at the mid-market BRL/USD rate. Convert to BRL only when the exchange rate favors you to protect your margins."
   - q: "How long does it take for a Brazilian to receive a US EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). Calling the IRS from Brazil is impractical due to the time difference and expensive international calling rates."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). The IRS charges $0 for the EIN. Calling the IRS from Brazil involves long hold times and English-only support, so the fax method to 855-215-1627 is more reliable."
+  - q: "Does a foreign-owned single-member US LLC have to file US tax forms?"
+    a: "Yes. A foreign-owned single-member US LLC files Form 5472 with a pro-forma Form 1120 each year. The penalty for not filing is $25,000. This is an information return, not necessarily a tax bill. ein.so files the EIN and does not give tax advice; confirm your filing duties with a US CPA."
+  - q: "Does ein.so reformat Brazilian addresses for the SS-4?"
+    a: "Yes. Brazilian addresses use rua, numero, bairro, cidade, estado, and an 8-digit CEP that does not map cleanly to the SS-4 fields. The IRS silently rejects malformed international addresses. ein.so reformats your Brazilian address to an IRS-accepted style so your application is not rejected without notice."
 ---
 
 <Section>
 <Capsule>
-**Brazilian entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Brazilian passport number. No SSN, ITIN, or US visa is required.** Brazil is the largest economy in Latin America, and Brazilian entrepreneurs are expanding into the US market through e-commerce, real estate investment, and technology. ein.so handles the EIN application for $49 (Standard) or $97 (Express).
+**Brazilian entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Brazilian passport number replaces the SSN requirement on Line 7b.** The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS at 855-215-1627, and delivers your EIN by email. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days). The IRS charges $0 for the EIN itself.
 </Capsule>
 
-### Brazil's Position as Latin America's Largest Economy
-
-Brazil has a population of 215 million, a GDP of $2.1 trillion (the largest in Latin America), and over 20 million registered companies (CNPJs). Brazilians are among the top 5 foreign buyers of US real estate, spending $1.6 billion on US property purchases in 2023. The BRL/USD exchange rate hovers near 5.0. Brazilian entrepreneurs have a growing presence in the US market, with strong communities in Miami, Orlando, Newark, and Boston.
-
-### What This Guide Covers for Brazilian Entrepreneurs
-
-This guide covers the EIN application process for Brazilian entrepreneurs, including the CNPJ vs EIN comparison, real estate investment considerations, payment and currency management between BRL and USD, and how ein.so handles the application process. Read our complete guide on [EIN for non-US residents](/ein-for-non-residents/) for the full process.
+Brazil is the largest economy in Latin America, with a GDP near $2.1 trillion and a population of 215 million. Brazilian founders increasingly build for the US market. Amazon and Shopify sellers ship products to American buyers. Real estate investors buy property in Florida. SaaS startups bill US customers in dollars. Every one of these needs a US EIN to run a US business entity. This guide explains how Brazilian applicants get an EIN without an SSN, how a CNPJ differs from an EIN, how Brazilian real estate investors use the structure, and how to set up US banking after approval.
 
 | Factor | Brazil | United States |
 | --- | --- | --- |
-| Business Entity | Ltda / S.A. / MEI / EIRELI | LLC / Corporation |
-| Tax ID | CNPJ (14 digits) / CPF (11 digits) | EIN (9 digits: XX-XXXXXXX) |
-| Corporate Tax Rate | 34% (15% IRPJ + 9% CSLL + 10% surcharge) | 21% federal corporate rate |
-| Banking | BRL accounts; Itau, Bradesco, Banco do Brasil | USD accounts; Mercury, Relay, Chase |
-| Currency | BRL (~5.0 per USD) | USD (global reserve currency) |
-| US Real Estate Buying | Top 5 foreign buyer country ($1.6B in 2023) | Domestic market |
+| Common entity | Ltda / S.A. / MEI / EIRELI | LLC / Corporation |
+| Business ID | CNPJ (14 digits) / CPF (11 digits) | EIN (XX-XXXXXXX) |
+| Tax authority | Receita Federal | IRS |
+| Sales tax / VAT | ICMS, ISS, PIS, COFINS | State sales tax (varies) |
+| Currency | Real (BRL, ~5.0 per USD) | USD |
+| US real estate buying | Top-5 foreign buyer country | Domestic market |
 </Section>
 
 <Section surface>
@@ -64,45 +64,44 @@ This guide covers the EIN application process for Brazilian entrepreneurs, inclu
 
 ## Why Do Brazilian Entrepreneurs Need a <Accent>US EIN?</Accent>
 
-Brazil's effective corporate tax rate of 34% is among the highest in Latin America, while a US single-member LLC offers pass-through taxation and 0% federal tax on non-US-sourced income for non-residents. Over 50,000 Brazilian nationals hold active US business registrations. Here are the primary use cases:
+Brazilian entrepreneurs need a US EIN because a US LLC cannot open a bank account, accept US payments, or file US taxes without one. The EIN is the 9-digit federal tax ID that links your Brazil-owned company to the US financial system.
 
-### Core Business Reasons for Brazilian EIN Applicants
+Brazil's high domestic tax burden and the strength of the US dollar push founders toward the US market, where customers, payment processors, and capital are concentrated. Here are the most common reasons Brazilian applicants come to ein.so:
 
 <NumberedCards>
-<Card title="Amazon FBA and E-Commerce" index={1}>Brazilian entrepreneurs sell on Amazon.com through private label, wholesale, and arbitrage models. Your US EIN completes the Amazon tax interview and registers you as a US seller. FBA handles fulfillment while you manage product sourcing and marketing from Brazil. The US Amazon marketplace is significantly larger than Amazon.com.br.</Card>
-<Card title="US Real Estate Investment" index={2}>Brazilians are among the top foreign buyers of US real estate, particularly in Florida (Miami, Orlando, Fort Lauderdale). A US LLC with an EIN is the standard structure for holding investment properties. Your EIN is needed for rental income reporting, property tax, and banking related to the property.</Card>
-<Card title="Technology and SaaS" index={3}>Brazilian tech companies expanding into the US market form LLCs for payment processing, customer credibility, and venture capital access. Your EIN enables Stripe, US banking, and compliance with US tax requirements for SaaS revenue.</Card>
-<Card title="Import/Export Trade" index={4}>Brazilian exporters selling directly to US importers or consumers benefit from a US entity. Your EIN connects to a US bank account for receivables, simplifies customs documentation, and provides a professional US business identity for American buyers.</Card>
+<Card title="Amazon FBA and E-Commerce" index={1}>Brazilian entrepreneurs sell on Amazon.com through private label, wholesale, and arbitrage models. Your US EIN completes the Amazon tax interview and registers you as a US seller. FBA handles fulfillment while you manage sourcing and marketing from Brazil. The US marketplace dwarfs Amazon.com.br in volume.</Card>
+<Card title="US Real Estate Investment" index={2}>Brazilians rank among the top foreign buyers of US real estate, concentrated in Florida cities like Miami, Orlando, and Fort Lauderdale. A US LLC with an EIN is the standard structure for holding investment property. Your EIN is needed for rental income reporting, property banking, and FIRPTA compliance.</Card>
+<Card title="Technology and SaaS" index={3}>Brazilian tech founders form US LLCs to bill US customers in dollars, integrate Stripe on a US entity, and prepare for US investors who prefer a US structure. The EIN is required before any of this. See [EIN for Stripe](/ein-for-stripe/).</Card>
+<Card title="Freelancers and Consultants" index={4}>Brazilian freelancers serving US clients form a US LLC to invoice in USD, avoid unfavorable PayPal conversion, and present a credible US business identity on contracts. The EIN connects to a US bank account for receivables.</Card>
 </NumberedCards>
 </Section>
 
 <Section>
-<Label>Application Process</Label>
+<Label>Step-by-Step</Label>
 
 ## How Do Brazilian Citizens Apply for a <Accent>US EIN?</Accent>
 
-Brazilian citizens receive their EIN in 4-7 business days via fax filing, with a 96% first-submission success rate through ein.so. Your Brazilian passport (Passaporte) number serves as identification. Here is the step-by-step process:
-
-### The 4-Step EIN Process From Brazil
+Brazilian citizens submit IRS Form SS-4 by fax to 855-215-1627, using a Brazilian passport number in place of an SSN. The IRS online tool requires an SSN, so the fax method is the only viable path. The IRS issues most correctly filed EINs within 4-7 business days at $0 cost.
 
 <Steps>
-<Step step="1" title="Form a US LLC">Form an LLC in Wyoming, Delaware, or Florida through a registered agent. Florida is popular among Brazilian entrepreneurs due to the large Brazilian community and proximity. The formation is done entirely online.</Step>
-<Step step="2" title="Gather Your Documents">You need your Brazilian passport (Passaporte) and your LLC details. Do not use your CPF or CNPJ number on the SS-4 -- the IRS requires a passport number for non-resident applications.</Step>
-<Step step="3" title="Apply Through ein.so">Complete our application in 3 minutes. We prepare your SS-4, correctly format your Brazilian address, and fax it to the IRS. Standard is $49. Express is $97.</Step>
-<Step step="4" title="Receive Your EIN">We deliver your EIN via email. Standard takes 4-7 business days. Express takes 7 business days. You receive your official IRS confirmation letter (CP 575).</Step>
+<Step step="1" title="Form Your US LLC">Most Brazilian founders register an LLC in Wyoming, Delaware, or Florida through a registered agent. Florida is popular due to the large Brazilian community and direct flights. You can form the LLC entirely online from Brazil.</Step>
+<Step step="2" title="Gather Your Documents">You need your Brazilian passport (Passaporte), valid and unexpired, plus your LLC details (name, state, formation date) and your Brazilian address. Do not use your CPF or CNPJ on the SS-4. The IRS requires a passport number for non-resident applications.</Step>
+<Step step="3" title="Complete Form SS-4">Enter your US LLC name on Line 1, your Brazilian address on Line 4, your full name as responsible party on Line 7a, and your Brazilian passport number on Line 7b. ein.so completes this for you to prevent errors and rejections.</Step>
+<Step step="4" title="Submit by Fax and Receive Your EIN">The SS-4 is faxed to the IRS. Standard delivery is 4-7 business days; Express is 2-3 business days. The IRS returns your EIN assignment letter (CP 575) and ein.so emails it to you.</Step>
 </Steps>
 
-### Why Fax Is Preferred From Brazil
+### Brazil-Specific SS-4 Field Guide
 
-While Brazilian time zones (BRT, UTC-3) are close to US Eastern Time (UTC-5), calling the IRS still involves 1-2 hour hold times and potential language barriers (the IRS primarily operates in English). The fax method through ein.so is more reliable. Learn more about [EIN without SSN](/ein-without-ssn/).
+| SS-4 Field | Brazilian Entry |
+| --- | --- |
+| Line 1 (Legal name) | Your US LLC name |
+| Line 4 (Address) | Your Brazilian address (rua, numero, bairro, cidade, estado, CEP) |
+| Line 7a (Responsible party) | Your full name as on your passport |
+| Line 7b (SSN/ITIN/EIN) | Your Brazilian passport number |
+| Line 10 (Reason) | Started new business |
+| Line 16 (Principal activity) | E.g., "e-commerce," "real estate investment," "software" |
 
-| Document | What to Prepare | Notes |
-| --- | --- | --- |
-| Brazilian Passport (Passaporte) | Valid, unexpired passport | Passport number in foreign ID field; not CPF or CNPJ |
-| US LLC Documents | Articles of Organization, entity name, state | Florida popular for Brazilians; Wyoming for lower cost |
-| Brazilian Address | Rua/Av, numero, bairro, cidade, estado, CEP | ein.so reformats Brazilian addresses for IRS acceptance |
-| Registered Agent | US registered agent name and address | Provides US address for IRS correspondence |
-| Business Activity | Brief description of US business | E.g., "e-commerce," "real estate investment," "SaaS" |
+The most common Brazilian rejection cause is address formatting. The 8-digit CEP, bairro, and estado fields do not map cleanly to the SS-4 layout, and the IRS silently rejects malformed international addresses. ein.so reformats Brazilian addresses to an IRS-accepted style. See the full [SS-4 form guide](/ss4-form-guide/) and the [complete EIN application process](/how-to-get-ein/).
 </Section>
 
 <Section surface>
@@ -110,19 +109,20 @@ While Brazilian time zones (BRT, UTC-3) are close to US Eastern Time (UTC-5), ca
 
 ## CNPJ vs EIN: What Brazilian Entrepreneurs <Accent>Need to Understand</Accent>
 
-Brazil's CNPJ has 14 digits and is issued by Receita Federal, while the US EIN has 9 digits and is issued by the IRS. Over 20 million active CNPJs exist in Brazil, and Brazilian entrepreneurs operating in the US need both. Here is the comparison:
+Brazil's CNPJ has 14 digits and is issued by Receita Federal, while the US EIN has 9 digits and is issued by the IRS. Over 20 million active CNPJs exist in Brazil. Brazilian entrepreneurs operating in the US need both identifiers for their separate jurisdictions.
 
 ### CNPJ vs EIN: Key Differences
 
-| Feature | Brazilian CNPJ/CPF | US EIN |
+| Feature | Brazilian CNPJ / CPF | US EIN |
 | --- | --- | --- |
-| Issuing Authority | Receita Federal (Brazil) | IRS (United States) |
-| CNPJ Format | 14 digits (XX.XXX.XXX/XXXX-XX) | 9 digits (XX-XXXXXXX) |
-| US Banking | Not accepted | Required for US bank accounts |
-| Amazon.com | Not sufficient for US seller registration | Completes tax interview |
-| US Real Estate | Not accepted for US tax filing | Required for rental income reporting |
+| Issuing authority | Receita Federal (Brazil) | IRS (United States) |
+| Format | CNPJ 14 digits / CPF 11 digits | 9 digits (XX-XXXXXXX) |
+| US banking | Not accepted | Required for US bank accounts |
+| Amazon.com | Not sufficient for US seller registration | Completes the US tax interview |
+| US real estate | Not accepted for US tax filing | Required for rental income reporting |
+| Cost to obtain | Receita Federal process | $0 from the IRS; ein.so service from $49 |
 
-If you operate in both countries, you need both your CNPJ (for Brazilian operations) and your EIN (for US operations). They are complementary identifiers for different jurisdictions. Learn more about the [EIN application process](/how-to-get-ein/).
+If you operate in both countries, you keep your CNPJ for Brazilian operations and add an EIN for US operations. They are complementary identifiers, not substitutes. The CPF is your personal Brazilian tax number and has no US standing. Learn more about getting an [EIN without an SSN](/ein-without-ssn/) and the broader [EIN for non-residents](/ein-for-non-residents/) process.
 </Section>
 
 <Section>
@@ -130,16 +130,86 @@ If you operate in both countries, you need both your CNPJ (for Brazilian operati
 
 ## How Do Brazilian Real Estate Investors Use a <Accent>US EIN?</Accent>
 
-Brazilians purchased $1.6 billion in US real estate in 2023, with 60% of purchases concentrated in Florida (Miami-Dade, Broward, Orange, and Osceola counties). The median purchase price for Brazilian buyers was $350,000. A US LLC with an EIN is the standard holding structure. Here is why:
+Brazilian investors hold US property through a US LLC, and that LLC needs an EIN for tax filing, rental income reporting, and banking. Brazilian buyers concentrate in Florida counties around Miami, Orlando, and Fort Lauderdale. The LLC structure is standard practice for foreign investors.
 
 ### Why LLCs Are Essential for Brazilian Property Investors
 
 <NumberedCards>
-<Card title="Asset Protection" index={1}>Holding US property through an LLC provides liability protection. If someone is injured on your property, the LLC shields your personal assets. This is standard practice for both American and foreign real estate investors.</Card>
-<Card title="Tax Filing" index={2}>Your LLC's EIN is used for filing US tax returns on rental income (Form 1040-NR for non-residents). Without an EIN, you cannot properly file taxes on US rental income, which creates compliance problems.</Card>
-<Card title="Banking and Mortgage" index={3}>Your EIN lets you open a US bank account for managing rental income, property expenses, and mortgage payments. Some banks offer mortgages to foreign nationals with US LLCs, though requirements are stricter than for US residents.</Card>
-<Card title="FIRPTA Compliance" index={4}>FIRPTA (Foreign Investment in Real Property Tax Act) imposes withholding requirements on sales of US real estate by foreign persons. Your LLC's EIN is needed for FIRPTA compliance, including filing for reduced withholding or exemptions.</Card>
+<Card title="Asset Protection" index={1}>Holding US property through an LLC provides liability protection. If someone is injured on your property, the LLC shields your personal assets. This is standard practice for American and foreign real estate investors alike.</Card>
+<Card title="Tax Filing" index={2}>Your LLC's EIN is used for filing US returns on rental income. Without an EIN, you cannot properly file taxes on US rental income, which creates compliance problems. Confirm your exact filing path with a US CPA who handles non-resident investors.</Card>
+<Card title="Banking and Mortgage" index={3}>Your EIN lets you open a US bank account for rental income, property expenses, and mortgage payments. Some lenders offer mortgages to foreign nationals with US LLCs, though requirements are stricter than for US residents. See [EIN for a bank account](/ein-for-bank-account/).</Card>
+<Card title="FIRPTA Compliance" index={4}>FIRPTA (Foreign Investment in Real Property Tax Act) imposes withholding on sales of US real estate by foreign persons. Your LLC's EIN is needed for FIRPTA filings, including applications for reduced withholding. Confirm rates and forms with a US CPA.</Card>
 </NumberedCards>
 
-Learn more about [EIN for real estate investors](/ein-for-real-estate-investors/) and [EIN for bank accounts](/ein-for-bank-account/). [Apply for your EIN now](/apply/).
+Learn more about [EIN for real estate investors](/ein-for-real-estate-investors/). Your EIN is the foundation for every other step. [Apply for your EIN now](/apply/).
+</Section>
+
+<Section surface>
+<Label>Banking & Payments</Label>
+
+## How Do Brazilian Entrepreneurs Use Their EIN for <Accent>US Banking and Payments?</Accent>
+
+Brazilian entrepreneurs use their EIN to open a US business bank account and connect US payment processors, which together give a Brazil-owned LLC full access to the dollar economy. Mercury and Relay approve most Brazilian LLC owners remotely within a few business days.
+
+<NumberedCards>
+<Card title="US Business Bank Account" index={1}>Mercury, Relay, and Wise accept Brazilian LLC owners with an EIN and a passport. You receive US account and routing numbers for ACH and domestic wires. See [EIN for a bank account](/ein-for-bank-account/).</Card>
+<Card title="Stripe on a US Entity" index={2}>A US LLC and EIN let you bill US customers as a US business, simplify USD settlement, and access features tied to a US entity. This raises conversion on US sales. See [EIN for Stripe](/ein-for-stripe/).</Card>
+<Card title="PayPal Business (US)" index={3}>A US PayPal Business account linked to your EIN holds USD without forced conversion to reais, which protects your margins on US sales. See [EIN for PayPal](/ein-for-paypal/).</Card>
+<Card title="Wise and BRL Transfers" index={4}>Brazilian founders use Wise or Remessa Online to move funds between their US account and a Brazilian account at the mid-market rate. Convert to BRL only when the exchange rate favors you. See [EIN for Payoneer](/ein-for-payoneer/) as an alternative.</Card>
+</NumberedCards>
+
+Together, a US LLC, an EIN, and a US bank account let you invoice American clients in dollars, accept card payments through Stripe, and repatriate profits to Brazil when the BRL/USD rate is favorable.
+</Section>
+
+<Section>
+<Label>Tax Considerations</Label>
+
+## What Should Brazilian Entrepreneurs Know About <Accent>US Tax Filing?</Accent>
+
+A foreign-owned single-member US LLC files Form 5472 with a pro-forma Form 1120 each year, and the penalty for not filing is $25,000. This is an information return, not necessarily a tax bill. ein.so files the EIN and does not give tax advice; confirm your obligations with a US CPA.
+
+<NumberedCards>
+<Card title="US Filing: Form 5472 + 1120" index={1}>A foreign-owned single-member US LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 each year. The penalty for not filing is $25,000. The form reports transactions between you and your LLC.</Card>
+<Card title="Single-Member LLC Status" index={2}>A single-member US LLC owned by a Brazilian resident is usually a disregarded entity for US federal income tax. The LLC itself pays no US federal income tax on non-US-sourced income. Confirm your specific situation with a US CPA.</Card>
+<Card title="Brazilian Reporting" index={3}>Brazilian residents may need to declare foreign company interests and foreign accounts to Receita Federal and the Banco Central do Brasil. Confirm your reporting duties for a foreign-held US LLC with a Brazilian contador.</Card>
+<Card title="BOI Report to FinCEN" index={4}>Most US LLCs report beneficial ownership to FinCEN. Review the [BOI filing rules](/boi-filing/) to avoid penalties. Filing the report itself is free at fincen.gov/boi.</Card>
+</NumberedCards>
+
+ein.so handles the EIN application and does not provide tax advice. Work with a Brazilian contador and a US CPA familiar with non-resident matters. Your EIN is the starting point for US tax compliance. See our guides on [EIN cost](/ein-cost/) and [EIN processing time](/ein-processing-time/).
+</Section>
+
+<Section surface>
+<Label>Pricing</Label>
+
+## How Much Does an EIN Cost for a <Accent>Brazilian Applicant?</Accent>
+
+The IRS charges $0 for an EIN. ein.so charges $49 for Standard service (4-7 business days) or $97 for Express service (2-3 business days) to prepare and fax your Form SS-4 correctly. You pay for accuracy, formatting, and speed, not for the EIN itself.
+
+| Option | Price | Delivery | Best For |
+| --- | --- | --- | --- |
+| IRS direct (DIY fax) | $0 | 4-7 business days if error-free | Applicants comfortable with SS-4 and US fax |
+| ein.so Standard | $49 | 4-7 business days | Most Brazilian applicants |
+| ein.so Express | $97 | 2-3 business days | Urgent banking or Amazon deadlines |
+| ein.so ITIN Standard | $197 | Standard | Brazilians who also need a personal US tax ID |
+| ein.so ITIN Express | $297 | Express | Faster ITIN processing |
+
+The risk with DIY filing is a silent rejection from a malformed Brazilian address, which costs days of resubmission. ein.so reformats your address and prepares every SS-4 line to the IRS standard. See the full breakdown on [EIN cost](/ein-cost/). [Apply for your EIN](/apply/).
+</Section>
+
+<Section wide>
+<Label>Next Steps</Label>
+
+## After Getting Your EIN <Accent>From Brazil</Accent>
+
+1. **[Open a US bank account](/ein-for-bank-account/)** — Mercury, Relay, and Wise accept non-resident LLC owners
+2. **[File your BOI report](/boi-filing/)** — required for most LLCs, free at fincen.gov/boi
+3. **Set up payments** — connect your EIN to [Stripe](/ein-for-stripe/), [PayPal](/ein-for-paypal/), or [Payoneer](/ein-for-payoneer/)
+4. **File [Form 5472](/form-5472-guide/)** — annually for foreign-owned LLCs ($25,000 penalty for non-filing)
+5. **Sell on US platforms** — [Amazon sellers](/ein-for-amazon-sellers/), [Shopify](/ein-for-shopify-sellers/), [Etsy](/ein-for-etsy-sellers/)
+
+Learn the fundamentals on [how to get an EIN](/how-to-get-ein/), [EIN without an SSN](/ein-without-ssn/), and [EIN for non-residents](/ein-for-non-residents/).
+
+Other country guides: [France](/ein-for-france/) | [India](/ein-for-india/) | [UK](/ein-for-uk/) | [Germany](/ein-for-germany/) | [Portugal](/ein-for-non-residents/) | [Canada](/ein-for-canada/).
+
+[Apply for your EIN from Brazil — $49](/apply/)
 </Section>
