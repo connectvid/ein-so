@@ -262,3 +262,16 @@ For a detailed comparison of all EIN processing methods and timelines, see our [
 </NumberedCards>
 
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+More for international founders:
+
+- [EIN Without an SSN: Non-Resident Guide](/blog/ein-without-ssn-non-resident-guide/) — apply with a passport, no SSN
+- [EIN for Non-Residents: Complete Guide](/blog/ein-for-non-residents-guide/) — the full process from abroad
+- [How to Get an EIN Online as a Non-Resident](/blog/how-to-get-ein-online-non-resident/) — why the online tool is blocked
+- [EIN for Foreign-Owned Entities](/blog/ein-for-foreign-entity/) — rules for foreign companies
+</Section>

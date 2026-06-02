@@ -173,3 +173,15 @@ Specific IRS compliance requirements that need an EIN include: filing Form 941 q
 
 Non-resident business owners have additional IRS compliance requirements. Foreign-owned single-member LLCs must file Form 5472 annually by April 15 (or October 15 with an extension), which requires an EIN. Failure to file Form 5472 results in a $25,000 penalty per year. This is one of the most important reasons non-residents need to obtain an EIN promptly after forming a US business entity. Ready to get your EIN? [Apply now](/apply/) -- ein.so offers Standard ($49) and Express ($97) packages.
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+Put your EIN to work:
+
+- [EIN for PayPal & Stripe](/blog/ein-for-paypal-stripe-guide/) — accept payments as a non-resident
+- [Building Business Credit With an EIN](/blog/business-credit-with-ein/) — build a US credit profile
+- [EIN for Hiring Employees](/blog/ein-for-hiring-employees/) — payroll, W-2s, and Form 941
+</Section>

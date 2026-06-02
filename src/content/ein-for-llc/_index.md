@@ -208,3 +208,15 @@ After forming your LLC, you must obtain an EIN before you can open a bank accoun
 ein.so was built specifically for this use case. We handle the SS-4 preparation, fax filing, and IRS follow-up for non-resident LLC owners. Our Standard service costs **$49** and our Express service costs **$97**. Read our complete guide on [how to get an EIN](/how-to-get-ein/) for the full process.
 
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+More on EINs and LLCs:
+
+- [EIN for LLC: Complete Guide](/blog/ein-for-llc-complete-guide/) — every step for LLC owners
+- [Can I Get an EIN Without an LLC?](/blog/can-i-get-ein-without-llc/) — when you do and do not need one
+- [EIN for Sole Proprietors](/blog/ein-for-sole-proprietor-guide/) — if you have not formed an LLC yet
+</Section>

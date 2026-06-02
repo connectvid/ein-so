@@ -197,3 +197,14 @@ Need an EIN for your LLC? [Learn about EINs for LLCs](/ein-for-llc/) or [read ou
 <InternalLink href="/what-is-ein/" label="What Is an EIN?" />
 <InternalLink href="/apply/" label="Apply for EIN" />
 </InternalLinks>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+More on banking and credit:
+
+- [EIN for a US Bank Account: Full Guide](/blog/ein-for-bank-account-guide/) — documents and bank options
+- [Building Business Credit With an EIN](/blog/business-credit-with-ein/) — establish a US credit profile
+</Section>

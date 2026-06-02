@@ -221,3 +221,17 @@ Here is a quick reference table summarizing which entities are required to have 
 
 If you are unsure whether your specific situation requires an EIN, the safest approach is to get one. There is no downside to having an EIN, and it protects your personal SSN from unnecessary exposure. Ready to get started? [Apply for your EIN now](/apply/) -- ein.so offers Standard ($49) and Express ($97) packages for non-residents.
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+EIN rules by entity type:
+
+- [EIN for Nonprofits](/blog/ein-for-nonprofit-guide/) — required before 501(c)(3)
+- [EIN for Partnerships](/blog/ein-for-partnership-guide/) — needed for Form 1065
+- [EIN for Sole Proprietors](/blog/ein-for-sole-proprietor-guide/) — when it is required
+- [EIN for Trusts & Estates](/blog/ein-for-trust-estate-guide/) — irrevocable trusts and estates
+- [Can I Get an EIN Without an LLC?](/blog/can-i-get-ein-without-llc/) — yes, here is how
+</Section>

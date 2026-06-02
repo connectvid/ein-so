@@ -201,3 +201,14 @@ In practice, the phone method has significant drawbacks. Hold times can exceed 3
 **Mail applications** have the longest EIN processing time at **4-6 weeks**. You mail your completed Form SS-4 to: Internal Revenue Service, Attn: EIN Operation, Cincinnati, OH 45999. The IRS processes the form and mails your EIN assignment letter back to you. Given the availability of faster methods, mail is not recommended unless you have no access to fax, phone, or the internet.
 
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+More on EIN timelines:
+
+- [How Long to Get an EIN by Fax](/blog/how-long-to-get-ein-by-fax/) — non-resident fax timelines
+- [EIN Processing Time: How Long?](/blog/ein-processing-time-how-long/) — every method compared
+</Section>

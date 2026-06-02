@@ -198,3 +198,15 @@ That is exactly what **ein.so** handles. For **$49**, we prepare and file your F
 <LinkButton href="/apply/">Apply for an EIN - $49</LinkButton>
 
 </Section>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related EIN Guides <Accent>From Our Blog</Accent>
+
+Find or verify an EIN:
+
+- [EIN Number Lookup Guide](/blog/ein-number-lookup-guide/) — free methods that work
+- [How to Verify an EIN Number](/blog/how-to-verify-ein-number/) — confirm a business EIN
+- [Lost Your EIN? How to Find It](/blog/lost-ein-how-to-find-it/) — recover your own EIN
+</Section>

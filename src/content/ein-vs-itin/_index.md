@@ -225,3 +225,16 @@ For a deeper dive into how these numbers compare, see our guide on [What Is an E
 <InternalLink href="/ein-vs-tin/" label="EIN vs TIN" />
 <InternalLink href="/ein-vs-tax-id/" label="EIN vs Tax ID" />
 </InternalLinks>
+
+<Section surface>
+<Label>From the Blog</Label>
+
+## Related Comparison Guides <Accent>From Our Blog</Accent>
+
+Tell the tax IDs apart:
+
+- [EIN vs ITIN: Which Do You Need?](/blog/ein-vs-itin-which-do-you-need/) — pick the right one
+- [Do I Need an EIN or ITIN?](/blog/do-i-need-ein-or-itin/) — decision guide
+- [EIN vs SSN: Key Differences](/blog/ein-vs-ssn-differences/) — business vs personal ID
+- [EIN vs Tax ID: Are They the Same?](/blog/ein-vs-tax-id-same-thing/) — clearing up the terms
+</Section>
