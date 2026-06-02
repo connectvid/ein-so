@@ -128,6 +128,121 @@ Novo is best for US-based freelancers. Non-residents should compare it against a
 If you have a US SSN, Novo's invoicing and integrations make it a great free account. If you are abroad with no SSN, choose [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/). Full ranking: [best bank for non-resident LLC](/best-bank-for-non-resident-llc/).
 </Section>
 
+<Section surface>
+<Label>Benefits</Label>
+
+## Why Does Your US Business Need <Accent>a Novo Account?</Accent>
+
+A US business bank account separates your company's money from your personal funds, which protects your LLC's limited liability. Novo adds free invoicing and tax reserves built for small US businesses and freelancers.
+
+Novo provides 6 concrete benefits for eligible owners:
+
+- **Free invoicing** — Create and send invoices, accept payments, and track who has paid inside the Novo app.
+- **Novo Reserves** — Set aside money for taxes and expenses in named buckets without opening separate accounts.
+- **Integrations** — Connect Stripe, Shopify, QuickBooks, and Wise directly to your account.
+- **No fees** — $0 monthly fee, $0 minimum balance, and refunds on some ATM fees.
+- **Liability protection** — A dedicated business account keeps your personal and company finances legally separate.
+- **Clean bookkeeping** — Sync transactions to QuickBooks for [Form 5472](/form-5472-guide/) and tax filing.
+
+Without a US business account, your LLC cannot accept card payments, pay US vendors, or build a financial record. Opening one is the first operational step after formation.
+</Section>
+
+<Section>
+<Label>EIN First</Label>
+
+## Why Do You Need an EIN <Accent>Before Opening Novo?</Accent>
+
+You need an EIN before opening Novo because the account belongs to your business, and the IRS identifies your business by its EIN. Novo cannot open or verify a business account without one.
+
+Your EIN is your business's 9-digit federal tax ID, issued by the IRS in the format XX-XXXXXXX. Novo uses it for 3 reasons: to confirm your LLC is a registered taxpayer, to file tax forms tied to your account, and to run anti-money-laundering checks. See [what an EIN is](/what-is-ein/) and [why every LLC needs one](/ein-for-llc/).
+
+US residents get an EIN online in minutes. Non-residents are blocked from the IRS online tool and must file [Form SS-4 by fax](/ein-by-fax/), which takes longer and is easy to fill out incorrectly. A rejected SS-4 delays your bank account by weeks. [ein.so](/apply/) prepares and files the form correctly for $49. Note that an EIN alone is not enough for Novo if you do not also have an SSN — non-residents abroad should use [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/). Learn [how to get an EIN without an SSN](/ein-without-ssn/).
+</Section>
+
+<Section surface>
+<Label>After Approval</Label>
+
+## What Can You Do After Your Novo <Accent>Account Is Open?</Accent>
+
+Once your Novo account is open, your EIN and US bank account unlock the full US business stack. The account is the hub that every payment platform connects to.
+
+| Platform | What your Novo account enables |
+|----------|--------------------------------|
+| [Stripe](/ein-for-stripe/) | Receive card payment payouts in USD |
+| [Shopify](/ein-for-shopify-sellers/) | Connect Shopify Payments payouts |
+| [PayPal](/ein-for-paypal/) | Link a US business account for withdrawals |
+| QuickBooks | Sync transactions for bookkeeping |
+| Novo Invoices | Bill clients and accept payments in-app |
+
+You can also pay US contractors, set aside taxes in Reserves, and subscribe to US software. For the complete list, see [what you can do with an EIN](/what-can-you-do-with-ein/).
+</Section>
+
+<Section>
+<Label>Compliance</Label>
+
+## Tax and Compliance Notes <Accent>for Foreign-Owned LLCs</Accent>
+
+A foreign-owned US LLC has 3 federal compliance obligations once it is operating. Opening a bank account does not create new taxes, but it does create records the IRS expects you to report.
+
+<Steps>
+<Step step="1" title="Form 5472 + Pro-Forma 1120">A foreign-owned single-member LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 every year. The penalty for not filing is $25,000.</Step>
+<Step step="2" title="BOI Report to FinCEN">Most LLCs must report their beneficial owners to FinCEN. Review the [BOI filing rules](/boi-filing/) and [deadlines](/boi-filing-deadline/) to avoid penalties.</Step>
+<Step step="3" title="Form 1099-K From Processors">Stripe and PayPal issue Form 1099-K tied to your EIN once you cross reporting thresholds. Keep your records aligned with these forms.</Step>
+</Steps>
+
+This is general information, not tax advice. Confirm your specific filing requirements with a US tax professional.
+</Section>
+
+<Section surface>
+<Label>Mistakes to Avoid</Label>
+
+## 5 Mistakes to Avoid When Opening <Accent>a Novo Account</Accent>
+
+Most delays come from preventable mistakes made before or during the application. Avoid these 5 to get approved on the first try.
+
+1. **Applying as a non-resident without an SSN.** Novo expects a US owner with an SSN. If you live abroad, use [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/) instead.
+2. **Applying before your EIN is in IRS records.** A brand-new EIN can take up to 2 weeks to propagate.
+3. **Using a name that does not match your EIN letter.** Enter your legal business name exactly as printed on your [EIN confirmation letter](/ein-confirmation-letter/).
+4. **Choosing the wrong entity.** Novo serves registered businesses, not informal sole proprietors without an EIN.
+5. **Writing a vague business description.** Explain your product, customers, and revenue model in detail.
+
+Fix these before you apply and your account typically opens within 1 to 2 business days.
+</Section>
+
+<Section surface>
+<Label>Timeline</Label>
+
+## How Long Does the Whole Process <Accent>Take?</Accent>
+
+The full timeline from EIN application to a funded Novo account is 2 to 4 weeks for most applicants. The EIN is the longest single step, which is why you start it first.
+
+| Stage | Time |
+|-------|------|
+| Form your US LLC | 1 to 10 business days (varies by state) |
+| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Open the Novo account | Same day to 2 business days |
+| First deposit clears | 1 to 3 business days |
+| **Total** | **About 2 to 4 weeks** |
+
+You can shorten the timeline by ordering [Express EIN service](/apply/) ($97) and preparing your formation documents while the EIN is processing. See the full [EIN processing time guide](/ein-processing-time/) for non-resident timelines by filing method.
+</Section>
+
+<Section>
+<Label>Funding</Label>
+
+## How Do You Fund Your Novo <Accent>Account?</Accent>
+
+You fund a Novo account by ACH transfer, mobile check deposit, or payment processor payout, and there is no minimum deposit. Most freelancers fund the account from their first client invoice or Stripe payout.
+
+<Steps>
+<Step step="1" title="Route Your First Payment">Add your Novo account and routing numbers to Stripe, Shopify, or your invoicing tool so client payments land directly in Novo.</Step>
+<Step step="2" title="Transfer by ACH">Link an external US account and move money by ACH for free. Transfers usually settle in 1 to 3 business days.</Step>
+<Step step="3" title="Deposit Checks in the App">Use mobile check deposit inside the Novo app to add US check payments without visiting a branch.</Step>
+</Steps>
+
+Once funded, use Novo Reserves to set aside money for taxes and connect QuickBooks so your records are ready for [Form 5472](/form-5472-guide/) and federal filing.
+</Section>
+
 <Section>
 <Label>Next Steps</Label>
 

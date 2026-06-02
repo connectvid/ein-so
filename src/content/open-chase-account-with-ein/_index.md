@@ -127,6 +127,122 @@ Chase wins on branches and cash handling; online banks win on remote access for 
 Choose Chase if you live in or visit the US and need cash deposits and a long-term lending relationship. Choose [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/) if you bank entirely online from abroad. Full ranking: [best bank for non-resident LLC](/best-bank-for-non-resident-llc/).
 </Section>
 
+<Section surface>
+<Label>Benefits</Label>
+
+## Why Does Your US Business Need <Accent>a Chase Account?</Accent>
+
+A US business bank account separates your company's money from your personal funds, which protects your LLC's limited liability. Chase adds what online banks cannot: physical branches, cash handling, and a full lending relationship.
+
+Chase provides 6 concrete benefits for founders who can access a branch:
+
+- **Branch network** — Thousands of US branches for in-person support and problem solving.
+- **Cash and check deposits** — Deposit physical cash and checks, which most online banks do not accept.
+- **Business credit cards** — Access Chase Ink business cards and rewards once your account is established.
+- **Lending relationship** — Build history toward business loans and lines of credit.
+- **Liability protection** — A dedicated business account keeps your personal and company finances legally separate.
+- **Merchant services** — Add Chase payment processing for in-person and online sales.
+
+Without a US business account, your LLC cannot accept card payments, pay US vendors, or build a financial record. Opening one is the first operational step after formation.
+</Section>
+
+<Section>
+<Label>EIN First</Label>
+
+## Why Do You Need an EIN <Accent>Before Opening Chase?</Accent>
+
+You need an EIN before opening a Chase business account because the account belongs to your business, and the IRS identifies your business by its EIN. Chase cannot open a business account without one.
+
+Your EIN is your business's 9-digit federal tax ID, issued by the IRS in the format XX-XXXXXXX. Chase uses it to confirm your LLC is a registered taxpayer, to file tax forms tied to your account, and to verify your identity under banking law. See [what an EIN is](/what-is-ein/) and [why every LLC needs one](/ein-for-llc/).
+
+US residents get an EIN online in minutes. Non-residents are blocked from the IRS online tool and must file [Form SS-4 by fax](/ein-by-fax/), which takes longer and is easy to fill out incorrectly. Because Chase usually requires a US visit, you do not want to travel only to be turned away for an EIN problem. [ein.so](/apply/) prepares and files Form SS-4 correctly for $49 so your EIN is verified before your branch appointment. Learn [how to get an EIN without an SSN](/ein-without-ssn/).
+</Section>
+
+<Section surface>
+<Label>After Approval</Label>
+
+## What Can You Do After Your Chase <Accent>Account Is Open?</Accent>
+
+Once your Chase account is open, your EIN and US bank account unlock the full US business stack — plus branch services online banks cannot offer.
+
+| Capability | What your Chase account enables |
+|------------|---------------------------------|
+| Cash deposits | Deposit physical cash at any branch |
+| [Stripe](/ein-for-stripe/) and [PayPal](/ein-for-paypal/) | Receive payouts to a US account |
+| Business credit cards | Apply for Chase Ink cards and rewards |
+| Lending | Build toward loans and lines of credit |
+| Merchant services | Accept in-person and online card payments |
+
+You can also pay US vendors, write physical checks, and visit a branch for support. For the complete list, see [what you can do with an EIN](/what-can-you-do-with-ein/).
+</Section>
+
+<Section>
+<Label>Compliance</Label>
+
+## Tax and Compliance Notes <Accent>for Foreign-Owned LLCs</Accent>
+
+A foreign-owned US LLC with a Chase account has 3 federal compliance obligations. Opening the bank account does not create new taxes, but it does create records the IRS expects you to report.
+
+<Steps>
+<Step step="1" title="Form 5472 + Pro-Forma 1120">A foreign-owned single-member LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 every year. The penalty for not filing is $25,000. Your Chase statements document the reportable transactions.</Step>
+<Step step="2" title="BOI Report to FinCEN">Most LLCs must report their beneficial owners to FinCEN. Review the [BOI filing rules](/boi-filing/) and [deadlines](/boi-filing-deadline/) to avoid penalties.</Step>
+<Step step="3" title="Form 1099-K From Processors">Stripe and PayPal issue Form 1099-K tied to your EIN once you cross reporting thresholds. Keep your Chase records aligned with these forms.</Step>
+</Steps>
+
+This is general information, not tax advice. Confirm your specific filing requirements with a US tax professional.
+</Section>
+
+<Section surface>
+<Label>Mistakes to Avoid</Label>
+
+## 5 Mistakes to Avoid When Opening <Accent>a Chase Account</Accent>
+
+Most problems come from traveling unprepared. Avoid these 5 to open your account in a single branch visit.
+
+1. **Traveling without a verified EIN.** Confirm your EIN is in IRS records before you book travel — a new EIN can take up to 2 weeks to propagate.
+2. **Bringing copies instead of originals.** Chase wants original formation documents and IDs at the branch.
+3. **A name that does not match your EIN letter.** Your legal business name must match your [EIN confirmation letter](/ein-confirmation-letter/) exactly.
+4. **No US business address.** Chase expects a US address; arrange a registered agent or US mailing address first.
+5. **Skipping the appointment.** Walk-ins can wait hours. Book a business banking appointment online.
+
+If travel is not realistic, open a [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/) account online instead.
+</Section>
+
+<Section surface>
+<Label>Timeline</Label>
+
+## How Long Does the Whole Process <Accent>Take?</Accent>
+
+The full timeline from EIN application to a funded Chase account is 3 to 6 weeks for non-residents, mostly because of the in-person branch visit. The EIN should be verified before you travel.
+
+| Stage | Time |
+|-------|------|
+| Form your US LLC | 1 to 10 business days (varies by state) |
+| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Book and attend a branch appointment | Depends on your travel schedule |
+| Open the account in person | Usually same day |
+| First deposit clears | Same day (cash) to 3 business days |
+| **Total** | **About 3 to 6 weeks** |
+
+The travel requirement is the main reason non-residents choose an online bank instead. If you cannot visit the US, [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/) can be open in 1 to 3 business days with no travel. See the full [EIN processing time guide](/ein-processing-time/).
+</Section>
+
+<Section>
+<Label>Funding</Label>
+
+## How Do You Fund Your Chase <Accent>Account?</Accent>
+
+You fund a Chase business account by cash or check deposit at a branch, by ACH transfer, or by wire. A small initial deposit is expected when you open the account in person.
+
+<Steps>
+<Step step="1" title="Make an Opening Deposit">Fund the account at the branch when you open it. Cash, check, or a transfer from another account all work.</Step>
+<Step step="2" title="Deposit Cash and Checks">Use any Chase branch or ATM to deposit physical cash and checks — the main advantage Chase has over online banks.</Step>
+<Step step="3" title="Add ACH and Wires">Link external accounts for ACH transfers, or receive domestic and international wires into your Chase account.</Step>
+</Steps>
+
+Once funded, connect [Stripe](/ein-for-stripe/) and [PayPal](/ein-for-paypal/) payouts, apply for a Chase Ink business card, and keep statements for [Form 5472](/form-5472-guide/) and federal filing.
+</Section>
+
 <Section>
 <Label>Next Steps</Label>
 

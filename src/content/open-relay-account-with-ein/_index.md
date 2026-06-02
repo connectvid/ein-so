@@ -153,6 +153,103 @@ If Relay declines, fix the issue and reapply, or open a [Mercury account](/open-
 </Section>
 
 <Section surface>
+<Label>Benefits</Label>
+
+## Why Does Your US Business Need <Accent>a Relay Account?</Accent>
+
+A US business bank account keeps your company's money separate from your personal funds, which protects your LLC's limited liability. Relay adds a layer most banks do not: multiple accounts under one login for clean cash-flow management.
+
+Relay provides 6 concrete benefits for non-resident sellers:
+
+- **Profit First budgeting** — Split income across up to 20 accounts for taxes, profit, payroll, and inventory automatically.
+- **50 virtual cards** — Issue a separate card for each ad platform, supplier, or team member to track spend.
+- **USD payments** — Receive payouts from Stripe, Amazon, Shopify, and US clients in US dollars.
+- **No fees** — $0 monthly fee, $0 minimum balance, and no per-transaction fees on the standard plan.
+- **Liability protection** — A dedicated business account keeps your personal and company finances legally separate.
+- **Clean bookkeeping** — Sync transactions to QuickBooks and Xero for [Form 5472](/form-5472-guide/) and tax filing.
+
+Without a US business account, your LLC cannot receive marketplace payouts, pay suppliers, or build a financial record. Opening one is the first operational step after formation.
+</Section>
+
+<Section>
+<Label>EIN First</Label>
+
+## Why Do You Need an EIN <Accent>Before Opening Relay?</Accent>
+
+You need an EIN before opening Relay because the account belongs to your business, and the IRS identifies your business by its EIN. Relay cannot open or verify a business account without one.
+
+Your EIN is your business's 9-digit federal tax ID, issued by the IRS in the format XX-XXXXXXX. Relay uses it for 3 reasons: to confirm your LLC is a registered taxpayer, to file tax forms tied to your account, and to run anti-money-laundering checks. See [what an EIN is](/what-is-ein/) and [why every LLC needs one](/ein-for-llc/).
+
+US residents get an EIN online in minutes. Non-residents are blocked from the IRS online tool and must file [Form SS-4 by fax](/ein-by-fax/), which takes longer and is easy to fill out incorrectly. A rejected SS-4 delays your bank account by weeks. [ein.so](/apply/) prepares and files the form correctly for $49, so your EIN is ready before you start the Relay application. Learn [how to get an EIN without an SSN](/ein-without-ssn/).
+</Section>
+
+<Section surface>
+<Label>After Approval</Label>
+
+## What Can You Do After Your Relay <Accent>Account Is Open?</Accent>
+
+Once your Relay account is open, your EIN and US bank account unlock the full US selling stack. The account is the hub that every marketplace and processor connects to.
+
+| Platform | What your Relay account enables |
+|----------|---------------------------------|
+| [Amazon](/ein-for-amazon-sellers/) | Receive FBA disbursements to a US account |
+| [Shopify](/ein-for-shopify-sellers/) | Connect Shopify Payments payouts |
+| [Stripe](/ein-for-stripe/) | Receive card payment payouts in USD |
+| [PayPal](/ein-for-paypal/) | Link a US business account for withdrawals |
+| Suppliers | Pay manufacturers and 3PLs by ACH or wire |
+
+You can also assign each sub-account a purpose, fund taxes automatically, and issue a card per expense category. For the complete list, see [what you can do with an EIN](/what-can-you-do-with-ein/).
+</Section>
+
+<Section>
+<Label>Compliance</Label>
+
+## Tax and Compliance Notes <Accent>for Foreign-Owned LLCs</Accent>
+
+A foreign-owned US LLC with a Relay account has 3 federal compliance obligations. Opening the bank account does not create new taxes, but it does create records the IRS expects you to report.
+
+<Steps>
+<Step step="1" title="Form 5472 + Pro-Forma 1120">A foreign-owned single-member LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 every year. The penalty for not filing is $25,000. Your Relay records document the reportable transactions.</Step>
+<Step step="2" title="BOI Report to FinCEN">Most LLCs must report their beneficial owners to FinCEN. Review the [BOI filing rules](/boi-filing/) and [deadlines](/boi-filing-deadline/) to avoid penalties.</Step>
+<Step step="3" title="Form 1099-K From Marketplaces">Amazon, Stripe, and PayPal issue Form 1099-K tied to your EIN once you cross reporting thresholds. Keep your Relay records aligned with these forms.</Step>
+</Steps>
+
+This is general information, not tax advice. Confirm your specific filing requirements with a US tax professional.
+</Section>
+
+<Section surface>
+<Label>Mistakes to Avoid</Label>
+
+## 5 Mistakes to Avoid When Opening <Accent>a Relay Account</Accent>
+
+Most delays come from preventable mistakes made before or during the application. Avoid these 5 to get approved on the first try.
+
+1. **Applying before your EIN is in IRS records.** A brand-new EIN can take up to 2 weeks to propagate. Wait if Relay cannot verify it.
+2. **Using a name that does not match your EIN letter.** Enter your legal business name exactly as printed on your [EIN confirmation letter](/ein-confirmation-letter/).
+3. **Choosing the wrong entity.** Relay does not accept sole proprietors or trusts. Form an LLC or corporation first.
+4. **Writing a vague business description.** Name your products, sales channels, and customer markets.
+5. **Skipping a beneficial owner.** List every owner with 25% or more and upload a passport for each.
+
+Fix these before you apply and your account typically opens within 1 to 2 business days.
+</Section>
+
+<Section>
+<Label>Funding</Label>
+
+## How Do You Fund Your Relay <Accent>Account?</Accent>
+
+You fund a Relay account by ACH transfer, domestic wire, or marketplace payout, and there is no minimum deposit. Most non-resident sellers fund the account from their first Stripe, Amazon, or Shopify payout rather than wiring money in.
+
+<Steps>
+<Step step="1" title="Route Your First Payout">Add your Relay USD account and routing numbers to Stripe, Amazon, or Shopify so your first sales deposit lands directly in Relay.</Step>
+<Step step="2" title="Send a Domestic Wire or ACH">Move money from another US business account by ACH (free) or domestic wire. Funds usually arrive in 1 to 3 business days.</Step>
+<Step step="3" title="International Wire From Home">Send an international wire from your home-country bank to your Relay USD details. Confirm your home bank's fees and the SWIFT path before sending.</Step>
+</Steps>
+
+Once funded, allocate money across your sub-accounts for taxes, profit, and inventory, then issue virtual cards for each expense category.
+</Section>
+
+<Section>
 <Label>Next Steps</Label>
 
 ## Get Your EIN, Then Open <Accent>Your Relay Account</Accent>

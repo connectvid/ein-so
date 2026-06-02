@@ -131,6 +131,122 @@ Wise is the best account for international and multi-currency payments. Compare 
 Choose Wise if you get paid in several currencies and want the cheapest conversions. Many founders pair Wise with [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/) for daily US banking. Full ranking: [best bank for non-resident LLC](/best-bank-for-non-resident-llc/).
 </Section>
 
+<Section surface>
+<Label>Benefits</Label>
+
+## Why Does Your US Business Need <Accent>a Wise Account?</Accent>
+
+A US business account separates your company's money from your personal funds, which protects your LLC's limited liability. Wise adds what US banks cannot: a true multi-currency account with mid-market exchange rates.
+
+Wise provides 6 concrete benefits for cross-border founders:
+
+- **40+ currencies** — Hold, receive, and convert USD, EUR, GBP, and 40+ currencies in one account.
+- **Mid-market rate** — Convert currencies at the real exchange rate with a small, transparent fee.
+- **Local account details** — Get US account and routing numbers plus local details in other regions.
+- **Low transfer fees** — Send international payments far cheaper than traditional bank wires.
+- **Liability protection** — A dedicated business account keeps your personal and company finances legally separate.
+- **Withdraw to home currency** — Move USD earnings to your home bank at the mid-market rate.
+
+Without a US business account, your LLC cannot receive USD payouts, pay global suppliers efficiently, or build a financial record. Opening one is the first operational step after formation.
+</Section>
+
+<Section>
+<Label>EIN First</Label>
+
+## Why Do You Need an EIN <Accent>Before Opening Wise?</Accent>
+
+You need an EIN before opening a Wise Business account for a US company because the account belongs to your business, and the IRS identifies your business by its EIN. Wise cannot verify a US business account without one.
+
+Your EIN is your business's 9-digit federal tax ID, issued by the IRS in the format XX-XXXXXXX. Wise uses it to confirm your LLC is a registered taxpayer and to run anti-money-laundering and identity checks. See [what an EIN is](/what-is-ein/) and [why every LLC needs one](/ein-for-llc/).
+
+US residents get an EIN online in minutes. Non-residents are blocked from the IRS online tool and must file [Form SS-4 by fax](/ein-by-fax/), which takes longer and is easy to fill out incorrectly. A rejected SS-4 delays your account by weeks. [ein.so](/apply/) prepares and files the form correctly for $49, so your EIN is ready before you start the Wise application. Learn [how to get an EIN without an SSN](/ein-without-ssn/).
+</Section>
+
+<Section surface>
+<Label>After Approval</Label>
+
+## What Can You Do After Your Wise <Accent>Account Is Open?</Accent>
+
+Once your Wise account is open, your EIN and US account details unlock cross-border payments. The account is the hub that connects US platforms to your home currency.
+
+| Platform | What your Wise account enables |
+|----------|--------------------------------|
+| [Stripe](/ein-for-stripe/) | Receive USD card payouts |
+| [PayPal](/ein-for-paypal/) | Link a US account for withdrawals |
+| [Amazon](/ein-for-amazon-sellers/) | Receive marketplace disbursements |
+| [Payoneer](/ein-for-payoneer/) | Move balances between platforms |
+| Global suppliers | Pay vendors in their local currency |
+
+You can also hold revenue in USD, convert only when rates are good, and withdraw to your home bank cheaply. For the complete list, see [what you can do with an EIN](/what-can-you-do-with-ein/).
+</Section>
+
+<Section>
+<Label>Compliance</Label>
+
+## Tax and Compliance Notes <Accent>for Foreign-Owned LLCs</Accent>
+
+A foreign-owned US LLC with a Wise account has 3 federal compliance obligations. Opening the account does not create new taxes, but it does create records the IRS expects you to report.
+
+<Steps>
+<Step step="1" title="Form 5472 + Pro-Forma 1120">A foreign-owned single-member LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 every year. The penalty for not filing is $25,000. Your Wise records document the reportable transactions.</Step>
+<Step step="2" title="BOI Report to FinCEN">Most LLCs must report their beneficial owners to FinCEN. Review the [BOI filing rules](/boi-filing/) and [deadlines](/boi-filing-deadline/) to avoid penalties.</Step>
+<Step step="3" title="Form 1099-K From Processors">Stripe, PayPal, and Amazon issue Form 1099-K tied to your EIN once you cross reporting thresholds. Keep your Wise records aligned with these forms.</Step>
+</Steps>
+
+This is general information, not tax advice. Confirm your specific filing requirements with a US tax professional.
+</Section>
+
+<Section surface>
+<Label>Mistakes to Avoid</Label>
+
+## 5 Mistakes to Avoid When Opening <Accent>a Wise Account</Accent>
+
+Most delays come from preventable mistakes made before or during verification. Avoid these 5 to get approved on the first try.
+
+1. **Applying before your EIN is in IRS records.** A brand-new EIN can take up to 2 weeks to propagate.
+2. **Using a name that does not match your EIN letter.** Enter your legal business name exactly as printed on your [EIN confirmation letter](/ein-confirmation-letter/).
+3. **Confusing personal and business accounts.** Open Wise Business, not a personal account, for your LLC.
+4. **Writing a vague business description.** Name your products, customers, and the currencies you handle.
+5. **Skipping document uploads.** Provide formation documents and a passport for each owner during verification.
+
+Fix these before you apply and Wise typically verifies your account within 2 to 5 business days.
+</Section>
+
+<Section surface>
+<Label>Timeline</Label>
+
+## How Long Does the Whole Process <Accent>Take?</Accent>
+
+The full timeline from EIN application to an active Wise Business account is 2 to 4 weeks for most non-residents. The EIN is the longest single step, which is why you start it first.
+
+| Stage | Time |
+|-------|------|
+| Form your US LLC | 1 to 10 business days (varies by state) |
+| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Wise Business verification | 2 to 5 business days |
+| Activate USD account details | Same day after verification |
+| Receive first payout | Depends on the paying platform |
+| **Total** | **About 2 to 4 weeks** |
+
+You can shorten the timeline by ordering [Express EIN service](/apply/) ($97) and preparing your formation documents while the EIN is processing. See the full [EIN processing time guide](/ein-processing-time/) for non-resident timelines by filing method.
+</Section>
+
+<Section>
+<Label>Funding</Label>
+
+## How Do You Fund Your Wise <Accent>Account?</Accent>
+
+You fund a Wise Business account by receiving payouts to your local account details or by topping up from your home bank, and there is no minimum balance. Wise is built to receive money in one currency and convert only when you choose.
+
+<Steps>
+<Step step="1" title="Receive to Local Details">Share your USD account and routing numbers with Stripe, PayPal, or Amazon so payouts arrive in USD with no conversion.</Step>
+<Step step="2" title="Top Up From Your Home Bank">Add money from your home-country account by local transfer or card. Wise converts at the mid-market rate with a small, transparent fee.</Step>
+<Step step="3" title="Hold or Convert">Keep earnings in USD and convert to your home currency only when the rate suits you, then withdraw to your local bank cheaply.</Step>
+</Steps>
+
+Once funded, pay global suppliers in their own currency and keep records for [Form 5472](/form-5472-guide/) and federal filing.
+</Section>
+
 <Section>
 <Label>Next Steps</Label>
 

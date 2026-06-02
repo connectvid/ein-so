@@ -155,6 +155,87 @@ If Mercury declines your application, you can reapply after fixing the issue, or
 </Section>
 
 <Section surface>
+<Label>Benefits</Label>
+
+## Why Does Your US Business Need <Accent>a Mercury Account?</Accent>
+
+A US business bank account separates your company's money from your personal funds, which is the legal foundation of LLC liability protection. Mercury gives a non-resident founder a real US account without a US visit.
+
+Mercury provides 6 concrete benefits for non-resident founders:
+
+- **Liability protection** — Mixing personal and business money can pierce the corporate veil. A dedicated business account keeps your LLC's limited liability intact.
+- **USD payments** — Receive payouts from Stripe, PayPal, Amazon, and US clients directly in US dollars.
+- **Virtual and physical cards** — Issue virtual debit cards for ad spend, software, and team members.
+- **Free wires and ACH** — Send and receive domestic wires and ACH at no cost.
+- **Treasury and API** — Earn yield on idle cash and automate payments through Mercury's API.
+- **Clean bookkeeping** — Export transactions to QuickBooks or Xero for [Form 5472](/form-5472-guide/) and federal tax filing.
+
+Without a US business account, your LLC cannot accept card payments, pay US vendors, or build a financial record. Opening one is the first operational step after formation.
+</Section>
+
+<Section>
+<Label>EIN First</Label>
+
+## Why Do You Need an EIN <Accent>Before Opening Mercury?</Accent>
+
+You need an EIN before opening Mercury because the account belongs to your business, and the IRS identifies your business by its EIN. Mercury cannot open or verify a business account without one.
+
+Your EIN is your business's 9-digit federal tax ID, issued by the IRS in the format XX-XXXXXXX. Mercury uses it for 3 reasons: to confirm your LLC is a registered taxpayer, to file tax forms tied to your account, and to run anti-money-laundering checks. See [what an EIN is](/what-is-ein/) and [why every LLC needs one](/ein-for-llc/).
+
+US residents get an EIN online in minutes. Non-residents are blocked from the IRS online tool and must file [Form SS-4 by fax](/ein-by-fax/), which takes longer and is easy to fill out incorrectly. A rejected SS-4 delays your bank account by weeks. [ein.so](/apply/) prepares and files the form correctly for $49, so your EIN is ready before you start the Mercury application. Learn [how to get an EIN without an SSN](/ein-without-ssn/).
+</Section>
+
+<Section surface>
+<Label>After Approval</Label>
+
+## What Can You Do After Your Mercury <Accent>Account Is Open?</Accent>
+
+Once your Mercury account is open, your EIN and US bank account unlock the full US business stack. The account is the hub that every payment platform connects to.
+
+| Platform | What your Mercury account enables |
+|----------|-----------------------------------|
+| [Stripe](/ein-for-stripe/) | Receive card payment payouts in USD |
+| [PayPal](/ein-for-paypal/) | Link a US business account for withdrawals |
+| [Amazon](/ein-for-amazon-sellers/) | Receive FBA disbursements to a US account |
+| [Shopify](/ein-for-shopify-sellers/) | Connect Shopify Payments payouts |
+| Business credit | Build a US business credit profile over time |
+
+You can also pay US contractors, subscribe to US software, hold USD reserves, and issue cards to your team. For the complete list, see [what you can do with an EIN](/what-can-you-do-with-ein/).
+</Section>
+
+<Section>
+<Label>Compliance</Label>
+
+## Tax and Compliance Notes <Accent>for Foreign-Owned LLCs</Accent>
+
+A foreign-owned US LLC with a Mercury account has 3 federal compliance obligations. Opening the bank account does not create new taxes, but it does create records the IRS expects you to report.
+
+<Steps>
+<Step step="1" title="Form 5472 + Pro-Forma 1120">A foreign-owned single-member LLC must file [Form 5472](/form-5472-guide/) with a pro-forma Form 1120 every year. The penalty for not filing is $25,000. Your Mercury transaction history documents the reportable transactions.</Step>
+<Step step="2" title="BOI Report to FinCEN">Most LLCs must report their beneficial owners to FinCEN. Review the [BOI filing rules](/boi-filing/) and [deadlines](/boi-filing-deadline/) to avoid penalties.</Step>
+<Step step="3" title="Form 1099-K From Processors">Stripe and PayPal issue Form 1099-K tied to your EIN once you cross reporting thresholds. Keep your Mercury records aligned with these forms.</Step>
+</Steps>
+
+This is general information, not tax advice. Confirm your specific filing requirements with a US tax professional.
+</Section>
+
+<Section surface>
+<Label>Mistakes to Avoid</Label>
+
+## 5 Mistakes to Avoid When Opening <Accent>a Mercury Account</Accent>
+
+Most delays come from preventable mistakes made before or during the application. Avoid these 5 to get approved on the first try.
+
+1. **Applying before your EIN is in IRS records.** A brand-new EIN can take up to 2 weeks to propagate. Wait if Mercury cannot verify it.
+2. **Using a name that does not match your EIN letter.** Enter your legal business name exactly as printed on your [EIN confirmation letter](/ein-confirmation-letter/).
+3. **Choosing the wrong entity.** Mercury does not accept sole proprietors or trusts. Form an LLC or C-corporation first.
+4. **Writing a vague business description.** Explain your product, customers, and revenue model in detail.
+5. **Skipping a beneficial owner.** List every owner with 25% or more and upload a passport for each.
+
+Fix these before you apply and your account typically opens within 1 to 3 business days.
+</Section>
+
+<Section>
 <Label>Next Steps</Label>
 
 ## Get Your EIN, Then Open <Accent>Your Mercury Account</Accent>
