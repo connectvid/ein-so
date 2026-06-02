@@ -1,23 +1,24 @@
 ---
-title: "IRS Form SS-4 Guide: Line-by-Line Instructions (2026)"
-description: "Complete line-by-line guide to filling out IRS Form SS-4 (Application for EIN). Special instructions for non-residents, LLCs, corporations, and all entity types."
+title: "SS-4 Instructions: Line-by-Line Guide to Every Field (2026)"
+description: "Step-by-step SS-4 form instructions for all 18 fields. Covers LLCs, trusts, estates, non-profits, and non-residents filing by fax. Updated May 2026 with current IRS requirements."
 canonical: "/ss4-form-guide/"
-heroLabel: "Step-by-Step Guide"
-heroTitle: "IRS Form SS-4 Guide:"
-heroAccent: "Line-by-Line Instructions (2026)"
-heroDescription: "A complete walkthrough of every field on IRS Form SS-4, the official Application for Employer Identification Number. Includes special instructions for non-residents who do not have an SSN."
+heroLabel: "Line-by-Line Instructions"
+heroTitle: "IRS Form SS-4 Instructions:"
+heroAccent: "How to Fill Out Every Field (2026)"
+heroDescription: "Step-by-step instructions for all 18 fields on IRS Form SS-4. Covers LLCs, trusts, estates, non-profits, and non-residents filing by fax to 855-215-1627."
 breadcrumbs:
   - name: "Home"
     url: "/"
   - name: "How to Get EIN"
     url: "/how-to-get-ein/"
-  - name: "SS-4 Form Guide"
+  - name: "SS-4 Instructions"
     url: "/ss4-form-guide/"
 schema:
   type: "article"
-  headline: "IRS Form SS-4 Guide: Line-by-Line Instructions (2026)"
-  description: "Complete line-by-line guide to filling out IRS Form SS-4 for an EIN. Covers every field with special instructions for non-residents and all entity types."
+  headline: "SS-4 Instructions: Line-by-Line Guide to Every Field (2026)"
+  description: "Step-by-step SS-4 form instructions for all 18 fields. Covers LLCs, trusts, estates, non-profits, and non-residents filing by fax. Updated May 2026 with current IRS requirements."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 howto:
   steps:
     - name: "Download Form SS-4"
@@ -53,6 +54,10 @@ faqs:
     a: "Yes. You can authorize a third-party designee to receive your EIN by completing Line 18 of Form SS-4. The designee's name, address, phone number, and fax number go on this line. Services like ein.so act as your third-party designee, filing the form and receiving the EIN on your behalf for $49 (Standard) or $97 (Express)."
   - q: "How long does it take to get an EIN after faxing Form SS-4?"
     a: "The IRS processes faxed SS-4 forms within 4-7 business days. During peak periods (January through April), processing may take slightly longer. The IRS returns your EIN by fax to the number provided on the form. ein.so's Express service ($97) includes priority handling with 7 business day turnaround."
+  - q: "What is the difference between Form SS-4 and Form W-7?"
+    a: "Form SS-4 applies for an EIN (Employer Identification Number), a 9-digit tax ID for businesses, trusts, and estates. Form W-7 applies for an ITIN (Individual Taxpayer Identification Number), a 9-digit tax ID for individuals who cannot get an SSN. Businesses use SS-4. Individuals use W-7. They serve different purposes and are filed separately."
+  - q: "Which entity type do I select on Line 9a of Form SS-4?"
+    a: "Line 9a asks why you are applying for an EIN. The most common selection is 'Started new business' for newly formed LLCs and corporations. Select 'Banking purposes only' if your entity already exists but needs an EIN for a bank account. Select 'Changed type of organization' if converting entity types. Do not confuse Line 9a (reason) with Line 8a (entity type)."
 ---
 
 <Section>
@@ -160,7 +165,7 @@ Non-residents should attach a copy of their passport to the faxed SS-4 form to h
 
 ## What Do You Enter on Lines 8a-8c of <Accent>Form SS-4?</Accent>
 
-**Line 8a -- Type of Entity:** Check the box that matches your entity type. The options include: Sole Proprietor, Partnership, Corporation (including S-Corp election), Personal Service Corp, Church or Church-Controlled Organization, Other Nonprofit Organization, Trust, Estate, Plan Administrator, and Limited Liability Company. Only check one box.
+**Line 8a -- Type of Entity:** Check the box that matches your entity type. The options include: Sole Proprietor, Partnership, Corporation (including [S-Corp election](/s-corp-election/)), Personal Service Corp, Church or Church-Controlled Organization, Other [Nonprofit Organization](/ein-for-nonprofit/), [Trust](/ein-for-trust/), [Estate](/ein-for-estate/), Plan Administrator, and [Limited Liability Company](/ein-for-llc/). Only check one box.
 
 **Line 8b -- Number of LLC Members:** If you checked "Limited Liability Company" on Line 8a, you must enter the number of members in your LLC. A single-member LLC enters "1." A multi-member LLC enters the total number of members. This information determines how the IRS classifies your LLC for tax purposes -- single-member LLCs are disregarded entities by default, while multi-member LLCs are treated as partnerships.
 
@@ -206,5 +211,5 @@ Non-residents should attach a copy of their passport to the faxed SS-4 form to h
 
 **Signature Section:** The responsible party named on Line 7a (or an authorized delegate) must sign and date the form. Print the signer's name and title below the signature. The title should match your role in the entity -- "Member" for an LLC, "President" for a corporation, "General Partner" for a partnership, "Trustee" for a trust, or "Executor" for an estate. Include a daytime phone number and fax number.
 
-After signing, fax the completed form to the IRS at **855-215-1627**. Keep a copy for your records. The IRS will fax your EIN confirmation back to the fax number you provided. Processing takes 4-7 business days. If you do not want to handle the fax process yourself, [ein.so files your SS-4 for $49 (Standard) or $97 (Express)](/apply/). For details on the overall EIN application process, see our [How to Get an EIN](/how-to-get-ein/) guide or our dedicated [EIN Processing Time](/ein-processing-time/) page.
+After signing, fax the completed form to the IRS at **855-215-1627**. Keep a copy for your records. The IRS will fax your EIN confirmation back to the fax number you provided. Processing takes 4-7 business days. If your application is rejected, see our [EIN Rejection Guide](/ein-rejection-guide/) for how to fix common errors and reapply. [Non-residents without an SSN](/ein-for-non-residents/) can learn more about the fax process in our dedicated [EIN Without SSN](/ein-without-ssn/) guide. If you do not want to handle the fax process yourself, [ein.so files your SS-4 for $49 (Standard) or $97 (Express)](/apply/). For details on the overall EIN application process, see our [How to Get an EIN](/how-to-get-ein/) guide or our dedicated [EIN Processing Time](/ein-processing-time/) page.
 </Section>

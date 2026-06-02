@@ -1,6 +1,6 @@
 ---
-title: "EIN for Estate: How to Get One for a Deceased Person (2026)"
-description: "An estate needs its own EIN for tax filing and asset distribution. The executor applies using Form SS-4 after the individual passes."
+title: "EIN for Estate of Deceased Person: Free IRS Application Guide (2026)"
+description: "Get a free EIN for the estate of a deceased person from the IRS. The executor or personal representative files Form SS-4 online, by fax, or by phone. Takes 4-15 business days. Step-by-step 2026 guide."
 canonical: "/ein-for-estate/"
 breadcrumbs:
   - name: "Home"
@@ -11,13 +11,14 @@ breadcrumbs:
     url: "/ein-for-estate/"
 schema:
   type: "article"
-  headline: "EIN for Estate: How to Get One for a Deceased Person (2026)"
-  description: "Complete guide to getting an EIN for a deceased person's estate. Covers executor responsibilities, Form SS-4 instructions, and the estate tax filing process."
+  headline: "EIN for Estate of Deceased Person: Free IRS Application Guide (2026)"
+  description: "Get a free EIN for the estate of a deceased person from the IRS. The executor or personal representative files Form SS-4 online, by fax, or by phone. Takes 4-15 business days. Step-by-step 2026 guide."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Estates"
-heroTitle: "EIN for Estate:"
-heroAccent: "How to Get One for a Deceased Person (2026)"
-heroDescription: "An estate needs its own EIN for tax filing, banking, and asset distribution. Learn how executors apply, what documents you need, and the step-by-step process."
+heroTitle: "EIN for Estate of Deceased Person:"
+heroAccent: "Free IRS Application Guide (2026)"
+heroDescription: "Get a free EIN for the estate of a deceased person. The executor files Form SS-4 online (instant), by fax (4-7 days), or by phone. No fee from the IRS."
 faqs:
   - q: "Does an estate need an EIN?"
     a: "Yes. Every estate of a deceased person needs its own EIN. The estate is a separate tax entity from the deceased individual. The executor uses the estate's EIN to file Form 1041, open estate bank accounts, and manage asset distribution."
@@ -35,6 +36,10 @@ faqs:
     a: "Yes. An estate and a trust are separate entities, each with its own EIN. If the deceased person had a trust that becomes irrevocable upon death, the trust needs its own EIN in addition to the estate's EIN. Do not use one entity's EIN for the other."
   - q: "How long does an estate EIN last?"
     a: "The estate's EIN remains active until the estate is fully administered and closed. Once all assets are distributed and the final Form 1041 is filed, the executor notifies the IRS to close the estate's account. The EIN itself is never reused or reassigned."
+  - q: "Is the estate EIN free from the IRS?"
+    a: "Yes. The IRS issues EINs at no cost. Executors with an SSN can apply online at IRS.gov and receive the EIN instantly for free. Non-US executors apply by fax to 855-215-1627 at no IRS charge. Third-party services like ein.so charge $49-$97 for handling the process, but the IRS itself charges $0."
+  - q: "Can a non-US resident be an executor and get an estate EIN?"
+    a: "Yes. Non-US residents can serve as executors if the probate court or will allows it. The non-US executor applies for the estate EIN using Form SS-4 by fax, writing 'N/A' on Line 7b (SSN field) and attaching a passport copy. The IRS processes these applications within 4-7 business days."
 ---
 
 <Section>
@@ -106,7 +111,7 @@ The executor applies for the estate's EIN using Form SS-4. You will need the dec
 
 <InfoBox title="For Non-US Executors (without SSN or ITIN):">
 
-1. Complete Form SS-4 selecting "Estate" as entity type
+1. Complete [Form SS-4](/ss4-form-guide/) selecting "Estate" as entity type
 2. Enter the executor's name and passport number
 3. Provide the estate's legal name and the decedent's information
 4. Fax the form to the IRS at 855-215-1627

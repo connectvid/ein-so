@@ -1,6 +1,6 @@
 ---
-title: "EIN for Trust: When Trusts Need an EIN (2026)"
-description: "Irrevocable trusts always need an EIN. Revocable trusts need one after the grantor dies. Learn which trusts need an EIN and how to apply."
+title: "EIN for Trust: Irrevocable, Revocable & Post-Death Trust Guide (2026)"
+description: "When does a trust need its own EIN? Irrevocable trusts always need one. Revocable trusts need one after the grantor dies. Learn who the responsible party is and how to apply using Form SS-4."
 canonical: "/ein-for-trust/"
 breadcrumbs:
   - name: "Home"
@@ -11,13 +11,14 @@ breadcrumbs:
     url: "/ein-for-trust/"
 schema:
   type: "article"
-  headline: "EIN for Trust: When Trusts Need an EIN (2026)"
-  description: "Complete guide to EIN requirements for trusts. Covers revocable trusts, irrevocable trusts, testamentary trusts, and when to apply."
+  headline: "EIN for Trust: Irrevocable, Revocable & Post-Death Trust Guide (2026)"
+  description: "When does a trust need its own EIN? Irrevocable trusts always need one. Revocable trusts need one after the grantor dies. Learn who the responsible party is and how to apply using Form SS-4."
   datePublished: "2026-04-13"
+  dateModified: "2026-05-09"
 heroLabel: "Trusts"
 heroTitle: "EIN for Trust:"
-heroAccent: "When Trusts Need an EIN (2026)"
-heroDescription: "Irrevocable trusts always need an EIN. Revocable trusts need one after the grantor dies. Learn which type of trust you have, when to apply, and how the process works."
+heroAccent: "Irrevocable, Revocable & Post-Death (2026)"
+heroDescription: "Irrevocable trusts always need an EIN. Revocable trusts need one after the grantor dies. Learn who the responsible party is, when to apply, and how the SS-4 process works."
 faqs:
   - q: "Does a revocable trust need an EIN?"
     a: "Not while the grantor is alive. A revocable (living) trust uses the grantor's SSN during the grantor's lifetime because it is a grantor trust for tax purposes. After the grantor dies, the trust becomes irrevocable and the successor trustee must obtain an EIN for the trust."
@@ -35,6 +36,10 @@ faqs:
     a: "A revocable trust can open a bank account using the grantor's SSN while the grantor is alive. An irrevocable trust must use its own EIN. After a grantor dies, the successor trustee needs to obtain an EIN before transferring or managing trust accounts."
   - q: "Do testamentary trusts need an EIN?"
     a: "Yes. A testamentary trust is created by a will and takes effect after the person dies. Since it is irrevocable from creation, it needs its own EIN. The executor or trustee applies for the EIN after the will is admitted to probate."
+  - q: "Who is the responsible party for a trust EIN?"
+    a: "The responsible party is the grantor for revocable trusts and the trustee for irrevocable trusts. On Form SS-4 Line 7a, enter the responsible party's full legal name. On Line 7b, enter their SSN or ITIN. Non-US trustees without an SSN write 'N/A' on Line 7b and attach a passport copy."
+  - q: "Does a trust need a new EIN when the grantor dies?"
+    a: "Yes. When the grantor of a revocable trust dies, the trust becomes irrevocable and must obtain its own EIN. The successor trustee files Form SS-4 with the IRS. Banks will freeze accounts held under the grantor's SSN until the new EIN is obtained and accounts are retitled."
 ---
 
 <Section>
@@ -106,7 +111,7 @@ The trustee is the responsible party on the EIN application. The trustee provide
 
 <InfoBox title="For Non-US Trustees (without SSN or ITIN):">
 
-1. Complete Form SS-4 selecting "Trust" as entity type
+1. Complete [Form SS-4](/ss4-form-guide/) selecting "Trust" as entity type
 2. Enter the trustee's name and passport number
 3. Provide the trust's legal name and address
 4. Specify the trust type and date the trust was funded
@@ -116,6 +121,61 @@ The trustee is the responsible party on the EIN application. The trustee provide
 Or let ein.so handle the process for **$49** (Standard) or **$97** (Express). [Start your application](/apply/).
 
 </InfoBox>
+
+</Section>
+
+<Section>
+
+<Label>Responsible Party</Label>
+
+## Who Is the Responsible Party <Accent>for a Trust EIN?</Accent>
+
+**The responsible party for a trust EIN is the grantor (for revocable trusts) or the trustee (for irrevocable trusts).** The IRS requires every EIN application to name one individual who controls, manages, or directs the entity and its assets.
+
+### Responsible Party by Trust Type
+
+| Trust Type | Responsible Party | What to Enter on SS-4 Line 7a |
+| --- | --- | --- |
+| Revocable trust (grantor alive) | Grantor | Grantor's name and SSN |
+| Irrevocable trust | Trustee | Trustee's name and SSN/ITIN |
+| Revocable trust (grantor deceased) | Successor trustee | Successor trustee's name and SSN/ITIN |
+| Testamentary trust | Trustee named in will | Trustee's name and SSN/ITIN |
+| Corporate trustee (bank/institution) | Trust officer | Officer's name and institution's EIN |
+
+Non-US trustees without an SSN or ITIN write "N/A" on Line 7b and attach a copy of their passport. The IRS accepts Form SS-4 applications from trustees who do not have a US tax identification number — this is one of the main reasons the fax method exists.
+
+</Section>
+
+<Section surface>
+
+<Label>Post-Death</Label>
+
+## Does a Trust Need a New EIN <Accent>When the Grantor Dies?</Accent>
+
+**Yes. When the grantor of a revocable trust dies, the trust becomes irrevocable and must obtain its own EIN.** The successor trustee files [Form SS-4](/ss4-form-guide/) with the IRS. This is a separate EIN from any estate EIN — the trust and the estate are different entities.
+
+The successor trustee should apply for the EIN promptly because banks will freeze accounts held under the grantor's SSN once they learn of the death. Without the trust's new EIN, the trustee cannot:
+
+- Retitle bank accounts and investment accounts in the trust's name
+- Make distributions to beneficiaries
+- File the trust's first Form 1041 tax return
+- Conduct any financial transactions on behalf of the trust
+
+The IRS processes faxed SS-4 forms within 4-7 business days. US-based trustees with an SSN can apply online at IRS.gov and receive the EIN instantly. For non-US successor trustees, ein.so handles the fax process for $49 (Standard) or $97 (Express).
+
+</Section>
+
+<Section>
+
+<Label>SSN Requirement</Label>
+
+## Do You Need the Grantor's SSN <Accent>to Get a Trust EIN?</Accent>
+
+**No. Getting a trust EIN does not require the grantor's SSN.** The EIN application (Form SS-4) asks for the responsible party's identification — which is the trustee, not the grantor, for irrevocable trusts.
+
+The trustee provides their own SSN, ITIN, or passport number on Line 7b. The grantor's SSN does not appear anywhere on the trust's EIN application. This is an important distinction because many successor trustees worry they need the deceased grantor's SSN to proceed — they do not.
+
+If the trustee is a non-US resident without an SSN or ITIN, they write "N/A" on Line 7b and include a passport copy with the faxed Form SS-4. The IRS processes these applications the same way.
 
 </Section>
 

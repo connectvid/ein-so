@@ -1,5 +1,35 @@
 @AGENTS.md
 
+# SEO + LLM Optimization Skill System
+
+Load these skills from `skills/` when working on content:
+
+## Always load (foundation):
+@skills/00-philosophy.md
+@skills/18-lessons-learned.md
+
+## Load when writing/editing content:
+@skills/05-writing-rules.md
+@skills/06-llm-optimization.md
+@skills/07-page-architecture.md
+@skills/09-schema-markup.md
+
+## Load on-demand (as needed):
+- `skills/01-topical-map.md` -- site structure planning
+- `skills/02-keyword-research.md` -- keyword research
+- `skills/03-competitive-analysis.md` -- competitor analysis
+- `skills/04-content-brief.md` -- content briefs
+- `skills/08-internal-linking.md` -- link architecture
+- `skills/10-conversion-cta.md` -- CTA design
+- `skills/11-programmatic-seo.md` -- template scaling
+- `skills/12-technical-seo.md` -- technical foundation
+- `skills/13-third-party-signals.md` -- Reddit, reviews, PR
+- `skills/14-link-building.md` -- backlinks
+- `skills/15-outreach.md` -- email/PR outreach
+- `skills/16-content-audit.md` -- content auditing
+- `skills/17-measurement.md` -- analytics & AI traffic
+- `skills/19-indexing-strategy.md` -- publishing cadence & indexing
+
 # Content Management Rules
 
 **ALL content data MUST be stored in `src/content/` using frontmatter-based Markdown/MDX files. No exceptions.**
