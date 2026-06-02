@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { PAGES } from "@/lib/page-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://ein.so";
+  const baseUrl = "https://www.ein.so";
 
   return PAGES.map((page) => ({
     url: `${baseUrl}${page.slug}`,

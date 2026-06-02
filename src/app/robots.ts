@@ -22,6 +22,6 @@ export default function robots(): MetadataRoute.Robots {
       // Bing (Copilot + feeds ChatGPT)
       { userAgent: "Bingbot", allow: "/" },
     ],
-    sitemap: "https://ein.so/sitemap.xml",
+    sitemap: "https://www.ein.so/sitemap.xml",
   };
 }

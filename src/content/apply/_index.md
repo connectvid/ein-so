@@ -14,7 +14,7 @@ serviceSchema:
   provider:
     "@type": "Organization"
     name: "ein.so"
-    url: "https://ein.so"
+    url: "https://www.ein.so"
   description: "We file Form SS-4 with the IRS by fax and deliver your EIN."
   offers:
     - "@type": "Offer"

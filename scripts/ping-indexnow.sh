@@ -4,7 +4,7 @@
 # If no URLs provided, submits sitemap URL
 
 KEY="b3768febb2c24272a847fa047b3dd619"
-HOST="ein.so"
+HOST="www.ein.so"
 
 if [ $# -eq 0 ]; then
   # No args — submit sitemap for re-crawl

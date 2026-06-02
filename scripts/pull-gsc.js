@@ -130,7 +130,7 @@ async function pullGSC() {
       type: 'web',
     });
     gscData.pages = (data.rows || []).map(r => ({
-      page: r.keys[0].replace('https://ein.so', '').replace(/\/$/, '') || '/',
+      page: r.keys[0].replace('https://www.ein.so', '').replace(/\/$/, '') || '/',
       clicks: r.clicks,
       impressions: r.impressions,
       ctr: Math.round(r.ctr * 10000) / 100,
