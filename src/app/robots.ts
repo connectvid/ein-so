@@ -3,7 +3,11 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      { userAgent: "*", allow: "/" },
+      // Block API routes from crawlers. A GET on a POST-only endpoint
+      // (e.g. /api/email-capture) returns 405, which Search Console reports
+      // as "Blocked due to other 4xx issue". API routes hold no indexable
+      // content, so crawlers should never request them.
+      { userAgent: "*", allow: "/", disallow: ["/api/"] },
       // OpenAI (ChatGPT Search + Training)
       { userAgent: "GPTBot", allow: "/" },
       { userAgent: "OAI-SearchBot", allow: "/" },
