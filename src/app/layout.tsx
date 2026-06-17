@@ -47,18 +47,19 @@ export const metadata: Metadata = {
   authors: [{ name: "ein.so" }],
   creator: "ein.so",
   publisher: "ein.so",
+  // Do NOT set openGraph/twitter title or description here. The layout values
+  // are inherited by every page, so hardcoding the homepage title/description
+  // makes og:title and og:description show homepage values on ALL pages. With
+  // them omitted, Next.js derives og:title/twitter:title from each page's own
+  // `title` and og:description/twitter:description from each page's `description`.
+  // og:image is supplied per route by the opengraph-image.tsx files.
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: SITE.url,
     siteName: SITE.name,
-    title: SITE.title,
-    description: SITE.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: SITE.title,
-    description: SITE.description,
   },
   robots: {
     index: true,
@@ -71,9 +72,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: SITE.url,
-  },
+  // No default canonical here. A layout-level canonical is inherited by every
+  // page that does not set its own, which silently points those pages at the
+  // homepage and risks de-indexing them as duplicates. Every page sets its own
+  // self-referential canonical via `alternates.canonical` in its metadata.
   category: "Business Services",
 };
 
