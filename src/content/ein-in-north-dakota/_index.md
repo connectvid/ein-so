@@ -1,6 +1,6 @@
 ---
-title: "EIN in North Dakota: How to Apply (ND) (2026)"
-description: "Get an EIN in North Dakota as a non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax with your passport, no SSN needed. ein.so files it for $49."
+title: "EIN in North Dakota: How to Apply for One (2026)"
+description: "Need an EIN for a North Dakota LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
 canonical: "/ein-in-north-dakota/"
 breadcrumbs:
   - name: "Home"

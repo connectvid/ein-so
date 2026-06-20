@@ -1,6 +1,6 @@
 ---
-title: "EIN in Ohio: How to Apply (OH) (2026)"
-description: "Get an EIN in Ohio as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax with no SSN, or let ein.so file it for $49."
+title: "EIN in Ohio: How to Apply for One in 2026"
+description: "Getting an EIN in Ohio? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-ohio/"
 breadcrumbs:
   - name: "Home"

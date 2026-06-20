@@ -1,6 +1,6 @@
 ---
-title: "EIN in Indiana: How to Apply (IN) (2026)"
-description: "Get an EIN in Indiana as a US resident or non-resident. The EIN is a federal IRS number, not state-specific. Indiana has a 3.05% flat state income tax. The IRS charges $0; ein.so files Form SS-4 for non-residents from $49."
+title: "EIN in Indiana: How to Apply for One (2026)"
+description: "Need an EIN for a Indiana LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-indiana/"
 breadcrumbs:
   - name: "Home"

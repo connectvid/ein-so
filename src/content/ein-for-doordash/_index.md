@@ -1,6 +1,6 @@
 ---
-title: "EIN for DoorDash & Delivery Drivers (2026)"
-description: "DoorDash and delivery drivers use an EIN to separate business income, protect their SSN, and open a business bank account. Covers SS-4 filing, LLC vs sole proprietor, and non-resident filing. ein.so files Form SS-4 for $49."
+title: "EIN for DoorDash Drivers: Protect Your SSN"
+description: "DoorDash drivers can use an EIN instead of an SSN on the W-9 and 1099. Learn how gig drivers get an EIN to keep their SSN private. See the steps to apply."
 canonical: "/ein-for-doordash/"
 breadcrumbs:
   - name: "Home"

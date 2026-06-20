@@ -1,6 +1,6 @@
 ---
-title: "EIN vs DUNS Number: Key Differences Explained (2026)"
-description: "An EIN is a 9-digit IRS tax ID for businesses. A DUNS number is a 9-digit Dun & Bradstreet credit tracking ID. Learn the differences and when you need each."
+title: "EIN vs DUNS Number: What's the Difference?"
+description: "EIN vs DUNS: an EIN is an IRS tax ID, a DUNS number tracks business credit. See how they differ and why you may need both. Compare the differences."
 canonical: "/ein-vs-duns/"
 breadcrumbs:
   - name: "Home"

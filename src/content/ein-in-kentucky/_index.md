@@ -1,6 +1,6 @@
 ---
-title: "EIN in Kentucky: How to Apply (KY) (2026)"
-description: "Get an EIN in Kentucky. The EIN is a federal IRS number, not state-specific. Non-residents apply by fax with a passport on Form SS-4 Line 7b. Free at irs.gov or $49 through ein.so."
+title: "EIN in Kentucky: How to Apply for One (2026)"
+description: "Getting an EIN in Kentucky? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the full steps to apply."
 canonical: "/ein-in-kentucky/"
 breadcrumbs:
   - name: "Home"

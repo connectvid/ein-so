@@ -1,6 +1,6 @@
 ---
-title: "Mercury vs Relay: Best Bank for LLC (2026)"
-description: "Mercury and Relay are the two most popular banks for non-resident LLC owners. Both charge $0 monthly fees. Your EIN is required first. ein.so files Form SS-4 for $49."
+title: "Mercury vs Relay: Best Bank for an LLC (2026)"
+description: "Mercury vs Relay: compare fees, sub-accounts, and non-resident access for your US LLC. See which business account wins for you. Compare the options here."
 canonical: "/mercury-vs-relay/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN in Pennsylvania: How to Apply (PA) (2026)"
-description: "Get an EIN in Pennsylvania. The EIN is a federal IRS number, not state-specific. Non-residents apply with a passport on Form SS-4 Line 7b. Free at irs.gov or $49 through ein.so."
+title: "EIN in Pennsylvania: How to Apply for One (2026)"
+description: "Need an EIN for a Pennsylvania LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
 canonical: "/ein-in-pennsylvania/"
 breadcrumbs:
   - name: "Home"

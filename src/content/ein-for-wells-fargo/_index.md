@@ -1,6 +1,6 @@
 ---
-title: "EIN for Wells Fargo Business Account (2026)"
-description: "Non-residents need an EIN to open a Wells Fargo business account. Get your EIN by IRS Form SS-4 using a passport number, no SSN required. ein.so files it for $49 Standard or $97 Express."
+title: "EIN for a Wells Fargo Business Bank Account"
+description: "Open a Wells Fargo business account with your EIN. See the documents required and whether non-residents qualify with no SSN. Learn more and get started."
 canonical: "/ein-for-wells-fargo/"
 breadcrumbs:
   - name: "Home"

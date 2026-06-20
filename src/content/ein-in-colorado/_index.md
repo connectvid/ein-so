@@ -1,6 +1,6 @@
 ---
-title: "EIN in Colorado: How to Apply (CO) (2026)"
-description: "Get an EIN in Colorado as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Non-residents apply by fax with a passport, no SSN needed. Apply free at irs.gov or through ein.so for $49."
+title: "EIN in Colorado: How to Apply for One (2026)"
+description: "Need an EIN for a Colorado LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-colorado/"
 breadcrumbs:
   - name: "Home"

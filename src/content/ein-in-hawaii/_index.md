@@ -1,6 +1,6 @@
 ---
-title: "EIN in Hawaii: How to Apply (HI) (2026)"
-description: "Get an EIN in Hawaii as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Non-residents file Form SS-4 by fax with a passport number. ein.so files it for $49."
+title: "EIN in Hawaii: How to Apply for One (2026)"
+description: "Getting an EIN in Hawaii? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-hawaii/"
 breadcrumbs:
   - name: "Home"

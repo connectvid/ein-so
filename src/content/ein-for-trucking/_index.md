@@ -1,6 +1,6 @@
 ---
-title: "EIN for Trucking & Transportation (2026)"
-description: "Trucking companies need an EIN for DOT registration, IFTA filing, fleet insurance, and business banking. Non-US owners get one with no SSN via Form SS-4. ein.so files it for $49."
+title: "EIN for a Trucking Business: How to Apply"
+description: "A trucking business needs an EIN for the DOT, an MC number, and payroll. Learn how to get an EIN for your trucking company. See the steps to apply now."
 canonical: "/ein-for-trucking/"
 breadcrumbs:
   - name: "Home"

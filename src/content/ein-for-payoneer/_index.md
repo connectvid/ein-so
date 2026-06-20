@@ -1,6 +1,6 @@
 ---
-title: "EIN for Payoneer: Get a US Tax ID for Your Receiving Account (2026)"
-description: "Payoneer requires a US tax ID for business receiving accounts. Get an EIN without an SSN using Form SS-4 and your passport. Step-by-step setup for freelancers and US LLC owners. ein.so files it for $49."
+title: "EIN for Payoneer: Receive US Payments (2026)"
+description: "Payoneer and US payments work best with an EIN on a US entity. Learn how non-residents get an EIN to use Payoneer with no SSN. Apply now to get started."
 canonical: "/ein-for-payoneer/"
 breadcrumbs:
   - name: "Home"

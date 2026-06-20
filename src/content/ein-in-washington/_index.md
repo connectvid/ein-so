@@ -1,6 +1,6 @@
 ---
-title: "EIN in Washington: How to Apply (WA) (2026)"
-description: "Get an EIN in Washington as a non-resident. The EIN is a federal IRS number, identical in every state. Apply free at irs.gov (SSN required) or through ein.so for $49 with no SSN. Covers Form SS-4, banking, and Washington B&O tax."
+title: "EIN in Washington: How to Apply for One (2026)"
+description: "Getting an EIN in Washington? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-washington/"
 breadcrumbs:
   - name: "Home"

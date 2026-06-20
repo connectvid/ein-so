@@ -1,6 +1,6 @@
 ---
-title: "EIN for Etsy Sellers: Do You Need One? (Non-US Sellers Guide 2026)"
-description: "Do Etsy sellers need an EIN? US sole proprietors can use an SSN, but non-US sellers with a US LLC need an EIN to finish Etsy's tax form and bank. Here's how to get one without an SSN."
+title: "EIN for Etsy Sellers: Do You Need One? (2026)"
+description: "Etsy sellers can use an EIN to keep their SSN off the 1099-K. Learn whether you need an EIN and how non-US sellers get one with no SSN. See the steps now."
 canonical: "/ein-for-etsy-sellers/"
 breadcrumbs:
   - name: "Home"

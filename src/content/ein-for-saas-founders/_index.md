@@ -1,6 +1,6 @@
 ---
-title: "EIN for SaaS Founders (2026)"
-description: "SaaS founders need a US EIN to bill customers, connect Stripe, and open a US business bank account. Non-residents apply by faxing Form SS-4 with a passport number — no SSN needed. ein.so files it for $49 Standard or $97 Express."
+title: "EIN for SaaS Founders: How to Apply (2026)"
+description: "SaaS founders need an EIN for a US entity, Stripe, and banking. Learn how non-resident SaaS founders get an EIN with no SSN. Apply now to get started."
 canonical: "/ein-for-saas-founders/"
 breadcrumbs:
   - name: "Home"

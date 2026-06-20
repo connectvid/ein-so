@@ -1,6 +1,6 @@
 ---
-title: "EIN in South Dakota: How to Apply (SD) (2026)"
-description: "Get an EIN in South Dakota as a US or non-US resident. The EIN is a federal IRS number, identical in every state. South Dakota has no state income tax. Apply free at irs.gov, or ein.so files Form SS-4 for non-residents for $49."
+title: "EIN in South Dakota: How to Apply for One (2026)"
+description: "Getting an EIN in South Dakota? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-south-dakota/"
 breadcrumbs:
   - name: "Home"

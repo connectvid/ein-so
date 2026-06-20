@@ -1,6 +1,6 @@
 ---
-title: "EIN in Georgia: How to Apply (GA) (2026)"
-description: "Get an EIN in Georgia as a US or non-US resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax with no SSN, or apply through ein.so for $49."
+title: "EIN in Georgia: How to Apply for One (2026)"
+description: "Need an EIN for a Georgia LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-georgia/"
 breadcrumbs:
   - name: "Home"

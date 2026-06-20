@@ -1,6 +1,6 @@
 ---
-title: "EIN in Connecticut: How to Apply (CT) (2026)"
-description: "Get an EIN for a Connecticut business or LLC. The EIN is a federal IRS number, identical in every state. Non-residents file Form SS-4 by fax with no SSN. Free at irs.gov or $49 through ein.so."
+title: "EIN in Connecticut: How to Apply for One (2026)"
+description: "Getting an EIN in Connecticut? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-connecticut/"
 breadcrumbs:
   - name: "Home"

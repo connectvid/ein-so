@@ -1,6 +1,6 @@
 ---
-title: "EIN in North Carolina: How to Apply (NC) (2026)"
-description: "Get an EIN in North Carolina. The EIN is a federal IRS number, identical in every state. Non-residents apply with a passport, no SSN. Apply free at irs.gov or through ein.so for $49."
+title: "EIN in North Carolina: How to Apply for One (2026)"
+description: "Getting an EIN in North Carolina? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-north-carolina/"
 breadcrumbs:
   - name: "Home"

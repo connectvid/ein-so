@@ -1,6 +1,6 @@
 ---
-title: "ITIN vs SSN: Key Differences (2026)"
-description: "An ITIN is a tax-only ID issued by the IRS via Form W-7. An SSN provides work authorization and Social Security benefits. Compare ITIN vs SSN vs EIN, and see why non-resident business owners often need an EIN instead. ein.so files EINs for $49."
+title: "ITIN vs SSN: What's the Difference? (2026)"
+description: "ITIN vs SSN: an ITIN is for people who cannot get an SSN, mainly non-residents. See how they differ and which you need to file taxes. Compare the two."
 canonical: "/itin-vs-ssn/"
 breadcrumbs:
   - name: "Home"

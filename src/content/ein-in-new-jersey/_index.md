@@ -1,6 +1,6 @@
 ---
-title: "EIN in New Jersey: How to Apply (NJ) (2026)"
-description: "Get an EIN in New Jersey as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Apply free at irs.gov (SSN required) or through ein.so for $49 without an SSN."
+title: "EIN in New Jersey: How to Apply for One (2026)"
+description: "Need an EIN for a New Jersey LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the full steps to apply."
 canonical: "/ein-in-new-jersey/"
 breadcrumbs:
   - name: "Home"

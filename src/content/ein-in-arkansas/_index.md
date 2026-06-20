@@ -1,6 +1,6 @@
 ---
-title: "EIN in Arkansas: How to Apply (AR) (2026)"
-description: "Get an EIN in Arkansas as a US resident or non-resident. The EIN is a federal IRS number, not state-specific. Apply free at irs.gov (SSN required) or through ein.so for $49 using your passport number on Form SS-4."
+title: "EIN in Arkansas: How to Apply for One (2026)"
+description: "Need an EIN for a Arkansas LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-arkansas/"
 breadcrumbs:
   - name: "Home"

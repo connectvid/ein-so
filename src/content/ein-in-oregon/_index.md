@@ -1,6 +1,6 @@
 ---
-title: "EIN in Oregon: How to Apply (OR) (2026)"
-description: "Get an EIN in Oregon as a US resident or non-resident. The EIN is a federal IRS number, not state-specific. Apply free at irs.gov (SSN required) or through ein.so for $49 by Form SS-4 fax. Oregon has 4.75-9.9% state income tax."
+title: "EIN in Oregon: How to Apply for One (2026)"
+description: "Getting an EIN in Oregon? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-oregon/"
 breadcrumbs:
   - name: "Home"

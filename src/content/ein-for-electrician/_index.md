@@ -1,6 +1,6 @@
 ---
-title: "EIN for Electricians (2026)"
-description: "Electricians need an EIN for tax compliance, business banking, licensing, and payroll. Non-US electricians get one without an SSN by faxing Form SS-4. ein.so files it for $49."
+title: "EIN for Electricians: How to Apply (2026)"
+description: "Electricians need an EIN to hire, bill clients, and open a business account. Learn how to get an EIN for your electrical business. See the steps to apply."
 canonical: "/ein-for-electrician/"
 breadcrumbs:
   - name: "Home"

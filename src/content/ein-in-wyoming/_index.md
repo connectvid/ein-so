@@ -1,6 +1,6 @@
 ---
-title: "EIN in Wyoming: How to Apply (WY) (2026)"
-description: "Get an EIN for your Wyoming LLC as a non-US resident. The EIN is a federal IRS number, identical in every state. No SSN needed. ein.so files Form SS-4 for $49."
+title: "EIN in Wyoming: How to Apply for One (2026)"
+description: "Need an EIN for a Wyoming LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-wyoming/"
 breadcrumbs:
   - name: "Home"

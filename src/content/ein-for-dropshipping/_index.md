@@ -1,6 +1,6 @@
 ---
-title: "EIN for Dropshipping Business (2026)"
-description: "Dropshipping businesses need an EIN for sales tax registration, payment processing, and supplier accounts. Non-US residents apply with a passport on Form SS-4 Line 7b, no SSN needed. ein.so files it for $49 Standard or $97 Express."
+title: "EIN for Dropshipping: Apply With No SSN (2026)"
+description: "A dropshipping business needs an EIN for suppliers, banking, and payments. Learn how non-residents get an EIN for dropshipping with no SSN. See the steps."
 canonical: "/ein-for-dropshipping/"
 breadcrumbs:
   - name: "Home"

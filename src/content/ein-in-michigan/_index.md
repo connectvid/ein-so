@@ -1,6 +1,6 @@
 ---
-title: "EIN in Michigan: How to Apply (MI) (2026)"
-description: "Get an EIN for a Michigan business as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax with ein.so for $49. No SSN required."
+title: "EIN in Michigan: How to Apply for One (2026)"
+description: "Need an EIN for a Michigan LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-michigan/"
 breadcrumbs:
   - name: "Home"

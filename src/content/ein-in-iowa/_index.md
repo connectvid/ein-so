@@ -1,6 +1,6 @@
 ---
-title: "EIN in Iowa: How to Apply (IA) (2026)"
-description: "Get an EIN in Iowa as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 free at irs.gov (SSN required) or by fax to 855-215-1627. ein.so files it for non-residents for $49."
+title: "EIN in Iowa: How to Apply for One in 2026"
+description: "Getting an EIN in Iowa? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-iowa/"
 breadcrumbs:
   - name: "Home"

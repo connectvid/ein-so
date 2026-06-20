@@ -1,6 +1,6 @@
 ---
-title: "EIN for Barber Shop & Salon (2026)"
-description: "Barber shops and salons need an EIN for business licensing, employee payroll, booth rental, and commercial leases. Get your EIN with Form SS-4 - no SSN needed for non-residents. ein.so files it for $49."
+title: "EIN for a Barber Shop: How to Apply (2026)"
+description: "A barber shop needs an EIN to hire, open a business account, and file taxes. Learn how to get an EIN for your barber shop fast. See the steps to apply."
 canonical: "/ein-for-barber-shop/"
 breadcrumbs:
   - name: "Home"

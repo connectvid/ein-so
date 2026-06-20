@@ -1,6 +1,6 @@
 ---
-title: "EIN in Maine: How to Apply (ME) (2026)"
-description: "Get an EIN in Maine as a US or non-US resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax (855-215-1627) without an SSN. Apply free at irs.gov or through ein.so for $49."
+title: "EIN in Maine: How to Apply for One (2026)"
+description: "Getting an EIN in Maine? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-maine/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Bank of America Business Account (2026)"
-description: "Bank of America business accounts require an EIN and an in-person branch visit. Non-residents need an EIN first, then a US address and passport. ein.so files Form SS-4 for $49."
+title: "EIN for a Bank of America Business Account"
+description: "Open a Bank of America business account with your EIN. See the documents required and whether non-residents qualify with no SSN. Learn more here."
 canonical: "/ein-for-bank-of-america/"
 breadcrumbs:
   - name: "Home"

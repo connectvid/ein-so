@@ -1,6 +1,6 @@
 ---
-title: "EIN in Massachusetts: How to Apply (MA) (2026)"
-description: "Get an EIN in Massachusetts. The EIN is a federal IRS number, identical in every state. Non-residents apply with a passport, no SSN needed. Free at irs.gov or $49 via ein.so."
+title: "EIN in Massachusetts: How to Apply for One (2026)"
+description: "Getting an EIN in Massachusetts? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-massachusetts/"
 breadcrumbs:
   - name: "Home"

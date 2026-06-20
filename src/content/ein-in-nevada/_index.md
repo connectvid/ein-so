@@ -1,6 +1,6 @@
 ---
-title: "EIN in Nevada: How to Apply (NV) (2026)"
-description: "Get an EIN for a Nevada business or LLC. The EIN is a federal IRS number, identical in every state. Non-residents apply with a passport on Form SS-4. ein.so files it for $49."
+title: "EIN in Nevada: How to Apply for One (2026)"
+description: "Need an EIN for a Nevada LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-nevada/"
 breadcrumbs:
   - name: "Home"

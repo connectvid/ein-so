@@ -1,6 +1,6 @@
 ---
-title: "EIN for Writers & Authors (2026)"
-description: "Writers and authors get a US EIN for royalties, freelance income, and self-publishing. Step-by-step Form SS-4 guide for non-US writers, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Writers and Authors: Protect Your SSN"
+description: "Writers and authors can use an EIN on royalty and client forms instead of an SSN. Learn how to get an EIN for your writing business. See the steps now."
 canonical: "/ein-for-writers/"
 breadcrumbs:
   - name: "Home"

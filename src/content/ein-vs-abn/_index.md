@@ -1,6 +1,6 @@
 ---
-title: "EIN vs ABN: What Australian Business Owners Need for a US LLC"
-description: "Australian business owners forming a US LLC need a US EIN, not their ABN. See how the two differ, how the US-Australia tax treaty helps you avoid double taxation, and how to apply."
+title: "EIN vs ABN: US EIN vs Australian ABN (2026)"
+description: "EIN vs ABN: a US EIN is from the IRS, an ABN is from Australia. See how they differ and why Australians need both for a US LLC. Compare the differences."
 canonical: "/ein-vs-abn/"
 breadcrumbs:
   - name: "Home"

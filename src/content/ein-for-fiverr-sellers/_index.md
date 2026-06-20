@@ -1,6 +1,6 @@
 ---
-title: "EIN for Fiverr Sellers (2026)"
-description: "Fiverr sellers need a US EIN for tax compliance, business banking, and a professional seller identity. Get an EIN without an SSN by filing Form SS-4 with your passport number. ein.so files it for $49 Standard or $97 Express."
+title: "EIN for Fiverr Sellers: Keep Your SSN Private"
+description: "Fiverr sellers can use an EIN instead of an SSN to protect their identity and get paid. Learn how non-US sellers get an EIN with no SSN. See the steps."
 canonical: "/ein-for-fiverr-sellers/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN in Alaska: How to Apply (AK) (2026)"
-description: "Get an EIN in Alaska as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Non-residents file Form SS-4 by fax with no SSN. ein.so handles it for $49."
+title: "EIN in Alaska: How to Apply for One (2026)"
+description: "Need an EIN for a Alaska LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-alaska/"
 breadcrumbs:
   - name: "Home"

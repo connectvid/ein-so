@@ -1,6 +1,6 @@
 ---
-title: "Do Uber Drivers Need an EIN? (2026 Guide for Gig Workers)"
-description: "Uber drivers don't strictly need an EIN, but one keeps your SSN off W-9 forms and unlocks business banking. Guide for Uber, Lyft, DoorDash, Instacart & Amazon Flex drivers."
+title: "Do Uber Drivers Need an EIN? (2026 Guide)"
+description: "Uber drivers don't strictly need an EIN, but one keeps your SSN off the W-9. Learn when gig drivers need an EIN and how to get one. See the steps to apply."
 canonical: "/ein-for-uber-drivers/"
 breadcrumbs:
   - name: "Home"

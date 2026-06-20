@@ -1,6 +1,6 @@
 ---
-title: "EIN for Restaurants & Food Trucks (2026)"
-description: "Restaurants and food trucks need an EIN for tax filing, business banking, payroll, health permits, and vendor accounts. Step-by-step Form SS-4 guide for owners and non-US-resident restaurant founders. ein.so files it for $49."
+title: "EIN for a Restaurant: How to Apply (2026)"
+description: "A restaurant needs an EIN for payroll, licensing, and a business account. Learn how to get an EIN for your restaurant fast. See the steps to apply now."
 canonical: "/ein-for-restaurants/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN in West Virginia: How to Apply (WV) (2026)"
-description: "Get an EIN for a West Virginia LLC as a non-resident. The EIN is a federal IRS number, identical in every state. No SSN needed. Apply free at irs.gov or via ein.so for $49."
+title: "EIN in West Virginia: How to Apply for One (2026)"
+description: "Need an EIN for a West Virginia LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
 canonical: "/ein-in-west-virginia/"
 breadcrumbs:
   - name: "Home"

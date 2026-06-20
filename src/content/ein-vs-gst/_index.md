@@ -1,6 +1,6 @@
 ---
-title: "EIN vs GST Number: US vs International Tax IDs (2026)"
-description: "An EIN is a US federal tax ID from the IRS. A GST number is a Goods and Services Tax registration in India, Australia, Canada, and other countries. Compare issuer, format, cost, and use cases. ein.so files your EIN for $49."
+title: "EIN vs GST Number: What's the Difference?"
+description: "EIN vs GST: a US EIN is an IRS tax ID, a GST number is for India and Australia sales tax. See how they differ and which you need. Compare the differences."
 canonical: "/ein-vs-gst/"
 breadcrumbs:
   - name: "Home"

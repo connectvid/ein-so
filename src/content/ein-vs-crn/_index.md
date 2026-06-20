@@ -1,6 +1,6 @@
 ---
-title: "EIN vs CRN: US EIN vs UK Company Registration (2026)"
-description: "An EIN is a 9-digit US tax ID from the IRS. A CRN is an 8-digit Company Registration Number from UK Companies House. Compare issuer, format, use cases, and how UK founders get a US EIN for $49."
+title: "EIN vs CRN: US EIN vs UK Company Number (2026)"
+description: "EIN vs CRN: a US EIN is an IRS tax ID, a CRN is a UK company registration number. See how they differ and which you need. Compare the differences."
 canonical: "/ein-vs-crn/"
 breadcrumbs:
   - name: "Home"

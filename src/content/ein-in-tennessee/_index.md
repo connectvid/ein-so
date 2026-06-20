@@ -1,6 +1,6 @@
 ---
-title: "EIN in Tennessee: How to Apply (TN) (2026)"
-description: "Get an EIN in Tennessee as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Tennessee has no broad state income tax. Apply free at irs.gov or through ein.so for $49."
+title: "EIN in Tennessee: How to Apply for One (2026)"
+description: "Need an EIN for a Tennessee LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the full steps to apply."
 canonical: "/ein-in-tennessee/"
 breadcrumbs:
   - name: "Home"

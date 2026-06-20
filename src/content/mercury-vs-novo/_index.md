@@ -1,6 +1,6 @@
 ---
-title: "Mercury vs Novo: Business Bank Comparison (2026)"
-description: "Mercury suits startups and tech founders. Novo suits freelancers and small businesses. Both require an EIN to open. Non-residents can apply for an EIN at ein.so for $49."
+title: "Mercury vs Novo: Best Bank for an LLC (2026)"
+description: "Mercury vs Novo: compare fees, features, and non-resident access for your US LLC business account. See which one fits your business. Compare the options."
 canonical: "/mercury-vs-novo/"
 breadcrumbs:
   - name: "Home"

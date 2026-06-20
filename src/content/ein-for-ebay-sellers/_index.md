@@ -1,6 +1,6 @@
 ---
-title: "EIN for eBay Sellers (2026)"
-description: "eBay sellers need an EIN for tax compliance, business banking, and 1099-K reporting. Non-US sellers get a US EIN without an SSN using Form SS-4. Step-by-step guide for sole proprietors, LLCs, and international sellers. ein.so files it for $49."
+title: "EIN for eBay Sellers: How to Apply (2026)"
+description: "eBay reports seller income to the IRS, so an EIN keeps your SSN private. Learn how non-US eBay sellers get an EIN with no SSN. Apply now to get started."
 canonical: "/ein-for-ebay-sellers/"
 breadcrumbs:
   - name: "Home"

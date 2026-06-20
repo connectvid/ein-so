@@ -1,6 +1,6 @@
 ---
-title: "EIN in New York: How to Apply (NY) (2026)"
-description: "Get an EIN for your New York business or LLC. The EIN is a federal IRS number, identical in every state. Non-residents apply without an SSN using Form SS-4. ein.so files it for $49."
+title: "EIN in New York: How to Apply for One (2026)"
+description: "Need an EIN for a New York LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-new-york/"
 breadcrumbs:
   - name: "Home"

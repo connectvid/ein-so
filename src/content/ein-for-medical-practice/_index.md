@@ -1,6 +1,6 @@
 ---
-title: "EIN for Medical Practice & Doctors (2026)"
-description: "Medical practices and doctors need an EIN for Medicare and Medicaid enrollment, payroll, and insurance contracting. Step-by-step Form SS-4 guide for US and non-resident applicants. ein.so files it for $49."
+title: "EIN for a Medical Practice: Apply Online (2026)"
+description: "A medical practice needs an EIN for payroll, billing, and entity filing. Learn how to get an EIN for your medical practice fast. See the steps to apply."
 canonical: "/ein-for-medical-practice/"
 breadcrumbs:
   - name: "Home"

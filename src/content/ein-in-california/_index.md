@@ -1,6 +1,6 @@
 ---
-title: "EIN in California: How to Apply (CA) (2026)"
-description: "Get an EIN in California as a US resident or non-resident. The EIN is a federal number from the IRS, not state-specific. Apply free at irs.gov (SSN required) or through ein.so for $49 by fax (no SSN needed)."
+title: "EIN in California: How to Apply for One (2026)"
+description: "Getting an EIN in California? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-california/"
 breadcrumbs:
   - name: "Home"

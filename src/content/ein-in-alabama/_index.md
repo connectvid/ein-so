@@ -1,6 +1,6 @@
 ---
-title: "EIN in Alabama: How to Apply (AL) (2026)"
-description: "Get an EIN for an Alabama business or LLC. The EIN is a federal IRS number, identical in every state. Non-residents apply by fax with a passport, no SSN needed. Free at irs.gov or $49 through ein.so."
+title: "EIN in Alabama: How to Apply for One (2026)"
+description: "Getting an EIN in Alabama? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-alabama/"
 breadcrumbs:
   - name: "Home"

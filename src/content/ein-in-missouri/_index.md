@@ -1,6 +1,6 @@
 ---
-title: "EIN in Missouri: How to Apply (MO) (2026)"
-description: "Get an EIN in Missouri as a non-resident. The EIN is a federal IRS number, not state-specific. File Form SS-4 by fax with your passport, no SSN needed. ein.so files it for $49."
+title: "EIN in Missouri: How to Apply for One (2026)"
+description: "Getting an EIN in Missouri? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the full steps to apply."
 canonical: "/ein-in-missouri/"
 breadcrumbs:
   - name: "Home"

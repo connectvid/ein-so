@@ -1,6 +1,6 @@
 ---
-title: "EIN vs PAN: US vs India Tax IDs Compared (2026)"
-description: "An EIN is a US tax ID from the IRS. A PAN is a 10-character ID from India's Income Tax Department. Compare both tax identifiers, formats, and uses for cross-border business."
+title: "EIN vs PAN Card: US EIN vs Indian PAN (2026)"
+description: "EIN vs PAN: a US EIN is from the IRS, a PAN is India's tax ID. See how they differ and why Indians need an EIN for a US business. Compare the two here."
 canonical: "/ein-vs-pan/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Cleaning Business (2026)"
-description: "Cleaning businesses need an EIN for commercial contracts, employee payroll, business banking, and insurance. Step-by-step Form SS-4 guide for US and non-resident cleaning company owners. ein.so files it for $49."
+title: "EIN for a Cleaning Business: How to Apply"
+description: "A cleaning business needs an EIN to hire staff, open a bank account, and file taxes. Learn how to get an EIN for your cleaning company. See the steps."
 canonical: "/ein-for-cleaning-business/"
 breadcrumbs:
   - name: "Home"

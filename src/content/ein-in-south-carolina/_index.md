@@ -1,6 +1,6 @@
 ---
-title: "EIN in South Carolina: How to Apply (SC) (2026)"
-description: "Get an EIN in South Carolina without an SSN. The EIN is a federal IRS number, identical in every state. Form SS-4 guide for non-resident LLC owners, plus banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN in South Carolina: How to Apply for One (2026)"
+description: "Need an EIN for a South Carolina LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
 canonical: "/ein-in-south-carolina/"
 breadcrumbs:
   - name: "Home"

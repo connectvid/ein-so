@@ -1,6 +1,6 @@
 ---
-title: "EIN in Oklahoma: How to Apply (OK) (2026)"
-description: "Get an EIN in Oklahoma as a non-resident with no SSN. The EIN is a federal IRS number, identical in every state. File Form SS-4 by fax to 855-215-1627, or let ein.so handle it for $49 (4-7 days) or $97 Express (2-3 days)."
+title: "EIN in Oklahoma: How to Apply for One (2026)"
+description: "Need an EIN for a Oklahoma LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-oklahoma/"
 breadcrumbs:
   - name: "Home"

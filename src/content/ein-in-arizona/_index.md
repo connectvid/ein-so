@@ -1,6 +1,6 @@
 ---
-title: "EIN in Arizona: How to Apply (AZ) (2026)"
-description: "Get an EIN in Arizona as a non-resident. The EIN is a federal IRS number, not state-specific. File Form SS-4 by fax to 855-215-1627 with your passport number. Apply free at irs.gov or through ein.so for $49."
+title: "EIN in Arizona: How to Apply for One (2026)"
+description: "Getting an EIN in Arizona? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
 canonical: "/ein-in-arizona/"
 breadcrumbs:
   - name: "Home"

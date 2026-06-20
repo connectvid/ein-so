@@ -1,6 +1,6 @@
 ---
-title: "EIN for Musicians & Bands (2026)"
-description: "Musicians, bands, and music businesses get a US EIN for royalty payments, business banking, and tax compliance. Non-residents apply with a passport, no SSN. ein.so files Form SS-4 for $49."
+title: "EIN for Musicians: Protect Your SSN (2026)"
+description: "Musicians can use an EIN on royalty and venue paperwork instead of an SSN. Learn how to get an EIN for your music business. See the steps to apply now."
 canonical: "/ein-for-musicians/"
 breadcrumbs:
   - name: "Home"

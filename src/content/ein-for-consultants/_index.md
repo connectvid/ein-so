@@ -1,6 +1,6 @@
 ---
-title: "EIN for Consultants & Coaches (2026)"
-description: "Consultants and coaches get a US EIN to separate business from personal income, file W-9s, and open business banking. Non-residents apply with a passport, no SSN. ein.so files Form SS-4 for $49."
+title: "EIN for Consultants: Protect Your SSN (2026)"
+description: "Consultants can use an EIN instead of an SSN on W-9 forms and open a business account. Learn how to get an EIN as a consultant. See the steps to apply."
 canonical: "/ein-for-consultants/"
 breadcrumbs:
   - name: "Home"

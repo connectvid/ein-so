@@ -1,6 +1,6 @@
 ---
-title: "EIN for HVAC Business (2026)"
-description: "HVAC businesses need an EIN for tax filing, EPA Section 608 certification records, business banking, and payroll. Get an EIN with no SSN by filing Form SS-4. ein.so files it for $49."
+title: "EIN for an HVAC Company: How to Apply (2026)"
+description: "An HVAC company needs an EIN for payroll, licensing, and banking. Learn how to get an EIN for your HVAC business fast. See the steps to apply today now."
 canonical: "/ein-for-hvac/"
 breadcrumbs:
   - name: "Home"

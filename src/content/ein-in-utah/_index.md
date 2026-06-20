@@ -1,6 +1,6 @@
 ---
-title: "EIN in Utah: How to Apply (UT) (2026)"
-description: "Get an EIN in Utah as a non-resident. The EIN is a federal IRS number, not state-specific. File Form SS-4 by fax with a passport, no SSN needed. ein.so files it for $49."
+title: "EIN in Utah: How to Apply for One in 2026"
+description: "Need an EIN for a Utah LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-utah/"
 breadcrumbs:
   - name: "Home"

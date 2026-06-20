@@ -1,6 +1,6 @@
 ---
-title: "EIN for Property Management Company (2026)"
-description: "Property management companies need a US EIN for tenant security deposits, vendor 1099s, business banking, and tax reporting. Step-by-step Form SS-4 guide for US and non-resident owners. ein.so files it for $49."
+title: "EIN for Property Management: How to Apply"
+description: "A property management company needs an EIN for trust accounts, payroll, and tax. Learn how to get an EIN for property management. See the steps to apply."
 canonical: "/ein-for-property-management/"
 breadcrumbs:
   - name: "Home"

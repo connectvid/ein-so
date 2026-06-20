@@ -1,6 +1,6 @@
 ---
-title: "EIN in Minnesota: How to Apply (MN) (2026)"
-description: "Get an EIN in Minnesota as a non-resident without an SSN. The EIN is a federal IRS number, identical in every state. Form an LLC with the Minnesota Secretary of State, then file Form SS-4. ein.so files it for $49."
+title: "EIN in Minnesota: How to Apply for One (2026)"
+description: "Getting an EIN in Minnesota? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the full steps to apply."
 canonical: "/ein-in-minnesota/"
 breadcrumbs:
   - name: "Home"

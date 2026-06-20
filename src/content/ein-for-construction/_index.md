@@ -1,6 +1,6 @@
 ---
-title: "EIN for Construction Companies (2026)"
-description: "Construction companies need an EIN for bonding, licensing, subcontractor 1099s, payroll, and contract bidding. Non-US owners get one without an SSN via Form SS-4. ein.so files it for $49."
+title: "EIN for a Construction Company: How to Apply"
+description: "A construction company needs an EIN for payroll, subcontractors, and licensing. Learn how to get an EIN for your construction business. See the steps."
 canonical: "/ein-for-construction/"
 breadcrumbs:
   - name: "Home"

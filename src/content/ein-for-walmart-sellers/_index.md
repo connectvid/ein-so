@@ -1,6 +1,6 @@
 ---
-title: "EIN for Walmart Marketplace Sellers (2026)"
-description: "Walmart Marketplace requires a US tax ID. Non-US sellers get an EIN without an SSN by faxing Form SS-4 with a passport number on Line 7b. Covers seller registration, the W-9 tax interview, banking, and Form 5472. ein.so files it for $49."
+title: "EIN for Walmart Sellers: Tax Setup (2026)"
+description: "Walmart Marketplace requires a tax ID, so non-US sellers need an EIN. Learn how to get an EIN for Walmart selling with no SSN. Apply now to get started."
 canonical: "/ein-for-walmart-sellers/"
 breadcrumbs:
   - name: "Home"

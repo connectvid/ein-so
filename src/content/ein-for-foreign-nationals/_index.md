@@ -1,6 +1,6 @@
 ---
-title: "EIN for Foreign Nationals: International Guide (2026)"
-description: "Foreign nationals get a US EIN with Form SS-4 by fax to 855-215-1627. No SSN or ITIN needed. Use your passport number on Line 7b. ein.so files it for $49."
+title: "EIN for Foreign Nationals: Apply With No SSN"
+description: "Foreign nationals can get a US EIN with no SSN by filing Form SS-4 by fax. Learn how to apply for a US business EIN from abroad. Apply now to get started."
 canonical: "/ein-for-foreign-nationals/"
 breadcrumbs:
   - name: "Home"

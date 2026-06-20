@@ -1,6 +1,6 @@
 ---
-title: "EIN in Maryland: How to Apply (MD) (2026)"
-description: "Get an EIN in Maryland as a non-resident without an SSN. The EIN is a federal IRS number filed on Form SS-4 by fax to 855-215-1627. ein.so files it for $49 (4-7 days) or $97 Express (2-3 days)."
+title: "EIN in Maryland: How to Apply for One (2026)"
+description: "Need an EIN for a Maryland LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-maryland/"
 breadcrumbs:
   - name: "Home"

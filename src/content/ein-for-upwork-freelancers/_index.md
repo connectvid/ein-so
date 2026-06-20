@@ -1,6 +1,6 @@
 ---
-title: "EIN for Upwork Freelancers (2026)"
-description: "Upwork freelancers can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide covering the Upwork tax interview, business banking, 1099 thresholds, and an LLC for non-residents. ein.so files it for $49."
+title: "EIN for Upwork Freelancers: Protect Your SSN"
+description: "Upwork freelancers can use an EIN instead of an SSN on tax forms and get paid. Learn how non-US freelancers get an EIN with no SSN. See the steps to apply."
 canonical: "/ein-for-upwork-freelancers/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Plumbing Business (2026)"
-description: "Plumbing businesses need an EIN for licensing, payroll, business banking, and commercial accounts. Step-by-step Form SS-4 guide for US and non-resident plumbing owners. ein.so files it for $49."
+title: "EIN for a Plumbing Business: How to Apply"
+description: "A plumbing business needs an EIN to hire, bill clients, and meet licensing. Learn how to get an EIN for your plumbing company. See the steps to apply."
 canonical: "/ein-for-plumbing/"
 breadcrumbs:
   - name: "Home"

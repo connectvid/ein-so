@@ -1,6 +1,6 @@
 ---
-title: "EIN in Kansas: How to Apply (KS) (2026)"
-description: "Get an EIN in Kansas as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. Kansas has 3.1-5.7% state income tax. Free at irs.gov (SSN required) or via ein.so for $49 (no SSN needed)."
+title: "EIN in Kansas: How to Apply for One (2026)"
+description: "Need an EIN for a Kansas LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-kansas/"
 breadcrumbs:
   - name: "Home"

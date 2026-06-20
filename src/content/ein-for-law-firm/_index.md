@@ -1,6 +1,6 @@
 ---
-title: "EIN for Law Firms & Attorneys (2026)"
-description: "Law firms and attorneys need an EIN for IOLTA trust accounts, payroll, and state bar compliance. Step-by-step Form SS-4 guide for US and non-resident attorneys, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for a Law Firm or Legal Practice (2026)"
+description: "A law firm needs an EIN for its entity, payroll, and trust accounts. Learn how to get an EIN for your law firm or legal practice. See the steps to apply."
 canonical: "/ein-for-law-firm/"
 breadcrumbs:
   - name: "Home"

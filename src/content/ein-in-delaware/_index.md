@@ -1,6 +1,6 @@
 ---
-title: "EIN in Delaware: How to Apply (DE) (2026)"
-description: "Get an EIN in Delaware as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 without an SSN using your passport. ein.so files it for $49."
+title: "EIN in Delaware: How to Apply for One (2026)"
+description: "Need an EIN for a Delaware LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-delaware/"
 breadcrumbs:
   - name: "Home"

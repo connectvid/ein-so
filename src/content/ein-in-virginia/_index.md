@@ -1,6 +1,6 @@
 ---
-title: "EIN in Virginia: How to Apply (VA) (2026)"
-description: "Get an EIN in Virginia as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. File Form SS-4 with no SSN needed. ein.so files it for $49."
+title: "EIN in Virginia: How to Apply for One (2026)"
+description: "Need an EIN for a Virginia LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-virginia/"
 breadcrumbs:
   - name: "Home"

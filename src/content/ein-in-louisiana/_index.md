@@ -1,6 +1,6 @@
 ---
-title: "EIN in Louisiana: How to Apply (LA) (2026)"
-description: "Get an EIN in Louisiana. The EIN is a federal IRS number, identical in every state. Non-residents apply by fax with a passport on Form SS-4 Line 7b. Free at irs.gov or $49 through ein.so."
+title: "EIN in Louisiana: How to Apply for One (2026)"
+description: "Need an EIN for a Louisiana LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the full steps to apply."
 canonical: "/ein-in-louisiana/"
 breadcrumbs:
   - name: "Home"

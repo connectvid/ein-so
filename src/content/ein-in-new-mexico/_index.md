@@ -1,6 +1,6 @@
 ---
-title: "EIN in New Mexico: How to Apply (NM) (2026)"
-description: "Get an EIN in New Mexico as a US resident or non-resident. The EIN is a federal IRS number, identical in every state. No SSN needed via Form SS-4 fax. Free at irs.gov or $49 through ein.so."
+title: "EIN in New Mexico: How to Apply for One (2026)"
+description: "Getting an EIN in New Mexico? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
 canonical: "/ein-in-new-mexico/"
 breadcrumbs:
   - name: "Home"

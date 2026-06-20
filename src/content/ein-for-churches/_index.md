@@ -1,6 +1,6 @@
 ---
-title: "EIN for Churches & Religious Organizations (2026)"
-description: "Churches and religious organizations need an EIN for banking, payroll, and the 501(c)(3) tax-exempt application. The IRS issues the EIN free. Foreign founders apply by Form SS-4 fax with a passport. ein.so files it for $49."
+title: "EIN for a Church or Religious Nonprofit (2026)"
+description: "Every church needs an EIN for banking and payroll, even as a tax-exempt nonprofit. Learn how to get an EIN for your church with Form SS-4. See the steps."
 canonical: "/ein-for-churches/"
 breadcrumbs:
   - name: "Home"

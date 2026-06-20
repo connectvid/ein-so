@@ -1,6 +1,6 @@
 ---
-title: "EIN for Import Export Business (2026)"
-description: "Import/export businesses need a US EIN for customs clearance, freight forwarding, and international banking. Non-residents apply with a passport on Form SS-4 Line 7b, no SSN required. ein.so files it for $49."
+title: "EIN for an Import/Export Business: No SSN"
+description: "An import/export business needs an EIN for customs, banking, and payments. Learn how non-residents get an EIN for trade with no SSN. See the steps."
 canonical: "/ein-for-import-export/"
 breadcrumbs:
   - name: "Home"

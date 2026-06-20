@@ -1,6 +1,6 @@
 ---
-title: "EIN for Photographers (2026)"
-description: "Photographers need an EIN for client invoicing, equipment deductions, and business banking. Step-by-step Form SS-4 guide for US and non-resident photographers, plus pricing, processing times, and tax notes. ein.so files it for $49."
+title: "EIN for Photographers: Keep Your SSN Private"
+description: "Photographers can put an EIN on client W-9 forms instead of an SSN and open a business account. Learn how to get an EIN. See the steps to apply today."
 canonical: "/ein-for-photographers/"
 breadcrumbs:
   - name: "Home"

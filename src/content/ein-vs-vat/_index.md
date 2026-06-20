@@ -1,6 +1,6 @@
 ---
-title: "EIN vs VAT Number: US vs International Tax IDs (2026)"
-description: "An EIN is a US federal tax ID from the IRS. A VAT number is a Value Added Tax registration used across the EU, UK, and 170+ countries. Compare issuer, format, who needs each, and how non-residents get a US EIN for $49."
+title: "EIN vs VAT Number: What's the Difference?"
+description: "EIN vs VAT: a US EIN is an IRS tax ID, a VAT number is for EU and UK sales tax. See how they differ and why you may need both. Compare the differences."
 canonical: "/ein-vs-vat/"
 breadcrumbs:
   - name: "Home"

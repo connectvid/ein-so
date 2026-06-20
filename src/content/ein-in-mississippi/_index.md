@@ -1,6 +1,6 @@
 ---
-title: "EIN in Mississippi: How to Apply (MS) (2026)"
-description: "Get an EIN for a Mississippi business or LLC. The EIN is a federal IRS number, identical in every state. Non-residents apply by fax with a passport, no SSN needed. Free at irs.gov or $49 through ein.so."
+title: "EIN in Mississippi: How to Apply for One (2026)"
+description: "Need an EIN for a Mississippi LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
 canonical: "/ein-in-mississippi/"
 breadcrumbs:
   - name: "Home"

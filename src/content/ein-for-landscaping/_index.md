@@ -1,6 +1,6 @@
 ---
-title: "EIN for Landscaping Business (2026)"
-description: "Landscaping businesses need an EIN for commercial contracts, payroll, equipment financing, and business banking. Step-by-step Form SS-4 guide for landscapers and lawn care LLCs, including non-resident owners. ein.so files it for $49."
+title: "EIN for a Landscaping Business: How to Apply"
+description: "A landscaping business needs an EIN to hire crew, bill clients, and bank. Learn how to get an EIN for your landscaping company. See the steps to apply."
 canonical: "/ein-for-landscaping/"
 breadcrumbs:
   - name: "Home"

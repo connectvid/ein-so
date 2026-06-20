@@ -1,6 +1,6 @@
 ---
-title: "EIN for General Contractors & Construction (2026)"
-description: "General contractors and construction businesses need an EIN for tax filing, business banking, bonding, and subcontractor payments. Step-by-step Form SS-4 guide for US and non-resident contractors. ein.so files it for $49."
+title: "EIN for Independent Contractors: Apply Now"
+description: "Independent contractors use an EIN on W-9 forms to protect their SSN and separate business taxes. Learn how to get an EIN as a contractor. See the steps."
 canonical: "/ein-for-contractors/"
 breadcrumbs:
   - name: "Home"

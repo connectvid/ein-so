@@ -1,6 +1,6 @@
 ---
-title: "EIN in Montana: How to Apply (MT) (2026)"
-description: "Get an EIN in Montana as a non-US resident. The EIN is a federal IRS number, not state-specific. Apply free at irs.gov (SSN required) or file Form SS-4 through ein.so for $49. Montana has 1-6.75% state income tax."
+title: "EIN in Montana: How to Apply for One (2026)"
+description: "Need an EIN for a Montana LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
 canonical: "/ein-in-montana/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Graphic Designers (2026)"
-description: "Graphic designers need an EIN for client W-9s, business banking, and a separate business tax identity. Step-by-step Form SS-4 guide for US and non-resident designers, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Graphic Designers: Protect Your SSN"
+description: "Graphic designers can put an EIN on W-9 forms instead of an SSN and open a business account. Learn how to get an EIN as a designer. See the steps to apply."
 canonical: "/ein-for-graphic-designers/"
 breadcrumbs:
   - name: "Home"
