@@ -1,6 +1,6 @@
 ---
-title: "EIN for Freelancers: Protect Your SSN on W-9 Forms (2026)"
-description: "Freelancers use an EIN on W-9 forms instead of their SSN. Protect your identity and separate business from personal taxes."
+title: "EIN for Freelancers: Protect Your SSN (2026)"
+description: "Freelancers can use an EIN instead of an SSN on W-9 forms to protect their identity and separate business taxes. Learn how to get one. See the full guide."
 canonical: "/ein-for-freelancers/"
 breadcrumbs:
   - name: "Home"

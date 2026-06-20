@@ -1,6 +1,6 @@
 ---
-title: "EIN for Lebanese Entrepreneurs: Apply From Lebanon (2026)"
-description: "Lebanese entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Lebanese freelancers, Amazon sellers, and business owners, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Lebanon: Apply With No SSN (2026)"
+description: "Lebanon founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
 canonical: "/ein-for-lebanon/"
 breadcrumbs:
   - name: "Home"

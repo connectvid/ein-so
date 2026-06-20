@@ -1,6 +1,6 @@
 ---
-title: "EIN for Italian Entrepreneurs: Apply From Italy (2026)"
-description: "Italian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Italian artisans, fashion and food exporters, and Etsy/Amazon sellers, plus US-Italy tax treaty notes. ein.so files it for $49."
+title: "Get a US EIN From Italy With No SSN (2026)"
+description: "Italy founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-italy/"
 breadcrumbs:
   - name: "Home"

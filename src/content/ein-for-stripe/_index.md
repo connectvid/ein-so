@@ -1,6 +1,6 @@
 ---
-title: "EIN for Stripe: Accept US Payments as Non-Resident (2026)"
-description: "Stripe requires an EIN for US-based payment processing. Non-residents can use Atlas or provide an EIN directly."
+title: "EIN for Stripe: Accept US Payments (2026)"
+description: "Stripe needs an EIN for US payment processing. Non-residents can get an EIN to run Stripe on a US entity with no SSN. Get started in days. Apply now."
 canonical: "/ein-for-stripe/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Argentine Entrepreneurs: Apply From Argentina (2026)"
-description: "Argentine entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Argentine freelancers, Amazon sellers, and founders, plus banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Argentina: Apply With No SSN (2026)"
+description: "Argentina founders can get a US EIN to open a bank account, sell on Amazon, and use Stripe — no SSN, fully online. We file Form SS-4. Apply now today."
 canonical: "/ein-for-argentina/"
 breadcrumbs:
   - name: "Home"

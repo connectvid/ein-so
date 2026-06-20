@@ -1,6 +1,6 @@
 ---
-title: "EIN for Nonprofit Organization: How to Apply (2026)"
-description: "Every nonprofit needs an EIN before applying for 501(c)(3) status. Select 'Other nonprofit organization' on Form SS-4 line 9a. Non-US founders apply by fax. ein.so files it for $49."
+title: "EIN for a Nonprofit: Apply Before 501(c)(3)"
+description: "Every nonprofit needs an EIN before applying for 501(c)(3) status. Learn how to get an EIN for your nonprofit organization with Form SS-4. See the guide."
 canonical: "/ein-for-nonprofit/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Sole Proprietor: Do You Need One? (2026)"
-description: "Sole proprietors need an EIN if they hire employees, file excise tax returns, or have a Keogh plan. Learn when and how to apply."
+title: "EIN for Sole Proprietors: Do You Need One?"
+description: "Sole proprietors need an EIN to hire, file excise tax, or keep their SSN private. Learn when a sole proprietor needs one and how to apply. See the guide."
 canonical: "/ein-for-sole-proprietor/"
 breadcrumbs:
   - name: "Home"

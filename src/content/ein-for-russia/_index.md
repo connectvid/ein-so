@@ -1,6 +1,6 @@
 ---
-title: "EIN for Russian Entrepreneurs: Apply From Russia (2026)"
-description: "Russian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Russian freelancers, IT founders, and Amazon sellers, plus banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Russia Entrepreneurs: No SSN (2026)"
+description: "Russia founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
 canonical: "/ein-for-russia/"
 breadcrumbs:
   - name: "Home"

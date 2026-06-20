@@ -1,6 +1,6 @@
 ---
-title: "EIN for Trust: Irrevocable, Revocable & Post-Death Trust Guide (2026)"
-description: "When does a trust need its own EIN? Irrevocable trusts always need one. Revocable trusts need one after the grantor dies. Learn who the responsible party is and how to apply using Form SS-4."
+title: "EIN for a Trust: When Trusts Need One (2026)"
+description: "Irrevocable trusts always need an EIN; revocable trusts need one after the grantor dies. Learn which trusts need an EIN and how to apply. See the guide."
 canonical: "/ein-for-trust/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "Who Needs an EIN? Complete List of Entities (2026)"
-description: "Find out who needs an EIN in 2026. LLCs, corporations, nonprofits, partnerships, trusts, estates, sole proprietors, non-residents, Amazon sellers, and freelancers."
+title: "Who Needs an EIN? Full Eligibility Guide (2026)"
+description: "LLCs, corporations, nonprofits, partnerships, and non-resident founders all need an EIN. Check whether your business requires one. See the full guide."
 canonical: "/who-needs-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "Who Needs an EIN?"

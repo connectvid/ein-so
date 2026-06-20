@@ -1,6 +1,6 @@
 ---
-title: "EIN for French Entrepreneurs: Apply From France (2026)"
-description: "French entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for French freelancers, SaaS founders, and Amazon sellers, plus US-France tax treaty notes and banking. ein.so files it for $49."
+title: "EIN for France Entrepreneurs: No SSN (2026)"
+description: "France founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We handle the IRS Form SS-4 filing. Apply now today."
 canonical: "/ein-for-france/"
 breadcrumbs:
   - name: "Home"

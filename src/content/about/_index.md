@@ -1,6 +1,6 @@
 ---
-title: "About ein.so | EIN Service for Non-US Residents"
-description: "Learn about ein.so, the most affordable EIN service for non-US residents. We handle the SS-4 fax process so you don't have to. Just $49."
+title: "About Our EIN Filing Service for Non-Residents"
+description: "Learn how ein.so helps non-US residents get an EIN. We file IRS Form SS-4 by fax so you skip the paperwork and get your tax ID fast. See how it works."
 canonical: "/about/"
 breadcrumbs:
   - name: "Home"

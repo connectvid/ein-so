@@ -1,6 +1,6 @@
 ---
-title: "EIN for Turkish Entrepreneurs: Apply From Turkey (2026)"
-description: "Turkish entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Turkish freelancers, Amazon sellers, and business owners, plus US banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Turkey Entrepreneurs: No SSN (2026)"
+description: "Turkey founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-turkey/"
 breadcrumbs:
   - name: "Home"

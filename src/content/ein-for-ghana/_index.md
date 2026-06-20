@@ -1,6 +1,6 @@
 ---
-title: "EIN for Ghanaian Entrepreneurs: Apply From Ghana (2026)"
-description: "Ghanaian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Ghanaian freelancers, Amazon sellers, and founders, plus US banking, payments, and Form 5472 notes. ein.so files it for $49."
+title: "Get a US EIN From Ghana With No SSN (2026)"
+description: "Ghana entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now today."
 canonical: "/ein-for-ghana/"
 breadcrumbs:
   - name: "Home"

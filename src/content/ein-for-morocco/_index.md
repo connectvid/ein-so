@@ -1,6 +1,6 @@
 ---
-title: "EIN for Moroccan Entrepreneurs: Apply From Morocco (2026)"
-description: "Moroccan entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Moroccan freelancers, Amazon sellers, and business owners, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Morocco: Apply With No SSN (2026)"
+description: "Morocco founders can get a US EIN with no SSN to invoice US clients, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to begin."
 canonical: "/ein-for-morocco/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Polish Entrepreneurs: Apply From Poland (2026)"
-description: "Polish entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Polish freelancers, IT contractors, and Amazon sellers, plus banking, payments, and US tax compliance notes. ein.so files it for $49."
+title: "EIN for Poland Entrepreneurs: No SSN (2026)"
+description: "Poland founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started now."
 canonical: "/ein-for-poland/"
 breadcrumbs:
   - name: "Home"

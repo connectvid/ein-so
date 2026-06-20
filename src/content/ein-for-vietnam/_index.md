@@ -1,6 +1,6 @@
 ---
-title: "EIN for Vietnamese Entrepreneurs: Apply From Vietnam (2026)"
-description: "Vietnamese entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Vietnamese freelancers, Amazon sellers, and manufacturers, plus banking and payment setup. ein.so files it for $49."
+title: "EIN for Vietnam: Apply With No SSN (2026)"
+description: "Vietnam founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-vietnam/"
 breadcrumbs:
   - name: "Home"

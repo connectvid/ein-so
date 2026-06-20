@@ -1,6 +1,6 @@
 ---
-title: "EIN for Partnership: Required for All Partnerships (2026)"
-description: "Every US partnership needs an EIN to file Form 1065 and issue K-1s. Step-by-step SS-4 guide for general partnerships, LPs, LLPs, and foreign-owned multi-member LLCs. ein.so files it for $49."
+title: "EIN for a Partnership: Required for Form 1065"
+description: "Every partnership needs an EIN to file Form 1065, open a bank account, and issue K-1s. Learn how to get one for your partnership fast. See the full guide."
 canonical: "/ein-for-partnership/"
 breadcrumbs:
   - name: "Home"

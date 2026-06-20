@@ -1,6 +1,6 @@
 ---
-title: "EIN for Hiring Employees: Payroll Tax Requirements (2026)"
-description: "You must have an EIN before hiring your first employee. Required for Form 941, W-2s, and state payroll tax registration."
+title: "EIN for Hiring Employees: Payroll Tax Guide"
+description: "You need an EIN before hiring your first employee for payroll taxes, Form 941, and W-2s. Learn the employer EIN requirements step by step. See the guide."
 canonical: "/ein-for-hiring-employees/"
 breadcrumbs:
   - name: "Home"

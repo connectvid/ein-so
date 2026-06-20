@@ -1,6 +1,6 @@
 ---
-title: "Business Banking With EIN: Complete Guide (2026)"
-description: "Open a US business bank account with your EIN as a non-resident. Compare Mercury, Relay, Novo, Wise, and Chase, and learn how to get an EIN for $49."
+title: "US Business Banking for Non-Residents (2026)"
+description: "Open US business banking as a non-resident with your EIN. Compare Mercury, Relay, Wise, and Brex and see which accept an EIN with no SSN. Learn more here."
 canonical: "/banking/"
 breadcrumbs:
   - name: "Home"

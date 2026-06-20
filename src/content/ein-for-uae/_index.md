@@ -1,6 +1,6 @@
 ---
-title: "EIN for UAE Entrepreneurs: Apply From Dubai & UAE (2026)"
-description: "UAE and Dubai entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for free-zone founders, e-commerce sellers, and traders, plus US-UAE tax notes and banking. ein.so files it for $49."
+title: "EIN for UAE & Dubai: Apply With No SSN (2026)"
+description: "UAE and Dubai founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-uae/"
 breadcrumbs:
   - name: "Home"

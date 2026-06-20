@@ -1,6 +1,6 @@
 ---
-title: "EIN for Saudi Entrepreneurs: Apply From Saudi Arabia (2026)"
-description: "Saudi entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Saudi freelancers, Amazon sellers, and Vision 2030 founders, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Saudi Arabia: Apply With No SSN (2026)"
+description: "Saudi Arabia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-saudi-arabia/"
 breadcrumbs:
   - name: "Home"

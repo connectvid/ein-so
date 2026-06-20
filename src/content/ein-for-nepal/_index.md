@@ -1,6 +1,6 @@
 ---
-title: "EIN for Nepalese Entrepreneurs: Apply From Nepal (2026)"
-description: "Nepalese entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Nepalese freelancers, IT contractors, and Amazon sellers, plus banking, payments, and US tax notes. ein.so files it for $49."
+title: "EIN for Nepal Entrepreneurs: No SSN (2026)"
+description: "Nepal entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now to start."
 canonical: "/ein-for-nepal/"
 breadcrumbs:
   - name: "Home"

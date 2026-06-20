@@ -1,6 +1,6 @@
 ---
 title: "EIN vs TIN: What's the Difference? (2026)"
-description: "TIN (Taxpayer Identification Number) is the general term. EIN, SSN, and ITIN are all types of TINs. Learn which one your business needs."
+description: "EIN vs TIN: a TIN is the general term; EIN, SSN, and ITIN are all types of TIN. See how they compare and which your business needs. Compare the options."
 canonical: "/ein-vs-tin/"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs TIN:"

@@ -1,6 +1,6 @@
 ---
-title: "How to Get an EIN Number (2026) | Step-by-Step Guide"
-description: "Learn how to get an EIN number in 2026. Three methods explained: online, fax (Form SS-4), and phone. Step-by-step guide for US residents and non-residents."
+title: "How to Get an EIN Number: 3 Methods (2026)"
+description: "Learn how to get an EIN in 2026 by online, fax, or phone. Step-by-step Form SS-4 instructions for US residents and non-residents alike. See the guide."
 canonical: "/how-to-get-ein/"
 heroLabel: "Step-by-Step Guide"
 heroTitle: "How to Get an EIN Number"

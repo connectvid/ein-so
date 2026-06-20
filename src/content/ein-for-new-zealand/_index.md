@@ -1,6 +1,6 @@
 ---
-title: "EIN for New Zealand Entrepreneurs: Apply From New Zealand (2026)"
-description: "New Zealand entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Kiwi freelancers, SaaS founders, and Amazon sellers, plus US banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for New Zealand: Apply With No SSN (2026)"
+description: "New Zealand founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-new-zealand/"
 breadcrumbs:
   - name: "Home"

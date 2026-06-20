@@ -1,6 +1,6 @@
 ---
-title: "EIN for Japanese Entrepreneurs: Apply From Japan (2026)"
-description: "Japanese entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Japanese freelancers, Amazon sellers, and SaaS founders, plus US-Japan tax treaty notes and US banking. ein.so files it for $49."
+title: "Get a US EIN From Japan With No SSN (2026)"
+description: "Japan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-japan/"
 breadcrumbs:
   - name: "Home"

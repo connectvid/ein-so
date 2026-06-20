@@ -1,6 +1,6 @@
 ---
-title: "EIN for Colombian Entrepreneurs: Apply From Colombia (2026)"
-description: "Colombian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Colombian freelancers, Amazon sellers, and business owners, plus US banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Colombia: Apply With No SSN (2026)"
+description: "Colombia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-colombia/"
 breadcrumbs:
   - name: "Home"

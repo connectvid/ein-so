@@ -1,6 +1,6 @@
 ---
-title: "EIN for Real Estate Investors: LLC & FIRPTA Guide (2026)"
-description: "Real estate investors need an EIN for their LLC, rental income reporting, and FIRPTA compliance. Non-resident investors: apply by fax."
+title: "EIN for Real Estate Investors: LLC & FIRPTA"
+description: "Real estate investors need an EIN for their LLC, rental income, and FIRPTA compliance. Learn how non-resident investors apply with no SSN. See the guide."
 canonical: "/ein-for-real-estate-investors/"
 breadcrumbs:
   - name: "Home"

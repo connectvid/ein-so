@@ -1,6 +1,6 @@
 ---
-title: "EIN for Ukrainian Entrepreneurs: Apply From Ukraine (2026)"
-description: "Ukrainian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Ukrainian IT freelancers, SaaS founders, and Amazon sellers, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Ukraine: Apply With No SSN (2026)"
+description: "Ukraine founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to get started now."
 canonical: "/ein-for-ukraine/"
 breadcrumbs:
   - name: "Home"

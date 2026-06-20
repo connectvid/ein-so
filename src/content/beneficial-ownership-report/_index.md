@@ -1,6 +1,6 @@
 ---
-title: "Beneficial Ownership Information Report Guide (2026)"
-description: "A BOI report discloses a company's beneficial owners to FinCEN under the Corporate Transparency Act. Covers who must file, the EIN requirement, deadlines, penalties, and the free fincen.gov/boi process. ein.so files your Form SS-4 EIN for $49."
+title: "Beneficial Ownership Information Report (2026)"
+description: "The Beneficial Ownership Information report tells FinCEN who owns your company. Learn who must file, the deadlines, and the BOI penalties. See the guide."
 canonical: "/beneficial-ownership-report/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Cambodian Entrepreneurs: Apply From Cambodia (2026)"
-description: "Cambodian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Cambodian freelancers, Amazon sellers, and founders, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Cambodia: Apply With No SSN (2026)"
+description: "Cambodia entrepreneurs can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We handle Form SS-4. Apply now today."
 canonical: "/ein-for-cambodia/"
 breadcrumbs:
   - name: "Home"

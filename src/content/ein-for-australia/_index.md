@@ -1,6 +1,6 @@
 ---
-title: "EIN for Australian Entrepreneurs: Apply From Australia (2026)"
-description: "Australian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Australian freelancers, SaaS founders, and Amazon sellers, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Australia — Apply From Abroad (2026)"
+description: "Australian founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We handle the IRS Form SS-4 filing. Apply now today."
 canonical: "/ein-for-australia/"
 breadcrumbs:
   - name: "Home"

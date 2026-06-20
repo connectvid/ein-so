@@ -1,6 +1,6 @@
 ---
-title: "SS-4 Instructions: Line-by-Line Guide to Every Field (2026)"
-description: "Step-by-step SS-4 form instructions for all 18 fields. Covers LLCs, trusts, estates, non-profits, and non-residents filing by fax. Updated May 2026 with current IRS requirements."
+title: "How to Fill Out IRS Form SS-4 Line by Line"
+description: "Fill out IRS Form SS-4 line by line with this 2026 guide. Exactly what non-residents enter in each field to get an EIN with no SSN. See the full guide."
 canonical: "/ss4-form-guide/"
 heroLabel: "Line-by-Line Instructions"
 heroTitle: "IRS Form SS-4 Instructions:"

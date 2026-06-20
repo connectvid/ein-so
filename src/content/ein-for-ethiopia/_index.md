@@ -1,6 +1,6 @@
 ---
-title: "EIN for Ethiopian Entrepreneurs: Apply From Ethiopia (2026)"
-description: "Ethiopian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Ethiopian freelancers, Amazon sellers, and founders, plus banking, payments, and tax notes. ein.so files it for $49."
+title: "EIN for Ethiopia: Apply With No SSN (2026)"
+description: "Ethiopia founders can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We file Form SS-4 by fax. Apply now to start."
 canonical: "/ein-for-ethiopia/"
 breadcrumbs:
   - name: "Home"

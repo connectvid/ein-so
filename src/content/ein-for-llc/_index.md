@@ -1,6 +1,6 @@
 ---
-title: "EIN for LLC: Do You Need One? How to Apply (2026)"
-description: "Every LLC needs an EIN for tax filing, banking, and hiring. Learn how to get an EIN for your LLC in 2026, single-member vs multi-member requirements, and BOI filing obligations."
+title: "EIN for LLC: Do You Need One & How to Apply"
+description: "Every US LLC needs an EIN for taxes, banking, and hiring. Learn how to get an EIN for your LLC in 2026, even as a non-resident with no SSN. See the guide."
 canonical: "/ein-for-llc/"
 breadcrumbs:
   - name: "Home"

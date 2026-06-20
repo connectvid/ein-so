@@ -1,6 +1,6 @@
 ---
-title: "Contact ein.so | EIN Help & Support"
-description: "Get in touch with ein.so for help with your EIN application. Reach us on WhatsApp or email. We respond within hours, not days."
+title: "Contact Our EIN Support Team — WhatsApp & Email"
+description: "Contact the ein.so support team by WhatsApp or email for help with your EIN application. We reply within 2 hours on business days. Get in touch today."
 canonical: "/contact/"
 breadcrumbs:
   - name: "Home"

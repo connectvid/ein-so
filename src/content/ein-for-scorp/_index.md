@@ -1,6 +1,6 @@
 ---
-title: "EIN for S-Corp: How to Apply After S-Corp Election (2026)"
-description: "S-Corps use the same EIN as the original entity. You do not need a new EIN after filing Form 2553 for S-Corp election."
+title: "EIN for an S-Corp: Do You Need a New One?"
+description: "An S-corp uses the same EIN as the original entity — no new EIN after Form 2553. Learn how the EIN works after an S-corp election. See the full guide."
 canonical: "/ein-for-scorp/"
 breadcrumbs:
   - name: "Home"

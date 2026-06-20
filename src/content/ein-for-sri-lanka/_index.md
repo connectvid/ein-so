@@ -1,6 +1,6 @@
 ---
-title: "EIN for Sri Lankan Entrepreneurs: Apply From Sri Lanka (2026)"
-description: "Sri Lankan entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for IT freelancers, Amazon sellers, and exporters, plus US banking and tax notes. ein.so files it for $49."
+title: "EIN for Sri Lanka: Apply With No SSN (2026)"
+description: "Sri Lanka founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-sri-lanka/"
 breadcrumbs:
   - name: "Home"

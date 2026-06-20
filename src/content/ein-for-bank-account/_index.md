@@ -1,6 +1,6 @@
 ---
-title: "EIN for Bank Account: Open a US Business Bank Account (2026 Guide)"
-description: "Open a US business bank account with your EIN — no SSN required. Non-US founders can use Mercury, Relay, Brex, or Wise 100% online. See which banks accept EIN only."
+title: "EIN for a US Business Bank Account (2026)"
+description: "You need an EIN to open a US business bank account. See which banks accept an EIN with no SSN — Mercury, Relay, Brex, Wise — and how to apply. Learn more."
 canonical: "/ein-for-bank-account/"
 breadcrumbs:
   - name: "Home"

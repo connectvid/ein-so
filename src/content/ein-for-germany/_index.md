@@ -1,6 +1,6 @@
 ---
-title: "EIN for German Entrepreneurs: US Market Entry (2026)"
-description: "German entrepreneurs can get a US EIN without an SSN. Learn how Amazon FBA sellers, GmbH owners, and EU businesses from Germany apply for an EIN. ein.so handles it for $49."
+title: "EIN for Germany: Apply With No SSN (2026)"
+description: "Germany founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-germany/"
 breadcrumbs:
   - name: "Home"

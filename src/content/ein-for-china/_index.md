@@ -1,6 +1,6 @@
 ---
-title: "EIN for Chinese Entrepreneurs: US Business Guide (2026)"
-description: "Chinese entrepreneurs can get a US EIN without an SSN. Learn how Amazon sellers, manufacturers, and exporters from China apply for an EIN. ein.so handles it for $49."
+title: "Get a US EIN From China With No SSN (2026)"
+description: "China sellers can get a US EIN with no SSN for Amazon, US banking, and payment processing, fully online. We handle the IRS Form SS-4 filing. Apply now."
 canonical: "/ein-for-china/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Egyptian Entrepreneurs: Apply From Egypt (2026)"
-description: "Egyptian entrepreneurs get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Egyptian freelancers, Amazon sellers, and founders, plus US banking, payments, and Form 5472 notes. ein.so files it for $49."
+title: "Get a US EIN From Egypt With No SSN (2026)"
+description: "Egypt entrepreneurs can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We handle the IRS Form SS-4 filing. Apply now now."
 canonical: "/ein-for-egypt/"
 breadcrumbs:
   - name: "Home"

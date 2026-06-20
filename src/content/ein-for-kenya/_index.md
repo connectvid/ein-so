@@ -1,6 +1,6 @@
 ---
-title: "EIN for Kenyan Entrepreneurs: Apply From Kenya (2026)"
-description: "Kenyan entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Kenyan freelancers, Amazon sellers, and SaaS founders, plus US banking and payments. ein.so files it for $49."
+title: "Get a US EIN From Kenya With No SSN (2026)"
+description: "Kenya entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now today."
 canonical: "/ein-for-kenya/"
 breadcrumbs:
   - name: "Home"

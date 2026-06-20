@@ -1,6 +1,6 @@
 ---
-title: "EIN for Iranian Entrepreneurs: Apply From Iran (2026)"
-description: "Iranian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Iranian freelancers, e-commerce sellers, and founders, plus banking, payments, and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Iran Entrepreneurs: No SSN (2026)"
+description: "Iran entrepreneurs can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
 canonical: "/ein-for-iran/"
 breadcrumbs:
   - name: "Home"

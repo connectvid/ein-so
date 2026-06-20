@@ -1,6 +1,6 @@
 ---
-title: "EIN for Brazilian Entrepreneurs: US Business Guide (2026)"
-description: "Brazilian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Brazilian Amazon sellers, e-commerce founders, and real estate investors, plus CNPJ vs EIN and banking. ein.so files it for $49."
+title: "EIN for Brazil Entrepreneurs: No SSN (2026)"
+description: "Brazil founders can get a US EIN with no SSN to sell on Amazon, open US banking, and use Stripe, fully online. We file Form SS-4 fast. Apply now today."
 canonical: "/ein-for-brazil/"
 breadcrumbs:
   - name: "Home"

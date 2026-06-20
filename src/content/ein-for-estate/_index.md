@@ -1,6 +1,6 @@
 ---
-title: "EIN for Estate of Deceased Person: Free IRS Application Guide (2026)"
-description: "Get a free EIN for the estate of a deceased person from the IRS. The executor or personal representative files Form SS-4 online, by fax, or by phone. Takes 4-15 business days. Step-by-step 2026 guide."
+title: "EIN for an Estate of a Deceased Person (2026)"
+description: "An estate needs its own EIN for tax filing and distributing assets. Learn how the executor gets an EIN for an estate with Form SS-4. See the full guide."
 canonical: "/ein-for-estate/"
 breadcrumbs:
   - name: "Home"

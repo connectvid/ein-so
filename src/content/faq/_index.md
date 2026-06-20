@@ -1,6 +1,6 @@
 ---
-title: "EIN FAQ 2026 | All EIN Questions Answered"
-description: "Comprehensive FAQ about EIN numbers for non-US residents. Learn about the application process, requirements, costs, and what to do after receiving your EIN."
+title: "EIN FAQ — Common Questions, Answered (2026)"
+description: "Answers to common EIN questions: cost, processing time, no-SSN applications, and what to do after approval. See what non-residents need. Learn more."
 canonical: "/faq/"
 breadcrumbs:
   - name: "Home"

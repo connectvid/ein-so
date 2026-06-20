@@ -1,6 +1,6 @@
 ---
-title: "EIN for Israeli Entrepreneurs: Apply From Israel (2026)"
-description: "Israeli entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Israeli startup founders, Amazon sellers, and freelancers, plus US banking and payment processing. ein.so files it for $49."
+title: "EIN for Israel Entrepreneurs: No SSN (2026)"
+description: "Israel founders can get a US EIN with no SSN for SaaS, US banking, and Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now to start now."
 canonical: "/ein-for-israel/"
 breadcrumbs:
   - name: "Home"

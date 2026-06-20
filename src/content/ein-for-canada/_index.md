@@ -1,6 +1,6 @@
 ---
-title: "EIN for Canadians: Cross-Border Business Guide (2026)"
-description: "Canadian entrepreneurs can get a US EIN without an SSN. Learn how to apply from Canada for cross-border e-commerce, Amazon.com selling, and US banking. ein.so handles it for $49."
+title: "EIN for Canada Entrepreneurs: No SSN (2026)"
+description: "Canadian founders can get a US EIN with no SSN for cross-border business, US banking, and Amazon sales, fully online. We file Form SS-4. Apply now today."
 canonical: "/ein-for-canada/"
 breadcrumbs:
   - name: "Home"

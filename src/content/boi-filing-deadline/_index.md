@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Deadline 2026: When Is Your Report Due?"
-description: "BOI filing deadlines depend on when your company was formed. Pre-2024 companies: Jan 1, 2025. 2024 companies: 90 days. 2025+ companies: 30 days. $500/day penalty for missing your deadline."
+title: "BOI Filing Deadline: When Your Report Is Due"
+description: "BOI filing deadlines: new companies file within 90 days of formation. Miss it and FinCEN charges $500/day. See every BOI due date for 2026. Learn more."
 canonical: "/boi-filing-deadline/"
 breadcrumbs:
   - name: "Home"

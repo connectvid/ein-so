@@ -1,6 +1,6 @@
 ---
-title: "EIN for Jordanian Entrepreneurs: Apply From Jordan (2026)"
-description: "Jordanian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Jordanian freelancers, Amazon sellers, and business owners, plus US banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Jordan Entrepreneurs: No SSN (2026)"
+description: "Jordan entrepreneurs can get a US EIN with no SSN to bank, freelance, and accept US payments online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-jordan/"
 breadcrumbs:
   - name: "Home"

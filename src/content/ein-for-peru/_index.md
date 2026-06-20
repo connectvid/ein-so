@@ -1,6 +1,6 @@
 ---
-title: "EIN for Peruvian Entrepreneurs: Apply From Peru (2026)"
-description: "Peruvian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Peruvian freelancers, Amazon sellers, and business owners, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Peru Entrepreneurs: No SSN (2026)"
+description: "Peru entrepreneurs can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-peru/"
 breadcrumbs:
   - name: "Home"

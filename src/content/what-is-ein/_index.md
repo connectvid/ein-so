@@ -1,6 +1,6 @@
 ---
-title: "What Is an EIN Number? Complete Guide 2026"
-description: "An EIN (Employer Identification Number) is a 9-digit tax ID issued by the IRS. Learn what an EIN is, who needs one, and how to apply in our 2026 guide."
+title: "What Is an EIN Number? Meaning & Uses (2026)"
+description: "An EIN is a 9-digit IRS tax ID for businesses, written XX-XXXXXXX. Learn what an EIN is, who needs one, and how to get yours as a non-resident. Read more."
 canonical: "/what-is-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "What Is an EIN Number?"

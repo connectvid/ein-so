@@ -1,6 +1,6 @@
 ---
-title: "EIN for South African Entrepreneurs: Apply From South Africa (2026)"
-description: "South African entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for South African freelancers, Amazon sellers, and founders, plus US banking, payment processing, and Form 5472 notes. ein.so files it for $49."
+title: "EIN for South Africa: Apply With No SSN (2026)"
+description: "South Africa founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-south-africa/"
 breadcrumbs:
   - name: "Home"

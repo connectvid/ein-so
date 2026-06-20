@@ -1,6 +1,6 @@
 ---
-title: "EIN for Malaysian Entrepreneurs: Apply From Malaysia (2026)"
-description: "Malaysian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Malaysian freelancers, Amazon sellers, and SaaS founders, plus banking, payments, and US tax notes. ein.so files it for $49."
+title: "EIN for Malaysia: Apply With No SSN (2026)"
+description: "Malaysia founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-malaysia/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "How to Get an EIN Without an SSN (2026) | Non-Resident Guide"
-description: "Non-US residents can get an EIN without an SSN by faxing Form SS-4 to the IRS. Learn the step-by-step process, required documents, and why the online method does not work."
+title: "Get an EIN Without an SSN — Non-Resident Guide"
+description: "Non-US residents can get an EIN without an SSN by filing Form SS-4 by fax with a passport. Learn the exact steps and avoid common rejections. Read more."
 canonical: "/ein-without-ssn/"
 breadcrumbs:
   - name: "Home"

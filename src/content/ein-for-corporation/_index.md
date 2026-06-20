@@ -1,6 +1,6 @@
 ---
-title: "EIN for Corporation: How to Apply (2026 Guide)"
-description: "Every C-Corp and S-Corp needs an EIN for tax filing, payroll, and banking. US founders apply online; non-residents file Form SS-4 by fax. ein.so files it for $49."
+title: "EIN for a Corporation: How to Apply (2026)"
+description: "Every corporation needs an EIN for tax filing, payroll, and banking. Learn how to get one for your C-corp or S-corp as a non-resident. See the full guide."
 canonical: "/ein-for-corporation/"
 breadcrumbs:
   - name: "Home"

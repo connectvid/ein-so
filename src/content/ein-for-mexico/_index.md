@@ -1,6 +1,6 @@
 ---
-title: "EIN for Mexican Entrepreneurs: Cross-Border Guide (2026)"
-description: "Mexican entrepreneurs can get a US EIN without an SSN. Learn how to apply from Mexico for USMCA trade, cross-border commerce, and Amazon expansion. ein.so handles it for $49."
+title: "EIN for Mexico Entrepreneurs: No SSN (2026)"
+description: "Mexico founders can get a US EIN with no SSN for cross-border e-commerce, US banking, and Amazon, fully online. We file Form SS-4. Apply now to start now."
 canonical: "/ein-for-mexico/"
 breadcrumbs:
   - name: "Home"

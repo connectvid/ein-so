@@ -1,6 +1,6 @@
 ---
-title: "EIN for Indonesian Entrepreneurs: Apply From Indonesia (2026)"
-description: "Indonesian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Indonesian freelancers, Amazon sellers, and dropshippers, plus US banking and Form 5472 notes. ein.so files it for $49."
+title: "EIN for Indonesia: Apply With No SSN (2026)"
+description: "Indonesia founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-indonesia/"
 breadcrumbs:
   - name: "Home"

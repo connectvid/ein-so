@@ -1,6 +1,6 @@
 ---
-title: "EIN for Amazon Sellers: Required for FBA & Seller Central (2026)"
-description: "Amazon Seller Central requires an EIN for the tax interview. Learn how to get an EIN for Amazon FBA, complete the tax interview, and start selling. Non-US sellers welcome."
+title: "EIN for Amazon Sellers: FBA Tax Setup (2026)"
+description: "Amazon requires an EIN for the Seller Central tax interview. Non-US FBA sellers can get one without an SSN, fully online. Get yours in days. Apply now."
 canonical: "/ein-for-amazon-sellers/"
 heroLabel: "Amazon Sellers"
 heroTitle: "EIN for Amazon Sellers:"

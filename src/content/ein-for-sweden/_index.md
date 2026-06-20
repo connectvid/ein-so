@@ -1,6 +1,6 @@
 ---
-title: "EIN for Swedish Entrepreneurs: Apply From Sweden (2026)"
-description: "Swedish entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Swedish freelancers, SaaS founders, and Amazon sellers, plus banking and payment setup. ein.so files it for $49."
+title: "EIN for Sweden Entrepreneurs: No SSN (2026)"
+description: "Sweden founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started now."
 canonical: "/ein-for-sweden/"
 breadcrumbs:
   - name: "Home"

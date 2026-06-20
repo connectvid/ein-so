@@ -1,6 +1,6 @@
 ---
-title: "EIN for Tunisian Entrepreneurs: Apply From Tunisia (2026)"
-description: "Tunisian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Tunisian freelancers, Amazon sellers, and SaaS founders, plus US banking and payment setup. ein.so files it for $49."
+title: "EIN for Tunisia: Apply With No SSN (2026)"
+description: "Tunisia founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now to start."
 canonical: "/ein-for-tunisia/"
 breadcrumbs:
   - name: "Home"

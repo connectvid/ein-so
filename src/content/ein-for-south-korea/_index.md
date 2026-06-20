@@ -1,6 +1,6 @@
 ---
-title: "EIN for South Korean Entrepreneurs: Apply From South Korea (2026)"
-description: "South Korean entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Korean freelancers, Amazon sellers, and tech founders, plus banking, payments, and US tax notes. ein.so files it for $49."
+title: "EIN for South Korea: Apply With No SSN (2026)"
+description: "South Korea founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-south-korea/"
 breadcrumbs:
   - name: "Home"

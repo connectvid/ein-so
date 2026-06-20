@@ -1,6 +1,6 @@
 ---
-title: "Free EIN Lookup: 5 Ways to Find an EIN Number (2026)"
-description: "Find any EIN for free using IRS Tax Exempt Search, SEC EDGAR, state business registries, a W-9 request, or by calling the IRS at (800) 829-4933. Step-by-step methods for 2026, plus how to get a new EIN without an SSN for $49."
+title: "Free EIN Lookup: 5 Ways to Find a Business EIN"
+description: "Find any EIN for free with the IRS Tax Exempt Search, SEC EDGAR, or state business registries. 5 free methods that actually work. See the full guide."
 canonical: "/ein-lookup-free/"
 heroLabel: "Lookup Guide"
 heroTitle: "Free EIN Lookup:"

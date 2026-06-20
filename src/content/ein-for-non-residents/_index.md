@@ -1,6 +1,6 @@
 ---
-title: "EIN for Non-US Residents: How to Apply From Abroad (2026)"
-description: "Non-US residents can get an EIN without an SSN using Form SS-4 filed by fax. Learn how to apply from any country. ein.so handles the process for $49. No SSN or ITIN required."
+title: "EIN for Non-Residents: Apply From Abroad (2026)"
+description: "Non-US residents can get an EIN with no SSN by filing Form SS-4 by fax. Apply from any country, fully online. We handle the IRS process. Apply now."
 canonical: "/ein-for-non-residents/"
 breadcrumbs:
   - name: "Home"

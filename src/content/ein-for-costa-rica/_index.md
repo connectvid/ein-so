@@ -1,6 +1,6 @@
 ---
-title: "EIN for Costa Rican Entrepreneurs: Apply From Costa Rica (2026)"
-description: "Costa Rican entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Costa Rican freelancers, digital nomads, and Amazon sellers, plus banking and payment setup. ein.so files it for $49."
+title: "EIN for Costa Rica: Apply With No SSN (2026)"
+description: "Costa Rica founders can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-costa-rica/"
 breadcrumbs:
   - name: "Home"

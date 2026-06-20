@@ -1,6 +1,6 @@
 ---
-title: "EIN for Chilean Entrepreneurs: Apply From Chile (2026)"
-description: "Chilean entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Chilean freelancers, SaaS founders, and Amazon sellers, plus banking, payments, and US tax notes. ein.so files it for $49."
+title: "EIN for Chile Entrepreneurs: No SSN (2026)"
+description: "Chile founders can get a US EIN with no SSN to open US banking, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax. Apply now today."
 canonical: "/ein-for-chile/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Taiwanese Entrepreneurs: Apply From Taiwan (2026)"
-description: "Taiwanese entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Taiwanese freelancers, semiconductor and hardware founders, and Amazon sellers, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Taiwan Entrepreneurs: No SSN (2026)"
+description: "Taiwan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started now."
 canonical: "/ein-for-taiwan/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN for Jamaican Entrepreneurs: Apply From Jamaica (2026)"
-description: "Jamaican entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Jamaican freelancers, Amazon sellers, and business owners, plus US banking and payments. ein.so files it for $49."
+title: "EIN for Jamaica: Apply With No SSN (2026)"
+description: "Jamaica founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
 canonical: "/ein-for-jamaica/"
 breadcrumbs:
   - name: "Home"

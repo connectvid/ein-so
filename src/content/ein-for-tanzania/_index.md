@@ -1,6 +1,6 @@
 ---
-title: "EIN for Tanzanian Entrepreneurs: Apply From Tanzania (2026)"
-description: "Tanzanian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Tanzanian freelancers, Amazon sellers, and founders, plus banking and tax notes. ein.so files it for $49."
+title: "EIN for Tanzania: Apply With No SSN (2026)"
+description: "Tanzania entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to start now."
 canonical: "/ein-for-tanzania/"
 breadcrumbs:
   - name: "Home"

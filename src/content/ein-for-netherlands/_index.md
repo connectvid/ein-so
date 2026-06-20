@@ -1,6 +1,6 @@
 ---
-title: "EIN for Dutch Entrepreneurs: Apply From Netherlands (2026)"
-description: "Dutch entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Dutch freelancers, SaaS founders, and Amazon sellers, plus US banking and tax notes. ein.so files it for $49."
+title: "EIN for Netherlands: Apply With No SSN (2026)"
+description: "Netherlands founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-netherlands/"
 breadcrumbs:
   - name: "Home"

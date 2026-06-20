@@ -1,6 +1,6 @@
 ---
-title: "EIN for Trinidadian Entrepreneurs: Apply From Trinidad and Tobago (2026)"
-description: "Trinidadian entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Trinidad and Tobago freelancers, Amazon sellers, and energy-sector founders, plus US banking and payments. ein.so files it for $49."
+title: "EIN for Trinidad: Apply With No SSN (2026)"
+description: "Trinidad founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
 canonical: "/ein-for-trinidad/"
 breadcrumbs:
   - name: "Home"

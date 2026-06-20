@@ -1,6 +1,6 @@
 ---
-title: "EIN for Spanish Entrepreneurs: Apply From Spain (2026)"
-description: "Spanish entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Spanish freelancers, Amazon sellers, and SaaS founders, plus US-Spain tax notes and banking. ein.so files it for $49."
+title: "Get a US EIN From Spain With No SSN (2026)"
+description: "Spain founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-spain/"
 breadcrumbs:
   - name: "Home"

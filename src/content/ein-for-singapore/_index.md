@@ -1,6 +1,6 @@
 ---
-title: "EIN for Singaporean Entrepreneurs: Apply From Singapore (2026)"
-description: "Singaporean entrepreneurs can get a US EIN without an SSN or ITIN. Step-by-step Form SS-4 guide for Singapore freelancers, SaaS founders, and Amazon sellers, plus US banking and payments. ein.so files it for $49."
+title: "EIN for Singapore: Apply With No SSN (2026)"
+description: "Singapore founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
 canonical: "/ein-for-singapore/"
 breadcrumbs:
   - name: "Home"

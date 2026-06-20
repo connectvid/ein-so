@@ -1,6 +1,6 @@
 ---
-title: "EIN for Indian Entrepreneurs: Apply From India (2026)"
-description: "Indian entrepreneurs can get a US EIN without an SSN or ITIN. Learn how freelancers, Amazon sellers, and IT firms from India apply for an EIN using Form SS-4. ein.so handles it for $49."
+title: "Get a US EIN From India With No SSN (2026)"
+description: "India founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
 canonical: "/ein-for-india/"
 breadcrumbs:
   - name: "Home"

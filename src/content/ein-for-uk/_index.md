@@ -1,6 +1,6 @@
 ---
-title: "EIN for UK Residents: US Business Setup Guide (2026)"
-description: "UK residents can get a US EIN without an SSN. Learn how to apply from the United Kingdom for Amazon FBA, e-commerce, and US business setup. ein.so handles it for $49."
+title: "EIN for UK Residents: Apply With No SSN (2026)"
+description: "UK founders can get a US EIN with no SSN to run a US LLC, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started today."
 canonical: "/ein-for-uk/"
 breadcrumbs:
   - name: "Home"

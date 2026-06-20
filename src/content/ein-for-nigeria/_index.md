@@ -1,6 +1,6 @@
 ---
-title: "EIN for Nigerian Entrepreneurs: Apply From Nigeria (2026)"
-description: "Nigerian entrepreneurs can get a US EIN without an SSN. Learn how tech founders, freelancers, and e-commerce sellers from Nigeria apply for an EIN. ein.so handles it for $49."
+title: "EIN for Nigeria: Apply With No SSN (2026)"
+description: "Nigeria founders can get a US EIN with no SSN for e-commerce, freelancing, and US banking, fully online. We file Form SS-4 by fax. Apply now to start now."
 canonical: "/ein-for-nigeria/"
 breadcrumbs:
   - name: "Home"
