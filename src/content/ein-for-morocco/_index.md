@@ -14,7 +14,7 @@ schema:
   headline: "EIN for Moroccan Entrepreneurs: Apply From Morocco (2026)"
   description: "Complete guide for Moroccan entrepreneurs applying for a US EIN. No SSN required. Covers SS-4 filing, banking, payment processing, and tax compliance."
   datePublished: "2026-04-26"
-  dateModified: "2026-06-02"
+  dateModified: "2026-06-20"
 heroLabel: "Country Guide"
 heroTitle: "EIN for Moroccan"
 heroAccent: "Entrepreneurs"
@@ -40,6 +40,10 @@ faqs:
     a: "Yes. Amazon requires a US tax identification number to complete the seller tax interview on Amazon.com. Moroccan sellers register through their US LLC using the EIN, access FBA warehouses, and reach American customers. The EIN replaces the SSN that Amazon would otherwise request during onboarding."
   - q: "Does ein.so file Form 5472 for my Moroccan-owned LLC?"
     a: "ein.so files Form SS-4 to get your EIN; it does not file Form 5472. A foreign-owned single-member US LLC must file Form 5472 with a pro-forma Form 1120 each year. The penalty for not filing is $25,000. Work with a US CPA for Form 5472 and confirm your full tax duties."
+  - q: "How do I register a US company (LLC) from Morocco?"
+    a: "You register a US company from Morocco in 2 steps without traveling. First, form a US LLC in Wyoming, Delaware, or New Mexico through a registered agent, done fully online. Second, get an EIN by filing Form SS-4 with your Morocco passport number on Line 7b. No SSN, US address, or US visit is required. ein.so files the EIN for $49 once your LLC exists."
+  - q: "Comment créer une société américaine depuis le Maroc?"
+    a: "Vous créez une société américaine depuis le Maroc en 2 étapes, sans voyager. D'abord, vous formez une LLC dans le Wyoming ou le Delaware via un agent enregistré, entièrement en ligne. Ensuite, vous obtenez un EIN en déposant le formulaire SS-4 avec votre numéro de passeport. Aucun SSN ni déplacement aux États-Unis n'est requis. ein.so dépose l'EIN pour 49 $."
 ---
 
 <Section>
@@ -106,6 +110,29 @@ Moroccan citizens submit IRS Form SS-4 by fax to 855-215-1627, using a Morocco p
 | Line 16 (Principal activity) | E.g., "e-commerce," "consulting," "software" |
 
 A common Moroccan rejection cause is address formatting. The code postal and ville do not map cleanly to the SS-4 layout, and the IRS rejects malformed international addresses. ein.so reformats your Morocco address to an IRS-accepted style. See the full [SS-4 form guide](/ss4-form-guide/) and the [EIN without SSN](/ein-without-ssn/) explainer.
+</Section>
+
+<Section>
+<Label>Company Formation</Label>
+
+## How Do You Register a US Company <Accent>From Morocco?</Accent>
+
+You register a US company from Morocco in 2 steps and never leave Casablanca or Rabat. First, form a US LLC in Wyoming, Delaware, or New Mexico through a registered agent — done entirely online. Second, get a US EIN for that LLC. US LLC formation from Morocco requires no US travel, no US address of your own, and no SSN.
+
+Moroccan founders choose a US LLC to invoice American clients in dollars, run Stripe and PayPal on a US entity, and sell on Amazon.com. The registered agent provides the US address the state and banks require. The EIN then ties the new US company to the IRS for banking and annual filing.
+
+| Step | What You Do | Who Handles It |
+| --- | --- | --- |
+| 1. Form the US LLC | Choose a state, name the LLC, appoint a registered agent | Registered agent (online) |
+| 2. Get the EIN | File Form SS-4 with your passport on Line 7b | ein.so ($49 / $97) |
+| 3. Open US banking | Apply at Mercury, Relay, or Wise with your EIN | You, remotely |
+
+A Moroccan founder completes all three steps from a laptop. See [EIN for non-residents](/ein-for-non-residents/) for the full workflow and [EIN for a bank account](/ein-for-bank-account/) for the banking step.
+
+<Capsule label="Résumé en français">
+**Les entrepreneurs marocains peuvent obtenir un EIN américain sans numéro de sécurité sociale (SSN).** Pour créer une société américaine depuis le Maroc, vous formez d'abord une société à responsabilité limitée (LLC) dans le Wyoming ou le Delaware, puis vous obtenez l'EIN. Nous déposons le formulaire SS-4 auprès de l'IRS par fax en utilisant votre numéro de passeport. Service Standard 49 $ (4-7 jours ouvrables), service Express 97 $ (2-3 jours ouvrables). Aucun déplacement aux États-Unis n'est nécessaire pour ouvrir votre compte bancaire américain.
+</Capsule>
+
 </Section>
 
 <Section surface>

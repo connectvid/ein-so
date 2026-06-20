@@ -1,6 +1,6 @@
 ---
-title: "EIN for Etsy Sellers (2026)"
-description: "Etsy sellers need an EIN to protect their SSN, separate business finances, and report 1099-K income. Non-US Etsy sellers with a US LLC get an EIN from Form SS-4 without an SSN. ein.so files it for $49."
+title: "EIN for Etsy Sellers: Do You Need One? (Non-US Sellers Guide 2026)"
+description: "Do Etsy sellers need an EIN? US sole proprietors can use an SSN, but non-US sellers with a US LLC need an EIN to finish Etsy's tax form and bank. Here's how to get one without an SSN."
 canonical: "/ein-for-etsy-sellers/"
 breadcrumbs:
   - name: "Home"
@@ -11,13 +11,13 @@ breadcrumbs:
     url: "/ein-for-etsy-sellers/"
 schema:
   type: "article"
-  headline: "EIN for Etsy Sellers (2026)"
-  description: "Etsy sellers need an EIN to protect their SSN, separate business finances, and report 1099-K income. Non-US Etsy sellers with a US LLC get an EIN from Form SS-4 without an SSN. ein.so files it for $49."
+  headline: "EIN for Etsy Sellers: Do You Need One? (Non-US Sellers Guide 2026)"
+  description: "Do Etsy sellers need an EIN? US sole proprietors can use an SSN, but non-US sellers with a US LLC need an EIN to complete Etsy's tax interview and open US banking. How to get one without an SSN."
   datePublished: "2026-04-13"
-  dateModified: "2026-06-02"
-heroLabel: "Industry"
-heroTitle: "EIN for Etsy Sellers (2026)"
-heroAccent: "Guide"
+  dateModified: "2026-06-20"
+heroLabel: "Non-US Sellers Guide"
+heroTitle: "EIN for Etsy Sellers:"
+heroAccent: "Do You Need One? (2026)"
 heroDescription: "Etsy sellers use an EIN to protect their SSN, open a business bank account, and report 1099-K income. Non-US sellers with a US LLC get an EIN without an SSN. ein.so files it for $49 Standard or $97 Express."
 ctaTitle: "Need an EIN? We Handle Everything."
 ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your EIN by email. Just $49."
@@ -64,6 +64,17 @@ Etsy hosts more than 9 million active sellers and over 90 million buyers worldwi
 </Section>
 
 <Section surface>
+<Label>Quick Answer</Label>
+
+## Do Etsy Sellers <Accent>Need an EIN?</Accent>
+
+Etsy sellers need an EIN if they sell through an LLC, hire help, or sell as a non-US resident with a US company. A US sole proprietor can use an SSN instead, but an EIN keeps that number private on Etsy's 1099-K.
+
+Non-US Etsy sellers are the clearest case. To complete Etsy's tax interview and open the US business banking that Etsy payouts often require, a non-resident seller forms a US LLC and gets an EIN. The IRS online tool blocks non-residents, so they file Form SS-4 by fax with a passport number — no SSN required. [ein.so](/apply/) files it for $49 Standard or $97 Express.
+
+</Section>
+
+<Section>
 <Label>Use Cases</Label>
 
 ## Why Do Etsy Sellers <Accent>Need an EIN?</Accent>
@@ -174,6 +185,8 @@ The 1099-K reports gross sales, not profit. You deduct materials, shipping, and 
 </NumberedCards>
 
 Your EIN is the starting point for Etsy tax compliance, not the end of it. See [EIN without an SSN](/ein-without-ssn/) and [EIN cost](/ein-cost/) for related guidance, and confirm tax specifics with a CPA.
+
+An EIN covers the business. Some non-US Etsy sellers also need a personal US tax ID — an ITIN — to claim tax-treaty benefits or file a personal return. The EIN and the ITIN are separate numbers for separate purposes. Sellers who need both can get an ITIN through our sister service at [itin.so](https://www.itin.so/).
 </Section>
 
 <Section>

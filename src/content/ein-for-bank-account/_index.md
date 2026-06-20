@@ -1,6 +1,6 @@
 ---
-title: "EIN for Bank Account: Open a US Business Account (2026)"
-description: "You need an EIN to open a US business bank account. Learn which banks work for non-residents, what documents you need, and how to open an account remotely in 2026."
+title: "EIN for Bank Account: Open a US Business Bank Account (2026 Guide)"
+description: "Open a US business bank account with your EIN — no SSN required. Non-US founders can use Mercury, Relay, Brex, or Wise 100% online. See which banks accept EIN only."
 canonical: "/ein-for-bank-account/"
 breadcrumbs:
   - name: "Home"
@@ -11,13 +11,13 @@ breadcrumbs:
     url: "/ein-for-bank-account/"
 schema:
   type: "article"
-  headline: "EIN for Bank Account: How to Open a US Business Account (2026)"
-  description: "Complete guide to opening a US business bank account with an EIN. Best banks for non-residents, required documents, and step-by-step process."
+  headline: "EIN for Bank Account: Open a US Business Bank Account (2026 Guide)"
+  description: "Complete guide to opening a US business bank account with an EIN and no SSN. Which banks accept EIN only, required documents, and the step-by-step process for non-residents."
   datePublished: "2026-04-13"
-  dateModified: "2026-05-09"
+  dateModified: "2026-06-20"
 heroLabel: "Business Banking Guide"
 heroTitle: "EIN for Bank Account:"
-heroAccent: "Open a US Business Account (2026)"
+heroAccent: "Open a US Business Bank Account (2026 Guide)"
 heroDescription: "An EIN is your key to opening a US business bank account. Whether you are a non-resident forming a US LLC or a domestic founder launching your first company, you need an EIN to bank in the United States."
 ctaTitle: "Get Your EIN and Open Your US Bank Account"
 ctaSubtitle: "$49 Standard or $97 Express. No SSN required. Your EIN is the first step to US business banking."
@@ -38,6 +38,12 @@ faqs:
     a: "Yes. Mercury, Relay, and most US business banks issue physical and virtual debit cards linked to your business checking account. Mercury provides unlimited free virtual cards instantly and ships a physical card to your international address. Virtual cards are available immediately upon account approval."
   - q: "Do I need an LLC to open a US business bank account?"
     a: "While sole proprietors can open business accounts at some banks, most online banks that serve non-residents require a US-registered LLC or corporation. Forming a US LLC (most choose Wyoming or Delaware) gives you the legal entity needed to open a business bank account, get an EIN, and operate professionally in the US market."
+  - q: "Can I open a US business bank account with EIN only?"
+    a: "Yes. You can open a US business bank account with your EIN only and no SSN. Mercury, Relay, Brex, and Wise Business approve non-resident owners using the EIN, LLC formation documents, and a passport. The EIN identifies the business to the IRS, so the bank does not require a personal Social Security Number for the company account."
+  - q: "Which US banks accept an EIN without an SSN?"
+    a: "Mercury, Relay, Brex, and Wise Business all accept an EIN without an SSN for non-resident-owned US LLCs and corporations. These 4 fintech banks onboard 100% online and never require a US Social Security Number. Traditional banks like Chase, Bank of America, and Wells Fargo require an SSN and an in-person branch visit, so non-residents should avoid them."
+  - q: "How do I open a US business bank account as a foreigner?"
+    a: "Open a US business bank account as a foreigner in 5 steps: form a US LLC (Wyoming or Delaware), get an EIN from the IRS, gather your documents, apply online at Mercury, Relay, Brex, or Wise, and wait 1-5 business days for approval. No US visit, US address, or SSN is required. ein.so files your EIN for $49 so you can start the bank application."
 ---
 
 <Section>
@@ -66,19 +72,20 @@ If you do not yet have an EIN, [apply through ein.so](/apply/) to get one in as 
 
 ## Best Banks for Non-Residents <Accent>with an EIN</Accent>
 
-3 banks accept non-resident founders and allow 100% remote account opening with $0 minimum balance.
+4 banks accept non-resident founders with an EIN and allow 100% remote account opening with $0 minimum balance. None of them require an SSN.
 
-### Banks Accepting Non-Resident EIN: Mercury vs Relay vs Wise
+### Banks That Accept an EIN Without an SSN: Mercury vs Relay vs Brex vs Wise
 
-| Feature | Mercury | Relay | Wise Business |
-| --- | --- | --- | --- |
-| Monthly Fee | $0 | $0 | $0 |
-| Minimum Balance | $0 | $0 | $0 |
-| FDIC Insurance | Up to $5M (partner banks) | Up to $250K (Thread Bank) | Not FDIC (regulated by FinCEN) |
-| Approval Time | 1-2 business days | 7 business days | 2-5 business days |
-| Currencies | USD only | USD only | 40+ currencies |
-| International Transfers | Wire ($5 domestic) | ACH only | Low-cost multi-currency |
-| Best For | Overall best for startups | Budgeting and cash flow | International payments |
+| Feature | Mercury | Relay | Brex | Wise Business |
+| --- | --- | --- | --- | --- |
+| Monthly Fee | $0 | $0 | $0 | $0 |
+| Minimum Balance | $0 | $0 | $0 | $0 |
+| SSN Required | No | No | No | No |
+| FDIC Insurance | Up to $5M (partner banks) | Up to $250K (Thread Bank) | Up to $6M (program banks) | Not FDIC (regulated by FinCEN) |
+| Approval Time | 1-2 business days | 7 business days | 1-3 business days | 2-5 business days |
+| Currencies | USD only | USD only | USD only | 40+ currencies |
+| International Transfers | Wire ($5 domestic) | ACH only | Wire + ACH | Low-cost multi-currency |
+| Best For | Overall best for startups | Budgeting and cash flow | Funded startups scaling fast | International payments |
 
 <NumberedCards>
 <Card title="Mercury" index={1}>
@@ -95,7 +102,14 @@ If you do not yet have an EIN, [apply through ein.so](/apply/) to get one in as 
 
 **Approval time:** 7 business days.
 </Card>
-<Card title="Wise Business" index={3}>
+<Card title="Brex" index={3}>
+**Best for funded startups** scaling fast. Free business cash account with no monthly fees and instant virtual cards. FDIC insurance up to $6M through program banks. Strong spend-management and expense tools. Accepts non-resident-owned US entities using the EIN.
+
+**Requirements:** US LLC or Corporation, EIN, formation documents, passport. Best suited to companies with outside funding or revenue.
+
+**Approval time:** 1-3 business days.
+</Card>
+<Card title="Wise Business" index={4}>
 **Best for international transfers** and multi-currency needs. Hold and convert 40+ currencies at the real exchange rate. Low-cost international wire transfers. US, UK, EU, and other local account details included.
 
 **Requirements:** US LLC or Corporation, EIN, formation documents, passport, proof of address.
@@ -103,6 +117,24 @@ If you do not yet have an EIN, [apply through ein.so](/apply/) to get one in as 
 **Approval time:** 2-5 business days.
 </Card>
 </NumberedCards>
+
+</Section>
+
+<Section>
+
+## Can You Open a US Bank Account <Accent>With EIN Only (No SSN)?</Accent>
+
+Yes. You can open a US business bank account with your EIN only and no SSN. Mercury, Relay, Brex, and Wise Business approve non-resident owners using the EIN, LLC formation documents, and a passport. No Social Security Number is required for a business account.
+
+### Why an EIN Replaces the SSN for Business Accounts
+
+The SSN identifies an individual. The EIN identifies a business. When a US LLC or corporation opens an account, the bank reports to the IRS under the company's EIN, not under any owner's personal tax number. This is why a foreigner with no SSN and no ITIN still opens a US business account using the EIN alone.
+
+Personal US bank accounts are different. A personal account requires an SSN or ITIN because it belongs to an individual. If you only need to receive business payments, the EIN-based business account at Mercury, Relay, Brex, or Wise covers every use case — invoicing clients, paying vendors, and connecting Stripe or PayPal.
+
+### How to Open a US Business Bank Account as a Foreigner
+
+A foreigner opens a US business bank account without visiting the US, without a US address of their own, and without an SSN. You form a US LLC, get an EIN, and apply online. The registered agent address from your Wyoming or Delaware formation satisfies the business-address requirement. Founders from [the UAE](/ein-for-uae/), [Morocco](/ein-for-morocco/), and 50+ other countries open accounts this way every week.
 
 </Section>
 

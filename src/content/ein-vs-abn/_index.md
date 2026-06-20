@@ -1,6 +1,6 @@
 ---
-title: "EIN vs ABN: US vs Australian Business Numbers (2026)"
-description: "An EIN is a 9-digit US tax ID from the IRS. An ABN is an 11-digit Australian Business Number from the ABR. Compare issuer, format, cost, and use cases, and learn how Australians get a US EIN for $49."
+title: "EIN vs ABN: What Australian Business Owners Need for a US LLC"
+description: "Australian business owners forming a US LLC need a US EIN, not their ABN. See how the two differ, how the US-Australia tax treaty helps you avoid double taxation, and how to apply."
 canonical: "/ein-vs-abn/"
 breadcrumbs:
   - name: "Home"
@@ -11,14 +11,14 @@ breadcrumbs:
     url: "/ein-vs-abn/"
 schema:
   type: "article"
-  headline: "EIN vs ABN: US vs Australian Business Numbers (2026)"
-  description: "An EIN is a 9-digit US tax ID from the IRS. An ABN is an 11-digit Australian Business Number from the ABR. Compare both business identifiers and learn how Australians get a US EIN."
+  headline: "EIN vs ABN: What Australian Business Owners Need for a US LLC"
+  description: "Australian business owners forming a US LLC need a US EIN, not their ABN. How the two differ, US-Australia tax treaty rules that avoid double taxation, and how to apply from Australia."
   datePublished: "2026-04-13"
-  dateModified: "2026-06-02"
-heroLabel: "Comparison Guide"
-heroTitle: "EIN vs ABN"
-heroAccent: "Compared"
-heroDescription: "Understand the difference between a US EIN and an Australian ABN. Both are business identifiers, but they serve different countries, issuers, and purposes."
+  dateModified: "2026-06-20"
+heroLabel: "For Australian Founders"
+heroTitle: "EIN vs ABN:"
+heroAccent: "What Australians Need for a US LLC"
+heroDescription: "If you are an Australian business owner registering a US LLC, here is whether you need an EIN, how it differs from your ABN, and what to do first."
 ctaTitle: "Need an EIN? We Handle Everything."
 ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your EIN by email. Just $49."
 faqs:
@@ -40,6 +40,10 @@ faqs:
     a: "Yes. A foreign-owned single-member US LLC files Form 5472 plus a pro-forma Form 1120 with the IRS each year. The penalty for not filing is $25,000. This is an information return that reports transactions between the LLC and its foreign owner. Confirm your specific filing position with a US CPA, because ein.so does not give tax advice."
   - q: "Can I open a US bank account with an EIN if I only have an ABN today?"
     a: "Yes. Once you form a US LLC and obtain an EIN, banks such as Mercury and Relay accept Australian owners remotely with the EIN, formation documents, and a passport. Your ABN is not used for US banking. The EIN is the identifier US banks require to open a business account for a non-resident-owned entity."
+  - q: "Do I need an EIN for an Australian-owned US LLC?"
+    a: "Yes. Every US LLC needs its own EIN, including an LLC owned by an Australian resident. The EIN identifies the LLC to the IRS for federal tax, banking, and Form 5472 filing. Your Australian ABN cannot be used in its place. An Australian owner applies for the EIN by faxing Form SS-4 with a passport number on Line 7b. ein.so files it for $49."
+  - q: "How does the US-Australia tax treaty affect EIN and ABN holders?"
+    a: "The US-Australia tax treaty prevents double taxation by letting Australian residents claim a foreign tax credit for US tax paid. It also cuts US withholding on dividends from 30% to 15% for most cases. The EIN identifies the US entity to the IRS, and Form W-8BEN-E claims the treaty rate. The ABN is unrelated to US tax. Confirm your position with a US CPA."
   - q: "Which number should an Australian get first?"
     a: "Get the identifier for the country where you start operating. An Australian running a local business gets the ABN first from the Australian Business Register. When that founder forms a US LLC to reach US customers or payment rails, they add a US EIN. The order follows where the business activity and tax obligations begin."
 ---
@@ -49,7 +53,7 @@ faqs:
 **An EIN is a 9-digit US federal tax ID issued by the IRS. An ABN is an 11-digit Australian Business Number issued by the Australian Business Register (ABR).** They serve different purposes in different countries. US entities need an EIN. Australian businesses need an ABN. An Australian who forms a US LLC needs both: the ABN at home and a US EIN, which ein.so files for $49.
 </Capsule>
 
-Australian entrepreneurs expanding into the US market meet both the EIN and the ABN. Understanding the difference matters for operating legally in both jurisdictions. This guide compares the two identifiers side by side, explains when you need each one, and shows how Australian owners get a US EIN without an SSN. The core distinction is jurisdiction. An EIN comes from the US Internal Revenue Service for US federal tax. An ABN comes from the Australian Business Register for Australian business and GST purposes. Neither number is valid in the other country.
+If you are an Australian business owner registering a US LLC, here is the short version: you need a US EIN, your ABN does not work in the United States, and you should get the EIN right after your LLC is formed. This guide compares the two identifiers side by side, explains the US-Australia tax treaty that protects you from double taxation, and shows how Australian owners get a US EIN without an SSN. The core distinction is jurisdiction. An EIN comes from the US Internal Revenue Service for US federal tax. An ABN comes from the Australian Business Register for Australian business and GST purposes. Neither number is valid in the other country.
 
 | Factor | EIN (United States) | ABN (Australia) |
 | --- | --- | --- |
@@ -205,6 +209,29 @@ An Australian needs an EIN for any US entity and an ABN for any Australian busin
 - You register for GST in Australia
 - You invoice Australian customers
 - You report to the Australian Taxation Office
+</Section>
+
+<Section surface>
+<Label>Tax Treaty</Label>
+
+## How Does the US-Australia Tax Treaty <Accent>Affect Double Taxation?</Accent>
+
+The US-Australia Income Tax Treaty prevents the same income from being taxed in full by both countries. The treaty entered force in 1983 and lets an Australian resident claim foreign tax credits, so US tax paid offsets Australian tax owed on the same profit. This stops double taxation on US LLC income.
+
+The treaty also reduces US withholding tax on passive income. Standard US withholding on dividends, interest, and royalties paid to a foreign person is 30%. Under the treaty, the rate on most dividends drops to 15%, and interest and royalties fall to lower treaty rates. An Australian owner claims these reduced rates by filing Form W-8BEN-E for the US entity.
+
+### Key Tax Treaty Points for Australian US LLC Owners
+
+| Point | Detail |
+| --- | --- |
+| Treaty in force | Since 1983 (US-Australia Income Tax Treaty) |
+| Double taxation relief | Foreign tax credit in Australia for US tax paid |
+| Default US withholding | 30% on dividends, interest, royalties |
+| Treaty dividend rate | 15% (most cases) |
+| Form to claim treaty | W-8BEN-E (entity) or W-8BEN (individual) |
+| Disregarded LLC | Single-member US LLC income flows to the owner |
+
+A single-member US LLC owned by an Australian is a disregarded entity for US tax. Income with no US trade or business and no effectively connected income (ECI) may carry no US income tax, while the annual [Form 5472](/form-5472-guide/) information return is still required. Tax outcomes depend on your facts. ein.so files the EIN and does not give tax advice. Confirm your treaty position with a US CPA and an Australian accountant before relying on any rate.
 </Section>
 
 <Section>

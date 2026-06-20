@@ -1,6 +1,6 @@
 ---
-title: "EIN for Uber & Lyft Drivers (2026)"
-description: "Uber and Lyft drivers use an EIN for business banking, expense tracking, and to keep their SSN off W-9 forms. Learn when rideshare drivers need an EIN and how non-residents file Form SS-4. ein.so files it for $49."
+title: "Do Uber Drivers Need an EIN? (2026 Guide for Gig Workers)"
+description: "Uber drivers don't strictly need an EIN, but one keeps your SSN off W-9 forms and unlocks business banking. Guide for Uber, Lyft, DoorDash, Instacart & Amazon Flex drivers."
 canonical: "/ein-for-uber-drivers/"
 breadcrumbs:
   - name: "Home"
@@ -11,10 +11,10 @@ breadcrumbs:
     url: "/ein-for-uber-drivers/"
 schema:
   type: "article"
-  headline: "EIN for Uber & Lyft Drivers (2026)"
-  description: "Uber and Lyft drivers use an EIN for business banking, expense tracking, and to keep their SSN off W-9 forms. Guide to Form SS-4 for rideshare drivers, including non-residents who file with a passport."
+  headline: "Do Uber Drivers Need an EIN? (2026 Guide for Gig Workers)"
+  description: "Do Uber drivers need an EIN? A sole proprietor can use an SSN, but an EIN keeps it private on W-9 and 1099 forms and unlocks business banking. Covers Uber, Lyft, DoorDash, Instacart, and Amazon Flex."
   datePublished: "2026-04-13"
-  dateModified: "2026-06-02"
+  dateModified: "2026-06-20"
 heroLabel: "Industry Guide"
 heroTitle: "EIN for Uber"
 heroAccent: "Drivers"
@@ -24,6 +24,12 @@ ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your E
 faqs:
   - q: "Do Uber and Lyft drivers need an EIN?"
     a: "It depends on structure. A driver who operates through an LLC, a corporation, or who hires employees needs an EIN. A sole proprietor driver with no employees can use an SSN, but an EIN is recommended. The EIN separates your business tax identity from your personal SSN on W-9 forms and bank applications."
+  - q: "Does Uber require an EIN to drive?"
+    a: "No. Uber does not require an EIN to drive. Uber requires a valid taxpayer ID on your W-9, and a sole proprietor driver can use an SSN there. An EIN is optional for solo drivers, but it becomes required once you drive through an LLC or corporation, or hire a second driver. Most full-time drivers add an EIN for SSN privacy."
+  - q: "Can I use my SSN instead of an EIN for Uber?"
+    a: "Yes. A sole proprietor Uber or Lyft driver can use an SSN instead of an EIN on the W-9 and on Schedule C. The SSN is valid for all gig-economy tax reporting. Drivers switch to an EIN to keep the SSN off platform records, reduce identity-theft exposure, and open a business bank account. The EIN is recommended, not mandatory, for solo drivers."
+  - q: "Do DoorDash, Instacart, and Amazon Flex drivers need an EIN?"
+    a: "The same rule applies to all gig platforms. DoorDash, Instacart, and Amazon Flex drivers operating as sole proprietors can use an SSN, but an EIN keeps it private on the W-9 and 1099. A driver who forms an LLC or hires help needs an EIN. One EIN covers gig income across every platform you drive for."
   - q: "How do Uber and Lyft drivers get an EIN?"
     a: "Drivers with an SSN apply free at irs.gov for an instant EIN. Drivers without an SSN file Form SS-4 by fax to the IRS at 855-215-1627, which takes 4-7 business days. ein.so prepares and faxes the SS-4 for non-residents for $49 Standard or $97 Express. The IRS charges $0 for the EIN itself."
   - q: "Can a non-US resident drive for Uber and get an EIN?"
@@ -59,6 +65,20 @@ Rideshare and delivery drivers run real businesses. Uber and Lyft classify drive
 | Business bank account | Personal account | Business account in LLC name |
 | IRS EIN cost | $0 | $0 |
 | ein.so filing (non-resident) | $49 / $97 | $49 / $97 |
+
+### One EIN Covers Every Gig Platform
+
+The EIN rule is identical across rideshare and delivery apps. You apply for one EIN and use it for income from every platform you work on. The table below shows the form each platform issues and the tax ID it accepts.
+
+| Platform | Issues | Tax ID on W-9 | EIN Recommended |
+| --- | --- | --- | --- |
+| Uber | 1099-K + 1099-NEC | SSN or EIN | Yes |
+| Lyft | 1099-K + 1099-NEC | SSN or EIN | Yes |
+| DoorDash | 1099-NEC | SSN or EIN | Yes |
+| Instacart | 1099-NEC | SSN or EIN | Yes |
+| Amazon Flex | 1099-NEC | SSN or EIN | Yes |
+
+A multi-app driver who works Uber, DoorDash, and Instacart in the same week reports all three under a single EIN. The number never expires and carries across tax years.
 </Section>
 
 <Section surface>

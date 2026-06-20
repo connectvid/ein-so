@@ -14,7 +14,7 @@ schema:
   headline: "EIN for UAE Entrepreneurs: Apply From Dubai & UAE (2026)"
   description: "Complete guide for UAE and Dubai entrepreneurs applying for a US EIN. No SSN required. Covers SS-4 filing, US-UAE tax notes, free zones, banking, and payment processing."
   datePublished: "2026-04-26"
-  dateModified: "2026-06-02"
+  dateModified: "2026-06-20"
 heroLabel: "Country Guide"
 heroTitle: "EIN for UAE"
 heroAccent: "Entrepreneurs"
@@ -38,6 +38,10 @@ faqs:
     a: "The closest UAE equivalent is the TRN (Tax Registration Number) issued by the Federal Tax Authority for VAT, plus your trade licence number. Neither has standing in the US. You need a separate US EIN for a US business entity."
   - q: "Can I sell on Amazon.com from the UAE with an EIN?"
     a: "Yes. Amazon requires a US tax ID for the Amazon.com seller tax interview. UAE sellers expanding from Amazon.ae use a US LLC and EIN to register as a US-based seller, access US FBA, and reach American customers."
+  - q: "How do I register a US company from the UAE?"
+    a: "You register a US company from the UAE in 2 steps without traveling. First, form a US LLC in Wyoming, Delaware, or New Mexico through a registered agent, done fully online. Second, get an EIN by filing Form SS-4 with your passport number. No SSN, US address, or US visit is required. ein.so files the EIN for $49 once your LLC is formed."
+  - q: "How much does American company formation from the UAE cost?"
+    a: "American company formation from the UAE has two costs: the LLC state filing through a registered agent (often $100-$350 depending on state) and the EIN. ein.so files the EIN for $49 Standard or $97 Express. The IRS charges $0 for the EIN itself. There is no requirement to visit the US or hold a US address."
 ---
 
 <Section>
@@ -102,6 +106,29 @@ UAE residents submit IRS Form SS-4 by fax to 855-215-1627, using a passport numb
 | Line 16 (Principal activity) | E.g., "e-commerce," "trading," "software" |
 
 UAE addresses often use P.O. Box numbers and area names rather than street numbers, which the SS-4 does not anticipate. Malformed international addresses are silently rejected by the IRS. ein.so reformats your UAE address to an IRS-accepted style. See the [SS-4 form guide](/ss4-form-guide/) and the [complete EIN process](/how-to-get-ein/).
+</Section>
+
+<Section surface>
+<Label>Company Formation</Label>
+
+## How Do You Register a US Company <Accent>From the UAE?</Accent>
+
+You register a US company from the UAE in 2 steps and never leave Dubai. First, form a US LLC in Wyoming, Delaware, or New Mexico through a registered agent — done entirely online. Second, get a US EIN for that LLC. American company formation from the UAE requires no US travel, no US address of your own, and no SSN.
+
+UAE residents choose a US LLC because it unlocks what a free-zone licence cannot: a US business bank account, Stripe and PayPal on a US entity, and the ability to sell on Amazon.com. The registered agent supplies the US address the state and the banks require. The EIN then ties the new US company to the IRS for banking and tax filing.
+
+| Step | What You Do | Who Handles It |
+| --- | --- | --- |
+| 1. Form the US LLC | Choose a state, name the LLC, appoint a registered agent | Registered agent (online) |
+| 2. Get the EIN | File Form SS-4 with your passport on Line 7b | ein.so ($49 / $97) |
+| 3. Open US banking | Apply at Mercury, Relay, or Wise with your EIN | You, remotely |
+
+A UAE founder completes all three steps from a laptop in the Emirates. See [EIN for non-residents](/ein-for-non-residents/) for the full non-resident workflow and [EIN for a bank account](/ein-for-bank-account/) for the banking step.
+
+<Capsule label="ملخص بالعربية">
+**يمكن لرواد الأعمال في الإمارات الحصول على رقم تعريف صاحب العمل الأمريكي (EIN) دون رقم ضمان اجتماعي (SSN).** لتأسيس شركة أمريكية من دبي أو أبوظبي، تقوم أولًا بتسجيل شركة ذات مسؤولية محدودة (LLC) في ولاية وايومنغ أو ديلاوير، ثم تحصل على رقم EIN. نقوم بتقديم نموذج SS-4 إلى مصلحة الضرائب الأمريكية (IRS) عبر الفاكس باستخدام رقم جواز سفرك. الخدمة القياسية 49 دولارًا (4-7 أيام عمل) والخدمة السريعة 97 دولارًا (2-3 أيام عمل). لا حاجة للسفر إلى الولايات المتحدة.
+</Capsule>
+
 </Section>
 
 <Section surface>

@@ -14,7 +14,7 @@ schema:
   headline: "EIN for Non-US Residents: How to Apply From Abroad (2026)"
   description: "Complete guide for non-US residents applying for an EIN. No SSN required. Learn the fax method, required documents, and how ein.so handles the process for $49."
   datePublished: "2026-04-13"
-  dateModified: "2026-05-09"
+  dateModified: "2026-06-20"
 heroLabel: "For International Entrepreneurs"
 heroTitle: "EIN for Non-US Residents:"
 heroAccent: "How to Apply From Abroad (2026)"
@@ -259,7 +259,27 @@ For a detailed comparison of all EIN processing methods and timelines, see our [
 <Card title="EIN for Mexican Entrepreneurs" index={9}>Mexican residents: obtain a US EIN for cross-border business operations. [Learn more](/ein-for-mexico/)</Card>
 <Card title="EIN for Brazilian Entrepreneurs" index={10}>Brazilian business owners: apply for a US EIN from Brazil. [Learn more](/ein-for-brazil/)</Card>
 <Card title="EIN for Bangladeshi Entrepreneurs" index={11}>Bangladeshi entrepreneurs: get your US EIN with support in Bengali. [Learn more](/ein-for-bangladesh/)</Card>
+<Card title="EIN for UAE Entrepreneurs" index={12}>Dubai and UAE founders: apply for a US EIN with no US-UAE tax treaty notes covered. [Learn more](/ein-for-uae/)</Card>
+<Card title="EIN for Moroccan Entrepreneurs" index={13}>Morocco-based founders: get a US EIN, with a French-language summary. [Learn more](/ein-for-morocco/)</Card>
+<Card title="EIN for French Entrepreneurs" index={14}>France-based business owners: obtain a US EIN for your LLC or corporation. [Learn more](/ein-for-france/)</Card>
+<Card title="EIN for Irish Entrepreneurs" index={15}>Ireland-based founders: apply for a US EIN to reach the US market. [Learn more](/ein-for-ireland/)</Card>
+<Card title="EIN for Cambodian Entrepreneurs" index={16}>Cambodia-based entrepreneurs: get your US EIN from abroad. [Learn more](/ein-for-cambodia/)</Card>
 </NumberedCards>
+
+</Section>
+
+<Section surface>
+<Label>Compare Tax IDs</Label>
+
+## How Does a US EIN Compare to <Accent>Your Home-Country Tax ID?</Accent>
+
+A US EIN is a federal tax ID for a US entity. It does not replace your home-country business number, and your home-country number has no standing with the IRS. These comparisons show exactly how the US EIN sits next to the identifier you already hold.
+
+- [EIN vs ABN](/ein-vs-abn/) — for Australian business owners forming a US LLC
+- [EIN vs VAT](/ein-vs-vat/) — for EU and UK founders with a VAT number
+- [EIN vs TIN](/ein-vs-tin/) — how the EIN fits under the TIN umbrella
+- [EIN vs ITIN](/ein-vs-itin/) — business number vs personal number for non-residents
+- [EIN vs SSN](/ein-vs-ssn/) — why non-residents use an EIN instead of an SSN
 
 </Section>
 

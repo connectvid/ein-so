@@ -22,6 +22,15 @@ const nextConfig: NextConfig = {
         destination: "https://www.ein.so/:path*",
         permanent: true,
       },
+      // Synonym slug consolidation. "non-US residents" and "non-residents" are
+      // the same macro context (one keyword = one URL). The canonical hub lives
+      // at /ein-for-non-residents/; the /ein-for-non-us-residents/ variant 301s
+      // to it so the two never compete for the same query (no cannibalization).
+      {
+        source: "/ein-for-non-us-residents",
+        destination: "/ein-for-non-residents/",
+        permanent: true,
+      },
     ];
   },
 };
