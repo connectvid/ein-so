@@ -294,14 +294,13 @@ For a comprehensive reference on valid prefixes and format validation, refer to 
 </InternalLinks>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## Go Deeper on <Accent>EIN Basics</Accent>
 
 Go deeper with our in-depth EIN explainers:
 
-- [What Is an EIN Number? Plain-English Explainer](/blog/what-is-ein-number-explained/) — the 9-digit IRS tax ID, defined simply
-- [EIN Number Format Explained](/blog/ein-number-format-explained/) — what the XX-XXXXXXX digits mean
+- [EIN Number Format Explained](/ein-number-format/) — what the XX-XXXXXXX digits mean
 - [EIN Reference Numbers 101](/blog/ein-reference-number-101/) — decode IRS reference codes
 - [Does an EIN Expire?](/blog/ein-expiration-does-it-expire/) — when an EIN stays active or is deactivated
 </Section>

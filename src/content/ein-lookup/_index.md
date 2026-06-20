@@ -200,13 +200,13 @@ That is exactly what **ein.so** handles. For **$49**, we prepare and file your F
 </Section>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## How to Find or <Accent>Verify an EIN</Accent>
 
 Find or verify an EIN:
 
-- [EIN Number Lookup Guide](/blog/ein-number-lookup-guide/) — free methods that work
-- [How to Verify an EIN Number](/blog/how-to-verify-ein-number/) — confirm a business EIN
-- [Lost Your EIN? How to Find It](/blog/lost-ein-how-to-find-it/) — recover your own EIN
+- [How to Verify an EIN Number](/ein-verification/) — confirm a business EIN
+- [Lost Your EIN? How to Find It](/lost-ein-number/) — recover your own EIN
+- [Free EIN Lookup Methods](/ein-lookup-free/) — find an EIN at no cost
 </Section>

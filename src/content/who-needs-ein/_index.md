@@ -229,9 +229,9 @@ If you are unsure whether your specific situation requires an EIN, the safest ap
 
 EIN rules by entity type:
 
-- [EIN for Nonprofits](/blog/ein-for-nonprofit-guide/) — required before 501(c)(3)
-- [EIN for Partnerships](/blog/ein-for-partnership-guide/) — needed for Form 1065
-- [EIN for Sole Proprietors](/blog/ein-for-sole-proprietor-guide/) — when it is required
-- [EIN for Trusts & Estates](/blog/ein-for-trust-estate-guide/) — irrevocable trusts and estates
+- [EIN for Nonprofits](/ein-for-nonprofit/) — required before 501(c)(3)
+- [EIN for Partnerships](/ein-for-partnership/) — needed for Form 1065
+- [EIN for Sole Proprietors](/ein-for-sole-proprietor/) — when it is required
+- [EIN for Trusts & Estates](/ein-for-trust/) — irrevocable trusts and estates
 - [Can I Get an EIN Without an LLC?](/blog/can-i-get-ein-without-llc/) — yes, here is how
 </Section>

@@ -203,12 +203,12 @@ In practice, the phone method has significant drawbacks. Hold times can exceed 3
 </Section>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## More on <Accent>EIN Timelines</Accent>
 
 More on EIN timelines:
 
-- [How Long to Get an EIN by Fax](/blog/how-long-to-get-ein-by-fax/) — non-resident fax timelines
-- [EIN Processing Time: How Long?](/blog/ein-processing-time-how-long/) — every method compared
+- [How Long to Get an EIN by Fax](/ein-by-fax/) — non-resident fax timelines
+- [Get an EIN by Phone](/ein-by-phone/) — same-day option for some applicants
 </Section>

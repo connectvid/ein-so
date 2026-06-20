@@ -231,12 +231,12 @@ Need an EIN for your LLC? [Learn about EINs for LLCs](/ein-for-llc/) or [read ou
 </InternalLinks>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## More on <Accent>US Business Banking</Accent>
 
 More on banking and credit:
 
-- [EIN for a US Bank Account: Full Guide](/blog/ein-for-bank-account-guide/) — documents and bank options
-- [Building Business Credit With an EIN](/blog/business-credit-with-ein/) — establish a US credit profile
+- [Best Bank for a Non-Resident LLC](/best-bank-for-non-resident-llc/) — compare top options
+- [Building Business Credit With an EIN](/ein-for-credit/) — establish a US credit profile
 </Section>

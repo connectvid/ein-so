@@ -181,7 +181,7 @@ Non-resident business owners have additional IRS compliance requirements. Foreig
 
 Put your EIN to work:
 
-- [EIN for PayPal & Stripe](/blog/ein-for-paypal-stripe-guide/) — accept payments as a non-resident
-- [Building Business Credit With an EIN](/blog/business-credit-with-ein/) — build a US credit profile
-- [EIN for Hiring Employees](/blog/ein-for-hiring-employees/) — payroll, W-2s, and Form 941
+- [EIN for PayPal & Stripe](/ein-for-stripe/) — accept payments as a non-resident
+- [Building Business Credit With an EIN](/ein-for-credit/) — build a US credit profile
+- [EIN for Hiring Employees](/ein-for-hiring-employees/) — payroll, W-2s, and Form 941
 </Section>

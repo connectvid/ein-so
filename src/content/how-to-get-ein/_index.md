@@ -265,15 +265,13 @@ Congratulations -- once your EIN is issued, you have a permanent federal tax ide
 </InternalLinks>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## More EIN <Accent>How-To Guides</Accent>
 
-Step-by-step walkthroughs from our blog:
+Step-by-step walkthroughs:
 
-- [How to Get an EIN Online as a Non-Resident](/blog/how-to-get-ein-online-non-resident/) — what works and what does not
-- [How Long Does It Take to Get an EIN by Fax?](/blog/how-long-to-get-ein-by-fax/) — real non-resident timelines
-- [How to Fill Out Form SS-4](/blog/ss4-form-how-to-fill-out/) — line-by-line instructions
-- [IRS EIN Fax Number Guide](/blog/ein-ss4-fax-number/) — where to fax Form SS-4
-- [EIN Rejected? How to Fix It](/blog/ein-rejection-how-to-fix/) — common errors and fixes
+- [How Long Does It Take to Get an EIN by Fax?](/ein-by-fax/) — real non-resident timelines
+- [How to Fill Out Form SS-4](/ss4-form-guide/) — line-by-line instructions
+- [IRS EIN Fax Number Guide](/irs-fax-number-for-ein/) — where to fax Form SS-4
 </Section>

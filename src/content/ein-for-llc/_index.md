@@ -210,13 +210,13 @@ ein.so was built specifically for this use case. We handle the SS-4 preparation,
 </Section>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related EIN Guides <Accent>From Our Blog</Accent>
+## More EIN Guides <Accent>for LLC Owners</Accent>
 
 More on EINs and LLCs:
 
-- [EIN for LLC: Complete Guide](/blog/ein-for-llc-complete-guide/) — every step for LLC owners
 - [Can I Get an EIN Without an LLC?](/blog/can-i-get-ein-without-llc/) — when you do and do not need one
-- [EIN for Sole Proprietors](/blog/ein-for-sole-proprietor-guide/) — if you have not formed an LLC yet
+- [EIN for Sole Proprietors](/ein-for-sole-proprietor/) — if you have not formed an LLC yet
+- [BOI Filing for Your LLC](/boi-filing-for-llc/) — the ownership report every LLC files
 </Section>

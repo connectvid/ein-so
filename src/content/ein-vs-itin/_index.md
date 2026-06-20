@@ -227,14 +227,13 @@ For a deeper dive into how these numbers compare, see our guide on [What Is an E
 </InternalLinks>
 
 <Section surface>
-<Label>From the Blog</Label>
+<Label>Related Guides</Label>
 
-## Related Comparison Guides <Accent>From Our Blog</Accent>
+## Related <Accent>Comparison Guides</Accent>
 
 Tell the tax IDs apart:
 
-- [EIN vs ITIN: Which Do You Need?](/blog/ein-vs-itin-which-do-you-need/) — pick the right one
-- [Do I Need an EIN or ITIN?](/blog/do-i-need-ein-or-itin/) — decision guide
-- [EIN vs SSN: Key Differences](/blog/ein-vs-ssn-differences/) — business vs personal ID
-- [EIN vs Tax ID: Are They the Same?](/blog/ein-vs-tax-id-same-thing/) — clearing up the terms
+- [EIN vs SSN: Key Differences](/ein-vs-ssn/) — business vs personal ID
+- [FEIN vs EIN: Are They the Same?](/fein-vs-ein/) — the federal tax ID, explained
+- [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/) — same number, different names
 </Section>
