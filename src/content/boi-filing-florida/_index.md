@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Florida: State Guide (2026)"
-description: "BOI filing for Florida LLCs and corporations is a federal FinCEN requirement, not a Florida state filing. File free at fincen.gov/boi. This guide covers who must file, deadlines, beneficial owners, EIN requirements, and non-resident owners. ein.so gets your EIN for $49."
+title: "BOI Filing in Florida: Requirements (2026)"
+description: "Florida businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
 canonical: "/boi-filing-florida/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN by Industry: Business Type Guides (2026)"
-description: "EIN guides for 35+ industries. Find out if your business type needs an EIN, how non-residents file Form SS-4 without an SSN, and what an EIN costs. ein.so files it for $49."
+title: "EIN by Industry: Guides for Your Business (2026)"
+description: "Find EIN guides by industry, from e-commerce to trades and creators. Learn how your type of business gets an EIN. Browse all industry guides and read more."
 canonical: "/industries/"
 breadcrumbs:
   - name: "Home"

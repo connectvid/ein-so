@@ -1,6 +1,6 @@
 ---
-title: "IRS EIN Online Application Guide (2026)"
-description: "The IRS EIN online application (EIN Assistant) at irs.gov issues EINs instantly but requires an SSN or ITIN. Non-residents are blocked and must fax Form SS-4. ein.so files it for $49."
+title: "IRS EIN Online: Who Can Use the Tool (2026)"
+description: "The IRS online EIN tool is instant but needs an SSN or ITIN, so non-residents cannot use it. Learn the IRS EIN online rules and your options. Learn more."
 canonical: "/irs-ein-online/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing for LLC: Step-by-Step Guide (2026)"
-description: "Most LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN unless one of 23 exemptions applies. Report owners with 25%+ ownership. File free at fincen.gov/boi. ein.so files your SS-4 EIN for $49."
+title: "BOI Filing for an LLC: What You Must Report"
+description: "Most LLCs must file a BOI report with FinCEN identifying their owners. Learn what an LLC must report, the deadline, and the penalty. See the steps to file."
 canonical: "/boi-filing-for-llc/"
 breadcrumbs:
   - name: "Home"

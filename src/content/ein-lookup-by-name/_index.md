@@ -1,6 +1,6 @@
 ---
-title: "EIN Lookup by Company Name (2026)"
-description: "Search for an EIN by company name using the IRS Tax Exempt Organization Search, SEC EDGAR, or a W-9 request. Private company EINs are not public. Need a new EIN? ein.so files Form SS-4 for $49."
+title: "EIN Lookup by Name: Find a Company EIN (2026)"
+description: "How to do an EIN lookup by name: search SEC EDGAR, nonprofit databases, or state records. Learn the methods to find a company EIN. See the full guide here."
 canonical: "/ein-lookup-by-name/"
 breadcrumbs:
   - name: "Home"

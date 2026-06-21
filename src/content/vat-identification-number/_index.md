@@ -1,6 +1,6 @@
 ---
-title: "VAT Identification Number Guide (2026)"
-description: "A VAT identification number is a consumption-tax registration used in the EU, UK, and 170+ countries. The US has no VAT — US businesses use an EIN instead. Learn how non-residents get a US EIN with Form SS-4 for $49."
+title: "VAT Identification Number: What It Is (2026)"
+description: "A VAT identification number registers a business for VAT in the EU and UK. Learn what a VAT number is and how it differs from an EIN. Learn more here."
 canonical: "/vat-identification-number/"
 breadcrumbs:
   - name: "Home"

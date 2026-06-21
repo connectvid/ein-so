@@ -1,6 +1,6 @@
 ---
-title: "How to Apply for EIN by Fax: Complete Guide (2026)"
-description: "Apply for an EIN by faxing Form SS-4 to the IRS at 855-215-1627. Non-residents use a passport number, no SSN needed. 4-7 business day processing. ein.so files it for $49."
+title: "EIN by Fax: How to Apply With Form SS-4 (2026)"
+description: "Apply for an EIN by fax with Form SS-4 to 855-215-1627 — the method non-residents use. Learn the steps and timing for EIN by fax. See the full guide here."
 canonical: "/ein-by-fax/"
 breadcrumbs:
   - name: "Home"

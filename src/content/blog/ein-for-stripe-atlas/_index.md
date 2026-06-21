@@ -1,6 +1,6 @@
 ---
-title: "EIN After Stripe Atlas: What You Need to Know"
-description: "EIN After Stripe Atlas: What You Need to Know. 320/mo. Stripe Atlas users need EIN separately for non-US."
+title: "EIN for Stripe Atlas: How It Works (2026)"
+description: "Stripe Atlas requests an EIN for your new US company, and getting one can lag. Learn how the Stripe Atlas EIN works and how to speed it up. See the guide."
 canonical: "/blog/ein-for-stripe-atlas/"
 breadcrumbs:
   - name: "Home"

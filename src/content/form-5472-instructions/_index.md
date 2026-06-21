@@ -1,6 +1,6 @@
 ---
-title: "Form 5472 Instructions: Line-by-Line (2026)"
-description: "Line-by-line IRS Form 5472 instructions for foreign-owned US LLCs. All 6 parts, the pro-forma Form 1120, the $25,000 penalty, the April 15 deadline, and how your EIN fits in. ein.so files Form SS-4 for your EIN for $49."
+title: "Form 5472 Instructions: How to Fill It Out"
+description: "Form 5472 instructions for foreign-owned US LLCs: what each part needs and how to file with a pro-forma 1120. Avoid the $25,000 penalty. See the steps."
 canonical: "/form-5472-instructions/"
 breadcrumbs:
   - name: "Home"

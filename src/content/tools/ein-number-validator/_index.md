@@ -1,6 +1,6 @@
 ---
-title: "EIN Number Validator: Check EIN Format (2026)"
-description: "Validate your EIN number format. Check if your 9-digit number follows the correct XX-XXXXXXX pattern."
+title: "EIN Number Validator: Check EIN Format (Free)"
+description: "Use the free EIN number validator to check whether an EIN has a valid XX-XXXXXXX format and prefix. Instant format check, no signup. Use the free tool now."
 canonical: "/tools/ein-number-validator/"
 breadcrumbs:
   - name: "Home"

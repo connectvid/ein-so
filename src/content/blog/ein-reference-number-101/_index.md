@@ -1,6 +1,6 @@
 ---
-title: "EIN Reference Number 101 Error: How to Fix It"
-description: "EIN Reference Number 101 Error: How to Fix It. 1900/mo. Very specific rejection code. High search intent."
+title: "EIN Reference Number 101: What Each Code Means"
+description: "EIN reference numbers like 101, 102, and 109 signal SS-4 errors. Learn what each EIN reference number means and how to fix it. See the full guide here."
 canonical: "/blog/ein-reference-number-101/"
 breadcrumbs:
   - name: "Home"

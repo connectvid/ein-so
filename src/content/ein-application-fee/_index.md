@@ -1,6 +1,6 @@
 ---
-title: "EIN Application Fee: Is There a Government Fee? (2026)"
-description: "There is no government fee for an EIN application. The IRS issues EINs for free through fax, phone, and mail. Third-party services like ein.so charge $49 for Form SS-4 preparation and filing, not for the EIN itself."
+title: "EIN Application Fee: Is There a Cost? (2026)"
+description: "Is there an EIN application fee? The IRS charges $0 for an EIN. Learn what an EIN really costs and what services charge non-residents. See the breakdown."
 canonical: "/ein-application-fee/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "ITIN Renewal: When & How to Renew (2026)"
-description: "An ITIN expires after 3 years of non-use. Renew by filing Form W-7 with the Renew box checked. No tax return needed. Renewal is free from the IRS; ein.so files ITINs for $197."
+title: "ITIN Renewal: How to Renew an Expired ITIN"
+description: "ITINs expire after three years of non-use. Learn how to renew an expired ITIN with Form W-7, the documents needed, and timing. See the renewal steps here."
 canonical: "/itin-renewal/"
 breadcrumbs:
   - name: "Home"

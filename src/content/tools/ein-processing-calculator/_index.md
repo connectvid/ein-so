@@ -1,6 +1,6 @@
 ---
-title: "EIN Processing Time Calculator: When Will You Get Your EIN?"
-description: "Calculate your EIN processing time based on application method. Compare Standard vs Express timelines."
+title: "EIN Processing Time Calculator (Free Tool)"
+description: "Use the free EIN processing time calculator to estimate when your EIN will arrive by method. Compare fax, online, and mail timing. Use the free tool now."
 canonical: "/tools/ein-processing-calculator/"
 dynamic: "force-static"
 breadcrumbs:

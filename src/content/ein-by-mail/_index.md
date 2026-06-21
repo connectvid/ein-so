@@ -1,6 +1,6 @@
 ---
-title: "Apply for EIN by Mail: Address & Timeline (2026)"
-description: "Mail Form SS-4 to IRS EIN Operation, Cincinnati OH 45999. Processing takes 4-6 weeks, the slowest EIN method. Non-residents use a passport on Line 7b. Fax is faster; ein.so files it for $49."
+title: "EIN by Mail: How to Apply With Form SS-4 (2026)"
+description: "Apply for an EIN by mail with Form SS-4. Learn where to mail it, the 4 to 6 week timing, and why fax is faster for non-residents. See the full guide here."
 canonical: "/ein-by-mail/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "Can You Have Multiple EIN Numbers? (2026)"
-description: "Each entity gets one EIN. One person can own unlimited EINs across multiple businesses. A new entity needs a new EIN; name and address changes do not. Non-residents file Form SS-4 by fax for each entity. ein.so files it for $49."
+title: "Multiple EIN Numbers: Can You Have More Than 1?"
+description: "Can a business have multiple EIN numbers? Sometimes yes, depending on entity structure. Learn when you need more than one EIN. See the full guide here."
 canonical: "/multiple-ein-numbers/"
 breadcrumbs:
   - name: "Home"

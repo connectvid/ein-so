@@ -1,6 +1,6 @@
 ---
-title: "Change Business Name on EIN (2026)"
-description: "Change the business name on your EIN by notifying the IRS. LLCs send a letter to Cincinnati, OH 45999, corporations file amended Articles and check the name change box on Form 1120, sole proprietors update the next Schedule C. Your EIN number never changes."
+title: "EIN Name Change: How to Update Your Name (2026)"
+description: "Changed your business name? Learn how to report an EIN name change to the IRS and keep the same EIN number. See the steps and where to write. Learn more."
 canonical: "/ein-name-change/"
 breadcrumbs:
   - name: "Home"

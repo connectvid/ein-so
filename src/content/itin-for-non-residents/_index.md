@@ -1,6 +1,6 @@
 ---
-title: "ITIN for Non-US Residents (2026)"
-description: "Non-resident aliens with US income need an ITIN to file tax returns. Apply with Form W-7. Covers ITIN vs EIN, processing time, CAA certification, and tax treaty claims. ein.so files ITINs for $197."
+title: "ITIN for Non-Residents: How to Apply (2026)"
+description: "Non-residents can get an ITIN to file US taxes and claim treaty benefits with no SSN. Learn how to apply for an ITIN with Form W-7. See the steps to apply."
 canonical: "/itin-for-non-residents/"
 breadcrumbs:
   - name: "Home"

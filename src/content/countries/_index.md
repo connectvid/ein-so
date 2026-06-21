@@ -1,6 +1,6 @@
 ---
-title: "EIN for Non-Residents by Country (2026)"
-description: "EIN guides for entrepreneurs from 60+ countries. Apply from anywhere using Form SS-4 and your passport number. No SSN or ITIN needed. ein.so files it for $49."
+title: "EIN by Country: Apply From Any Country (2026)"
+description: "Get a US EIN from any country with no SSN. Browse EIN guides by country and learn how non-residents apply by fax. See all country guides and get started."
 canonical: "/countries/"
 breadcrumbs:
   - name: "Home"

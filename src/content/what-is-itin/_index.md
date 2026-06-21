@@ -1,6 +1,6 @@
 ---
-title: "What Is an ITIN? Complete Explanation (2026)"
-description: "An ITIN is a 9-digit IRS tax processing number for people who need a US tax ID but cannot get an SSN. Learn how the ITIN differs from an EIN, who needs it, and how to apply with Form W-7."
+title: "What Is an ITIN? Meaning and Who Needs One"
+description: "An ITIN is an IRS tax ID for people who cannot get an SSN, mainly non-residents. Learn what an ITIN is and who needs one. See the full guide and read more."
 canonical: "/what-is-itin/"
 breadcrumbs:
   - name: "Home"

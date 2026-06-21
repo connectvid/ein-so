@@ -1,6 +1,6 @@
 ---
-title: "Open Chase Business Account With EIN (2026)"
-description: "Open a Chase business checking account with your EIN. Chase is the largest US bank with a nationwide branch network, but usually requires an in-person visit. Eligibility for non-residents, required documents, and step-by-step guide. Get your EIN at ein.so for $49."
+title: "Open a Chase Business Account With an EIN"
+description: "Open a Chase business bank account with your EIN. Learn the documents required and whether non-residents qualify with no SSN. See the steps to apply."
 canonical: "/open-chase-account-with-ein/"
 breadcrumbs:
   - name: "Home"

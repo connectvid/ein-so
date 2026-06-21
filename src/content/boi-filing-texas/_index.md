@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Texas: Federal FinCEN Guide for Texas LLCs (2026)"
-description: "BOI filing for Texas LLCs is a federal FinCEN requirement, not a Texas state filing. File free at fincen.gov/boi. You need an EIN first. ein.so files Form SS-4 for non-residents for $49."
+title: "BOI Filing in Texas: Requirements & Deadline"
+description: "Texas businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
 canonical: "/boi-filing-texas/"
 breadcrumbs:
   - name: "Home"

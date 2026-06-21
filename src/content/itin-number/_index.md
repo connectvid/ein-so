@@ -1,6 +1,6 @@
 ---
-title: "ITIN Number: Individual Taxpayer ID Guide (2026)"
-description: "An ITIN is a 9-digit IRS tax ID starting with 9 for people who cannot get an SSN. Learn how Form W-7 works, who needs an ITIN, ITIN vs EIN, and ein.so pricing ($197 standard, $297 express)."
+title: "ITIN Number: What It Is and How to Get One"
+description: "An ITIN is a 9-digit IRS tax ID for people who cannot get an SSN. Learn what an ITIN number is, who needs one, and how to apply. See the full guide here."
 canonical: "/itin-number/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN Verification: Confirm a Business Tax ID (2026)"
-description: "Verify an EIN with IRS Letter 147C, CP 575 notice, W-9 form, or state filings. Banks require EIN verification before opening business accounts. Non-residents verify EINs the same way US owners do. ein.so files Form SS-4 for $49."
+title: "EIN Verification: How to Verify an EIN (2026)"
+description: "How to verify an EIN: confirm a business EIN with the IRS, a W-9, or public records. Learn the EIN verification methods that work. See the full guide here."
 canonical: "/ein-verification/"
 breadcrumbs:
   - name: "Home"

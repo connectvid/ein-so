@@ -1,6 +1,6 @@
 ---
-title: "Free EIN Number: How to Get an EIN for Free (2026)"
-description: "The IRS issues EINs for $0. Apply online at irs.gov (SSN required) or fax Form SS-4 to 855-215-1627. Non-residents use a passport on Line 7b. No government fee exists."
+title: "Free EIN: How to Get an EIN at No Cost (2026)"
+description: "The IRS issues EINs for free. Learn how to get a free EIN, why some services charge, and the catch for non-residents. See the full guide and get started."
 canonical: "/free-ein/"
 breadcrumbs:
   - name: "Home"

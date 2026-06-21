@@ -1,6 +1,6 @@
 ---
-title: "State Tax ID Number: How It Differs From EIN (2026)"
-description: "A state tax ID is separate from your federal EIN. States issue their own numbers for income tax, sales tax, and payroll. Non-residents need the federal EIN first - ein.so files Form SS-4 for $49."
+title: "State Tax ID: What It Is and How to Get One"
+description: "A state tax ID registers your business for state taxes, separate from your federal EIN. Learn what a state tax ID is and how to get one. Learn more here."
 canonical: "/state-tax-id/"
 breadcrumbs:
   - name: "Home"

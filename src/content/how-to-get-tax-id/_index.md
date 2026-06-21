@@ -1,6 +1,6 @@
 ---
-title: "How to Get a Tax ID Number (2026)"
-description: "Get a US Tax ID number: businesses apply for an EIN with Form SS-4, citizens use Form SS-5 for an SSN, and non-residents file Form W-7 for an ITIN. ein.so files your EIN SS-4 for $49."
+title: "How to Get a Tax ID Number: EIN or ITIN (2026)"
+description: "Learn how to get a tax ID number, whether you need an EIN for a business or an ITIN for an individual. A clear guide for non-residents. See the steps."
 canonical: "/how-to-get-tax-id/"
 breadcrumbs:
   - name: "Home"

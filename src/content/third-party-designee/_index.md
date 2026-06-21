@@ -1,6 +1,6 @@
 ---
-title: "Third Party Designee on SS-4 (2026)"
-description: "The third party designee on Form SS-4 Line 18 authorizes someone to receive your EIN from the IRS. Learn how it works, how it differs from the responsible party, and why ein.so serves as your designee for $49."
+title: "Third Party Designee on Form SS-4 Explained"
+description: "A third party designee can receive your EIN from the IRS on your behalf. Learn what the SS-4 third party designee section does. See the full guide here."
 canonical: "/third-party-designee/"
 breadcrumbs:
   - name: "Home"

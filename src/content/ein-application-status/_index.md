@@ -1,6 +1,6 @@
 ---
-title: "Check EIN Application Status (2026)"
-description: "Check EIN application status by calling the IRS at 800-829-4933 (domestic) or 267-941-1099 (international). No online status checker exists. Fax: wait 7 business days. Mail: wait 6 weeks. ein.so tracks your SS-4 and emails your EIN for $49."
+title: "EIN Application Status: How to Check It (2026)"
+description: "How to check your EIN application status with the IRS after filing Form SS-4. Learn what to expect and typical timing by method. See the full guide here."
 canonical: "/ein-application-status/"
 breadcrumbs:
   - name: "Home"

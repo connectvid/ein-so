@@ -1,6 +1,6 @@
 ---
-title: "Apply for EIN by Phone: IRS Numbers & Guide (2026)"
-description: "Call IRS at 267-941-1099 (international) or 800-829-4933 (domestic) for an EIN. Mon-Fri 7am-7pm ET. Non-US residents can skip the call: ein.so files Form SS-4 by fax for $49."
+title: "EIN by Phone: Apply at 267-941-1099 (2026)"
+description: "International applicants can get an EIN by phone at 267-941-1099. Learn how the phone method works, the hours, and what to prepare. See the full guide."
 canonical: "/ein-by-phone/"
 breadcrumbs:
   - name: "Home"

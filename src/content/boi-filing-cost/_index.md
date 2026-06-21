@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Cost: Free vs Paid Services (2026)"
-description: "Filing a BOI report directly with FinCEN costs $0. Third-party services charge $49-$199. There is no government fee. Full cost breakdown, exemptions, and how BOI fits with your EIN and Form 5472."
+title: "BOI Filing Cost: How Much Does It Cost? (2026)"
+description: "How much does BOI filing cost? Filing direct with FinCEN is free, but a service has a fee. See the full BOI filing cost breakdown. Compare options now."
 canonical: "/boi-filing-cost/"
 breadcrumbs:
   - name: "Home"

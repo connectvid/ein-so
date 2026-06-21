@@ -1,6 +1,6 @@
 ---
-title: "EIN Application Cost: How Much Does an EIN Cost? (2026)"
-description: "An EIN costs $0 from the IRS. ein.so charges $49 Standard or $97 Express to file Form SS-4 for non-residents. Compare EIN service prices and see what the fee covers."
+title: "EIN Cost: How Much Does an EIN Cost? (2026)"
+description: "How much does an EIN cost? The IRS charges $0. Learn the real EIN cost and what non-resident filing services charge. See the full breakdown and compare."
 canonical: "/ein-cost/"
 breadcrumbs:
   - name: "Home"

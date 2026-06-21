@@ -1,6 +1,6 @@
 ---
-title: "Open Wise Business Account With EIN (2026)"
-description: "Open a Wise Business account with your EIN to hold and receive USD plus 40+ currencies. Best for international payments and low forex fees. Eligibility for non-residents, required documents, and step-by-step guide. Get your EIN at ein.so for $49."
+title: "Open a Wise Business Account With Your EIN"
+description: "Open a Wise business account with your EIN to hold and convert currencies. Learn the documents and steps for non-residents. Get started with Wise today."
 canonical: "/open-wise-account-with-ein/"
 breadcrumbs:
   - name: "Home"

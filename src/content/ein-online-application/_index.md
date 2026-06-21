@@ -1,6 +1,6 @@
 ---
-title: "EIN Online Application: IRS EIN Assistant Guide (2026)"
-description: "Apply for an EIN online with the IRS EIN Assistant at irs.gov. Instant issuance, free, Mon-Fri 7am-10pm ET. Requires an SSN or ITIN. Non-residents apply by fax instead; ein.so files it for $49."
+title: "EIN Online Application: Who Can Use It (2026)"
+description: "The EIN online application is instant but requires an SSN or ITIN, so non-residents cannot use it. Learn your options. See the full guide here today."
 canonical: "/ein-online-application/"
 breadcrumbs:
   - name: "Home"

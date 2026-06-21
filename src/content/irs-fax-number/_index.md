@@ -1,6 +1,6 @@
 ---
-title: "IRS Fax Number: Complete Directory (2026)"
-description: "The IRS fax number for EIN applications (Form SS-4) is 855-215-1627. Faxing the SS-4 takes 4-7 business days and is the path non-US residents without an SSN use. ein.so files it for $49."
+title: "IRS Fax Number: Where to Fax Form SS-4 (2026)"
+description: "The IRS fax number for Form SS-4 is 855-215-1627 for non-residents. Learn where to fax your EIN application and what to expect. See the full guide here."
 canonical: "/irs-fax-number/"
 breadcrumbs:
   - name: "Home"

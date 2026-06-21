@@ -1,6 +1,6 @@
 ---
-title: "Lost Your EIN? 3 Ways to Recover It (2026)"
-description: "Lost your EIN? Recover it by calling the IRS at 800-829-4933, checking old tax returns, or requesting Letter 147C. Only the responsible party can recover an EIN. Non-residents recovering an EIN call 267-941-1099."
+title: "Lost EIN Number: How to Find It Again (2026)"
+description: "Lost your EIN number? Find it on your CP 575, a past tax return, or by calling the IRS. Learn how to recover a lost EIN. See the full guide and steps here."
 canonical: "/lost-ein-number/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Exemptions: Who Does Not Need to File?"
-description: "BOI Filing Exemptions: Who Does Not Need to File?. 1300/mo. Exemption list. Most small LLCs are NOT exempt."
+title: "BOI Exemptions: Who Is Exempt From Filing?"
+description: "23 entity types are exempt from BOI filing. Learn the BOI exemptions, who does not need to file with FinCEN, and who still must. See the full list here."
 canonical: "/blog/boi-exemptions-who-is-exempt/"
 breadcrumbs:
   - name: "Home"

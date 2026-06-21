@@ -1,6 +1,6 @@
 ---
-title: "Open Novo Bank Account With EIN (2026)"
-description: "Open a Novo business checking account with your EIN. Free account, no monthly fee, integrates with Stripe, Shopify, and QuickBooks. Eligibility rules for non-residents, required documents, and step-by-step guide. Get your EIN at ein.so for $49."
+title: "Open a Novo Business Account With Your EIN"
+description: "Open a Novo business bank account with your EIN. Learn the documents required and whether non-residents qualify. See the steps to apply and get started."
 canonical: "/open-novo-account-with-ein/"
 breadcrumbs:
   - name: "Home"

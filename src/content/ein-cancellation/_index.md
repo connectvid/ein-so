@@ -1,6 +1,6 @@
 ---
-title: "How to Cancel an EIN (2026)"
-description: "EINs cannot be cancelled. Once the IRS assigns an EIN, the 9-digit number is permanent. Learn how to close the IRS business account by letter, when you need a new EIN, and how non-residents file Form SS-4. ein.so files it for $49."
+title: "EIN Cancellation: How to Close an EIN (2026)"
+description: "You cannot delete an EIN, but you can close the IRS business account. Learn how EIN cancellation works and what to send the IRS. See the steps here."
 canonical: "/ein-cancellation/"
 breadcrumbs:
   - name: "Home"

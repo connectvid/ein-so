@@ -1,6 +1,6 @@
 ---
-title: "Free EIN Eligibility Checker: Do You Need an EIN? (2026)"
-description: "Answer 5 questions to find out if you need an EIN. Free tool for business owners and non-residents."
+title: "Free EIN Eligibility Checker: Do You Need One?"
+description: "Use our free EIN eligibility checker to see if your business needs an EIN. Answer a few questions for an instant result, no signup. Use the free tool now."
 canonical: "/tools/ein-eligibility-checker/"
 dynamic: "force-static"
 breadcrumbs:

@@ -1,6 +1,6 @@
 ---
-title: "Open Relay Bank Account With EIN (2026)"
-description: "Open a Relay business banking account as a non-resident with your EIN. Free business checking, up to 20 sub-accounts and 50 virtual cards, no monthly fee. Step-by-step guide and required documents. Get your EIN at ein.so for $49."
+title: "Open a Relay Business Account With Your EIN"
+description: "Open a Relay business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Relay today."
 canonical: "/open-relay-account-with-ein/"
 breadcrumbs:
   - name: "Home"

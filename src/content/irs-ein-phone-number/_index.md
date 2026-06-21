@@ -1,6 +1,6 @@
 ---
-title: "IRS EIN Phone Number: Call for Your Tax ID (2026)"
-description: "The IRS EIN phone number is 800-829-4933 (domestic) and 267-941-1099 (international), Mon-Fri 7am-7pm ET. Non-residents without an SSN cannot use the phone line and apply by fax instead. ein.so files Form SS-4 for $49."
+title: "IRS EIN Phone Number: Apply by Phone (2026)"
+description: "Call the IRS EIN phone number at 267-941-1099 to get an EIN as an international applicant. Learn how the phone method works and timing. See the steps here."
 canonical: "/irs-ein-phone-number/"
 breadcrumbs:
   - name: "Home"

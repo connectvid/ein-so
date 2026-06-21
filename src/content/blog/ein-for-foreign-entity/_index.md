@@ -1,6 +1,6 @@
 ---
-title: "EIN for Foreign Entity: Non-US Corporation Guide"
-description: "EIN for Foreign Entity: Non-US Corporation Guide. 880/mo. Foreign corporations doing business in US."
+title: "EIN for a Foreign Entity: How to Apply (2026)"
+description: "A foreign entity doing business in the US may need an EIN for tax and withholding. Learn how a foreign company gets a US EIN with no SSN. See the guide."
 canonical: "/blog/ein-for-foreign-entity/"
 breadcrumbs:
   - name: "Home"

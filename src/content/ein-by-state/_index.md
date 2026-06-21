@@ -1,6 +1,6 @@
 ---
-title: "EIN by State: All 50 States Guide (2026)"
-description: "Complete guide to getting an EIN in every US state. The EIN is federal, so the process is identical nationwide. Non-residents apply with a passport, no SSN. ein.so files Form SS-4 for $49."
+title: "EIN by State: How to Get an EIN in Any State"
+description: "Getting an EIN is a federal process, the same in every state. Learn how to get an EIN by state and what differs locally. See the state-by-state guide here."
 canonical: "/ein-by-state/"
 breadcrumbs:
   - name: "Home"

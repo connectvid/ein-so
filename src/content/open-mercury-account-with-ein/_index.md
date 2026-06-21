@@ -1,6 +1,6 @@
 ---
-title: "Open Mercury Bank Account With EIN (2026)"
-description: "Open a Mercury business bank account as a non-resident using your EIN. $0 monthly fee, no minimum balance, fully online. Step-by-step guide, required documents, and approval tips. Get your EIN at ein.so for $49."
+title: "Open a Mercury Account With an EIN (2026)"
+description: "Open a Mercury business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Mercury."
 canonical: "/open-mercury-account-with-ein/"
 breadcrumbs:
   - name: "Home"

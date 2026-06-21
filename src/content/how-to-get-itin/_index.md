@@ -1,6 +1,6 @@
 ---
-title: "How to Get an ITIN: Application Process (2026)"
-description: "Get an ITIN by filing IRS Form W-7 with a federal tax return and identity documents. 3 methods: mail, CAA, or IRS office. Processing takes 7-11 weeks. ITIN vs EIN explained."
+title: "How to Get an ITIN: Step-by-Step Guide (2026)"
+description: "Learn how to get an ITIN with Form W-7, the required documents, and where to file. A step-by-step ITIN guide for non-residents. See the full steps here."
 canonical: "/how-to-get-itin/"
 breadcrumbs:
   - name: "Home"

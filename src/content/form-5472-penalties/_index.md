@@ -1,6 +1,6 @@
 ---
-title: "Form 5472 Penalties: $25,000 Fine (2026)"
-description: "The penalty for not filing Form 5472 is $25,000 per form per year. Penalties stack across years and entities. Abatement is possible for reasonable cause. Get your EIN at ein.so for $49 before you file."
+title: "Form 5472 Penalties: $25,000 for Not Filing"
+description: "Missing Form 5472 brings a $25,000 penalty for foreign-owned US LLCs. Learn the Form 5472 penalties and how to stay compliant. See the full guide here."
 canonical: "/form-5472-penalties/"
 breadcrumbs:
   - name: "Home"

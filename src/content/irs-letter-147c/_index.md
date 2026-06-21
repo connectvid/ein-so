@@ -1,6 +1,6 @@
 ---
-title: "IRS Letter 147C: EIN Verification Letter (2026)"
-description: "IRS Letter 147C verifies your EIN, entity name, and address. Request it free by calling 800-829-4933. Faxed in 24-48 hours. Banks require 147C when you lost your CP 575. Non-residents can rebuild proof of their EIN with this letter."
+title: "IRS Letter 147C: Get an EIN Verification Letter"
+description: "IRS Letter 147C verifies your EIN if you lost the CP 575. Learn how to request a 147C letter from the IRS by phone or fax. See the full guide and steps."
 canonical: "/irs-letter-147c/"
 breadcrumbs:
   - name: "Home"

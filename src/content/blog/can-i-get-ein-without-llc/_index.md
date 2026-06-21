@@ -1,6 +1,6 @@
 ---
-title: "Can I Get an EIN Without an LLC?"
-description: "Can I Get an EIN Without an LLC?. Yes — sole proprietors trusts estates all get EINs. Common misconception."
+title: "Can You Get an EIN Without an LLC? (2026)"
+description: "Can you get an EIN without an LLC? Yes — sole proprietors and individuals can apply. Learn when you need an EIN without an LLC and how. See the full guide."
 canonical: "/blog/can-i-get-ein-without-llc/"
 breadcrumbs:
   - name: "Home"

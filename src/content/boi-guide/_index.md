@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Complete Guide (2026)"
-description: "Complete guide to Beneficial Ownership Information (BOI) filing with FinCEN. Who must file, deadlines, the $591/day penalty, and how BOI connects to your EIN. ein.so files Form SS-4 EINs for non-residents from $49."
+title: "BOI Report Guide: How to File With FinCEN (2026)"
+description: "A complete BOI report guide: who must file with FinCEN, what to report, deadlines, and penalties. Learn how to file your BOI report. See the full guide."
 canonical: "/boi-guide/"
 breadcrumbs:
   - name: "Home"

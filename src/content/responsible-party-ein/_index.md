@@ -1,6 +1,6 @@
 ---
-title: "Responsible Party on EIN: Who Should It Be? (2026)"
-description: "The responsible party on an EIN application must be an individual who controls the entity. Non-residents use a passport number on Form SS-4 Line 7b. No SSN or ITIN needed. ein.so files SS-4 for $49."
+title: "Responsible Party for an EIN: Who It Is (2026)"
+description: "The responsible party on Form SS-4 controls the entity and its EIN. Learn who can be the responsible party and how to update it. See the full guide here."
 canonical: "/responsible-party-ein/"
 breadcrumbs:
   - name: "Home"

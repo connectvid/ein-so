@@ -1,6 +1,6 @@
 ---
-title: "Form W-7 Guide: ITIN Application Form (2026)"
-description: "Form W-7 is the IRS application for an Individual Taxpayer Identification Number (ITIN). Line-by-line instructions, document rules, and how an ITIN differs from an EIN. ein.so files ITINs for $197."
+title: "IRS Form W-7 Guide: How to Apply for an ITIN"
+description: "Fill out IRS Form W-7 to apply for an ITIN. Learn what each line needs, the documents to attach, and where to file. See the full W-7 guide to get started."
 canonical: "/w7-form-guide/"
 breadcrumbs:
   - name: "Home"

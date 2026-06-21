@@ -1,6 +1,6 @@
 ---
-title: "EIN for Airbnb Hosts: Foreign Property Owner Guide"
-description: "EIN for Airbnb Hosts: Foreign Property Owner Guide. 590/mo. Non-US Airbnb hosts need EIN for tax compliance."
+title: "EIN for Airbnb Hosts: Do You Need One? (2026)"
+description: "Airbnb hosts can use an EIN to protect their SSN and run a rental LLC. Learn whether Airbnb hosts need an EIN and how to get one. See the full guide here."
 canonical: "/blog/ein-for-airbnb-hosts/"
 breadcrumbs:
   - name: "Home"

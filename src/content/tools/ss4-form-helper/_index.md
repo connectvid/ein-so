@@ -1,6 +1,6 @@
 ---
-title: "Free SS-4 Form Helper: Line-by-Line Guide (2026)"
-description: "Fill out IRS Form SS-4 correctly with our free line-by-line helper. Designed for non-residents applying for an EIN."
+title: "Free SS-4 Form Helper: Fill It Out Online (2026)"
+description: "Use the free SS-4 form helper to complete IRS Form SS-4 line by line for your EIN. Built for non-residents applying with no SSN. Use the free tool now."
 canonical: "/tools/ss4-form-helper/"
 dynamic: "force-static"
 breadcrumbs:

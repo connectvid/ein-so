@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Requirements: Who Must File? (2026)"
-description: "BOI filing is required for most LLCs and corporations created by a state filing. 23 exemption categories cover large companies. See who must file, what to report, and the deadlines, plus how your EIN fits in. ein.so files Form SS-4 for $49."
+title: "BOI Filing Requirements: Who Must File (2026)"
+description: "Most US LLCs and corporations must file a BOI report with FinCEN. Learn the BOI filing requirements, who is exempt, and the deadline. See the full guide."
 canonical: "/boi-filing-requirements/"
 breadcrumbs:
   - name: "Home"

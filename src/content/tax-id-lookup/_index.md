@@ -1,6 +1,6 @@
 ---
-title: "Tax ID Number Lookup (2026)"
-description: "Look up a Tax ID number using IRS tools, SEC EDGAR, state databases, or a W-9 request. Learn why private EINs are confidential, how non-residents get their own EIN from ein.so for $49, and which lookup method fits each TIN type."
+title: "Tax ID Lookup: How to Find a Tax ID Number"
+description: "How to find a tax ID number: look up an EIN through the IRS, SEC EDGAR, or state records. See the methods that work for a tax ID lookup. Learn more here."
 canonical: "/tax-id-lookup/"
 breadcrumbs:
   - name: "Home"

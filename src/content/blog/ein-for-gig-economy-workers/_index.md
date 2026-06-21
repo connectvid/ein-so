@@ -1,6 +1,6 @@
 ---
-title: "EIN for Gig Workers: Uber Fiverr Upwork Tax Guide"
-description: "EIN for Gig Workers: Uber Fiverr Upwork Tax Guide. 590/mo. Broad gig economy angle."
+title: "EIN for Gig Economy Workers: Protect Your SSN"
+description: "Gig economy workers can use an EIN instead of an SSN on 1099 and W-9 forms. Learn whether gig workers need an EIN and how to get one. See the full guide."
 canonical: "/blog/ein-for-gig-economy-workers/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "Foreign EIN Application: SS-4 for Non-US Entities (2026)"
-description: "Submit a foreign EIN application with IRS Form SS-4 and your passport number on Line 7b. No SSN or ITIN needed. Fax to 855-215-1627. ein.so files it for $49."
+title: "Foreign EIN Application: Get a US EIN Abroad"
+description: "Foreign applicants can get a US EIN by filing Form SS-4 by fax with no SSN. Learn the foreign EIN application steps for non-residents. Apply now to start."
 canonical: "/foreign-ein-application/"
 breadcrumbs:
   - name: "Home"

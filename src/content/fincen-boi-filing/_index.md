@@ -1,6 +1,6 @@
 ---
-title: "FinCEN BOI Filing: Federal Requirements (2026)"
-description: "FinCEN's BOI e-filing system at fincen.gov/boi processes Beneficial Ownership Information reports for free. Learn who must file, deadlines, penalties, and how a foreign-owned US LLC reports beneficial owners under the Corporate Transparency Act. ein.so files Form SS-4 for your EIN from $49."
+title: "FinCEN BOI Filing: How to File Your Report"
+description: "FinCEN requires most companies to file a BOI report identifying their owners. Learn how to file your FinCEN BOI report and avoid penalties. See the steps."
 canonical: "/fincen-boi-filing/"
 breadcrumbs:
   - name: "Home"

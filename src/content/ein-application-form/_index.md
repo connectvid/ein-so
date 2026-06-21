@@ -1,6 +1,6 @@
 ---
-title: "EIN Application Form: Which Form Do You Need? (2026)"
-description: "The EIN application form is IRS Form SS-4. Free to file. Non-residents enter a passport number on Line 7b - no SSN needed. ein.so files it for $49."
+title: "EIN Application Form: IRS Form SS-4 Explained"
+description: "The EIN application form is IRS Form SS-4. Learn what the form asks, how to complete it, and how non-residents file with no SSN. See the full guide here."
 canonical: "/ein-application-form/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing California: Federal FinCEN Guide (2026)"
-description: "BOI filing for California LLCs follows federal FinCEN rules, not the California SOS. File free at fincen.gov/boi using your EIN. ein.so gets non-resident owners an EIN for $49."
+title: "BOI Filing in California: Requirements (2026)"
+description: "California businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
 canonical: "/boi-filing-california/"
 breadcrumbs:
   - name: "Home"

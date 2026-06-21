@@ -1,6 +1,6 @@
 ---
-title: "EIN Lookup on IRS: Official Methods (2026)"
-description: "Look up an EIN with IRS Tax Exempt Org Search (nonprofits, free), call the IRS at 800-829-4933 for your own EIN, search SEC EDGAR for public companies, or request a W-9. Need a new EIN? ein.so files Form SS-4 for $49."
+title: "IRS EIN Lookup: How to Find an EIN (2026)"
+description: "How to look up an EIN with the IRS: the Tax Exempt Search and 147C verification. Learn the IRS EIN lookup options that work. See the full guide and steps."
 canonical: "/ein-lookup-irs/"
 breadcrumbs:
   - name: "Home"

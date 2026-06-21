@@ -1,6 +1,6 @@
 ---
-title: "Tax Identification Number (TIN) Guide (2026)"
-description: "A Tax Identification Number (TIN) is the umbrella term for every US tax ID: EIN, SSN, ITIN, PTIN, and ATIN. Learn which TIN you need, how non-residents get an EIN without an SSN, and how ein.so files Form SS-4 for $49."
+title: "Tax Identification Number: The Types Explained"
+description: "A tax identification number can be an EIN, SSN, or ITIN. Learn the types of TIN, which one you need, and how to get it. See the full guide and read more."
 canonical: "/tax-identification-number/"
 breadcrumbs:
   - name: "Home"

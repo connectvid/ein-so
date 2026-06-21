@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing New York: State Guide (2026)"
-description: "BOI filing in New York follows federal FinCEN rules, not a state filing. File free at fincen.gov/boi. Covers deadlines, beneficial owners, exemptions, and the EIN you need first. ein.so files Form SS-4 for $49."
+title: "BOI Filing in New York: Requirements (2026)"
+description: "New York businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
 canonical: "/boi-filing-new-york/"
 breadcrumbs:
   - name: "Home"

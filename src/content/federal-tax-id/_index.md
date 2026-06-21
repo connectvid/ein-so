@@ -1,6 +1,6 @@
 ---
-title: "Federal Tax ID Number: How to Get One (2026)"
-description: "A Federal Tax ID is the same as an EIN: the 9-digit IRS tax number for businesses. Non-residents get one without an SSN by filing Form SS-4 by fax. ein.so files it for $49."
+title: "Federal Tax ID Number: What It Is & How to Get"
+description: "A federal tax ID is your EIN, the 9-digit number the IRS issues to businesses. Learn what it is and how to get a federal tax ID. See the full guide here."
 canonical: "/federal-tax-id/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "ITIN Processing Time: How Long? (2026)"
-description: "ITIN processing takes 7-11 weeks from IRS receipt of Form W-7. Peak season (Jan-April) runs 9-11 weeks; off-season runs 7 weeks. The IRS offers no expedited option. Full timeline, status checks, and ITIN vs EIN here."
+title: "ITIN Processing Time: How Long It Takes (2026)"
+description: "ITIN processing takes about 7 to 11 weeks by mail. Learn the current ITIN processing time, what slows it down, and how to apply. See the full guide here."
 canonical: "/itin-processing-time/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
-title: "EIN Blog: Guides, Tips, and Updates (2026)"
-description: "EIN guides, tips, and updates for entrepreneurs. Learn about EINs, ITINs, BOI filing, tax compliance, and business formation."
+title: "EIN Blog: Guides for Non-Resident Founders"
+description: "The ein.so blog covers EIN, ITIN, BOI, and US tax topics for non-resident founders. Browse guides on getting and using your EIN. Read the latest posts."
 canonical: "/blog/"
 breadcrumbs:
   - name: "Home"

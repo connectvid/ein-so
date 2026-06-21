@@ -1,6 +1,6 @@
 ---
-title: "Preparer Tax Identification Number (PTIN) Guide (2026)"
-description: "A PTIN is required for anyone who prepares federal tax returns for compensation. Apply at irs.gov/ptin for $19.75 per year. Learn how a PTIN differs from an EIN, SSN, and ITIN, and which tax ID a non-resident business owner actually needs."
+title: "Preparer Tax ID (PTIN): What It Is & How to Get"
+description: "A PTIN is the preparer tax ID number paid tax preparers need to file returns. Learn what a PTIN is and how to get one from the IRS. Learn more here."
 canonical: "/preparer-tax-id/"
 breadcrumbs:
   - name: "Home"

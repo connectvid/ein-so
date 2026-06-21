@@ -1,6 +1,6 @@
 ---
-title: "IRS Fax Number for EIN: Where to Fax SS-4 (2026)"
-description: "Fax Form SS-4 to the IRS at 855-215-1627 to apply for an EIN. Processing takes 4-7 business days. The fax method needs no SSN and is the primary path for non-US residents."
+title: "IRS Fax Number for EIN: Fax Form SS-4 (2026)"
+description: "Fax Form SS-4 to the IRS fax number for EIN applications: 855-215-1627. Learn how non-residents fax for an EIN and what follows. See the steps to apply."
 canonical: "/irs-fax-number-for-ein/"
 breadcrumbs:
   - name: "Home"

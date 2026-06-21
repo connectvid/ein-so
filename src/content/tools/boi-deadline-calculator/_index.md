@@ -1,6 +1,6 @@
 ---
-title: "BOI Filing Deadline Calculator (2026)"
-description: "Calculate your BOI filing deadline based on when your company was formed. Check if you are still within the filing window."
+title: "BOI Deadline Calculator: When Is It Due? (Free)"
+description: "Use the free BOI deadline calculator to find when your FinCEN BOI report is due. Enter your formation date for an instant answer. Use the free tool now."
 canonical: "/tools/boi-deadline-calculator/"
 breadcrumbs:
   - name: "Home"

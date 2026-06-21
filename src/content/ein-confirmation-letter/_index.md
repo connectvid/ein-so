@@ -1,6 +1,6 @@
 ---
-title: "EIN Confirmation Letter (CP 575) Guide (2026)"
-description: "The CP 575 is the original IRS EIN confirmation letter. Letter 147C is the replacement. Banks require one to open a US business account. Non-residents get an EIN by fax with ein.so for $49."
+title: "EIN Confirmation Letter: CP 575 Explained"
+description: "Your EIN confirmation letter is the IRS CP 575. Learn what it is, how to get a copy, and how to request a 147C if you lost it. See the full guide here."
 canonical: "/ein-confirmation-letter/"
 breadcrumbs:
   - name: "Home"

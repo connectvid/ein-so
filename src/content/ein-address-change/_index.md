@@ -1,6 +1,6 @@
 ---
-title: "EIN Address Change: Update IRS Records (2026)"
-description: "Change your EIN address with IRS Form 8822-B for $0. Your 9-digit EIN never changes. Non-residents update international addresses; ein.so files new EINs for $49."
+title: "EIN Address Change: How to Update It (2026)"
+description: "Update the address on your EIN with IRS Form 8822-B within 60 days of a change. Learn how to change your EIN business address. See the steps to file here."
 canonical: "/ein-address-change/"
 breadcrumbs:
   - name: "Home"
