@@ -943,7 +943,15 @@ interface BodyState {
   setEntity: (e: string) => void;
   summaryOpen: boolean;
   setSummaryOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  // Price (in dollars) — reflects the plan and any applied coupon.
   price: number;
+  appliedCoupon: string | null;
+  couponInput: string;
+  setCouponInput: (v: string) => void;
+  couponError: string | null;
+  couponLoading: boolean;
+  onApplyCoupon: () => void;
+  onRemoveCoupon: () => void;
 }
 interface PayBridge {
   node: React.ReactNode;
@@ -1005,7 +1013,26 @@ function PaymentPlaceholder({ message }: { message: string }) {
 
 /* ---------- Presentational checkout body (no Stripe hooks) ---------- */
 function CheckoutBody({ s, pay }: { s: BodyState; pay: PayBridge }) {
-  const { step, go, plan, pickPlan, f, set, entity, setEntity, summaryOpen, setSummaryOpen, price } = s;
+  const {
+    step,
+    go,
+    plan,
+    pickPlan,
+    f,
+    set,
+    entity,
+    setEntity,
+    summaryOpen,
+    setSummaryOpen,
+    price,
+    appliedCoupon,
+    couponInput,
+    setCouponInput,
+    couponError,
+    couponLoading,
+    onApplyCoupon,
+    onRemoveCoupon,
+  } = s;
   const planObj = PLANS.find((p) => p.id === plan) || PLANS[1];
   const isPayStep = step >= 2;
   const payBusy = pay.paying || pay.loading;
@@ -1174,6 +1201,88 @@ function CheckoutBody({ s, pay }: { s: BodyState; pay: PayBridge }) {
               />
               <ReviewRow label="Email" value={f.email} onEdit={() => go(0)} />
             </div>
+          </Panel>
+          <Panel>
+            {appliedCoupon ? (
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: 10,
+                }}
+              >
+                <span style={{ font: `600 13.5px ${NEUT.sans}`, color: B.accentDk }}>
+                  ✓ Coupon <b>{appliedCoupon}</b> applied — total {fmt(price)}
+                </span>
+                <button
+                  onClick={onRemoveCoupon}
+                  disabled={couponLoading}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: couponLoading ? "default" : "pointer",
+                    font: `600 13px ${NEUT.sans}`,
+                    color: NEUT.muted,
+                    textDecoration: "underline",
+                  }}
+                >
+                  Remove
+                </button>
+              </div>
+            ) : (
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                <span style={{ font: `600 12.5px ${NEUT.sans}`, color: NEUT.muted }}>
+                  Have a coupon code?
+                </span>
+                <div style={{ display: "flex", gap: 8 }}>
+                  <input
+                    value={couponInput}
+                    onChange={(e) => setCouponInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") onApplyCoupon();
+                    }}
+                    placeholder="Enter code"
+                    autoComplete="off"
+                    autoCapitalize="none"
+                    spellCheck={false}
+                    style={{
+                      flex: 1,
+                      minWidth: 0,
+                      font: `500 14px ${NEUT.sans}`,
+                      color: NEUT.text,
+                      padding: "11px 13px",
+                      border: `1.5px solid ${NEUT.line}`,
+                      borderRadius: 11,
+                      outline: "none",
+                      background: NEUT.surface,
+                      boxSizing: "border-box",
+                    }}
+                  />
+                  <button
+                    onClick={onApplyCoupon}
+                    disabled={couponLoading || !couponInput.trim()}
+                    style={{
+                      padding: "0 18px",
+                      borderRadius: 11,
+                      border: "none",
+                      cursor: couponLoading || !couponInput.trim() ? "not-allowed" : "pointer",
+                      background: B.ink,
+                      color: "#fff",
+                      font: `650 13.5px ${NEUT.sans}`,
+                      opacity: couponLoading || !couponInput.trim() ? 0.5 : 1,
+                    }}
+                  >
+                    {couponLoading ? "…" : "Apply"}
+                  </button>
+                </div>
+                {couponError && (
+                  <span style={{ font: `500 12px ${NEUT.sans}`, color: "#e0654f" }}>
+                    {couponError}
+                  </span>
+                )}
+              </div>
+            )}
           </Panel>
           <Panel>
             <h3 style={{ margin: 0, font: `650 16px ${NEUT.sans}`, color: B.ink }}>Payment</h3>
@@ -1517,7 +1626,12 @@ function PaymentStep({
           onReady={(event) => setWalletsReady(Boolean(event.availablePaymentMethods))}
           options={{
             buttonHeight: 48,
-            layout: { maxColumns: 3, maxRows: 2 },
+            // Keep the wallet buttons on one line.
+            layout: { maxColumns: 3, maxRows: 1 },
+            // Google Pay: logo + "Pay" only (no "Buy with" verb).
+            buttonType: { googlePay: "plain" },
+            // Order: Apple Pay, then Google Pay, then Link.
+            paymentMethodOrder: ["apple_pay", "google_pay", "link"],
             paymentMethods: { applePay: "always", googlePay: "always", link: "auto" },
           }}
         />
@@ -1569,9 +1683,16 @@ export default function EinCheckout() {
   const [stage, setStage] = React.useState<"form" | "done">("form");
   const [clientSecret, setClientSecret] = React.useState<string | null>(null);
   const [reference, setReference] = React.useState("EIN-4M8X1");
+  // Coupon state. `couponAmount` (cents, from the server) overrides the plan
+  // price once a coupon is applied.
+  const [couponAmount, setCouponAmount] = React.useState<number | null>(null);
+  const [appliedCoupon, setAppliedCoupon] = React.useState<string | null>(null);
+  const [couponInput, setCouponInput] = React.useState("");
+  const [couponError, setCouponError] = React.useState<string | null>(null);
+  const [couponLoading, setCouponLoading] = React.useState(false);
 
   const planObj = PLANS.find((p) => p.id === plan) || PLANS[1];
-  const price = planObj.price;
+  const price = couponAmount != null ? couponAmount / 100 : planObj.price;
 
   const set = (k: string, v: string) => setF((prev) => ({ ...prev, [k]: v }));
   const go = (n: number) => {
@@ -1579,37 +1700,86 @@ export default function EinCheckout() {
     window.scrollTo({ top: 0 });
   };
   // Changing the plan invalidates any created PaymentIntent so the amount stays
-  // correct when the customer returns to the pay step.
+  // correct when the customer returns to the pay step. The coupon (if any) is
+  // re-applied to the new plan when the intent is recreated.
   const pickPlan = (id: string) => {
     setPlan(id);
     setClientSecret(null);
+    setCouponAmount(null);
   };
 
-  // Create the PaymentIntent once the customer reaches the pay step.
+  // Create (or recreate) the PaymentIntent for the chosen plan + coupon. The
+  // server resolves the coupon against Stripe and returns the discounted amount,
+  // so the displayed total stays exact.
+  const createPI = React.useCallback(
+    async (couponCode: string, manual = false) => {
+      if (!stripePromise) return;
+      if (manual) {
+        setCouponLoading(true);
+        setCouponError(null);
+      }
+      try {
+        const r = await fetch("/api/payment-intent", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            plan,
+            email: f.email ?? "",
+            businessName: f.biz ?? "",
+            entity: entity === "Other" ? f.entityOther || "Other" : entity ?? "",
+            coupon: couponCode,
+          }),
+        });
+        const d = await r.json();
+        if (!r.ok || !d?.clientSecret) throw new Error("payment_intent_failed");
+        setClientSecret(d.clientSecret as string);
+        setCouponAmount(typeof d.amount === "number" ? d.amount : null);
+        setAppliedCoupon(d.couponApplied ?? null);
+        if (manual && couponCode && !d.couponApplied) {
+          setCouponError("That code isn't valid.");
+        }
+      } catch (err) {
+        console.error("[payment] failed to start payment:", err);
+        if (manual) setCouponError("Couldn't apply the code. Please try again.");
+      } finally {
+        if (manual) setCouponLoading(false);
+      }
+    },
+    [plan, f.email, f.biz, f.entityOther, entity],
+  );
+
+  // On reaching the pay step, create the initial PaymentIntent — applying any
+  // coupon already in state, or one saved in localStorage (key: test_coupon).
   React.useEffect(() => {
     if (step !== 2 || clientSecret || !stripePromise) return;
-    let cancelled = false;
-    fetch("/api/payment-intent", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        plan,
-        email: f.email ?? "",
-        businessName: f.biz ?? "",
-        entity: entity === "Other" ? f.entityOther || "Other" : entity ?? "",
-        testCoupon:
-          (typeof window !== "undefined" && window.localStorage.getItem("test_coupon")) || "",
-      }),
-    })
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("payment_intent_failed"))))
-      .then((d) => {
-        if (!cancelled && d?.clientSecret) setClientSecret(d.clientSecret as string);
-      })
-      .catch((err) => console.error("[payment] failed to start payment:", err));
-    return () => {
-      cancelled = true;
-    };
-  }, [step, clientSecret, plan, f.email, f.biz, f.entityOther, entity]);
+    const saved =
+      appliedCoupon ||
+      (typeof window !== "undefined" && window.localStorage.getItem("test_coupon")) ||
+      "";
+    createPI(saved);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step, clientSecret, createPI]);
+
+  const onApplyCoupon = () => {
+    const code = couponInput.trim();
+    if (!code || couponLoading) return;
+    try {
+      window.localStorage.setItem("test_coupon", code);
+    } catch {
+      // ignore
+    }
+    createPI(code, true);
+  };
+  const onRemoveCoupon = () => {
+    if (couponLoading) return;
+    setCouponInput("");
+    try {
+      window.localStorage.removeItem("test_coupon");
+    } catch {
+      // ignore
+    }
+    createPI("", true);
+  };
 
   if (stage === "done") {
     return (
@@ -1653,6 +1823,13 @@ export default function EinCheckout() {
     summaryOpen,
     setSummaryOpen,
     price,
+    appliedCoupon,
+    couponInput,
+    setCouponInput,
+    couponError,
+    couponLoading,
+    onApplyCoupon,
+    onRemoveCoupon,
   };
 
   if (step === 2 && clientSecret && stripePromise) {
