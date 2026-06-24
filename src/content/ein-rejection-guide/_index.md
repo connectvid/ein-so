@@ -153,10 +153,3 @@ For non-residents who cannot use the IRS online system, our service is especiall
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/how-to-get-ein/" label="How to Get an EIN" />
-<InternalLink href="/ss4-form-guide/" label="SS-4 Form Guide" />
-<InternalLink href="/ein-without-ssn/" label="EIN Without SSN" />
-<InternalLink href="/ein-processing-time/" label="EIN Processing Time" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

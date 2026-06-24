@@ -222,14 +222,6 @@ Need an EIN for your LLC? [Learn about EINs for LLCs](/ein-for-llc/) or [read ou
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/what-can-you-do-with-ein/" label="What Can You Do With an EIN?" />
-<InternalLink href="/ein-for-non-residents/" label="EIN for Non-Residents" />
-<InternalLink href="/ein-for-llc/" label="EIN for LLC" />
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>
-
 <Section surface>
 <Label>Related Guides</Label>
 

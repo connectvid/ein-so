@@ -68,7 +68,7 @@ The IRS needs a reliable way to identify and track the tax obligations of millio
 Despite the word "Employer" in the name, you do not need to have employees to need an EIN. Single-member LLCs, sole proprietors filing excise taxes, trusts, and estates all require an EIN for tax filing and banking purposes. The name is a historical artifact from 1974 when the primary use case was employer tax reporting. In 2024, fewer than 40% of new EIN applications come from entities with employees -- the majority are non-employer businesses, trusts, and estates.
 </Section>
 
-<Section wide>
+<Section>
 <Label>Format</Label>
 
 ## EIN Number Format <Accent>Explained</Accent>
@@ -119,7 +119,7 @@ The IRS offers 4 methods for obtaining an EIN, depending on your circumstances:
 Regardless of which method you use, the EIN is always free when obtained directly from the IRS. Be wary of websites that charge hundreds of dollars for what is fundamentally a free government service. At ein.so, we charge only **$49** for our service because we are handling the SS-4 preparation and fax filing process on your behalf -- not for the EIN itself.
 </Section>
 
-<Section wide>
+<Section>
 <Label>Comparison</Label>
 
 ## EIN vs SSN vs ITIN <Accent>vs TIN</Accent>
@@ -288,19 +288,3 @@ For a comprehensive reference on valid prefixes and format validation, refer to 
 </InfoBox>
 </Section>
 
-<InternalLinks>
-<InternalLink href="/how-to-get-ein/" label="How to Get an EIN" />
-<InternalLink href="/ein-vs-itin/" label="EIN vs ITIN" />
-</InternalLinks>
-
-<Section surface>
-<Label>Related Guides</Label>
-
-## Go Deeper on <Accent>EIN Basics</Accent>
-
-Go deeper with our in-depth EIN explainers:
-
-- [EIN Number Format Explained](/ein-number-format/) — what the XX-XXXXXXX digits mean
-- [EIN Reference Numbers 101](/blog/ein-reference-number-101/) — decode IRS reference codes
-- [Does an EIN Expire?](/blog/ein-expiration-does-it-expire/) — when an EIN stays active or is deactivated
-</Section>

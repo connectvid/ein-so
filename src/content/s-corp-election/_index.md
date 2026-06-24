@@ -161,9 +161,3 @@ Given the 75-day deadline for new entities, timing matters. If you form your LLC
 ein.so helps you get your EIN quickly so you can file Form 2553 on time. Our Standard service delivers your EIN in 14 business days for **$49**. Our Express service delivers in 7 business days for **$97**. Once you have your EIN, you can immediately complete and file Form 2553. Do not let the EIN processing time eat into your 75-day S-Corp election window. [Apply for your EIN today](/apply/).
 </Section>
 
-<InternalLinks>
-<InternalLink href="/ein-for-corporation/" label="EIN for Corporation" />
-<InternalLink href="/ein-for-scorp/" label="EIN for S-Corp" />
-<InternalLink href="/who-needs-ein/" label="Who Needs an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

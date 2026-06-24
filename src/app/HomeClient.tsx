@@ -408,7 +408,7 @@ export default function HomeClient() {
             <p className="text-sm text-[var(--color-text-muted)] mb-4">
               Both packages include SS-4 preparation, IRS filing, and EIN delivery by email.
             </p>
-            <WhatsAppCTA text="Not sure which speed you need? Let us help you decide." />
+            <WhatsAppCTA text="Not sure which speed you need? Let us help you decide." className="justify-center" />
           </AnimateIn>
         </div>
       </section>

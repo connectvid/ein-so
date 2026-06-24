@@ -59,7 +59,7 @@ export default function Footer() {
   return (
     <footer className="bg-[var(--color-navy)] text-white">
       <div className="mx-auto max-w-7xl px-6 pt-20 pb-8">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-10 mb-16">
           {/* Brand */}
           <div className="col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">

@@ -207,10 +207,3 @@ Ready to protect your SSN? [Apply for your EIN today](/apply/) and stop sharing 
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/ein-vs-itin/" label="EIN vs ITIN" />
-<InternalLink href="/ein-without-ssn/" label="EIN Without SSN" />
-<InternalLink href="/ein-for-non-residents/" label="EIN for Non-Residents" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

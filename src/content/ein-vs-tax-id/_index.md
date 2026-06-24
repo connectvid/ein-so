@@ -145,10 +145,3 @@ Once you receive your EIN, it is permanent. You use it for the lifetime of your 
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/ein-vs-itin/" label="EIN vs ITIN" />
-<InternalLink href="/ein-vs-ssn/" label="EIN vs SSN" />
-<InternalLink href="/ein-vs-tin/" label="EIN vs TIN" />
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

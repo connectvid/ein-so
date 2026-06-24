@@ -219,9 +219,3 @@ Related guides: [How to get an EIN](/how-to-get-ein/) | [EIN without an SSN](/ei
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/ein-lookup/" label="EIN Lookup" />
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/ein-number-format/" label="EIN Number Format" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

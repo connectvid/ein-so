@@ -119,14 +119,6 @@ The IRS controls this timeline, not Stripe Atlas. A faxed SS-4 returns an EIN in
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/ein-for-stripe/" label="EIN for Stripe" />
-<InternalLink href="/tools/ss4-form-helper/" label="SS-4 Form Helper" />
-<InternalLink href="/ein-for-non-residents/" label="EIN for Non-Residents" />
-<InternalLink href="/ein-for-llc/" label="EIN for LLC" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>
-
 <Section>
 <Label>Get Started</Label>
 

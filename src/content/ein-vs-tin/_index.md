@@ -144,10 +144,3 @@ ein.so handles the EIN application for non-residents. We prepare your Form SS-4,
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/ein-vs-itin/" label="EIN vs ITIN" />
-<InternalLink href="/ein-vs-ssn/" label="EIN vs SSN" />
-<InternalLink href="/ein-vs-tax-id/" label="EIN vs Tax ID" />
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>

@@ -218,14 +218,6 @@ For a deeper dive into how these numbers compare, see our guide on [What Is an E
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-<InternalLink href="/ein-vs-ssn/" label="EIN vs SSN" />
-<InternalLink href="/ein-vs-tin/" label="EIN vs TIN" />
-<InternalLink href="/ein-vs-tax-id/" label="EIN vs Tax ID" />
-</InternalLinks>
-
 <Section surface>
 <Label>Related Guides</Label>
 

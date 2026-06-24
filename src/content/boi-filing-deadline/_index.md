@@ -174,9 +174,3 @@ Need to form an LLC first? Read our guide on [EINs for LLCs](/ein-for-llc/) to u
 <PromoBox title="$49 BOI Filing Service" subtitle="Stop the penalty clock. We file your BOI report with FinCEN via WhatsApp." buttonText="File My BOI Report Now" />
 </Section>
 
-<InternalLinks>
-<InternalLink href="/boi-filing/" label="BOI Filing Guide" />
-<InternalLink href="/ein-for-llc/" label="EIN for LLC" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-<InternalLink href="/boi-penalties/" label="BOI Penalties" />
-</InternalLinks>

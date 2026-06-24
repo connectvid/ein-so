@@ -256,14 +256,6 @@ Congratulations -- once your EIN is issued, you have a permanent federal tax ide
 </ProcessSteps>
 </Section>
 
-<InternalLinks>
-<InternalLink href="/what-is-ein/" label="What Is an EIN?" />
-<InternalLink href="/ss4-form-guide/" label="SS-4 Form Guide" />
-<InternalLink href="/ein-without-ssn/" label="EIN Without SSN" />
-<InternalLink href="/ein-processing-time/" label="EIN Processing Time" />
-<InternalLink href="/ein-rejection-guide/" label="EIN Rejection Guide" />
-</InternalLinks>
-
 <Section surface>
 <Label>Related Guides</Label>
 

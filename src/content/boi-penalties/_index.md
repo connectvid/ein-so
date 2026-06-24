@@ -225,11 +225,5 @@ ein.so can handle both your EIN application and your BOI filing. We apply for yo
 
 Do not let BOI penalties accumulate. The \$500/day fine structure means every day of delay costs real money. Whether you file yourself or use ein.so, the important thing is to file accurately and on time. [Start your EIN and BOI filing today](/apply/).
 </Section>
-<InternalLinks>
-<InternalLink href="/boi-filing/" label="BOI Filing"/>
-<InternalLink href="/boi-filing-deadline/" label="BOI Filing Deadline"/>
-<InternalLink href="/ein-for-llc/" label="EIN for LLC"/>
-<InternalLink href="/apply/" label="Apply for EIN"/>
-</InternalLinks>
 
 ​

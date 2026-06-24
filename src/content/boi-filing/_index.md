@@ -182,9 +182,3 @@ Learn more about [BOI penalties and enforcement](/boi-penalties/) to understand 
 
 </Section>
 
-<InternalLinks>
-<InternalLink href="/boi-filing-deadline/" label="BOI Filing Deadline" />
-<InternalLink href="/ein-for-llc/" label="EIN for LLC" />
-<InternalLink href="/who-needs-ein/" label="Who Needs an EIN?" />
-<InternalLink href="/apply/" label="Apply for EIN" />
-</InternalLinks>
