@@ -1,6 +1,6 @@
 ---
-title: "Free SS-4 Form Helper: Fill It Out Online (2026)"
-description: "Use the free SS-4 form helper to complete IRS Form SS-4 line by line for your EIN. Built for non-residents applying with no SSN. Use the free tool now."
+title: "Fillable SS-4 Form Online — Free Helper Tool (2026)"
+description: "Fill out IRS Form SS-4 online with our free fillable helper — line-by-line guidance for LLCs, nonprofits, and non-US residents applying with no SSN."
 canonical: "/tools/ss4-form-helper/"
 dynamic: "force-static"
 breadcrumbs:
@@ -25,6 +25,10 @@ faqs:
     a: "The most common mistakes include selecting the wrong entity type on line 9a, leaving the responsible party name blank on line 1, entering the wrong reason for applying on line 10, providing an incomplete foreign address, and forgetting to sign and date the form. Each of these errors can cause the IRS to reject your application or delay processing."
   - q: "How long does it take to get an EIN after submitting Form SS-4?"
     a: "Processing times depend on the method of submission. Online applications receive an EIN immediately. Fax submissions take 4-7 business days for standard processing. Phone applications can receive an EIN during the call. Mail submissions take 4-6 weeks. ein.so offers Express fax processing in 7 business days for $97."
+  - q: "Where do I fax Form SS-4 to the IRS?"
+    a: "Fax your completed Form SS-4 to (855) 641-6935 if your business has a principal office or legal residence in the United States. Non-residents with no US legal residence or principal office fax to (855) 215-1627 — the IRS international SS-4 line. Include a cover sheet with your return fax number so the IRS can send back your EIN. ein.so files your SS-4 by fax and returns the EIN by email — Standard for $49 or Express for $97."
+  - q: "Do I need to file Form SS-4 for an LLC?"
+    a: "Yes. Every LLC that hires employees, files federal excise or employment taxes, opens a US business bank account, or has more than one member must file Form SS-4 to obtain an EIN. Single-member LLCs with no employees still need an EIN for banking and for filing Form 5472 when foreign-owned. Check 'LLC' on line 8a and enter the number of members."
   - q: "Can I use this SS-4 helper if I already started filling out the form?"
     a: "Yes. This line-by-line helper is designed to be used at any point during the process. You can use it to verify information you have already entered, fill in fields you were unsure about, or start from scratch. Each section is expandable so you can jump directly to the line you need help with."
 ---

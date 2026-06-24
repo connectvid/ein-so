@@ -63,6 +63,21 @@ const pillarLinks = [
   { title: "EIN Lookup", description: "Find any business EIN number. 5 verified methods.", href: "/ein-lookup/", icon: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" },
 ];
 
+const useCaseLinks = [
+  { title: "EIN for a Bank Account", description: "Open a US business bank account with an EIN only — no SSN required.", href: "/ein-for-bank-account/" },
+  { title: "EIN for PayPal & Stripe", description: "Add your EIN to PayPal, Stripe, Venmo, and Square business accounts.", href: "/ein-for-paypal/" },
+  { title: "EIN for Amazon Sellers", description: "Finish your Seller Central tax interview and sell on Amazon FBA.", href: "/ein-for-amazon-sellers/" },
+  { title: "EIN for Etsy Sellers", description: "Handle Etsy 1099-K reporting and keep your SSN private.", href: "/ein-for-etsy-sellers/" },
+  { title: "EIN for Uber & Lyft Drivers", description: "Get an EIN for Uber, Lyft, and other gig economy work.", href: "/ein-for-uber-drivers/" },
+  { title: "EIN for Nonprofits", description: "Get the EIN you need before applying for 501(c)(3) status.", href: "/ein-for-nonprofit/" },
+  { title: "FEIN vs EIN", description: "FEIN and EIN are the same 9-digit number — here is why.", href: "/fein-vs-ein/" },
+  { title: "EIN vs ABN", description: "What Australian founders need for a US business entity.", href: "/ein-vs-abn/" },
+  { title: "Free SS-4 Form Helper", description: "Fill out IRS Form SS-4 online, line by line, for free.", href: "/tools/ss4-form-helper/" },
+  { title: "EIN for UAE & Dubai", description: "Apply for a US EIN from the UAE with no SSN or US travel.", href: "/ein-for-uae/" },
+  { title: "EIN for Morocco", description: "Get a US EIN from Morocco, filed remotely with the IRS.", href: "/ein-for-morocco/" },
+  { title: "EIN for the UK", description: "Apply for a US EIN from the United Kingdom in days.", href: "/ein-for-uk/" },
+];
+
 const faqs = [
   { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). You must file Form SS-4 by fax or phone. You cannot use the IRS online application. We handle the entire fax process for you." },
   { q: "How much does it cost?", a: "Standard EIN service is $49 with 14 business day turnaround. Express EIN service is $97 with 7 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery." },
@@ -561,8 +576,42 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* ═══ FAQ ═══ */}
+      {/* ═══ EIN BY USE CASE (internal link hub) ═══ */}
       <section className="py-24 lg:py-32 bg-white">
+        <div className="mx-auto max-w-7xl px-6">
+          <AnimateIn className="text-center mb-16">
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">By Use Case</p>
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
+              Who Needs an EIN?
+            </h2>
+            <p className="text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
+              Find the guide that matches your situation — from US business banking to selling
+              on Amazon, Etsy, and PayPal, to applying from your country.
+            </p>
+          </AnimateIn>
+
+          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto" staggerDelay={0.05}>
+            {useCaseLinks.map((link) => (
+              <StaggerItem key={link.href}>
+                <Link href={link.href} className="block group h-full">
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="bg-[var(--color-surface)] rounded-2xl p-6 border border-[var(--color-border)] h-full hover:border-[var(--color-blue)] transition-colors"
+                  >
+                    <h3 className="text-base font-bold text-[var(--color-text)] mb-1.5 group-hover:text-[var(--color-blue)] transition-colors">
+                      {link.title}
+                    </h3>
+                    <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{link.description}</p>
+                  </motion.div>
+                </Link>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* ═══ FAQ ═══ */}
+      <section className="py-24 lg:py-32 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
             <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">FAQ</p>

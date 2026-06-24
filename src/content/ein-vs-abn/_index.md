@@ -24,6 +24,8 @@ ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your E
 faqs:
   - q: "Is an EIN the same as an ABN?"
     a: "No. An EIN is a 9-digit US federal tax ID issued by the IRS. An ABN is an 11-digit Australian Business Number issued by the Australian Business Register (ABR). They come from different authorities in different countries and serve different purposes. An EIN identifies a US entity for federal tax. An ABN identifies an Australian business."
+  - q: "Is an ABN the same as AUS?"
+    a: "No. AUS is the country code and shorthand for Australia and its business registry, the Australian Business Register (ABR). ABN is the 11-digit Australian Business Number that the ABR issues to each business. So AUS refers to the registry system, and the ABN is the number it assigns. Neither replaces a US EIN, which the IRS issues separately for a US business."
   - q: "Do I need both an EIN and an ABN?"
     a: "You need both only if you operate businesses in both the United States and Australia. Your EIN identifies your US LLC or corporation to the IRS. Your ABN identifies your Australian business to the Australian Taxation Office. Each number is valid only in its own country, so one cannot replace the other. The two coexist without conflict."
   - q: "Can I use my ABN instead of an EIN in the US?"
@@ -108,6 +110,10 @@ The ABN began on July 1, 2000, under Australia's New Tax System. Australian busi
 - **Introduced:** July 1, 2000
 
 The ABN has no standing in the United States. A US business needs a separate EIN regardless of any ABN the owner holds.
+
+### AUS vs ABN: What Is the Difference?
+
+"AUS" and "ABN" are not the same thing. AUS is the country code and shorthand for Australia and its business registry system — the Australian Business Register (ABR). ABN is the 11-digit Australian Business Number that the ABR issues to each business. In short, AUS (the ABR system) issues the ABN (the number). People searching "AUS vs ABN" usually want the difference between the Australian registry and the identifier it assigns. If you also run a US business, neither the AUS system nor your ABN replaces a US EIN — you need a separate 9-digit EIN from the IRS, which ein.so files for $49.
 </Section>
 
 <Section wide>

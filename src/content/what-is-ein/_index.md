@@ -57,7 +57,7 @@ EIN stands for **Employer Identification Number**. It is a federal tax identific
 
 ### Other Names for an EIN
 
-You will hear an EIN called by other names. The terms **Federal Employer Identification Number (FEIN)**, **Federal Tax Identification Number**, and **Tax ID Number (TIN)** all describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS.
+You will hear an EIN called by other names. The terms **Federal Employer Identification Number (FEIN)**, **Federal Tax Identification Number**, and **Tax ID Number (TIN)** all describe the same thing. Regardless of which name is used, they all refer to the same 9-digit number issued by the IRS. For a full breakdown of why both names exist, see [FEIN vs EIN](/fein-vs-ein/).
 
 ### Why the EIN System Exists
 

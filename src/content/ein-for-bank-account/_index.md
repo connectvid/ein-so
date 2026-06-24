@@ -1,6 +1,6 @@
 ---
-title: "EIN for a US Business Bank Account (2026)"
-description: "You need an EIN to open a US business bank account. See which banks accept an EIN with no SSN — Mercury, Relay, Brex, Wise — and how to apply. Learn more."
+title: "Open a Business Bank Account With EIN Only, No SSN (2026)"
+description: "Yes — you can open a US business bank account with an EIN only and no SSN. See which banks accept EIN-only — Mercury, Relay, Brex, Wise — and how to apply."
 canonical: "/ein-for-bank-account/"
 breadcrumbs:
   - name: "Home"
@@ -168,7 +168,7 @@ A utility bill, lease agreement, or registered agent confirmation showing your b
 
 <Steps>
 <Step step="1" title="Form Your US LLC or Corporation">Register your business entity in a US state. Wyoming and Delaware are the most popular choices for non-residents due to favorable tax laws, strong privacy protections, and low annual fees. This gives you the legal structure banks require.</Step>
-<Step step="2" title="Get Your EIN from the IRS">Apply for your EIN through ein.so. We file Form SS-4 by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 14 business days. Express service ($97) takes 7 business days. No SSN required.</Step>
+<Step step="2" title="Get Your EIN from the IRS">Apply for your EIN through ein.so. We file [Form SS-4](/tools/ss4-form-helper/) by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 14 business days. Express service ($97) takes 7 business days. No SSN required.</Step>
 <Step step="3" title="Gather Your Documents">Collect your EIN confirmation letter, Articles of Organization, operating agreement, passport scan, and proof of business address. Have these ready before starting your bank application to avoid delays.</Step>
 <Step step="4" title="Choose Your Bank and Apply Online">Select Mercury, Relay, or Wise Business based on your needs. Complete the online application, upload your documents, and provide information about your business activities. The entire process takes 15-30 minutes.</Step>
 <Step step="5" title="Wait for Approval and Start Banking">Most applications are reviewed within 1-5 business days. Once approved, you receive your account details, routing number, and account number by email. You can immediately start receiving payments, paying vendors, and managing your business finances.</Step>

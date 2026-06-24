@@ -162,7 +162,7 @@ ein.so handles the EIN application and does not provide tax advice. Work with an
 
 ## How Does an Australian ABN Differ From a <Accent>US EIN?</Accent>
 
-An Australian ABN identifies your business to the ATO and has no standing in the United States. A US EIN identifies your US entity to the IRS and US banks. The two are separate systems; an ABN does not substitute for an EIN, and you need an EIN to run a US LLC.
+An Australian ABN identifies your business to the ATO and has no standing in the United States. A US EIN identifies your US entity to the IRS and US banks. The two are separate systems; an ABN does not substitute for an EIN, and you need an EIN to run a US LLC. For a full side-by-side, see [EIN vs ABN](/ein-vs-abn/).
 
 <Alert type="warning" title="Common mistakes Australian applicants make">
 <ol>

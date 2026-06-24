@@ -1,5 +1,5 @@
 ---
-title: "EIN for a Nonprofit: Apply Before 501(c)(3)"
+title: "EIN for a Nonprofit: Apply Before 501(c)(3) (2026)"
 description: "Every nonprofit needs an EIN before applying for 501(c)(3) status. Learn how to get an EIN for your nonprofit organization with Form SS-4. See the guide."
 canonical: "/ein-for-nonprofit/"
 breadcrumbs:

@@ -107,7 +107,7 @@ Etsy reports your gross sales to the IRS, so your tax ID must match IRS records 
 
 ## How Do Etsy Sellers Apply for an <Accent>EIN?</Accent>
 
-Etsy sellers apply for an EIN in two ways. US residents with an SSN apply free online at irs.gov and receive the EIN instantly. Non-US sellers file Form SS-4 by fax to 855-215-1627, entering a passport number on Line 7b instead of an SSN.
+Etsy sellers apply for an EIN in two ways. US residents with an SSN apply free online at irs.gov and receive the EIN instantly. Non-US sellers file [Form SS-4](/tools/ss4-form-helper/) by fax to 855-215-1627, entering a passport number on Line 7b instead of an SSN.
 
 The IRS online tool requires an SSN, so non-residents cannot use it. The fax method is their path. The IRS issues most error-free EINs within 4-7 business days.
 

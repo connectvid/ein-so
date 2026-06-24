@@ -162,7 +162,7 @@ A full-time driver with significant earnings often forms an LLC. A part-time dri
 
 ## How Does a Driver <Accent>File Form SS-4 Without an SSN?</Accent>
 
-A driver or LLC owner without an SSN files Form SS-4 by fax to the IRS at 855-215-1627, entering a passport number on Line 7b in place of the SSN. The IRS online tool requires an SSN, so the fax method is the path for non-residents. Most error-free forms return an EIN in 4-7 business days.
+A driver or LLC owner without an SSN files [Form SS-4](/tools/ss4-form-helper/) by fax to the IRS at 855-215-1627, entering a passport number on Line 7b in place of the SSN. The IRS online tool requires an SSN, so the fax method is the path for non-residents. Most error-free forms return an EIN in 4-7 business days.
 
 <Steps>
 <Step step="1" title="Confirm Your Structure">Decide whether you operate as a sole proprietor or through a US LLC. A non-resident owning a US delivery or fleet entity registers the LLC first through a registered agent, then attaches the EIN to it.</Step>
