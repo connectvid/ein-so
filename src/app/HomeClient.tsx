@@ -4,7 +4,10 @@ import Link from "next/link";
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { useState } from "react";
 import PricingCard from "@/components/PricingCard";
-import AnimateIn, { StaggerContainer, StaggerItem } from "@/components/AnimateIn";
+import AnimateIn, {
+  StaggerContainer,
+  StaggerItem,
+} from "@/components/AnimateIn";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import AnimatedGradient from "@/components/AnimatedGradient";
 import EINCardVisual from "@/components/EINCardVisual";
@@ -22,65 +25,156 @@ const howItWorks = [
   {
     step: "01",
     title: "Pick Your Speed",
-    description: "Standard ($49) gets your EIN in 14 days. Express ($97) delivers in 7 days. Both include full SS-4 preparation and IRS filing.",
+    description:
+      "Standard ($49) gets your EIN in 14 days. Express ($97) delivers in 7 days. Both include full SS-4 preparation and IRS filing.",
     icon: "M13 10V3L4 14h7v7l9-11h-7z",
   },
   {
     step: "02",
     title: "Share Your Details",
-    description: "Name, business info, and address. That's it. No SSN. No ITIN. No US visit. We've filed for entrepreneurs in 50+ countries.",
+    description:
+      "Name, business info, and address. That's it. No SSN. No ITIN. No US visit. We've filed for entrepreneurs in 50+ countries.",
     icon: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
   },
   {
     step: "03",
     title: "We Handle the IRS",
-    description: "We prepare your Form SS-4, fax it to the IRS, and follow up until your EIN is confirmed. You don't touch a single government form.",
+    description:
+      "We prepare your Form SS-4, fax it to the IRS, and follow up until your EIN is confirmed. You don't touch a single government form.",
     icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
   },
   {
     step: "04",
     title: "EIN in Your Inbox",
-    description: "Your 9-digit EIN lands in your email. Immediately use it for US banking, Amazon, Stripe, PayPal, tax filing - everything.",
+    description:
+      "Your 9-digit EIN lands in your email. Immediately use it for US banking, Amazon, Stripe, PayPal, tax filing - everything.",
     icon: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
   },
 ];
 
 const audiences = [
-  { title: "LLC Owners", desc: "Required for tax filing, banking, and payroll. No exceptions.", icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" },
-  { title: "Amazon FBA Sellers", desc: "Complete your Seller Central tax interview and start selling in the US.", icon: "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" },
-  { title: "Freelancers", desc: "Use your EIN on W-9 forms. Keep your SSN private from clients.", icon: "M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" },
-  { title: "Corporations", desc: "Every C-Corp and S-Corp needs an EIN from day one.", icon: "M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" },
-  { title: "Nonprofits", desc: "Required before you can apply for 501(c)(3) tax-exempt status.", icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" },
-  { title: "Real Estate Investors", desc: "FIRPTA compliance, property LLCs, and US banking all require an EIN.", icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" },
+  {
+    title: "LLC Owners",
+    desc: "Required for tax filing, banking, and payroll. No exceptions.",
+    icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+  },
+  {
+    title: "Amazon FBA Sellers",
+    desc: "Complete your Seller Central tax interview and start selling in the US.",
+    icon: "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z",
+  },
+  {
+    title: "Freelancers",
+    desc: "Use your EIN on W-9 forms. Keep your SSN private from clients.",
+    icon: "M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2",
+  },
+  {
+    title: "Corporations",
+    desc: "Every C-Corp and S-Corp needs an EIN from day one.",
+    icon: "M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z",
+  },
+  {
+    title: "Nonprofits",
+    desc: "Required before you can apply for 501(c)(3) tax-exempt status.",
+    icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
+  },
+  {
+    title: "Real Estate Investors",
+    desc: "FIRPTA compliance, property LLCs, and US banking all require an EIN.",
+    icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+  },
 ];
 
 const pillarLinks = [
-  { title: "What Is an EIN?", description: "The definitive guide to Employer Identification Numbers.", href: "/what-is-ein/", icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" },
-  { title: "How to Get an EIN", description: "Step-by-step for non-residents. Every method compared.", href: "/how-to-get-ein/", icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" },
-  { title: "Who Needs an EIN?", description: "LLCs, corporations, nonprofits, freelancers, and non-residents.", href: "/who-needs-ein/", icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" },
-  { title: "What Can You Do With an EIN?", description: "Banking, taxes, hiring, Amazon, Stripe, and more.", href: "/what-can-you-do-with-ein/", icon: "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" },
-  { title: "EIN vs ITIN", description: "Which tax ID do you actually need? Clear comparison.", href: "/ein-vs-itin/", icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" },
-  { title: "EIN Lookup", description: "Find any business EIN number. 5 verified methods.", href: "/ein-lookup/", icon: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" },
+  {
+    title: "What Is an EIN?",
+    description: "The definitive guide to Employer Identification Numbers.",
+    href: "/what-is-ein/",
+    icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+  },
+  {
+    title: "How to Get an EIN",
+    description: "Step-by-step for non-residents. Every method compared.",
+    href: "/how-to-get-ein/",
+    icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+  },
+  {
+    title: "Who Needs an EIN?",
+    description:
+      "LLCs, corporations, nonprofits, freelancers, and non-residents.",
+    href: "/who-needs-ein/",
+    icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+  },
+  {
+    title: "What Can You Do With an EIN?",
+    description: "Banking, taxes, hiring, Amazon, Stripe, and more.",
+    href: "/what-can-you-do-with-ein/",
+    icon: "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z",
+  },
+  {
+    title: "EIN vs ITIN",
+    description: "Which tax ID do you actually need? Clear comparison.",
+    href: "/ein-vs-itin/",
+    icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+  },
+  {
+    title: "EIN Lookup",
+    description: "Find any business EIN number. 5 verified methods.",
+    href: "/ein-lookup/",
+    icon: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+  },
 ];
 
 const faqs = [
-  { q: "Can a non-US resident get an EIN?", a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). You must file Form SS-4 by fax or phone. You cannot use the IRS online application. We handle the entire fax process for you." },
-  { q: "How much does it cost?", a: "Standard EIN service is $49 with 14 business day turnaround. Express EIN service is $97 with 7 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery." },
-  { q: "How long does it take?", a: "7 business days with Express ($97) or 14 business days with Standard ($49). The IRS processes faxed Form SS-4 applications in about 4 business days on their end. Non-residents cannot use the instant online method." },
-  { q: "Do I need an SSN to get an EIN?", a: "No. Non-US residents can get an EIN without an SSN. You will need a valid passport or government-issued ID. Form SS-4 has a specific section for applicants without an SSN or ITIN." },
-  { q: "What is the difference between an EIN and an ITIN?", a: "An EIN (Employer Identification Number) is a 9-digit tax ID for businesses. An ITIN (Individual Taxpayer Identification Number) is a 9-digit tax ID for individuals who cannot get an SSN. They serve different purposes: EINs go on business tax returns, ITINs go on personal tax returns. Many non-US business owners need both." },
-  { q: "What can I do with an EIN?", a: "An EIN unlocks 7 critical business functions: open a US business bank account, hire W-2 employees, file federal tax returns (Form 1120, 1065, or Schedule C), apply for business credit, register on Amazon and Shopify, accept payments through Stripe and PayPal, and establish your US business identity." },
-  { q: "Is ein.so affiliated with the IRS?", a: "No. ein.so is an independent service. We prepare and file Form SS-4 with the IRS on your behalf. The IRS is the only entity that issues EINs. We are not a government agency." },
+  {
+    q: "Can a non-US resident get an EIN?",
+    a: "Yes. Non-US residents can get an EIN without a Social Security Number (SSN). You must file Form SS-4 by fax or phone. You cannot use the IRS online application. We handle the entire fax process for you.",
+  },
+  {
+    q: "How much does it cost?",
+    a: "Standard EIN service is $49 with 14 business day turnaround. Express EIN service is $97 with 7 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery.",
+  },
+  {
+    q: "How long does it take?",
+    a: "7 business days with Express ($97) or 14 business days with Standard ($49). The IRS processes faxed Form SS-4 applications in about 4 business days on their end. Non-residents cannot use the instant online method.",
+  },
+  {
+    q: "Do I need an SSN to get an EIN?",
+    a: "No. Non-US residents can get an EIN without an SSN. You will need a valid passport or government-issued ID. Form SS-4 has a specific section for applicants without an SSN or ITIN.",
+  },
+  {
+    q: "What is the difference between an EIN and an ITIN?",
+    a: "An EIN (Employer Identification Number) is a 9-digit tax ID for businesses. An ITIN (Individual Taxpayer Identification Number) is a 9-digit tax ID for individuals who cannot get an SSN. They serve different purposes: EINs go on business tax returns, ITINs go on personal tax returns. Many non-US business owners need both.",
+  },
+  {
+    q: "What can I do with an EIN?",
+    a: "An EIN unlocks 7 critical business functions: open a US business bank account, hire W-2 employees, file federal tax returns (Form 1120, 1065, or Schedule C), apply for business credit, register on Amazon and Shopify, accept payments through Stripe and PayPal, and establish your US business identity.",
+  },
+  {
+    q: "Is ein.so affiliated with the IRS?",
+    a: "No. ein.so is an independent service. We prepare and file Form SS-4 with the IRS on your behalf. The IRS is the only entity that issues EINs. We are not a government agency.",
+  },
 ];
 
 /* ─── Animated number counter for hero ─── */
-function CountUpStat({ value, suffix, label }: { value: number; suffix: string; label: string }) {
+function CountUpStat({
+  value,
+  suffix,
+  label,
+}: {
+  value: number;
+  suffix: string;
+  label: string;
+}) {
   return (
     <div className="text-center">
       <div className="text-3xl md:text-4xl font-extrabold text-[var(--color-navy)]">
-        <AnimatedCounter to={value} duration={2} />{suffix}
+        <AnimatedCounter to={value} duration={2} />
+        {suffix}
       </div>
-      <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">{label}</div>
+      <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">
+        {label}
+      </div>
     </div>
   );
 }
@@ -108,7 +202,7 @@ export default function HomeClient() {
         />
 
         <div className="relative mx-auto max-w-7xl px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 lg:gap-16 items-center">
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -120,20 +214,24 @@ export default function HomeClient() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[var(--color-success)] opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-[var(--color-success)]"></span>
                 </span>
-                <span className="text-sm text-white/70 font-medium">The #1 EIN service for non-US residents</span>
+                <span className="text-sm text-white/70 font-medium">
+                  The #1 EIN service for non-US residents
+                </span>
               </motion.div>
 
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+                transition={{
+                  duration: 0.7,
+                  delay: 0.3,
+                  ease: [0.16, 1, 0.3, 1],
+                }}
                 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6"
               >
-                Apply for Your US EIN
+                <span className="lg:whitespace-nowrap">Apply for Your US EIN</span>
                 <br />
-                <span className="shimmer-text">
-                  From Anywhere.
-                </span>
+                <span className="shimmer-text">From Anywhere.</span>
               </motion.h1>
 
               <motion.p
@@ -142,9 +240,10 @@ export default function HomeClient() {
                 transition={{ duration: 0.6, delay: 0.45 }}
                 className="text-lg lg:text-xl text-white/60 leading-relaxed mb-10 max-w-xl"
               >
-                Get your EIN in as little as <strong className="text-white/90">7 days</strong>.
-                No SSN. No US address. No paperwork headaches.
-                We file directly with the IRS for <strong className="text-white/90">$49</strong>.
+                Get your EIN in as little as{" "}
+                <strong className="text-white/90">7 days</strong>. No SSN. No US
+                address. No paperwork headaches. We file directly with the IRS
+                for <strong className="text-white/90">$49</strong>.
               </motion.p>
 
               <motion.div
@@ -160,8 +259,18 @@ export default function HomeClient() {
                   className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/30 hover:shadow-xl hover:shadow-[var(--color-blue)]/40 hover:-translate-y-0.5"
                 >
                   Get My EIN - $49
-                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 20 20">
-                    <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <svg
+                    className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M4.17 10h11.66M10.83 5l5 5-5 5"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
                   </svg>
                 </a>
                 <a
@@ -171,7 +280,9 @@ export default function HomeClient() {
                   className="group inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-8 py-4 text-base font-bold text-white hover:bg-white/10 transition-all backdrop-blur-sm"
                 >
                   Express - $97
-                  <span className="text-xs bg-[var(--color-amber)]/20 text-[var(--color-amber-light)] px-2 py-0.5 rounded-full font-semibold">7 days</span>
+                  <span className="text-xs bg-[var(--color-amber)]/20 text-[var(--color-amber-light)] px-2 py-0.5 rounded-full font-semibold">
+                    7 days
+                  </span>
                 </a>
               </motion.div>
 
@@ -190,11 +301,21 @@ export default function HomeClient() {
                     className="flex items-center gap-2"
                   >
                     <div className="w-5 h-5 rounded-full bg-[var(--color-success)]/20 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-[var(--color-success)]" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      <svg
+                        className="w-3 h-3 text-[var(--color-success)]"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clipRule="evenodd"
+                        />
                       </svg>
                     </div>
-                    <span className="text-xs font-medium text-white/50">{badge.text}</span>
+                    <span className="text-xs font-medium text-white/50">
+                      {badge.text}
+                    </span>
                   </motion.div>
                 ))}
               </motion.div>
@@ -217,17 +338,29 @@ export default function HomeClient() {
         <AnimateIn>
           <div className="bg-white rounded-2xl shadow-xl shadow-black/5 border border-[var(--color-border)] grid grid-cols-2 md:grid-cols-4 divide-x divide-[var(--color-border)] py-2">
             <div className="py-5 px-4">
-              <CountUpStat value={49} suffix="" label="Cheapest in the Market" />
+              <CountUpStat
+                value={49}
+                suffix=""
+                label="Cheapest in the Market"
+              />
             </div>
             <div className="py-5 px-4">
               <CountUpStat value={2} suffix="-3" label="Days (Express)" />
             </div>
             <div className="py-5 px-4">
-              <CountUpStat value={100} suffix="%" label="Money-Back Guarantee" />
+              <CountUpStat
+                value={100}
+                suffix="%"
+                label="Money-Back Guarantee"
+              />
             </div>
             <div className="py-5 px-4 text-center">
-              <div className="text-3xl md:text-4xl font-extrabold text-[var(--color-navy)]">0</div>
-              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">SSN Required</div>
+              <div className="text-3xl md:text-4xl font-extrabold text-[var(--color-navy)]">
+                0
+              </div>
+              <div className="text-xs text-[var(--color-text-muted)] font-medium mt-1">
+                SSN Required
+              </div>
             </div>
           </div>
         </AnimateIn>
@@ -237,7 +370,7 @@ export default function HomeClient() {
       <section className="py-12 bg-[var(--color-surface)] border-b border-[var(--color-border)]">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div
-            className="flex items-center justify-center gap-8 md:gap-16 flex-wrap"
+            className="flex items-center justify-center gap-5 md:gap-8 flex-nowrap overflow-x-auto"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -251,8 +384,13 @@ export default function HomeClient() {
               "Real estate investors",
               "Tech startups",
             ].map((item, i) => (
-              <span key={i} className="text-sm text-[var(--color-text-muted)] font-medium whitespace-nowrap">
-                {i > 0 && <span className="text-[var(--color-blue)] mr-2">|</span>}
+              <span
+                key={i}
+                className="text-sm text-[var(--color-text-muted)] font-medium whitespace-nowrap"
+              >
+                {i > 0 && (
+                  <span className="text-[var(--color-blue)] mr-2">|</span>
+                )}
                 {item}
               </span>
             ))}
@@ -264,17 +402,22 @@ export default function HomeClient() {
       <section className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">Effortless Process</p>
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+              Effortless Process
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
               Four Steps. Zero Hassle.
             </h2>
             <p className="text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
-              While other services make you fill out government forms, we handle <em>everything</em>.
-              You answer a few questions. We do the rest.
+              While other services make you fill out government forms, we handle{" "}
+              <em>everything</em>. You answer a few questions. We do the rest.
             </p>
           </AnimateIn>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" staggerDelay={0.12}>
+          <StaggerContainer
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+            staggerDelay={0.12}
+          >
             {howItWorks.map((item, i) => (
               <StaggerItem key={item.step}>
                 <motion.div
@@ -284,14 +427,30 @@ export default function HomeClient() {
                 >
                   <div className="flex items-center gap-3 mb-5">
                     <div className="w-10 h-10 rounded-xl bg-[var(--color-blue)]/10 text-[var(--color-blue)] flex items-center justify-center group-hover:bg-[var(--color-blue)] group-hover:text-white transition-colors duration-300">
-                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d={item.icon} />
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={1.5}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d={item.icon}
+                        />
                       </svg>
                     </div>
-                    <span className="text-xs font-bold text-[var(--color-blue)] uppercase tracking-wider">Step {item.step}</span>
+                    <span className="text-xs font-bold text-[var(--color-blue)] uppercase tracking-wider">
+                      Step {item.step}
+                    </span>
                   </div>
-                  <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">{item.title}</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{item.description}</p>
+                  <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
+                    {item.description}
+                  </p>
                 </motion.div>
               </StaggerItem>
             ))}
@@ -309,17 +468,22 @@ export default function HomeClient() {
         <div className="absolute inset-0 hero-grid" />
         <div className="relative mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue-glow)] uppercase tracking-widest mb-3">Why Choose Us</p>
+            <p className="text-xs font-semibold text-[var(--color-blue-glow)] uppercase tracking-widest mb-3">
+              Why Choose Us
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
               Not Just Another Filing Service
             </h2>
             <p className="text-lg text-white/50 max-w-2xl mx-auto">
-              Most EIN services charge $99-$200 and take weeks. We built ein.so to be faster, cheaper, and
-              obsessively focused on non-residents.
+              Most EIN services charge $99-$200 and take weeks. We built ein.so
+              to be faster, cheaper, and obsessively focused on non-residents.
             </p>
           </AnimateIn>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6" staggerDelay={0.15}>
+          <StaggerContainer
+            className="grid grid-cols-1 md:grid-cols-3 gap-6"
+            staggerDelay={0.15}
+          >
             {[
               {
                 title: "$49. The Lowest Price. Period.",
@@ -349,15 +513,33 @@ export default function HomeClient() {
                   className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 h-full hover:bg-white/10 transition-all duration-300"
                 >
                   <div className="w-12 h-12 rounded-xl bg-[var(--color-blue)]/20 text-[var(--color-blue-glow)] flex items-center justify-center mb-5">
-                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d={item.icon} />
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={1.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d={item.icon}
+                      />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
-                  <p className="text-sm text-white/50 leading-relaxed mb-6">{item.desc}</p>
+                  <h3 className="text-xl font-bold text-white mb-3">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-white/50 leading-relaxed mb-6">
+                    {item.desc}
+                  </p>
                   <div className="pt-4 border-t border-white/10">
-                    <span className="text-2xl font-extrabold text-[var(--color-blue-glow)]">{item.stat}</span>
-                    <span className="text-xs text-white/30 ml-2">{item.statLabel}</span>
+                    <span className="text-2xl font-extrabold text-[var(--color-blue-glow)]">
+                      {item.stat}
+                    </span>
+                    <span className="text-xs text-white/30 ml-2">
+                      {item.statLabel}
+                    </span>
                   </div>
                 </motion.div>
               </StaggerItem>
@@ -370,13 +552,16 @@ export default function HomeClient() {
       <section id="pricing" className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">Pricing</p>
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+              Pricing
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
               One Service. Two Speeds.
             </h2>
             <p className="text-lg text-[var(--color-text-muted)] max-w-xl mx-auto">
               No hidden fees. No upsells. The IRS charges $0 for EINs.
-              You&apos;re paying for our expertise, speed, and obsessive attention to your filing.
+              You&apos;re paying for our expertise, speed, and obsessive
+              attention to your filing.
             </p>
           </AnimateIn>
 
@@ -391,7 +576,8 @@ export default function HomeClient() {
 
           <AnimateIn className="mt-10 text-center">
             <p className="text-sm text-[var(--color-text-muted)] mb-4">
-              Both packages include SS-4 preparation, IRS filing, and EIN delivery by email.
+              Both packages include SS-4 preparation, IRS filing, and EIN
+              delivery by email.
             </p>
             <WhatsAppCTA text="Not sure which speed you need? Let us help you decide." />
           </AnimateIn>
@@ -403,24 +589,40 @@ export default function HomeClient() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <AnimateIn>
-              <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">The Basics</p>
+              <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+                The Basics
+              </p>
               <h2 className="text-3xl md:text-4xl font-extrabold text-[var(--color-text)] mb-6">
                 What Is an EIN Number?
               </h2>
               <div className="space-y-5 text-[var(--color-text-muted)] leading-relaxed text-base">
                 <p>
-                  An <strong className="text-[var(--color-text)]">EIN (Employer Identification Number)</strong> is a
-                  9-digit tax ID issued by the IRS. Think of it as a Social Security Number for your business.
-                  Every LLC, corporation, and nonprofit in the United States needs one.
+                  An{" "}
+                  <strong className="text-[var(--color-text)]">
+                    EIN (Employer Identification Number)
+                  </strong>{" "}
+                  is a 9-digit tax ID issued by the IRS. Think of it as a Social
+                  Security Number for your business. Every LLC, corporation, and
+                  nonprofit in the United States needs one.
                 </p>
                 <p>
-                  If you want to <strong className="text-[var(--color-text)]">open a US bank account</strong>, sell on Amazon,
-                  hire employees, or file taxes - you need an EIN. It&apos;s the single most important number
-                  for your US business.
+                  If you want to{" "}
+                  <strong className="text-[var(--color-text)]">
+                    open a US bank account
+                  </strong>
+                  , sell on Amazon, hire employees, or file taxes - you need an
+                  EIN. It&apos;s the single most important number for your US
+                  business.
                 </p>
                 <p className="bg-[var(--color-amber)]/10 border border-[var(--color-amber)]/20 rounded-xl p-4 text-sm">
-                  <strong className="text-[var(--color-text)]">The problem:</strong> Non-US residents cannot apply for an EIN online. The IRS requires an SSN or ITIN for online applications.
-                  Your only option? File Form SS-4 by fax. That&apos;s exactly what we do - <strong className="text-[var(--color-text)]">for $49</strong>.
+                  <strong className="text-[var(--color-text)]">
+                    The problem:
+                  </strong>{" "}
+                  Non-US residents cannot apply for an EIN online. The IRS
+                  requires an SSN or ITIN for online applications. Your only
+                  option? File Form SS-4 by fax. That&apos;s exactly what we do
+                  -{" "}
+                  <strong className="text-[var(--color-text)]">for $49</strong>.
                 </p>
               </div>
               <Link
@@ -428,8 +630,18 @@ export default function HomeClient() {
                 className="group inline-flex items-center gap-2 text-[var(--color-blue)] font-semibold mt-6 hover:gap-3 transition-all"
               >
                 Read the complete guide
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 14 14">
-                  <path d="M2.92 7h8.16M7.58 3.5L11.08 7l-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <svg
+                  className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  viewBox="0 0 14 14"
+                >
+                  <path
+                    d="M2.92 7h8.16M7.58 3.5L11.08 7l-3.5 3.5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </Link>
             </AnimateIn>
@@ -437,17 +649,43 @@ export default function HomeClient() {
             <AnimateIn delay={0.15}>
               <div className="bg-white rounded-2xl border border-[var(--color-border)] shadow-sm overflow-hidden">
                 <div className="bg-[var(--color-navy)] px-6 py-4">
-                  <h3 className="text-sm font-bold text-white">EIN at a Glance</h3>
+                  <h3 className="text-sm font-bold text-white">
+                    EIN at a Glance
+                  </h3>
                 </div>
                 <div className="p-6 space-y-0">
                   {[
-                    { label: "Format", value: "XX-XXXXXXX (9 digits)", highlight: false },
-                    { label: "Issued by", value: "Internal Revenue Service (IRS)", highlight: false },
+                    {
+                      label: "Format",
+                      value: "XX-XXXXXXX (9 digits)",
+                      highlight: false,
+                    },
+                    {
+                      label: "Issued by",
+                      value: "Internal Revenue Service (IRS)",
+                      highlight: false,
+                    },
                     { label: "Cost from IRS", value: "Free", highlight: false },
-                    { label: "Online application", value: "US residents only", highlight: true },
-                    { label: "Non-resident method", value: "Form SS-4 by fax", highlight: false },
-                    { label: "Processing time", value: "4 business days (fax)", highlight: false },
-                    { label: "Our fee", value: "$49 Standard / $97 Express", highlight: false },
+                    {
+                      label: "Online application",
+                      value: "US residents only",
+                      highlight: true,
+                    },
+                    {
+                      label: "Non-resident method",
+                      value: "Form SS-4 by fax",
+                      highlight: false,
+                    },
+                    {
+                      label: "Processing time",
+                      value: "4 business days (fax)",
+                      highlight: false,
+                    },
+                    {
+                      label: "Our fee",
+                      value: "$49 Standard / $97 Express",
+                      highlight: false,
+                    },
                   ].map((item, i) => (
                     <motion.div
                       key={item.label}
@@ -457,8 +695,14 @@ export default function HomeClient() {
                       transition={{ delay: 0.3 + i * 0.06, duration: 0.3 }}
                       className={`flex justify-between items-center py-3.5 border-b border-[var(--color-border)] last:border-0 ${item.highlight ? "bg-red-50/50 -mx-6 px-6 border-red-100" : ""}`}
                     >
-                      <span className="text-sm text-[var(--color-text-muted)]">{item.label}</span>
-                      <span className={`text-sm font-semibold text-right ${item.highlight ? "text-[var(--color-error)]" : "text-[var(--color-text)]"}`}>{item.value}</span>
+                      <span className="text-sm text-[var(--color-text-muted)]">
+                        {item.label}
+                      </span>
+                      <span
+                        className={`text-sm font-semibold text-right ${item.highlight ? "text-[var(--color-error)]" : "text-[var(--color-text)]"}`}
+                      >
+                        {item.value}
+                      </span>
                     </motion.div>
                   ))}
                 </div>
@@ -472,17 +716,23 @@ export default function HomeClient() {
       <section className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">Who We Serve</p>
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+              Who We Serve
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
               Built for Entrepreneurs Like You
             </h2>
             <p className="text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
-              Whether you&apos;re launching on Amazon from India or forming an LLC from the UK,
-              we&apos;ve helped people in your exact situation get their EIN.
+              Whether you&apos;re launching on Amazon from India or forming an
+              LLC from the UK, we&apos;ve helped people in your exact situation
+              get their EIN.
             </p>
           </AnimateIn>
 
-          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" staggerDelay={0.08}>
+          <StaggerContainer
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto"
+            staggerDelay={0.08}
+          >
             {audiences.map((item) => (
               <StaggerItem key={item.title}>
                 <motion.div
@@ -490,12 +740,26 @@ export default function HomeClient() {
                   className="bg-[var(--color-surface)] rounded-2xl p-6 border border-[var(--color-border)] h-full group gradient-border-hover cursor-default"
                 >
                   <div className="w-10 h-10 rounded-xl bg-[var(--color-blue)]/8 text-[var(--color-blue)] flex items-center justify-center mb-4 group-hover:bg-[var(--color-blue)] group-hover:text-white transition-colors duration-300">
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d={item.icon} />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={1.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d={item.icon}
+                      />
                     </svg>
                   </div>
-                  <h3 className="text-base font-bold text-[var(--color-text)] mb-1.5">{item.title}</h3>
-                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{item.desc}</p>
+                  <h3 className="text-base font-bold text-[var(--color-text)] mb-1.5">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
+                    {item.desc}
+                  </p>
                 </motion.div>
               </StaggerItem>
             ))}
@@ -509,8 +773,18 @@ export default function HomeClient() {
               className="group inline-flex items-center gap-2 rounded-xl bg-[var(--color-navy)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-navy-light)] transition-all hover:-translate-y-0.5"
             >
               Get Your EIN Today
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 20 20">
-                <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M4.17 10h11.66M10.83 5l5 5-5 5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
             </a>
           </AnimateIn>
@@ -521,16 +795,22 @@ export default function HomeClient() {
       <section className="py-24 lg:py-32 bg-[var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">Knowledge Base</p>
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+              Knowledge Base
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
               Free EIN Guides
             </h2>
             <p className="text-lg text-[var(--color-text-muted)] max-w-xl mx-auto">
-              We don&apos;t just file your EIN. We make sure you understand exactly what you&apos;re getting and why it matters.
+              We don&apos;t just file your EIN. We make sure you understand
+              exactly what you&apos;re getting and why it matters.
             </p>
           </AnimateIn>
 
-          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto" staggerDelay={0.1}>
+          <StaggerContainer
+            className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto"
+            staggerDelay={0.1}
+          >
             {pillarLinks.map((link) => (
               <StaggerItem key={link.href}>
                 <Link href={link.href} className="block group">
@@ -539,18 +819,36 @@ export default function HomeClient() {
                     className="bg-white rounded-2xl p-7 border border-[var(--color-border)] h-full shadow-sm hover:shadow-md transition-shadow"
                   >
                     <div className="w-10 h-10 rounded-xl bg-[var(--color-blue)]/8 text-[var(--color-blue)] flex items-center justify-center mb-4 group-hover:bg-[var(--color-blue)] group-hover:text-white transition-colors duration-300">
-                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d={link.icon} />
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={1.5}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d={link.icon}
+                        />
                       </svg>
                     </div>
                     <h3 className="text-lg font-bold text-[var(--color-text)] mb-1.5 group-hover:text-[var(--color-blue)] transition-colors">
                       {link.title}
                     </h3>
-                    <p className="text-sm text-[var(--color-text-muted)] mb-4">{link.description}</p>
+                    <p className="text-sm text-[var(--color-text-muted)] mb-4">
+                      {link.description}
+                    </p>
                     <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-blue)] group-hover:gap-2 transition-all">
                       Read guide
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 20 20">
-                        <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        <path
+                          d="M4.17 10h11.66M10.83 5l5 5-5 5"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                       </svg>
                     </span>
                   </motion.div>
@@ -565,7 +863,9 @@ export default function HomeClient() {
       <section className="py-24 lg:py-32 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <AnimateIn className="text-center mb-16">
-            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">FAQ</p>
+            <p className="text-xs font-semibold text-[var(--color-blue)] uppercase tracking-widest mb-3">
+              FAQ
+            </p>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-text)] mb-4">
               Questions? Answered.
             </h2>
@@ -579,14 +879,23 @@ export default function HomeClient() {
                     onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
                     className="w-full flex items-center justify-between cursor-pointer p-5 text-left"
                   >
-                    <span className="text-sm font-bold text-[var(--color-text)] pr-4">{faq.q}</span>
+                    <span className="text-sm font-bold text-[var(--color-text)] pr-4">
+                      {faq.q}
+                    </span>
                     <motion.svg
                       animate={{ rotate: openFaq === idx ? 180 : 0 }}
                       transition={{ duration: 0.2 }}
                       className="w-5 h-5 text-[var(--color-text-muted)] flex-shrink-0"
-                      fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19 9l-7 7-7-7"
+                      />
                     </motion.svg>
                   </button>
                   <motion.div
@@ -598,7 +907,9 @@ export default function HomeClient() {
                     transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
                     className="overflow-hidden"
                   >
-                    <p className="px-5 pb-5 text-sm text-[var(--color-text-muted)] leading-relaxed">{faq.a}</p>
+                    <p className="px-5 pb-5 text-sm text-[var(--color-text-muted)] leading-relaxed">
+                      {faq.a}
+                    </p>
                   </motion.div>
                 </div>
               </AnimateIn>
@@ -630,16 +941,14 @@ export default function HomeClient() {
 
         <div className="relative mx-auto max-w-7xl px-6 text-center">
           <AnimateIn>
-            <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6"
-            >
+            <motion.h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
               Your US Business Is
               <br />
               <span className="shimmer-text">One Step Away.</span>
             </motion.h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
-              Join thousands of entrepreneurs worldwide who started their
-              US business journey with ein.so. Takes 5 minutes to apply.
+              Join thousands of entrepreneurs worldwide who started their US
+              business journey with ein.so. Takes 5 minutes to apply.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -649,8 +958,18 @@ export default function HomeClient() {
                 className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-10 py-4.5 text-lg font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-xl shadow-[var(--color-blue)]/30 hover:shadow-2xl hover:shadow-[var(--color-blue)]/40 hover:-translate-y-1"
               >
                 Get My EIN - $49
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 20 20">
-                  <path d="M4.17 10h11.66M10.83 5l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <svg
+                  className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M4.17 10h11.66M10.83 5l5 5-5 5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </a>
               <a
