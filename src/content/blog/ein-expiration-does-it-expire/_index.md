@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **No. An EIN never expires.** Once the IRS assigns an EIN to your business, the number is permanent. It does not need renewal, it does not lapse from non-use, and the IRS never reissues it to another entity. An EIN issued decades ago is still valid today. The only number that expires is the ITIN, which is a different identifier entirely.
 </Capsule>
+
+Business owners often assume an EIN works like a license or a registration that lapses if it sits unused. It does not. An EIN is a permanent federal tax identifier, and the rules around it are simpler than most people expect. This article explains why an EIN never expires, what really happens to an unused or inactive number, how IRS account closure differs from expiration, and how to recover an EIN you have misplaced.
 </Section>
 
 <Section surface>
@@ -136,5 +138,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>

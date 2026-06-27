@@ -1,6 +1,6 @@
 ---
 title: "BOI Exemptions: Who Is Exempt From Filing?"
-description: "23 entity types are exempt from BOI filing. Learn the BOI exemptions, who does not need to file with FinCEN, and why most small LLCs still must. See the list."
+description: "23 entity types are exempt from BOI filing. Learn the BOI exemptions, who does not need to file with FinCEN, and why most small LLCs still must."
 canonical: "/blog/boi-exemptions-who-is-exempt/"
 breadcrumbs:
   - name: "Home"
@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **The Corporate Transparency Act exempts 23 entity types from BOI filing, and nearly all of them are large or already-regulated companies.** Publicly traded firms, banks, insurance companies, registered investment advisers, tax-exempt 501(c) organizations, and large operating companies with 20+ US employees and $5M+ in gross receipts are exempt. A typical small LLC or foreign-owned US LLC is not exempt and must file with FinCEN.
 </Capsule>
+
+The Corporate Transparency Act created the Beneficial Ownership Information report and a short list of companies that do not have to file it. Many small business owners hope their LLC lands on that list, but the exemptions were written for large and regulated companies, not small ones. This article walks through all 23 BOI exemption categories, explains the large operating company test that trips up most applicants, and shows how to check your status before you decide to skip a FinCEN filing.
 </Section>
 
 <Section surface>
@@ -149,5 +151,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>

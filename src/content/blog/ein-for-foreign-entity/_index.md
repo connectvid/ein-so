@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Foreign Entity: How to Apply (2026)"
-description: "A foreign entity doing business in the US may need an EIN for tax, withholding, and banking. Learn how a foreign company gets a US EIN with no SSN. Full guide."
+description: "A foreign entity doing business in the US may need an EIN for tax, withholding, and banking. Learn how a foreign company gets a US EIN with no SSN."
 canonical: "/blog/ein-for-foreign-entity/"
 breadcrumbs:
   - name: "Home"
@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **A foreign entity is a company formed outside the United States, and it needs a US EIN once it has US tax, withholding, banking, or filing obligations.** A foreign corporation that files Form 1120-F, claims a tax treaty rate, or joins a US partnership needs one. It applies on Form SS-4 with no SSN — the responsible party writes "Foreign" on Line 7b and files by fax.
 </Capsule>
+
+A company formed outside the United States can still owe US taxes, face US withholding, or need a US bank account. When that happens, the IRS expects the foreign entity to carry a US EIN. This article explains when a foreign corporation or partnership needs a US EIN, how a foreign entity differs from a foreign-owned US LLC, and how to complete Form SS-4 and file by fax with no Social Security Number.
 </Section>
 
 <Section surface>
@@ -131,5 +133,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>

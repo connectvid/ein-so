@@ -1,6 +1,6 @@
 ---
 title: "EIN Reference Number 101: What It Means & How to Fix It"
-description: "EIN reference number 101 means a name conflict on your online EIN application. Learn what reference 101 and codes 102-115 mean and how to fix each one. Full guide."
+description: "EIN reference number 101 means a name conflict on your online EIN application. Learn what reference 101 and codes 102-115 mean and how to fix each one."
 canonical: "/blog/ein-reference-number-101/"
 breadcrumbs:
   - name: "Home"
@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **EIN reference number 101 means the IRS online EIN tool hit a name conflict.** The system found an existing record that matches your business name or name control, so it cannot auto-assign the EIN. It is the most common online EIN error. The fix is to file Form SS-4 by fax to 855-215-1627, where a human reviewer resolves the conflict and assigns your EIN.
 </Capsule>
+
+The IRS online EIN tool can run for several minutes and then stop with a cryptic "reference number 101" and no EIN. The error looks alarming, but it almost always points to one specific, fixable problem. This article explains what reference number 101 means, why it appears even for unique business names, what the other reference codes signal, and how to get your EIN despite the rejection.
 </Section>
 
 <Section surface>
@@ -127,5 +129,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>

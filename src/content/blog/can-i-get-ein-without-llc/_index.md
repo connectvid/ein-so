@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **Yes — you can get an EIN without an LLC, because an EIN is a tax ID, not a business structure.** Sole proprietors, individuals running a business, general partnerships, corporations, trusts, and estates all qualify. You apply on Form SS-4 and choose your real entity type. Many sole proprietors get an EIN just to keep their Social Security Number off client tax forms.
 </Capsule>
+
+A common myth says you must form an LLC before the IRS will issue an EIN. The two are unrelated: an EIN is a tax ID, and an LLC is a legal structure created by a state. Sole proprietors, freelancers, general partnerships, trusts, and estates all qualify for an EIN with no company filing. This article explains who can get an EIN without an LLC, the practical reasons to do it, and how to apply as a sole proprietor in a few steps.
 </Section>
 
 <Section surface>
@@ -143,5 +145,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>

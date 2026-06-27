@@ -40,6 +40,8 @@ faqs:
 <Capsule label="Short Answer">
 **Gig economy workers do not need an EIN, but it is worth getting to protect your SSN.** Uber, DoorDash, Upwork, and Fiverr workers are independent contractors taxed as sole proprietors. An EIN lets you put a business tax ID on Form W-9 instead of your Social Security Number, shielding it from every platform and client. Workers who hire help or form an LLC need one.
 </Capsule>
+
+Every gig platform and client that pays you asks for a taxpayer ID, and most workers hand over a Social Security Number by default. That habit scatters your SSN across dozens of company databases, and each one is a breach risk. An EIN replaces it on Form W-9 without changing a cent of tax owed. This article explains when a gig economy worker needs an EIN, how it protects your SSN, and how to get one free as a sole proprietor.
 </Section>
 
 <Section surface>
@@ -136,5 +138,4 @@ ein.so files Form SS-4 by fax with the IRS and delivers your EIN by email. No SS
 | Standard | $49 | 4-7 business days |
 | Express | $97 | 2-3 business days |
 
-[Apply now — $49](/apply/)
 </Section>
