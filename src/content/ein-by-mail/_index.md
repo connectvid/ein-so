@@ -1,6 +1,6 @@
 ---
 title: "EIN by Mail: How to Apply With Form SS-4 (2026)"
-description: "Apply for an EIN by mail with Form SS-4. Learn where to mail it, the 4 to 6 week timing, and why fax is faster for non-residents. See the full guide here."
+description: "Apply for an EIN by mail with Form SS-4. Learn where to mail it, the 4 to 6 week timing, and why fax is faster for non-residents."
 canonical: "/ein-by-mail/"
 breadcrumbs:
   - name: "Home"

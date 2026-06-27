@@ -1,6 +1,6 @@
 ---
 title: "EIN for TikTok Creators: Protect Your SSN"
-description: "TikTok creators can use an EIN for brand deals and an LLC instead of an SSN. Learn how to get an EIN as a creator. See the steps to apply now today."
+description: "TikTok creators can use an EIN for brand deals and an LLC instead of an SSN."
 canonical: "/ein-for-tiktok-creators/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Germany: Apply With No SSN (2026)"
-description: "Germany founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "Germany founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-germany/"
 breadcrumbs:
   - name: "Home"

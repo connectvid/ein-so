@@ -1,6 +1,6 @@
 ---
 title: "EIN for eBay Sellers: How to Apply (2026)"
-description: "eBay reports seller income to the IRS, so an EIN keeps your SSN private. Learn how non-US eBay sellers get an EIN with no SSN. Apply now to get started."
+description: "eBay reports seller income to the IRS, so an EIN keeps your SSN private. Learn how non-US eBay sellers get an EIN with no SSN."
 canonical: "/ein-for-ebay-sellers/"
 breadcrumbs:
   - name: "Home"

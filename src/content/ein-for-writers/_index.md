@@ -1,6 +1,6 @@
 ---
 title: "EIN for Writers and Authors: Protect Your SSN"
-description: "Writers and authors can use an EIN on royalty and client forms instead of an SSN. Learn how to get an EIN for your writing business. See the steps now."
+description: "Writers and authors can use an EIN on royalty and client forms instead of an SSN."
 canonical: "/ein-for-writers/"
 breadcrumbs:
   - name: "Home"

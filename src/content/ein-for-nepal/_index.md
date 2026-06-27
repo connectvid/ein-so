@@ -1,6 +1,6 @@
 ---
 title: "EIN for Nepal Entrepreneurs: No SSN (2026)"
-description: "Nepal entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now to start."
+description: "Nepal entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-nepal/"
 breadcrumbs:
   - name: "Home"

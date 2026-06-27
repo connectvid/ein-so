@@ -1,6 +1,6 @@
 ---
 title: "Free EIN Lookup: 5 Ways to Find a Business EIN"
-description: "Find any EIN for free with the IRS Tax Exempt Search, SEC EDGAR, or state business registries. 5 free methods that actually work. See the full guide."
+description: "Find any EIN for free with the IRS Tax Exempt Search, SEC EDGAR, or state business registries. 5 free methods that actually work."
 canonical: "/ein-lookup-free/"
 heroLabel: "Lookup Guide"
 heroTitle: "Free EIN Lookup:"

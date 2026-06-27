@@ -1,6 +1,6 @@
 ---
 title: "Lost EIN Number: How to Find It Again (2026)"
-description: "Lost your EIN number? Find it on your CP 575, a past tax return, or by calling the IRS. Learn how to recover a lost EIN. See the full guide and steps here."
+description: "Lost your EIN number? Find it on your CP 575, a past tax return, or by calling the IRS. Learn how to recover a lost EIN."
 canonical: "/lost-ein-number/"
 breadcrumbs:
   - name: "Home"

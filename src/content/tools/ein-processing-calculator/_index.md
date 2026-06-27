@@ -1,6 +1,6 @@
 ---
 title: "EIN Processing Time Calculator (Free Tool)"
-description: "Use the free EIN processing time calculator to estimate when your EIN will arrive by method. Compare fax, online, and mail timing. Use the free tool now."
+description: "Use the free EIN processing time calculator to estimate when your EIN will arrive by method. Compare fax, online, and mail timing."
 canonical: "/tools/ein-processing-calculator/"
 dynamic: "force-static"
 breadcrumbs:

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Dominican Republic (No SSN, 2026)"
-description: "Dominican Republic founders can get a US EIN with no SSN to bank, sell, and accept US payments online. We file Form SS-4 by fax. Apply now to get started."
+description: "Dominican Republic founders can get a US EIN with no SSN to bank, sell, and accept US payments online. We file Form SS-4 by fax."
 canonical: "/ein-for-dominican-republic/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "Who Needs an EIN? Full Eligibility Guide (2026)"
-description: "LLCs, corporations, nonprofits, partnerships, and non-resident founders all need an EIN. Check whether your business requires one. See the full guide."
+description: "LLCs, corporations, nonprofits, partnerships, and non-resident founders all need an EIN. Check whether your business requires one."
 canonical: "/who-needs-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "Who Needs an EIN?"

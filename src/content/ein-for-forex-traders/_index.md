@@ -1,6 +1,6 @@
 ---
 title: "EIN for Forex Traders: How to Apply (2026)"
-description: "Forex traders use an EIN for an LLC, broker accounts, and tax filing. Learn how non-residents get an EIN for forex trading with no SSN. See the steps."
+description: "Forex traders use an EIN for an LLC, broker accounts, and tax filing. Learn how non-residents get an EIN for forex trading with no SSN."
 canonical: "/ein-for-forex-traders/"
 breadcrumbs:
   - name: "Home"

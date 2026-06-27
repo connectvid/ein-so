@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From China With No SSN (2026)"
-description: "China sellers can get a US EIN with no SSN for Amazon, US banking, and payment processing, fully online. We handle the IRS Form SS-4 filing. Apply now."
+description: "China sellers can get a US EIN with no SSN for Amazon, US banking, and payment processing, fully online. We handle the IRS Form SS-4 filing."
 canonical: "/ein-for-china/"
 breadcrumbs:
   - name: "Home"

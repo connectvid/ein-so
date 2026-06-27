@@ -1,6 +1,6 @@
 ---
 title: "EIN for Turkey Entrepreneurs: No SSN (2026)"
-description: "Turkey founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
+description: "Turkey founders can get a US EIN with no SSN for Amazon, US banking, and Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-turkey/"
 breadcrumbs:
   - name: "Home"

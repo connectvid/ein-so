@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From Egypt With No SSN (2026)"
-description: "Egypt entrepreneurs can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We handle the IRS Form SS-4 filing. Apply now now."
+description: "Egypt entrepreneurs can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We handle the IRS Form SS-4 filing."
 canonical: "/ein-for-egypt/"
 breadcrumbs:
   - name: "Home"

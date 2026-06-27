@@ -1,6 +1,6 @@
 ---
 title: "Best Banks for a Non-Resident LLC in 2026"
-description: "Compare the best banks for a non-resident LLC: Mercury, Relay, Wise, and Brex. See which accept an EIN with no SSN and open fully online. Compare options."
+description: "Compare the best banks for a non-resident LLC: Mercury, Relay, Wise, and Brex. See which accept an EIN with no SSN and open fully online."
 canonical: "/best-bank-for-non-resident-llc/"
 breadcrumbs:
   - name: "Home"

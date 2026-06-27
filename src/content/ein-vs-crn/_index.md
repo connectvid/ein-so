@@ -1,6 +1,6 @@
 ---
 title: "EIN vs CRN: US EIN vs UK Company Number (2026)"
-description: "EIN vs CRN: a US EIN is an IRS tax ID, a CRN is a UK company registration number. See how they differ and which you need. Compare the differences."
+description: "EIN vs CRN: a US EIN is an IRS tax ID, a CRN is a UK company registration number."
 canonical: "/ein-vs-crn/"
 breadcrumbs:
   - name: "Home"

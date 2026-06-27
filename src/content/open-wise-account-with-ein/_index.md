@@ -1,6 +1,6 @@
 ---
 title: "Open a Wise Business Account With Your EIN"
-description: "Open a Wise business account with your EIN to hold and convert currencies. Learn the documents and steps for non-residents. Get started with Wise today."
+description: "Open a Wise business account with your EIN to hold and convert currencies. Learn the documents and steps for non-residents."
 canonical: "/open-wise-account-with-ein/"
 breadcrumbs:
   - name: "Home"

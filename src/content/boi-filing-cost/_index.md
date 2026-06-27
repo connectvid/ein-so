@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing Cost: How Much Does It Cost? (2026)"
-description: "How much does BOI filing cost? Filing direct with FinCEN is free, but a service has a fee. See the full BOI filing cost breakdown. Compare options now."
+description: "How much does BOI filing cost? Filing direct with FinCEN is free, but a service has a fee."
 canonical: "/boi-filing-cost/"
 breadcrumbs:
   - name: "Home"

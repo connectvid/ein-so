@@ -1,6 +1,6 @@
 ---
 title: "EIN for UAE & Dubai: Apply With No SSN (2026)"
-description: "UAE and Dubai founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
+description: "UAE and Dubai founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax."
 canonical: "/ein-for-uae/"
 breadcrumbs:
   - name: "Home"

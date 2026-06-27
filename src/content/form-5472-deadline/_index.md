@@ -1,6 +1,6 @@
 ---
 title: "Form 5472 Deadline: When Is It Due in 2026?"
-description: "Form 5472 is due April 15 with your pro-forma 1120 for foreign-owned US LLCs. Learn the Form 5472 deadline and extension options. See the full guide here."
+description: "Form 5472 is due April 15 with your pro-forma 1120 for foreign-owned US LLCs. Learn the Form 5472 deadline and extension options."
 canonical: "/form-5472-deadline/"
 breadcrumbs:
   - name: "Home"

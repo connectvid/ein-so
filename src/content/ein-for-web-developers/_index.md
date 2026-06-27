@@ -1,6 +1,6 @@
 ---
 title: "EIN for Web Developers: Keep Your SSN Private"
-description: "Web developers can put an EIN on client W-9 forms instead of an SSN and open a business account. Learn how to get an EIN. See the steps to apply today."
+description: "Web developers can put an EIN on client W-9 forms instead of an SSN and open a business account."
 canonical: "/ein-for-web-developers/"
 breadcrumbs:
   - name: "Home"

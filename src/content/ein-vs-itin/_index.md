@@ -1,6 +1,6 @@
 ---
 title: "EIN vs ITIN: Key Differences & Which You Need"
-description: "EIN vs ITIN: an EIN identifies your business, an ITIN identifies you. See the key differences, which you need, and when you need both. Compare options."
+description: "EIN vs ITIN: an EIN identifies your business, an ITIN identifies you. See the key differences, which you need, and when you need both."
 canonical: "/ein-vs-itin/"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs ITIN:"

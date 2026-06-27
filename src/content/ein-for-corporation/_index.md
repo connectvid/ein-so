@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Corporation: How to Apply (2026)"
-description: "Every corporation needs an EIN for tax filing, payroll, and banking. Learn how to get one for your C-corp or S-corp as a non-resident. See the full guide."
+description: "Every corporation needs an EIN for tax filing, payroll, and banking. Learn how to get one for your C-corp or S-corp as a non-resident."
 canonical: "/ein-for-corporation/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "Open a Novo Business Account With Your EIN"
-description: "Open a Novo business bank account with your EIN. Learn the documents required and whether non-residents qualify. See the steps to apply and get started."
+description: "Open a Novo business bank account with your EIN. Learn the documents required and whether non-residents qualify."
 canonical: "/open-novo-account-with-ein/"
 breadcrumbs:
   - name: "Home"

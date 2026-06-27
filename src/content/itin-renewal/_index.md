@@ -1,6 +1,6 @@
 ---
 title: "ITIN Renewal: How to Renew an Expired ITIN"
-description: "ITINs expire after three years of non-use. Learn how to renew an expired ITIN with Form W-7, the documents needed, and timing. See the renewal steps here."
+description: "ITINs expire after three years of non-use. Learn how to renew an expired ITIN with Form W-7, the documents needed, and timing."
 canonical: "/itin-renewal/"
 breadcrumbs:
   - name: "Home"

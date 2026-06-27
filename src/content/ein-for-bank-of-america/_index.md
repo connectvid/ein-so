@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Bank of America Business Account"
-description: "Open a Bank of America business account with your EIN. See the documents required and whether non-residents qualify with no SSN. Learn more here."
+description: "Open a Bank of America business account with your EIN. See the documents required and whether non-residents qualify with no SSN."
 canonical: "/ein-for-bank-of-america/"
 breadcrumbs:
   - name: "Home"

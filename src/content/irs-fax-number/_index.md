@@ -1,6 +1,6 @@
 ---
 title: "IRS Fax Number: Where to Fax Form SS-4 (2026)"
-description: "The IRS fax number for Form SS-4 is 855-215-1627 for non-residents. Learn where to fax your EIN application and what to expect. See the full guide here."
+description: "The IRS fax number for Form SS-4 is 855-215-1627 for non-residents. Learn where to fax your EIN application and what to expect."
 canonical: "/irs-fax-number/"
 breadcrumbs:
   - name: "Home"

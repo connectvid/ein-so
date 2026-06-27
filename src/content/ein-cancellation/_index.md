@@ -1,6 +1,6 @@
 ---
 title: "EIN Cancellation: How to Close an EIN (2026)"
-description: "You cannot delete an EIN, but you can close the IRS business account. Learn how EIN cancellation works and what to send the IRS. See the steps here."
+description: "You cannot delete an EIN, but you can close the IRS business account. Learn how EIN cancellation works and what to send the IRS."
 canonical: "/ein-cancellation/"
 breadcrumbs:
   - name: "Home"

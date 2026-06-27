@@ -1,6 +1,6 @@
 ---
 title: "ein.so vs GovDocFiling: EIN Service Compared"
-description: "Compare ein.so vs GovDocFiling on price, speed, and support for non-resident EIN filing. See why ein.so files SS-4 for $49. Compare the options here."
+description: "Compare ein.so vs GovDocFiling on price, speed, and support for non-resident EIN filing. See why ein.so files SS-4 for $49."
 canonical: "/ein-so-vs-govdocfiling/"
 breadcrumbs:
   - name: "Home"

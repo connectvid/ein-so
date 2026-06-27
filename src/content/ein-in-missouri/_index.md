@@ -1,6 +1,6 @@
 ---
 title: "EIN in Missouri: How to Apply for One (2026)"
-description: "Getting an EIN in Missouri? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the full steps to apply."
+description: "Getting an EIN in Missouri? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required."
 canonical: "/ein-in-missouri/"
 breadcrumbs:
   - name: "Home"

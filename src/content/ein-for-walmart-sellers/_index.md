@@ -1,6 +1,6 @@
 ---
 title: "EIN for Walmart Sellers: Tax Setup (2026)"
-description: "Walmart Marketplace requires a tax ID, so non-US sellers need an EIN. Learn how to get an EIN for Walmart selling with no SSN. Apply now to get started."
+description: "Walmart Marketplace requires a tax ID, so non-US sellers need an EIN."
 canonical: "/ein-for-walmart-sellers/"
 breadcrumbs:
   - name: "Home"

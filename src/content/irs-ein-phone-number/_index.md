@@ -1,6 +1,6 @@
 ---
 title: "IRS EIN Phone Number: Apply by Phone (2026)"
-description: "Call the IRS EIN phone number at 267-941-1099 to get an EIN as an international applicant. Learn how the phone method works and timing. See the steps here."
+description: "Call the IRS EIN phone number at 267-941-1099 to get an EIN as an international applicant. Learn how the phone method works and timing."
 canonical: "/irs-ein-phone-number/"
 breadcrumbs:
   - name: "Home"

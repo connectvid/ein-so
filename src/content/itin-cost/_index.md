@@ -1,6 +1,6 @@
 ---
 title: "ITIN Cost: How Much Does an ITIN Cost? (2026)"
-description: "How much does an ITIN cost? The IRS charges nothing, but a CAA service has a fee. See the full ITIN cost breakdown for 2026. Compare your options here."
+description: "How much does an ITIN cost? The IRS charges nothing, but a CAA service has a fee. See the full ITIN cost breakdown for 2026."
 canonical: "/itin-cost/"
 breadcrumbs:
   - name: "Home"

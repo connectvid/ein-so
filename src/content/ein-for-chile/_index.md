@@ -1,6 +1,6 @@
 ---
 title: "EIN for Chile Entrepreneurs: No SSN (2026)"
-description: "Chile founders can get a US EIN with no SSN to open US banking, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax. Apply now today."
+description: "Chile founders can get a US EIN with no SSN to open US banking, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-chile/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "ein.so Reviews: What Customers Say (2026)"
-description: "Read ein.so reviews from non-residents who got their EIN with us. See ratings, real feedback, and results. Learn why founders choose ein.so. Read reviews."
+description: "Read ein.so reviews from non-residents who got their EIN with us. See ratings, real feedback, and results. Learn why founders choose ein.so."
 canonical: "/reviews/"
 breadcrumbs:
   - name: "Home"

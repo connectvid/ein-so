@@ -1,6 +1,6 @@
 ---
 title: "Multiple EIN Numbers: Can You Have More Than 1?"
-description: "Can a business have multiple EIN numbers? Sometimes yes, depending on entity structure. Learn when you need more than one EIN. See the full guide here."
+description: "Can a business have multiple EIN numbers? Sometimes yes, depending on entity structure. Learn when you need more than one EIN."
 canonical: "/multiple-ein-numbers/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Photographers: Keep Your SSN Private"
-description: "Photographers can put an EIN on client W-9 forms instead of an SSN and open a business account. Learn how to get an EIN. See the steps to apply today."
+description: "Photographers can put an EIN on client W-9 forms instead of an SSN and open a business account."
 canonical: "/ein-for-photographers/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "US Business Banking for Non-Residents (2026)"
-description: "Open US business banking as a non-resident with your EIN. Compare Mercury, Relay, Wise, and Brex and see which accept an EIN with no SSN. Learn more here."
+description: "Open US business banking as a non-resident with your EIN. Compare Mercury, Relay, Wise, and Brex and see which accept an EIN with no SSN."
 canonical: "/banking/"
 breadcrumbs:
   - name: "Home"

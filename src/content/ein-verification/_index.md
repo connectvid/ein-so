@@ -1,6 +1,6 @@
 ---
 title: "EIN Verification: How to Verify an EIN (2026)"
-description: "How to verify an EIN: confirm a business EIN with the IRS, a W-9, or public records. Learn the EIN verification methods that work. See the full guide here."
+description: "How to verify an EIN: confirm a business EIN with the IRS, a W-9, or public records. Learn the EIN verification methods that work."
 canonical: "/ein-verification/"
 breadcrumbs:
   - name: "Home"

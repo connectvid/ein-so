@@ -1,6 +1,6 @@
 ---
 title: "EIN for Cambodia: Apply With No SSN (2026)"
-description: "Cambodia entrepreneurs can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We handle Form SS-4. Apply now today."
+description: "Cambodia entrepreneurs can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We handle Form SS-4."
 canonical: "/ein-for-cambodia/"
 breadcrumbs:
   - name: "Home"

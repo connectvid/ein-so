@@ -1,6 +1,6 @@
 ---
 title: "EIN in South Carolina: How to Apply for One (2026)"
-description: "Need an EIN for a South Carolina LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. Get started today."
+description: "Need an EIN for a South Carolina LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process."
 canonical: "/ein-in-south-carolina/"
 breadcrumbs:
   - name: "Home"

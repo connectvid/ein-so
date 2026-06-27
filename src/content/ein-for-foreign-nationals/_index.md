@@ -1,6 +1,6 @@
 ---
 title: "EIN for Foreign Nationals: Apply With No SSN"
-description: "Foreign nationals can get a US EIN with no SSN by filing Form SS-4 by fax. Learn how to apply for a US business EIN from abroad. Apply now to get started."
+description: "Foreign nationals can get a US EIN with no SSN by filing Form SS-4 by fax. Learn how to apply for a US business EIN from abroad."
 canonical: "/ein-for-foreign-nationals/"
 breadcrumbs:
   - name: "Home"

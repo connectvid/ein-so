@@ -1,6 +1,6 @@
 ---
 title: "EIN Comparisons: EIN vs Other Tax IDs (2026)"
-description: "Compare an EIN with the ITIN, SSN, TIN, and foreign tax IDs like ABN and VAT. See how they differ and which you need. Browse all EIN comparisons here."
+description: "Compare an EIN with the ITIN, SSN, TIN, and foreign tax IDs like ABN and VAT. See how they differ and which you need."
 canonical: "/comparisons/"
 breadcrumbs:
   - name: "Home"

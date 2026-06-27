@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing in Florida: Requirements (2026)"
-description: "Florida businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
+description: "Florida businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty."
 canonical: "/boi-filing-florida/"
 breadcrumbs:
   - name: "Home"

@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://www.ein.so",
   title: "Apply for an EIN Online | EIN Application Service",
   description:
-    "Apply for an EIN online as a non-US resident — no SSN required. We file Form SS-4 with the IRS and deliver your EIN fast, from $49. Get started now.",
+    "Apply for an EIN online as a non-US resident — no SSN required. We file Form SS-4 with the IRS and deliver your EIN fast, from $49.",
   whatsapp: "https://wa.me/8801750278508",
   whatsappMessage: "Hi, I need help getting an EIN number.",
   whatsappStandard: "Hi, I'd like to apply for the Standard EIN service ($49).",

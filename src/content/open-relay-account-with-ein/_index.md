@@ -1,6 +1,6 @@
 ---
 title: "Open a Relay Business Account With Your EIN"
-description: "Open a Relay business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Relay today."
+description: "Open a Relay business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply."
 canonical: "/open-relay-account-with-ein/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "Tax Identification Number: The Types Explained"
-description: "A tax identification number can be an EIN, SSN, or ITIN. Learn the types of TIN, which one you need, and how to get it. See the full guide and read more."
+description: "A tax identification number can be an EIN, SSN, or ITIN. Learn the types of TIN, which one you need, and how to get it."
 canonical: "/tax-identification-number/"
 breadcrumbs:
   - name: "Home"

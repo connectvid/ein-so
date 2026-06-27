@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Barber Shop: How to Apply (2026)"
-description: "A barber shop needs an EIN to hire, open a business account, and file taxes. Learn how to get an EIN for your barber shop fast. See the steps to apply."
+description: "A barber shop needs an EIN to hire, open a business account, and file taxes."
 canonical: "/ein-for-barber-shop/"
 breadcrumbs:
   - name: "Home"

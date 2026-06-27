@@ -1,6 +1,6 @@
 ---
 title: "Apply for an EIN Online — Non-Resident Service"
-description: "Apply for an EIN online as a non-US resident with no SSN needed. We file Form SS-4 with the IRS and deliver your EIN in days. From $49. Apply now."
+description: "Apply for an EIN online as a non-US resident with no SSN needed. We file Form SS-4 with the IRS and deliver your EIN in days. From $49."
 canonical: "/apply/"
 breadcrumbs:
   - name: "Home"

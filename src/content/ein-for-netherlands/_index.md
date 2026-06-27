@@ -1,6 +1,6 @@
 ---
 title: "EIN for Netherlands: Apply With No SSN (2026)"
-description: "Netherlands founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
+description: "Netherlands founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-netherlands/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "FinCEN BOI Filing: How to File Your Report"
-description: "FinCEN requires most companies to file a BOI report identifying their owners. Learn how to file your FinCEN BOI report and avoid penalties. See the steps."
+description: "FinCEN requires most companies to file a BOI report identifying their owners. Learn how to file your FinCEN BOI report and avoid penalties."
 canonical: "/fincen-boi-filing/"
 breadcrumbs:
   - name: "Home"

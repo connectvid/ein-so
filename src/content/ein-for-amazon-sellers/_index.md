@@ -1,6 +1,6 @@
 ---
 title: "EIN for Amazon Sellers: FBA Tax Setup (2026)"
-description: "Amazon requires an EIN for the Seller Central tax interview. Non-US FBA sellers can get one without an SSN, fully online. Get yours in days. Apply now."
+description: "Amazon requires an EIN for the Seller Central tax interview. Non-US FBA sellers can get one without an SSN, fully online. Get yours in days."
 canonical: "/ein-for-amazon-sellers/"
 heroLabel: "Amazon Sellers"
 heroTitle: "EIN for Amazon Sellers:"

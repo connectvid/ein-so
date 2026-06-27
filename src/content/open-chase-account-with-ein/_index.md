@@ -1,6 +1,6 @@
 ---
 title: "Open a Chase Business Account With an EIN"
-description: "Open a Chase business bank account with your EIN. Learn the documents required and whether non-residents qualify with no SSN. See the steps to apply."
+description: "Open a Chase business bank account with your EIN. Learn the documents required and whether non-residents qualify with no SSN."
 canonical: "/open-chase-account-with-ein/"
 breadcrumbs:
   - name: "Home"

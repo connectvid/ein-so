@@ -1,6 +1,6 @@
 ---
 title: "EIN Format Explained: What XX-XXXXXXX Means"
-description: "An EIN is formatted XX-XXXXXXX — 9 digits with a hyphen after the first two. Learn what the EIN format and prefix digits mean for you. See the full guide."
+description: "An EIN is formatted XX-XXXXXXX — 9 digits with a hyphen after the first two. Learn what the EIN format and prefix digits mean for you."
 canonical: "/ein-number-format/"
 heroLabel: "Reference Guide"
 heroTitle: "EIN Number Format:"

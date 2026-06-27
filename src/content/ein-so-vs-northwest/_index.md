@@ -1,6 +1,6 @@
 ---
 title: "ein.so vs Northwest: EIN Service Compared"
-description: "Compare ein.so vs Northwest Registered Agent on price and non-resident EIN filing. See why ein.so files SS-4 for $49. Compare the options here today."
+description: "Compare ein.so vs Northwest Registered Agent on price and non-resident EIN filing. See why ein.so files SS-4 for $49."
 canonical: "/ein-so-vs-northwest/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Dropshipping: Apply With No SSN (2026)"
-description: "A dropshipping business needs an EIN for suppliers, banking, and payments. Learn how non-residents get an EIN for dropshipping with no SSN. See the steps."
+description: "A dropshipping business needs an EIN for suppliers, banking, and payments. Learn how non-residents get an EIN for dropshipping with no SSN."
 canonical: "/ein-for-dropshipping/"
 breadcrumbs:
   - name: "Home"

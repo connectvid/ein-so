@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing Requirements: Who Must File (2026)"
-description: "Most US LLCs and corporations must file a BOI report with FinCEN. Learn the BOI filing requirements, who is exempt, and the deadline. See the full guide."
+description: "Most US LLCs and corporations must file a BOI report with FinCEN. Learn the BOI filing requirements, who is exempt, and the deadline."
 canonical: "/boi-filing-requirements/"
 breadcrumbs:
   - name: "Home"

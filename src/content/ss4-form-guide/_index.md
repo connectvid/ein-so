@@ -1,6 +1,6 @@
 ---
 title: "How to Fill Out IRS Form SS-4 Line by Line"
-description: "Fill out IRS Form SS-4 line by line with this 2026 guide. Exactly what non-residents enter in each field to get an EIN with no SSN. See the full guide."
+description: "Fill out IRS Form SS-4 line by line with this 2026 guide. Exactly what non-residents enter in each field to get an EIN with no SSN."
 canonical: "/ss4-form-guide/"
 heroLabel: "Line-by-Line Instructions"
 heroTitle: "IRS Form SS-4 Instructions:"

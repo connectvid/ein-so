@@ -1,6 +1,6 @@
 ---
 title: "EIN in Delaware: How to Apply for One (2026)"
-description: "Need an EIN for a Delaware LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the steps and get started."
+description: "Need an EIN for a Delaware LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process."
 canonical: "/ein-in-delaware/"
 breadcrumbs:
   - name: "Home"

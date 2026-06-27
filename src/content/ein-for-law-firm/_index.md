@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Law Firm or Legal Practice (2026)"
-description: "A law firm needs an EIN for its entity, payroll, and trust accounts. Learn how to get an EIN for your law firm or legal practice. See the steps to apply."
+description: "A law firm needs an EIN for its entity, payroll, and trust accounts."
 canonical: "/ein-for-law-firm/"
 breadcrumbs:
   - name: "Home"

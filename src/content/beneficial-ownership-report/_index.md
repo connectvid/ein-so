@@ -1,6 +1,6 @@
 ---
 title: "Beneficial Ownership Information Report (2026)"
-description: "The Beneficial Ownership Information report tells FinCEN who owns your company. Learn who must file, the deadlines, and the BOI penalties. See the guide."
+description: "The Beneficial Ownership Information report tells FinCEN who owns your company. Learn who must file, the deadlines, and the BOI penalties."
 canonical: "/beneficial-ownership-report/"
 breadcrumbs:
   - name: "Home"

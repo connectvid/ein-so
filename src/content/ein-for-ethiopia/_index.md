@@ -1,6 +1,6 @@
 ---
 title: "EIN for Ethiopia: Apply With No SSN (2026)"
-description: "Ethiopia founders can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We file Form SS-4 by fax. Apply now to start."
+description: "Ethiopia founders can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-ethiopia/"
 breadcrumbs:
   - name: "Home"

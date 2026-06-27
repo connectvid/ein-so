@@ -1,6 +1,6 @@
 ---
 title: "How to Get a Tax ID Number: EIN or ITIN (2026)"
-description: "Learn how to get a tax ID number, whether you need an EIN for a business or an ITIN for an individual. A clear guide for non-residents. See the steps."
+description: "Learn how to get a tax ID number, whether you need an EIN for a business or an ITIN for an individual."
 canonical: "/how-to-get-tax-id/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for an Estate of a Deceased Person (2026)"
-description: "An estate needs its own EIN for tax filing and distributing assets. Learn how the executor gets an EIN for an estate with Form SS-4. See the full guide."
+description: "An estate needs its own EIN for tax filing and distributing assets. Learn how the executor gets an EIN for an estate with Form SS-4."
 canonical: "/ein-for-estate/"
 breadcrumbs:
   - name: "Home"

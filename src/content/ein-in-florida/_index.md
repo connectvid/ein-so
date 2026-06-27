@@ -1,6 +1,6 @@
 ---
 title: "EIN in Florida: How to Apply for One (2026)"
-description: "Getting an EIN in Florida? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
+description: "Getting an EIN in Florida? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required."
 canonical: "/ein-in-florida/"
 breadcrumbs:
   - name: "Home"

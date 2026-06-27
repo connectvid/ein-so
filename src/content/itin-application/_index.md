@@ -1,6 +1,6 @@
 ---
 title: "ITIN Application: How to Apply With Form W-7"
-description: "Apply for an ITIN with Form W-7 and the right documents. Learn the steps, processing time, and how non-residents file for an ITIN. Get started today now."
+description: "Apply for an ITIN with Form W-7 and the right documents. Learn the steps, processing time, and how non-residents file for an ITIN."
 canonical: "/itin-application/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "Responsible Party for an EIN: Who It Is (2026)"
-description: "The responsible party on Form SS-4 controls the entity and its EIN. Learn who can be the responsible party and how to update it. See the full guide here."
+description: "The responsible party on Form SS-4 controls the entity and its EIN. Learn who can be the responsible party and how to update it."
 canonical: "/responsible-party-ein/"
 breadcrumbs:
   - name: "Home"

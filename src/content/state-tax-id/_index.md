@@ -1,6 +1,6 @@
 ---
 title: "State Tax ID: What It Is and How to Get One"
-description: "A state tax ID registers your business for state taxes, separate from your federal EIN. Learn what a state tax ID is and how to get one. Learn more here."
+description: "A state tax ID registers your business for state taxes, separate from your federal EIN. Learn what a state tax ID is and how to get one."
 canonical: "/state-tax-id/"
 breadcrumbs:
   - name: "Home"

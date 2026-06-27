@@ -1,6 +1,6 @@
 ---
 title: "Federal Tax ID Number: What It Is & How to Get"
-description: "A federal tax ID is your EIN, the 9-digit number the IRS issues to businesses. Learn what it is and how to get a federal tax ID. See the full guide here."
+description: "A federal tax ID is your EIN, the 9-digit number the IRS issues to businesses. Learn what it is and how to get a federal tax ID."
 canonical: "/federal-tax-id/"
 breadcrumbs:
   - name: "Home"

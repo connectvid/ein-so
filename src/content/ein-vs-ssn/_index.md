@@ -1,6 +1,6 @@
 ---
 title: "EIN vs SSN: What's the Difference? (2026)"
-description: "EIN vs SSN: an EIN identifies a business, an SSN identifies a person. Non-residents with no SSN can still get an EIN for a US business. Compare options."
+description: "EIN vs SSN: an EIN identifies a business, an SSN identifies a person. Non-residents with no SSN can still get an EIN for a US business."
 canonical: "/ein-vs-ssn/"
 heroLabel: "Comparison Guide"
 heroTitle: "EIN vs SSN:"

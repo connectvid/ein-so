@@ -1,6 +1,6 @@
 ---
 title: "EIN for Peru Entrepreneurs: No SSN (2026)"
-description: "Peru entrepreneurs can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 by fax. Apply now to get started."
+description: "Peru entrepreneurs can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 by fax."
 canonical: "/ein-for-peru/"
 breadcrumbs:
   - name: "Home"

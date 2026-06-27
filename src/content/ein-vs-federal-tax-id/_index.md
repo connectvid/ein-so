@@ -1,6 +1,6 @@
 ---
 title: "EIN vs Federal Tax ID: Same Thing? (2026)"
-description: "EIN vs Federal Tax ID: they are the same 9-digit IRS number. See why both terms exist and what to enter on forms. Compare the two and clear it up here."
+description: "EIN vs Federal Tax ID: they are the same 9-digit IRS number. See why both terms exist and what to enter on forms."
 canonical: "/ein-vs-federal-tax-id/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing Deadline: When Your Report Is Due"
-description: "BOI filing deadlines: new companies file within 90 days of formation. Miss it and FinCEN charges $500/day. See every BOI due date for 2026. Learn more."
+description: "BOI filing deadlines: new companies file within 90 days of formation. Miss it and FinCEN charges $500/day. See every BOI due date for 2026."
 canonical: "/boi-filing-deadline/"
 breadcrumbs:
   - name: "Home"

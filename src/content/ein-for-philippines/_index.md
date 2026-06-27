@@ -1,6 +1,6 @@
 ---
 title: "EIN for Philippines: Apply With No SSN (2026)"
-description: "Philippines founders can get a US EIN with no SSN for freelancing, Amazon, and US banking, fully online. We file Form SS-4. Apply now to get started today."
+description: "Philippines founders can get a US EIN with no SSN for freelancing, Amazon, and US banking, fully online. We file Form SS-4."
 canonical: "/ein-for-philippines/"
 breadcrumbs:
   - name: "Home"

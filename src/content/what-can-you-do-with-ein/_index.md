@@ -1,6 +1,6 @@
 ---
 title: "What Can You Do With an EIN? 8 Business Uses"
-description: "An EIN lets you open a US bank account, hire staff, file taxes, build credit, and sell on Amazon and Stripe. See all 8 uses for your business. Learn more."
+description: "An EIN lets you open a US bank account, hire staff, file taxes, build credit, and sell on Amazon and Stripe. See all 8 uses for your business."
 canonical: "/what-can-you-do-with-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "What Can You Do With an EIN?"

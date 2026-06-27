@@ -1,6 +1,6 @@
 ---
 title: "IRS Letter 147C: Get an EIN Verification Letter"
-description: "IRS Letter 147C verifies your EIN if you lost the CP 575. Learn how to request a 147C letter from the IRS by phone or fax. See the full guide and steps."
+description: "IRS Letter 147C verifies your EIN if you lost the CP 575. Learn how to request a 147C letter from the IRS by phone or fax."
 canonical: "/irs-letter-147c/"
 breadcrumbs:
   - name: "Home"

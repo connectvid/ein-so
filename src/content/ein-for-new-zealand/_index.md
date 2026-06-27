@@ -1,6 +1,6 @@
 ---
 title: "EIN for New Zealand: Apply With No SSN (2026)"
-description: "New Zealand founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We file Form SS-4 by fax. Apply now to get started."
+description: "New Zealand founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We file Form SS-4 by fax."
 canonical: "/ein-for-new-zealand/"
 breadcrumbs:
   - name: "Home"

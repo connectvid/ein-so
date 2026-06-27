@@ -1,6 +1,6 @@
 ---
 title: "VAT Identification Number: What It Is (2026)"
-description: "A VAT identification number registers a business for VAT in the EU and UK. Learn what a VAT number is and how it differs from an EIN. Learn more here."
+description: "A VAT identification number registers a business for VAT in the EU and UK. Learn what a VAT number is and how it differs from an EIN."
 canonical: "/vat-identification-number/"
 breadcrumbs:
   - name: "Home"

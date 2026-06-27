@@ -1,6 +1,6 @@
 ---
 title: "EIN for Iran Entrepreneurs: No SSN (2026)"
-description: "Iran entrepreneurs can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
+description: "Iran entrepreneurs can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-iran/"
 breadcrumbs:
   - name: "Home"

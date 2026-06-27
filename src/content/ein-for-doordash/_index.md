@@ -1,6 +1,6 @@
 ---
 title: "EIN for DoorDash Drivers: Protect Your SSN"
-description: "DoorDash drivers can use an EIN instead of an SSN on the W-9 and 1099. Learn how gig drivers get an EIN to keep their SSN private. See the steps to apply."
+description: "DoorDash drivers can use an EIN instead of an SSN on the W-9 and 1099. Learn how gig drivers get an EIN to keep their SSN private."
 canonical: "/ein-for-doordash/"
 breadcrumbs:
   - name: "Home"

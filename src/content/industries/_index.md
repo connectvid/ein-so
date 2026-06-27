@@ -1,6 +1,6 @@
 ---
 title: "EIN by Industry: Guides for Your Business (2026)"
-description: "Find EIN guides by industry, from e-commerce to trades and creators. Learn how your type of business gets an EIN. Browse all industry guides and read more."
+description: "Find EIN guides by industry, from e-commerce to trades and creators. Learn how your type of business gets an EIN."
 canonical: "/industries/"
 breadcrumbs:
   - name: "Home"

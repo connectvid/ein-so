@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Partnership: Required for Form 1065"
-description: "Every partnership needs an EIN to file Form 1065, open a bank account, and issue K-1s. Learn how to get one for your partnership fast. See the full guide."
+description: "Every partnership needs an EIN to file Form 1065, open a bank account, and issue K-1s. Learn how to get one for your partnership fast."
 canonical: "/ein-for-partnership/"
 breadcrumbs:
   - name: "Home"

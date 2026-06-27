@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Medical Practice: Apply Online (2026)"
-description: "A medical practice needs an EIN for payroll, billing, and entity filing. Learn how to get an EIN for your medical practice fast. See the steps to apply."
+description: "A medical practice needs an EIN for payroll, billing, and entity filing."
 canonical: "/ein-for-medical-practice/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "About Our EIN Filing Service for Non-Residents"
-description: "Learn how ein.so helps non-US residents get an EIN. We file IRS Form SS-4 by fax so you skip the paperwork and get your tax ID fast. See how it works."
+description: "Learn how ein.so helps non-US residents get an EIN. We file IRS Form SS-4 by fax so you skip the paperwork and get your tax ID fast."
 canonical: "/about/"
 breadcrumbs:
   - name: "Home"

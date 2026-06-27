@@ -1,6 +1,6 @@
 ---
 title: "EIN in Connecticut: How to Apply for One (2026)"
-description: "Getting an EIN in Connecticut? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. Get started today."
+description: "Getting an EIN in Connecticut? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required."
 canonical: "/ein-in-connecticut/"
 breadcrumbs:
   - name: "Home"

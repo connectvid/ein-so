@@ -1,6 +1,6 @@
 ---
 title: "EIN for Nigeria: Apply With No SSN (2026)"
-description: "Nigeria founders can get a US EIN with no SSN for e-commerce, freelancing, and US banking, fully online. We file Form SS-4 by fax. Apply now to start now."
+description: "Nigeria founders can get a US EIN with no SSN for e-commerce, freelancing, and US banking, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-nigeria/"
 breadcrumbs:
   - name: "Home"

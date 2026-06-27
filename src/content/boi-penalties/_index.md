@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing Penalties: $500/Day for Late Filing"
-description: "Missing your BOI report brings $500/day civil penalties and up to $10,000 in fines. Learn the BOI penalties and how to stay compliant. See the full guide."
+description: "Missing your BOI report brings $500/day civil penalties and up to $10,000 in fines. Learn the BOI penalties and how to stay compliant."
 canonical: "/boi-penalties/"
 heroLabel: "Compliance Alert"
 heroTitle: "BOI Filing Penalties:"

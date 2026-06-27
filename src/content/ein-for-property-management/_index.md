@@ -1,6 +1,6 @@
 ---
 title: "EIN for Property Management: How to Apply"
-description: "A property management company needs an EIN for trust accounts, payroll, and tax. Learn how to get an EIN for property management. See the steps to apply."
+description: "A property management company needs an EIN for trust accounts, payroll, and tax."
 canonical: "/ein-for-property-management/"
 breadcrumbs:
   - name: "Home"

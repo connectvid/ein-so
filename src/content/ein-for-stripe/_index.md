@@ -1,6 +1,6 @@
 ---
 title: "EIN for Stripe: Accept US Payments (2026)"
-description: "Stripe needs an EIN for US payment processing. Non-residents can get an EIN to run Stripe on a US entity with no SSN. Get started in days. Apply now."
+description: "Stripe needs an EIN for US payment processing. Non-residents can get an EIN to run Stripe on a US entity with no SSN."
 canonical: "/ein-for-stripe/"
 breadcrumbs:
   - name: "Home"

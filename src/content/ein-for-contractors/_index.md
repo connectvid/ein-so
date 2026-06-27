@@ -1,6 +1,6 @@
 ---
 title: "EIN for Independent Contractors: Apply Now"
-description: "Independent contractors use an EIN on W-9 forms to protect their SSN and separate business taxes. Learn how to get an EIN as a contractor. See the steps."
+description: "Independent contractors use an EIN on W-9 forms to protect their SSN and separate business taxes."
 canonical: "/ein-for-contractors/"
 breadcrumbs:
   - name: "Home"

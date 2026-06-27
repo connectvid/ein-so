@@ -1,6 +1,6 @@
 ---
 title: "EIN Lookup: How to Find Any EIN Number (2026)"
-description: "How to find any EIN: use the IRS Tax Exempt Search, SEC EDGAR, or state registries. There is no universal lookup tool — here are the methods. Learn more."
+description: "How to find any EIN: use the IRS Tax Exempt Search, SEC EDGAR, or state registries. There is no universal lookup tool — here are the methods."
 canonical: "/ein-lookup/"
 heroLabel: "EIN Lookup Guide"
 heroTitle: "EIN Lookup:"

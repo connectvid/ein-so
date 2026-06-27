@@ -1,6 +1,6 @@
 ---
 title: "EIN for Fiverr Sellers: Keep Your SSN Private"
-description: "Fiverr sellers can use an EIN instead of an SSN to protect their identity and get paid. Learn how non-US sellers get an EIN with no SSN. See the steps."
+description: "Fiverr sellers can use an EIN instead of an SSN to protect their identity and get paid. Learn how non-US sellers get an EIN with no SSN."
 canonical: "/ein-for-fiverr-sellers/"
 breadcrumbs:
   - name: "Home"

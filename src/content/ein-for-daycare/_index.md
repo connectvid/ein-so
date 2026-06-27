@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Daycare: How to Apply for One (2026)"
-description: "A daycare needs an EIN to hire staff, run payroll, and meet licensing rules. Learn how to get an EIN for your childcare business. See the steps to apply."
+description: "A daycare needs an EIN to hire staff, run payroll, and meet licensing rules."
 canonical: "/ein-for-daycare/"
 breadcrumbs:
   - name: "Home"

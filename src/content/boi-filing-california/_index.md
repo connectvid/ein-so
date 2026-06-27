@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing in California: Requirements (2026)"
-description: "California businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
+description: "California businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty."
 canonical: "/boi-filing-california/"
 breadcrumbs:
   - name: "Home"

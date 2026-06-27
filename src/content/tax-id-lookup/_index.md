@@ -1,6 +1,6 @@
 ---
 title: "Tax ID Lookup: How to Find a Tax ID Number"
-description: "How to find a tax ID number: look up an EIN through the IRS, SEC EDGAR, or state records. See the methods that work for a tax ID lookup. Learn more here."
+description: "How to find a tax ID number: look up an EIN through the IRS, SEC EDGAR, or state records. See the methods that work for a tax ID lookup."
 canonical: "/tax-id-lookup/"
 breadcrumbs:
   - name: "Home"

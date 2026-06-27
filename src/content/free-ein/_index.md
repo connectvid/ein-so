@@ -1,6 +1,6 @@
 ---
 title: "Free EIN: How to Get an EIN at No Cost (2026)"
-description: "The IRS issues EINs for free. Learn how to get a free EIN, why some services charge, and the catch for non-residents. See the full guide and get started."
+description: "The IRS issues EINs for free. Learn how to get a free EIN, why some services charge, and the catch for non-residents."
 canonical: "/free-ein/"
 breadcrumbs:
   - name: "Home"

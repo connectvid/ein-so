@@ -1,6 +1,6 @@
 ---
 title: "EIN for Shopify Sellers: Tax Setup (2026)"
-description: "Shopify needs your tax details for US sales. Non-US Shopify sellers can get an EIN with no SSN for tax and payments. Get yours in days. Apply now today."
+description: "Shopify needs your tax details for US sales. Non-US Shopify sellers can get an EIN with no SSN for tax and payments. Get yours in days."
 canonical: "/ein-for-shopify-sellers/"
 heroLabel: "Shopify Sellers"
 heroTitle: "EIN for Shopify Sellers:"

@@ -1,6 +1,6 @@
 ---
 title: "S-Corp Election: Form 2553 Filing Guide (2026)"
-description: "File Form 2553 to elect S-corp status and cut self-employment tax. Learn the deadlines and how to make the S-corp election step by step. See the guide."
+description: "File Form 2553 to elect S-corp status and cut self-employment tax. Learn the deadlines and how to make the S-corp election step by step."
 canonical: "/s-corp-election/"
 heroLabel: "Tax Election Guide"
 heroTitle: "S-Corp Election:"

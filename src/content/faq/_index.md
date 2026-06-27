@@ -1,6 +1,6 @@
 ---
 title: "EIN FAQ — Common Questions, Answered (2026)"
-description: "Answers to common EIN questions: cost, processing time, no-SSN applications, and what to do after approval. See what non-residents need. Learn more."
+description: "Answers to common EIN questions: cost, processing time, no-SSN applications, and what to do after approval."
 canonical: "/faq/"
 breadcrumbs:
   - name: "Home"

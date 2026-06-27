@@ -1,6 +1,6 @@
 ---
 title: "IRS EIN Lookup: How to Find an EIN (2026)"
-description: "How to look up an EIN with the IRS: the Tax Exempt Search and 147C verification. Learn the IRS EIN lookup options that work. See the full guide and steps."
+description: "How to look up an EIN with the IRS: the Tax Exempt Search and 147C verification. Learn the IRS EIN lookup options that work."
 canonical: "/ein-lookup-irs/"
 breadcrumbs:
   - name: "Home"

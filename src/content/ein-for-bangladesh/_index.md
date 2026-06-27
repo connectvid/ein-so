@@ -1,6 +1,6 @@
 ---
 title: "EIN for Bangladesh: Apply With No SSN (2026)"
-description: "Bangladesh freelancers can get a US EIN with no SSN to invoice US clients and use Payoneer and Stripe, fully online. We file Form SS-4. Apply now today."
+description: "Bangladesh freelancers can get a US EIN with no SSN to invoice US clients and use Payoneer and Stripe, fully online. We file Form SS-4."
 canonical: "/ein-for-bangladesh/"
 breadcrumbs:
   - name: "Home"

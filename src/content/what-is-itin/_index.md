@@ -1,6 +1,6 @@
 ---
 title: "What Is an ITIN? Meaning and Who Needs One"
-description: "An ITIN is an IRS tax ID for people who cannot get an SSN, mainly non-residents. Learn what an ITIN is and who needs one. See the full guide and read more."
+description: "An ITIN is an IRS tax ID for people who cannot get an SSN, mainly non-residents. Learn what an ITIN is and who needs one."
 canonical: "/what-is-itin/"
 breadcrumbs:
   - name: "Home"

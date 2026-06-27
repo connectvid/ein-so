@@ -1,6 +1,6 @@
 ---
 title: "EIN for Pakistan: Apply With No SSN (2026)"
-description: "Pakistan founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 by fax. Apply now to get started."
+description: "Pakistan founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-pakistan/"
 breadcrumbs:
   - name: "Home"

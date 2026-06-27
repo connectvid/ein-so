@@ -1,6 +1,6 @@
 ---
 title: "EIN for Canada Entrepreneurs: No SSN (2026)"
-description: "Canadian founders can get a US EIN with no SSN for cross-border business, US banking, and Amazon sales, fully online. We file Form SS-4. Apply now today."
+description: "Canadian founders can get a US EIN with no SSN for cross-border business, US banking, and Amazon sales, fully online. We file Form SS-4."
 canonical: "/ein-for-canada/"
 breadcrumbs:
   - name: "Home"

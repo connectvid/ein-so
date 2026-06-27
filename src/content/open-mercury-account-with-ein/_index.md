@@ -1,6 +1,6 @@
 ---
 title: "Open a Mercury Account With an EIN (2026)"
-description: "Open a Mercury business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Mercury."
+description: "Open a Mercury business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply."
 canonical: "/open-mercury-account-with-ein/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN Application Status: How to Check It (2026)"
-description: "How to check your EIN application status with the IRS after filing Form SS-4. Learn what to expect and typical timing by method. See the full guide here."
+description: "How to check your EIN application status with the IRS after filing Form SS-4. Learn what to expect and typical timing by method."
 canonical: "/ein-application-status/"
 breadcrumbs:
   - name: "Home"

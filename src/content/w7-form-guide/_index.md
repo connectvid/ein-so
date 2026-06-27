@@ -1,6 +1,6 @@
 ---
 title: "IRS Form W-7 Guide: How to Apply for an ITIN"
-description: "Fill out IRS Form W-7 to apply for an ITIN. Learn what each line needs, the documents to attach, and where to file. See the full W-7 guide to get started."
+description: "Fill out IRS Form W-7 to apply for an ITIN. Learn what each line needs, the documents to attach, and where to file."
 canonical: "/w7-form-guide/"
 breadcrumbs:
   - name: "Home"

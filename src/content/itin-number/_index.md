@@ -1,6 +1,6 @@
 ---
 title: "ITIN Number: What It Is and How to Get One"
-description: "An ITIN is a 9-digit IRS tax ID for people who cannot get an SSN. Learn what an ITIN number is, who needs one, and how to apply. See the full guide here."
+description: "An ITIN is a 9-digit IRS tax ID for people who cannot get an SSN. Learn what an ITIN number is, who needs one, and how to apply."
 canonical: "/itin-number/"
 breadcrumbs:
   - name: "Home"

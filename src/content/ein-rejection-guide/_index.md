@@ -1,6 +1,6 @@
 ---
 title: "EIN Application Rejected? How to Fix It (2026)"
-description: "EIN rejected for a duplicate, an SS-4 error, or a name mismatch? Learn why EIN applications get rejected and how to fix and reapply. See the full guide."
+description: "EIN rejected for a duplicate, an SS-4 error, or a name mismatch? Learn why EIN applications get rejected and how to fix and reapply."
 canonical: "/ein-rejection-guide/"
 heroLabel: "Troubleshooting Guide"
 heroTitle: "EIN Application Rejected?"

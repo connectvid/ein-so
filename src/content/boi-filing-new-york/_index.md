@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing in New York: Requirements (2026)"
-description: "New York businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
+description: "New York businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty."
 canonical: "/boi-filing-new-york/"
 breadcrumbs:
   - name: "Home"

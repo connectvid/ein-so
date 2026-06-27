@@ -1,6 +1,6 @@
 ---
 title: "EIN for Australia — Apply From Abroad (2026)"
-description: "Australian founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We handle the IRS Form SS-4 filing. Apply now today."
+description: "Australian founders can get a US EIN with no SSN to run a US LLC, bank, and accept payments online. We handle the IRS Form SS-4 filing."
 canonical: "/ein-for-australia/"
 breadcrumbs:
   - name: "Home"

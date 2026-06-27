@@ -1,6 +1,6 @@
 ---
 title: "EIN for Costa Rica: Apply With No SSN (2026)"
-description: "Costa Rica founders can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "Costa Rica founders can get a US EIN with no SSN to open US banking and accept payments online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-costa-rica/"
 breadcrumbs:
   - name: "Home"

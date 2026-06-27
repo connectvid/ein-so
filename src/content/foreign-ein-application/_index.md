@@ -1,6 +1,6 @@
 ---
 title: "Foreign EIN Application: Get a US EIN Abroad"
-description: "Foreign applicants can get a US EIN by filing Form SS-4 by fax with no SSN. Learn the foreign EIN application steps for non-residents. Apply now to start."
+description: "Foreign applicants can get a US EIN by filing Form SS-4 by fax with no SSN. Learn the foreign EIN application steps for non-residents."
 canonical: "/foreign-ein-application/"
 breadcrumbs:
   - name: "Home"

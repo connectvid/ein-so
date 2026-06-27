@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From India With No SSN (2026)"
-description: "India founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "India founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-india/"
 breadcrumbs:
   - name: "Home"

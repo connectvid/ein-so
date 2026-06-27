@@ -1,6 +1,6 @@
 ---
 title: "EIN for Trinidad: Apply With No SSN (2026)"
-description: "Trinidad founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
+description: "Trinidad founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-trinidad/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From Kenya With No SSN (2026)"
-description: "Kenya entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now today."
+description: "Kenya entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-kenya/"
 breadcrumbs:
   - name: "Home"

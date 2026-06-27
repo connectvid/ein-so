@@ -1,6 +1,6 @@
 ---
 title: "EIN for Lebanon: Apply With No SSN (2026)"
-description: "Lebanon founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax. Apply now to start."
+description: "Lebanon founders can get a US EIN with no SSN to open US banking and accept US payments online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-lebanon/"
 breadcrumbs:
   - name: "Home"
