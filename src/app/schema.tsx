@@ -94,12 +94,20 @@ export function WebSiteSchema() {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function HowToSchema({ steps }: { steps: { name: string; text: string }[] }) {
+export function HowToSchema({
+  steps,
+  name = "How to Get an EIN Number as a Non-Resident",
+  description = "Step-by-step guide to getting an EIN number in 2026 for non-US residents using Form SS-4 filed by fax.",
+}: {
+  steps: { name: string; text: string }[];
+  name?: string;
+  description?: string;
+}) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "How to Get an EIN Number as a Non-Resident",
-    description: "Step-by-step guide to getting an EIN number in 2026 for non-US residents using Form SS-4 filed by fax.",
+    name,
+    description,
     step: steps.map((s, i) => ({
       "@type": "HowToStep",
       position: i + 1,
