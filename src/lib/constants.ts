@@ -6,7 +6,7 @@ export const STRIPE_LINKS = {
 export const SITE = {
   name: "ein.so",
   url: "https://www.ein.so",
-  title: "Apply for an EIN Online | EIN Application Service | ein.so",
+  title: "Apply for an EIN Online | EIN Application Service",
   description:
     "Apply for an EIN online as a non-US resident — no SSN required. We file Form SS-4 with the IRS and deliver your EIN fast, from $49. Get started now.",
   whatsapp: "https://wa.me/8801750278508",
