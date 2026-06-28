@@ -1,6 +1,6 @@
 ---
 title: "Open a Mercury Account With an EIN (2026)"
-description: "Open a Mercury business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Mercury."
+description: "Open a Mercury business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply."
 canonical: "/open-mercury-account-with-ein/"
 breadcrumbs:
   - name: "Home"
@@ -87,7 +87,7 @@ Your EIN is the gatekeeping document. Mercury matches your 9-digit EIN and your 
 Opening a Mercury account takes 6 steps and 1 to 3 business days after your documents are ready.
 
 <Steps>
-<Step step="1" title="Get Your EIN First">Apply for your EIN before anything else. Non-residents cannot use the IRS online tool and must file Form SS-4 by fax. [ein.so files it for you](/apply/) and delivers the EIN in 7 to 14 business days. This is the slowest step, so start here.</Step>
+<Step step="1" title="Get Your EIN First">Apply for your EIN before anything else. Non-residents cannot use the IRS online tool and must file Form SS-4 by fax. [ein.so files it for you](/apply/) and delivers the EIN in 4-7 business days. This is the slowest step, so start here.</Step>
 <Step step="2" title="Gather Your Documents">Collect your EIN confirmation letter, Articles of Organization, Operating Agreement, and a passport for every owner with 25% or more ownership. Save them as clear PDF or image files.</Step>
 <Step step="3" title="Start the Mercury Application">Go to mercury.com and click 'Open Account'. Enter your business legal name exactly as it appears on your EIN letter, your EIN, your state of formation, and your industry.</Step>
 <Step step="4" title="Add Owner and Business Details">Enter personal details and upload a passport for each beneficial owner. Describe what your business does, your expected monthly transaction volume, and your main customer countries. Be specific and honest — vague answers trigger review.</Step>
@@ -125,7 +125,7 @@ Mercury is the strongest all-around option for non-resident tech and startup fou
 
 | Bank | Remote Opening | Monthly Fee | Minimum Balance | Best For |
 |------|----------------|-------------|-----------------|----------|
-| **[Mercury](/open-mercury-account-with-ein/)** | Yes | $0 | $0 | Startups, SaaS, tech |
+| **Mercury** | Yes | $0 | $0 | Startups, SaaS, tech |
 | [Relay](/open-relay-account-with-ein/) | Yes | $0 | $0 | E-commerce, multiple accounts |
 | [Novo](/open-novo-account-with-ein/) | Limited | $0 | $0 | US-based freelancers |
 | [Wise](/open-wise-account-with-ein/) | Yes | Low | $0 | Multi-currency payments |

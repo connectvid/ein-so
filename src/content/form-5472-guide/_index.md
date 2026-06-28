@@ -1,6 +1,6 @@
 ---
 title: "Form 5472 Guide: For Foreign-Owned US LLCs"
-description: "Foreign-owned US LLCs must file Form 5472 each year or face a $25,000 penalty. Learn what Form 5472 reports and how to file it. See the full guide here."
+description: "Foreign-owned US LLCs must file Form 5472 each year or face a $25,000 penalty. Learn what Form 5472 reports and how to file it."
 canonical: "/form-5472-guide/"
 breadcrumbs:
   - name: "Home"

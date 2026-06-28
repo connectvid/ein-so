@@ -1,6 +1,6 @@
 ---
 title: "Form 5472 Penalties: $25,000 for Not Filing"
-description: "Missing Form 5472 brings a $25,000 penalty for foreign-owned US LLCs. Learn the Form 5472 penalties and how to stay compliant. See the full guide here."
+description: "Missing Form 5472 brings a $25,000 penalty for foreign-owned US LLCs. Learn the Form 5472 penalties and how to stay compliant."
 canonical: "/form-5472-penalties/"
 breadcrumbs:
   - name: "Home"

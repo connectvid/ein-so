@@ -1,6 +1,6 @@
 ---
 title: "ITIN for Non-Residents: How to Apply (2026)"
-description: "Non-residents can get an ITIN to file US taxes and claim treaty benefits with no SSN. Learn how to apply for an ITIN with Form W-7. See the steps to apply."
+description: "Non-residents can get an ITIN to file US taxes and claim treaty benefits with no SSN. Learn how to apply for an ITIN with Form W-7."
 canonical: "/itin-for-non-residents/"
 breadcrumbs:
   - name: "Home"

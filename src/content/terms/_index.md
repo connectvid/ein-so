@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service — EIN Filing Service Terms"
-description: "Read the ein.so terms of service: service scope, disclaimers, and the refund policy for EIN application help. Understand the terms before you apply."
+description: "Read the ein.so terms of service: service scope, disclaimers, and the refund policy for EIN application help."
 canonical: "/terms/"
 robots:
   index: true

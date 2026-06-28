@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Plumbing Business: How to Apply"
-description: "A plumbing business needs an EIN to hire, bill clients, and meet licensing. Learn how to get an EIN for your plumbing company. See the steps to apply."
+description: "A plumbing business needs an EIN to hire, bill clients, and meet licensing."
 canonical: "/ein-for-plumbing/"
 breadcrumbs:
   - name: "Home"

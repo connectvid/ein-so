@@ -1,6 +1,6 @@
 ---
 title: "Who Needs an EIN? Full Eligibility Guide (2026)"
-description: "LLCs, corporations, nonprofits, partnerships, and non-resident founders all need an EIN. Check whether your business requires one. See the full guide."
+description: "LLCs, corporations, nonprofits, partnerships, and non-resident founders all need an EIN. Check whether your business requires one."
 canonical: "/who-needs-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "Who Needs an EIN?"
@@ -80,7 +80,7 @@ The moment you want to open a business bank account for your LLC, the bank will 
 
 ### Non-Resident LLC Owners
 
-For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax to 855-215-1627. Our [EIN for LLC](/ein-for-llc/) guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 14 business days) or $97 (Express, 7 business days).
+For non-US residents who form a US LLC, an EIN is essential. You cannot use the IRS online application without an SSN or ITIN, so you must file Form SS-4 by fax to 855-215-1627. Our [EIN for LLC](/ein-for-llc/) guide walks you through the entire process. ein.so files your SS-4 for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
 </Section>
 
 <Section>
@@ -164,7 +164,7 @@ Non-US residents need an EIN whenever they conduct business in the United States
 
 The IRS online EIN application requires an SSN or ITIN, which most foreign nationals do not have. Non-residents must apply by fax using Form SS-4 (fax number: 855-215-1627) or by calling the IRS international line at 267-941-1099 (Monday-Friday, 6 AM to 11 PM Eastern). The fax method is the most reliable -- the IRS processes faxed SS-4 forms within 4 business days and returns the EIN by fax to the number you provide.
 
-ein.so exists specifically to solve this problem. We complete and file Form SS-4 with the IRS on your behalf for $49 (Standard, 14 business days) or $97 (Express, 7 business days). You do not need an SSN, ITIN, or US address. Read our [EIN for Non-Residents](/ein-for-non-residents/) guide for the full process, or [apply now](/apply/) to get started.
+ein.so exists specifically to solve this problem. We complete and file Form SS-4 with the IRS on your behalf for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). You do not need an SSN, ITIN, or US address. Read our [EIN for Non-Residents](/ein-for-non-residents/) guide for the full process, or [apply now](/apply/) to get started.
 </Section>
 
 <Section>

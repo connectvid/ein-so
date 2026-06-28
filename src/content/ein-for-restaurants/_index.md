@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Restaurant: How to Apply (2026)"
-description: "A restaurant needs an EIN for payroll, licensing, and a business account. Learn how to get an EIN for your restaurant fast. See the steps to apply now."
+description: "A restaurant needs an EIN for payroll, licensing, and a business account."
 canonical: "/ein-for-restaurants/"
 breadcrumbs:
   - name: "Home"

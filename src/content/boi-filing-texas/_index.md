@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing in Texas: Requirements & Deadline"
-description: "Texas businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty. See the steps to file here."
+description: "Texas businesses must file a federal BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty."
 canonical: "/boi-filing-texas/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN vs DUNS Number: What's the Difference?"
-description: "EIN vs DUNS: an EIN is an IRS tax ID, a DUNS number tracks business credit. See how they differ and why you may need both. Compare the differences."
+description: "EIN vs DUNS: an EIN is an IRS tax ID, a DUNS number tracks business credit. See how they differ and why you may need both."
 canonical: "/ein-vs-duns/"
 breadcrumbs:
   - name: "Home"

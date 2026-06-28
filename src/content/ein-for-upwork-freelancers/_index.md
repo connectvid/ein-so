@@ -1,6 +1,6 @@
 ---
 title: "EIN for Upwork Freelancers: Protect Your SSN"
-description: "Upwork freelancers can use an EIN instead of an SSN on tax forms and get paid. Learn how non-US freelancers get an EIN with no SSN. See the steps to apply."
+description: "Upwork freelancers can use an EIN instead of an SSN on tax forms and get paid. Learn how non-US freelancers get an EIN with no SSN."
 canonical: "/ein-for-upwork-freelancers/"
 breadcrumbs:
   - name: "Home"

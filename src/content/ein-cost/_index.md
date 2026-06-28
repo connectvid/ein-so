@@ -1,6 +1,6 @@
 ---
 title: "EIN Cost: How Much Does an EIN Cost? (2026)"
-description: "How much does an EIN cost? The IRS charges $0. Learn the real EIN cost and what non-resident filing services charge. See the full breakdown and compare."
+description: "How much does an EIN cost? The IRS charges $0. Learn the real EIN cost and what non-resident filing services charge."
 canonical: "/ein-cost/"
 breadcrumbs:
   - name: "Home"

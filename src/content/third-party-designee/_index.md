@@ -1,6 +1,6 @@
 ---
 title: "Third Party Designee on Form SS-4 Explained"
-description: "A third party designee can receive your EIN from the IRS on your behalf. Learn what the SS-4 third party designee section does. See the full guide here."
+description: "A third party designee can receive your EIN from the IRS on your behalf. Learn what the SS-4 third party designee section does."
 canonical: "/third-party-designee/"
 breadcrumbs:
   - name: "Home"

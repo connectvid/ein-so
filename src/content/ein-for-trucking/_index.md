@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Trucking Business: How to Apply"
-description: "A trucking business needs an EIN for the DOT, an MC number, and payroll. Learn how to get an EIN for your trucking company. See the steps to apply now."
+description: "A trucking business needs an EIN for the DOT, an MC number, and payroll."
 canonical: "/ein-for-trucking/"
 breadcrumbs:
   - name: "Home"

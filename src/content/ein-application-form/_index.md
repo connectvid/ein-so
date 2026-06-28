@@ -1,6 +1,6 @@
 ---
 title: "EIN Application Form: IRS Form SS-4 Explained"
-description: "The EIN application form is IRS Form SS-4. Learn what the form asks, how to complete it, and how non-residents file with no SSN. See the full guide here."
+description: "The EIN application form is IRS Form SS-4. Learn what the form asks, how to complete it, and how non-residents file with no SSN."
 canonical: "/ein-application-form/"
 breadcrumbs:
   - name: "Home"

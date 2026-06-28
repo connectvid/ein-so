@@ -1,6 +1,6 @@
 ---
 title: "EIN for Sri Lanka: Apply With No SSN (2026)"
-description: "Sri Lanka founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to get started."
+description: "Sri Lanka founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax."
 canonical: "/ein-for-sri-lanka/"
 breadcrumbs:
   - name: "Home"

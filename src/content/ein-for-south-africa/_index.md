@@ -1,6 +1,6 @@
 ---
 title: "EIN for South Africa: Apply With No SSN (2026)"
-description: "South Africa founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
+description: "South Africa founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax."
 canonical: "/ein-for-south-africa/"
 breadcrumbs:
   - name: "Home"

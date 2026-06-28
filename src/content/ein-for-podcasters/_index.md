@@ -1,6 +1,6 @@
 ---
 title: "EIN for Podcasters: Protect Your SSN (2026)"
-description: "Podcasters can use an EIN for sponsorships and an LLC instead of an SSN. Learn how to get an EIN for your podcast business. See the steps to apply now."
+description: "Podcasters can use an EIN for sponsorships and an LLC instead of an SSN."
 canonical: "/ein-for-podcasters/"
 breadcrumbs:
   - name: "Home"

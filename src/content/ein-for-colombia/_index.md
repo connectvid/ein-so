@@ -1,6 +1,6 @@
 ---
 title: "EIN for Colombia: Apply With No SSN (2026)"
-description: "Colombia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
+description: "Colombia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-colombia/"
 breadcrumbs:
   - name: "Home"

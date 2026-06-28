@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From Japan With No SSN (2026)"
-description: "Japan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "Japan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-japan/"
 breadcrumbs:
   - name: "Home"

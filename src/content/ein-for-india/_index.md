@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From India With No SSN (2026)"
-description: "India founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "India founders can get a US EIN with no SSN for Amazon, freelancing, and US banking, fully online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-india/"
 breadcrumbs:
   - name: "Home"
@@ -25,7 +25,7 @@ faqs:
   - q: "Do I need an SSN or ITIN to get an EIN from India?"
     a: "No. Indian applicants do not need a Social Security Number or Individual Taxpayer Identification Number. Your Indian passport number serves as your identifying number on Form SS-4. The IRS online EIN tool requires an SSN, which is why Indian applicants must use the fax method -- and that is exactly what ein.so handles for you."
   - q: "How long does it take for an Indian applicant to receive an EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). If you try the DIY fax method, expect 4-7 business days if your form has no errors. The IRS phone method (267-941-1099) can issue same-day EINs, but calling from India means expensive international calls and long hold times."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). If you try the DIY fax method, expect 4-7 business days if your form has no errors. The IRS phone method (267-941-1099) can issue same-day EINs, but calling from India means expensive international calls and long hold times."
   - q: "Can I use my EIN to open a US bank account from India?"
     a: "Yes. Your EIN is required to open a US business bank account for your LLC. Banks like Mercury and Relay accept applications from Indian LLC owners with an EIN. Some banks require you to visit the US in person, while others allow fully remote account opening. Your EIN is the first step regardless."
   - q: "Do Indian freelancers on Upwork need a US EIN?"
@@ -42,7 +42,7 @@ faqs:
 ![ein for india](/images/ein-for-india.webp)
 
 <Capsule>
-**Indian entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Indian passport number replaces the SSN requirement.** The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
+**Indian entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Indian passport number replaces the SSN requirement.** The IRS online tool is blocked for applicants without an SSN, so the fax method is your path. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
 </Capsule>
 
 ### India's Growing US Business Footprint
@@ -93,7 +93,7 @@ Indian citizens submit IRS Form SS-4 by fax to 855-215-1627, and 95% of correctl
 <Step step="1" title="Form Your US LLC (If You Have Not Already)">Most Indian entrepreneurs form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. This gives you a US business address and a legal entity to associate with your EIN. You can form an LLC entirely online from India.</Step>
 <Step step="2" title="Gather Your Documents">You need your Indian passport (valid and unexpired), your LLC formation details (name, state, formation date), and your Indian address. No PAN card, Aadhaar, or Indian business registration is needed for the US EIN application.</Step>
 <Step step="3" title="Complete Form SS-4">Fill out the one-page IRS form with your LLC details and your personal information. Use your passport number in the identification field. Use your Indian address as the responsible party's address. ein.so handles this step for you to prevent errors.</Step>
-<Step step="4" title="Submit by Fax and Wait">The completed SS-4 is faxed to the IRS. Processing takes 4-7 business days for Standard or 7 business days for Express through ein.so. The IRS faxes back your EIN assignment letter (CP 575).</Step>
+<Step step="4" title="Submit by Fax and Wait">The completed SS-4 is faxed to the IRS. Processing takes 4-7 business days for Standard or 2-3 business days for Express through ein.so. The IRS faxes back your EIN assignment letter (CP 575).</Step>
 </Steps>
 
 ### Common Address Formatting Pitfalls

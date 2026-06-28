@@ -1,6 +1,6 @@
 ---
 title: "EIN by State: How to Get an EIN in Any State"
-description: "Getting an EIN is a federal process, the same in every state. Learn how to get an EIN by state and what differs locally. See the state-by-state guide here."
+description: "Getting an EIN is a federal process, the same in every state."
 canonical: "/ein-by-state/"
 breadcrumbs:
   - name: "Home"

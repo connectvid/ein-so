@@ -1,6 +1,6 @@
 ---
 title: "EIN for an HVAC Company: How to Apply (2026)"
-description: "An HVAC company needs an EIN for payroll, licensing, and banking. Learn how to get an EIN for your HVAC business fast. See the steps to apply today now."
+description: "An HVAC company needs an EIN for payroll, licensing, and banking."
 canonical: "/ein-for-hvac/"
 breadcrumbs:
   - name: "Home"

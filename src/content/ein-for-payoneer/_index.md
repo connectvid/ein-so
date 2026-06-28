@@ -1,6 +1,6 @@
 ---
 title: "EIN for Payoneer: Receive US Payments (2026)"
-description: "Payoneer and US payments work best with an EIN on a US entity. Learn how non-residents get an EIN to use Payoneer with no SSN. Apply now to get started."
+description: "Payoneer and US payments work best with an EIN on a US entity. Learn how non-residents get an EIN to use Payoneer with no SSN."
 canonical: "/ein-for-payoneer/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing for an LLC: What You Must Report"
-description: "Most LLCs must file a BOI report with FinCEN identifying their owners. Learn what an LLC must report, the deadline, and the penalty. See the steps to file."
+description: "Most LLCs must file a BOI report with FinCEN identifying their owners. Learn what an LLC must report, the deadline, and the penalty."
 canonical: "/boi-filing-for-llc/"
 breadcrumbs:
   - name: "Home"

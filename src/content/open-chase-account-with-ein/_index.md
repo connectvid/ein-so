@@ -1,6 +1,6 @@
 ---
 title: "Open a Chase Business Account With an EIN"
-description: "Open a Chase business bank account with your EIN. Learn the documents required and whether non-residents qualify with no SSN. See the steps to apply."
+description: "Open a Chase business bank account with your EIN. Learn the documents required and whether non-residents qualify with no SSN."
 canonical: "/open-chase-account-with-ein/"
 breadcrumbs:
   - name: "Home"
@@ -82,7 +82,7 @@ Your EIN is the document Chase uses to register the business with the IRS for ta
 Opening a Chase business account takes 5 steps and is usually completed the same day at the branch.
 
 <Steps>
-<Step step="1" title="Get Your EIN First">Non-residents file Form SS-4 by fax because the IRS online tool requires an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 7 to 14 business days. Do this before you travel.</Step>
+<Step step="1" title="Get Your EIN First">Non-residents file Form SS-4 by fax because the IRS online tool requires an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 4-7 business days. Do this before you travel.</Step>
 <Step step="2" title="Gather Original Documents">Bring your EIN confirmation letter, Articles of Organization, Operating Agreement, two IDs including your passport, and proof of your US business address. Chase wants originals, not copies.</Step>
 <Step step="3" title="Book a Branch Appointment">Use the Chase website to schedule a business banking appointment at a branch. Walk-ins are possible but appointments are faster.</Step>
 <Step step="4" title="Visit the Branch and Verify">Meet a business banker, present your documents, and verify your EIN and ownership. The banker confirms your details against IRS and state records.</Step>
@@ -118,7 +118,7 @@ Chase wins on branches and cash handling; online banks win on remote access for 
 
 | Bank | Remote Opening | US Visit Required | Monthly Fee | Best For |
 |------|----------------|-------------------|-------------|----------|
-| **[Chase](/open-chase-account-with-ein/)** | No | Yes | ~$15 | Branch access, cash deposits |
+| **Chase** | No | Yes | ~$15 | Branch access, cash deposits |
 | [Mercury](/open-mercury-account-with-ein/) | Yes | No | $0 | Startups, SaaS, tech |
 | [Relay](/open-relay-account-with-ein/) | Yes | No | $0 | E-commerce |
 | [Novo](/open-novo-account-with-ein/) | Limited | No | $0 | US-based freelancers |
@@ -218,7 +218,7 @@ The full timeline from EIN application to a funded Chase account is 3 to 6 weeks
 | Stage | Time |
 |-------|------|
 | Form your US LLC | 1 to 10 business days (varies by state) |
-| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Get your EIN via [ein.so](/apply/) | 2-3 business days (Express) or 14 (Standard) |
 | Book and attend a branch appointment | Depends on your travel schedule |
 | Open the account in person | Usually same day |
 | First deposit clears | Same day (cash) to 3 business days |

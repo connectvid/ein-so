@@ -1,6 +1,6 @@
 ---
 title: "Preparer Tax ID (PTIN): What It Is & How to Get"
-description: "A PTIN is the preparer tax ID number paid tax preparers need to file returns. Learn what a PTIN is and how to get one from the IRS. Learn more here."
+description: "A PTIN is the preparer tax ID number paid tax preparers need to file returns. Learn what a PTIN is and how to get one from the IRS."
 canonical: "/preparer-tax-id/"
 breadcrumbs:
   - name: "Home"

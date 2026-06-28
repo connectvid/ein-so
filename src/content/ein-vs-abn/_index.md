@@ -1,6 +1,6 @@
 ---
 title: "EIN vs ABN: US EIN vs Australian ABN (2026)"
-description: "EIN vs ABN: a US EIN is from the IRS, an ABN is from Australia. See how they differ and why Australians need both for a US LLC. Compare the differences."
+description: "EIN vs ABN: a US EIN is from the IRS, an ABN is from Australia. See how they differ and why Australians need both for a US LLC."
 canonical: "/ein-vs-abn/"
 breadcrumbs:
   - name: "Home"

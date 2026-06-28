@@ -1,6 +1,6 @@
 ---
 title: "EIN Number Validator: Check EIN Format (Free)"
-description: "Use the free EIN number validator to check whether an EIN has a valid XX-XXXXXXX format and prefix. Instant format check, no signup. Use the free tool now."
+description: "Use the free EIN number validator to check whether an EIN has a valid XX-XXXXXXX format and prefix. Instant format check, no signup."
 canonical: "/tools/ein-number-validator/"
 breadcrumbs:
   - name: "Home"

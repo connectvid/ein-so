@@ -1,6 +1,6 @@
 ---
 title: "Open a Relay Business Account With Your EIN"
-description: "Open a Relay business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply. Get started with Relay today."
+description: "Open a Relay business account with your EIN as a non-resident — no SSN, fully online. Learn the documents and steps to apply."
 canonical: "/open-relay-account-with-ein/"
 breadcrumbs:
   - name: "Home"
@@ -86,7 +86,7 @@ Your EIN is the document Relay checks first. Relay matches your 9-digit EIN and 
 Opening a Relay account takes 5 steps and 1 to 2 business days after your documents are ready.
 
 <Steps>
-<Step step="1" title="Get Your EIN First">Non-residents cannot use the IRS online tool and must file Form SS-4 by fax. [ein.so files it for you](/apply/) and delivers the EIN in 7 to 14 business days. Start here because it is the slowest step.</Step>
+<Step step="1" title="Get Your EIN First">Non-residents cannot use the IRS online tool and must file Form SS-4 by fax. [ein.so files it for you](/apply/) and delivers the EIN in 4-7 business days. Start here because it is the slowest step.</Step>
 <Step step="2" title="Prepare Your Documents">Collect your EIN confirmation letter, Articles of Organization, Operating Agreement, and a passport for each owner with 25% or more ownership. Save them as clear PDFs.</Step>
 <Step step="3" title="Start the Relay Application">Go to relayfi.com and click 'Open Account'. Enter your legal business name exactly as it appears on your EIN letter, your EIN, state of formation, and industry.</Step>
 <Step step="4" title="Add Owners and Business Details">Upload a passport for each beneficial owner and describe your business model, expected volume, and main customer markets. Specific descriptions clear review faster.</Step>
@@ -123,7 +123,7 @@ Relay is the best choice for non-resident e-commerce sellers who want multiple a
 
 | Bank | Remote Opening | Monthly Fee | Sub-Accounts | Best For |
 |------|----------------|-------------|--------------|----------|
-| **[Relay](/open-relay-account-with-ein/)** | Yes | $0 | Up to 20 | E-commerce, Profit First |
+| **Relay** | Yes | $0 | Up to 20 | E-commerce, Profit First |
 | [Mercury](/open-mercury-account-with-ein/) | Yes | $0 | Limited | Startups, SaaS, tech |
 | [Novo](/open-novo-account-with-ein/) | Limited | $0 | No | US-based freelancers |
 | [Wise](/open-wise-account-with-ein/) | Yes | Low | Multi-currency | International payments |

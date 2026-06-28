@@ -1,6 +1,6 @@
 ---
 title: "EIN Address Change: How to Update It (2026)"
-description: "Update the address on your EIN with IRS Form 8822-B within 60 days of a change. Learn how to change your EIN business address. See the steps to file here."
+description: "Update the address on your EIN with IRS Form 8822-B within 60 days of a change. Learn how to change your EIN business address."
 canonical: "/ein-address-change/"
 breadcrumbs:
   - name: "Home"

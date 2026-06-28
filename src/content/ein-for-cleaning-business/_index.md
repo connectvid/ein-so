@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Cleaning Business: How to Apply"
-description: "A cleaning business needs an EIN to hire staff, open a bank account, and file taxes. Learn how to get an EIN for your cleaning company. See the steps."
+description: "A cleaning business needs an EIN to hire staff, open a bank account, and file taxes."
 canonical: "/ein-for-cleaning-business/"
 breadcrumbs:
   - name: "Home"

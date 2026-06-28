@@ -1,6 +1,6 @@
 ---
 title: "EIN for Ukraine: Apply With No SSN (2026)"
-description: "Ukraine founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to get started now."
+description: "Ukraine founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax."
 canonical: "/ein-for-ukraine/"
 breadcrumbs:
   - name: "Home"

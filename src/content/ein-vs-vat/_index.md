@@ -1,6 +1,6 @@
 ---
 title: "EIN vs VAT Number: What's the Difference?"
-description: "EIN vs VAT: a US EIN is an IRS tax ID, a VAT number is for EU and UK sales tax. See how they differ and why you may need both. Compare the differences."
+description: "EIN vs VAT: a US EIN is an IRS tax ID, a VAT number is for EU and UK sales tax. See how they differ and why you may need both."
 canonical: "/ein-vs-vat/"
 breadcrumbs:
   - name: "Home"

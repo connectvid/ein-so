@@ -1,6 +1,6 @@
 ---
 title: "S-Corp Election: Form 2553 Filing Guide (2026)"
-description: "File Form 2553 to elect S-corp status and cut self-employment tax. Learn the deadlines and how to make the S-corp election step by step. See the guide."
+description: "File Form 2553 to elect S-corp status and cut self-employment tax. Learn the deadlines and how to make the S-corp election step by step."
 canonical: "/s-corp-election/"
 heroLabel: "Tax Election Guide"
 heroTitle: "S-Corp Election:"
@@ -29,7 +29,7 @@ faqs:
   - q: "Can an LLC elect S-Corp status?"
     a: "Yes. An LLC can elect S-Corp tax treatment by filing Form 2553 with the IRS. The LLC remains a limited liability company under state law, but it is taxed as an S-Corporation for federal income tax purposes. This is one of the most popular tax strategies for profitable LLCs because it reduces self-employment tax."
   - q: "Do I need an EIN to file Form 2553?"
-    a: "Yes. Form 2553 requires your entity's EIN (Employer Identification Number). You must obtain your EIN before filing the S-Corp election. If you do not have an EIN yet, ein.so can help you get one for $49 (Standard, 14 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Form 2553 requires your entity's EIN (Employer Identification Number). You must obtain your EIN before filing the S-Corp election. If you do not have an EIN yet, ein.so can help you get one for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "How does S-Corp election save on taxes?"
     a: "S-Corp election saves money by splitting your income into salary and distributions. You pay self-employment tax (15.3%) only on your salary, not on distributions. For example, if your business earns $150,000 and you pay yourself a $70,000 salary, you save self-employment tax on the $80,000 in distributions. The savings can be $10,000 or more per year."
   - q: "What are the requirements to qualify for S-Corp status?"
@@ -156,8 +156,8 @@ The one-class-of-stock rule means all shares must confer identical rights to dis
 
 Form 2553 requires your entity's EIN in the identification section at the top of the form. The IRS uses the EIN to match your S-Corp election to your entity's tax account. Without an EIN, the IRS cannot process your Form 2553. This makes obtaining an EIN the essential first step before making the S-Corp election.
 
-Given the 75-day deadline for new entities, timing matters. If you form your LLC or corporation and need S-Corp status from day one, you should apply for your EIN immediately after formation. US residents can get an EIN online in minutes. Non-residents filing by fax need 7 to 14 business days (or 7 days with ein.so Express). Factor this processing time into your 75-day deadline calculation.
+Given the 75-day deadline for new entities, timing matters. If you form your LLC or corporation and need S-Corp status from day one, you should apply for your EIN immediately after formation. US residents can get an EIN online in minutes. Non-residents filing by fax need 4-7 business days (or 7 days with ein.so Express). Factor this processing time into your 75-day deadline calculation.
 
-ein.so helps you get your EIN quickly so you can file Form 2553 on time. Our Standard service delivers your EIN in 14 business days for **$49**. Our Express service delivers in 7 business days for **$97**. Once you have your EIN, you can immediately complete and file Form 2553. Do not let the EIN processing time eat into your 75-day S-Corp election window. [Apply for your EIN today](/apply/).
+ein.so helps you get your EIN quickly so you can file Form 2553 on time. Our Standard service delivers your EIN in 4-7 business days for **$49**. Our Express service delivers in 2-3 business days for **$97**. Once you have your EIN, you can immediately complete and file Form 2553. Do not let the EIN processing time eat into your 75-day S-Corp election window. [Apply for your EIN today](/apply/).
 </Section>
 

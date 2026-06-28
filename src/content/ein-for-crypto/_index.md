@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Crypto LLC: How to Apply (2026)"
-description: "A crypto business needs an EIN for banking, taxes, and exchange accounts. Learn how non-residents get an EIN for a crypto LLC with no SSN. See the steps."
+description: "A crypto business needs an EIN for banking, taxes, and exchange accounts. Learn how non-residents get an EIN for a crypto LLC with no SSN."
 canonical: "/ein-for-crypto/"
 breadcrumbs:
   - name: "Home"

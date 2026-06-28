@@ -1,6 +1,6 @@
 ---
 title: "EIN for France Entrepreneurs: No SSN (2026)"
-description: "France founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We handle the IRS Form SS-4 filing. Apply now today."
+description: "France founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We handle the IRS Form SS-4 filing."
 canonical: "/ein-for-france/"
 breadcrumbs:
   - name: "Home"

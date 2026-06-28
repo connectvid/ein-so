@@ -1,6 +1,6 @@
 ---
 title: "EIN for YouTube Creators: Protect Your SSN"
-description: "YouTube creators can use an EIN for AdSense, brand deals, and an LLC instead of an SSN. Learn how to get an EIN as a creator. See the steps to apply."
+description: "YouTube creators can use an EIN for AdSense, brand deals, and an LLC instead of an SSN."
 canonical: "/ein-for-youtube-creators/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Morocco: Apply With No SSN (2026)"
-description: "Morocco founders can get a US EIN with no SSN to invoice US clients, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to begin."
+description: "Morocco founders can get a US EIN with no SSN to invoice US clients, bank, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-morocco/"
 breadcrumbs:
   - name: "Home"

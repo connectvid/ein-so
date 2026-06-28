@@ -1,6 +1,6 @@
 ---
 title: "EIN for Musicians: Protect Your SSN (2026)"
-description: "Musicians can use an EIN on royalty and venue paperwork instead of an SSN. Learn how to get an EIN for your music business. See the steps to apply now."
+description: "Musicians can use an EIN on royalty and venue paperwork instead of an SSN."
 canonical: "/ein-for-musicians/"
 breadcrumbs:
   - name: "Home"

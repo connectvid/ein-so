@@ -1,6 +1,6 @@
 ---
 title: "EIN for Shopify Sellers: Tax Setup (2026)"
-description: "Shopify needs your tax details for US sales. Non-US Shopify sellers can get an EIN with no SSN for tax and payments. Get yours in days. Apply now today."
+description: "Shopify needs your tax details for US sales. Non-US Shopify sellers can get an EIN with no SSN for tax and payments. Get yours in days."
 canonical: "/ein-for-shopify-sellers/"
 heroLabel: "Shopify Sellers"
 heroTitle: "EIN for Shopify Sellers:"
@@ -31,7 +31,7 @@ faqs:
   - q: "How do I add my EIN to Shopify?"
     a: "In your Shopify admin, go to Settings > Taxes and Duties. Enter your EIN in the tax identification field. For Shopify Payments, navigate to Settings > Payments > Manage and enter your EIN in the business information section. Make sure the business name matches your EIN confirmation letter exactly."
   - q: "How long does it take to get an EIN for Shopify?"
-    a: "US residents with an SSN can get an EIN instantly online. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 7 business days so you can set up Shopify Payments quickly."
+    a: "US residents with an SSN can get an EIN instantly online. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 2-3 business days so you can set up Shopify Payments quickly."
   - q: "Can I use the same EIN for Shopify and Amazon?"
     a: "Yes. Your EIN is tied to your business entity and can be used across all platforms, including Shopify, Amazon, PayPal, Stripe, and your bank account. You do not need separate EINs for different sales channels."
   - q: "Do I need an LLC to sell on Shopify?"
@@ -104,7 +104,7 @@ Shopify Payments is the built-in payment processor that gives you the lowest tra
 
 Non-US residents cannot use the IRS online EIN application because it requires an SSN or ITIN. The alternative is filing Form SS-4 by fax directly to the IRS. This is the official method the IRS provides for applicants without an SSN, and it works regardless of your country of residence.
 
-ein.so specializes in this process. We prepare your Form SS-4 with the correct entity type, verify every field against IRS requirements, fax it to the IRS, track the response, and deliver your EIN by email and WhatsApp. The process takes 14 business days with our Standard service ($49) or 7 business days with Express ($97).
+ein.so specializes in this process. We prepare your Form SS-4 with the correct entity type, verify every field against IRS requirements, fax it to the IRS, track the response, and deliver your EIN by email and WhatsApp. The process takes 4-7 business days with our Standard service ($49) or 2-3 business days with Express ($97).
 
 **What you need to apply:**
 

@@ -1,6 +1,6 @@
 ---
 title: "Free EIN Eligibility Checker: Do You Need One?"
-description: "Use our free EIN eligibility checker to see if your business needs an EIN. Answer a few questions for an instant result, no signup. Use the free tool now."
+description: "Use our free EIN eligibility checker to see if your business needs an EIN. Answer a few questions for an instant result, no signup."
 canonical: "/tools/ein-eligibility-checker/"
 dynamic: "force-static"
 breadcrumbs:
@@ -24,7 +24,7 @@ faqs:
   - q: "Is this EIN eligibility checker accurate?"
     a: "This tool provides general guidance based on common IRS rules and is designed to help you understand whether you likely need an EIN. It is not a substitute for professional tax advice. If your situation is complex -- for example, you have multiple entities or unusual tax obligations -- consult a tax professional for a definitive answer."
   - q: "How much does it cost to get an EIN from the IRS?"
-    a: "The IRS does not charge a fee for issuing an EIN. However, the online application requires an SSN or ITIN, which means non-residents cannot use it. Services like ein.so file Form SS-4 on your behalf by fax for $49 (Standard, 14 business days) or $97 (Express, 7 business days)."
+    a: "The IRS does not charge a fee for issuing an EIN. However, the online application requires an SSN or ITIN, which means non-residents cannot use it. Services like ein.so file Form SS-4 on your behalf by fax for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Can I use this tool if I already have a business?"
     a: "Absolutely. This eligibility checker works for both new and existing businesses. If you already operate a business but have been using your SSN, this tool will help you determine whether you should obtain an EIN. In most cases, the answer is yes -- especially if you plan to hire, open a business bank account, or expand operations."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "EIN Name Change: How to Update Your Name (2026)"
-description: "Changed your business name? Learn how to report an EIN name change to the IRS and keep the same EIN number. See the steps and where to write. Learn more."
+description: "Changed your business name? Learn how to report an EIN name change to the IRS and keep the same EIN number."
 canonical: "/ein-name-change/"
 breadcrumbs:
   - name: "Home"

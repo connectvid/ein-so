@@ -1,6 +1,6 @@
 ---
 title: "BOI Report Guide: How to File With FinCEN (2026)"
-description: "A complete BOI report guide: who must file with FinCEN, what to report, deadlines, and penalties. Learn how to file your BOI report. See the full guide."
+description: "A complete BOI report guide: who must file with FinCEN, what to report, deadlines, and penalties. Learn how to file your BOI report."
 canonical: "/boi-guide/"
 breadcrumbs:
   - name: "Home"

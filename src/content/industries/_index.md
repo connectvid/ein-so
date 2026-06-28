@@ -1,6 +1,6 @@
 ---
 title: "EIN by Industry: Guides for Your Business (2026)"
-description: "Find EIN guides by industry, from e-commerce to trades and creators. Learn how your type of business gets an EIN. Browse all industry guides and read more."
+description: "Find EIN guides by industry, from e-commerce to trades and creators. Learn how your type of business gets an EIN."
 canonical: "/industries/"
 breadcrumbs:
   - name: "Home"
@@ -231,7 +231,7 @@ You can start your EIN application today and receive it in 2-7 business days. St
 ## Start Your EIN <Accent>Application</Accent>
 
 1. **[Confirm you need an EIN](/who-needs-ein/)** — check your business type against the requirement guide
-2. **[Read your industry guide](/industries/)** — pick the closest match from the 35+ guides above
+2. **Read your industry guide** — pick the closest match from the 35+ guides above
 3. **[Apply for your EIN](/apply/)** — $49 Standard or $97 Express, filed by fax to 855-215-1627
 4. **[Open a US bank account](/ein-for-bank-account/)** — Mercury, Relay, and Wise accept non-residents
 5. **[File Form 5472](/form-5472-guide/)** — annually for foreign-owned LLCs ($25,000 penalty for non-filing)

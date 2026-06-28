@@ -1,6 +1,6 @@
 ---
 title: "EIN for Taiwan Entrepreneurs: No SSN (2026)"
-description: "Taiwan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started now."
+description: "Taiwan founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-taiwan/"
 breadcrumbs:
   - name: "Home"

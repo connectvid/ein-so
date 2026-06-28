@@ -1,6 +1,6 @@
 ---
 title: "EIN for Jordan Entrepreneurs: No SSN (2026)"
-description: "Jordan entrepreneurs can get a US EIN with no SSN to bank, freelance, and accept US payments online. We file Form SS-4 by fax. Apply now to get started."
+description: "Jordan entrepreneurs can get a US EIN with no SSN to bank, freelance, and accept US payments online. We file Form SS-4 by fax."
 canonical: "/ein-for-jordan/"
 breadcrumbs:
   - name: "Home"

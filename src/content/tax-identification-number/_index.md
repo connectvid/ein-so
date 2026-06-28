@@ -1,6 +1,6 @@
 ---
 title: "Tax Identification Number: The Types Explained"
-description: "A tax identification number can be an EIN, SSN, or ITIN. Learn the types of TIN, which one you need, and how to get it. See the full guide and read more."
+description: "A tax identification number can be an EIN, SSN, or ITIN. Learn the types of TIN, which one you need, and how to get it."
 canonical: "/tax-identification-number/"
 breadcrumbs:
   - name: "Home"
@@ -113,6 +113,8 @@ The distinction matters when forms ask for a TIN. A bank opening a business acco
 | ein.so price | $49 | N/A | $197 |
 
 The biggest practical difference for non-residents is access. The IRS online EIN tool requires an SSN. Non-residents cannot use it. Instead, they fax Form SS-4 and enter a passport number on Line 7b. This is why the fax method, which ein.so handles, is the standard route for foreign founders. See [EIN for non-residents](/ein-for-non-residents/).
+
+For a side-by-side breakdown of each pairing, compare [EIN vs SSN](/ein-vs-ssn/), [EIN vs ITIN](/ein-vs-itin/), [EIN vs TIN](/ein-vs-tin/), [EIN vs Tax ID](/ein-vs-tax-id/), [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/), and [FEIN vs EIN](/fein-vs-ein/). For the business TIN as a standalone guide, see the [federal tax ID](/federal-tax-id/) page.
 </Section>
 
 <Section>

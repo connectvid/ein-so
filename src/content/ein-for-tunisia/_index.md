@@ -1,6 +1,6 @@
 ---
 title: "EIN for Tunisia: Apply With No SSN (2026)"
-description: "Tunisia founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax. Apply now to start."
+description: "Tunisia founders can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-tunisia/"
 breadcrumbs:
   - name: "Home"

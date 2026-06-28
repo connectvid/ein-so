@@ -1,6 +1,6 @@
 ---
 title: "EIN for Consultants: Protect Your SSN (2026)"
-description: "Consultants can use an EIN instead of an SSN on W-9 forms and open a business account. Learn how to get an EIN as a consultant. See the steps to apply."
+description: "Consultants can use an EIN instead of an SSN on W-9 forms and open a business account."
 canonical: "/ein-for-consultants/"
 breadcrumbs:
   - name: "Home"

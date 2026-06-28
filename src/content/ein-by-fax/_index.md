@@ -1,6 +1,6 @@
 ---
 title: "EIN by Fax: How to Apply With Form SS-4 (2026)"
-description: "Apply for an EIN by fax with Form SS-4 to 855-215-1627 — the method non-residents use. Learn the steps and timing for EIN by fax. See the full guide here."
+description: "Apply for an EIN by fax with Form SS-4 to 855-215-1627 — the method non-residents use. Learn the steps and timing for EIN by fax."
 canonical: "/ein-by-fax/"
 breadcrumbs:
   - name: "Home"

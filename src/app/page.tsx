@@ -7,9 +7,8 @@ import { getListPage } from "@/lib/contentParser";
 const { frontmatter: fm } = getListPage("homepage/_index.md");
 
 export const metadata: Metadata = {
-  // `absolute` bypasses the layout title template (`%s | ein.so`). SITE.title
-  // already ends in "| ein.so", so without this the homepage <title> and the
-  // derived og:title would render the brand twice.
+  // `absolute` sets the homepage <title> directly from SITE.title and feeds the
+  // derived og:title, independent of the layout title template.
   title: { absolute: SITE.title },
   description: SITE.description,
   alternates: { canonical: "/" },

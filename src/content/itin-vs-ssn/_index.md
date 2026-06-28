@@ -1,6 +1,6 @@
 ---
 title: "ITIN vs SSN: What's the Difference? (2026)"
-description: "ITIN vs SSN: an ITIN is for people who cannot get an SSN, mainly non-residents. See how they differ and which you need to file taxes. Compare the two."
+description: "ITIN vs SSN: an ITIN is for people who cannot get an SSN, mainly non-residents. See how they differ and which you need to file taxes."
 canonical: "/itin-vs-ssn/"
 breadcrumbs:
   - name: "Home"

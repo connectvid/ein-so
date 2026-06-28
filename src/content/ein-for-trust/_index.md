@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Trust: When Trusts Need One (2026)"
-description: "Irrevocable trusts always need an EIN; revocable trusts need one after the grantor dies. Learn which trusts need an EIN and how to apply. See the guide."
+description: "Irrevocable trusts always need an EIN; revocable trusts need one after the grantor dies. Learn which trusts need an EIN and how to apply."
 canonical: "/ein-for-trust/"
 breadcrumbs:
   - name: "Home"

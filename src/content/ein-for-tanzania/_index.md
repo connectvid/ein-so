@@ -1,6 +1,6 @@
 ---
 title: "EIN for Tanzania: Apply With No SSN (2026)"
-description: "Tanzania entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax. Apply now to start now."
+description: "Tanzania entrepreneurs can get a US EIN with no SSN to invoice US clients, bank, and use Payoneer online. We file Form SS-4 by fax."
 canonical: "/ein-for-tanzania/"
 breadcrumbs:
   - name: "Home"

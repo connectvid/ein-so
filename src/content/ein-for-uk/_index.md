@@ -1,6 +1,6 @@
 ---
 title: "EIN for UK Residents: Apply With No SSN (2026)"
-description: "UK founders can get a US EIN with no SSN to run a US LLC, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started today."
+description: "UK founders can get a US EIN with no SSN to run a US LLC, sell on Amazon, and use Stripe online. We file Form SS-4 by fax."
 canonical: "/ein-for-uk/"
 breadcrumbs:
   - name: "Home"
@@ -21,7 +21,7 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from the United Kingdom without an SSN. ein.so handles the IRS fax filing for UK-based Amazon sellers, e-commerce merchants, and service businesses. $49 Standard. $97 Express."
 faqs:
   - q: "Can UK residents get a US EIN?"
-    a: "Yes. UK residents and British citizens can get a US EIN by submitting Form SS-4 by fax. You do not need an SSN or ITIN. Your British passport number serves as your identification on the form. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. UK residents and British citizens can get a US EIN by submitting Form SS-4 by fax. You do not need an SSN or ITIN. Your British passport number serves as your identification on the form. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do I need to visit the US to get an EIN from the UK?"
     a: "No. The entire EIN application process can be completed remotely from the UK. You submit Form SS-4 by fax, and the IRS faxes back your EIN assignment letter. ein.so handles the fax filing for you, so you never need to visit the US, call the IRS, or find a fax machine."
   - q: "Should I form a US LLC or use my UK Ltd for US business?"
@@ -35,14 +35,14 @@ faqs:
   - q: "What is the difference between a UK UTR and a US EIN?"
     a: "A UK Unique Taxpayer Reference (UTR) is issued by HMRC for UK tax purposes. A US EIN is issued by the IRS for US tax purposes. They serve different countries. If you operate in both, you need both. Your UTR number cannot be used for US banking or tax compliance."
   - q: "How long does it take a UK resident to get a US EIN?"
-    a: "Through ein.so: 4-7 business days (Standard $49) or 7 business days (Express $97). By phone: same day if you reach an IRS agent at 267-941-1099 (call during US business hours, 11 AM - 4 AM UK time). DIY fax: 4-7 business days if error-free."
+    a: "Through ein.so: 4-7 business days (Standard $49) or 2-3 business days (Express $97). By phone: same day if you reach an IRS agent at 267-941-1099 (call during US business hours, 11 AM - 4 AM UK time). DIY fax: 4-7 business days if error-free."
 ---
 
 <Section>
 ![ein for uk](/images/ein-for-uk.webp)
 
 <Capsule>
-**UK residents can get a US EIN by submitting IRS Form SS-4 by fax. Your British passport number replaces the SSN requirement.** The IRS online tool does not work for UK applicants without an SSN. ein.so handles the entire fax filing process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days). No visit to the US required.
+**UK residents can get a US EIN by submitting IRS Form SS-4 by fax. Your British passport number replaces the SSN requirement.** The IRS online tool does not work for UK applicants without an SSN. ein.so handles the entire fax filing process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). No visit to the US required.
 </Capsule>
 
 ### The UK-US Trade Relationship by the Numbers

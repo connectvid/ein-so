@@ -1,6 +1,6 @@
 ---
 title: "EIN for Business Credit: Build Credit Fast"
-description: "Use your EIN to build business credit separate from personal credit. Open business cards and start a Dun & Bradstreet profile with no SSN. Learn more here."
+description: "Use your EIN to build business credit separate from personal credit. Open business cards and start a Dun & Bradstreet profile with no SSN."
 canonical: "/ein-for-credit/"
 breadcrumbs:
   - name: "Home"

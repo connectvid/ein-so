@@ -1,6 +1,6 @@
 ---
 title: "EIN for Graphic Designers: Protect Your SSN"
-description: "Graphic designers can put an EIN on W-9 forms instead of an SSN and open a business account. Learn how to get an EIN as a designer. See the steps to apply."
+description: "Graphic designers can put an EIN on W-9 forms instead of an SSN and open a business account."
 canonical: "/ein-for-graphic-designers/"
 breadcrumbs:
   - name: "Home"

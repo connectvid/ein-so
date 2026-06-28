@@ -1,6 +1,6 @@
 ---
 title: "EIN for Myanmar: Apply With No SSN (2026)"
-description: "Myanmar entrepreneurs can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We file Form SS-4 by fax. Apply now today."
+description: "Myanmar entrepreneurs can get a US EIN with no SSN to bank, sell online, and accept US payments, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-myanmar/"
 breadcrumbs:
   - name: "Home"

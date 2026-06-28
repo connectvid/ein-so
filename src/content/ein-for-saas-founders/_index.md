@@ -1,6 +1,6 @@
 ---
 title: "EIN for SaaS Founders: How to Apply (2026)"
-description: "SaaS founders need an EIN for a US entity, Stripe, and banking. Learn how non-resident SaaS founders get an EIN with no SSN. Apply now to get started."
+description: "SaaS founders need an EIN for a US entity, Stripe, and banking. Learn how non-resident SaaS founders get an EIN with no SSN."
 canonical: "/ein-for-saas-founders/"
 breadcrumbs:
   - name: "Home"

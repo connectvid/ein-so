@@ -1,6 +1,6 @@
 ---
 title: "ITIN Processing Time: How Long It Takes (2026)"
-description: "ITIN processing takes about 7 to 11 weeks by mail. Learn the current ITIN processing time, what slows it down, and how to apply. See the full guide here."
+description: "ITIN processing takes about 7 to 11 weeks by mail. Learn the current ITIN processing time, what slows it down, and how to apply."
 canonical: "/itin-processing-time/"
 breadcrumbs:
   - name: "Home"

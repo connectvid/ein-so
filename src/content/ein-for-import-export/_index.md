@@ -1,6 +1,6 @@
 ---
 title: "EIN for an Import/Export Business: No SSN"
-description: "An import/export business needs an EIN for customs, banking, and payments. Learn how non-residents get an EIN for trade with no SSN. See the steps."
+description: "An import/export business needs an EIN for customs, banking, and payments. Learn how non-residents get an EIN for trade with no SSN."
 canonical: "/ein-for-import-export/"
 breadcrumbs:
   - name: "Home"

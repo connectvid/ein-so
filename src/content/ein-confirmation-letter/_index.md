@@ -1,6 +1,6 @@
 ---
 title: "EIN Confirmation Letter: CP 575 Explained"
-description: "Your EIN confirmation letter is the IRS CP 575. Learn what it is, how to get a copy, and how to request a 147C if you lost it. See the full guide here."
+description: "Your EIN confirmation letter is the IRS CP 575. Learn what it is, how to get a copy, and how to request a 147C if you lost it."
 canonical: "/ein-confirmation-letter/"
 breadcrumbs:
   - name: "Home"

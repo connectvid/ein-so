@@ -1,6 +1,6 @@
 ---
 title: "ein.so vs ZenBusiness: EIN Service Compared"
-description: "Compare ein.so vs ZenBusiness on price, speed, and non-resident EIN filing. See why ein.so files SS-4 for $49. Compare the options here today now."
+description: "Compare ein.so vs ZenBusiness on price, speed, and non-resident EIN filing. See why ein.so files SS-4 for $49."
 canonical: "/ein-so-vs-zenbusiness/"
 breadcrumbs:
   - name: "Home"

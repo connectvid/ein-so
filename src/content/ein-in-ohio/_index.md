@@ -1,6 +1,6 @@
 ---
 title: "EIN in Ohio: How to Apply for One in 2026"
-description: "Getting an EIN in Ohio? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required. See the steps and get started."
+description: "Getting an EIN in Ohio? Learn how to apply for an EIN for your LLC or business there — online or by fax, no SSN required."
 canonical: "/ein-in-ohio/"
 breadcrumbs:
   - name: "Home"

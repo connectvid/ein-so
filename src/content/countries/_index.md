@@ -1,6 +1,6 @@
 ---
 title: "EIN by Country: Apply From Any Country (2026)"
-description: "Get a US EIN from any country with no SSN. Browse EIN guides by country and learn how non-residents apply by fax. See all country guides and get started."
+description: "Get a US EIN from any country with no SSN."
 canonical: "/countries/"
 breadcrumbs:
   - name: "Home"

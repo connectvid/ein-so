@@ -1,6 +1,6 @@
 ---
 title: "EIN for Brazil Entrepreneurs: No SSN (2026)"
-description: "Brazil founders can get a US EIN with no SSN to sell on Amazon, open US banking, and use Stripe, fully online. We file Form SS-4 fast. Apply now today."
+description: "Brazil founders can get a US EIN with no SSN to sell on Amazon, open US banking, and use Stripe, fully online. We file Form SS-4 fast."
 canonical: "/ein-for-brazil/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "What Is an EIN Number? Meaning & Uses (2026)"
-description: "An EIN is a 9-digit IRS tax ID for businesses, written XX-XXXXXXX. Learn what an EIN is, who needs one, and how to get yours as a non-resident. Read more."
+description: "An EIN is a 9-digit IRS tax ID for businesses, written XX-XXXXXXX. Learn what an EIN is, who needs one, and how to get yours as a non-resident."
 canonical: "/what-is-ein/"
 heroLabel: "Complete Guide"
 heroTitle: "What Is an EIN Number?"
@@ -240,7 +240,7 @@ Call **267-941-1099** during IRS business hours (Monday-Friday, 6:00 AM - 11:00 
 </InfoBox>
 
 <Alert type="info" title="How ein.so Helps">
-We handle the entire SS-4 filing process for non-residents. You provide your information, we prepare and fax the form to the IRS, and we deliver your EIN by email. Our Standard service is **$49** (14 business days) and our Express service is **$97** (7 business days). No SSN required, no navigating IRS phone trees, no fax machine needed.
+We handle the entire SS-4 filing process for non-residents. You provide your information, we prepare and fax the form to the IRS, and we deliver your EIN by email. Our Standard service is **$49** (4-7 business days) and our Express service is **$97** (2-3 business days). No SSN required, no navigating IRS phone trees, no fax machine needed.
 </Alert>
 
 For more information about the non-resident EIN process, visit our [How to Get an EIN](/how-to-get-ein/) guide.

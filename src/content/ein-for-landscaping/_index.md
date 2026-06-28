@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Landscaping Business: How to Apply"
-description: "A landscaping business needs an EIN to hire crew, bill clients, and bank. Learn how to get an EIN for your landscaping company. See the steps to apply."
+description: "A landscaping business needs an EIN to hire crew, bill clients, and bank."
 canonical: "/ein-for-landscaping/"
 breadcrumbs:
   - name: "Home"

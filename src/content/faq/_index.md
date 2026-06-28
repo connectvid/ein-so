@@ -1,6 +1,6 @@
 ---
 title: "EIN FAQ — Common Questions, Answered (2026)"
-description: "Answers to common EIN questions: cost, processing time, no-SSN applications, and what to do after approval. See what non-residents need. Learn more."
+description: "Answers to common EIN questions: cost, processing time, no-SSN applications, and what to do after approval."
 canonical: "/faq/"
 breadcrumbs:
   - name: "Home"
@@ -55,7 +55,7 @@ faqs:
     a: "You need your full legal name (as shown on your passport), date of birth, country of citizenship, mailing address, and business details including business name, entity type (LLC, Corporation, etc.), and reason for applying."
   - category: "Application Process"
     q: "How long does it take to get an EIN?"
-    a: "With our Standard service ($49), the IRS processes faxed SS-4 forms in 14 business days. Our Express service ($97) includes priority filing and IRS follow-up, reducing the timeline to 7 business days."
+    a: "With our Standard service ($49), the IRS processes faxed SS-4 forms in 4-7 business days. Our Express service ($97) includes priority filing and IRS follow-up, reducing the timeline to 7 business days."
   - category: "Application Process"
     q: "What is Form SS-4?"
     a: "Form SS-4 is the IRS form used to apply for an Employer Identification Number. It collects information about the business entity and its responsible party. We complete this form for you based on the information you provide."

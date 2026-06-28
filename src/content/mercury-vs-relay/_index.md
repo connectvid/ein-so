@@ -1,6 +1,6 @@
 ---
 title: "Mercury vs Relay: Best Bank for an LLC (2026)"
-description: "Mercury vs Relay: compare fees, sub-accounts, and non-resident access for your US LLC. See which business account wins for you. Compare the options here."
+description: "Mercury vs Relay: compare fees, sub-accounts, and non-resident access for your US LLC."
 canonical: "/mercury-vs-relay/"
 breadcrumbs:
   - name: "Home"

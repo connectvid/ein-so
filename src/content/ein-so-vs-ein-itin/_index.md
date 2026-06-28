@@ -1,6 +1,6 @@
 ---
 title: "ein.so vs EIN-ITIN.com: EIN Service Compared"
-description: "Compare ein.so vs EIN-ITIN.com on price, speed, and non-resident support for EIN filing. See why ein.so files SS-4 for $49. Compare the options here."
+description: "Compare ein.so vs EIN-ITIN.com on price, speed, and non-resident support for EIN filing. See why ein.so files SS-4 for $49."
 canonical: "/ein-so-vs-ein-itin/"
 breadcrumbs:
   - name: "Home"

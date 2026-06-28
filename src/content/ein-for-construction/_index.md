@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Construction Company: How to Apply"
-description: "A construction company needs an EIN for payroll, subcontractors, and licensing. Learn how to get an EIN for your construction business. See the steps."
+description: "A construction company needs an EIN for payroll, subcontractors, and licensing."
 canonical: "/ein-for-construction/"
 breadcrumbs:
   - name: "Home"

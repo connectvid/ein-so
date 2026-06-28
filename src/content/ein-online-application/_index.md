@@ -1,6 +1,6 @@
 ---
 title: "EIN Online Application: Who Can Use It (2026)"
-description: "The EIN online application is instant but requires an SSN or ITIN, so non-residents cannot use it. Learn your options. See the full guide here today."
+description: "The EIN online application is instant but requires an SSN or ITIN, so non-residents cannot use it."
 canonical: "/ein-online-application/"
 breadcrumbs:
   - name: "Home"

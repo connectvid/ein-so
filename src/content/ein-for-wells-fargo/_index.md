@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Wells Fargo Business Bank Account"
-description: "Open a Wells Fargo business account with your EIN. See the documents required and whether non-residents qualify with no SSN. Learn more and get started."
+description: "Open a Wells Fargo business account with your EIN. See the documents required and whether non-residents qualify with no SSN."
 canonical: "/ein-for-wells-fargo/"
 breadcrumbs:
   - name: "Home"

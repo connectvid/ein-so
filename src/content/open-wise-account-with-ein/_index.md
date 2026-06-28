@@ -1,6 +1,6 @@
 ---
 title: "Open a Wise Business Account With Your EIN"
-description: "Open a Wise business account with your EIN to hold and convert currencies. Learn the documents and steps for non-residents. Get started with Wise today."
+description: "Open a Wise business account with your EIN to hold and convert currencies. Learn the documents and steps for non-residents."
 canonical: "/open-wise-account-with-ein/"
 breadcrumbs:
   - name: "Home"
@@ -86,7 +86,7 @@ Your EIN links the account to your US business for tax purposes. Wise matches yo
 Opening a Wise Business account takes 5 steps and 2 to 5 business days of verification after your documents are ready.
 
 <Steps>
-<Step step="1" title="Get Your EIN First">Non-residents file Form SS-4 by fax because the IRS online tool requires an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 7 to 14 business days. Start here.</Step>
+<Step step="1" title="Get Your EIN First">Non-residents file Form SS-4 by fax because the IRS online tool requires an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 4-7 business days. Start here.</Step>
 <Step step="2" title="Prepare Your Documents">Collect your EIN confirmation letter, Articles of Organization, Operating Agreement, and a passport for each owner. Save them as clear PDFs.</Step>
 <Step step="3" title="Create Your Wise Business Account">Go to wise.com, choose Business, and enter your legal business name exactly as it appears on your EIN letter, your EIN, state of formation, and business type.</Step>
 <Step step="4" title="Complete Verification">Upload your documents and describe your business activity and currencies. Wise runs KYC and KYB checks and may ask one follow-up question.</Step>
@@ -122,7 +122,7 @@ Wise is the best account for international and multi-currency payments. Compare 
 
 | Bank | Remote Opening | Multi-Currency | Monthly Fee | Best For |
 |------|----------------|----------------|-------------|----------|
-| **[Wise](/open-wise-account-with-ein/)** | Yes | 40+ currencies | $0 | International payments |
+| **Wise** | Yes | 40+ currencies | $0 | International payments |
 | [Mercury](/open-mercury-account-with-ein/) | Yes | USD focus | $0 | Startups, SaaS, tech |
 | [Relay](/open-relay-account-with-ein/) | Yes | USD focus | $0 | E-commerce |
 | [Novo](/open-novo-account-with-ein/) | Limited | USD only | $0 | US-based freelancers |
@@ -222,7 +222,7 @@ The full timeline from EIN application to an active Wise Business account is 2 t
 | Stage | Time |
 |-------|------|
 | Form your US LLC | 1 to 10 business days (varies by state) |
-| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Get your EIN via [ein.so](/apply/) | 2-3 business days (Express) or 14 (Standard) |
 | Wise Business verification | 2 to 5 business days |
 | Activate USD account details | Same day after verification |
 | Receive first payout | Depends on the paying platform |

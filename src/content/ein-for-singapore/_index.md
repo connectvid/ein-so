@@ -1,6 +1,6 @@
 ---
 title: "EIN for Singapore: Apply With No SSN (2026)"
-description: "Singapore founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax. Apply now to get started."
+description: "Singapore founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-singapore/"
 breadcrumbs:
   - name: "Home"

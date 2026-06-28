@@ -1,6 +1,6 @@
 ---
 title: "Mercury vs Novo: Best Bank for an LLC (2026)"
-description: "Mercury vs Novo: compare fees, features, and non-resident access for your US LLC business account. See which one fits your business. Compare the options."
+description: "Mercury vs Novo: compare fees, features, and non-resident access for your US LLC business account."
 canonical: "/mercury-vs-novo/"
 breadcrumbs:
   - name: "Home"

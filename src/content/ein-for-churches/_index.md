@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Church or Religious Nonprofit (2026)"
-description: "Every church needs an EIN for banking and payroll, even as a tax-exempt nonprofit. Learn how to get an EIN for your church with Form SS-4. See the steps."
+description: "Every church needs an EIN for banking and payroll, even as a tax-exempt nonprofit."
 canonical: "/ein-for-churches/"
 breadcrumbs:
   - name: "Home"

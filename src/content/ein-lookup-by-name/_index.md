@@ -1,6 +1,6 @@
 ---
 title: "EIN Lookup by Name: Find a Company EIN (2026)"
-description: "How to do an EIN lookup by name: search SEC EDGAR, nonprofit databases, or state records. Learn the methods to find a company EIN. See the full guide here."
+description: "How to do an EIN lookup by name: search SEC EDGAR, nonprofit databases, or state records. Learn the methods to find a company EIN."
 canonical: "/ein-lookup-by-name/"
 breadcrumbs:
   - name: "Home"

@@ -1,6 +1,6 @@
 ---
 title: "EIN for Stripe Atlas: Does Atlas Include One? (2026)"
-description: "Stripe Atlas files an EIN application when it incorporates your company, but non-US founders without an SSN wait weeks. See how the Stripe Atlas EIN works."
+description: "Stripe Atlas files an EIN application when it incorporates your company, but non-US founders without an SSN wait weeks."
 canonical: "/blog/ein-for-stripe-atlas/"
 breadcrumbs:
   - name: "Home"

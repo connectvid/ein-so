@@ -6,9 +6,9 @@ export const STRIPE_LINKS = {
 export const SITE = {
   name: "ein.so",
   url: "https://www.ein.so",
-  title: "Apply for an EIN Online | EIN Application Service | ein.so",
+  title: "Apply for an EIN Online | EIN Application Service",
   description:
-    "Apply for an EIN online as a non-US resident — no SSN required. We file Form SS-4 with the IRS and deliver your EIN fast, from $49. Get started now.",
+    "Apply for an EIN online as a non-US resident — no SSN required. We file Form SS-4 with the IRS and deliver your EIN fast, from $49.",
   whatsapp: "https://wa.me/8801750278508",
   whatsappMessage: "Hi, I need help getting an EIN number.",
   whatsappStandard: "Hi, I'd like to apply for the Standard EIN service ($49).",
@@ -22,7 +22,7 @@ export const PRICING = {
   standard: {
     name: "Standard EIN",
     price: 49,
-    turnaround: "14 business days",
+    turnaround: "4-7 business days",
     cta: "Get My EIN for $49",
     highlighted: false,
     stripeLink: STRIPE_LINKS.standard,
@@ -37,7 +37,7 @@ export const PRICING = {
   express: {
     name: "Express EIN",
     price: 97,
-    turnaround: "7 business days",
+    turnaround: "2-3 business days",
     cta: "Get My EIN Fast · $97",
     highlighted: true,
     stripeLink: STRIPE_LINKS.express,

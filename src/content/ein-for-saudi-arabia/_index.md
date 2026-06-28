@@ -1,6 +1,6 @@
 ---
 title: "EIN for Saudi Arabia: Apply With No SSN (2026)"
-description: "Saudi Arabia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
+description: "Saudi Arabia founders can get a US EIN with no SSN to bank, sell on Amazon, and use Stripe online. We file Form SS-4 by fax."
 canonical: "/ein-for-saudi-arabia/"
 breadcrumbs:
   - name: "Home"

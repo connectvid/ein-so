@@ -1,6 +1,6 @@
 ---
 title: "EIN vs UTR: US EIN vs UK Tax Number (2026)"
-description: "EIN vs UTR: a US EIN is an IRS tax ID, a UTR is HMRC's UK tax reference. See how they differ and which you need for a US business. Compare the two here."
+description: "EIN vs UTR: a US EIN is an IRS tax ID, a UTR is HMRC's UK tax reference. See how they differ and which you need for a US business."
 canonical: "/ein-vs-utr/"
 breadcrumbs:
   - name: "Home"

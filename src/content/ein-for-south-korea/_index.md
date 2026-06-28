@@ -1,6 +1,6 @@
 ---
 title: "EIN for South Korea: Apply With No SSN (2026)"
-description: "South Korea founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe online. We file Form SS-4 by fax. Apply now to get started."
+description: "South Korea founders can get a US EIN with no SSN to sell on Amazon, bank, and use Stripe online. We file Form SS-4 by fax."
 canonical: "/ein-for-south-korea/"
 breadcrumbs:
   - name: "Home"

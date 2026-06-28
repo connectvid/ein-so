@@ -1,6 +1,6 @@
 ---
 title: "Best EIN Service for Non-Residents (2026)"
-description: "Compare the best EIN services for non-residents on price, speed, and support. See why ein.so files Form SS-4 for $49 with no SSN. Compare your options."
+description: "Compare the best EIN services for non-residents on price, speed, and support. See why ein.so files Form SS-4 for $49 with no SSN."
 canonical: "/best-ein-service/"
 breadcrumbs:
   - name: "Home"

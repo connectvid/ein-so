@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From Spain With No SSN (2026)"
-description: "Spain founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax. Apply now today."
+description: "Spain founders can get a US EIN with no SSN to run a US LLC, bank, and use Stripe, fully online. We file Form SS-4 with the IRS by fax."
 canonical: "/ein-for-spain/"
 breadcrumbs:
   - name: "Home"

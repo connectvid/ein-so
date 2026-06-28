@@ -1,6 +1,6 @@
 ---
 title: "EIN Application Fee: Is There a Cost? (2026)"
-description: "Is there an EIN application fee? The IRS charges $0 for an EIN. Learn what an EIN really costs and what services charge non-residents. See the breakdown."
+description: "Is there an EIN application fee? The IRS charges $0 for an EIN. Learn what an EIN really costs and what services charge non-residents."
 canonical: "/ein-application-fee/"
 breadcrumbs:
   - name: "Home"

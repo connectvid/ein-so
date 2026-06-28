@@ -1,6 +1,6 @@
 ---
 title: "Get a US EIN From China With No SSN (2026)"
-description: "China sellers can get a US EIN with no SSN for Amazon, US banking, and payment processing, fully online. We handle the IRS Form SS-4 filing. Apply now."
+description: "China sellers can get a US EIN with no SSN for Amazon, US banking, and payment processing, fully online. We handle the IRS Form SS-4 filing."
 canonical: "/ein-for-china/"
 breadcrumbs:
   - name: "Home"
@@ -21,11 +21,11 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from China without an SSN. ein.so handles the IRS fax filing for Chinese Amazon sellers, manufacturers, and exporters. $49 Standard. $97 Express."
 faqs:
   - q: "Can Chinese citizens get a US EIN?"
-    a: "Yes. Chinese citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Chinese passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Chinese citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Chinese passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do Chinese entrepreneurs need an SSN to get a US EIN?"
     a: "No. Chinese applicants do not need a US Social Security Number or ITIN. Your Chinese passport number (starting with E or G) is used on Form SS-4. The IRS online tool requires an SSN, so Chinese applicants must use the fax method. ein.so handles the fax filing for you."
   - q: "How long does it take for a Chinese applicant to get an EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). Calling the IRS from China is extremely difficult due to the 12-13 hour time difference and international calling restrictions. The fax method through ein.so is the standard approach."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). Calling the IRS from China is extremely difficult due to the 12-13 hour time difference and international calling restrictions. The fax method through ein.so is the standard approach."
   - q: "Can I sell on Amazon.com from China with a US EIN?"
     a: "Yes. Chinese sellers are the largest group of international sellers on Amazon.com. A US EIN through a US LLC lets you register as a US-based seller, which may provide advantages in account stability and customer trust compared to selling directly from a Chinese entity."
   - q: "Can I open a US bank account from China with my EIN?"
@@ -38,7 +38,7 @@ faqs:
 
 <Section>
 <Capsule>
-**Chinese entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Chinese passport number. No SSN, ITIN, or US visa is required.** China is the largest source of international sellers on Amazon.com, and thousands of Chinese businesses need US EINs every year. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
+**Chinese entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Chinese passport number. No SSN, ITIN, or US visa is required.** China is the largest source of international sellers on Amazon.com, and thousands of Chinese businesses need US EINs every year. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
 </Capsule>
 
 ### China's Dominance in US E-Commerce
@@ -89,7 +89,7 @@ Chinese citizens receive their EIN in 4-7 business days via fax filing. The 12-1
 <Step step="1" title="Form a US LLC">Form an LLC in Wyoming or Delaware through a registered agent. The formation is completed entirely online. You need an English name for your LLC and a registered agent to provide a US address.</Step>
 <Step step="2" title="Gather Your Documents">You need your Chinese passport (valid and unexpired) and your LLC details. No Chinese ID card, business license (Yingye Zhizhao), or Chinese tax registration is needed for the US EIN application.</Step>
 <Step step="3" title="Apply Through ein.so">Complete our application in 3 minutes. We prepare your SS-4, transliterate your Chinese name correctly, format your Chinese address for IRS acceptance, and fax the form to the IRS.</Step>
-<Step step="4" title="Receive Your EIN">The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days ($49). Express takes 7 business days ($97).</Step>
+<Step step="4" title="Receive Your EIN">The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days ($49). Express takes 2-3 business days ($97).</Step>
 </Steps>
 
 The IRS phone method (267-941-1099) is extremely difficult from China. The time difference means you would need to call at midnight or later, international calling restrictions may block the connection, and language barriers add complexity. The fax method through ein.so eliminates all of these issues. Learn more about applying [without an SSN](/ein-without-ssn/).

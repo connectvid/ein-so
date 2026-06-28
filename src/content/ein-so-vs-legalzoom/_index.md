@@ -1,6 +1,6 @@
 ---
 title: "ein.so vs LegalZoom: EIN Service Compared"
-description: "Compare ein.so vs LegalZoom on price, speed, and non-resident EIN filing. See why ein.so files SS-4 for $49 with no SSN. Compare the options here."
+description: "Compare ein.so vs LegalZoom on price, speed, and non-resident EIN filing. See why ein.so files SS-4 for $49 with no SSN."
 canonical: "/ein-so-vs-legalzoom/"
 breadcrumbs:
   - name: "Home"

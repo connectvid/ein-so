@@ -1,6 +1,6 @@
 ---
 title: "EIN for Electricians: How to Apply (2026)"
-description: "Electricians need an EIN to hire, bill clients, and open a business account. Learn how to get an EIN for your electrical business. See the steps to apply."
+description: "Electricians need an EIN to hire, bill clients, and open a business account."
 canonical: "/ein-for-electrician/"
 breadcrumbs:
   - name: "Home"

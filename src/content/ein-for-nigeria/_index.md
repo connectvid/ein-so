@@ -1,6 +1,6 @@
 ---
 title: "EIN for Nigeria: Apply With No SSN (2026)"
-description: "Nigeria founders can get a US EIN with no SSN for e-commerce, freelancing, and US banking, fully online. We file Form SS-4 by fax. Apply now to start now."
+description: "Nigeria founders can get a US EIN with no SSN for e-commerce, freelancing, and US banking, fully online. We file Form SS-4 by fax."
 canonical: "/ein-for-nigeria/"
 breadcrumbs:
   - name: "Home"
@@ -21,11 +21,11 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from Nigeria without an SSN. ein.so handles the IRS fax filing for Nigerian tech founders, freelancers, and e-commerce sellers. $49 Standard. $97 Express."
 faqs:
   - q: "Can Nigerian citizens get a US EIN?"
-    a: "Yes. Nigerian citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Nigerian passport number serves as your identification. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Nigerian citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Nigerian passport number serves as your identification. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do Nigerian entrepreneurs need an SSN to get a US EIN?"
     a: "No. Nigerian applicants do not need a Social Security Number or ITIN. Your Nigerian passport number is used on Form SS-4 as your identifying number. The IRS online EIN tool requires an SSN, so Nigerian applicants must use the fax method. ein.so handles this fax filing for you."
   - q: "How long does it take for a Nigerian to receive a US EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). The IRS phone method is impractical from Nigeria due to expensive international calls and time zone differences. The fax method through ein.so is the most reliable option."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). The IRS phone method is impractical from Nigeria due to expensive international calls and time zone differences. The fax method through ein.so is the most reliable option."
   - q: "Can I use my EIN with Paystack or Flutterwave?"
     a: "Paystack and Flutterwave are Nigerian payment processors primarily for local transactions. Your US EIN enables you to set up US payment processors like Stripe, which handle international and US-based payments. You can use your Nigerian payment processors for local sales and Stripe for US/international sales."
   - q: "Can Nigerian tech startups use a US EIN?"
@@ -89,7 +89,7 @@ Nigerian citizens receive their EIN in 4-7 business days via fax filing through 
 <Step step="1" title="Form Your US LLC">Form an LLC in Delaware (preferred for startups seeking funding) or Wyoming (lower costs). Use a registered agent for your US address. The entire formation process is done online from Nigeria.</Step>
 <Step step="2" title="Gather Your Documents">You need your Nigerian passport (valid and unexpired) and your LLC details. No NIN (National Identification Number), BVN, or Nigerian business registration (CAC) documents are needed for the US EIN.</Step>
 <Step step="3" title="Apply Through ein.so">Complete our simple application in 3 minutes. We prepare your SS-4, format your Nigerian address for IRS acceptance, and fax it to the IRS. $49 Standard or $97 Express.</Step>
-<Step step="4" title="Receive Your EIN">The IRS assigns your EIN and we deliver it via email. Standard takes 4-7 business days; Express takes 7 business days. You receive your official CP 575 confirmation letter.</Step>
+<Step step="4" title="Receive Your EIN">The IRS assigns your EIN and we deliver it via email. Standard takes 4-7 business days; Express takes 2-3 business days. You receive your official CP 575 confirmation letter.</Step>
 </Steps>
 
 ### Why Fax Beats Phone From Lagos

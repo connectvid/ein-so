@@ -1,6 +1,6 @@
 ---
 title: "EIN for Hiring Employees: Payroll Tax Guide"
-description: "You need an EIN before hiring your first employee for payroll taxes, Form 941, and W-2s. Learn the employer EIN requirements step by step. See the guide."
+description: "You need an EIN before hiring your first employee for payroll taxes, Form 941, and W-2s. Learn the employer EIN requirements step by step."
 canonical: "/ein-for-hiring-employees/"
 breadcrumbs:
   - name: "Home"
@@ -35,7 +35,7 @@ faqs:
   - q: "What payroll taxes do employers pay?"
     a: "Employers pay the employer portion of Social Security (6.2%) and Medicare (1.45%) taxes, federal unemployment tax (FUTA, 6% on first $7,000 per employee), and state unemployment tax (SUTA, rates vary by state). You also withhold the employee portion of Social Security, Medicare, and federal/state income taxes from their paychecks. Your EIN is on all payroll tax filings."
   - q: "How long does it take to get an EIN for hiring?"
-    a: "US residents with an SSN can get an EIN instantly online at IRS.gov. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 7 business days. Get your EIN before posting job listings so you are ready to onboard employees immediately."
+    a: "US residents with an SSN can get an EIN instantly online at IRS.gov. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers your EIN in 2-3 business days. Get your EIN before posting job listings so you are ready to onboard employees immediately."
   - q: "What happens if I hire employees without an EIN?"
     a: "Hiring employees without an EIN means you cannot file payroll taxes, which triggers IRS penalties. Failure-to-deposit penalties range from 2% to 15% of the unpaid tax. You also cannot issue W-2s, which creates problems for your employees. The IRS can assess trust fund recovery penalties against responsible individuals personally."
 ---

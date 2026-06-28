@@ -1,6 +1,6 @@
 ---
 title: "EIN vs GST Number: What's the Difference?"
-description: "EIN vs GST: a US EIN is an IRS tax ID, a GST number is for India and Australia sales tax. See how they differ and which you need. Compare the differences."
+description: "EIN vs GST: a US EIN is an IRS tax ID, a GST number is for India and Australia sales tax."
 canonical: "/ein-vs-gst/"
 breadcrumbs:
   - name: "Home"

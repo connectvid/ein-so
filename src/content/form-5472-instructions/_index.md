@@ -1,6 +1,6 @@
 ---
 title: "Form 5472 Instructions: How to Fill It Out"
-description: "Form 5472 instructions for foreign-owned US LLCs: what each part needs and how to file with a pro-forma 1120. Avoid the $25,000 penalty. See the steps."
+description: "Form 5472 instructions for foreign-owned US LLCs: what each part needs and how to file with a pro-forma 1120. Avoid the $25,000 penalty."
 canonical: "/form-5472-instructions/"
 breadcrumbs:
   - name: "Home"

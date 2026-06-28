@@ -1,6 +1,6 @@
 ---
 title: "EIN in Tennessee: How to Apply for One (2026)"
-description: "Need an EIN for a Tennessee LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process. See the full steps to apply."
+description: "Need an EIN for a Tennessee LLC? Apply online with an SSN or by fax as a non-resident with no SSN — here is the full process."
 canonical: "/ein-in-tennessee/"
 breadcrumbs:
   - name: "Home"

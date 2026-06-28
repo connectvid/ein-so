@@ -1,6 +1,6 @@
 ---
 title: "EIN for Argentina: Apply With No SSN (2026)"
-description: "Argentina founders can get a US EIN to open a bank account, sell on Amazon, and use Stripe — no SSN, fully online. We file Form SS-4. Apply now today."
+description: "Argentina founders can get a US EIN to open a bank account, sell on Amazon, and use Stripe — no SSN, fully online. We file Form SS-4."
 canonical: "/ein-for-argentina/"
 breadcrumbs:
   - name: "Home"

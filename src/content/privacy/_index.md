@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy — How We Protect Your Data"
-description: "Read the ein.so privacy policy: how we collect, use, and protect the personal information you share when applying for an EIN. Review our practices here."
+description: "Read the ein.so privacy policy: how we collect, use, and protect the personal information you share when applying for an EIN."
 canonical: "/privacy/"
 robots:
   index: true

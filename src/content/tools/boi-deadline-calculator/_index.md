@@ -1,6 +1,6 @@
 ---
 title: "BOI Deadline Calculator: When Is It Due? (Free)"
-description: "Use the free BOI deadline calculator to find when your FinCEN BOI report is due. Enter your formation date for an instant answer. Use the free tool now."
+description: "Use the free BOI deadline calculator to find when your FinCEN BOI report is due. Enter your formation date for an instant answer."
 canonical: "/tools/boi-deadline-calculator/"
 breadcrumbs:
   - name: "Home"

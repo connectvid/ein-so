@@ -1,6 +1,6 @@
 ---
 title: "EIN for a Dental Practice: Apply Online (2026)"
-description: "A dental practice needs an EIN for payroll, banking, and entity filing. Learn how to get an EIN for your dental practice fast. See the steps to apply."
+description: "A dental practice needs an EIN for payroll, banking, and entity filing."
 canonical: "/ein-for-dental-practice/"
 breadcrumbs:
   - name: "Home"

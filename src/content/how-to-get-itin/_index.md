@@ -1,6 +1,6 @@
 ---
 title: "How to Get an ITIN: Step-by-Step Guide (2026)"
-description: "Learn how to get an ITIN with Form W-7, the required documents, and where to file. A step-by-step ITIN guide for non-residents. See the full steps here."
+description: "Learn how to get an ITIN with Form W-7, the required documents, and where to file."
 canonical: "/how-to-get-itin/"
 breadcrumbs:
   - name: "Home"

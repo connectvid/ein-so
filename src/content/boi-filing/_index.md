@@ -1,6 +1,6 @@
 ---
 title: "BOI Filing: Beneficial Ownership Report (2026)"
-description: "Most US LLCs and corporations must file a BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty for skipping it. Learn more."
+description: "Most US LLCs and corporations must file a BOI report with FinCEN. Learn who must file, the deadline, and the $500/day penalty for skipping it."
 canonical: "/boi-filing/"
 heroLabel: "Compliance Guide"
 heroTitle: "BOI Filing:"
