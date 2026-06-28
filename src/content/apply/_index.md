@@ -29,7 +29,7 @@ faqs:
   - q: "What information do I need to apply?"
     a: "You need your full legal name, date of birth, country of citizenship, mailing address, and business details (name, type, reason for applying). No SSN is required for non-US residents."
   - q: "How will I receive my EIN?"
-    a: "Your EIN will be delivered via email as soon as the IRS processes your application. Standard: 14 business days. Express: 7 business days."
+    a: "Your EIN will be delivered via email as soon as the IRS processes your application. Standard: 4-7 business days. Express: 2-3 business days."
   - q: "Can I apply without a US address?"
     a: "Yes. Non-US residents can use their foreign address on the SS-4 form. You do not need a US address to get an EIN."
   - q: "What payment methods do you accept?"
@@ -39,7 +39,7 @@ faqs:
   - q: "Is the EIN free from the IRS?"
     a: "Yes. The IRS charges $0 for EINs. Our $49 or $97 fee covers SS-4 form preparation, IRS fax submission, follow-up, and EIN delivery by email. US residents with an SSN can apply free at IRS.gov directly."
   - q: "How long does the IRS take to process Form SS-4?"
-    a: "The IRS processes faxed SS-4 forms within 4-7 business days. ein.so Standard service delivers in 14 business days (includes preparation time). Express delivers in 7 business days with priority handling and phone follow-up."
+    a: "The IRS processes faxed SS-4 forms within 4-7 business days. ein.so Standard service delivers in 4-7 business days (includes preparation time). Express delivers in 2-3 business days with priority handling and phone follow-up."
   - q: "Do I need an LLC to get an EIN?"
     a: "No. You can get an EIN as a sole proprietor, freelancer, or individual without forming an LLC or corporation. However, most non-residents form a Wyoming LLC first, then apply for an EIN. See our EIN for LLC guide for details."
 ---

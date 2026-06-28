@@ -33,7 +33,7 @@ faqs:
   - q: "Can non-US residents open a PayPal US business account?"
     a: "Non-US residents can open a PayPal business account if they have a US-registered LLC and an EIN. You also need a US bank account linked to the PayPal account. ein.so helps non-residents get their EIN for $49 (Standard) or $97 (Express) so they can set up PayPal business accounts."
   - q: "How long does it take to get an EIN for PayPal?"
-    a: "US residents with an SSN receive an EIN instantly from the IRS website. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers in 7 business days. Once you have your EIN, adding it to PayPal takes minutes."
+    a: "US residents with an SSN receive an EIN instantly from the IRS website. Non-US residents must apply by fax, which takes 4-7 business days. ein.so's Express service ($97) delivers in 2-3 business days. Once you have your EIN, adding it to PayPal takes minutes."
   - q: "Can I use the same EIN for PayPal and Stripe?"
     a: "Yes. Your EIN is assigned to your business entity and works across all payment processors. You can use the same EIN for PayPal, Stripe, Square, and any other platform that requires a TIN. You do not need separate EINs for different payment processors."
   - q: "What happens if PayPal cannot validate my EIN?"

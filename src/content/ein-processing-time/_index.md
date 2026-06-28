@@ -7,7 +7,7 @@ heroTitle: "EIN Processing Time:"
 heroAccent: "How Long Does It Take? (2026)"
 heroDescription: "Every EIN application method has a different timeline. Learn exactly how long each one takes, what causes delays, and how ein.so's Express service gets your EIN faster."
 ctaTitle: "Need Your EIN Fast?"
-ctaSubtitle: "Express processing: 7 business days for $97. Standard: $49."
+ctaSubtitle: "Express processing: 2-3 business days for $97. Standard: $49."
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -25,9 +25,9 @@ faqs:
   - q: "How long does it take to get an EIN online?"
     a: "If you apply through the IRS EIN Assistant online and have a valid SSN or ITIN, you receive your EIN immediately upon completing the application. The online system is available Monday through Friday, 7:00 AM to 10:00 PM Eastern Time. This is the fastest method but is only available to US residents with an SSN or ITIN."
   - q: "How long does EIN processing take by fax?"
-    a: "When you submit Form SS-4 by fax to the IRS, EIN processing takes 7 to 14 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume."
+    a: "When you submit Form SS-4 by fax to the IRS, EIN processing takes 4-7 business days. The IRS faxes your EIN assignment letter back to the number you provide on the form. During peak filing periods (January through April), processing may take slightly longer due to higher volume."
   - q: "Can I speed up my EIN processing time?"
-    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are processed within 7 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline."
+    a: "Yes. ein.so offers an Express service for $97 that prioritizes your SS-4 filing and includes same-day fax submission, real-time tracking, and expedited follow-up with the IRS. Express applications are processed within 2-3 business days. The Standard service at $49 follows the normal 4-7 business day IRS timeline."
   - q: "Why is my EIN application taking so long?"
     a: "Common reasons for EIN processing delays include errors on Form SS-4 (wrong entity type, missing fields, incorrect address format), IRS processing backlogs during tax season, illegible fax transmissions, or incomplete responsible party information. If your application has been pending for more than 10 business days, contact the IRS at 267-941-1099 or let ein.so follow up on your behalf."
   - q: "How long does it take to get an EIN by mail?"
@@ -35,7 +35,7 @@ faqs:
   - q: "Does IRS processing time for EIN vary by entity type?"
     a: "No. The IRS processes all EIN applications using the same timeline regardless of whether you are an LLC, corporation, partnership, sole proprietor, nonprofit, or trust. The processing time depends entirely on the submission method (online, fax, phone, or mail), not the entity type."
   - q: "What is the EIN processing time for non-US residents?"
-    a: "Non-US residents cannot use the IRS online system, so the fastest option is fax (4-7 business days) or phone (same day if you reach an agent). ein.so handles the fax filing process for non-residents, with Standard processing ($49) taking 4-7 business days and Express processing ($97) taking 7 business days."
+    a: "Non-US residents cannot use the IRS online system, so the fastest option is fax (4-7 business days) or phone (same day if you reach an agent). ein.so handles the fax filing process for non-residents, with Standard processing ($49) taking 4-7 business days and Express processing ($97) taking 2-3 business days."
   - q: "Can I use my EIN immediately after receiving it?"
     a: "The IRS recommends waiting about 2 weeks after receiving your EIN before using it to file tax returns electronically, as it takes time for the EIN to propagate through all IRS systems. However, you can use your EIN immediately for opening bank accounts, applying for business licenses, and completing vendor registrations."
 ---
@@ -44,7 +44,7 @@ faqs:
 
 ![ein processing time](/images/ein-processing-time.webp)
 
-<Capsule>**EIN processing time depends on your application method. Online applications receive an EIN instantly. Fax applications (Form SS-4) take 4-7 business days. Phone applications can be processed the same day. Mail applications take 4-6 weeks.** For non-US residents who must use the fax method, ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 7 business days) to get your EIN as quickly as possible.</Capsule>
+<Capsule>**EIN processing time depends on your application method. Online applications receive an EIN instantly. Fax applications (Form SS-4) take 4-7 business days. Phone applications can be processed the same day. Mail applications take 4-6 weeks.** For non-US residents who must use the fax method, ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 2-3 business days) to get your EIN as quickly as possible.</Capsule>
 
 ### Why Processing Time Matters for Business Planning
 
@@ -72,7 +72,7 @@ The IRS offers four methods to apply for an EIN, and each has a dramatically dif
 | Phone (267-941-1099) | Same day (30-120 min hold) | Free + intl call fees | Urgent same-day needs |
 | Fax (Form SS-4 to 855-215-1627) | 4-7 business days | Free (DIY) / $49-$97 (ein.so) | Non-residents without SSN |
 | Mail (SS-4 to Cincinnati, OH 45999) | 4-6 weeks | Free + postage | Not recommended |
-| ein.so (Express fax service) | 7 business days | $97 | Deadline-sensitive applicants |
+| ein.so (Express fax service) | 2-3 business days | $97 | Deadline-sensitive applicants |
 
 For non-US residents, the online option is not available. That makes fax the most reliable and commonly used method. The phone method works in theory, but long hold times, limited hours, and the difficulty of communicating complex business details over the phone make it impractical for most international applicants. Learn more in our guide on [how to get an EIN without an SSN](/ein-without-ssn/).
 
@@ -104,7 +104,7 @@ The online system is available Monday through Friday, 7:00 AM to 10:00 PM Easter
 
 ### Standard Fax Timeline: 7-14 Business Days
 
-Faxing Form SS-4 to the IRS is the primary method for non-US residents applying for an EIN. The standard EIN processing time for fax applications is **7 to 14 business days**. The IRS receives your completed SS-4, processes the application, assigns an EIN, and faxes the assignment letter back to the number you provided.
+Faxing Form SS-4 to the IRS is the primary method for non-US residents applying for an EIN. The standard EIN processing time for fax applications is **4-7 business days**. The IRS receives your completed SS-4, processes the application, assigns an EIN, and faxes the assignment letter back to the number you provided.
 
 Several factors affect fax processing time. The IRS fax number for EIN applications is **855-215-1627**. During peak tax season (January through April), the IRS receives significantly higher volumes of applications, which can push processing times to 7-10 business days. Outside of peak season, 4-5 business days is more typical.
 
@@ -112,7 +112,7 @@ Several factors affect fax processing time. The IRS fax number for EIN applicati
 
 The quality of your [Form SS-4](/ss4-form-guide/) matters enormously. An error-free, properly formatted form is processed on the first pass. Forms with errors, missing information, or illegible entries are rejected, and you must resubmit -- adding another 4-7 business days to your wait. This is the number-one reason applicants experience delays.
 
-ein.so handles the entire fax filing process. Our team prepares your SS-4, verifies every field for accuracy, submits it by fax, monitors for the IRS response, and delivers your EIN to you. **Standard processing costs $49** and follows the normal IRS timeline. **Express processing costs $97** and includes priority handling to get your EIN in as few as 7 business days.
+ein.so handles the entire fax filing process. Our team prepares your SS-4, verifies every field for accuracy, submits it by fax, monitors for the IRS response, and delivers your EIN to you. **Standard processing costs $49** and follows the normal IRS timeline. **Express processing costs $97** and includes priority handling to get your EIN in as few as 2-3 business days.
 
 </Section>
 
@@ -122,7 +122,7 @@ ein.so handles the entire fax filing process. Our team prepares your SS-4, verif
 
 ## How Does Express EIN Processing <Accent>Speed Things Up?</Accent>
 
-ein.so's Express service ($97) is designed for applicants who need their EIN as fast as possible. Express processing reduces your EIN processing time from the standard 4-7 business days down to **7 business days** in most cases.
+ein.so's Express service ($97) is designed for applicants who need their EIN as fast as possible. Express processing reduces your EIN processing time from the standard 4-7 business days down to **2-3 business days** in most cases.
 
 <NumberedCards>
 <Card title="Same-Day Fax Submission" index={1}>Your SS-4 is prepared and faxed to the IRS within hours of your order, not queued for the next batch.</Card>
@@ -136,7 +136,7 @@ ein.so's Express service ($97) is designed for applicants who need their EIN as 
 | Feature | Standard ($49) | Express ($97) |
 |---|---|---|
 | Price | $49 one-time | $97 one-time |
-| EIN Delivery Time | 14 business days | 7 business days |
+| EIN Delivery Time | 4-7 business days | 2-3 business days |
 | Fax Submission Timing | Next business day | Same day (within hours) |
 | SS-4 Form Preparation | Included | Included (senior review) |
 | IRS Follow-Up | As needed | Daily proactive monitoring |

@@ -27,7 +27,7 @@ faqs:
   - q: "Can I reapply for an EIN after being rejected?"
     a: "Yes. You can reapply for an EIN after fixing the errors that caused the rejection. If you applied online, you can try again immediately after correcting the information. If you applied by fax using Form SS-4, you need to submit a corrected form. There is no penalty or waiting period for reapplying after a rejection."
   - q: "How long does it take to get an EIN after reapplying?"
-    a: "The timeline depends on your application method. Online applications receive an EIN instantly if accepted. Fax applications take 7 to 14 business days for Standard processing. With ein.so Express service, fax applications take 7 business days. The reapplication processing time is the same as a first-time application."
+    a: "The timeline depends on your application method. Online applications receive an EIN instantly if accepted. Fax applications take 4-7 business days for Standard processing. With ein.so Express service, fax applications take 2-3 business days. The reapplication processing time is the same as a first-time application."
   - q: "What does 'duplicate EIN' rejection mean?"
     a: "A duplicate EIN rejection means the IRS already has an EIN on file for your business entity with the same name and responsible party. This happens when someone previously applied for an EIN for the same entity, or when the IRS matched your application to an existing record. You need to locate the existing EIN rather than apply for a new one."
   - q: "Can I fix a name mismatch on my EIN application?"
@@ -64,7 +64,7 @@ The IRS rejects EIN applications when the information you submitted does not pas
 
 ### Online vs Fax Rejection Notices
 
-If you applied online through the IRS website, you receive the rejection immediately on screen. If you applied by fax using [Form SS-4](/ss4-form-guide/), the IRS sends a rejection notice by fax within 7 to 14 business days. Either way, the rejection notice specifies the problem so you can correct it and resubmit.
+If you applied online through the IRS website, you receive the rejection immediately on screen. If you applied by fax using [Form SS-4](/ss4-form-guide/), the IRS sends a rejection notice by fax within 4-7 business days. Either way, the rejection notice specifies the problem so you can correct it and resubmit.
 
 </Section>
 
@@ -134,7 +134,7 @@ If you received an incomplete form rejection, compare your submitted form agains
 <Step step="1" title="Read the Rejection Notice">The IRS rejection notice contains a specific code or explanation for why your application was denied. Read it carefully and identify the exact field or data point that caused the rejection. Do not guess or assume. The notice tells you precisely what to fix.</Step>
 <Step step="2" title="Gather Correct Documentation">Pull your Articles of Organization (for LLCs) or Articles of Incorporation (for corporations), your passport or government ID, and any previous IRS correspondence. Verify that every piece of information on your new application matches these source documents exactly.</Step>
 <Step step="3" title="Complete a New Form SS-4">Do not try to amend or mark up your previously rejected form. Start fresh with a clean Form SS-4. Fill in every required field using your verified documentation. Double-check all names, addresses, entity types, and identification numbers before proceeding.</Step>
-<Step step="4" title="Submit and Wait">If you have an SSN, you can reapply online immediately. If you are filing by fax, send your corrected Form SS-4 to the IRS at (855) 215-1627. Expect your EIN within 7 to 14 business days. Track your [EIN processing time](/ein-processing-time/) and contact the IRS if you do not hear back within 10 business days.</Step>
+<Step step="4" title="Submit and Wait">If you have an SSN, you can reapply online immediately. If you are filing by fax, send your corrected Form SS-4 to the IRS at (855) 215-1627. Expect your EIN within 4-7 business days. Track your [EIN processing time](/ein-processing-time/) and contact the IRS if you do not hear back within 10 business days.</Step>
 </Steps>
 
 </Section>
@@ -147,9 +147,9 @@ If you received an incomplete form rejection, compare your submitted form agains
 
 ein.so eliminates the guesswork from EIN applications. When you use our service, we review every detail of your application before it reaches the IRS. We verify your business name matches your formation documents, confirm the entity type and responsible party information are correct, check for formatting issues, and ensure all required fields are complete. This pre-submission review catches the errors that cause over 95% of EIN rejections.
 
-If the IRS does reject an application we filed, we handle the correction and resubmission at no additional charge. You do not pay twice. We diagnose the rejection reason, fix the issue, and resubmit your corrected Form SS-4 immediately. This is included in both our Standard (**$49**, 14 business days) and Express (**$97**, 7 business days) plans.
+If the IRS does reject an application we filed, we handle the correction and resubmission at no additional charge. You do not pay twice. We diagnose the rejection reason, fix the issue, and resubmit your corrected Form SS-4 immediately. This is included in both our Standard (**$49**, 4-7 business days) and Express (**$97**, 2-3 business days) plans.
 
-For non-residents who cannot use the IRS online system, our service is especially valuable because fax rejections take another 7 to 14 business days to resolve on your own. With ein.so, we monitor for the rejection, fix it the same day, and resubmit immediately, saving you a full processing cycle. Ready to get your EIN without the rejection risk? [Start your application today](/apply/).
+For non-residents who cannot use the IRS online system, our service is especially valuable because fax rejections take another 4-7 business days to resolve on your own. With ein.so, we monitor for the rejection, fix it the same day, and resubmit immediately, saving you a full processing cycle. Ready to get your EIN without the rejection risk? [Start your application today](/apply/).
 
 </Section>
 

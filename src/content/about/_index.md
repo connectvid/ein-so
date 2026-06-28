@@ -43,7 +43,7 @@ At **$49**, we are the most affordable EIN service available. Competitors charge
 Most competitors charge $65 to $200 for the same service. We keep costs low because getting an EIN shouldn't be expensive.
 </FeatureCard>
 <FeatureCard title="Fast Processing" icon="lightning">
-Standard delivery in 14 business days. Express in 7 business days. We don't sit on applications. We file them immediately.
+Standard delivery in 4-7 business days. Express in 2-3 business days. We don't sit on applications. We file them immediately.
 </FeatureCard>
 <FeatureCard title="WhatsApp Support" icon="chat">
 Real human support through WhatsApp. Ask questions, get status updates, and receive your EIN, all in one conversation.

@@ -35,7 +35,7 @@ faqs:
   - q: "Can I use the same EIN for Stripe and PayPal?"
     a: "Yes. Your EIN is tied to your business entity, not to a specific payment processor. You can use the same EIN across Stripe, PayPal, Square, Shopify Payments, and any other platform. There is no need for separate EINs for different payment processors."
   - q: "How long does it take to get an EIN for Stripe?"
-    a: "US residents with an SSN can get an EIN instantly online. Non-US residents who apply by fax receive their EIN in 4-7 business days. ein.so's Express service ($97) delivers in 7 business days. Once you have your EIN, adding it to Stripe takes just a few minutes."
+    a: "US residents with an SSN can get an EIN instantly online. Non-US residents who apply by fax receive their EIN in 4-7 business days. ein.so's Express service ($97) delivers in 2-3 business days. Once you have your EIN, adding it to Stripe takes just a few minutes."
   - q: "What if Stripe cannot verify my EIN?"
     a: "Stripe validates EINs with the IRS database. Verification failures usually happen because the EIN was recently issued (wait 2 weeks for IRS propagation), the business name does not match exactly, or the EIN was entered incorrectly. Check your EIN confirmation letter and try again after 2 weeks if your EIN is new."
 ---

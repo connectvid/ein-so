@@ -21,7 +21,7 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from Mexico without an SSN. ein.so handles the IRS fax filing for Mexican cross-border sellers, importers, and e-commerce businesses. $49 Standard. $97 Express."
 faqs:
   - q: "Can Mexican citizens get a US EIN?"
-    a: "Yes. Mexican citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Mexican passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Mexican citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Mexican passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do Mexican entrepreneurs need an SSN to get a US EIN?"
     a: "No. Mexican applicants do not need a Social Security Number or ITIN. Your Mexican passport number is used on Form SS-4. The IRS online tool requires an SSN, so Mexican applicants use the fax method. ein.so handles the fax filing for you."
   - q: "Can I call the IRS from Mexico to get an EIN?"
@@ -89,7 +89,7 @@ Mexican applicants receive their EIN in 4-7 business days via fax, with a 97% fi
 <Step step="1" title="Form a US LLC">Form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. Mexican entrepreneurs in border cities like Tijuana, Ciudad Juarez, or Monterrey sometimes visit the US for banking, but LLC formation is done entirely online.</Step>
 <Step step="2" title="Gather Your Documents">You need your Mexican passport (Pasaporte) and your LLC details. Do not use your CURP, INE, or RFC number on the SS-4 -- the IRS requires a passport number for non-resident applications.</Step>
 <Step step="3" title="Apply Through ein.so">Complete our 3-minute application. We prepare your SS-4, format your Mexican address for IRS acceptance, and fax it to the IRS. $49 Standard or $97 Express.</Step>
-<Step step="4" title="Receive Your EIN">The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days. Express takes 7 business days.</Step>
+<Step step="4" title="Receive Your EIN">The IRS processes your application and we deliver your EIN via email. Standard takes 4-7 business days. Express takes 2-3 business days.</Step>
 </Steps>
 
 ### Why Fax Is More Reliable Than Phone

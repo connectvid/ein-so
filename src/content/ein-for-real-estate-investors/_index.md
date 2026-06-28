@@ -29,7 +29,7 @@ faqs:
   - q: "Should I hold rental property in an LLC?"
     a: "Most real estate investors hold rental properties in an LLC for liability protection. An LLC separates your personal assets from your rental business. If a tenant sues, they can only go after the LLC's assets, not your personal savings or home. Each LLC needs its own EIN for tax filing and bank accounts."
   - q: "How do non-US real estate investors get an EIN?"
-    a: "Non-US residents cannot use the IRS online application because it requires an SSN. Instead, you must file Form SS-4 by fax. ein.so handles this process for non-resident real estate investors for $49 (Standard, 14 business days) or $97 (Express, 7 business days). You need your passport and LLC formation documents."
+    a: "Non-US residents cannot use the IRS online application because it requires an SSN. Instead, you must file Form SS-4 by fax. ein.so handles this process for non-resident real estate investors for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). You need your passport and LLC formation documents."
   - q: "Do I need a separate EIN for each rental property LLC?"
     a: "Yes. Each LLC is a separate legal entity and needs its own EIN. If you hold three properties in three separate LLCs, you need three EINs. Many investors use a series LLC structure where one parent LLC has multiple child LLCs, but each still requires its own EIN."
   - q: "Can I use my EIN to open a bank account for rental income?"
@@ -37,7 +37,7 @@ faqs:
   - q: "What tax forms do real estate investors file with their EIN?"
     a: "Real estate investors file Schedule E (Supplemental Income and Loss) for rental income, Form 1065 (Partnership Return) for multi-member LLCs, Form 8825 for rental income from partnerships, and Form 4562 for depreciation. Non-resident investors also file Form 1040-NR. Your EIN appears on all these forms."
   - q: "How long does it take to get an EIN for a real estate LLC?"
-    a: "US residents with an SSN receive an EIN instantly through the IRS online application. Non-US residents must apply by fax, which takes 4-7 business days through the standard process. ein.so's Express service ($97) delivers your EIN in 7 business days so you can close on properties faster."
+    a: "US residents with an SSN receive an EIN instantly through the IRS online application. Non-US residents must apply by fax, which takes 4-7 business days through the standard process. ein.so's Express service ($97) delivers your EIN in 2-3 business days so you can close on properties faster."
 ---
 
 <Section>

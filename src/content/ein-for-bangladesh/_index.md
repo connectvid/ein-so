@@ -21,11 +21,11 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from Bangladesh without an SSN or ITIN. ein.so provides Bengali language support and handles the entire IRS fax filing process for Bangladeshi freelancers, RMG exporters, and IT firms. $49 Standard. $97 Express."
 faqs:
   - q: "Can Bangladeshi citizens get a US EIN?"
-    a: "Yes. Bangladeshi citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Bangladeshi passport number serves as your identifying number. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days). We provide support in Bengali."
+    a: "Yes. Bangladeshi citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Bangladeshi passport number serves as your identifying number. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). We provide support in Bengali."
   - q: "Do I need an SSN or ITIN to get an EIN from Bangladesh?"
     a: "No. Bangladeshi applicants do not need a Social Security Number or Individual Taxpayer Identification Number. Your Bangladeshi passport number is used on Form SS-4 as your foreign identification number. The IRS online EIN tool requires an SSN, which is why Bangladeshi applicants must use the fax method -- and that is exactly what ein.so handles for you."
   - q: "How long does it take for a Bangladeshi applicant to receive an EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). Calling the IRS from Bangladesh is extremely impractical -- the 10-11 hour time difference means you would need to call in the middle of the night, and international call rates from Bangladesh are high."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). Calling the IRS from Bangladesh is extremely impractical -- the 10-11 hour time difference means you would need to call in the middle of the night, and international call rates from Bangladesh are high."
   - q: "Does ein.so provide support in Bengali?"
     a: "Yes. ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide customer support in Bengali (Bangla) in addition to English. Our team understands the specific challenges Bangladeshi applicants face, including address formatting for Bangladeshi addresses, payment processing options available in Bangladesh, and the unique needs of the RMG and IT sectors."
   - q: "Can Bangladeshi freelancers on Upwork use a US EIN?"
@@ -42,7 +42,7 @@ faqs:
 ![ein for bangladesh](/images/ein-for-bangladesh.webp)
 
 <Capsule>
-**Bangladeshi entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Bangladeshi passport number replaces the SSN requirement. No ITIN, visa, or US presence is needed.** ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide support in Bengali, understand Bangladeshi address formats, and know the specific challenges our Bangladeshi clients face. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
+**Bangladeshi entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Bangladeshi passport number replaces the SSN requirement. No ITIN, visa, or US presence is needed.** ein.so was built with Bangladeshi entrepreneurs as a core audience. We provide support in Bengali, understand Bangladeshi address formats, and know the specific challenges our Bangladeshi clients face. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
 </Capsule>
 
 ### Bangladesh's Economy by the Numbers
@@ -98,7 +98,7 @@ Bangladeshi citizens receive their EIN in 4-7 business days via fax filing, with
 <Step step="1" title="Form a US LLC">Form an LLC in Wyoming, Delaware, or New Mexico through a registered agent. This is done entirely online from Bangladesh. Most Bangladeshi entrepreneurs choose Wyoming for its low costs and strong privacy protections. Formation costs $100-300 plus state fees.</Step>
 <Step step="2" title="Gather Your Documents">You need your Bangladeshi passport (valid and unexpired) and your LLC formation details (entity name, state, formation date, registered address). No NID (National ID), TIN, or Bangladeshi trade license is needed for the US EIN application.</Step>
 <Step step="3" title="Apply Through ein.so (Bengali Support Available)">Fill out our simple application form -- it takes 3 minutes. We prepare your Form SS-4, correctly format your Bangladeshi address for IRS acceptance, and fax it to the IRS using commercial-grade systems. We provide support in Bengali if you need help at any step. Standard processing is $49. Express is $97.</Step>
-<Step step="4" title="Receive Your EIN via Email and WhatsApp">The moment the IRS returns your EIN assignment, we deliver it to you via email and WhatsApp. You receive your official IRS confirmation letter (CP 575). Standard takes 4-7 business days. Express takes 7 business days.</Step>
+<Step step="4" title="Receive Your EIN via Email and WhatsApp">The moment the IRS returns your EIN assignment, we deliver it to you via email and WhatsApp. You receive your official IRS confirmation letter (CP 575). Standard takes 4-7 business days. Express takes 2-3 business days.</Step>
 </Steps>
 
 ### Why Phone Applications Fail From Bangladesh

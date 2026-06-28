@@ -21,11 +21,11 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from Pakistan without an SSN or ITIN. ein.so handles the IRS fax filing for Pakistani freelancers, Amazon sellers, and IT professionals. $49 Standard. $97 Express."
 faqs:
   - q: "Can Pakistani citizens get a US EIN?"
-    a: "Yes. Pakistani citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Pakistani passport number serves as your identifying number. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Pakistani citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Pakistani passport number serves as your identifying number. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do I need an SSN to get an EIN from Pakistan?"
     a: "No. Pakistani applicants do not need a Social Security Number or Individual Taxpayer Identification Number. Your Pakistani passport number is used on Form SS-4. The IRS online tool requires an SSN, which is why Pakistani applicants use the fax method -- and ein.so handles the fax filing for you."
   - q: "How long does it take for a Pakistani applicant to receive an EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 7 business days ($97). The DIY fax method takes 4-7 business days if your form has no errors. Calling the IRS from Pakistan is expensive and impractical due to time zone differences."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express processing takes 2-3 business days ($97). The DIY fax method takes 4-7 business days if your form has no errors. Calling the IRS from Pakistan is expensive and impractical due to time zone differences."
   - q: "Can Pakistani freelancers on Upwork use an EIN?"
     a: "Yes. If you form a US LLC for your freelancing business, your EIN lets you open a US bank account, accept USD payments through Stripe, and invoice clients as a US entity. Many Pakistani freelancers on Upwork and Fiverr form US LLCs to access better payment options and build credibility with US clients."
   - q: "Can I use Payoneer with my US EIN?"
@@ -38,7 +38,7 @@ faqs:
 
 <Section>
 <Capsule>
-**Pakistani entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Pakistani passport number replaces the SSN requirement.** The IRS online tool is blocked for applicants without an SSN, so the fax method is the path for Pakistani applicants. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard costs $49 (4-7 business days). Express costs $97 (7 business days).
+**Pakistani entrepreneurs can get a US EIN by submitting IRS Form SS-4 by fax. Your Pakistani passport number replaces the SSN requirement.** The IRS online tool is blocked for applicants without an SSN, so the fax method is the path for Pakistani applicants. ein.so prepares your SS-4, faxes it to the IRS, and delivers your EIN. Standard costs $49 (4-7 business days). Express costs $97 (2-3 business days).
 </Capsule>
 
 ### Pakistan's Freelance Economy by the Numbers

@@ -64,7 +64,7 @@ faqs:
 
 The bank uses your EIN to report interest income and other tax-relevant information to the IRS. It also serves as the primary identifier on your account, linking your business banking activity to your business entity. This separation between personal and business finances is essential for maintaining your LLC's liability protection and keeping clean books.
 
-If you do not yet have an EIN, [apply through ein.so](/apply/) to get one in as few as 7 business days (Express) or 14 business days (Standard). Once you have your EIN, you can immediately apply for a business bank account.
+If you do not yet have an EIN, [apply through ein.so](/apply/) to get one in as few as 2-3 business days (Express) or 4-7 business days (Standard). Once you have your EIN, you can immediately apply for a business bank account.
 
 </Section>
 
@@ -168,7 +168,7 @@ A utility bill, lease agreement, or registered agent confirmation showing your b
 
 <Steps>
 <Step step="1" title="Form Your US LLC or Corporation">Register your business entity in a US state. Wyoming and Delaware are the most popular choices for non-residents due to favorable tax laws, strong privacy protections, and low annual fees. This gives you the legal structure banks require.</Step>
-<Step step="2" title="Get Your EIN from the IRS">Apply for your EIN through ein.so. We file [Form SS-4](/tools/ss4-form-helper/) by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 14 business days. Express service ($97) takes 7 business days. No SSN required.</Step>
+<Step step="2" title="Get Your EIN from the IRS">Apply for your EIN through ein.so. We file [Form SS-4](/tools/ss4-form-helper/) by fax with the IRS and deliver your EIN confirmation letter. Standard service ($49) takes 4-7 business days. Express service ($97) takes 2-3 business days. No SSN required.</Step>
 <Step step="3" title="Gather Your Documents">Collect your EIN confirmation letter, Articles of Organization, operating agreement, passport scan, and proof of business address. Have these ready before starting your bank application to avoid delays.</Step>
 <Step step="4" title="Choose Your Bank and Apply Online">Select Mercury, Relay, or Wise Business based on your needs. Complete the online application, upload your documents, and provide information about your business activities. The entire process takes 15-30 minutes.</Step>
 <Step step="5" title="Wait for Approval and Start Banking">Most applications are reviewed within 1-5 business days. Once approved, you receive your account details, routing number, and account number by email. You can immediately start receiving payments, paying vendors, and managing your business finances.</Step>
@@ -205,7 +205,7 @@ Start with a business checking account. Add a savings account once your revenue 
 This pierces your LLC's liability protection and makes tax filing a nightmare. Always open a dedicated business account with your EIN.
 </Card>
 <Card title="Applying before you have your EIN" index={2}>
-Banks will reject your application without an EIN. Get your EIN first, then apply for the bank account. ein.so can have your EIN ready in 7 business days with Express service.
+Banks will reject your application without an EIN. Get your EIN first, then apply for the bank account. ein.so can have your EIN ready in 2-3 business days with Express service.
 </Card>
 <Card title="Choosing a bank that does not serve non-residents" index={3}>
 Traditional banks like Chase, Bank of America, and Wells Fargo require an in-person visit and SSN. Stick with Mercury, Relay, or Wise for remote, non-resident-friendly account opening.

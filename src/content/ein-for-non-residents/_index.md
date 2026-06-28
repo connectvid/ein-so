@@ -27,13 +27,13 @@ faqs:
   - q: "Do I need an SSN to get an EIN as a non-resident?"
     a: "No. Non-US residents do not need a Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN) to get an EIN. On Form SS-4, you enter your passport number and foreign address instead. The IRS specifically designed the fax and phone application methods to accommodate applicants without US identification numbers."
   - q: "How long does it take for a non-resident to get an EIN?"
-    a: "By fax (the most common method), EIN processing takes 4-7 business days. By phone, you may receive your EIN the same day if you reach an agent. ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 7 business days) for non-residents."
+    a: "By fax (the most common method), EIN processing takes 4-7 business days. By phone, you may receive your EIN the same day if you reach an agent. ein.so offers Standard processing ($49, 4-7 business days) and Express processing ($97, 2-3 business days) for non-residents."
   - q: "What documents do non-residents need to apply for an EIN?"
     a: "Non-residents need a valid passport (or other government-issued ID) and the details of their US business entity (LLC name, formation state, business address). No SSN, ITIN, or US visa is required. If you are applying as a foreign individual (not through an LLC), you need your passport number and foreign address."
   - q: "Why can't non-residents use the IRS online EIN application?"
     a: "The IRS online EIN Assistant requires a valid SSN or ITIN for identity verification. Non-US residents who do not have either of these numbers are locked out of the online system. This is a system limitation, not a policy against non-residents. The IRS provides the fax and phone methods specifically for applicants without US identification numbers."
   - q: "How much does ein.so charge for non-resident EIN applications?"
-    a: "ein.so charges $49 for Standard processing (4-7 business days) and $97 for Express processing (7 business days). This covers SS-4 preparation, fax filing, IRS follow-up, and delivery of your EIN confirmation letter. The EIN itself is free from the IRS -- our fee covers the service of handling the application process."
+    a: "ein.so charges $49 for Standard processing (4-7 business days) and $97 for Express processing (2-3 business days). This covers SS-4 preparation, fax filing, IRS follow-up, and delivery of your EIN confirmation letter. The EIN itself is free from the IRS -- our fee covers the service of handling the application process."
   - q: "Can I get an EIN from outside the United States?"
     a: "Yes. You can apply for an EIN from any country in the world. There is no requirement to be physically present in the United States. ein.so serves clients in over 100 countries, handling the entire process remotely. You never need to visit the US, call the IRS, or find a fax machine."
   - q: "What can I do with my EIN as a non-resident?"
@@ -42,7 +42,7 @@ faqs:
 
 <Section>
 <Capsule>
-**Non-US residents can get an EIN by submitting IRS Form SS-4 by fax, as outlined in IRS Publication 1635. No SSN or ITIN is required -- your passport number and foreign address are sufficient (enter 'N/A' on Line 7b per IRS instructions). The IRS online application is not available to non-residents, which is why the fax method exists.** Non-residents fax Form SS-4 to the IRS at (855) 641-6935 for international applicants. ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (7 business days).
+**Non-US residents can get an EIN by submitting IRS Form SS-4 by fax, as outlined in IRS Publication 1635. No SSN or ITIN is required -- your passport number and foreign address are sufficient (enter 'N/A' on Line 7b per IRS instructions). The IRS online application is not available to non-residents, which is why the fax method exists.** Non-residents fax Form SS-4 to the IRS at (855) 641-6935 for international applicants. ein.so was built specifically for this: we prepare your SS-4, fax it to the IRS, track the response, and deliver your EIN. Standard processing costs $49 (4-7 business days). Express costs $97 (2-3 business days).
 </Capsule>
 
 ![EIN for non-US residents — global entrepreneurs connecting to the United States](/images/ein-for-non-residents.webp)
@@ -70,7 +70,7 @@ The result is that non-residents are forced to use one of two offline methods: f
 
 | Method | Eligibility | Time | Cost |
 | --- | --- | --- | --- |
-| ein.so Express (Fax) | Any non-resident, any country | 7 business days | $97 |
+| ein.so Express (Fax) | Any non-resident, any country | 2-3 business days | $97 |
 | ein.so Standard (Fax) | Any non-resident, any country | 4-7 business days | $49 |
 | DIY Fax (Form SS-4) | Any non-resident with fax access | 4-7 business days if accepted | Free + fax costs (~$3-10) |
 | IRS Phone (267-941-1099) | Any non-resident, English speakers | Same day (if connected) | Free + international call costs |
@@ -220,7 +220,7 @@ Establish a credit profile with Dun & Bradstreet using your EIN as the identifie
 </Card>
 </NumberedCards>
 
-The EIN is the foundation of your US business presence. Everything else -- banking, selling, hiring, taxes -- builds on top of it. The sooner you get your EIN, the sooner you can start operating. [Apply for your EIN now](/apply/) and have it in as few as 7 business days with Express processing.
+The EIN is the foundation of your US business presence. Everything else -- banking, selling, hiring, taxes -- builds on top of it. The sooner you get your EIN, the sooner you can start operating. [Apply for your EIN now](/apply/) and have it in as few as 2-3 business days with Express processing.
 
 </Section>
 
@@ -232,7 +232,7 @@ The EIN is the foundation of your US business presence. Everything else -- banki
 
 | Method | Processing Time | Cost | Recommended? |
 | --- | --- | --- | --- |
-| ein.so Express | 7 business days | $97 | Best for urgent needs |
+| ein.so Express | 2-3 business days | $97 | Best for urgent needs |
 | ein.so Standard | 4-7 business days | $49 | Best value |
 | DIY Fax | 4-7 business days (if no errors) | Free + fax costs | High rejection risk |
 | IRS Phone | Same day (if you reach an agent) | Free + call costs | Long hold times, limited hours |

@@ -21,13 +21,13 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Get your US EIN from Canada without an SSN. ein.so handles the IRS fax filing for Canadian cross-border sellers, e-commerce businesses, and Shopify merchants. $49 Standard. $97 Express."
 faqs:
   - q: "Can Canadian citizens get a US EIN?"
-    a: "Yes. Canadian citizens and residents can get a US EIN by submitting Form SS-4 by fax or phone. You do not need a US Social Security Number. Your Canadian passport number serves as your identifying number on the SS-4. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Canadian citizens and residents can get a US EIN by submitting Form SS-4 by fax or phone. You do not need a US Social Security Number. Your Canadian passport number serves as your identifying number on the SS-4. ein.so handles the entire process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do Canadians need an SSN or ITIN to get a US EIN?"
     a: "No. Canadian applicants do not need an SSN or ITIN. The IRS online EIN tool requires an SSN, which locks out Canadian applicants. The fax method accepts your Canadian passport number as identification. ein.so uses the fax method to file your Form SS-4 with the IRS."
   - q: "Can I call the IRS from Canada to get an EIN?"
     a: "Yes, Canadians can call the IRS at 267-941-1099 to apply by phone. Since Canada shares a similar time zone and has no international calling barriers, this is technically possible. However, hold times often exceed 60 minutes, and you must call during IRS business hours (6 AM - 11 PM ET, Monday-Friday). The fax method through ein.so is faster and more reliable."
   - q: "How long does it take for a Canadian to receive a US EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). By phone, you may receive your EIN the same day if you reach an agent. The DIY fax method takes 4-7 business days if your form is error-free."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). By phone, you may receive your EIN the same day if you reach an agent. The DIY fax method takes 4-7 business days if your form is error-free."
   - q: "Do I need a US LLC to get an EIN as a Canadian?"
     a: "Not necessarily. You can apply for an EIN as a foreign individual if you have US tax obligations. However, most Canadians apply for an EIN through a US LLC because it provides liability protection, US banking access, and a professional US business presence. The LLC is the most common structure for Canadian cross-border entrepreneurs."
   - q: "Can I sell on Amazon.com from Canada with a US EIN?"
@@ -42,7 +42,7 @@ faqs:
 ![ein for canada](/images/ein-for-canada.webp)
 
 <Capsule>
-**Canadians can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required -- your Canadian passport number is sufficient.** While Canadians can technically call the IRS, hold times are long and unreliable. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
+**Canadians can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required -- your Canadian passport number is sufficient.** While Canadians can technically call the IRS, hold times are long and unreliable. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
 </Capsule>
 
 ### The Scale of Canada-US Cross-Border Business
@@ -93,7 +93,7 @@ Canadian applicants receive their EIN in 4-7 business days via fax, with a 98% f
 <Step step="1" title="Form Your US LLC">Most Canadians form an LLC in Wyoming or Delaware through a registered agent. This is done entirely online from Canada. The LLC gives you a US legal entity, a registered address, and the structure you need for US banking and tax compliance.</Step>
 <Step step="2" title="Prepare Form SS-4">Complete IRS Form SS-4 with your LLC details and your Canadian passport number. Your Canadian home address goes in the responsible party section. ein.so prepares this form for you to ensure accuracy.</Step>
 <Step step="3" title="Submit via Fax">Fax the completed SS-4 to the IRS at 855-215-1627. ein.so uses commercial-grade fax systems to ensure clear transmission. The IRS processes faxed applications in 4-7 business days.</Step>
-<Step step="4" title="Receive Your EIN">The IRS faxes back your EIN assignment letter (CP 575). ein.so delivers your EIN via email as soon as it arrives. With Express processing ($97), you can have your EIN in 7 business days.</Step>
+<Step step="4" title="Receive Your EIN">The IRS faxes back your EIN assignment letter (CP 575). ein.so delivers your EIN via email as soon as it arrives. With Express processing ($97), you can have your EIN in 2-3 business days.</Step>
 </Steps>
 
 ### Why Fax Beats the Phone Method for Canadians

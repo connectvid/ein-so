@@ -21,11 +21,11 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from the Philippines without an SSN. ein.so handles the IRS fax filing for Filipino freelancers, virtual assistants, and BPO professionals. $49 Standard. $97 Express."
 faqs:
   - q: "Can Filipino citizens get a US EIN?"
-    a: "Yes. Filipino citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Philippine passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. Filipino citizens can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your Philippine passport number serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do Filipino entrepreneurs need an SSN to get a US EIN?"
     a: "No. Filipino applicants do not need a Social Security Number or ITIN. Your Philippine passport number is used on Form SS-4. The IRS online EIN tool requires an SSN, so Filipino applicants use the fax method. ein.so handles the fax filing for you."
   - q: "How long does it take for a Filipino to receive a US EIN?"
-    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 7 business days ($97). The IRS phone method is impractical from the Philippines due to the 12-13 hour time difference with US Eastern Time."
+    a: "Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). The IRS phone method is impractical from the Philippines due to the 12-13 hour time difference with US Eastern Time."
   - q: "Do Filipino freelancers and virtual assistants need a US EIN?"
     a: "If you form a US LLC for your freelancing or VA business, you need an EIN to open a US bank account, accept payments through US platforms, and file US taxes. A US entity gives you credibility with US clients and access to better payment processing. Many top Filipino VAs operate through US LLCs."
   - q: "Can I use my EIN with PayPal and Payoneer?"
@@ -89,7 +89,7 @@ Filipino applicants receive their EIN in 4-7 business days via fax, with a 97% f
 <Step step="1" title="Form a US LLC">Form an LLC in Wyoming or Delaware through a registered agent. The entire process is done online from the Philippines. Most Filipino entrepreneurs choose Wyoming for its low costs and privacy protections.</Step>
 <Step step="2" title="Gather Your Documents">You need your Philippine passport (valid and unexpired) and your LLC formation details. No Philippine TIN, SSS number, or DTI/SEC registration is needed for the US EIN application.</Step>
 <Step step="3" title="Apply Through ein.so">Complete our 3-minute application. We prepare your SS-4, format your Philippine address correctly, and fax it to the IRS. Standard processing is $49. Express is $97.</Step>
-<Step step="4" title="Receive Your EIN">We deliver your EIN via email once the IRS processes your application. Standard takes 4-7 business days. Express takes 7 business days. You receive your official CP 575 confirmation letter.</Step>
+<Step step="4" title="Receive Your EIN">We deliver your EIN via email once the IRS processes your application. Standard takes 4-7 business days. Express takes 2-3 business days. You receive your official CP 575 confirmation letter.</Step>
 </Steps>
 
 The time zone difference between the Philippines (PHT, UTC+8) and US Eastern Time makes calling the IRS extremely inconvenient -- you would need to call between 6 PM and 11 AM PHT, with peak hours being late night. The fax method through ein.so is the practical choice. Learn more about [how to get an EIN](/how-to-get-ein/).

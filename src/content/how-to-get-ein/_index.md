@@ -21,7 +21,7 @@ schema:
   dateModified: "2026-05-09"
 howToSteps:
   - name: "Choose Your Package"
-    text: "Select Standard ($49, 14 business days) or Express ($97, 7 business days). Both include full SS-4 filing with the IRS."
+    text: "Select Standard ($49, 4-7 business days) or Express ($97, 2-3 business days). Both include full SS-4 filing with the IRS."
   - name: "Submit Your Details"
     text: "Fill out a simple form with your legal name, date of birth, country of citizenship, mailing address, and business details. No SSN required."
   - name: "We File Your SS-4"
@@ -161,7 +161,7 @@ We built ein.so specifically to solve this problem for non-US residents. We hand
 
 | Feature | Standard ($49) | Express ($97) |
 |---------|----------------|---------------|
-| Delivery Time | 14 business days | 7 business days |
+| Delivery Time | 4-7 business days | 2-3 business days |
 | SS-4 Preparation | Included | Included |
 | IRS Fax Filing | Included | Priority submission |
 | IRS Phone Follow-Up | Not included | Included |

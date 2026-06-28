@@ -22,7 +22,7 @@ export const PRICING = {
   standard: {
     name: "Standard EIN",
     price: 49,
-    turnaround: "14 business days",
+    turnaround: "4-7 business days",
     cta: "Get My EIN for $49",
     highlighted: false,
     stripeLink: STRIPE_LINKS.standard,
@@ -37,7 +37,7 @@ export const PRICING = {
   express: {
     name: "Express EIN",
     price: 97,
-    turnaround: "7 business days",
+    turnaround: "2-3 business days",
     cta: "Get My EIN Fast · $97",
     highlighted: true,
     stripeLink: STRIPE_LINKS.express,

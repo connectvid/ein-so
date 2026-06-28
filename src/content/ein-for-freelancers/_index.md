@@ -131,7 +131,7 @@ The process depends on whether you are a US resident or a non-US freelancer.
 
 <InfoBox title="US Residents">Visit IRS.gov, navigate to the EIN Assistant, and complete the online application. You receive your EIN instantly. The process takes about 10 minutes. Select "Sole Proprietor" as your entity type (unless you have an LLC). Enter your SSN when prompted -- it is only used for verification and does not appear on your EIN.</InfoBox>
 
-<InfoBox title="Non-US Freelancers">The IRS online application requires an SSN, so non-US freelancers must apply by fax using Form SS-4. ein.so handles this process completely. We prepare your Form SS-4, verify every field, fax it to the IRS, and deliver your EIN by email and WhatsApp. Standard service costs $49 (14 business days). Express costs $97 (7 business days). [Apply now](/apply/).</InfoBox>
+<InfoBox title="Non-US Freelancers">The IRS online application requires an SSN, so non-US freelancers must apply by fax using Form SS-4. ein.so handles this process completely. We prepare your Form SS-4, verify every field, fax it to the IRS, and deliver your EIN by email and WhatsApp. Standard service costs $49 (4-7 business days). Express costs $97 (2-3 business days). [Apply now](/apply/).</InfoBox>
 
 Once you receive your EIN, update all your W-9 forms with clients and platforms. Going forward, use your EIN on every new W-9 you fill out. Your SSN stays private, and your tax reporting continues exactly as before -- just with a different TIN on the forms.
 

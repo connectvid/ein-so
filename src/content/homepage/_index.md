@@ -7,7 +7,7 @@ faqs:
   - q: "How much does it cost to get an EIN through ein.so?"
     a: "Standard EIN service is $49 with 14 business day turnaround. Express EIN service is $97 with 7 business day turnaround. The IRS does not charge a fee for EINs. Our fee covers SS-4 preparation, filing, and delivery."
   - q: "How long does it take to get an EIN?"
-    a: "7 business days with ein.so Express ($97) or 14 business days with Standard ($49). The IRS processes faxed Form SS-4 applications in about 4 business days on their end. Non-residents cannot use the instant online method."
+    a: "2-3 business days with ein.so Express ($97) or 4-7 business days with Standard ($49). The IRS processes faxed Form SS-4 applications in about 4 business days on their end. Non-residents cannot use the instant online method."
   - q: "Do I need an SSN to get an EIN?"
     a: "No. Non-US residents can get an EIN without an SSN. You will need a valid passport or other government-issued ID. Form SS-4 has a specific section for applicants without an SSN or ITIN."
   - q: "What is the difference between an EIN and an ITIN?"

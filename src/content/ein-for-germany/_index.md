@@ -21,7 +21,7 @@ heroAccent: "Entrepreneurs"
 heroDescription: "Apply for a US EIN from Germany without an SSN. ein.so handles the IRS fax filing for German Amazon sellers, GmbH owners, and EU-US businesses. $49 Standard. $97 Express."
 faqs:
   - q: "Can German citizens get a US EIN?"
-    a: "Yes. German citizens and residents can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your German passport number (Reisepass) serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days)."
+    a: "Yes. German citizens and residents can get a US EIN by submitting Form SS-4 by fax to the IRS. No SSN or ITIN is required. Your German passport number (Reisepass) serves as identification. ein.so handles the process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days)."
   - q: "Do I need an SSN or ITIN to get a US EIN from Germany?"
     a: "No. German applicants do not need a US Social Security Number or ITIN. Your Reisepass (passport) number is used on Form SS-4 as your foreign identification number. The IRS online EIN tool requires an SSN, so German applicants use the fax method. ein.so handles the fax filing."
   - q: "Should I use my GmbH or form a US LLC?"
@@ -38,7 +38,7 @@ faqs:
 
 <Section>
 <Capsule>
-**German entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Reisepass (passport) number. No SSN, ITIN, or US visa is required.** Germany is the second-largest Amazon market in the world, and German sellers expanding to Amazon.com need an EIN. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 7 business days).
+**German entrepreneurs can get a US EIN by faxing IRS Form SS-4 with their Reisepass (passport) number. No SSN, ITIN, or US visa is required.** Germany is the second-largest Amazon market in the world, and German sellers expanding to Amazon.com need an EIN. ein.so handles the fax filing for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days).
 </Capsule>
 
 ### Germany's Position in US-EU Trade

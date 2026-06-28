@@ -31,7 +31,7 @@ faqs:
   - q: "Do non-US Amazon sellers need an EIN?"
     a: "Yes. Non-US residents who want to sell on Amazon.com (the US marketplace) need an EIN to complete the tax interview. Without an EIN, you cannot complete your Seller Central registration and cannot list products for sale. ein.so handles EIN applications for non-US Amazon sellers for $49."
   - q: "How long does it take to get an EIN for Amazon selling?"
-    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For non-US sellers using the fax method, processing takes 4-7 business days. ein.so's Express service ($97) can deliver your EIN in 7 business days so you can start your Amazon business sooner."
+    a: "If you apply online with an SSN or ITIN, you receive your EIN instantly. For non-US sellers using the fax method, processing takes 4-7 business days. ein.so's Express service ($97) can deliver your EIN in 2-3 business days so you can start your Amazon business sooner."
   - q: "Do I need an EIN for Amazon FBA specifically?"
     a: "Yes. Amazon FBA (Fulfillment by Amazon) sellers must complete the same tax interview as all other Amazon sellers. The EIN is required during this registration step. Additionally, if you are selling through an LLC (which is recommended for liability protection), the LLC requires its own EIN."
   - q: "Can I use the same EIN for Amazon and my bank account?"

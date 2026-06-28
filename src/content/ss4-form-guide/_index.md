@@ -71,7 +71,7 @@ Form SS-4 is the only way for non-US residents without an SSN or ITIN to apply f
 
 ### Filing Options and Costs
 
-If you prefer to skip the paperwork entirely, [ein.so handles the entire SS-4 filing process](/apply/) for $49 (Standard, 14 business days) or $97 (Express, 7 business days). We complete the form, fax it to the IRS, and deliver your EIN by email. For those who want to do it themselves, read on for the complete line-by-line breakdown. You can also review our broader [How to Get an EIN](/how-to-get-ein/) guide for all three application methods.
+If you prefer to skip the paperwork entirely, [ein.so handles the entire SS-4 filing process](/apply/) for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). We complete the form, fax it to the IRS, and deliver your EIN by email. For those who want to do it themselves, read on for the complete line-by-line breakdown. You can also review our broader [How to Get an EIN](/how-to-get-ein/) guide for all three application methods.
 
 ### SS-4 Filing Method Comparison
 
