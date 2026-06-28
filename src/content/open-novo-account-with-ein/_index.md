@@ -82,7 +82,7 @@ Your EIN is the document that ties the account to your business. Novo matches yo
 Opening a Novo account takes 5 steps and 1 to 2 business days after your documents are ready.
 
 <Steps>
-<Step step="1" title="Get Your EIN First">Every US business account needs an EIN. Non-residents file Form SS-4 by fax because the IRS online tool is blocked without an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 7 to 14 business days.</Step>
+<Step step="1" title="Get Your EIN First">Every US business account needs an EIN. Non-residents file Form SS-4 by fax because the IRS online tool is blocked without an SSN or ITIN. [ein.so files it for you](/apply/) and delivers the EIN in 4-7 business days.</Step>
 <Step step="2" title="Confirm Your Eligibility">Novo expects the owner to have a US Social Security Number. If you have one, continue. If you are a non-resident without an SSN, switch to [Mercury](/open-mercury-account-with-ein/) or [Relay](/open-relay-account-with-ein/).</Step>
 <Step step="3" title="Prepare Your Documents">Collect your EIN confirmation letter, Articles of Organization, Operating Agreement, and a government-issued ID. Save them as clear PDFs or images.</Step>
 <Step step="4" title="Apply on the Novo Site or App">Go to novo.co, enter your legal business name exactly as it appears on your EIN letter, your EIN, your business type, and your owner details. Describe your business clearly.</Step>
@@ -119,7 +119,7 @@ Novo is best for US-based freelancers. Non-residents should compare it against a
 
 | Bank | Non-Resident Friendly | SSN Required | Monthly Fee | Best For |
 |------|-----------------------|--------------|-------------|----------|
-| **[Novo](/open-novo-account-with-ein/)** | Limited | Usually yes | $0 | US-based freelancers |
+| **Novo** | Limited | Usually yes | $0 | US-based freelancers |
 | [Mercury](/open-mercury-account-with-ein/) | Yes | No | $0 | Startups, SaaS, tech |
 | [Relay](/open-relay-account-with-ein/) | Yes | No | $0 | E-commerce |
 | [Wise](/open-wise-account-with-ein/) | Yes | No | Low | International payments |
@@ -219,7 +219,7 @@ The full timeline from EIN application to a funded Novo account is 2 to 4 weeks 
 | Stage | Time |
 |-------|------|
 | Form your US LLC | 1 to 10 business days (varies by state) |
-| Get your EIN via [ein.so](/apply/) | 7 business days (Express) or 14 (Standard) |
+| Get your EIN via [ein.so](/apply/) | 2-3 business days (Express) or 14 (Standard) |
 | Open the Novo account | Same day to 2 business days |
 | First deposit clears | 1 to 3 business days |
 | **Total** | **About 2 to 4 weeks** |
