@@ -102,7 +102,7 @@ The EIN format is **XX-XXXXXXX**, two digits, a hyphen, then seven digits (e.g.,
 
 ### How to Get an EIN
 
-US residents with an SSN can apply for an EIN online at irs.gov in 15 minutes and receive it instantly. Non-US residents without an SSN must apply by faxing Form SS-4 to the IRS at 855-215-1627. This fax-based process takes 4 business days. At ein.so, we handle the entire fax process for $49 (Standard, 14 business days) or $97 (Express, 7 business days). [Learn more about what an EIN is and why you need one](/what-is-ein/).
+US residents with an SSN can apply for an EIN online at irs.gov in 15 minutes and receive it instantly. Non-US residents without an SSN must apply by faxing Form SS-4 to the IRS at 855-215-1627. This fax-based process takes 4-7 business days. At ein.so, we handle the entire fax process for $49 (Standard, 4-7 business days) or $97 (Express, 2-3 business days). [Learn more about what an EIN is and why you need one](/what-is-ein/).
 
 </Section>
 
@@ -187,7 +187,7 @@ For a deeper dive into how these numbers compare, see our guide on [What Is an E
 
 **Without SSN:** File Form SS-4 by fax. Takes 4-7 business days. Free from IRS, but the fax process is complicated for non-residents.
 
-**With ein.so:** We handle the entire SS-4 process for **$49** (standard, 14 business days) or **$97** (express, 7 business days). No SSN required. No paperwork for you.
+**With ein.so:** We handle the entire SS-4 process for **$49** (standard, 4-7 business days) or **$97** (express, 2-3 business days). No SSN required. No paperwork for you.
 
 <LinkButton href="/apply/">Get My EIN for $49</LinkButton>
 
@@ -228,4 +228,5 @@ Tell the tax IDs apart:
 - [EIN vs SSN: Key Differences](/ein-vs-ssn/) — business vs personal ID
 - [FEIN vs EIN: Are They the Same?](/fein-vs-ein/) — the federal tax ID, explained
 - [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/) — same number, different names
+- [Tax Identification Number (TIN)](/tax-identification-number/) — the umbrella for every US tax ID
 </Section>

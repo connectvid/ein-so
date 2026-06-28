@@ -22,8 +22,6 @@ heroDescription: "A Federal Tax ID is the same as an EIN. Both name the 9-digit 
 ctaTitle: "Need an EIN? We Handle Everything."
 ctaSubtitle: "Non-US resident? We file Form SS-4 with the IRS and deliver your EIN by email. Just $49."
 faqs:
-  - q: "Is a Federal Tax ID the same as an EIN?"
-    a: "Yes. A Federal Tax ID and an EIN are the same 9-digit number issued by the IRS. The terms are fully interchangeable, along with FEIN and Federal Employer Identification Number. The format is XX-XXXXXXX, for example 12-3456789. Every US LLC, corporation, and partnership uses this single number for federal tax purposes."
   - q: "How do I get a Federal Tax ID number?"
     a: "You get a Federal Tax ID by filing IRS Form SS-4. US residents apply online for an instant number using an SSN. Non-residents file by fax to 855-215-1627 using a passport number on Line 7b. The IRS charges $0. ein.so files the SS-4 for you for $49 Standard or $97 Express."
   - q: "Is a Federal Tax ID free?"
@@ -36,8 +34,6 @@ faqs:
     a: "A Federal Tax ID uses the format XX-XXXXXXX: nine digits with a hyphen after the second digit. An example is 12-3456789. This is identical to an EIN. A Social Security Number uses XXX-XX-XXXX instead. The two-digit prefix once signaled the issuing IRS campus but no longer reflects location."
   - q: "How long does it take to get a Federal Tax ID?"
     a: "Online applications with an SSN return a Federal Tax ID instantly. Fax filings take 4-7 business days when the SS-4 is error-free. Mail takes 4-6 weeks. Through ein.so, Standard processing takes 4-7 business days ($49) and Express takes 2-3 business days ($97). See the EIN processing time guide for details."
-  - q: "Is a Federal Tax ID the same as a state tax ID?"
-    a: "No. A Federal Tax ID (EIN) comes from the IRS and applies nationwide. A state tax ID comes from a state revenue department for state-level sales tax or payroll. Many businesses hold both: one federal EIN and one or more state tax registrations. The two numbers serve different agencies and purposes."
   - q: "Can I look up a Federal Tax ID number?"
     a: "You find your own Federal Tax ID on your IRS CP 575 assignment letter, prior tax returns, or bank records. The IRS does not run a public EIN lookup tool. To recover a lost EIN, call the IRS Business and Specialty Tax Line. ein.so emails your EIN assignment letter after filing."
 ---
@@ -66,19 +62,9 @@ A Federal Tax ID number identifies a business to the IRS the way a Social Securi
 
 ## Is a Federal Tax ID the Same as an <Accent>EIN?</Accent>
 
-Yes. A Federal Tax ID and an EIN are the same 9-digit IRS number. The IRS calls it an Employer Identification Number. Business owners, banks, and software call it a Federal Tax ID, a FEIN, or a Tax ID. All four terms name one identifier.
+Yes. A Federal Tax ID and an EIN are the same 9-digit IRS number. The IRS calls it an Employer Identification Number; banks, vendors, and software call it a Federal Tax ID, a FEIN, or a Business Tax ID. You do not need employees to get one — the word "employer" in the name is historical, and a single-member LLC with zero employees still uses one.
 
-The number's official name is Employer Identification Number, but you do not need employees to get one. A single-member LLC with zero employees still uses an EIN. The word "employer" in the name is historical. The table below maps the common synonyms to the one underlying number.
-
-| Term | Same Number? | Who Uses It |
-|------|--------------|-------------|
-| EIN | Yes | IRS forms, official documents |
-| Federal Tax ID | Yes | Banks, vendors, contracts |
-| FEIN | Yes | Payroll and state filings |
-| Business Tax ID | Yes | Payment processors |
-| Federal Employer ID | Yes | Tax preparation software |
-
-See [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/) and [FEIN vs EIN](/fein-vs-ein/) for full explanations. A [Federal Tax ID is not the same as a state tax ID](/state-tax-id/), and it differs from an [ITIN](/itin-number/), which identifies individuals rather than businesses.
+This page is the practical guide to what the number is and how to get it. For a side-by-side breakdown of the terminology, see [EIN vs Federal Tax ID](/ein-vs-federal-tax-id/) and [FEIN vs EIN](/fein-vs-ein/). For how the Federal Tax ID fits among all US tax IDs, see the [tax identification number](/tax-identification-number/) overview. A Federal Tax ID is not the same as a [state tax ID](/state-tax-id/), and it differs from an [ITIN](/itin-number/), which identifies individuals rather than businesses.
 </Section>
 
 <Section>

@@ -136,11 +136,13 @@ For a detailed comparison of how EIN relates to the broader Tax ID concept, see 
 
 ### Non-Resident TIN Options
 
-Over 420,000 foreign-owned LLCs operate in the US, each requiring an EIN as their business TIN. Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 7 to 14 business days. This EIN becomes your business's TIN for all US tax and business purposes.
+Over 420,000 foreign-owned LLCs operate in the US, each requiring an EIN as their business TIN. Non-US residents who form a US business entity need an EIN, which serves as their business TIN. The process does not require an SSN or ITIN. You file Form SS-4 by fax with the IRS, and they assign an EIN within 4-7 business days. This EIN becomes your business's TIN for all US tax and business purposes.
 
 If you also need a personal TIN for US tax filing (for example, to report personal income from your US business), you apply separately for an ITIN using Form W-7. The EIN and ITIN are independent applications. You can get an EIN without having an ITIN, and you do not need the ITIN to apply for the EIN. Most non-residents start with the EIN because it is required to open a bank account and begin operations.
 
-ein.so handles the EIN application for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing costs **$49** (14 business days) and Express costs **$97** (7 business days). No SSN, no ITIN, no US address required.
+ein.so handles the EIN application for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing costs **$49** (4-7 business days) and Express costs **$97** (2-3 business days). No SSN, no ITIN, no US address required.
+
+A TIN is the umbrella category, and the EIN is your business TIN. See the [tax identification number](/tax-identification-number/) overview for how the EIN, SSN, and ITIN each fit within it.
 
 </Section>
 

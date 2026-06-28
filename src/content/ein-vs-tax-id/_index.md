@@ -24,8 +24,6 @@ schema:
 faqs:
   - q: "Is an EIN the same as a Tax ID?"
     a: "Not exactly. A Tax ID (Taxpayer Identification Number or TIN) is an umbrella term that covers all identification numbers the IRS uses for tax purposes. An EIN is one specific type of Tax ID used for businesses. Other types of Tax IDs include SSNs (for individuals) and ITINs (for individuals without SSN eligibility). So every EIN is a Tax ID, but not every Tax ID is an EIN."
-  - q: "What are the different types of Tax IDs?"
-    a: "The IRS issues three main types of Tax IDs: EIN (Employer Identification Number) for businesses, SSN (Social Security Number) for US citizens and authorized workers, and ITIN (Individual Taxpayer Identification Number) for individuals who need to file taxes but cannot get an SSN. There are also ATINs (Adoption Taxpayer Identification Numbers) and PTINs (Preparer Tax Identification Numbers) for specific situations."
   - q: "Which Tax ID do I need for my business?"
     a: "You need an EIN (Employer Identification Number) for your business. The EIN is the specific type of Tax ID designed for business entities including LLCs, corporations, partnerships, nonprofits, trusts, and estates. Even sole proprietors should get an EIN to separate their business identity from their personal SSN."
   - q: "Can I use my SSN as my business Tax ID?"
@@ -137,11 +135,11 @@ The simplest way to remember: if you are filling out a form for your business, y
 
 ### Application Methods and Processing Times
 
-Getting an EIN is straightforward. US residents with an SSN can apply online at irs.gov and receive their EIN instantly. Non-residents without an SSN apply by filing Form SS-4 by fax. The IRS does not charge for EIN applications regardless of method. Over 73% of applications are submitted online, with 100% receiving instant issuance. Fax applications take 4-14 business days. Mail applications take 4-6 weeks. The only cost is your time and effort in completing the form correctly.
+Getting an EIN is straightforward. US residents with an SSN can apply online at irs.gov and receive their EIN instantly. Non-residents without an SSN apply by filing Form SS-4 by fax. The IRS does not charge for EIN applications regardless of method. Over 73% of applications are submitted online, with 100% receiving instant issuance. Fax applications take 4-7 business days. Mail applications take 4-6 weeks. The only cost is your time and effort in completing the form correctly.
 
-ein.so simplifies the fax process for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing takes 14 business days for **$49**. Express processing takes 7 business days for **$97**. Both plans include pre-submission review to prevent rejections and resubmission at no extra charge if the IRS returns an error.
+ein.so simplifies the fax process for non-residents. We prepare your Form SS-4, fax it to the IRS, and deliver your EIN to your WhatsApp or email. Standard processing takes 4-7 business days for **$49**. Express processing takes 2-3 business days for **$97**. Both plans include pre-submission review to prevent rejections and resubmission at no extra charge if the IRS returns an error.
 
-Once you receive your EIN, it is permanent. You use it for the lifetime of your business entity. It never expires, and the IRS never reuses it. Store your EIN confirmation letter (CP 575) safely, as it is the official proof that the IRS assigned this number to your entity. Learn more about [what an EIN is](/what-is-ein/) or [apply for your EIN today](/apply/).
+Once you receive your EIN, it is permanent. You use it for the lifetime of your business entity. It never expires, and the IRS never reuses it. Store your EIN confirmation letter (CP 575) safely, as it is the official proof that the IRS assigned this number to your entity. Learn more about [what an EIN is](/what-is-ein/), see how it fits among all US tax IDs in the [tax identification number](/tax-identification-number/) overview, or [apply for your EIN today](/apply/).
 
 </Section>
 

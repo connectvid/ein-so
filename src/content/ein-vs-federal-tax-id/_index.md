@@ -26,10 +26,6 @@ faqs:
     a: "Yes. An EIN (Employer Identification Number) is the Federal Tax ID for a business. When a bank or form asks for a business Federal Tax ID, it wants your EIN. The IRS issues the EIN as the business's federal tax identification number. Both terms describe the same 9-digit number in XX-XXXXXXX format."
   - q: "What is the difference between a Tax ID and an EIN?"
     a: "Tax ID (TIN, Taxpayer Identification Number) is the umbrella term covering EINs, SSNs, and ITINs. An EIN is the Tax ID for businesses. An SSN is the Tax ID for US citizens. An ITIN is the Tax ID for non-residents without an SSN. A business Tax ID always means the EIN."
-  - q: "How do I get a Federal Tax ID number?"
-    a: "Apply for an EIN through the IRS. US residents with an SSN apply online at irs.gov for instant issuance. Non-residents submit Form SS-4 by fax to 855-215-1627 using a passport number on Line 7b. The IRS charges $0. ein.so handles the fax process for non-residents for $49 (4-7 business days)."
-  - q: "Is a Federal Tax ID number free?"
-    a: "Yes. The IRS issues EINs (Federal Tax IDs) at no cost. The application is free by online, fax, phone, or mail. Third-party services like ein.so charge for Form SS-4 preparation and filing assistance, not for the EIN itself. ein.so charges $49 Standard or $97 Express for non-residents."
   - q: "Do I need a Federal Tax ID if I already have an SSN?"
     a: "If you operate a business, yes. Your SSN is your personal Tax ID. Your EIN (Federal Tax ID) is your business Tax ID. Using your SSN for business invoices and vendor forms exposes your personal identity. An EIN separates your business and personal tax identities and reduces fraud risk."
   - q: "Can non-US residents get a Federal Tax ID?"
@@ -237,7 +233,7 @@ Next steps after you get your EIN:
 1. **[Open a US bank account](/ein-for-bank-account/)** — Mercury and Relay accept non-resident LLC owners.
 2. **[File your BOI report](/boi-filing/)** — required for most LLCs, free at fincen.gov/boi.
 3. **File [Form 5472](/form-5472-guide/)** — annually for foreign-owned LLCs ($25,000 penalty for non-filing).
-4. **Learn the basics** — see [how to get an EIN](/how-to-get-ein/), [EIN without SSN](/ein-without-ssn/), and [EIN for non-residents](/ein-for-non-residents/).
+4. **Learn the basics** — see [how to get an EIN](/how-to-get-ein/), [EIN without SSN](/ein-without-ssn/), [EIN for non-residents](/ein-for-non-residents/), and the [tax identification number](/tax-identification-number/) overview.
 
 Stop wondering if they are different. They are not. Get your EIN, and you have your Federal Tax ID.
 
