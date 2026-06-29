@@ -427,7 +427,7 @@ export default function HowToGetEinClient({ faqs }: { faqs: { q: string; a: stri
               </div>
             </div>
 
-            <p className="text-[var(--color-text-muted)] leading-relaxed">
+            <p className="text-[var(--color-text-muted)] leading-relaxed mt-8">
               For more details on the non-resident process and why an SSN is not required, note that the IRS allows applicants without an SSN or ITIN to use their foreign identification on Form SS-4. You can also learn more about{" "}
               <Link href="/what-is-ein/" className="text-[var(--color-blue)] font-semibold hover:underline">what an EIN is and why you need one</Link>.
             </p>
