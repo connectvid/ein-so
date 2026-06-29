@@ -11,7 +11,7 @@ export default function LinkButton({
   children: React.ReactNode;
 }) {
   return (
-    <AnimateIn className="text-center mt-12">
+    <AnimateIn className="text-center mt-12 mb-8">
       <Link
         href={href}
         className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
