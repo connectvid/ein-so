@@ -234,7 +234,7 @@ export default function EinForCanadaClient({ faqs }: { faqs: { q: string; a: str
                 <p className="text-lg font-bold text-[var(--color-text)] mb-2">Standard: $49 USD | Express: $97 USD</p>
                 <p className="text-[var(--color-text-muted)] mb-4">No SSN required. No fax machine needed. Applied from Canada in 3 minutes.</p>
                 <Link
-                  href="/apply/"
+                  href="/payment/"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
                   Get My EIN Now

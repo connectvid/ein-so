@@ -14,8 +14,6 @@ export default function CTASection({ title = "Ready to Get Your EIN?", subtitle 
           <p className="text-lg text-white/50 mb-8 max-w-xl mx-auto">{subtitle}</p>
           <a
             href={STRIPE_LINKS.standard}
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
           >
             Get My EIN for $49

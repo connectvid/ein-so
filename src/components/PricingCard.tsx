@@ -70,8 +70,6 @@ export default function PricingCard({
 
       <a
         href={stripeLink}
-        target="_blank"
-        rel="noopener noreferrer"
         className={`block w-full text-center rounded-xl py-3.5 px-6 font-bold transition-colors ${
           highlighted
             ? "bg-[var(--color-blue)] text-white hover:bg-[var(--color-blue-light)]"

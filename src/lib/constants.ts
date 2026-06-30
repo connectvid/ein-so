@@ -1,6 +1,8 @@
+// Checkout links point to the on-site embedded checkout (/payment). The `plan`
+// query param pre-selects the tier (standard = $49, express = $97) on arrival.
 export const STRIPE_LINKS = {
-  standard: "https://buy.stripe.com/eVqeVd9xAdXnfZad9zfEk0i",
-  express: "https://buy.stripe.com/28E00jaBE06x00c1qRfEk0g",
+  standard: "/payment/?plan=standard",
+  express: "/payment/?plan=express",
 } as const;
 
 export const SITE = {

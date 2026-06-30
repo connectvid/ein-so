@@ -388,8 +388,6 @@ export default function SS4FormHelperClient({
                     with the IRS by fax, and deliver your EIN by email.{" "}
                     <a
                       href={STRIPE_LINKS.standard}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="text-[var(--color-blue)] underline font-bold"
                     >
                       Get started for $49 &rarr;

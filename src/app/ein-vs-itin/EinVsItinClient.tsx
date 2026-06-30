@@ -477,8 +477,6 @@ export default function EinVsItinClient({ faqs }: { faqs: { q: string; a: string
                 </div>
                 <a
                   href={STRIPE_LINKS.standard}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
                   Get My EIN for $49

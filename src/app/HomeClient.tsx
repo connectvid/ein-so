@@ -269,8 +269,6 @@ export default function HomeClient() {
               >
                 <a
                   href={STRIPE_LINKS.standard}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-lg shadow-[var(--color-blue)]/30 hover:shadow-xl hover:shadow-[var(--color-blue)]/40 hover:-translate-y-0.5"
                 >
                   Get My EIN - $49
@@ -290,8 +288,6 @@ export default function HomeClient() {
                 </a>
                 <a
                   href={STRIPE_LINKS.express}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-8 py-4 text-base font-bold text-white hover:bg-white/10 transition-all backdrop-blur-sm"
                 >
                   Express - $97
@@ -783,8 +779,6 @@ export default function HomeClient() {
           <AnimateIn className="mt-12 text-center">
             <a
               href={STRIPE_LINKS.standard}
-              target="_blank"
-              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-xl bg-[var(--color-navy)] px-8 py-4 text-base font-bold text-white hover:bg-[var(--color-navy-light)] transition-all hover:-translate-y-0.5"
             >
               Get Your EIN Today
@@ -1000,8 +994,6 @@ export default function HomeClient() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={STRIPE_LINKS.standard}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-10 py-4.5 text-lg font-bold text-white hover:bg-[var(--color-blue-light)] transition-all shadow-xl shadow-[var(--color-blue)]/30 hover:shadow-2xl hover:shadow-[var(--color-blue)]/40 hover:-translate-y-1"
               >
                 Get My EIN - $49

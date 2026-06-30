@@ -395,7 +395,7 @@ export default function BoiFilingDeadlineClient({ faqs }: { faqs: { q: string; a
                   Stop the penalty clock. We file your BOI report with FinCEN via WhatsApp.
                 </p>
                 <Link
-                  href="/apply/"
+                  href="/payment/"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                 >
                   File My BOI Report Now

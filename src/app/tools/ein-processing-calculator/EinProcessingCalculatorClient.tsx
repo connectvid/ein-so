@@ -253,7 +253,7 @@ export default function EinProcessingCalculatorClient({
                       your EIN in 7 business days for $97 -- the fastest
                       option for non-residents.{" "}
                       <Link
-                        href="/apply/"
+                        href="/payment/"
                         className="text-[var(--color-blue)] underline font-bold"
                       >
                         Get Express EIN &rarr;
@@ -266,8 +266,6 @@ export default function EinProcessingCalculatorClient({
                   <div className="mt-6">
                     <a
                       href={STRIPE_LINKS.express}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-4 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                     >
                       Get Express EIN for $97

@@ -1694,6 +1694,13 @@ export default function EinCheckout() {
   const planObj = PLANS.find((p) => p.id === plan) || PLANS[1];
   const price = couponAmount != null ? couponAmount / 100 : planObj.price;
 
+  // Pre-select the plan from the `?plan=standard|express` query param. CTAs across
+  // the site link here with the tier the customer picked (standard = $49, express = $97).
+  React.useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("plan");
+    if (q === "standard" || q === "express") setPlan(q);
+  }, []);
+
   const set = (k: string, v: string) => setF((prev) => ({ ...prev, [k]: v }));
   const go = (n: number) => {
     setStep(n);

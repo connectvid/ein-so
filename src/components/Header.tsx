@@ -58,8 +58,6 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <a
               href={STRIPE_LINKS.standard}
-              target="_blank"
-              rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-5 py-2.5 text-sm font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/20"
             >
               Get Started
@@ -116,8 +114,6 @@ export default function Header() {
               ))}
               <a
                 href={STRIPE_LINKS.standard}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="mt-4 inline-flex items-center gap-2 rounded-xl bg-[var(--color-blue)] px-8 py-3.5 text-base font-bold text-white"
               >

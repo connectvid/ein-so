@@ -249,7 +249,7 @@ export default function EinEligibilityCheckerClient({
 
                       <div className="flex flex-col sm:flex-row gap-3">
                         <Link
-                          href="/apply/"
+                          href="/payment/"
                           className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-blue)] px-6 py-3 text-base font-bold text-white hover:bg-[var(--color-blue-light)] transition-all hover:-translate-y-0.5 shadow-lg shadow-[var(--color-blue)]/30"
                         >
                           Apply for Your EIN
