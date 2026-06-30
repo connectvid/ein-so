@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
+import { m, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { useState } from "react";
 import PricingCard from "@/components/PricingCard";
 import AnimateIn, {
@@ -205,12 +205,12 @@ export default function HomeClient() {
         <div className="absolute inset-0 hero-grid" />
 
         {/* Floating orbs */}
-        <motion.div
+        <m.div
           className="absolute top-20 right-[10%] w-72 h-72 bg-[var(--color-blue)]/20 rounded-full blur-[100px]"
           animate={{ y: [0, -30, 0], scale: [1, 1.1, 1] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
-        <motion.div
+        <m.div
           className="absolute bottom-10 left-[5%] w-56 h-56 bg-purple-500/10 rounded-full blur-[80px]"
           animate={{ y: [0, 20, 0], x: [0, 15, 0] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
@@ -219,7 +219,7 @@ export default function HomeClient() {
         <div className="relative mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 lg:gap-16 items-center">
             <div>
-              <motion.div
+              <m.div
                 initial={false}
                 className="inline-flex items-center gap-2 bg-white/8 border border-white/10 rounded-full px-4 py-1.5 mb-6 backdrop-blur-sm"
               >
@@ -230,18 +230,18 @@ export default function HomeClient() {
                 <span className="text-sm text-white/70 font-medium">
                   The #1 EIN service for non-US residents
                 </span>
-              </motion.div>
+              </m.div>
 
-              <motion.h1
+              <m.h1
                 initial={false}
                 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6"
               >
                 <span className="lg:whitespace-nowrap">Apply for Your US EIN</span>
                 <br />
                 <span className="shimmer-text">From Anywhere.</span>
-              </motion.h1>
+              </m.h1>
 
-              <motion.p
+              <m.p
                 initial={false}
                 className="text-lg lg:text-xl text-white/60 leading-relaxed mb-10 max-w-xl"
               >
@@ -249,9 +249,9 @@ export default function HomeClient() {
                 <strong className="text-white/90">7 days</strong>. No SSN. No US
                 address. No paperwork headaches. We file directly with the IRS
                 for <strong className="text-white/90">$49</strong>.
-              </motion.p>
+              </m.p>
 
-              <motion.div
+              <m.div
                 initial={false}
                 className="flex flex-col sm:flex-row gap-3 mb-10"
               >
@@ -283,14 +283,14 @@ export default function HomeClient() {
                     7 days
                   </span>
                 </a>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={false}
                 className="grid grid-cols-2 sm:grid-cols-4 gap-4"
               >
                 {trustBadges.map((badge) => (
-                  <motion.div
+                  <m.div
                     key={badge.text}
                     initial={false}
                     className="flex items-center gap-2"
@@ -311,19 +311,19 @@ export default function HomeClient() {
                     <span className="text-xs font-medium text-white/50">
                       {badge.text}
                     </span>
-                  </motion.div>
+                  </m.div>
                 ))}
-              </motion.div>
+              </m.div>
             </div>
 
             {/* EIN Card with floating effect */}
-            <motion.div
+            <m.div
               className="hidden lg:flex justify-center"
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             >
               <EINCardVisual className="w-full max-w-[400px]" />
-            </motion.div>
+            </m.div>
           </div>
         </div>
       </section>
@@ -364,7 +364,7 @@ export default function HomeClient() {
       {/* ═══ SOCIAL PROOF TICKER ═══ */}
       <section className="py-12 bg-[var(--color-surface)] border-b border-[var(--color-border)]">
         <div className="mx-auto max-w-7xl px-6">
-          <motion.div
+          <m.div
             className="flex items-center justify-center gap-5 md:gap-8 flex-nowrap overflow-x-auto"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -389,7 +389,7 @@ export default function HomeClient() {
                 {item}
               </span>
             ))}
-          </motion.div>
+          </m.div>
         </div>
       </section>
 
@@ -415,7 +415,7 @@ export default function HomeClient() {
           >
             {howItWorks.map((item, i) => (
               <StaggerItem key={item.step}>
-                <motion.div
+                <m.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
                   className="relative bg-[var(--color-surface)] rounded-2xl p-7 border border-[var(--color-border)] h-full group gradient-underline-hover overflow-hidden"
@@ -446,7 +446,7 @@ export default function HomeClient() {
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                     {item.description}
                   </p>
-                </motion.div>
+                </m.div>
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -503,7 +503,7 @@ export default function HomeClient() {
               },
             ].map((item) => (
               <StaggerItem key={item.title}>
-                <motion.div
+                <m.div
                   whileHover={{ y: -4 }}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 h-full hover:bg-white/10 transition-all duration-300"
                 >
@@ -536,7 +536,7 @@ export default function HomeClient() {
                       {item.statLabel}
                     </span>
                   </div>
-                </motion.div>
+                </m.div>
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -682,7 +682,7 @@ export default function HomeClient() {
                       highlight: false,
                     },
                   ].map((item, i) => (
-                    <motion.div
+                    <m.div
                       key={item.label}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
@@ -698,7 +698,7 @@ export default function HomeClient() {
                       >
                         {item.value}
                       </span>
-                    </motion.div>
+                    </m.div>
                   ))}
                 </div>
               </div>
@@ -730,7 +730,7 @@ export default function HomeClient() {
           >
             {audiences.map((item) => (
               <StaggerItem key={item.title}>
-                <motion.div
+                <m.div
                   whileHover={{ y: -4, scale: 1.01 }}
                   className="bg-[var(--color-surface)] rounded-2xl p-6 border border-[var(--color-border)] h-full group gradient-border-hover cursor-default"
                 >
@@ -755,7 +755,7 @@ export default function HomeClient() {
                   <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                     {item.desc}
                   </p>
-                </motion.div>
+                </m.div>
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -807,7 +807,7 @@ export default function HomeClient() {
             {pillarLinks.map((link) => (
               <StaggerItem key={link.href}>
                 <Link href={link.href} className="block group">
-                  <motion.div
+                  <m.div
                     whileHover={{ y: -4 }}
                     className="bg-white rounded-2xl p-7 border border-[var(--color-border)] h-full shadow-sm hover:shadow-md transition-shadow"
                   >
@@ -844,7 +844,7 @@ export default function HomeClient() {
                         />
                       </svg>
                     </span>
-                  </motion.div>
+                  </m.div>
                 </Link>
               </StaggerItem>
             ))}
@@ -870,7 +870,7 @@ export default function HomeClient() {
             {useCaseLinks.map((link) => (
               <StaggerItem key={link.href}>
                 <Link href={link.href} className="block group h-full">
-                  <motion.div
+                  <m.div
                     whileHover={{ y: -4 }}
                     className="bg-[var(--color-surface)] rounded-2xl p-6 border border-[var(--color-border)] h-full hover:border-[var(--color-blue)] transition-colors"
                   >
@@ -878,7 +878,7 @@ export default function HomeClient() {
                       {link.title}
                     </h3>
                     <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{link.description}</p>
-                  </motion.div>
+                  </m.div>
                 </Link>
               </StaggerItem>
             ))}
@@ -907,7 +907,7 @@ export default function HomeClient() {
                     <span className="text-sm font-bold text-[var(--color-text)] pr-4">
                       {faq.q}
                     </span>
-                    <motion.svg
+                    <m.svg
                       animate={{ rotate: openFaq === idx ? 180 : 0 }}
                       transition={{ duration: 0.2 }}
                       className="w-5 h-5 text-[var(--color-text-muted)] flex-shrink-0"
@@ -921,9 +921,9 @@ export default function HomeClient() {
                         strokeLinejoin="round"
                         d="M19 9l-7 7-7-7"
                       />
-                    </motion.svg>
+                    </m.svg>
                   </button>
-                  <motion.div
+                  <m.div
                     initial={false}
                     animate={{
                       height: openFaq === idx ? "auto" : 0,
@@ -935,7 +935,7 @@ export default function HomeClient() {
                     <p className="px-5 pb-5 text-sm text-[var(--color-text-muted)] leading-relaxed">
                       {faq.a}
                     </p>
-                  </motion.div>
+                  </m.div>
                 </div>
               </AnimateIn>
             ))}
@@ -958,7 +958,7 @@ export default function HomeClient() {
         <AnimatedGradient className="absolute inset-0" />
         <div className="absolute inset-0 hero-grid" />
 
-        <motion.div
+        <m.div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[var(--color-blue)]/15 rounded-full blur-[150px]"
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -966,11 +966,11 @@ export default function HomeClient() {
 
         <div className="relative mx-auto max-w-7xl px-6 text-center">
           <AnimateIn>
-            <motion.h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
+            <m.h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
               Your US Business Is
               <br />
               <span className="shimmer-text">One Step Away.</span>
-            </motion.h2>
+            </m.h2>
             <p className="text-lg text-white/50 mb-10 max-w-xl mx-auto">
               Join thousands of entrepreneurs worldwide who started their US
               business journey with ein.so. Takes 5 minutes to apply.

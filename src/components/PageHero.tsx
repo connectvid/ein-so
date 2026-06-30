@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { SITE, STRIPE_LINKS } from "@/lib/constants";
 
 export default function PageHero({
@@ -21,7 +21,7 @@ export default function PageHero({
       <div className="absolute inset-0 hero-grid" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[var(--color-blue)] rounded-full opacity-[0.06] blur-[100px] -translate-y-1/2 translate-x-1/3" />
       <div className="relative mx-auto max-w-7xl px-6">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
@@ -55,7 +55,7 @@ export default function PageHero({
               </a>
             </div>
           )}
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

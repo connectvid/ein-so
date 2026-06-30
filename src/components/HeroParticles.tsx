@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useMemo } from "react";
 
 interface Particle {
@@ -48,7 +48,7 @@ export default function HeroParticles({
       aria-hidden="true"
     >
       {particles.map((p) => (
-        <motion.div
+        <m.div
           key={p.id}
           className="absolute rounded-full"
           style={{

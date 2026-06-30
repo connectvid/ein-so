@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState, ReactNode } from "react";
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { m, useMotionValue, useSpring } from "framer-motion";
 
 interface MagneticButtonProps {
   children: ReactNode;
@@ -49,7 +49,7 @@ export default function MagneticButton({
     y.set(0);
   }
 
-  const MotionComponent = motion.div;
+  const MotionComponent = m.div;
 
   const inner = (
     <MotionComponent
@@ -60,7 +60,7 @@ export default function MagneticButton({
       onMouseLeave={handleMouseLeave}
       className={`inline-block ${className}`}
     >
-      <motion.div
+      <m.div
         animate={{ scale: isHovered ? 1.03 : 1 }}
         transition={{ duration: 0.2 }}
       >
@@ -75,7 +75,7 @@ export default function MagneticButton({
         ) : (
           children
         )}
-      </motion.div>
+      </m.div>
     </MotionComponent>
   );
 

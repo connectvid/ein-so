@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 
 interface TypeWriterProps {
   texts: string[];
@@ -75,15 +75,15 @@ export default function TypeWriter({
   return (
     <span className={`inline-flex items-center ${className}`}>
       <AnimatePresence mode="wait">
-        <motion.span
+        <m.span
           key={`${textIndex}-${displayed}`}
           initial={false}
           className="inline-block"
         >
           {displayed}
-        </motion.span>
+        </m.span>
       </AnimatePresence>
-      <motion.span
+      <m.span
         animate={{ opacity: [1, 0, 1] }}
         transition={{ duration: 0.8, repeat: Infinity, ease: "linear" }}
         className="inline-block w-[2px] h-[1em] ml-0.5 bg-current align-middle"

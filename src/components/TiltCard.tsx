@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, ReactNode } from "react";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { m, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 interface TiltCardProps {
   children: ReactNode;
@@ -48,7 +48,7 @@ export default function TiltCard({
 
   return (
     <div className="perspective-1000">
-      <motion.div
+      <m.div
         ref={ref}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
@@ -60,7 +60,7 @@ export default function TiltCard({
         className={`relative ${className}`}
       >
         {/* Subtle light reflection overlay */}
-        <motion.div
+        <m.div
           className="absolute inset-0 rounded-[inherit] pointer-events-none z-10 opacity-0 hover:opacity-100 transition-opacity duration-300"
           style={{
             background: useTransform(
@@ -72,7 +72,7 @@ export default function TiltCard({
           aria-hidden="true"
         />
         {children}
-      </motion.div>
+      </m.div>
     </div>
   );
 }

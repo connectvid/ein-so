@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
 import AnnouncementBar from "@/components/AnnouncementBar";
+import MotionProvider from "@/components/MotionProvider";
 import { SITE, NAV_LINKS } from "@/lib/constants";
 
 const inter = Inter({
@@ -141,12 +142,14 @@ export default function RootLayout({
           <a href="/banking/" tabIndex={-1}>Business Banking</a>
           <a href="/blog/" tabIndex={-1}>Blog</a>
         </nav>
-        <AnnouncementBar />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <WhatsAppButton />
-        <StickyMobileCTA />
+        <MotionProvider>
+          <AnnouncementBar />
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <WhatsAppButton />
+          <StickyMobileCTA />
+        </MotionProvider>
       </body>
     </html>
   );

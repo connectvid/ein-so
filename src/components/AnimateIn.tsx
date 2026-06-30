@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ReactNode } from "react";
 
 /* ─── Original AnimateIn ─── */
@@ -31,7 +31,7 @@ export default function AnimateIn({
   const { x, y } = directionMap[direction];
 
   return (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, x, y }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
@@ -43,7 +43,7 @@ export default function AnimateIn({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -59,7 +59,7 @@ export function StaggerContainer({
   staggerDelay?: number;
 }) {
   return (
-    <motion.div
+    <m.div
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-80px" }}
@@ -74,7 +74,7 @@ export function StaggerContainer({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -86,7 +86,7 @@ export function StaggerItem({
   className?: string;
 }) {
   return (
-    <motion.div
+    <m.div
       variants={{
         hidden: { opacity: 0, y: 30 },
         visible: {
@@ -101,7 +101,7 @@ export function StaggerItem({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -119,29 +119,29 @@ export function CountUp({
   className?: string;
 }) {
   return (
-    <motion.span
+    <m.span
       className={className}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <motion.span
+      <m.span
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
         {prefix}
-        <motion.span
+        <m.span
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           {target.toLocaleString()}
-        </motion.span>
+        </m.span>
         {suffix}
-      </motion.span>
-    </motion.span>
+      </m.span>
+    </m.span>
   );
 }
 
@@ -159,7 +159,7 @@ export function ScaleIn({
   duration?: number;
 }) {
   return (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true, margin: "-80px" }}
@@ -171,7 +171,7 @@ export function ScaleIn({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -189,7 +189,7 @@ export function BlurIn({
   duration?: number;
 }) {
   return (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, filter: "blur(10px)" }}
       whileInView={{ opacity: 1, filter: "blur(0px)" }}
       viewport={{ once: true, margin: "-60px" }}
@@ -201,7 +201,7 @@ export function BlurIn({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -223,7 +223,7 @@ export function SlideReveal({
   return (
     <div className={`relative overflow-hidden ${className}`}>
       {/* Sliding mask overlay */}
-      <motion.div
+      <m.div
         initial={{ x: 0 }}
         whileInView={{ x: direction === "left" ? "100%" : "-100%" }}
         viewport={{ once: true, margin: "-60px" }}
@@ -235,7 +235,7 @@ export function SlideReveal({
         className="absolute inset-0 z-10 bg-[var(--color-blue)]"
       />
       {/* Content fades in under the mask */}
-      <motion.div
+      <m.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, margin: "-60px" }}
@@ -245,7 +245,7 @@ export function SlideReveal({
         }}
       >
         {children}
-      </motion.div>
+      </m.div>
     </div>
   );
 }
@@ -264,7 +264,7 @@ export function FloatingElement({
   duration?: number;
 }) {
   return (
-    <motion.div
+    <m.div
       animate={{
         y: [-amplitude, amplitude, -amplitude],
       }}
@@ -276,7 +276,7 @@ export function FloatingElement({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -292,7 +292,7 @@ export function PulseGlow({
   color?: string;
 }) {
   return (
-    <motion.div
+    <m.div
       animate={{
         boxShadow: [
           `0 0 0px ${color}00`,
@@ -308,6 +308,6 @@ export function PulseGlow({
       className={className}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }

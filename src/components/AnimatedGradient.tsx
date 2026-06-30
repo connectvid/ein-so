@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ReactNode } from "react";
 
 interface AnimatedGradientProps {
@@ -15,7 +15,7 @@ export default function AnimatedGradient({
   return (
     <div className={`relative overflow-hidden ${className}`}>
       {/* Animated gradient layer */}
-      <motion.div
+      <m.div
         className="absolute inset-0 pointer-events-none"
         animate={{
           background: [
@@ -34,7 +34,7 @@ export default function AnimatedGradient({
       />
 
       {/* Secondary slower gradient */}
-      <motion.div
+      <m.div
         className="absolute inset-0 pointer-events-none"
         animate={{
           background: [

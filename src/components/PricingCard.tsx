@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 interface PricingCardProps {
   name: string;
@@ -22,7 +22,7 @@ export default function PricingCard({
   features,
 }: PricingCardProps) {
   return (
-    <motion.div
+    <m.div
       whileHover={{ y: -4 }}
       transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
       className={`relative rounded-2xl p-8 flex flex-col border ${
@@ -78,6 +78,6 @@ export default function PricingCard({
       >
         {cta}
       </a>
-    </motion.div>
+    </m.div>
   );
 }
