@@ -6,15 +6,47 @@ import { getDb, isMongoConfigured } from "@/lib/mongodb";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// EIN filing prices by plan, in cents. Standard $49, Express $97 — matches the
-// pricing shown in the embedded checkout's plan picker.
+// EIN filing prices by plan, in cents. Standard $49, Express $97 — fallback only,
+// used when the Stripe Price object below can't be fetched (e.g. test-mode keys
+// can't read a live price). Matches the embedded checkout's plan picker.
 const PLAN_AMOUNTS: Record<string, number> = {
   standard: 4900,
   express: 9700,
 };
+// Stripe Price IDs (live, WyomingLLC account acct_1T9OghIdvLGeho95) that define
+// the canonical charge per plan: Standard = "EIN Standard Delivery" ($49),
+// Express = "EIN (Express Delivery)" ($97). Env-overridable.
+const PLAN_PRICE_IDS: Record<string, string | undefined> = {
+  standard: process.env.STRIPE_PRICE_STANDARD ?? "price_1TVKjFIdvLGeho95eT784txT",
+  express: process.env.STRIPE_PRICE_EXPRESS ?? "price_1TTC2RIdvLGeho95s1rwYMGu",
+};
 const DEFAULT_PLAN = "express";
 // Stripe's minimum chargeable amount for USD.
 const MIN_AMOUNT_CENTS = 50;
+
+/**
+ * Resolve a plan's base charge from its Stripe Price object so the dashboard
+ * price stays the single source of truth. Falls back to PLAN_AMOUNTS when the
+ * price can't be fetched (missing config, or test-mode key reading a live price).
+ */
+async function resolvePlanAmount(
+  stripe: Stripe,
+  plan: string,
+): Promise<{ amount: number; priceId: string | null }> {
+  const fallback = PLAN_AMOUNTS[plan] ?? PLAN_AMOUNTS[DEFAULT_PLAN];
+  const priceId = PLAN_PRICE_IDS[plan] ?? PLAN_PRICE_IDS[DEFAULT_PLAN];
+  if (!priceId) return { amount: fallback, priceId: null };
+  try {
+    const price = await stripe.prices.retrieve(priceId);
+    if (price.active && price.currency === "usd" && typeof price.unit_amount === "number") {
+      return { amount: price.unit_amount, priceId };
+    }
+    return { amount: fallback, priceId };
+  } catch (err) {
+    console.error("[payment-intent] price lookup failed, using fallback amount:", err);
+    return { amount: fallback, priceId: null };
+  }
+}
 
 // Live-test override: a `coupon` matching the STRIPE_TEST_COUPON secret drops
 // the charge to $1 without touching Stripe (handy when there's no real coupon).
@@ -97,10 +129,9 @@ export async function POST(req: Request) {
   // Accept a real coupon field, or the legacy `testCoupon` (localStorage) value.
   const coupon = String(body.coupon ?? body.testCoupon ?? "").trim();
 
-  const planAmount = PLAN_AMOUNTS[plan] ?? PLAN_AMOUNTS[DEFAULT_PLAN];
-
   try {
     const stripe = getStripe();
+    const { amount: planAmount, priceId } = await resolvePlanAmount(stripe, plan);
     const { amount, couponApplied } = await resolveAmount(stripe, coupon, planAmount);
 
     const intent = await stripe.paymentIntents.create({
@@ -110,7 +141,15 @@ export async function POST(req: Request) {
       automatic_payment_methods: { enabled: true, allow_redirects: "never" },
       description: `EIN filing — ${plan} plan (Form SS-4 prep + IRS submission).`,
       ...(email ? { receipt_email: email } : {}),
-      metadata: { plan, email, businessName, entity, product: "ein.so", coupon: couponApplied ?? "" },
+      metadata: {
+        plan,
+        priceId: priceId ?? "",
+        email,
+        businessName,
+        entity,
+        product: "ein.so",
+        coupon: couponApplied ?? "",
+      },
     });
 
     // Best-effort: store a pending order. Never block checkout on the DB.
@@ -126,6 +165,7 @@ export async function POST(req: Request) {
           email,
           businessName,
           entity,
+          stripePriceId: priceId,
           stripePaymentIntentId: intent.id,
           createdAt: new Date(),
         });
