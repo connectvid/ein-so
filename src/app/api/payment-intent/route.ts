@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type Stripe from "stripe";
 import { getStripe, isStripeConfigured } from "@/lib/stripe";
 import { getDb, isMongoConfigured } from "@/lib/mongodb";
+import { SITE } from "@/lib/constants";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -148,6 +149,7 @@ export async function POST(req: Request) {
         businessName,
         entity,
         product: "ein.so",
+        domain: SITE.name,
         coupon: couponApplied ?? "",
       },
     });
@@ -158,6 +160,7 @@ export async function POST(req: Request) {
         const db = await getDb();
         await db.collection("orders").insertOne({
           status: "pending",
+          domain: SITE.name,
           plan,
           amount,
           coupon: couponApplied,
