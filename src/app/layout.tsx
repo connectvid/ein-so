@@ -108,36 +108,38 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="min-h-full flex flex-col font-sans">
-        {/* Server-rendered nav for crawlers and AI bots */}
+        {/* Server-rendered nav for crawlers and AI bots. aria-hidden + tabIndex=-1
+            keep these links in the HTML for bots while removing them from the
+            accessibility tree and focus order (they duplicate the visible Header nav). */}
         <nav aria-hidden="true" className="sr-only">
           {NAV_LINKS.map((link) => (
-            <a key={link.href} href={link.href}>{link.label}</a>
+            <a key={link.href} href={link.href} tabIndex={-1}>{link.label}</a>
           ))}
-          <a href="/apply/">Apply for EIN</a>
-          <a href="/ein-lookup/">EIN Lookup</a>
-          <a href="/who-needs-ein/">Who Needs an EIN</a>
-          <a href="/what-can-you-do-with-ein/">What Can You Do With an EIN</a>
-          <a href="/ss4-form-guide/">SS-4 Form Guide</a>
-          <a href="/ein-without-ssn/">EIN Without SSN</a>
-          <a href="/ein-processing-time/">EIN Processing Time</a>
-          <a href="/ein-for-llc/">EIN for LLC</a>
-          <a href="/ein-for-non-residents/">EIN for Non-Residents</a>
-          <a href="/ein-for-amazon-sellers/">EIN for Amazon Sellers</a>
-          <a href="/ein-for-bank-account/">EIN for Bank Account</a>
-          <a href="/ein-vs-ssn/">EIN vs SSN</a>
-          <a href="/boi-filing/">BOI Filing</a>
-          <a href="/ein-for-sole-proprietor/">EIN for Sole Proprietor</a>
-          <a href="/ein-for-corporation/">EIN for Corporation</a>
-          <a href="/ein-for-freelancers/">EIN for Freelancers</a>
-          <a href="/tools/ein-eligibility-checker/">EIN Eligibility Checker</a>
-          <a href="/tools/ss4-form-helper/">SS-4 Form Helper</a>
-          <a href="/tools/ein-processing-calculator/">EIN Processing Calculator</a>
-          <a href="/countries/">EIN by Country</a>
-          <a href="/industries/">EIN by Industry</a>
-          <a href="/ein-by-state/">EIN by State</a>
-          <a href="/comparisons/">EIN Comparisons</a>
-          <a href="/banking/">Business Banking</a>
-          <a href="/blog/">Blog</a>
+          <a href="/apply/" tabIndex={-1}>Apply for EIN</a>
+          <a href="/ein-lookup/" tabIndex={-1}>EIN Lookup</a>
+          <a href="/who-needs-ein/" tabIndex={-1}>Who Needs an EIN</a>
+          <a href="/what-can-you-do-with-ein/" tabIndex={-1}>What Can You Do With an EIN</a>
+          <a href="/ss4-form-guide/" tabIndex={-1}>SS-4 Form Guide</a>
+          <a href="/ein-without-ssn/" tabIndex={-1}>EIN Without SSN</a>
+          <a href="/ein-processing-time/" tabIndex={-1}>EIN Processing Time</a>
+          <a href="/ein-for-llc/" tabIndex={-1}>EIN for LLC</a>
+          <a href="/ein-for-non-residents/" tabIndex={-1}>EIN for Non-Residents</a>
+          <a href="/ein-for-amazon-sellers/" tabIndex={-1}>EIN for Amazon Sellers</a>
+          <a href="/ein-for-bank-account/" tabIndex={-1}>EIN for Bank Account</a>
+          <a href="/ein-vs-ssn/" tabIndex={-1}>EIN vs SSN</a>
+          <a href="/boi-filing/" tabIndex={-1}>BOI Filing</a>
+          <a href="/ein-for-sole-proprietor/" tabIndex={-1}>EIN for Sole Proprietor</a>
+          <a href="/ein-for-corporation/" tabIndex={-1}>EIN for Corporation</a>
+          <a href="/ein-for-freelancers/" tabIndex={-1}>EIN for Freelancers</a>
+          <a href="/tools/ein-eligibility-checker/" tabIndex={-1}>EIN Eligibility Checker</a>
+          <a href="/tools/ss4-form-helper/" tabIndex={-1}>SS-4 Form Helper</a>
+          <a href="/tools/ein-processing-calculator/" tabIndex={-1}>EIN Processing Calculator</a>
+          <a href="/countries/" tabIndex={-1}>EIN by Country</a>
+          <a href="/industries/" tabIndex={-1}>EIN by Industry</a>
+          <a href="/ein-by-state/" tabIndex={-1}>EIN by State</a>
+          <a href="/comparisons/" tabIndex={-1}>EIN Comparisons</a>
+          <a href="/banking/" tabIndex={-1}>Business Banking</a>
+          <a href="/blog/" tabIndex={-1}>Blog</a>
         </nav>
         <AnnouncementBar />
         <Header />

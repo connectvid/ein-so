@@ -220,9 +220,7 @@ export default function HomeClient() {
           <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 lg:gap-16 items-center">
             <div>
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
+                initial={false}
                 className="inline-flex items-center gap-2 bg-white/8 border border-white/10 rounded-full px-4 py-1.5 mb-6 backdrop-blur-sm"
               >
                 <span className="relative flex h-2 w-2">
@@ -235,13 +233,7 @@ export default function HomeClient() {
               </motion.div>
 
               <motion.h1
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  duration: 0.7,
-                  delay: 0.3,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
+                initial={false}
                 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6"
               >
                 <span className="lg:whitespace-nowrap">Apply for Your US EIN</span>
@@ -250,9 +242,7 @@ export default function HomeClient() {
               </motion.h1>
 
               <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.45 }}
+                initial={false}
                 className="text-lg lg:text-xl text-white/60 leading-relaxed mb-10 max-w-xl"
               >
                 Get your EIN in as little as{" "}
@@ -262,9 +252,7 @@ export default function HomeClient() {
               </motion.p>
 
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
+                initial={false}
                 className="flex flex-col sm:flex-row gap-3 mb-10"
               >
                 <a
@@ -298,17 +286,13 @@ export default function HomeClient() {
               </motion.div>
 
               <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.8, delay: 0.9 }}
+                initial={false}
                 className="grid grid-cols-2 sm:grid-cols-4 gap-4"
               >
-                {trustBadges.map((badge, i) => (
+                {trustBadges.map((badge) => (
                   <motion.div
                     key={badge.text}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 1 + i * 0.1, duration: 0.4 }}
+                    initial={false}
                     className="flex items-center gap-2"
                   >
                     <div className="w-5 h-5 rounded-full bg-[var(--color-success)]/20 flex items-center justify-center flex-shrink-0">
