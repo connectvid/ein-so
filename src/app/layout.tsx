@@ -108,7 +108,15 @@ export default function RootLayout({
           {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wc6hc5b0eu");`}
         </Script>
       </head>
-      <body className="min-h-full flex flex-col font-sans">
+      {/* suppressHydrationWarning: browser extensions (e.g. Grammarly) inject
+          attributes like data-gr-ext-installed onto <body> before React
+          hydrates, otherwise triggering a React #418 hydration mismatch. This
+          suppresses warnings for <body>'s own attributes only (one level deep);
+          it does not affect any rendered content. */}
+      <body
+        className="min-h-full flex flex-col font-sans"
+        suppressHydrationWarning
+      >
         {/* Server-rendered nav for crawlers and AI bots. aria-hidden + tabIndex=-1
             keep these links in the HTML for bots while removing them from the
             accessibility tree and focus order (they duplicate the visible Header nav). */}
